@@ -57,11 +57,11 @@
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
-    
       <category term="哈師大" scheme="http://yoursite.com/tags/%E5%93%88%E5%B8%AB%E5%A4%A7/"/>
     
       <category term="小吃" scheme="http://yoursite.com/tags/%E5%B0%8F%E5%90%83/"/>
+    
+      <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
     
       <category term="food" scheme="http://yoursite.com/tags/food/"/>
     
@@ -259,15 +259,15 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
+      <category term="justice" scheme="http://yoursite.com/tags/justice/"/>
     
       <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
     
-      <category term="justice" scheme="http://yoursite.com/tags/justice/"/>
+      <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
       <category term="scale" scheme="http://yoursite.com/tags/scale/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -316,11 +316,11 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
+      <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
+    
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="political" scheme="http://yoursite.com/tags/political/"/>
-    
-      <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
     
       <category term="water" scheme="http://yoursite.com/tags/water/"/>
     
@@ -355,9 +355,9 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="Harvey" scheme="http://yoursite.com/tags/Harvey/"/>
     
@@ -403,13 +403,13 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
       <category term="reclaim" scheme="http://yoursite.com/tags/reclaim/"/>
     
       <category term="policy" scheme="http://yoursite.com/tags/policy/"/>
     
       <category term="environment" scheme="http://yoursite.com/tags/environment/"/>
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -468,9 +468,9 @@
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="Zukin" scheme="http://yoursite.com/tags/Zukin/"/>
-    
       <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
+    
+      <category term="Zukin" scheme="http://yoursite.com/tags/Zukin/"/>
     
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
     
@@ -949,11 +949,11 @@
   </entry>
   
   <entry>
-    <title>打油</title>
+    <title>豆豆</title>
     <link href="http://yoursite.com/2014/08/02/%E8%B1%86%E8%B1%86/"/>
     <id>http://yoursite.com/2014/08/02/豆豆/</id>
     <published>2014-08-02T04:57:00.000Z</published>
-    <updated>2016-05-31T18:23:15.000Z</updated>
+    <updated>2016-05-31T18:47:20.000Z</updated>
     
     <content type="html">&lt;p&gt;  7月26日，到今天已是一周过去。我写这篇日志，不是为了他人的怜悯同情，只是想把心中抑郁慢慢打出来，觉得我矫情的人大可不看，觉得我伤心的人也不必安慰。我只是想把一些事情诉诸文字。&lt;br&gt;  没有养过狗的人大概不会理解这种丢狗的心情，每当我去问路人，他们总会说：“狗嘛，丢就丢了。”他们不懂。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  或许狗最廉价的地方就在于，主人是他的一切，而它只是主人的部分。但是，狗最高贵的地方也在于，它虽只是主人的部分，但主人就是它的一切。&lt;br&gt;  当一只巴掌大的小狗，到快6岁的壮年，它陪我度过我18岁的三分之一，时间流过，现在窗外只是一片阴天，它已不在我的身边。&lt;br&gt;  我将再也不会见到大厅里，阳光下它悠然的晒太阳。我将再也不会为阳台的狗屎狗尿发愁。我将再也不会在回家时迎来蹦蹦跳跳。我将再也不会抚摸它的肚皮。我将再也不会和它嬉闹，我将再也不会在夜深人静时，被它默默注视，默默陪伴。&lt;br&gt;  它留给我的只是几张干涩的照片，杳无音信的空白，以及深深地自责与思念。&lt;/p&gt;
