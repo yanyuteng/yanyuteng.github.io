@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-30T15:16:11.000Z</updated>
+  <updated>2016-05-31T14:32:47.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,42 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/05/30/hello-world/"/>
-    <id>http://yoursite.com/2016/05/30/hello-world/</id>
-    <published>2016-05-30T15:16:11.000Z</published>
-    <updated>2016-05-30T15:16:11.000Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>日記 興城</title>
     <link href="http://yoursite.com/2015/09/06/%E6%97%A5%E8%A8%98%20%E8%88%88%E5%9F%8E/"/>
     <id>http://yoursite.com/2015/09/06/日記 興城/</id>
     <published>2015-09-06T01:33:56.000Z</published>
-    <updated>2016-05-31T14:18:55.000Z</updated>
+    <updated>2016-05-31T14:32:47.000Z</updated>
     
     <content type="html">&lt;p&gt;###15.9.2 启程&lt;br&gt;  上午九点起床，下午四点乘车，同行的还有父母、姐姐、舅舅与舅妈、二姨与二姨夫、姥姥，一家九口。&lt;br&gt;  去兴城，多少是长辈的突然决定，9月1日下午告诉了我，要一起去葫芦岛待上几天。我之前是不知葫芦岛的，便在1号的晚上，简单查了一下，却是发觉葫芦岛的历史颇为有趣。&lt;/p&gt;
-&lt;p&gt;  葫芦岛，旧属锦州，称锦西。&lt;br&gt;  下辖的兴城，与西安、平遥、荆州并称为中国四大古城。绥中，传为吴三桂的出生地。&lt;br&gt;  明清之际，努尔哈赤于此战败，宁锦大捷，努尔哈赤同年忧愤而死，13万大军止步关外。&lt;br&gt;  尔后，袁崇焕为皇太极离间冤死，满清入关，汉明末路。&lt;br&gt;  再至近代，日本战败，百万日侨于此返回日本。内战时，蒋介石于此两次督战，而月余，辽省赤红之旗遍野，一支国民党军队于此逃出。&lt;br&gt;  千年兴衰，关外一城。&lt;/p&gt;
-&lt;p&gt;  5点多到长春时，长春大雨，动车开了十多分钟，逃离了阴云。&lt;br&gt;  窗外白云缘野，到了四平。&lt;br&gt;  19:45，过了盘锦，下站便是葫芦岛。&lt;br&gt;  男儿气势如虹，日月流光似梦。醉高歌，想起了同桌的一句话“明月楼高当独倚。”酒入肝肠，化作英雄泪。&lt;br&gt;  窗外黑漆，车内通明。&lt;br&gt;  看了一章《历代政治得失》，汉制精巧，人世沉浮，却也确实没有故事情节，有些枯燥。&lt;br&gt;  左手边的女生很漂亮可爱，马尾干净。&lt;br&gt;  8点到了葫芦岛后，姨夫的朋友接站，在兴城安顿好后，夜色沉沉，漫步海边。&lt;/p&gt;
+&lt;p&gt;  葫芦岛，旧属锦州，称锦西。&lt;br&gt;  下辖的兴城，与西安、平遥、荆州并称为中国四大古城。绥中，传为吴三桂的出生地。&lt;br&gt;  明清之际，努尔哈赤于此战败，宁锦大捷，努尔哈赤同年忧愤而死，13万大军止步关外。&lt;br&gt;  尔后，袁崇焕为皇太极离间冤死，满清入关，汉明末路。&lt;br&gt;  再至近代，日本战败，百万日侨于此返回日本。内战时，蒋介石于此两次督战，而月余，辽省赤红之旗遍野，一支国民党军队于此逃出。&lt;br&gt;  千年兴衰，关外一城。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;  5点多到长春时，长春大雨，动车开了十多分钟，逃离了阴云。&lt;br&gt;  窗外白云缘野，到了四平。&lt;br&gt;  19:45，过了盘锦，下站便是葫芦岛。&lt;br&gt;  男儿气势如虹，日月流光似梦。醉高歌，想起了同桌的一句话“明月楼高当独倚。”酒入肝肠，化作英雄泪。&lt;br&gt;  窗外黑漆，车内通明。&lt;br&gt;  看了一章《历代政治得失》，汉制精巧，人世沉浮，却也确实没有故事情节，有些枯燥。&lt;br&gt;  左手边的女生很漂亮可爱，马尾干净。&lt;br&gt;  8点到了葫芦岛后，姨夫的朋友接站，在兴城安顿好后，夜色沉沉，漫步海边。&lt;/p&gt;
 &lt;p&gt;###15.9.3 觉华岛、兴城与孔明灯&lt;br&gt;  今日的行程极为有趣，信息颇多。&lt;/p&gt;
 &lt;p&gt;  早上7点起床，收拾了一下，吃过早饭。9点多，乘了40分钟船，登上觉华岛。&lt;br&gt;  觉华岛便是金庸笔下“桃花岛”的原型。&lt;br&gt;  觉华岛，最初叫做“大海山”，顾名思义，大海之中的高山，到了冬天，大海冰封，山便与陆地连为一体。&lt;br&gt;  相传到了战国末年。荆轲刺秦王失败，燕太子丹逃于大海山，见岛上桃花盛开，便改名为“桃花岛”。&lt;br&gt;  到了辽代，辽圣宗仰慕佛教，叹羡宋之普陀山，便兴建佛寺，欲打造北方佛国，遂遣开岛先师，觉华高僧一众，于岛上修建佛寺十七座，至鼎盛时期，僧侣达一千余人。&lt;br&gt;  觉华为辽圣宗帝师，而觉华弟子亦成了辽兴宗帝师。海岛之上，两代帝师。一时为北方佛教中心之一。&lt;br&gt;  而觉华之见历史，更多的是明朝天启，崇祯年间的一场战争。&lt;br&gt;  时，觉华岛为明军辽东粮草后勤之地，努尔哈赤七大恨，连陷东北七十余城，攻至辽东，袁崇焕于辽远，即今日的兴城，坚壁清野，力矩清军。&lt;br&gt;  以2万明军迫使13万满军，寸步不进。&lt;br&gt;  清军恨极，遂踏海冰血洗觉华。屠佛寺，灭鸡犬，是日之后，觉华荒芜，佛教衰微，史称“觉华岛大战”。&lt;br&gt;  到了民国年间，一是觉华与菊花音调相近，一是岸边盛传菊花女为救百姓，与龙王三太子恶斗七天七夜，擒拿恶龙，力竭而死的传说，化身此岛，守望民众，又改名为菊花岛。&lt;br&gt;  上世纪九十年代，为重建辽代觉华寺等诸多佛殿，重名为觉华岛。&lt;br&gt;  从大海山，到桃花岛、觉华岛、菊花岛，又复归觉华，任世事变了，岛屿依旧，甚或暗暗地笑话我们，非要强加给她一个名字。&lt;br&gt;  登上海岛。回望大陆，却是海水相隔，瞭望远方，也只是一片茫茫。&lt;br&gt;  岛上有处两千余米的地道，传太子丹于此藏匿，唐太宗于此避雨，已为历史留给后人的迷雾，而我猜，多少是僧侣所凿，逃生所用。&lt;br&gt;  觉华岛另一颇为有趣的，在菩提成林。按理，菩提树是热带植物，北方气候绝难生长，却未曾料及，无意间在北方海岛开枝散叶。以至满清灭佛，依旧欣欣，至今日不绝，千载古树，一百零八棵。大抵是植物学的奇迹。&lt;br&gt;  觉华一梦，弹指千年。&lt;br&gt;  大龙宫寺，也只有那几株千年菩提，树下的八角井，静静映着那段尘埃的往事，不可考矣。&lt;/p&gt;
 &lt;p&gt;  从觉华岛回到宾馆，中午和家里人、姨夫的朋友一起吃饭，满桌海鲜。歇会后，下午去了兴城古城。&lt;br&gt;  兴城与西安、平遥、荆州并名四大古城，我去年去过西安，兴城比西安小得太多，却比西安人少的太多，没有游人如织，原始的东西，保存的也多些。&lt;br&gt;  没有柏油路，只是青石板。&lt;br&gt;  古城不大，登到中心的钟楼上，几个袁字旗，登高而望，首山在远，当年袁崇焕就是在这城，一次一次地扼住了大明江山。&lt;br&gt;  望近处，四四方方的城门，厚重的城墙，正南正北的道路，走在街上的男女行人。&lt;br&gt;  大约万余名居民，至今仍旧住在这个快要六百年的小城里，不慌不慢，一些年老的人坐在街头，几个年轻的姑娘骑着自行车或电动车。&lt;br&gt;  闭目，多少有些穿越感，耳边几声打年糕的吆喝，三四百年的光景，枭雄抔土，将士暮阳，金瓯残破。而市井凡人依旧，小城依旧。&lt;br&gt;  只是今日笑谈的悲壮，多少有些让人感到悲伤。&lt;br&gt;  今日的兴城觉华，明日的首山在野，辽东渤海，抚今而惜。&lt;br&gt;  涛声少了金戈铁马，这大海是否也会有些寂寞。&lt;/p&gt;
@@ -72,7 +44,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;###15.9.2 启程&lt;br&gt;  上午九点起床，下午四点乘车，同行的还有父母、姐姐、舅舅与舅妈、二姨与二姨夫、姥姥，一家九口。&lt;br&gt;  去兴城，多少是长辈的突然决定，9月1日下午告诉了我，要一起去葫芦岛待上几天。我之前是不知葫芦岛的，便在1号的晚上，简单查了一下，却是发
+      &lt;p&gt;###15.9.2 启程&lt;br&gt;  上午九点起床，下午四点乘车，同行的还有父母、姐姐、舅舅与舅妈、二姨与二姨夫、姥姥，一家九口。&lt;br&gt;  去兴城，多少是长辈的突然决定，9月1日下午告诉了我，要一起去葫芦岛待上几天。我之前是不知葫芦岛的，便在1号的晚上，简单查了一下，却是发觉葫芦岛的历史颇为有趣。&lt;/p&gt;
+&lt;p&gt;  葫芦岛，旧属锦州，称锦西。&lt;br&gt;  下辖的兴城，与西安、平遥、荆州并称为中国四大古城。绥中，传为吴三桂的出生地。&lt;br&gt;  明清之际，努尔哈赤于此战败，宁锦大捷，努尔哈赤同年忧愤而死，13万大军止步关外。&lt;br&gt;  尔后，袁崇焕为皇太极离间冤死，满清入关，汉明末路。&lt;br&gt;  再至近代，日本战败，百万日侨于此返回日本。内战时，蒋介石于此两次督战，而月余，辽省赤红之旗遍野，一支国民党军队于此逃出。&lt;br&gt;  千年兴衰，关外一城。&lt;br&gt;
     
     </summary>
     
@@ -96,10 +69,10 @@
     <link href="http://yoursite.com/2015/08/27/%E6%97%A5%E8%A8%98%20%E5%BB%B6%E9%82%8A/"/>
     <id>http://yoursite.com/2015/08/27/日記 延邊/</id>
     <published>2015-08-27T08:43:14.000Z</published>
-    <updated>2016-05-31T14:16:14.000Z</updated>
+    <updated>2016-05-31T14:33:11.000Z</updated>
     
     <content type="html">&lt;p&gt;###15.7.24 延吉&lt;br&gt;  和孟典坐高铁到长春，12:50乘汽车到延吉，妈妈说这是姥爷的故乡，而在我出生的前一年，姥爷去世。&lt;br&gt;  两篇论文尚未写完而出来旅行，大抵是要趁着年轻，多走走看看。我只是个孤独的旅人，喜欢在路上的感觉，6点抵达延吉。&lt;/p&gt;
-&lt;p&gt;  延吉路边上铺的牌子都是中韩双语，但多少是去过海拉尔，看过中俄蒙三语的牌子，在拉萨也见多了中藏双语的牌子，对中韩双语已不是特别的新鲜。&lt;br&gt;  安顿好宾馆后，直奔元奶奶韩国参鸡汤，排骨酱汤、石锅豆腐、大的猪肉饭包，米酒，花费210元，剩了好多，但多少是领略了一下韩餐的感觉。&lt;br&gt;  夜晚的布尔哈通河很漂亮。问了问旁边的路人，布尔哈通河有什么寓意，路人也不知。想了想，笑笑自己，非要问这些典故有什么意义，大概很多事情本就是没有原因。&lt;br&gt;  延吉的夜生活较哈尔滨来的丰富，路边很多的酒吧和啤酒屋。和孟典在酒吧坐了坐，喝了几口冰川，延吉的夜色温柔。&lt;br&gt;  江边有很多朝鲜族人漫步，青年广场之下，汉语与韩语间杂，很多美女，一些小贩，小城市的生活无端让我安心。&lt;/p&gt;
+&lt;p&gt;  延吉路边上铺的牌子都是中韩双语，但多少是去过海拉尔，看过中俄蒙三语的牌子，在拉萨也见多了中藏双语的牌子，对中韩双语已不是特别的新鲜。&lt;br&gt;  安顿好宾馆后，直奔元奶奶韩国参鸡汤，排骨酱汤、石锅豆腐、大的猪肉饭包，米酒，花费210元，剩了好多，但多少是领略了一下韩餐的感觉。&lt;br&gt;  夜晚的布尔哈通河很漂亮。问了问旁边的路人，布尔哈通河有什么寓意，路人也不知。想了想，笑笑自己，非要问这些典故有什么意义，大概很多事情本就是没有原因。&lt;br&gt;  延吉的夜生活较哈尔滨来的丰富，路边很多的酒吧和啤酒屋。和孟典在酒吧坐了坐，喝了几口冰川，延吉的夜色温柔。&lt;br&gt;  江边有很多朝鲜族人漫步，青年广场之下，汉语与韩语间杂，很多美女，一些小贩，小城市的生活无端让我安心。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;###15.7.25 图们与敦化&lt;br&gt;  孟典的爸妈驱车来到延吉，虽说有了孟典父母的参与，很多嬉笑怒骂不能自在，但有了车，也的确方便很多。&lt;br&gt;  G302国道，奔驰在延吉到图们的路上，郁郁葱葱，大河青山，绿水人家，笔墨丹青，古人不欺。&lt;br&gt;  飞速的行驶中，蓦然看到道路一侧的山体上，刻印了一行红字“亘古天堑变通途，血汗铸就高速路。”于之，猛觉肃然，自古而今，前人辛苦，而后人往往忘记缅怀。&lt;br&gt;  图们江并不宽敞，有些狭窄，江的对面便是朝鲜，一座老桥连接中朝。中朝桥边对比很有意思，朝鲜的桥头挂着两个主席头像，只有两个士兵站在很远处警戒，而中国桥头游客交织。顺手买了两包朝鲜烟草，带回家给爸爸。&lt;/p&gt;
 &lt;p&gt;  离开图们，前往敦化，在我本来的计划中，因为时间有限，并不会前往敦化，大抵是从敦化再驱车前进一点便可直达长白山和镜泊湖，如此之近，不能前往，实在遗憾，索性不去。未曾想到孟典的父母听闻敦化大佛，便随他们一路，长白镜泊不看，看看大佛也好。&lt;br&gt;  图们到敦化的道路趋于平坦，山峦稀少，窗外绿草绿树，连绵一片。&lt;br&gt;  2:30抵达敦化，敖东大桥、六顶山正觉寺的大铜佛，以及清祖地。大概敦化离旅游区较近，马路明显较图们宽敞，楼房也比之也气派的多。&lt;/p&gt;
 &lt;p&gt;  正觉寺的布局和我去年在内蒙看到的大觉禅寺几乎一模一样，不同之处便在于，这山顶多了一尊金佛，而对外的宣扬则是世界最大的尼姑道场。&lt;br&gt;  与去年去大觉禅寺一般，竟然也赶上了小雨。迎着小雨上山，爬到山顶，风景渺渺，蓦然有了隐居之意，大抵深山老林，高绝之处，佛寺方能自在，俯瞰众生，上承苍莽，独立于世界，自成一方水土。&lt;br&gt;  到了顶端，进入金佛内部，则和三亚的南海观音内部相似，一排排小佛，留待一个个人布施，但我总觉得这种捐赠，和佛教的初衷有些差异，变成了假借信仰而敛财，和天主教赎罪券类似。行善行，结善缘，问心无大愧，小错能自省，足矣。&lt;br&gt;  下山前，跑到了地藏菩萨处，续念去年之愿，与菩萨同行。为天地而立心，或可笑，而确为我一生之宏远。&lt;/p&gt;
@@ -114,7 +87,7 @@
     <summary type="html">
     
       &lt;p&gt;###15.7.24 延吉&lt;br&gt;  和孟典坐高铁到长春，12:50乘汽车到延吉，妈妈说这是姥爷的故乡，而在我出生的前一年，姥爷去世。&lt;br&gt;  两篇论文尚未写完而出来旅行，大抵是要趁着年轻，多走走看看。我只是个孤独的旅人，喜欢在路上的感觉，6点抵达延吉。&lt;/p&gt;
-&lt;p&gt; 
+&lt;p&gt;  延吉路边上铺的牌子都是中韩双语，但多少是去过海拉尔，看过中俄蒙三语的牌子，在拉萨也见多了中藏双语的牌子，对中韩双语已不是特别的新鲜。&lt;br&gt;  安顿好宾馆后，直奔元奶奶韩国参鸡汤，排骨酱汤、石锅豆腐、大的猪肉饭包，米酒，花费210元，剩了好多，但多少是领略了一下韩餐的感觉。&lt;br&gt;  夜晚的布尔哈通河很漂亮。问了问旁边的路人，布尔哈通河有什么寓意，路人也不知。想了想，笑笑自己，非要问这些典故有什么意义，大概很多事情本就是没有原因。&lt;br&gt;  延吉的夜生活较哈尔滨来的丰富，路边很多的酒吧和啤酒屋。和孟典在酒吧坐了坐，喝了几口冰川，延吉的夜色温柔。&lt;br&gt;  江边有很多朝鲜族人漫步，青年广场之下，汉语与韩语间杂，很多美女，一些小贩，小城市的生活无端让我安心。&lt;br&gt;
     
     </summary>
     
@@ -136,9 +109,9 @@
     <link href="http://yoursite.com/2015/08/26/%E6%97%A5%E8%A8%98%20%E9%9B%85%E7%88%BE%E5%A1%9E/"/>
     <id>http://yoursite.com/2015/08/26/日記 雅爾塞/</id>
     <published>2015-08-26T14:26:29.000Z</published>
-    <updated>2016-05-31T14:15:11.000Z</updated>
+    <updated>2016-05-31T14:32:57.000Z</updated>
     
-    <content type="html">&lt;p&gt;###15.8.8&lt;br&gt;  支教启程。&lt;br&gt;  早上六点多起床，6:50到哈工大一区的校训石，8点多乘公交到哈西，9:22乘上火车，1点多到齐齐哈尔，出了火车站，转乘大巴1个多小时，到达梅里斯区支教的雅尔塞小学。&lt;br&gt;  梅里斯区楼房不超过七层，感觉更多像是城乡结合部，雅尔塞小学在梅里斯区的边缘，一条马路的小镇。&lt;br&gt;  小学操场虽然大些，但很简陋，都是沙泥地。校园后是一片无垠农田，打开走廊窗户，草香扑面。小学如厕是东南角的旱厕，多年未用旱厕后喷薄而出，高空抛落，忆来颇爽。&lt;br&gt;  来之前听说我们一切用水都是靠一口井水，的确如此，但并不是我们想象的井。井边是一圈围起的矮砖，井口被泥土封死，一根水管孤零零立在中央，泥土下当是一个水泵，插上电后，从地下滋滋汲水。井的智慧，在干旱无水或离水较远处，省去多少麻烦。井水颇凉，我们将近二十日的吃喝全部赖此。&lt;br&gt;  与来之前设想不同，齐齐哈尔的支教点是第一年开设，与山东情况不同，我们的受众可能更多的把我们当做夏令营。但我们此行三周，所要讲授知识，本就包罗万象，天文地理，历史神话，所求更多是开拓少年之眼界，世界之大，值得我们一生探索，我们亦勿忘来之初心。&lt;br&gt;  安顿好后去买菜和生活用品，晚上切土豆炒土豆，很快见底，简单开会后各自散去。&lt;br&gt;  雅尔塞的夜晚没有灯，假设丢掉手电，真是寸步难行。几个男生光着膀子，用一个小台灯，用刚抽的井水洗澡。&lt;/p&gt;
+    <content type="html">&lt;p&gt;###15.8.8&lt;br&gt;  支教启程。&lt;br&gt;  早上六点多起床，6:50到哈工大一区的校训石，8点多乘公交到哈西，9:22乘上火车，1点多到齐齐哈尔，出了火车站，转乘大巴1个多小时，到达梅里斯区支教的雅尔塞小学。&lt;br&gt;  梅里斯区楼房不超过七层，感觉更多像是城乡结合部，雅尔塞小学在梅里斯区的边缘，一条马路的小镇。&lt;br&gt;  小学操场虽然大些，但很简陋，都是沙泥地。校园后是一片无垠农田，打开走廊窗户，草香扑面。小学如厕是东南角的旱厕，多年未用旱厕后喷薄而出，高空抛落，忆来颇爽。&lt;br&gt;  来之前听说我们一切用水都是靠一口井水，的确如此，但并不是我们想象的井。井边是一圈围起的矮砖，井口被泥土封死，一根水管孤零零立在中央，泥土下当是一个水泵，插上电后，从地下滋滋汲水。井的智慧，在干旱无水或离水较远处，省去多少麻烦。井水颇凉，我们将近二十日的吃喝全部赖此。&lt;br&gt;  与来之前设想不同，齐齐哈尔的支教点是第一年开设，与山东情况不同，我们的受众可能更多的把我们当做夏令营。但我们此行三周，所要讲授知识，本就包罗万象，天文地理，历史神话，所求更多是开拓少年之眼界，世界之大，值得我们一生探索，我们亦勿忘来之初心。&lt;br&gt;  安顿好后去买菜和生活用品，晚上切土豆炒土豆，很快见底，简单开会后各自散去。&lt;br&gt;  雅尔塞的夜晚没有灯，假设丢掉手电，真是寸步难行。几个男生光着膀子，用一个小台灯，用刚抽的井水洗澡。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;###15.8.9&lt;br&gt;  支教第二日。&lt;br&gt;  早上5点多，队友陆续醒来，而我偷懒睡到7点。起床洗脸，井水冷冷，拍打在脸上很舒服，短衣短裤微微冷意。&lt;br&gt;  上午简单的备了一下课，中午晚上大盆饭。&lt;br&gt;  景色极美，夕阳尤甚。夜晚抬头，能够看到银河，满天繁星，大概缺一伊人依偎。&lt;/p&gt;
 &lt;p&gt;###15.8.10&lt;br&gt;  早上登记了一下学生名单，进入教室，约100余人，分为1班牙牙、2班苗苗、3班优乐、4班闪电，很多小姑娘、小男孩很漂亮。都是农村孩子，有调皮，有木讷，有单纯，大抵孩子永远是最纯洁的，最无忧无虑的。&lt;br&gt;  上午给4班上历史课，备课内容正常进行，学生的配合很好，但第一次给大班上课，嗓音控制的不是很好，上了一节课感觉嗓子不太舒服。大姐问了几个学生，觉得我上课还算有趣。&lt;br&gt;  中午随意吃了几口，下午给3班上课，备课内容缺少互动，很快上完，距下课还有10分钟左右。只好续讲西方史，但学生差距比较大，下课后很多学生表示听不大懂，和4班不同，4班可以深入，3班则需要相对较多的故事，才能吸引。深恐挫败孩子们对历史的兴趣。&lt;br&gt;  夜晚的雅尔塞，蚊虫颇多，上午趴在桌子上睡了一会，有梦，但记不清了。&lt;br&gt;  天蓝云白，以及年轻的十九颗心，远离家乡来到雅尔塞，用井水沟通思念。晚上十分清晰地看到北斗七星，满天繁星，不算孩子，大概光这星河便值回二十日少肉。&lt;/p&gt;
 &lt;p&gt;###15.8.11&lt;br&gt;  今天没有我的课，反思了一下备课内容，调整为以故事引入为主。&lt;br&gt;  早上做饭，中午洗衣服，晚上做饭。很多事情对我是很新鲜的东西，而生活，大概也只有接地气才显得真实。&lt;br&gt;  晚上和大家一起跑步，沿着公路慢跑，无忧无虑，到了达斡尔族村，夕阳与平原，美不可方物。&lt;br&gt;  几个裸男在夜色的掩护下，用凉凉的井水冲澡，任蚊虫叮咬，嘻嘻哈哈。&lt;/p&gt;
@@ -162,7 +135,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;###15.8.8&lt;br&gt;  支教启程。&lt;br&gt;  早上六点多起床，6:50到哈工大一区的校训石，8点多乘公交到哈西，9:22乘上火车，1点多到齐齐哈尔，出了火车站，转乘大巴1个多小时，到达梅里斯区支教的雅尔塞小学。&lt;br&gt;  梅里斯区楼房不超过七层，感觉更多像是城乡结合部
+      &lt;p&gt;###15.8.8&lt;br&gt;  支教启程。&lt;br&gt;  早上六点多起床，6:50到哈工大一区的校训石，8点多乘公交到哈西，9:22乘上火车，1点多到齐齐哈尔，出了火车站，转乘大巴1个多小时，到达梅里斯区支教的雅尔塞小学。&lt;br&gt;  梅里斯区楼房不超过七层，感觉更多像是城乡结合部，雅尔塞小学在梅里斯区的边缘，一条马路的小镇。&lt;br&gt;  小学操场虽然大些，但很简陋，都是沙泥地。校园后是一片无垠农田，打开走廊窗户，草香扑面。小学如厕是东南角的旱厕，多年未用旱厕后喷薄而出，高空抛落，忆来颇爽。&lt;br&gt;  来之前听说我们一切用水都是靠一口井水，的确如此，但并不是我们想象的井。井边是一圈围起的矮砖，井口被泥土封死，一根水管孤零零立在中央，泥土下当是一个水泵，插上电后，从地下滋滋汲水。井的智慧，在干旱无水或离水较远处，省去多少麻烦。井水颇凉，我们将近二十日的吃喝全部赖此。&lt;br&gt;  与来之前设想不同，齐齐哈尔的支教点是第一年开设，与山东情况不同，我们的受众可能更多的把我们当做夏令营。但我们此行三周，所要讲授知识，本就包罗万象，天文地理，历史神话，所求更多是开拓少年之眼界，世界之大，值得我们一生探索，我们亦勿忘来之初心。&lt;br&gt;  安顿好后去买菜和生活用品，晚上切土豆炒土豆，很快见底，简单开会后各自散去。&lt;br&gt;  雅尔塞的夜晚没有灯，假设丢掉手电，真是寸步难行。几个男生光着膀子，用一个小台灯，用刚抽的井水洗澡。&lt;br&gt;
     
     </summary>
     
@@ -184,10 +157,10 @@
     <link href="http://yoursite.com/2015/03/06/%E6%97%A5%E8%A8%98%20%E6%8B%89%E8%96%A9/"/>
     <id>http://yoursite.com/2015/03/06/日記 拉薩/</id>
     <published>2015-03-06T08:03:42.000Z</published>
-    <updated>2016-05-31T14:14:57.000Z</updated>
+    <updated>2016-05-31T14:32:38.000Z</updated>
     
     <content type="html">&lt;p&gt;  写西藏的人太多，写得好的太多，能出书的更多。我不是驴友，也没什么计划，一个普通的学生。但西藏之行，总觉得该写点什么，不单为自己不能重来的旅途，也算给想去拉萨的人一些可堪一笑的有趣故事，思来想去，便摘录了这半月来的日记，聊寄我此次西藏之行。&lt;br&gt;  ——閆譽騰 2015.2.3 于崖州&lt;/p&gt;
-&lt;p&gt;###15.1.13  启程&lt;br&gt;  T18列车，送站的时候妈妈说我四岁那年，坐的也是T18的软卧，同样因为买不到票，买的软卧，夫子曾经感慨“逝者如斯夫，昼夜不舍。”不成想我都18了。&lt;br&gt;  此行西藏，东北至西南，横亘中国，千里路途，然而年轻的心或许一直在路上，不甘平庸 ，西行，是无尽的旅途。&lt;br&gt;  明日到北京，也很期待，大学在家门口读书，终归有些遗憾，顺带去看猪猪与晓冰。&lt;br&gt;  火车上看了三十余页的《老残游记》，颇为感慨清官之烈，尤甚贪官。&lt;/p&gt;
+&lt;p&gt;###15.1.13  启程&lt;br&gt;  T18列车，送站的时候妈妈说我四岁那年，坐的也是T18的软卧，同样因为买不到票，买的软卧，夫子曾经感慨“逝者如斯夫，昼夜不舍。”不成想我已18了。&lt;br&gt;  此行西藏，东北至西南，横亘中国，千里路途，然而年轻的心或许一直在路上，不甘平庸 ，西行，是无尽的旅途。&lt;br&gt;  明日到北京，也很期待，大学在家门口读书，终归有些遗憾，顺带去看猪猪与晓冰。&lt;br&gt;  火车上看了三十余页的《老残游记》，颇为感慨清官之烈，尤甚贪官。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;###15.1.14  北京&lt;br&gt;  许是很久未坐火车，即便软卧，昨晚依旧睡得不是很好，半梦半醒中，经过了沈阳。&lt;br&gt;  同行的是一对母女，并未与她们过深的交谈，只知道女孩12岁。人生过客不能细数，一面之缘当是再难相见，所以就像韩寒说的：“每一次再见，都有可能是再也不见。”已是7:10，火车8:30多大概驶入北京站台，窗外虽近处仍是荒草丛生，但已依稀可见一些高楼大厦，此去拉萨，随遇而安。&lt;br&gt;  巧合的是，我走时哈尔滨在下雪，到了北京，也迎来了北京的初雪。内蒙有个典故，给草原带来雨水的客人，是最尊贵的客人，那么姑且我自嘲一下，于北京，我勉强算个北京茫茫过客里，尊贵的那批人。&lt;br&gt;  8:36到站，感叹北京的确是首都，与哈尔滨的感觉确有不同。9:00时，火车站的钟声响彻不绝，猜想大概每个整点都会这样的雄浑一下。&lt;/p&gt;
 &lt;p&gt;  毕竟十多年没来，与儿时的记忆已是迥然不同，北京火车站旁的KFC，等着晓冰。&lt;br&gt;  同行的瑶瑶去寻她同学了，人来人往里，为了避免尴尬，我在日记本里写写画画，KFC里安静的音乐让我有很多灵感。&lt;br&gt;  每个人的生活都有着不同的际遇，不同的际遇造就了不同的人生。&lt;br&gt;  坐在我对面的是一对恩爱的中年农民工夫妇，身后是婴儿的哭声，大都市里，这样的小人物有太多太多。而都市大概终归是冷漠匆忙的，身边人来人往，忙忙碌碌，就想起一个故事，运河里的船来来往往，不外乎两个，一个为名，一个为利。&lt;br&gt;  KFC中，有小资的美女，有农民工，有服务生，有潮男，有哭闹的小孩子，有嬉笑的男女，有独身一人的老男人，有安静坐在角落的旁观者，世间百态，一个快餐店里可以初窥。耳后一阵清风，也不晓得我在等待的是戈多，还是晓冰。&lt;/p&gt;
 &lt;p&gt;  下午去了清华园，古楼里氤氲了多少才子佳人，破砖房一幢一幢，自行车有快有慢，肃穆的安静，连飞鸟也只是轻翔。北京到底是有底蕴的，清华亦是。&lt;br&gt;  遗憾未去北大，走到北大物院，但未见北大正门，手机电量耗尽，加之晚上有列火车，不再向前，或许是缘分未到，也无需纠结，下次来北京的时候再去燕园也好。&lt;br&gt;  反身找回了猪猪晓冰休息的磨豆咖啡唠嗑，青春终归要有朋友相伴，才不觉孤单寂寞。&lt;br&gt;  晚上匆忙赶火车，生怕错过，转了两次车，搭乘753，身上没有零钱，却恰好碰到一位北科大的学姐，175的长身美女，替我付了车费。买地铁票时，又遇到了志愿者，替我破开零钱，买票，一路慌忙，到了站台却发现比开车时间早到了1小时。我始终相信着，在任何一次或长或短的旅途中，我遇到的好人要远远多于坏人。&lt;br&gt;  火车驶向拉萨，车上藏文，硬卧堪比软卧，虽然空间狭小了些，但16号我就到了拉萨。&lt;/p&gt;
@@ -218,7 +191,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;  写西藏的人太多，写得好的太多，能出书的更多。我不是驴友，也没什么计划，一个普通的学生。但西藏之行，总觉得该写点什么，不单为自己不能重来的旅途，也算给想去拉萨的人一些可堪一笑的有趣故事，思来想去，便摘录了这半月来的日记，聊寄我此次西藏之行。&lt;br&gt;  ——閆譽騰 2015
+      &lt;p&gt;  写西藏的人太多，写得好的太多，能出书的更多。我不是驴友，也没什么计划，一个普通的学生。但西藏之行，总觉得该写点什么，不单为自己不能重来的旅途，也算给想去拉萨的人一些可堪一笑的有趣故事，思来想去，便摘录了这半月来的日记，聊寄我此次西藏之行。&lt;br&gt;  ——閆譽騰 2015.2.3 于崖州&lt;/p&gt;
+&lt;p&gt;###15.1.13  启程&lt;br&gt;  T18列车，送站的时候妈妈说我四岁那年，坐的也是T18的软卧，同样因为买不到票，买的软卧，夫子曾经感慨“逝者如斯夫，昼夜不舍。”不成想我已18了。&lt;br&gt;  此行西藏，东北至西南，横亘中国，千里路途，然而年轻的心或许一直在路上，不甘平庸 ，西行，是无尽的旅途。&lt;br&gt;  明日到北京，也很期待，大学在家门口读书，终归有些遗憾，顺带去看猪猪与晓冰。&lt;br&gt;  火车上看了三十余页的《老残游记》，颇为感慨清官之烈，尤甚贪官。&lt;br&gt;
     
     </summary>
     
@@ -242,11 +216,10 @@
     <link href="http://yoursite.com/2014/07/10/%E6%97%A5%E8%A8%98%20%E6%B5%B7%E6%8B%89%E7%88%BE/"/>
     <id>http://yoursite.com/2014/07/10/日記 海拉爾/</id>
     <published>2014-07-10T09:11:54.000Z</published>
-    <updated>2016-05-31T14:15:03.000Z</updated>
+    <updated>2016-05-31T14:32:05.000Z</updated>
     
     <content type="html">&lt;p&gt;  临近夜晚，写着这篇日记，已是从内蒙回到哈尔滨，可坐在电脑前，仍有着不真实的错觉，仿佛我身仍在内蒙。&lt;br&gt;  韩寒大约在我这个年纪，离开了父母，坐上一列开往未知的火车。我不如韩寒独身一人，与我同行还有思鹏。但内蒙之所以让我错觉，大概在于内蒙是我第一次离家的目的地，又为之坐了一宿的火车，&lt;/p&gt;
-&lt;p&gt;  7月7日晚上6点左右登上火车时，突然莫名的喜爱上了这种驶向异地的感觉，一种期待与彷徨从心底上泛。我常爱把青春比作火车，出发便只顾风雨兼程，青春坐在我的火车里，驶向了海拉尔。&lt;br&gt;  我在日记中这样写着：“窗外被分成三份，最上面的是阴云，中间白天，地上则是一片鱼塘，火车有些颠簸。”没有父母而离家坐上火车的人绝难体会，当轰轰的火车开始在祖国的大地上奔腾，看窗外呼啸而去的风景，男生的心中总会涌起道不明的豪情。&lt;br&gt;  8：30火车到了大庆，窗外已是一片漆黑。&lt;br&gt;  我觉得火车有意思的地方在于，只要你不问，你就永远不知道你对面的人来自哪里，要去往哪里。望着同行的思鹏，听着旁边听不懂的方言，五湖四海在一个车厢里相聚，昏暗的灯光，颠簸的车厢，青春便像风一样的自由，在黑夜里驰骋。&lt;br&gt;  火车上似乎最不缺的就是时间，当新鲜感逐渐消失，便大多无聊。火车里空调打的很猛，腿伤在空调刺激下，也微微发痒。熄灯后，身边的大妈便开始打鼾，鼾声滚滚，自然一夜精神欠佳，4:47终于再难忍受，翻身起床，窗外已是无垠草原，间杂着些起伏的低山，思鹏仍在上铺，一夜，已是近了海拉尔。&lt;/p&gt;
-&lt;p&gt;  到站后，和接站的导游碰面后便坐上了开往呼伦湖大巴。&lt;br&gt;  公路边永远是无尽的草地，如果失去了这公路，该如何辨认方向，又或者，在草原里，方向本就失去了意义。后来听人说，草原里，方向全靠敖包，因为蒙古敖包永远指向南方。我却又在想，敖包未立，先民是如何一步一步的跋涉在这草原。若是从空中俯瞰，大巴疾驰的马路当是在草原上划出了一条长长的口子，虽带动了旅游发展，也消了些草原的悲凉雄浑，却不知是幸是悲，奈何时间有限，无缘真正草原。&lt;br&gt;  大巴急行呼伦湖，印象只是浩大。大到不能置信内陆竟会有如此大泽，一眼无边，却是不得不感慨造物神奇。湖风微微发腥，无端想起大海。设施简陋，却平添蒙古的古朴气势。去时风很大，不得不翻出长袖，又套了件皮肤衫，才将将挡住大风，感觉和哈尔滨的秋天类似。&lt;br&gt;  当坐上游船驶向湖心，风吹浪急，大浪拍船，船身摇晃。套件救生衣，爬上船顶，看湖欧低飞，看波涛拍浪，看天水相交。去的两天里最爱呼伦湖，呼伦湖的感觉很像禅，说了便错。&lt;/p&gt;
+&lt;p&gt;  7月7日晚上6点左右登上火车时，突然莫名的喜爱上了这种驶向异地的感觉，一种期待与彷徨从心底上泛。我常爱把青春比作火车，出发便只顾风雨兼程，青春坐在我的火车里，驶向了海拉尔。&lt;br&gt;  我在日记中这样写着：“窗外被分成三份，最上面的是阴云，中间白天，地上则是一片鱼塘，火车有些颠簸。”没有父母而离家坐上火车的人绝难体会，当轰轰的火车开始在祖国的大地上奔腾，看窗外呼啸而去的风景，男生的心中总会涌起道不明的豪情。&lt;br&gt;  8：30火车到了大庆，窗外已是一片漆黑。&lt;br&gt;  我觉得火车有意思的地方在于，只要你不问，你就永远不知道你对面的人来自哪里，要去往哪里。望着同行的思鹏，听着旁边听不懂的方言，五湖四海在一个车厢里相聚，昏暗的灯光，颠簸的车厢，青春便像风一样的自由，在黑夜里驰骋。&lt;br&gt;  火车上似乎最不缺的就是时间，当新鲜感逐渐消失，便大多无聊。火车里空调打的很猛，腿伤在空调刺激下，也微微发痒。熄灯后，身边的大妈便开始打鼾，鼾声滚滚，自然一夜精神欠佳，4:47终于再难忍受，翻身起床，窗外已是无垠草原，间杂着些起伏的低山，思鹏仍在上铺，一夜，已是近了海拉尔。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;  到站后，和接站的导游碰面后便坐上了开往呼伦湖大巴。&lt;br&gt;  公路边永远是无尽的草地，如果失去了这公路，该如何辨认方向，又或者，在草原里，方向本就失去了意义。后来听人说，草原里，方向全靠敖包，因为蒙古敖包永远指向南方。我却又在想，敖包未立，先民是如何一步一步的跋涉在这草原。若是从空中俯瞰，大巴疾驰的马路当是在草原上划出了一条长长的口子，虽带动了旅游发展，也消了些草原的悲凉雄浑，却不知是幸是悲，奈何时间有限，无缘真正草原。&lt;br&gt;  大巴急行呼伦湖，印象只是浩大。大到不能置信内陆竟会有如此大泽，一眼无边，却是不得不感慨造物神奇。湖风微微发腥，无端想起大海。设施简陋，却平添蒙古的古朴气势。去时风很大，不得不翻出长袖，又套了件皮肤衫，才将将挡住大风，感觉和哈尔滨的秋天类似。&lt;br&gt;  当坐上游船驶向湖心，风吹浪急，大浪拍船，船身摇晃。套件救生衣，爬上船顶，看湖欧低飞，看波涛拍浪，看天水相交。去的两天里最爱呼伦湖，呼伦湖的感觉很像禅，说了便错。&lt;/p&gt;
 &lt;p&gt;  离开呼伦湖，前往41界碑，中俄蒙三国交接处。风雨更大，几个士兵，但国界被开发成旅游点，终究觉得有些别扭。之后又去了套娃广场，略微无聊，大抵是在哈尔滨见识了太多套娃，已是少了南人对这些东西的新鲜。&lt;/p&gt;
 &lt;p&gt;  下午抵达满洲里的边境小城，横街5条，一二三四五道街。竖街则有幸福街，海关街等。棋盘式格局，可是终归路痴，险些迷路。&lt;br&gt;  边境缘故，街上很多的俄人，当地小贩也能操一口简单俄语。商店牌子俄蒙汉三语。听人说，满洲里特殊在于，很多高校俄语大学生来到这里，却不如当地小贩的口语，想来俄语也有诸多方言，千奇百怪。&lt;br&gt;  安顿好旅店后，和思鹏慢慢的走在马路边上。&lt;br&gt;  因为自小爱奶香味道，便买了些奶酪。又在街边找到一家米粉，虽然在内蒙吃米粉有些俏皮，但烤羊实在囊中羞涩。不过也是米粉，稍加领略了满洲里的豪情。点菜的时候，姑娘问我“要不要辣”，自然微辣，尔后一片红汤，碗也很大。&lt;br&gt;  后来又来了三个男人坐邻桌，点了一碗，我和思鹏不明风俗，一人一碗，剩了很多便已很饱，也不怪邻桌不时用怪异的眼神看看我们。&lt;br&gt;  满洲里的天黑的很晚，大概九点左右才慢慢黑下，我们也从迷路中走回了宾馆，一身疲惫，当地夜景很美，可惜宾馆不靠大路，无缘亲眼看到，只是第二天听晚归的同行人道起。&lt;br&gt;  在满洲里的宾馆里，恰好赶上世界杯的半决赛，德国对巴西。思鹏设了4:00的闹钟，我被他弹醒，但迷迷糊糊也只是听了遍世界杯，思鹏总是激动的大喊：“又进球了。”&lt;/p&gt;
 &lt;p&gt;  早上7:30用过早餐后，乘车前往大觉禅寺，来的时间恰好再过几日便到了观世音的生辰。而小雨淅淅，对牧区来说，带来雨水的都是尊贵客人。想来我也可以恬不知耻的自诩尊贵。&lt;br&gt;  大觉禅寺属于藏传佛教中大乘佛教的寺院。只是有些奇怪，许愿时念金刚经的和尚，许愿后一一给人赠语，唯独到我，看了一眼，一句未说，却也合了我心。&lt;br&gt;  我不大喜欢这个和尚，谈吐模糊，属龙金命之类，又劝人说话斟酌，说不下去便天机不可泄露，背书的能力一流，却是可惜了好好的佛寺。&lt;br&gt;  主殿的佛像拜了拜便离开，到底是佛教里，我独爱地藏。&lt;br&gt;  “地狱不空，誓不成佛。”颇像张载的“为万世开太平。”可惜地藏侧殿，无人打扫，远比不上主殿金碧辉煌，拜了三拜地藏，许了个愿景。&lt;br&gt;  觉这佛寺有些生硬。&lt;br&gt;  思鹏多少对宗教有些反感，我有些兴趣，也多怀着“敬鬼神远之”的态度，到底是信仰儒家现世多于佛道来生，无心再看，便回了车上。&lt;/p&gt;
@@ -274,6 +247,40 @@
       <category term="呼倫貝爾" scheme="http://yoursite.com/tags/%E5%91%BC%E5%80%AB%E8%B2%9D%E7%88%BE/"/>
     
       <category term="滿洲里" scheme="http://yoursite.com/tags/%E6%BB%BF%E6%B4%B2%E9%87%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/1996/10/03/hello-world/"/>
+    <id>http://yoursite.com/1996/10/03/hello-world/</id>
+    <published>1996-10-03T03:00:00.000Z</published>
+    <updated>2016-05-31T14:33:20.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;By the way, Jekyll is too tough for me, and WordPress isn’t free ——— Demos :(&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Program" scheme="http://yoursite.com/categories/Program/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
     
   </entry>
   
