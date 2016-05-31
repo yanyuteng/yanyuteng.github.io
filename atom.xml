@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-31T18:08:44.000Z</updated>
+  <updated>2016-05-31T17:47:49.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,46 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2016/06/01/%E5%A4%B4%E5%8F%91%E4%B9%8C%E6%89%98%E9%82%A6/"/>
-    <id>http://yoursite.com/2016/06/01/头发乌托邦/</id>
-    <published>2016-05-31T18:06:19.000Z</published>
-    <updated>2016-05-31T18:08:44.000Z</updated>
-    
-    <content type="html">&lt;hr&gt;
-&lt;p&gt;title: 头发乌托邦&lt;br&gt;date: 2015-06-20 19:44:38&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Novel&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;1984&lt;/li&gt;
-&lt;li&gt;乌托邦&lt;/li&gt;
-&lt;li&gt;乌合之众&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;  全世界的暴徒推翻了政府，头发取代了金子，乌托邦浪潮席卷全球。&lt;/p&gt;
-&lt;p&gt;  新政府希冀用每个人都有的头发来实现共产主义，理发师成了总统，狂热的人群欢呼着伟大时代的到来。&lt;/p&gt;
-&lt;p&gt;  一盎司面包，三百斤头发。&lt;/p&gt;
-&lt;p&gt;  “妈妈，我好饿。”&lt;br&gt;  “可怜的孩子，可是连眉毛，我们也已经卖了。”&lt;/p&gt;
-&lt;p&gt;  人们想起了旧政府，于是开始了新一轮的革命。&lt;/p&gt;
-&lt;p&gt;  ——谨以此致敬奥威尔的《1984》&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;title: 头发乌托邦&lt;br&gt;date: 2015-06-20 19:44:38&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Novel&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;1984&lt;/li&gt;
-&lt;li&gt;乌托邦&lt;/li&gt;
-&lt;li&gt;乌合之众&lt;/li&gt;
-&lt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>哈師大小吃一條街 雜談</title>
@@ -299,9 +259,9 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
     
@@ -395,8 +355,6 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
       <category term="Harvey" scheme="http://yoursite.com/tags/Harvey/"/>
@@ -404,6 +362,8 @@
       <category term="Smith" scheme="http://yoursite.com/tags/Smith/"/>
     
       <category term="environmentalism" scheme="http://yoursite.com/tags/environmentalism/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -443,13 +403,13 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
       <category term="reclaim" scheme="http://yoursite.com/tags/reclaim/"/>
     
       <category term="policy" scheme="http://yoursite.com/tags/policy/"/>
     
       <category term="environment" scheme="http://yoursite.com/tags/environment/"/>
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -694,6 +654,41 @@
       <category term="日本" scheme="http://yoursite.com/tags/%E6%97%A5%E6%9C%AC/"/>
     
       <category term="妖怪" scheme="http://yoursite.com/tags/%E5%A6%96%E6%80%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>头发乌托邦</title>
+    <link href="http://yoursite.com/2015/06/20/%E5%A4%B4%E5%8F%91%E4%B9%8C%E6%89%98%E9%82%A6/"/>
+    <id>http://yoursite.com/2015/06/20/头发乌托邦/</id>
+    <published>2015-06-20T11:44:38.000Z</published>
+    <updated>2016-05-31T18:44:10.000Z</updated>
+    
+    <content type="html">&lt;p&gt;  全世界的暴徒推翻了政府，头发取代了金子，乌托邦浪潮席卷全球。&lt;/p&gt;
+&lt;p&gt;  新政府希冀用每个人都有的头发来实现共产主义，理发师成了总统，狂热的人群欢呼着伟大时代的到来。&lt;/p&gt;
+&lt;p&gt;  一盎司面包，三百斤头发。&lt;/p&gt;
+&lt;p&gt;  “妈妈，我好饿。”&lt;br&gt;  “可怜的孩子，可是连眉毛，我们也已经卖了。”&lt;/p&gt;
+&lt;p&gt;  人们想起了旧政府，于是开始了新一轮的革命。&lt;/p&gt;
+&lt;p&gt;  ——谨以此致敬奥威尔的《1984》&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  全世界的暴徒推翻了政府，头发取代了金子，乌托邦浪潮席卷全球。&lt;/p&gt;
+&lt;p&gt;  新政府希冀用每个人都有的头发来实现共产主义，理发师成了总统，狂热的人群欢呼着伟大时代的到来。&lt;/p&gt;
+&lt;p&gt;  一盎司面包，三百斤头发。&lt;/p&gt;
+&lt;p&gt;  “妈妈，我好饿。”&lt;br&gt;  “可
+    
+    </summary>
+    
+      <category term="Novel" scheme="http://yoursite.com/categories/Novel/"/>
+    
+    
+      <category term="1984" scheme="http://yoursite.com/tags/1984/"/>
+    
+      <category term="乌托邦" scheme="http://yoursite.com/tags/%E4%B9%8C%E6%89%98%E9%82%A6/"/>
+    
+      <category term="乌合之众" scheme="http://yoursite.com/tags/%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97/"/>
     
   </entry>
   
