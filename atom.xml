@@ -336,9 +336,9 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
     
@@ -432,8 +432,6 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
       <category term="Harvey" scheme="http://yoursite.com/tags/Harvey/"/>
@@ -441,6 +439,8 @@
       <category term="Smith" scheme="http://yoursite.com/tags/Smith/"/>
     
       <category term="environmentalism" scheme="http://yoursite.com/tags/environmentalism/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -480,13 +480,13 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
       <category term="reclaim" scheme="http://yoursite.com/tags/reclaim/"/>
     
       <category term="policy" scheme="http://yoursite.com/tags/policy/"/>
     
       <category term="environment" scheme="http://yoursite.com/tags/environment/"/>
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
