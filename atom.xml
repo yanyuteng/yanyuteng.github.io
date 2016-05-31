@@ -299,9 +299,9 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
-    
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
       <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
     
@@ -395,6 +395,8 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
       <category term="Harvey" scheme="http://yoursite.com/tags/Harvey/"/>
@@ -402,8 +404,6 @@
       <category term="Smith" scheme="http://yoursite.com/tags/Smith/"/>
     
       <category term="environmentalism" scheme="http://yoursite.com/tags/environmentalism/"/>
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -443,13 +443,13 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="reclaim" scheme="http://yoursite.com/tags/reclaim/"/>
     
       <category term="policy" scheme="http://yoursite.com/tags/policy/"/>
     
       <category term="environment" scheme="http://yoursite.com/tags/environment/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -739,11 +739,11 @@
   </entry>
   
   <entry>
-    <title>《Everyday Environmentalism》Ch1 筆記</title>
+    <title>将军百战死</title>
     <link href="http://yoursite.com/2015/04/11/%E5%B0%86%E5%86%9B%E7%99%BE%E6%88%98%E6%AD%BB/"/>
     <id>http://yoursite.com/2015/04/11/将军百战死/</id>
     <published>2015-04-11T06:15:43.000Z</published>
-    <updated>2016-05-31T18:05:20.000Z</updated>
+    <updated>2016-05-31T18:26:15.000Z</updated>
     
     <content type="html">&lt;p&gt;正文&lt;br&gt;  予尝生于商贾之家，天朝故事有曰，尝为商贾者，终身不得录于科举，此出身乃绝我从文之途。然即为商者，未尝不可权倾天下也，惜恨予二九之年，家中故变。世人尝云，商场若沙场，一棋不慎，满局一输。&lt;br&gt;  故予朝为小康之家，而暮为乞怜之人，其横祸之突兀，未尝不叹，家底尽散，固再起之希望渺渺，又依天朝故事，家无长物以抵军费者，其长子参军，乃至黄发。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  大变之前，予父委予以晓练商事之任，故予通达货物之流通，粗晓诗书之仁义，而不通拳脚之武艺，故予二九方习武，体质虚颓，自知与垂髫始习武之人，其间距，不可计数。&lt;br&gt;  当是时，天朝颓弱，四邻赳赳，王土之边鄙，沙场无数。或尝叹息曰：“将军百战死，壮士十年归。”边漠之上，埋骨他乡、马革裹尸者，难以查矣。而予初为兵士，操戈习练三月，即次大漠，战于边鄙，虽弱势之躯，险死还生，间屡近黄泉，幸苍天悯予，三年之后，百战未亡，体格日健，擢百夫长。&lt;br&gt;  至此时，为文，货卖帝王之家，先天已绝矣，为商贾，也亦乎日渐远矣，而初始以白丁之贱身，席卷天下之心，未尝息也，故所遗鸿鹄之志，盖赖以为军也。以此，予日夜不辍，习练武艺，惟愿假后天之勤勉，及先天之英才，于浩浩铁甲之中，得一立足耳。&lt;/p&gt;
