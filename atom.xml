@@ -55,9 +55,9 @@
       <category term="Prose" scheme="http://yoursite.com/categories/Prose/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="哈師大" scheme="http://yoursite.com/tags/%E5%93%88%E5%B8%AB%E5%A4%A7/"/>
     
@@ -259,9 +259,9 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
-    
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
       <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
     
@@ -504,6 +504,8 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
       <category term="Harvey" scheme="http://yoursite.com/tags/Harvey/"/>
@@ -511,8 +513,6 @@
       <category term="Smith" scheme="http://yoursite.com/tags/Smith/"/>
     
       <category term="environmentalism" scheme="http://yoursite.com/tags/environmentalism/"/>
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -569,11 +569,11 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
     
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="Zukin" scheme="http://yoursite.com/tags/Zukin/"/>
     
@@ -633,13 +633,13 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
     
       <category term="移民" scheme="http://yoursite.com/tags/%E7%A7%BB%E6%B0%91/"/>
     
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="Sassen" scheme="http://yoursite.com/tags/Sassen/"/>
     
@@ -675,8 +675,6 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
     
       <category term="移民" scheme="http://yoursite.com/tags/%E7%A7%BB%E6%B0%91/"/>
@@ -684,6 +682,8 @@
       <category term="Lisa" scheme="http://yoursite.com/tags/Lisa/"/>
     
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -744,13 +744,13 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
     
       <category term="移民" scheme="http://yoursite.com/tags/%E7%A7%BB%E6%B0%91/"/>
     
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="Labour" scheme="http://yoursite.com/tags/Labour/"/>
     
@@ -860,9 +860,9 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="Zukin" scheme="http://yoursite.com/tags/Zukin/"/>
     
@@ -938,11 +938,11 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
     
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="雅各布斯" scheme="http://yoursite.com/tags/%E9%9B%85%E5%90%84%E5%B8%83%E6%96%AF/"/>
     
@@ -1074,9 +1074,9 @@
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="自由主义" scheme="http://yoursite.com/tags/%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89/"/>
-    
       <category term="政治哲学" scheme="http://yoursite.com/tags/%E6%94%BF%E6%B2%BB%E5%93%B2%E5%AD%A6/"/>
+    
+      <category term="自由主义" scheme="http://yoursite.com/tags/%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89/"/>
     
       <category term="李强" scheme="http://yoursite.com/tags/%E6%9D%8E%E5%BC%BA/"/>
     
@@ -1117,11 +1117,11 @@
       <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
+      <category term="自由主义" scheme="http://yoursite.com/tags/%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89/"/>
+    
       <category term="政治学" scheme="http://yoursite.com/tags/%E6%94%BF%E6%B2%BB%E5%AD%A6/"/>
     
       <category term="马立诚" scheme="http://yoursite.com/tags/%E9%A9%AC%E7%AB%8B%E8%AF%9A/"/>
-    
-      <category term="自由主义" scheme="http://yoursite.com/tags/%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89/"/>
     
       <category term="左派" scheme="http://yoursite.com/tags/%E5%B7%A6%E6%B4%BE/"/>
     
