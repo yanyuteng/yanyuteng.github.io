@@ -4,9 +4,51 @@
   
     
     <entry>
+      <title><![CDATA[R語言基礎：R的語法]]></title>
+      <url>http://yoursite.com/2016/06/02/R%E8%AA%9E%E8%A8%80%E5%9F%BA%E7%A4%8E%EF%BC%9AR%E7%9A%84%E8%AA%9E%E6%B3%95/</url>
+      <content type="html"><![CDATA[<p><br></p>
+<h2 id="一、判斷語句"><a href="#一、判斷語句" class="headerlink" title="一、判斷語句"></a>一、判斷語句</h2><h3 id="1-基於計算機邏輯-Three-valued-Logic"><a href="#1-基於計算機邏輯-Three-valued-Logic" class="headerlink" title="1.基於計算機邏輯 Three-valued Logic"></a>1.基於計算機邏輯 Three-valued Logic</h3><h4 id="1）大小號的使用"><a href="#1）大小號的使用" class="headerlink" title="1）大小號的使用"></a>1）大小號的使用</h4><p>大於 &gt;<br>大於等於 &gt;=<br>小於 &lt;<br>小於等於 &lt;=  </p>
+<h4 id="2）等號的使用"><a href="#2）等號的使用" class="headerlink" title="2）等號的使用"></a>2）等號的使用</h4><p>等於 ==<br>賦值 =<br># 賦值的另一種嚴謹寫法是 -&gt;  </p>
+<p>不等於 !=<br>x且y x&amp;y<br>x或y x|y    </p>
+<p># 範例 賦值x為1,2,3,4<br>x = c(1,2,3,4) </p>
+<p><br><br><br><br><br></p>
+<h2 id="二、循環語句-Control-Flow"><a href="#二、循環語句-Control-Flow" class="headerlink" title="二、循環語句 Control Flow"></a>二、循環語句 Control Flow</h2><h3 id="（一）、for-loop"><a href="#（一）、for-loop" class="headerlink" title="（一）、for loop"></a>（一）、for loop</h3><p>for(i in 1:10){<br>print(i)<br>}</p>
+<p># 基本邏輯 如下圖<br><img src="https://cloud.githubusercontent.com/assets/19641933/15739240/b1330d44-28e1-11e6-854a-0542eef2b0aa.png" alt="Aaron Swartz"></p>
+<p># i 進入，是True，進入，c增加一個值回去再重新判斷，<br>直到FALSE<br># 1、2、3直到10，還是符合進入，11不符合，結束  </p>
+<p><br></p>
+<h3 id="（二）、whlie-loop"><a href="#（二）、whlie-loop" class="headerlink" title="（二）、whlie loop"></a>（二）、whlie loop</h3><p>i=1<br>while(1 &lt;= 10){<br>print(i)<br>i=i+1<br>}</p>
+<p><br><br># 基本邏輯 如下圖<br><img src="https://cloud.githubusercontent.com/assets/19641933/15739295/e675dd1a-28e1-11e6-9a31-24a8d0e3cbfa.png  =300x400" alt="Aaron Swartz"></p>
+<p><br><br># 注意：盡量用向量和function解決，loop的語句較慢，R不以運算速度見長，能不用就不用</p>
+<p><br><br><br><br><br></p>
+<h2 id="三、條件語句-If-Else"><a href="#三、條件語句-If-Else" class="headerlink" title="三、條件語句 If Else"></a>三、條件語句 If Else</h2><h3 id="（一）、If語句"><a href="#（一）、If語句" class="headerlink" title="（一）、If語句"></a>（一）、If語句</h3><p># == 意義是「等於」</p>
+<p>i=1<br>if(i == 1){<br>print(“hello world!”)<br>}</p>
+<p><br></p>
+<h3 id="（二）、if-else語句"><a href="#（二）、if-else語句" class="headerlink" title="（二）、if else語句"></a>（二）、if else語句</h3><p># else不是必須的</p>
+<p>i=2<br>if(i == 1){<br>print(“hello world!”)<br>}<br>else{<br>print(“Goodbye World!”)<br>}</p>
+<p># elseif R語言未內置，實際是switch，</p>
+<p><br></p>
+<h3 id="（三）、switch語句"><a href="#（三）、switch語句" class="headerlink" title="（三）、switch語句"></a>（三）、switch語句</h3><p># switch<br># switch(expression, cnoditions)  </p>
+<p>feelings = c(“love”, “bigface”)  </p>
+<p>for (i in feelings){<br>print(<br>&nbsp;&nbsp;switch(i,<br>&nbsp;&nbsp;&nbsp;&nbsp;love = “hhh, coz I’m too handsome”,<br>&nbsp;&nbsp;&nbsp;&nbsp;like = “yeah, I konw u like my sociology blog”,<br>&nbsp;&nbsp;&nbsp;&nbsp;hate = “Never mind, u will love me finally”,<br>&nbsp;&nbsp;&nbsp;&nbsp;bigface = “hhh, u are so cute”<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>}  </p>
+<p># 輸出的是”hhh, coz I’m too handsome” “hhh, u are so cute”<br># 你也可以嘗試用中文寫一個把妹的段子 :)<br><br><br><br><br><br></p>
+<h2 id="四、自定義的Function-Uesr-define-function"><a href="#四、自定義的Function-Uesr-define-function" class="headerlink" title="四、自定義的Function  Uesr-define function"></a>四、自定義的Function  Uesr-define function</h2><p>#function(x,x,x) 內部需要幾個參數，return根據情況寫，這裡是隨便寫的函數<br>myfunction = function(x,a,b,c){<br>return(a*sin(x)^2-b*x+c)<br>}</p>
+<p><br><br>#畫出函數，curve 的第一個空格必須是一個函數，xlimit設置了起點和終點<br>curve(myfunction(x,20,3,4),xlim=c(1,20))<br>curve(exp(x),xlim=c(1,20))  </p>
+<p><br><br>#練習定義一個實際的function<br>myfeeling = function(x){<br>&nbsp;&nbsp;&nbsp;&nbsp;for(i in x){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;switch(i,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;happy = “I am glad you are happy”,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;afraid = “There is nothing to fear”,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sad    = “Cheer up”,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;angry  = “Calm down now”<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br>feelings=c(“sad”,”afraid”)<br>myfeeling(feelings)</p>
+<p><br><br><br><br><br></p>
+<h2 id="五、基本指令：包的安裝、載入與升級"><a href="#五、基本指令：包的安裝、載入與升級" class="headerlink" title="五、基本指令：包的安裝、載入與升級"></a>五、基本指令：包的安裝、載入與升級</h2><p>install.packages(“xxx”)<br>library(xxx)<br>update.packages()<br><br><br><br><br><br></p>
+<h2 id="六、補充-factor"><a href="#六、補充-factor" class="headerlink" title="六、補充 factor"></a>六、補充 factor</h2><p>#好似標記，給向量、矩陣標記<br><br></p>
+<h3 id="1、自動計算"><a href="#1、自動計算" class="headerlink" title="1、自動計算"></a>1、自動計算</h3><p>#rep循環<br>factor=factor( rep(c(1:3), times=5) )<br><br><br>#0-100選15個數字的隨機樣本<br>x=sample(100,15)<br><br><br>#x用factor來標記的平均數<br>tapply(x,factor,mean)</p>
+<h3 id="2、手動計算驗證"><a href="#2、手動計算驗證" class="headerlink" title="2、手動計算驗證"></a>2、手動計算驗證</h3><p>#看一下x里 哪些數被標記了<br>rbind(x,factor)<br><br><br>#手動求一下，合成為2行，查看所有被標記為2的平均數<br>boo =rbind(x,factor)[2,]==2<br><br><br>#返回所有是TRUE的序列號<br>which(boo)<br><br><br>#查看返回的那部分和之前的是不是一樣的<br>rbind(x,factor)[1,which(boo)]<br><br><br>#查看和/長度＝平均數<br>sum(brind(x,factor)[1,which(boo)])/length(which(boo))</p>
+<p><br><br><br><br><br></p>
+<h4 id="吐槽"><a href="#吐槽" class="headerlink" title="吐槽"></a>吐槽</h4><p>Markdown寫這篇介紹略麻煩，但多少希望對后讀者有些許借鑒。<br>2016.6.2<br>閆譽騰 高雄</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[哈師大小吃一條街 雜談]]></title>
       <url>http://yoursite.com/2016/05/26/%E5%93%88%E5%B8%AB%E5%A4%A7%E5%B0%8F%E5%90%83%E4%B8%80%E6%A2%9D%E8%A1%97%20%E9%9B%9C%E8%AB%87/</url>
       <content type="html"><![CDATA[<h2 id="一、引文"><a href="#一、引文" class="headerlink" title="一、引文"></a>一、引文</h2><p>  2002年左右我上小學，我父母搬家到和興路的哈爾濱師範大學南崗校區旁，一直住到2016年初（也即今年），而今年7月我父母則計劃搬家到群力新區。<br>  我在哈師大旁也算住了近15年，在讀《Foodies Remaking Cities》時，作者開篇便提及了：“美食街的食物、小吃車連接了都市的活力與多樣性。[1]”由此觸動了我很多個人的經驗，我在網路搜索也未見任何有關哈師大小吃街發展歷程的文章，便想就此機會大致寫下我對哈師大小吃街十餘年的記憶，或有記憶的錯誤，還請后讀是文者原諒。<br><a id="more"></a></p>
+<p><img src="https://https://cloud.githubusercontent.com/assets/19641933/15739366/4d62d262-28e2-11e6-9f47-ff757e2a4c68.jpg" alt="哈師大夜市"></p>
 <h2 id="二、第一階段──小吃街的野蠻生長"><a href="#二、第一階段──小吃街的野蠻生長" class="headerlink" title="二、第一階段──小吃街的野蠻生長"></a>二、第一階段──小吃街的野蠻生長</h2><h3 id="（一）、概述"><a href="#（一）、概述" class="headerlink" title="（一）、概述"></a>（一）、概述</h3><p>  哈爾濱是一個相對缺乏夜生活的城市，而小吃街是我小時候印象里為數不多的夜生活，一般從晚上6點開始營業，夏天有時在12點依舊十分熱鬧，冬天則要早些，但零下二十餘度的嚴寒里依舊可以川流不息到10、11點。南崗區是哈師大小吃一條街、黑大後街等、道外區則是西八道街馬迪爾、北七道街等。<br>  師大外除去由流動攤販組成的小吃街，也遍佈著東北所稱的“大排檔”，正如Making sense of urban food festivals談及Nottingham的食物和飲酒節依託于在地背景，“大排檔”文化也必須要散落在東北，乃至哈爾濱的背景中理解。<br>  這些小吃街與其周邊營業時間穩定且更長的“大排檔”（夏天時常常是露天的）形成互補，直接指向的是在地居民（學生、流動人口、社區居民等，後文有介紹），爾後是慕名的訪客，在夜色裡將城市各個角落的人連接在了一起。<br>  在大排檔的飯桌上，幾瓶冰鎮啤酒，一堆牛羊肉串，烤麵包、烤雞翅等等，一個盛夏的夜晚就這樣悄然度過。</p>
 <p>  小吃街在我搬到師大時已經初具規模，何時真正開始出現已經不可考證，但無疑，在我的小學階段，小吃街一直處於合法性的危機中。<br>  也即，流動的、個體的、無食品安全保障，甚至是直接使用垃圾食品作為原料的流動小吃攤販們，中間或許一些供應者走了，而又不斷有新的供應者湧入，不間斷地延續了哈師大小吃一條街的活力。</p>
 <p>  如果一定要用一些詞彙形容，小吃街大概是一種粗野生長的、有著很粗糙的市場競爭性的空間，那裡充斥著各種味道的糟糕空氣、分不清有沒有地溝油的食品、人流密集擁擠的街道、汽車的鳴笛聲和食品攤販的吆喝聲混雜。<br>  與食品伴生的，是一些盜版書籍、廉價飾品、手機貼膜、批發衣服的攤販們，各種各樣的草根性攤面以食物為核心，迎合著各色人群。</p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-02T03:26:15.000Z</updated>
+  <updated>2016-06-02T09:53:13.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,13 +16,80 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>R語言基礎：R的語法</title>
+    <link href="http://yoursite.com/2016/06/02/R%E8%AA%9E%E8%A8%80%E5%9F%BA%E7%A4%8E%EF%BC%9AR%E7%9A%84%E8%AA%9E%E6%B3%95/"/>
+    <id>http://yoursite.com/2016/06/02/R語言基礎：R的語法/</id>
+    <published>2016-06-02T09:52:00.000Z</published>
+    <updated>2016-06-02T09:53:13.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、判斷語句&quot;&gt;&lt;a href=&quot;#一、判斷語句&quot; class=&quot;headerlink&quot; title=&quot;一、判斷語句&quot;&gt;&lt;/a&gt;一、判斷語句&lt;/h2&gt;&lt;h3 id=&quot;1-基於計算機邏輯-Three-valued-Logic&quot;&gt;&lt;a href=&quot;#1-基於計算機邏輯-Three-valued-Logic&quot; class=&quot;headerlink&quot; title=&quot;1.基於計算機邏輯 Three-valued Logic&quot;&gt;&lt;/a&gt;1.基於計算機邏輯 Three-valued Logic&lt;/h3&gt;&lt;h4 id=&quot;1）大小號的使用&quot;&gt;&lt;a href=&quot;#1）大小號的使用&quot; class=&quot;headerlink&quot; title=&quot;1）大小號的使用&quot;&gt;&lt;/a&gt;1）大小號的使用&lt;/h4&gt;&lt;p&gt;大於 &amp;gt;&lt;br&gt;大於等於 &amp;gt;=&lt;br&gt;小於 &amp;lt;&lt;br&gt;小於等於 &amp;lt;=  &lt;/p&gt;
+&lt;h4 id=&quot;2）等號的使用&quot;&gt;&lt;a href=&quot;#2）等號的使用&quot; class=&quot;headerlink&quot; title=&quot;2）等號的使用&quot;&gt;&lt;/a&gt;2）等號的使用&lt;/h4&gt;&lt;p&gt;等於 ==&lt;br&gt;賦值 =&lt;br&gt;# 賦值的另一種嚴謹寫法是 -&amp;gt;  &lt;/p&gt;
+&lt;p&gt;不等於 !=&lt;br&gt;x且y x&amp;amp;y&lt;br&gt;x或y x|y    &lt;/p&gt;
+&lt;p&gt;# 範例 賦值x為1,2,3,4&lt;br&gt;x = c(1,2,3,4) &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;二、循環語句-Control-Flow&quot;&gt;&lt;a href=&quot;#二、循環語句-Control-Flow&quot; class=&quot;headerlink&quot; title=&quot;二、循環語句 Control Flow&quot;&gt;&lt;/a&gt;二、循環語句 Control Flow&lt;/h2&gt;&lt;h3 id=&quot;（一）、for-loop&quot;&gt;&lt;a href=&quot;#（一）、for-loop&quot; class=&quot;headerlink&quot; title=&quot;（一）、for loop&quot;&gt;&lt;/a&gt;（一）、for loop&lt;/h3&gt;&lt;p&gt;for(i in 1:10){&lt;br&gt;print(i)&lt;br&gt;}&lt;/p&gt;
+&lt;p&gt;# 基本邏輯 如下圖&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/15739240/b1330d44-28e1-11e6-854a-0542eef2b0aa.png&quot; alt=&quot;Aaron Swartz&quot;&gt;&lt;/p&gt;
+&lt;p&gt;# i 進入，是True，進入，c增加一個值回去再重新判斷，&lt;br&gt;直到FALSE&lt;br&gt;# 1、2、3直到10，還是符合進入，11不符合，結束  &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;（二）、whlie-loop&quot;&gt;&lt;a href=&quot;#（二）、whlie-loop&quot; class=&quot;headerlink&quot; title=&quot;（二）、whlie loop&quot;&gt;&lt;/a&gt;（二）、whlie loop&lt;/h3&gt;&lt;p&gt;i=1&lt;br&gt;while(1 &amp;lt;= 10){&lt;br&gt;print(i)&lt;br&gt;i=i+1&lt;br&gt;}&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;# 基本邏輯 如下圖&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/15739295/e675dd1a-28e1-11e6-9a31-24a8d0e3cbfa.png  =300x400&quot; alt=&quot;Aaron Swartz&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;# 注意：盡量用向量和function解決，loop的語句較慢，R不以運算速度見長，能不用就不用&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;三、條件語句-If-Else&quot;&gt;&lt;a href=&quot;#三、條件語句-If-Else&quot; class=&quot;headerlink&quot; title=&quot;三、條件語句 If Else&quot;&gt;&lt;/a&gt;三、條件語句 If Else&lt;/h2&gt;&lt;h3 id=&quot;（一）、If語句&quot;&gt;&lt;a href=&quot;#（一）、If語句&quot; class=&quot;headerlink&quot; title=&quot;（一）、If語句&quot;&gt;&lt;/a&gt;（一）、If語句&lt;/h3&gt;&lt;p&gt;# == 意義是「等於」&lt;/p&gt;
+&lt;p&gt;i=1&lt;br&gt;if(i == 1){&lt;br&gt;print(“hello world!”)&lt;br&gt;}&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;（二）、if-else語句&quot;&gt;&lt;a href=&quot;#（二）、if-else語句&quot; class=&quot;headerlink&quot; title=&quot;（二）、if else語句&quot;&gt;&lt;/a&gt;（二）、if else語句&lt;/h3&gt;&lt;p&gt;# else不是必須的&lt;/p&gt;
+&lt;p&gt;i=2&lt;br&gt;if(i == 1){&lt;br&gt;print(“hello world!”)&lt;br&gt;}&lt;br&gt;else{&lt;br&gt;print(“Goodbye World!”)&lt;br&gt;}&lt;/p&gt;
+&lt;p&gt;# elseif R語言未內置，實際是switch，&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;（三）、switch語句&quot;&gt;&lt;a href=&quot;#（三）、switch語句&quot; class=&quot;headerlink&quot; title=&quot;（三）、switch語句&quot;&gt;&lt;/a&gt;（三）、switch語句&lt;/h3&gt;&lt;p&gt;# switch&lt;br&gt;# switch(expression, cnoditions)  &lt;/p&gt;
+&lt;p&gt;feelings = c(“love”, “bigface”)  &lt;/p&gt;
+&lt;p&gt;for (i in feelings){&lt;br&gt;print(&lt;br&gt;&amp;nbsp;&amp;nbsp;switch(i,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;love = “hhh, coz I’m too handsome”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;like = “yeah, I konw u like my sociology blog”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hate = “Never mind, u will love me finally”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bigface = “hhh, u are so cute”&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;}  &lt;/p&gt;
+&lt;p&gt;# 輸出的是”hhh, coz I’m too handsome” “hhh, u are so cute”&lt;br&gt;# 你也可以嘗試用中文寫一個把妹的段子 :)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;四、自定義的Function-Uesr-define-function&quot;&gt;&lt;a href=&quot;#四、自定義的Function-Uesr-define-function&quot; class=&quot;headerlink&quot; title=&quot;四、自定義的Function  Uesr-define function&quot;&gt;&lt;/a&gt;四、自定義的Function  Uesr-define function&lt;/h2&gt;&lt;p&gt;#function(x,x,x) 內部需要幾個參數，return根據情況寫，這裡是隨便寫的函數&lt;br&gt;myfunction = function(x,a,b,c){&lt;br&gt;return(a*sin(x)^2-b*x+c)&lt;br&gt;}&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;#畫出函數，curve 的第一個空格必須是一個函數，xlimit設置了起點和終點&lt;br&gt;curve(myfunction(x,20,3,4),xlim=c(1,20))&lt;br&gt;curve(exp(x),xlim=c(1,20))  &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;#練習定義一個實際的function&lt;br&gt;myfeeling = function(x){&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for(i in x){&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;switch(i,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;happy = “I am glad you are happy”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;afraid = “There is nothing to fear”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sad    = “Cheer up”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;angry  = “Calm down now”&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;}&lt;br&gt;feelings=c(“sad”,”afraid”)&lt;br&gt;myfeeling(feelings)&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;五、基本指令：包的安裝、載入與升級&quot;&gt;&lt;a href=&quot;#五、基本指令：包的安裝、載入與升級&quot; class=&quot;headerlink&quot; title=&quot;五、基本指令：包的安裝、載入與升級&quot;&gt;&lt;/a&gt;五、基本指令：包的安裝、載入與升級&lt;/h2&gt;&lt;p&gt;install.packages(“xxx”)&lt;br&gt;library(xxx)&lt;br&gt;update.packages()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;六、補充-factor&quot;&gt;&lt;a href=&quot;#六、補充-factor&quot; class=&quot;headerlink&quot; title=&quot;六、補充 factor&quot;&gt;&lt;/a&gt;六、補充 factor&lt;/h2&gt;&lt;p&gt;#好似標記，給向量、矩陣標記&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1、自動計算&quot;&gt;&lt;a href=&quot;#1、自動計算&quot; class=&quot;headerlink&quot; title=&quot;1、自動計算&quot;&gt;&lt;/a&gt;1、自動計算&lt;/h3&gt;&lt;p&gt;#rep循環&lt;br&gt;factor=factor( rep(c(1:3), times=5) )&lt;br&gt;&lt;br&gt;&lt;br&gt;#0-100選15個數字的隨機樣本&lt;br&gt;x=sample(100,15)&lt;br&gt;&lt;br&gt;&lt;br&gt;#x用factor來標記的平均數&lt;br&gt;tapply(x,factor,mean)&lt;/p&gt;
+&lt;h3 id=&quot;2、手動計算驗證&quot;&gt;&lt;a href=&quot;#2、手動計算驗證&quot; class=&quot;headerlink&quot; title=&quot;2、手動計算驗證&quot;&gt;&lt;/a&gt;2、手動計算驗證&lt;/h3&gt;&lt;p&gt;#看一下x里 哪些數被標記了&lt;br&gt;rbind(x,factor)&lt;br&gt;&lt;br&gt;&lt;br&gt;#手動求一下，合成為2行，查看所有被標記為2的平均數&lt;br&gt;boo =rbind(x,factor)[2,]==2&lt;br&gt;&lt;br&gt;&lt;br&gt;#返回所有是TRUE的序列號&lt;br&gt;which(boo)&lt;br&gt;&lt;br&gt;&lt;br&gt;#查看返回的那部分和之前的是不是一樣的&lt;br&gt;rbind(x,factor)[1,which(boo)]&lt;br&gt;&lt;br&gt;&lt;br&gt;#查看和/長度＝平均數&lt;br&gt;sum(brind(x,factor)[1,which(boo)])/length(which(boo))&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&quot;吐槽&quot;&gt;&lt;a href=&quot;#吐槽&quot; class=&quot;headerlink&quot; title=&quot;吐槽&quot;&gt;&lt;/a&gt;吐槽&lt;/h4&gt;&lt;p&gt;Markdown寫這篇介紹略麻煩，但多少希望對后讀者有些許借鑒。&lt;br&gt;2016.6.2&lt;br&gt;閆譽騰 高雄&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、判斷語句&quot;&gt;&lt;a href=&quot;#一、判斷語句&quot; class=&quot;headerlink&quot; title=&quot;一、判斷語句&quot;&gt;&lt;/a&gt;一、判斷語句&lt;/h2&gt;&lt;h3 id=&quot;1-基於計算機邏輯-Three-valued-Logic&quot;&gt;&lt;a href
+    
+    </summary>
+    
+      <category term="Program" scheme="http://yoursite.com/categories/Program/"/>
+    
+    
+      <category term="R" scheme="http://yoursite.com/tags/R/"/>
+    
+      <category term="Logic" scheme="http://yoursite.com/tags/Logic/"/>
+    
+      <category term="Loop" scheme="http://yoursite.com/tags/Loop/"/>
+    
+      <category term="Function" scheme="http://yoursite.com/tags/Function/"/>
+    
+      <category term="Factor" scheme="http://yoursite.com/tags/Factor/"/>
+    
+  </entry>
+  
+  <entry>
     <title>哈師大小吃一條街 雜談</title>
     <link href="http://yoursite.com/2016/05/26/%E5%93%88%E5%B8%AB%E5%A4%A7%E5%B0%8F%E5%90%83%E4%B8%80%E6%A2%9D%E8%A1%97%20%E9%9B%9C%E8%AB%87/"/>
     <id>http://yoursite.com/2016/05/26/哈師大小吃一條街 雜談/</id>
     <published>2016-05-25T17:21:00.000Z</published>
-    <updated>2016-06-02T03:26:15.000Z</updated>
+    <updated>2016-06-02T08:55:54.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;一、引文&quot;&gt;&lt;a href=&quot;#一、引文&quot; class=&quot;headerlink&quot; title=&quot;一、引文&quot;&gt;&lt;/a&gt;一、引文&lt;/h2&gt;&lt;p&gt;  2002年左右我上小學，我父母搬家到和興路的哈爾濱師範大學南崗校區旁，一直住到2016年初（也即今年），而今年7月我父母則計劃搬家到群力新區。&lt;br&gt;  我在哈師大旁也算住了近15年，在讀《Foodies Remaking Cities》時，作者開篇便提及了：“美食街的食物、小吃車連接了都市的活力與多樣性。[1]”由此觸動了我很多個人的經驗，我在網路搜索也未見任何有關哈師大小吃街發展歷程的文章，便想就此機會大致寫下我對哈師大小吃街十餘年的記憶，或有記憶的錯誤，還請后讀是文者原諒。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://https://cloud.githubusercontent.com/assets/19641933/15739366/4d62d262-28e2-11e6-9f47-ff757e2a4c68.jpg&quot; alt=&quot;哈師大夜市&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;二、第一階段──小吃街的野蠻生長&quot;&gt;&lt;a href=&quot;#二、第一階段──小吃街的野蠻生長&quot; class=&quot;headerlink&quot; title=&quot;二、第一階段──小吃街的野蠻生長&quot;&gt;&lt;/a&gt;二、第一階段──小吃街的野蠻生長&lt;/h2&gt;&lt;h3 id=&quot;（一）、概述&quot;&gt;&lt;a href=&quot;#（一）、概述&quot; class=&quot;headerlink&quot; title=&quot;（一）、概述&quot;&gt;&lt;/a&gt;（一）、概述&lt;/h3&gt;&lt;p&gt;  哈爾濱是一個相對缺乏夜生活的城市，而小吃街是我小時候印象里為數不多的夜生活，一般從晚上6點開始營業，夏天有時在12點依舊十分熱鬧，冬天則要早些，但零下二十餘度的嚴寒里依舊可以川流不息到10、11點。南崗區是哈師大小吃一條街、黑大後街等、道外區則是西八道街馬迪爾、北七道街等。&lt;br&gt;  師大外除去由流動攤販組成的小吃街，也遍佈著東北所稱的“大排檔”，正如Making sense of urban food festivals談及Nottingham的食物和飲酒節依託于在地背景，“大排檔”文化也必須要散落在東北，乃至哈爾濱的背景中理解。&lt;br&gt;  這些小吃街與其周邊營業時間穩定且更長的“大排檔”（夏天時常常是露天的）形成互補，直接指向的是在地居民（學生、流動人口、社區居民等，後文有介紹），爾後是慕名的訪客，在夜色裡將城市各個角落的人連接在了一起。&lt;br&gt;  在大排檔的飯桌上，幾瓶冰鎮啤酒，一堆牛羊肉串，烤麵包、烤雞翅等等，一個盛夏的夜晚就這樣悄然度過。&lt;/p&gt;
 &lt;p&gt;  小吃街在我搬到師大時已經初具規模，何時真正開始出現已經不可考證，但無疑，在我的小學階段，小吃街一直處於合法性的危機中。&lt;br&gt;  也即，流動的、個體的、無食品安全保障，甚至是直接使用垃圾食品作為原料的流動小吃攤販們，中間或許一些供應者走了，而又不斷有新的供應者湧入，不間斷地延續了哈師大小吃一條街的活力。&lt;/p&gt;
 &lt;p&gt;  如果一定要用一些詞彙形容，小吃街大概是一種粗野生長的、有著很粗糙的市場競爭性的空間，那裡充斥著各種味道的糟糕空氣、分不清有沒有地溝油的食品、人流密集擁擠的街道、汽車的鳴笛聲和食品攤販的吆喝聲混雜。&lt;br&gt;  與食品伴生的，是一些盜版書籍、廉價飾品、手機貼膜、批發衣服的攤販們，各種各樣的草根性攤面以食物為核心，迎合著各色人群。&lt;/p&gt;
@@ -1045,40 +1112,6 @@
       <category term="左派" scheme="http://yoursite.com/tags/%E5%B7%A6%E6%B4%BE/"/>
     
       <category term="右派" scheme="http://yoursite.com/tags/%E5%8F%B3%E6%B4%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日记 国际歌与些许社会学疑惑</title>
-    <link href="http://yoursite.com/2015/11/26/%E6%97%A5%E8%AE%B0%20%E5%9B%BD%E9%99%85%E6%AD%8C%E4%B8%8E%E4%BA%9B%E8%AE%B8%E7%A4%BE%E4%BC%9A%E5%AD%A6%E7%96%91%E6%83%91/"/>
-    <id>http://yoursite.com/2015/11/26/日记 国际歌与些许社会学疑惑/</id>
-    <published>2015-11-26T15:48:15.000Z</published>
-    <updated>2016-06-01T08:08:24.000Z</updated>
-    
-    <content type="html">&lt;p&gt;2015.11.24&lt;br&gt;  今日仿若突然明白了一件事情。&lt;br&gt;  一直以来始终活于小我，前些日子读《近四十年中国社会思潮》时，对民众的不屑似乎更为明显，沾了知识的光亮，仿佛自己已是高人一等，而今日始觉康德因卢梭之转变，亦是于我个人之冲击。&lt;br&gt;  知识的作用，在未能为大众真正谋得福利前，大抵不如劳动者，能直接创造价值的大众以实在的劳动对抗虚无，知识分子以思考对抗虚无。&lt;br&gt;  而一国家终归不能消除，甚至助涨民族主义之情节，一人为人，当不为一教，不为一国，而为全人类而奋斗，如此回头看共产国际初创的崇高，高山仰止矣。&lt;br&gt;  人类历史，亦确乎曾有那一时期，国际主义者为国际潮流，赤旗与自由主义的分野，于其根本出发点，又大抵无甚不同。&lt;br&gt;  思至此，当初周恩来总理“为中华之崛起而读书”似乎又显得小气了，固然又不免有人要嘲笑我了，但真的猛士又岂为外人所动。&lt;br&gt;  虽千万人吾往矣，何等的气魄，而这种转变也似乎让精神世界变得波澜壮阔。&lt;/p&gt;
-&lt;p&gt;  晚上同班级合唱《国际歌》，固所愿也。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;2015.11.25&lt;br&gt;  文明史上问邵老师，社会学的核心立足点是什么，老师答为关系，研究人与人、人与社会、社会与社会之间的关系。&lt;br&gt;  老实讲，这个回答并未解惑。&lt;br&gt;  一方面，我依旧疑惑社会学的研究对象过于空泛，一方面，我又觉得社会学不应该囿于一隅。&lt;br&gt;  乃及至社会学者应不应该成为一个百科全书式的学者。&lt;br&gt;  吃饭的时候，猛然突然，大抵不是因为时代使我们不能成为百科全书的学者，就不去成为。而是因为即便成为百科全书，相对于整个文明而言，与单一的某一个视角没有什么本质区别。&lt;br&gt;  放大来看，个人的几个视角综合依旧是小视角，因此而不用刻意的去成为百科全书式学者。&lt;/p&gt;
-&lt;p&gt;  但到底，社会学的研究领域如此宽泛，不免让我浮想以及迷茫。&lt;br&gt;  倾向，从经济学转向社会学，前阵子仿若欲转向政治学，而近来又转回社会学。&lt;br&gt;  大抵社会科学之困窘，非我一人之力可穷。&lt;/p&gt;
-&lt;p&gt;  自习至10:49，英语要求的单词业已背完，但练习册一字未看，心底只能算是勉强有些底气了。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2015.11.24&lt;br&gt;  今日仿若突然明白了一件事情。&lt;br&gt;  一直以来始终活于小我，前些日子读《近四十年中国社会思潮》时，对民众的不屑似乎更为明显，沾了知识的光亮，仿佛自己已是高人一等，而今日始觉康德因卢梭之转变，亦是于我个人之冲击。&lt;br&gt;  知识的作用，在未能为大众真正谋得福利前，大抵不如劳动者，能直接创造价值的大众以实在的劳动对抗虚无，知识分子以思考对抗虚无。&lt;br&gt;  而一国家终归不能消除，甚至助涨民族主义之情节，一人为人，当不为一教，不为一国，而为全人类而奋斗，如此回头看共产国际初创的崇高，高山仰止矣。&lt;br&gt;  人类历史，亦确乎曾有那一时期，国际主义者为国际潮流，赤旗与自由主义的分野，于其根本出发点，又大抵无甚不同。&lt;br&gt;  思至此，当初周恩来总理“为中华之崛起而读书”似乎又显得小气了，固然又不免有人要嘲笑我了，但真的猛士又岂为外人所动。&lt;br&gt;  虽千万人吾往矣，何等的气魄，而这种转变也似乎让精神世界变得波澜壮阔。&lt;/p&gt;
-&lt;p&gt;  晚上同班级合唱《国际歌》，固所愿也。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Prose" scheme="http://yoursite.com/categories/Prose/"/>
-    
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="知识分子" scheme="http://yoursite.com/tags/%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90/"/>
-    
-      <category term="国际" scheme="http://yoursite.com/tags/%E5%9B%BD%E9%99%85/"/>
     
   </entry>
   
