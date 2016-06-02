@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-02T09:53:13.000Z</updated>
+  <updated>2016-06-02T10:02:28.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,49 +20,49 @@
     <link href="http://yoursite.com/2016/06/02/R%E8%AA%9E%E8%A8%80%E5%9F%BA%E7%A4%8E%EF%BC%9AR%E7%9A%84%E8%AA%9E%E6%B3%95/"/>
     <id>http://yoursite.com/2016/06/02/R語言基礎：R的語法/</id>
     <published>2016-06-02T09:52:00.000Z</published>
-    <updated>2016-06-02T09:53:13.000Z</updated>
+    <updated>2016-06-02T10:02:28.000Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;一、判斷語句&quot;&gt;&lt;a href=&quot;#一、判斷語句&quot; class=&quot;headerlink&quot; title=&quot;一、判斷語句&quot;&gt;&lt;/a&gt;一、判斷語句&lt;/h2&gt;&lt;h3 id=&quot;1-基於計算機邏輯-Three-valued-Logic&quot;&gt;&lt;a href=&quot;#1-基於計算機邏輯-Three-valued-Logic&quot; class=&quot;headerlink&quot; title=&quot;1.基於計算機邏輯 Three-valued Logic&quot;&gt;&lt;/a&gt;1.基於計算機邏輯 Three-valued Logic&lt;/h3&gt;&lt;h4 id=&quot;1）大小號的使用&quot;&gt;&lt;a href=&quot;#1）大小號的使用&quot; class=&quot;headerlink&quot; title=&quot;1）大小號的使用&quot;&gt;&lt;/a&gt;1）大小號的使用&lt;/h4&gt;&lt;p&gt;大於 &amp;gt;&lt;br&gt;大於等於 &amp;gt;=&lt;br&gt;小於 &amp;lt;&lt;br&gt;小於等於 &amp;lt;=  &lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;一、判斷語句&quot;&gt;&lt;a href=&quot;#一、判斷語句&quot; class=&quot;headerlink&quot; title=&quot;一、判斷語句&quot;&gt;&lt;/a&gt;一、判斷語句&lt;/h2&gt;&lt;h3 id=&quot;1-基於計算機邏輯-Three-valued-Logic&quot;&gt;&lt;a href=&quot;#1-基於計算機邏輯-Three-valued-Logic&quot; class=&quot;headerlink&quot; title=&quot;1.基於計算機邏輯 Three-valued Logic&quot;&gt;&lt;/a&gt;1.基於計算機邏輯 Three-valued Logic&lt;/h3&gt;&lt;h4 id=&quot;1）大小號的使用&quot;&gt;&lt;a href=&quot;#1）大小號的使用&quot; class=&quot;headerlink&quot; title=&quot;1）大小號的使用&quot;&gt;&lt;/a&gt;1）大小號的使用&lt;/h4&gt;&lt;p&gt;大於 &amp;gt;&lt;br&gt;大於等於 &amp;gt;=&lt;br&gt;小於 &amp;lt;&lt;br&gt;小於等於 &amp;lt;=  &lt;/p&gt;
 &lt;h4 id=&quot;2）等號的使用&quot;&gt;&lt;a href=&quot;#2）等號的使用&quot; class=&quot;headerlink&quot; title=&quot;2）等號的使用&quot;&gt;&lt;/a&gt;2）等號的使用&lt;/h4&gt;&lt;p&gt;等於 ==&lt;br&gt;賦值 =&lt;br&gt;# 賦值的另一種嚴謹寫法是 -&amp;gt;  &lt;/p&gt;
 &lt;p&gt;不等於 !=&lt;br&gt;x且y x&amp;amp;y&lt;br&gt;x或y x|y    &lt;/p&gt;
 &lt;p&gt;# 範例 賦值x為1,2,3,4&lt;br&gt;x = c(1,2,3,4) &lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;二、循環語句-Control-Flow&quot;&gt;&lt;a href=&quot;#二、循環語句-Control-Flow&quot; class=&quot;headerlink&quot; title=&quot;二、循環語句 Control Flow&quot;&gt;&lt;/a&gt;二、循環語句 Control Flow&lt;/h2&gt;&lt;h3 id=&quot;（一）、for-loop&quot;&gt;&lt;a href=&quot;#（一）、for-loop&quot; class=&quot;headerlink&quot; title=&quot;（一）、for loop&quot;&gt;&lt;/a&gt;（一）、for loop&lt;/h3&gt;&lt;p&gt;for(i in 1:10){&lt;br&gt;print(i)&lt;br&gt;}&lt;/p&gt;
+&lt;h2 id=&quot;二、循環語句-Control-Flow&quot;&gt;&lt;a href=&quot;#二、循環語句-Control-Flow&quot; class=&quot;headerlink&quot; title=&quot;二、循環語句 Control Flow&quot;&gt;&lt;/a&gt;二、循環語句 Control Flow&lt;/h2&gt;&lt;h3 id=&quot;（一）、for-loop&quot;&gt;&lt;a href=&quot;#（一）、for-loop&quot; class=&quot;headerlink&quot; title=&quot;（一）、for loop&quot;&gt;&lt;/a&gt;（一）、for loop&lt;/h3&gt;&lt;p&gt;for(i in 1:10){&lt;br&gt;print(i)&lt;br&gt;}&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;# 基本邏輯 如下圖&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/15739240/b1330d44-28e1-11e6-854a-0542eef2b0aa.png&quot; alt=&quot;Aaron Swartz&quot;&gt;&lt;/p&gt;
 &lt;p&gt;# i 進入，是True，進入，c增加一個值回去再重新判斷，&lt;br&gt;直到FALSE&lt;br&gt;# 1、2、3直到10，還是符合進入，11不符合，結束  &lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;（二）、whlie-loop&quot;&gt;&lt;a href=&quot;#（二）、whlie-loop&quot; class=&quot;headerlink&quot; title=&quot;（二）、whlie loop&quot;&gt;&lt;/a&gt;（二）、whlie loop&lt;/h3&gt;&lt;p&gt;i=1&lt;br&gt;while(1 &amp;lt;= 10){&lt;br&gt;print(i)&lt;br&gt;i=i+1&lt;br&gt;}&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;# 基本邏輯 如下圖&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/15739295/e675dd1a-28e1-11e6-9a31-24a8d0e3cbfa.png  =300x400&quot; alt=&quot;Aaron Swartz&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;# 注意：盡量用向量和function解決，loop的語句較慢，R不以運算速度見長，能不用就不用&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;# 基本邏輯 如下圖( =200x200沒有識別，等我有時間再更換圖片)&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/15739295/e675dd1a-28e1-11e6-9a31-24a8d0e3cbfa.png&quot; alt=&quot;Aaron Swartz&quot;&gt;&lt;/p&gt;
+&lt;p&gt;# 注意：盡量用向量和function解決，loop的語句較慢，R不以運算速度見長，能不用就不用&lt;/p&gt;
 &lt;h2 id=&quot;三、條件語句-If-Else&quot;&gt;&lt;a href=&quot;#三、條件語句-If-Else&quot; class=&quot;headerlink&quot; title=&quot;三、條件語句 If Else&quot;&gt;&lt;/a&gt;三、條件語句 If Else&lt;/h2&gt;&lt;h3 id=&quot;（一）、If語句&quot;&gt;&lt;a href=&quot;#（一）、If語句&quot; class=&quot;headerlink&quot; title=&quot;（一）、If語句&quot;&gt;&lt;/a&gt;（一）、If語句&lt;/h3&gt;&lt;p&gt;# == 意義是「等於」&lt;/p&gt;
 &lt;p&gt;i=1&lt;br&gt;if(i == 1){&lt;br&gt;print(“hello world!”)&lt;br&gt;}&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;（二）、if-else語句&quot;&gt;&lt;a href=&quot;#（二）、if-else語句&quot; class=&quot;headerlink&quot; title=&quot;（二）、if else語句&quot;&gt;&lt;/a&gt;（二）、if else語句&lt;/h3&gt;&lt;p&gt;# else不是必須的&lt;/p&gt;
 &lt;p&gt;i=2&lt;br&gt;if(i == 1){&lt;br&gt;print(“hello world!”)&lt;br&gt;}&lt;br&gt;else{&lt;br&gt;print(“Goodbye World!”)&lt;br&gt;}&lt;/p&gt;
 &lt;p&gt;# elseif R語言未內置，實際是switch，&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;（三）、switch語句&quot;&gt;&lt;a href=&quot;#（三）、switch語句&quot; class=&quot;headerlink&quot; title=&quot;（三）、switch語句&quot;&gt;&lt;/a&gt;（三）、switch語句&lt;/h3&gt;&lt;p&gt;# switch&lt;br&gt;# switch(expression, cnoditions)  &lt;/p&gt;
-&lt;p&gt;feelings = c(“love”, “bigface”)  &lt;/p&gt;
-&lt;p&gt;for (i in feelings){&lt;br&gt;print(&lt;br&gt;&amp;nbsp;&amp;nbsp;switch(i,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;love = “hhh, coz I’m too handsome”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;like = “yeah, I konw u like my sociology blog”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hate = “Never mind, u will love me finally”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bigface = “hhh, u are so cute”&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;}  &lt;/p&gt;
-&lt;p&gt;# 輸出的是”hhh, coz I’m too handsome” “hhh, u are so cute”&lt;br&gt;# 你也可以嘗試用中文寫一個把妹的段子 :)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;feelings = c(“love”, “bigface”)&lt;br&gt;for (i in feelings){&lt;br&gt;print(&lt;br&gt;&amp;nbsp;&amp;nbsp;switch(i,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;love = “hhh, coz I’m too handsome”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;like = “yeah, I konw u like my sociology blog”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hate = “Never mind, u will love me finally”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bigface = “hhh, u are so cute”&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;}  &lt;/p&gt;
+&lt;p&gt;# 輸出的是”hhh, coz I’m too handsome” “hhh, u are so cute”&lt;br&gt;# 你也可以嘗試用中文寫一個把妹的段子 :)&lt;/p&gt;
 &lt;h2 id=&quot;四、自定義的Function-Uesr-define-function&quot;&gt;&lt;a href=&quot;#四、自定義的Function-Uesr-define-function&quot; class=&quot;headerlink&quot; title=&quot;四、自定義的Function  Uesr-define function&quot;&gt;&lt;/a&gt;四、自定義的Function  Uesr-define function&lt;/h2&gt;&lt;p&gt;#function(x,x,x) 內部需要幾個參數，return根據情況寫，這裡是隨便寫的函數&lt;br&gt;myfunction = function(x,a,b,c){&lt;br&gt;return(a*sin(x)^2-b*x+c)&lt;br&gt;}&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;#畫出函數，curve 的第一個空格必須是一個函數，xlimit設置了起點和終點&lt;br&gt;curve(myfunction(x,20,3,4),xlim=c(1,20))&lt;br&gt;curve(exp(x),xlim=c(1,20))  &lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;#練習定義一個實際的function&lt;br&gt;myfeeling = function(x){&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for(i in x){&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;switch(i,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;happy = “I am glad you are happy”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;afraid = “There is nothing to fear”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sad    = “Cheer up”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;angry  = “Calm down now”&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;}&lt;br&gt;feelings=c(“sad”,”afraid”)&lt;br&gt;myfeeling(feelings)&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;五、基本指令：包的安裝、載入與升級&quot;&gt;&lt;a href=&quot;#五、基本指令：包的安裝、載入與升級&quot; class=&quot;headerlink&quot; title=&quot;五、基本指令：包的安裝、載入與升級&quot;&gt;&lt;/a&gt;五、基本指令：包的安裝、載入與升級&lt;/h2&gt;&lt;p&gt;install.packages(“xxx”)&lt;br&gt;library(xxx)&lt;br&gt;update.packages()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;#畫出函數，curve 的第一個空格必須是一個函數，xlimit設置了起點和終點&lt;br&gt;curve(myfunction(x,20,3,4),xlim=c(1,20))&lt;br&gt;curve(exp(x),xlim=c(1,20))  &lt;/p&gt;
+&lt;p&gt;#練習定義一個實際的function&lt;br&gt;myfeeling = function(x){&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for(i in x){&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;switch(i,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;happy = “I am glad you are happy”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;afraid = “There is nothing to fear”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sad    = “Cheer up”,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;angry  = “Calm down now”&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br&gt;}&lt;br&gt;feelings=c(“sad”,”afraid”)&lt;br&gt;myfeeling(feelings)&lt;/p&gt;
+&lt;h2 id=&quot;五、基本指令：包的安裝、載入與升級&quot;&gt;&lt;a href=&quot;#五、基本指令：包的安裝、載入與升級&quot; class=&quot;headerlink&quot; title=&quot;五、基本指令：包的安裝、載入與升級&quot;&gt;&lt;/a&gt;五、基本指令：包的安裝、載入與升級&lt;/h2&gt;&lt;p&gt;install.packages(“xxx”)&lt;br&gt;library(xxx)&lt;br&gt;update.packages()&lt;/p&gt;
 &lt;h2 id=&quot;六、補充-factor&quot;&gt;&lt;a href=&quot;#六、補充-factor&quot; class=&quot;headerlink&quot; title=&quot;六、補充 factor&quot;&gt;&lt;/a&gt;六、補充 factor&lt;/h2&gt;&lt;p&gt;#好似標記，給向量、矩陣標記&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;1、自動計算&quot;&gt;&lt;a href=&quot;#1、自動計算&quot; class=&quot;headerlink&quot; title=&quot;1、自動計算&quot;&gt;&lt;/a&gt;1、自動計算&lt;/h3&gt;&lt;p&gt;#rep循環&lt;br&gt;factor=factor( rep(c(1:3), times=5) )&lt;br&gt;&lt;br&gt;&lt;br&gt;#0-100選15個數字的隨機樣本&lt;br&gt;x=sample(100,15)&lt;br&gt;&lt;br&gt;&lt;br&gt;#x用factor來標記的平均數&lt;br&gt;tapply(x,factor,mean)&lt;/p&gt;
-&lt;h3 id=&quot;2、手動計算驗證&quot;&gt;&lt;a href=&quot;#2、手動計算驗證&quot; class=&quot;headerlink&quot; title=&quot;2、手動計算驗證&quot;&gt;&lt;/a&gt;2、手動計算驗證&lt;/h3&gt;&lt;p&gt;#看一下x里 哪些數被標記了&lt;br&gt;rbind(x,factor)&lt;br&gt;&lt;br&gt;&lt;br&gt;#手動求一下，合成為2行，查看所有被標記為2的平均數&lt;br&gt;boo =rbind(x,factor)[2,]==2&lt;br&gt;&lt;br&gt;&lt;br&gt;#返回所有是TRUE的序列號&lt;br&gt;which(boo)&lt;br&gt;&lt;br&gt;&lt;br&gt;#查看返回的那部分和之前的是不是一樣的&lt;br&gt;rbind(x,factor)[1,which(boo)]&lt;br&gt;&lt;br&gt;&lt;br&gt;#查看和/長度＝平均數&lt;br&gt;sum(brind(x,factor)[1,which(boo)])/length(which(boo))&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h4 id=&quot;吐槽&quot;&gt;&lt;a href=&quot;#吐槽&quot; class=&quot;headerlink&quot; title=&quot;吐槽&quot;&gt;&lt;/a&gt;吐槽&lt;/h4&gt;&lt;p&gt;Markdown寫這篇介紹略麻煩，但多少希望對后讀者有些許借鑒。&lt;br&gt;2016.6.2&lt;br&gt;閆譽騰 高雄&lt;/p&gt;
+&lt;h3 id=&quot;1、自動計算&quot;&gt;&lt;a href=&quot;#1、自動計算&quot; class=&quot;headerlink&quot; title=&quot;1、自動計算&quot;&gt;&lt;/a&gt;1、自動計算&lt;/h3&gt;&lt;p&gt;#rep循環&lt;br&gt;factor=factor( rep(c(1:3), times=5) )&lt;/p&gt;
+&lt;p&gt;#0-100選15個數字的隨機樣本&lt;br&gt;x=sample(100,15)&lt;/p&gt;
+&lt;p&gt;#x用factor來標記的平均數&lt;br&gt;tapply(x,factor,mean)&lt;/p&gt;
+&lt;h3 id=&quot;2、手動計算驗證&quot;&gt;&lt;a href=&quot;#2、手動計算驗證&quot; class=&quot;headerlink&quot; title=&quot;2、手動計算驗證&quot;&gt;&lt;/a&gt;2、手動計算驗證&lt;/h3&gt;&lt;p&gt;#看一下x里 哪些數被標記了&lt;br&gt;rbind(x,factor)&lt;/p&gt;
+&lt;p&gt;#手動求一下，合成為2行，查看所有被標記為2的平均數&lt;br&gt;boo =rbind(x,factor)[2,]==2&lt;/p&gt;
+&lt;p&gt;#返回所有是TRUE的序列號&lt;br&gt;which(boo)&lt;/p&gt;
+&lt;p&gt;#查看返回的那部分和之前的是不是一樣的&lt;br&gt;rbind(x,factor)[1,which(boo)]&lt;/p&gt;
+&lt;p&gt;#查看和/長度＝平均數&lt;br&gt;sum(brind(x,factor)[1,which(boo)])/length(which(boo))&lt;/p&gt;
+&lt;p&gt;對於R，我是剛剛接觸不久的學生，這篇介紹多少只是希冀為後來者提供一些借鑒或參考。&lt;br&gt;2016.6.2&lt;br&gt;閆譽騰 高雄&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;一、判斷語句&quot;&gt;&lt;a href=&quot;#一、判斷語句&quot; class=&quot;headerlink&quot; title=&quot;一、判斷語句&quot;&gt;&lt;/a&gt;一、判斷語句&lt;/h2&gt;&lt;h3 id=&quot;1-基於計算機邏輯-Three-valued-Logic&quot;&gt;&lt;a href
+      &lt;h2 id=&quot;一、判斷語句&quot;&gt;&lt;a href=&quot;#一、判斷語句&quot; class=&quot;headerlink&quot; title=&quot;一、判斷語句&quot;&gt;&lt;/a&gt;一、判斷語句&lt;/h2&gt;&lt;h3 id=&quot;1-基於計算機邏輯-Three-valued-Logic&quot;&gt;&lt;a href=&quot;#1-基於計算機邏輯-Three-valued-Logic&quot; class=&quot;headerlink&quot; title=&quot;1.基於計算機邏輯 Three-valued Logic&quot;&gt;&lt;/a&gt;1.基於計算機邏輯 Three-valued Logic&lt;/h3&gt;&lt;h4 id=&quot;1）大小號的使用&quot;&gt;&lt;a href=&quot;#1）大小號的使用&quot; class=&quot;headerlink&quot; title=&quot;1）大小號的使用&quot;&gt;&lt;/a&gt;1）大小號的使用&lt;/h4&gt;&lt;p&gt;大於 &amp;gt;&lt;br&gt;大於等於 &amp;gt;=&lt;br&gt;小於 &amp;lt;&lt;br&gt;小於等於 &amp;lt;=  &lt;/p&gt;
+&lt;h4 id=&quot;2）等號的使用&quot;&gt;&lt;a href=&quot;#2）等號的使用&quot; class=&quot;headerlink&quot; title=&quot;2）等號的使用&quot;&gt;&lt;/a&gt;2）等號的使用&lt;/h4&gt;&lt;p&gt;等於 ==&lt;br&gt;賦值 =&lt;br&gt;# 賦值的另一種嚴謹寫法是 -&amp;gt;  &lt;/p&gt;
+&lt;p&gt;不等於 !=&lt;br&gt;x且y x&amp;amp;y&lt;br&gt;x或y x|y    &lt;/p&gt;
+&lt;p&gt;# 範例 賦值x為1,2,3,4&lt;br&gt;x = c(1,2,3,4) &lt;/p&gt;
+&lt;h2 id=&quot;二、循環語句-Control-Flow&quot;&gt;&lt;a href=&quot;#二、循環語句-Control-Flow&quot; class=&quot;headerlink&quot; title=&quot;二、循環語句 Control Flow&quot;&gt;&lt;/a&gt;二、循環語句 Control Flow&lt;/h2&gt;&lt;h3 id=&quot;（一）、for-loop&quot;&gt;&lt;a href=&quot;#（一）、for-loop&quot; class=&quot;headerlink&quot; title=&quot;（一）、for loop&quot;&gt;&lt;/a&gt;（一）、for loop&lt;/h3&gt;&lt;p&gt;for(i in 1:10){&lt;br&gt;print(i)&lt;br&gt;}&lt;br&gt;
     
     </summary>
     
