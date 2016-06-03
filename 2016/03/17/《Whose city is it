@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="sociology,urban,移民,city,Sassen," />
+  <meta name="keywords" content="urban,移民,city,sociology,Sassen," />
 
 
 
@@ -138,7 +138,7 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?d2fee4b6f8a566eb1e77d222d7786a7";
+      hm.src = "//hm.baidu.com/hm.js?0a4b91e42146075c064f7b30e32634d4";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -421,13 +421,13 @@
       
         <div class="post-tags">
           
-            <a href="/tags/sociology/" rel="tag">#sociology</a>
-          
             <a href="/tags/urban/" rel="tag">#urban</a>
           
             <a href="/tags/移民/" rel="tag">#移民</a>
           
             <a href="/tags/city/" rel="tag">#city</a>
+          
+            <a href="/tags/sociology/" rel="tag">#sociology</a>
           
             <a href="/tags/Sassen/" rel="tag">#Sassen</a>
           
