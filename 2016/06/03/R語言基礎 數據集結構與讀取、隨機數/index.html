@@ -1,0 +1,888 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="R,Vector,Matrix," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="AncientDemos" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="一、數據集結構（一）、向量 Vector1、含義向量就是一維數組,包含數字、字符、邏輯語句（TRUE&amp;amp;FALSE）,用c這個function組成
+2、操作a = c(1, 2, 5, 3, 6, -2, 4)b = c(“one”, “two”, “three”)c = c(TRUE, TRUE, TRUE, FALSE, TRUE, FALSE)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="R語言基礎 數據集結構與讀取、隨機數">
+<meta property="og:url" content="http://yoursite.com/2016/06/03/R語言基礎 數據集結構與讀取、隨機數/index.html">
+<meta property="og:site_name" content="AncientDemos">
+<meta property="og:description" content="一、數據集結構（一）、向量 Vector1、含義向量就是一維數組,包含數字、字符、邏輯語句（TRUE&amp;amp;FALSE）,用c這個function組成
+2、操作a = c(1, 2, 5, 3, 6, -2, 4)b = c(“one”, “two”, “three”)c = c(TRUE, TRUE, TRUE, FALSE, TRUE, FALSE)">
+<meta property="og:image" content="https://cloud.githubusercontent.com/assets/19641933/15773654/bf713826-29aa-11e6-89eb-1b2cbd2cc8a7.jpg">
+<meta property="og:image" content="https://cloud.githubusercontent.com/assets/19641933/15773659/c5b9c19e-29aa-11e6-9fcb-920f698192c4.jpg">
+<meta property="og:updated_time" content="2016-06-03T08:51:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="R語言基礎 數據集結構與讀取、隨機數">
+<meta name="twitter:description" content="一、數據集結構（一）、向量 Vector1、含義向量就是一維數組,包含數字、字符、邏輯語句（TRUE&amp;amp;FALSE）,用c這個function組成
+2、操作a = c(1, 2, 5, 3, 6, -2, 4)b = c(“one”, “two”, “three”)c = c(TRUE, TRUE, TRUE, FALSE, TRUE, FALSE)">
+<meta name="twitter:image" content="https://cloud.githubusercontent.com/assets/19641933/15773654/bf713826-29aa-11e6-89eb-1b2cbd2cc8a7.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6290758321678845000,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> R語言基礎 數據集結構與讀取、隨機數 | AncientDemos </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?d2fee4b6f8a566eb1e77d222d7786a7";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">AncientDemos</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">“A Sociology Dancer”</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                R語言基礎 數據集結構與讀取、隨機數
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-03T15:15:00+08:00" content="2016-06-03">
+              2016-06-03
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Program/" itemprop="url" rel="index">
+                    <span itemprop="name">Program</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/03/R語言基礎 數據集結構與讀取、隨機數/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/03/R語言基礎 數據集結構與讀取、隨機數/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="一、數據集結構"><a href="#一、數據集結構" class="headerlink" title="一、數據集結構"></a>一、數據集結構</h2><h3 id="（一）、向量-Vector"><a href="#（一）、向量-Vector" class="headerlink" title="（一）、向量 Vector"></a>（一）、向量 Vector</h3><p>1、含義<br>向量就是一維數組,包含數字、字符、邏輯語句（TRUE&amp;FALSE）,用c這個function組成</p>
+<p>2、操作<br>a = c(1, 2, 5, 3, 6, -2, 4)<br>b = c(“one”, “two”, “three”)<br>c = c(TRUE, TRUE, TRUE, FALSE, TRUE, FALSE)<br><a id="more"></a></p>
+<p>3、讀取<br>#賦值<br>v＝c(1,2,3,4,5,6,7)<br>#返回第2個,第4個,第3個<br>v[c(2,4,3)]<br>#返回第二個到第四個<br>v[2: 4]<br>#刪除第二個元素後的元素集<br>v[-2]<br>#刪除第二個到第四個元素<br>v[-2: -4]<br>#返回v中所有小於3的元素<br>v[v&lt;3]<br>#找到所有等於3的元素, =賦值, ==相等（出現的是序號）<br>which(v== 3)<br>#返回第一個最大值<br>which.max(v)<br>#返回第一個最小值<br>which.min(v)</p>
+<h3 id="（二）、矩陣-二維數組"><a href="#（二）、矩陣-二維數組" class="headerlink" title="（二）、矩陣 二維數組"></a>（二）、矩陣 二維數組</h3><p>1、含義<br>兩維數組,matrix這個function組成</p>
+<p>2、操作<br># 5行4列 nrow=5, ncol=4<br>#按行來填充數據<br>x = matrix(1: 20, nrow=5, ncol=4, byrow=TRUE)<br>#按列來填充數據,系統默認<br>y = matrix(1: 20, nrow=5, ncol=4, byrow=FALSE)</p>
+<p>3、矩陣內部數據簡單操作<br>#返回第二行<br>x[2,]<br>#返回第二列<br>x[,2]<br>#返回特定值,第1行第4列的數<br>x[1,4]<br>#其他例子<br>x[2,c(2,4)]<br>x[3: 5,2]</p>
+<p>#進一步定義matrix行和列的名字,要與其行列一致,否則會報錯<br>rnames = c(“apple”,”banana”,”orange”,”melon”,”corn”)<br>cnames = c(“cat”,”dog”,”bird”,”pig”)<br>x = matrix(1: 20, nrow=5, ncol=4, byrow=TRUE)<br>rownames(x) = rnames<br>colnames(x) = cnames<br>x<br>#簡化<br>x = matrix(1: 20, nrow=5, ncol=4, byrow=TRUE)<br>rownames(x)=c(“apple”,”banana”,”orange”,”melon”,”corn”)<br>colnames(x)=c(“cat”,”dog”,”bird”,”pig”)<br>x</p>
+<h3 id="（三）、多維矩陣-Array"><a href="#（三）、多維矩陣-Array" class="headerlink" title="（三）、多維矩陣 Array"></a>（三）、多維矩陣 Array</h3><p>#Array 數據來源；維度的長度,第2維幾個,第3維是幾個；dimnames默認不用設置,設置要用list處理<br>#展示第二維數組,三維以上沒有辦法很好顯示,所有C、D組合<br>dim1 = c(“A1”, “A2”)<br>dim2 = c(“B1”, “B2”, “B3”)<br>dim3 = c(“C1”, “C2”, “C3”, “C4”)<br>dim4 = c(“D1”, “D2”, “D3”)<br>z = array(1: 72, c(2, 3, 4, 3), dimnames=list(dim1, dim2, dim3, dim4))<br>z<br>#返回操作類似于matrix,返回第一維1,第二維2,第三維3,所有第四維<br>z[1,2,3,]</p>
+<h3 id="（四）、data-frame-使用"><a href="#（四）、data-frame-使用" class="headerlink" title="（四）、data.frame 使用"></a>（四）、data.frame 使用</h3><p>#一般是數量較多的大矩陣 兩維<br>1、練習輸入<br>patientID = c(1, 2, 3, 4)<br>age = c(25, 34, 28, 52)<br>diabetes = c(“Type1”, “Type2”, “Type1”, “Type1”)<br>status = c(“Poor”, “Improved”, “Excellent”, “Poor”)<br>patientdata = data.frame(patientID, age, diabetes, status)<br>patientdata</p>
+<p>2、操作<br>#取出前兩列內容<br>patientdata[,1: 2]<br>或patientdata[1: 2]<br>#取出前兩行內容<br>patientdata[1: 2,]<br>#取出第1行、第3行,第1列到第3列的內容<br>patientdata[c(1,3),1: 3]<br>3、attach detach使用<br>#R內置的mtcars數據,車油耗與速度重量之間關係<br>attach(mtcars)<br>mtcars<br>mpg<br>detach(mtcars)</p>
+<h3 id="（五）、list使用"><a href="#（五）、list使用" class="headerlink" title="（五）、list使用"></a>（五）、list使用</h3><p>#不受維度、數據長度等限制,比如一個62行,一個5行,用data.frame會報錯,list則無視這些,但相應在取出部分會稍微麻煩一點</p>
+<p>#查詢第一部分內容<br>mylist[1]</p>
+<p>1、前置的數據準備<br>x = matrix(1: 20, nrow=5, ncol=4, byrow=TRUE)<br>swim = read.csv(“<a href="http://www.macalester.edu/~kaplan/ISM/datasets/swim100m.csv" target="_blank" rel="external">http://www.macalester.edu/~kaplan/ISM/datasets/swim100m.csv</a>“)<br>mylist=list(swim,x)<br>mylist[[2]][2]</p>
+<p>2、實際如何取出<br>#返回第二個list的第二個元素,默認是縱向的<br>mylist[[2]][2]<br>#返回第二個list的第三列的前兩個元素<br>mylist[[2]][1: 2,3]<br>#返回第二個list前兩行內容<br>mylist[[2]][1: 2,]</p>
+<h2 id="二、讀取數據"><a href="#二、讀取數據" class="headerlink" title="二、讀取數據"></a>二、讀取數據</h2><p>#直接讀取<br>data1= read.csv(file=”~/desktop/xxx”)<br>data2=read.table(file=”~/desktop/xxx”)<br>#列名稱變成變量名稱使用<br>attach(data1)<br>#輸入讀取（適於簡單樣本）<br>x &lt;- scan()<br>#再把excel數據複製回車</p>
+<h2 id="三、隨機數"><a href="#三、隨機數" class="headerlink" title="三、隨機數"></a>三、隨機數</h2><h3 id="（一）、隨機數的生成"><a href="#（一）、隨機數的生成" class="headerlink" title="（一）、隨機數的生成"></a>（一）、隨機數的生成</h3><p>1、均一分部的隨機數（偽隨機數）<br>#set.seed(xxx)是要設置一組固定的偽隨機數,便於科學重複實驗,為runif或rnorm前置<br>set.seed(250)<br>a = runif(3,min=0,max=100)</p>
+<p>2、正態分佈的隨機數<br>#默認均值mean=0, 標準差sd=1<br>rnorm(3, mean=0, sd=1)</p>
+<p>set.seed(123)<br>x=rnorm(100,mean=100,sd=10)<br>set.seed(234)<br>y=rnorm(100,mean=100,sd=10)</p>
+<h3 id="（二）、小數點取捨"><a href="#（二）、小數點取捨" class="headerlink" title="（二）、小數點取捨"></a>（二）、小數點取捨</h3><p>#小數捨去,取整數<br>floor(a)<br>#無論小數多少,都進1<br>ceiling(a)<br>#保留a的4位小數<br>round(a,4)</p>
+<h2 id="四、矩陣運算"><a href="#四、矩陣運算" class="headerlink" title="四、矩陣運算"></a>四、矩陣運算</h2><p>矩陣運算處涉及一些符號，需要輸入相應語句轉換，但我沒有學習過html、yaml等語法，而且這一部分在入門階段很少涉及，我也不甚了解，所以我就直接嵌入圖片，不再作具體解釋。<br><img src="https://cloud.githubusercontent.com/assets/19641933/15773654/bf713826-29aa-11e6-89eb-1b2cbd2cc8a7.jpg" alt="矩陣運算1"><br><img src="https://cloud.githubusercontent.com/assets/19641933/15773659/c5b9c19e-29aa-11e6-9fcb-920f698192c4.jpg" alt="矩陣運算2"></p>
+<h4 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h4><ol>
+<li>Youtube R演習室</li>
+<li>Youtube Introduction to R Programming</li>
+<li>2015 年台灣生態研究網年會 初學R語言的60分鐘</li>
+</ol>
+<p>2016.6.3<br>閆譽騰 高雄</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/R/" rel="tag">#R</a>
+          
+            <a href="/tags/Vector/" rel="tag">#Vector</a>
+          
+            <a href="/tags/Matrix/" rel="tag">#Matrix</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/06/02/R語言基礎 語法/" rel="next" title="R語言基礎 語法">
+                <i class="fa fa-chevron-left"></i> R語言基礎 語法
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/06/03/R語言基礎 數據集結構與讀取、隨機數/"
+           data-title="R語言基礎 數據集結構與讀取、隨機數" data-url="http://yoursite.com/2016/06/03/R語言基礎 數據集結構與讀取、隨機數/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://avatars1.githubusercontent.com/u/19641933?v=3&u=c77c48f0d50311d5a580f99e5fc88b357a98654e&s=140"
+               alt="Yuteng Yan" />
+          <p class="site-author-name" itemprop="name">Yuteng Yan</p>
+          <p class="site-description motion-element" itemprop="description">I have tried to be objective. I do not claim to be detached.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">61</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">168</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yanyuteng" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.weibo.com/p/1005055384033959/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100011471880385" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://drive.google.com/folderview?id=0Bx1h5dKHst0IRF9xSWJHa1F6TFU&usp=sharing" title="Sociology Books" target="_blank">Sociology Books</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://yuqli.com" title="Yuqiong Li" target="_blank">Yuqiong Li</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、數據集結構"><span class="nav-text">一、數據集結構</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（一）、向量-Vector"><span class="nav-text">（一）、向量 Vector</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（二）、矩陣-二維數組"><span class="nav-text">（二）、矩陣 二維數組</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（三）、多維矩陣-Array"><span class="nav-text">（三）、多維矩陣 Array</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（四）、data-frame-使用"><span class="nav-text">（四）、data.frame 使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（五）、list使用"><span class="nav-text">（五）、list使用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、讀取數據"><span class="nav-text">二、讀取數據</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、隨機數"><span class="nav-text">三、隨機數</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（一）、隨機數的生成"><span class="nav-text">（一）、隨機數的生成</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（二）、小數點取捨"><span class="nav-text">（二）、小數點取捨</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、矩陣運算"><span class="nav-text">四、矩陣運算</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuteng Yan</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"yanyuteng"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+      
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
+    
+  
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+
+</body>
+</html>
