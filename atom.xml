@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-03T08:51:09.000Z</updated>
+  <updated>2016-06-04T08:43:37.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日記 間歇性頹廢</title>
+    <link href="http://yoursite.com/2016/06/04/%E9%A0%B9%E5%BB%A2/"/>
+    <id>http://yoursite.com/2016/06/04/頹廢/</id>
+    <published>2016-06-04T08:42:00.000Z</published>
+    <updated>2016-06-04T08:43:37.000Z</updated>
+    
+    <content type="html">&lt;p&gt;我得承認，頹廢總會偶爾浮現。&lt;/p&gt;
+&lt;p&gt;今天中午起床收到助教短信，平時成績再扣2分，有時也會自嘲，成績真是我親爹，可惜我真不願意當他兒子。&lt;br&gt;每到週末睡到中午，總是這般浪蕩，而寢室背陰，也照不到太陽，活像一個鼴鼠，隱藏自己在陰暗的角落里。&lt;/p&gt;
+&lt;p&gt;來臺后逐漸開始關注獨立博客，Li Yuqiong、王建碩、阮一峰這些人的博客，總會讓我無端有著挫敗，正如我在19歲生日日記里引用魯迅時的落寞一般。&lt;br&gt;我總歸要承認這世上比我有底蘊的人太多，而上述博客的主人又大多是理工出身，卻在人文素養上不輸于頂尖的文科出身者，這無疑予我以更大的挫敗感。&lt;/p&gt;
+&lt;p&gt;我曾一度抱怨所學無用，偶爾也有後悔，如果當時讀的理工，似乎道路會更為平坦，可時間一去不返，終歸又無從談什麼悔意；而在臺的復旦室友卻依舊無憂無慮玩著吉他，并以自由而無用之精神標榜，與之相比，我似乎又過於狹隘了。&lt;br&gt;可反反復復縈繞心頭的，我之長處不如他人之長處，我之短處，則更不必提及；所學愈多，所知愈少，而高山林立，我只是一屯矮丘。&lt;/p&gt;
+&lt;p&gt;固然，寫的文章總該寫些樂觀的回轉，再無妨喊些口號，可有些無法釋懷，或許要等年歲增長，所讀諸君不必開解，也不必嘲弄。少年總有凌雲沖霄的志向，亦無妨間歇自怨自艾的哀鬱。&lt;/p&gt;
+&lt;p&gt;閆譽騰 武嶺四村一陋室&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我得承認，頹廢總會偶爾浮現。&lt;/p&gt;
+&lt;p&gt;今天中午起床收到助教短信，平時成績再扣2分，有時也會自嘲，成績真是我親爹，可惜我真不願意當他兒子。&lt;br&gt;每到週末睡到中午，總是這般浪蕩，而寢室背陰，也照不到太陽，活像一個鼴鼠，隱藏自己在陰暗的角落里。&lt;/p&gt;
+&lt;p&gt;來臺后逐漸開
+    
+    </summary>
+    
+      <category term="Prose" scheme="http://yoursite.com/categories/Prose/"/>
+    
+    
+      <category term="理想" scheme="http://yoursite.com/tags/%E7%90%86%E6%83%B3/"/>
+    
+      <category term="頹廢" scheme="http://yoursite.com/tags/%E9%A0%B9%E5%BB%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>R語言基礎 數據集結構與讀取、隨機數</title>
@@ -770,11 +802,11 @@
     
       <category term="移民" scheme="http://yoursite.com/tags/%E7%A7%BB%E6%B0%91/"/>
     
+      <category term="Lisa" scheme="http://yoursite.com/tags/Lisa/"/>
+    
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="Lisa" scheme="http://yoursite.com/tags/Lisa/"/>
     
   </entry>
   
@@ -839,11 +871,11 @@
     
       <category term="移民" scheme="http://yoursite.com/tags/%E7%A7%BB%E6%B0%91/"/>
     
-      <category term="Labour" scheme="http://yoursite.com/tags/Labour/"/>
-    
       <category term="city" scheme="http://yoursite.com/tags/city/"/>
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="Labour" scheme="http://yoursite.com/tags/Labour/"/>
     
   </entry>
   
@@ -1091,42 +1123,6 @@
       <category term="理想" scheme="http://yoursite.com/tags/%E7%90%86%E6%83%B3/"/>
     
       <category term="尹吾" scheme="http://yoursite.com/tags/%E5%B0%B9%E5%90%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《社会学的三重危机》笔记</title>
-    <link href="http://yoursite.com/2015/11/30/%E3%80%8A%E7%A4%BE%E4%BC%9A%E5%AD%A6%E7%9A%84%E4%B8%89%E9%87%8D%E5%8D%B1%E6%9C%BA%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2015/11/30/《社会学的三重危机》笔记/</id>
-    <published>2015-11-30T06:22:16.000Z</published>
-    <updated>2016-06-01T01:21:41.000Z</updated>
-    
-    <content type="html">&lt;p&gt;伊万·塞勒尼&lt;/p&gt;
-&lt;p&gt;  密涅瓦的猫头鹰，乘着黄昏而来。阿尔文•古尔德纳(Alvin Gouldner)1970年《西方社会学正在到来的危机》，使社会学的危机似乎已然渡过，社会学也因政治运动而繁荣至世纪之交。&lt;br&gt;  但世纪之交时，社会科学基础性的改变，经济学和理性选择学派的政治学突起，社会学陷入了三重危机之中：丢掉了政治上的吸引力；无法找到合适的方式来应对“方法论革命”；不确定是否有一个共同的理论核心。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;（一）、社会学危机&lt;br&gt;  政治上，70年代激进的学生如今仍有很多人激进，而00后的青年越来越趋于保守。由此而来的直接后果是社会学由热门成为冷门，社会学也越来越不可能为激进社会改革提供远景。&lt;br&gt;  方法上，想检验因果性，只有分配部分总体到一个“实验组”从而与某种特定的刺激条件隔离开，而将剩下的放到“控制组”里，但实际上是几乎不可能的。为了跳出这个坑，试图以识别“因果性机制”绕开，但这都无法根本解决样本问题。而事实上，实验室方法的外在效度(external validity)也颇受质疑。&lt;br&gt;  理论上，自80年代开始走下坡路，试图保持住自己的读者群，扩大到一些跨学科的项目当中，模糊了社会学的学科边界，而社会学理论的多元化，也即意味处于混乱的边缘，固有的阵地如社会不平等，被经济学、政治学抢占。&lt;br&gt;（二）、经济学困境&lt;br&gt;  经济学不同社会学，便在于一个公认的理论，以至于即便不读古典理论，也可以读到博士。&lt;br&gt;  但由此带来的问题是，经济学貌似繁荣的背后，是对新古典经济学关键预言的否定，一些经济学早期的争议会不时的如幽灵般归来，如2008年全球金融危机，马克思与凯恩斯。&lt;br&gt;  因之，吉尔斯•圣保罗(Gilles Saint－Paul)认为，经济学不是科学就在于经济学使用的无法被证伪的模型和劣质数据，是一种“文化活动”(cultural activity)，给各种争辩的术语打上框架，不提供可证伪的预测。&lt;br&gt; （三）、社会学改革&lt;br&gt;  社会学不同在于，其路径的力量在于反身性( reflexivity)，只要社会学找到了“无声者的声音”(voice of the voiceless)，它就找到了自己的读者。迈克尔•布洛维(Michael Burawoy)对“公共社会学”的呼吁是这方面的一个呐喊。&lt;br&gt;  政治上，尝试左倾、批判性的新古典社会学。&lt;br&gt;  理论上，回到最初的政治使命，马克思和韦伯的古典传统、批判性的宏观社会学。直面“大”议题( BIG issues)。&lt;br&gt;  方法上，用反思性、解释性的模式挑战经济学，如霍华德•贝克尔(Howard Backer)一个人必须“潜入”(immerse)到社会情景当中之后，才能懂得正确的问题是什么。对数据意味着什么、数据是如何采集等问题上持有一种批判性的自我反思。由此而反对模仿经济学、政治学，或为维系队伍而跨学科领域。&lt;/p&gt;
-&lt;p&gt;  伊万·塞勒尼反对社会学复制经济学、政治学的道路，而社会学也的确不应该走它们的道路。&lt;br&gt;  但值得思考的是，伊万·塞勒尼并未明确的给出如何调和质化研究与量化研究，而未来社会学如何收集与分析量化数据，如何将量化数据用于质化分析中，超越量化与质化的对立，依旧有很长的道路。&lt;/p&gt;
-&lt;p&gt;  2015.11.30 14：21&lt;br&gt;  于哈工大九公寓&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;伊万·塞勒尼&lt;/p&gt;
-&lt;p&gt;  密涅瓦的猫头鹰，乘着黄昏而来。阿尔文•古尔德纳(Alvin Gouldner)1970年《西方社会学正在到来的危机》，使社会学的危机似乎已然渡过，社会学也因政治运动而繁荣至世纪之交。&lt;br&gt;  但世纪之交时，社会科学基础性的改变，经济学和理性选择学派的政治学突起，社会学陷入了三重危机之中：丢掉了政治上的吸引力；无法找到合适的方式来应对“方法论革命”；不确定是否有一个共同的理论核心。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
-    
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="Method" scheme="http://yoursite.com/tags/Method/"/>
-    
-      <category term="量化研究" scheme="http://yoursite.com/tags/%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6/"/>
-    
-      <category term="质性研究" scheme="http://yoursite.com/tags/%E8%B4%A8%E6%80%A7%E7%A0%94%E7%A9%B6/"/>
-    
-      <category term="危机" scheme="http://yoursite.com/tags/%E5%8D%B1%E6%9C%BA/"/>
     
   </entry>
   
