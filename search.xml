@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title><![CDATA[統計學基礎（一）]]></title>
+      <url>http://yoursite.com/2016/06/11/%E7%B5%B1%E8%A8%88%E5%AD%B8%E5%9F%BA%E7%A4%8E/</url>
+      <content type="html"><![CDATA[<h2 id="一、描述統計"><a href="#一、描述統計" class="headerlink" title="一、描述統計"></a>一、描述統計</h2><h3 id="（一）、單變量"><a href="#（一）、單變量" class="headerlink" title="（一）、單變量"></a>（一）、單變量</h3><h4 id="1、圖形可視化"><a href="#1、圖形可視化" class="headerlink" title="1、圖形可視化"></a>1、圖形可視化</h4><p>（1）、類別變量<br>統計表 簡單表<br>統計圖 餅圖、條形圖、折線圖<br>（2）、尺度變量<br>統計表 分組表<br>統計圖 點狀分佈圖、直方圖、折線圖、累計頻率直方圖</p>
+<h4 id="2、特征值可視化"><a href="#2、特征值可視化" class="headerlink" title="2、特征值可視化"></a>2、特征值可視化</h4><p>（1）、集中趨勢<br>眾數 Mo<br>中位數 Me<br>算術平均值 （分組與未分組算法不同）<br>（2）、離散趨勢<br>異眾比率γ<br>極差/全距 max-min<br>四分位差 （分組與未分組算法不同）<br>方差 σ^2<br>標準差 σ （分組、未分組、頻率算法不同）<br><a id="more"></a></p>
+<h3 id="（二）、類別﹣類別變量"><a href="#（二）、類別﹣類別變量" class="headerlink" title="（二）、類別﹣類別變量"></a>（二）、類別﹣類別變量</h3><h4 id="1、圖形可視化-1"><a href="#1、圖形可視化-1" class="headerlink" title="1、圖形可視化"></a>1、圖形可視化</h4><p>（1）、表格 列聯表<br>（2）、圖形 分類圖、折線圖</p>
+<h4 id="2、特征值可視化-1"><a href="#2、特征值可視化-1" class="headerlink" title="2、特征值可視化"></a>2、特征值可視化</h4><p>（1）、列聯相關係數<br>A 適用範圍 無序﹣無序/無序﹣有序<br>B 原理 PRE（percent reduce error）<br>C 數值 λ係數 / Τ係數(Goodman-Kruskal Tau係數)<br>（2）、等級相關係數<br>A 適用範圍 有序﹣有序<br>B 數值 Spearman / Gamma / Kendall Τ係數 / Somer’s d係數</p>
+<h3 id="（三）、尺度﹣尺度"><a href="#（三）、尺度﹣尺度" class="headerlink" title="（三）、尺度﹣尺度"></a>（三）、尺度﹣尺度</h3><h4 id="1、圖形可視化-2"><a href="#1、圖形可視化-2" class="headerlink" title="1、圖形可視化"></a>1、圖形可視化</h4><p>相關散點圖</p>
+<h4 id="2、特征值可視化-2"><a href="#2、特征值可視化-2" class="headerlink" title="2、特征值可視化"></a>2、特征值可視化</h4><p>Pearson相關係數</p>
+<h4 id="3、具體方程擬合"><a href="#3、具體方程擬合" class="headerlink" title="3、具體方程擬合"></a>3、具體方程擬合</h4><p>（1）、線性回歸<br>A y=bo+b1x<br>B 擬合優度 R^2<br>C 特殊：邏輯回歸<br>（2）、非線性回歸</p>
+<h3 id="（四）、類別﹣尺度"><a href="#（四）、類別﹣尺度" class="headerlink" title="（四）、類別﹣尺度"></a>（四）、類別﹣尺度</h3><h4 id="1、圖形可視化-3"><a href="#1、圖形可視化-3" class="headerlink" title="1、圖形可視化"></a>1、圖形可視化</h4><p>（1）、統計表<br>（2）、統計圖 條形圖、折線圖</p>
+<h4 id="2、特征值可視化-3"><a href="#2、特征值可視化-3" class="headerlink" title="2、特征值可視化"></a>2、特征值可視化</h4><p>相關比率eta</p>
+<h2 id="二、參數估計-樣本-gt-總體"><a href="#二、參數估計-樣本-gt-總體" class="headerlink" title="二、參數估計 樣本 -&gt; 總體"></a>二、參數估計 樣本 -&gt; 總體</h2><h3 id="（一）、點估計"><a href="#（一）、點估計" class="headerlink" title="（一）、點估計"></a>（一）、點估計</h3><p>1、標準 無偏性、有效性、一致性<br>2、特征值 μ、π、σ^2</p>
+<h3 id="（二）、區間估計"><a href="#（二）、區間估計" class="headerlink" title="（二）、區間估計"></a>（二）、區間估計</h3><h4 id="1、單總體特征值"><a href="#1、單總體特征值" class="headerlink" title="1、單總體特征值"></a>1、單總體特征值</h4><p>（1）、μ<br>A 大樣本 n&gt;=30 ~N<br>B 小樣本 ~T<br>（2）、π<br>A 大樣本 np&gt;=5、n(1-p)&gt;=5、n&gt;=30 ~N<br>B小樣本 「不能估計」</p>
+<h4 id="2、兩總體特征值"><a href="#2、兩總體特征值" class="headerlink" title="2、兩總體特征值"></a>2、兩總體特征值</h4><p>（1）、均值差<br>A 大樣本<br>  條件 n1&gt;30；n2&gt;30；<br>  服從分佈 ~N分佈<br>B 小樣本<br>  條件 σ1^2=σ2^2; 兩總體~N<br>  服從分佈 ~T分佈<br>（2）、頻率差 P1-P2<br>A 大樣本<br>  條件 n1p1&gt;=5; n1(1-p1)&gt;=5; n2p2&gt;=5; n2(1-p2)&gt;=5<br>  服從分佈 ~N<br>B 小樣本不能使用</p>
+<h2 id="三、參數檢驗-樣本-gt-總體的檢驗"><a href="#三、參數檢驗-樣本-gt-總體的檢驗" class="headerlink" title="三、參數檢驗 樣本-&gt;總體的檢驗"></a>三、參數檢驗 樣本-&gt;總體的檢驗</h2><h4 id="1、基本原理"><a href="#1、基本原理" class="headerlink" title="1、基本原理"></a>1、基本原理</h4><p>  注意正態性、等方差性的前提條件</p>
+<h4 id="2、單個總體特征值"><a href="#2、單個總體特征值" class="headerlink" title="2、單個總體特征值"></a>2、單個總體特征值</h4><p>（1）、均值<br>A 大樣本 n&gt;=30 ~N<br>B 小樣本 ~T<br>（2）、頻率<br>A 大樣本 np&gt;=5、n(1-p)&gt;=5、n&gt;=30 ~N<br>B小樣本 「不能估計」<br>（3）、方差 ~X^2分佈  </p>
+<h4 id="3、兩個總體特征值"><a href="#3、兩個總體特征值" class="headerlink" title="3、兩個總體特征值"></a>3、兩個總體特征值</h4><p>（1）、獨立樣本t檢驗<br>A 均值差 條件同參數估計 大樣本~N，小樣本~T<br>B 頻率差 條件同參數估計 大樣本~N<br>（2）、方差齊性檢驗（方差差）~ F分佈<br>（3）、配對樣本t檢驗<br>  前後測差值D大樣本~N，小樣本~T  </p>
+<h2 id="（4）、兩個總體相關性檢驗"><a href="#（4）、兩個總體相關性檢驗" class="headerlink" title="（4）、兩個總體相關性檢驗"></a>（4）、兩個總體相關性檢驗</h2><p>  為便於敘述，我單獨開設一節  </p>
+<h3 id="（一）、類別﹣類別"><a href="#（一）、類別﹣類別" class="headerlink" title="（一）、類別﹣類別"></a>（一）、類別﹣類別</h3><h4 id="1、X-2檢驗（原理基礎）"><a href="#1、X-2檢驗（原理基礎）" class="headerlink" title="1、X^2檢驗（原理基礎）"></a>1、X^2檢驗（原理基礎）</h4><p>注意<br>A 期望頻次Eij<5的格數<20%（大於20%則合併） b="" 期望頻次eij="">=5</5的格數<20%（大於20%則合併）></p>
+<h4 id="2、列聯相關係數檢驗"><a href="#2、列聯相關係數檢驗" class="headerlink" title="2、列聯相關係數檢驗"></a>2、列聯相關係數檢驗</h4><p>φ係數∈[-1,1]<br>修正的Gamer’s V係數∈[0,1]</p>
+<h4 id="3、等級相關係數檢驗"><a href="#3、等級相關係數檢驗" class="headerlink" title="3、等級相關係數檢驗"></a>3、等級相關係數檢驗</h4><p>Spearman n&gt;=10~N<br>Gamma n&gt;=10~N<br>Kendall Τ係 / Somer’s d係數 同序對S’/異序對Se ~N</p>
+<h3 id="（二）、尺度﹣尺度"><a href="#（二）、尺度﹣尺度" class="headerlink" title="（二）、尺度﹣尺度"></a>（二）、尺度﹣尺度</h3><h4 id="1、回歸方程檢驗"><a href="#1、回歸方程檢驗" class="headerlink" title="1、回歸方程檢驗"></a>1、回歸方程檢驗</h4><p>（1）、整體檢驗<br>F＝RSSR/RSS(n-2)~F(1,n-2)<br>（2）、回歸係數檢驗~t(n-2)</p>
+<h4 id="2、相關係數檢驗"><a href="#2、相關係數檢驗" class="headerlink" title="2、相關係數檢驗"></a>2、相關係數檢驗</h4><p>t=r[(n-2)/(1-r^2)]^0.5~t(n-2)<br>3、兩種檢驗的關係 一個顯著另一個也顯著<br>F=(n-2)*r^2/(1-r^2)</p>
+<h3 id="（三）、類別﹣尺度-「方差分析」"><a href="#（三）、類別﹣尺度-「方差分析」" class="headerlink" title="（三）、類別﹣尺度 「方差分析」"></a>（三）、類別﹣尺度 「方差分析」</h3><h4 id="1、前提"><a href="#1、前提" class="headerlink" title="1、前提"></a>1、前提</h4><p>等方差性~F<br>正態性~非參數K-S檢驗</p>
+<h4 id="2、一元方差分析"><a href="#2、一元方差分析" class="headerlink" title="2、一元方差分析"></a>2、一元方差分析</h4><p>（1）、F檢驗<br>F=[BSS/(m-1)]/[WSS/(n-m)]~F(m-1,n-m)<br>（2）、與eta關係<br>eta=(BSS/TSS)^0.5</p>
+<h4 id="3、二元方差分析-略"><a href="#3、二元方差分析-略" class="headerlink" title="3、二元方差分析 略"></a>3、二元方差分析 略</h4><h4 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h4><p>社会统计学[M]. 中国人民大学出版社, 2013.</p>
+<p>文章整理自社會統計學教材，一來為自己查閱方便，二來為後學統計學者提供一二地圖索引。<br>2016.6.11<br>閆譽騰 中山</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[《The Art of Travel》 隨記]]></title>
       <url>http://yoursite.com/2016/06/07/%E6%97%85%E8%A1%8C%E7%9A%84%E8%97%9D%E8%A1%93/</url>
       <content type="html"><![CDATA[<p>IX On Habit</p>
