@@ -16,7 +16,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[《社會統計學》筆記]]></title>
+      <title><![CDATA[《社會統計學》筆記(一)]]></title>
       <url>http://yoursite.com/2016/06/11/%E3%80%8A%E7%A4%BE%E6%9C%83%E7%B5%B1%E8%A8%88%E5%AD%B8%E3%80%8B%E7%AD%86%E8%A8%98/</url>
       <content type="html"><![CDATA[<h2 id="一、描述統計"><a href="#一、描述統計" class="headerlink" title="一、描述統計"></a>一、描述統計</h2><h3 id="（一）、單變量"><a href="#（一）、單變量" class="headerlink" title="（一）、單變量"></a>（一）、單變量</h3><h4 id="1、圖形可視化"><a href="#1、圖形可視化" class="headerlink" title="1、圖形可視化"></a>1、圖形可視化</h4><p>（1）、類別變量<br>統計表 簡單表<br>統計圖 餅圖、條形圖、折線圖<br>（2）、尺度變量<br>統計表 分組表<br>統計圖 點狀分佈圖、直方圖、折線圖、累計頻率直方圖</p>
 <h4 id="2、特征值可視化"><a href="#2、特征值可視化" class="headerlink" title="2、特征值可視化"></a>2、特征值可視化</h4><p>（1）、集中趨勢<br>眾數 Mo<br>中位數 Me<br>算術平均值 （分組與未分組算法不同）<br>（2）、離散趨勢<br>異眾比率γ<br>極差/全距 max-min<br>四分位差 （分組與未分組算法不同）<br>方差 σ^2<br>標準差 σ （分組、未分組、頻率算法不同）<br><a id="more"></a></p>
