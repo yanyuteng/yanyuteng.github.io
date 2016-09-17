@@ -904,9 +904,9 @@
     
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
     
-      <category term="justice" scheme="http://yoursite.com/tags/justice/"/>
-    
       <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
+    
+      <category term="justice" scheme="http://yoursite.com/tags/justice/"/>
     
       <category term="scale" scheme="http://yoursite.com/tags/scale/"/>
     
