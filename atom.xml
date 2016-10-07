@@ -790,9 +790,9 @@
       <category term="Prose" scheme="http://yoursite.com/categories/Prose/"/>
     
     
-      <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
-    
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="urban" scheme="http://yoursite.com/tags/urban/"/>
     
       <category term="哈師大" scheme="http://yoursite.com/tags/%E5%93%88%E5%B8%AB%E5%A4%A7/"/>
     
@@ -948,9 +948,9 @@
       <category term="translation" scheme="http://yoursite.com/categories/translation/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="Marx" scheme="http://yoursite.com/tags/Marx/"/>
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
       <category term="ecology" scheme="http://yoursite.com/tags/ecology/"/>
     
