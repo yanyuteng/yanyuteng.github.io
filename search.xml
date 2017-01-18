@@ -4,6 +4,478 @@
   
     
     <entry>
+      <title><![CDATA[python3 爬虫基础memo]]></title>
+      <url>http://yoursite.com/2017/01/18/python3%20%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/</url>
+      <content type="html"><![CDATA[<h2 id="第一节-html初步"><a href="#第一节-html初步" class="headerlink" title="第一节 html初步"></a>第一节 html初步</h2><h3 id="一、网页的一般结构"><a href="#一、网页的一般结构" class="headerlink" title="一、网页的一般结构"></a>一、网页的一般结构</h3><pre><code>html: &lt;&gt;  # html是结构部分，客厅、卧室等。  
+CSS: &lt;div class=&quot; &quot;&gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &lt;script&gt;  #JavaScript是功能，房间中的电器。 
+</code></pre><a id="more"></a>
+<h3 id="二、网页结构的逐步丰富"><a href="#二、网页结构的逐步丰富" class="headerlink" title="二、网页结构的逐步丰富"></a>二、网页结构的逐步丰富</h3><h4 id="1、固定区域"><a href="#1、固定区域" class="headerlink" title="1、固定区域"></a>1、固定区域</h4><pre><code>&lt;div &gt;
+&lt;/div&gt;
+</code></pre><h4 id="2、增加标签-图片、标题-html"><a href="#2、增加标签-图片、标题-html" class="headerlink" title="2、增加标签 图片、标题 html"></a>2、增加标签 图片、标题 html</h4><pre><code>&lt;div &gt;
+     &lt;p&gt;Wow!&lt;/p&gt;
+&lt;/div&gt;
+</code></pre><h4 id="3、增加CSS样式修饰"><a href="#3、增加CSS样式修饰" class="headerlink" title="3、增加CSS样式修饰"></a>3、增加CSS样式修饰</h4><pre><code>&lt;div class = &quot;a&quot;&gt;
+     &lt;p&gt;Wow!&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt; #写文字的内容
+&lt;div &gt; &lt;/div&gt; #某区域的框架
+&lt;li&gt;&lt;/li&gt; #列表
+&lt;img&gt; #图
+&lt;h1&gt;&lt;/h1&gt; &lt;h6&gt;&lt;/h6&gt; #不同字号的标题
+&lt;a&gt; #链接
+&lt;a href = “”&gt; #标签内跟属性href指向的链接
+
+&lt;head&gt;&lt;/head&gt; #浏览器看的
+&lt;body&gt;&lt;/body&gt; #我们看到的
+</code></pre><p>#标签能嵌套，元素有层级</p>
+<h3 id="三、案例：写一个网页"><a href="#三、案例：写一个网页" class="headerlink" title="三、案例：写一个网页"></a>三、案例：写一个网页</h3><h4 id="（一）、预期结构"><a href="#（一）、预期结构" class="headerlink" title="（一）、预期结构"></a>（一）、预期结构</h4><p>1、header<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> big logo </strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nav1 nav2 nav3<br>2、content<br>pic title description …<br>3、footer  </p>
+<h4 id="（二）、案例"><a href="#（二）、案例" class="headerlink" title="（二）、案例"></a>（二）、案例</h4><p># CSS样式是之前写好的，这里直接引用，爬虫不涉及理解CSS写法 </p>
+<pre><code>&lt;!DOCTYPE html&gt; #声明
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+     &lt;meta charset=“UTF-8&quot;&gt;
+     &lt;title&gt;yanyuteng&lt;/title&gt;
+     &lt;link rel=“stylesheet” type=“text/css” href=“main.css”&gt;  #加载CSS样式
+&lt;/head&gt;
+
+&lt;body&gt;
+     &lt;div class=&quot;header”&gt; #导入CSS样式
+          &lt;img src=“来源图片&quot;&gt;
+          &lt;url class=“nav”&gt; #导入CSS样式
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; #&lt;a href=“”&gt; 指向链接
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Site&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Other&lt;/a&gt;&lt;/li&gt;
+           &lt;/url&gt;
+     &lt;/div&gt;
+
+     &lt;div class=“main-content”&gt; #加CSS修饰
+          &lt;h2&gt;&lt;/h2&gt;
+          &lt;url&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0001.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt; #修饰img中大小属性
+                    &lt;h3&gt;the prose1&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0002.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt;
+                    &lt;h3&gt;the prose2&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0003.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt;
+                    &lt;h3&gt;the prose3&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+          &lt;/url&gt;
+     &lt;/div class=“footer&quot;&gt;
+         &lt;p&gt;html learning&lt;/p&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
+
+&lt;/html&gt;
+</code></pre><h2 id="第二节-解析网页"><a href="#第二节-解析网页" class="headerlink" title="第二节 解析网页"></a>第二节 解析网页</h2><h3 id="一、流程"><a href="#一、流程" class="headerlink" title="一、流程"></a>一、流程</h3><p>1、使用BeautifulSoup解析<br>    Soup = BeautifulSoup(html,’lxml’)<br>2、描述爬取内容的位置<br>#名字、位置<br>xxx = Soup.select(‘xxx’)<br>3、标签中获得信息，并初步整理  </p>
+<pre><code>&lt;p&gt;something&lt;/p&gt;  
+</code></pre><h3 id="二、BeautifulSoup理解"><a href="#二、BeautifulSoup理解" class="headerlink" title="二、BeautifulSoup理解"></a>二、BeautifulSoup理解</h3><pre><code>Soup = BeautifulSoup(html,&apos;lxml&apos;)
+汤                    食材  食谱
+# html是解析材料
+# lxml是解析所用的库，目前有五种。
+</code></pre><h3 id="三、BeautifulSoup解析"><a href="#三、BeautifulSoup解析" class="headerlink" title="三、BeautifulSoup解析"></a>三、BeautifulSoup解析</h3><p>1、获取位置<br>CSS Selector:  #BeautifulSoup识别<br>XPath:  #其他库可以识别，BeautifulSoup不识别<br>2、XPath  </p>
+<pre><code>/html/body/div[2]/ul/li[1]/img #元素完整或绝对路径  
+# html总结点下两个子节点 body与head，body与head是兄弟节点，body下类比有body的子节点，也即是html的子孙节点。 
+</code></pre><p>3、CSS Selector</p>
+<pre><code>body &gt; div.main-content &gt; ul &gt; li:nth-child(1) &gt; img
+\# main-content CSS样式，较XPath更具体一些
+</code></pre><h3 id="四、案例：爬取自己写的网页"><a href="#四、案例：爬取自己写的网页" class="headerlink" title="四、案例：爬取自己写的网页"></a>四、案例：爬取自己写的网页</h3><h4 id="1、准备工作"><a href="#1、准备工作" class="headerlink" title="1、准备工作"></a>1、准备工作</h4><pre><code>from bs4 import BeautifulSoup # 导入库
+
+with open(‘/apple/desktop/usualdata/xxx.html’,&apos;r’) as wb_data ## 本地网页示例，读取网页数据
+Soup = BeautifulSoup(wb_data,&apos;lxml’) #解析html数据
+print(Soup)
+
+images = Soup.select(&apos;body &gt; div.main-content &gt; ul &gt; li:nth-of-type(1) &gt; img’) #找到爬取位置
+images = Soup.select(&apos;body &gt; div.main-content &gt; ul &gt; li) &gt; img&apos;)# 去除nth-of-type(1)位置信息，爬取一类图片
+
+#其他信息类比titles, descs, rates, cates,cates中如果标签与标题是多对一结构需要注意，保留附级标签下所有子标签信息
+</code></pre><h4 id="2、筛选工作"><a href="#2、筛选工作" class="headerlink" title="2、筛选工作"></a>2、筛选工作</h4><pre><code># get_text方法释放标签中文本信息
+# for title in titles
+#     print(title.get_text())
+
+# 整合放入字典中
+for title, image, desc, rate, cate in zip(titles, images, descs, rates, cates)
+     data = {
+           &apos;title&apos;: title.get_text(),
+           &apos;rate’: rate.get_text(),
+           &apos;desc&apos;: desc.get_text(),
+           &apos;cate&apos;: list(cate.stripped_strings), #stripped_strings是高级的get_text，处理所有子标签文本
+           &apos;image&apos;: image.get(&apos;src&apos;)  #获取某个标签中属性用get获得
+     }
+print(data)
+</code></pre><h4 id="3、初步处理工作"><a href="#3、初步处理工作" class="headerlink" title="3、初步处理工作"></a>3、初步处理工作</h4><pre><code>info()
+info.append(data) #整合数据
+
+# 摘除评分大于3的文章
+for i in info
+     if float(i[‘rate’]) &gt; 3
+          print(i[&apos;title’], i[&apos;cate&apos;])
+</code></pre><h4 id="4、真实网页"><a href="#4、真实网页" class="headerlink" title="4、真实网页"></a>4、真实网页</h4><p>BeautifulSoup + Requests</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>麻瓜编程 《Python实战：四周实现爬虫系统》</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[python3 分支与循环memo]]></title>
+      <url>http://yoursite.com/2017/01/18/python3%20%E5%88%86%E6%94%AF%E4%B8%8E%E5%BE%AA%E7%8E%AFmemo/</url>
+      <content type="html"><![CDATA[<h2 id="Lecture-5-python的数据类型"><a href="#Lecture-5-python的数据类型" class="headerlink" title="Lecture 5 python的数据类型"></a>Lecture 5 python的数据类型</h2><h3 id="一、数值类型"><a href="#一、数值类型" class="headerlink" title="一、数值类型"></a>一、数值类型</h3><p>1、整型（整数 长度不受限制）<br>2、浮点型（小数） #python的区分方式为小数点。<br># e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）<br>3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）<br><a id="more"></a></p>
+<h3 id="二、类型转换"><a href="#二、类型转换" class="headerlink" title="二、类型转换"></a>二、类型转换</h3><p>1、整数 int()  </p>
+<pre><code>a=‘520&apos;  
+b=int(a)  
+a=‘5.99&apos;  
+c=int(a) #输出为5
+</code></pre><p>2、字符串 str()</p>
+<pre><code>a=5.99
+b=str(a)
+c=str(5e19) #输出为&apos;5e19&apos;
+</code></pre><p>3、浮点数 float()</p>
+<h3 id="三、获取类型信息"><a href="#三、获取类型信息" class="headerlink" title="三、获取类型信息"></a>三、获取类型信息</h3><p>1、type()</p>
+<pre><code>a=‘520&apos;
+b=5.2
+type(a)
+</code></pre><p>2、isinstance()</p>
+<pre><code>isinstance(a,str)
+isinstance(320,int) #TURE
+</code></pre><h2 id="Lecture-6-python的常用操作符"><a href="#Lecture-6-python的常用操作符" class="headerlink" title="Lecture 6 python的常用操作符"></a>Lecture 6 python的常用操作符</h2><h3 id="一、算术操作符"><a href="#一、算术操作符" class="headerlink" title="一、算术操作符"></a>一、算术操作符</h3><p>1、+=</p>
+<pre><code>a = 5
+a += 3 # b=a+3   求b
+</code></pre><p>2、*=</p>
+<pre><code>c = 10
+c \*= 10 # c=100
+</code></pre><p>3、/=</p>
+<pre><code>c /= 10 # c=1.25
+# python3 与python2不同在于，真除法代替地板除法。
+c//=8 #仍为地板除法，只保留整数 c=1
+</code></pre><p>4、% 保留余数</p>
+<pre><code>5 % 2 #1
+11 % 2 #1
+</code></pre><p>5、** 幂运算</p>
+<pre><code>3**3 #27
+</code></pre><p>6、优先级</p>
+<pre><code>#先乘除后加减，and比较先于计算（二元操作符）
+-3*2+5/-2-4 # -12.5
+# ** 幂运算高于左侧，低于右侧
+ (-3) ** 2 #9
+ -3 ** 2 #-9
+3 ** -2 #0.1111
+</code></pre><h3 id="二、比较操作符"><a href="#二、比较操作符" class="headerlink" title="二、比较操作符"></a>二、比较操作符</h3><p>&lt; &gt; &lt;= &gt;= == !=</p>
+<h3 id="三、逻辑操作符"><a href="#三、逻辑操作符" class="headerlink" title="三、逻辑操作符"></a>三、逻辑操作符</h3><p>1、and 与<br>2、or 或<br>3、not（一元操作符，取相反bool）<br>not 0 #0为FALSE 返回TRUE</p>
+<h3 id="四、优先级"><a href="#四、优先级" class="headerlink" title="四、优先级"></a>四、优先级</h3><p>1、幂运算 **<br>2、正负号<br>3、算术操作符<br>4、比较操作符<br>5、逻辑运算符（not &gt; and &gt; or）</p>
+<h2 id="Lecture-7-打飞机的游戏机制"><a href="#Lecture-7-打飞机的游戏机制" class="headerlink" title="Lecture 7 打飞机的游戏机制"></a>Lecture 7 打飞机的游戏机制</h2><p>原理：进入一个大循环，只要未触发死亡，小飞机不断生成。<br>1、加载背景音乐<br>2、播放背景音乐（循环）<br>3、我方飞机生成<br>4（5）、interval = 0 #没有interval会不间断生成满屏幕飞机<br>5（4）、进入循环  </p>
+<pre><code>while True：  
+    if 用户是否点击了关闭按钮：  
+          结束程序  
+    else  
+          继续  
+
+    interval += 1 #累计时间以刷新飞机
+
+       if interval == 50：
+          interval = 0 #刷新interval时间
+          小飞机诞生
+
+     小飞机移动一个位置 #移到if外 否则会卡顿
+     屏幕刷新
+
+     if 用户鼠标产生移动：
+        我方飞机中心位置=用户鼠标位置
+        屏幕刷新
+
+     if 我方飞机与小飞机肢体冲突：
+        我方死亡，播放死亡音乐
+        我方飞机图案修改
+        打印’game over’
+        渐变停止背景音乐
+</code></pre><h2 id="Lecture-8-条件表达式与assert"><a href="#Lecture-8-条件表达式与assert" class="headerlink" title="Lecture 8 条件表达式与assert"></a>Lecture 8 条件表达式与assert</h2><h3 id="一、输入转换"><a href="#一、输入转换" class="headerlink" title="一、输入转换"></a>一、输入转换</h3><p>1、方法一：常规法</p>
+<pre><code>score = int(input(&apos;please write down the mark:&apos;))
+if 100&gt;= score &gt;= 90:
+    print(&apos;A&apos;)
+if 90&gt; score &gt;= 80: #二次后的判断是浪费的
+    print(&apos;B&apos;)
+if 80&gt; score &gt;= 60:
+    print(&apos;C&apos;)
+if 60&gt; score &gt;= 0:
+    print(&apos;D&apos;)
+if score &lt;0 or score &gt;100:
+    print(&apos;false&apos;)
+</code></pre><p>2、方法二：缩进麻烦</p>
+<pre><code>score = int(input(&quot;please write down the mark:&quot;))
+if 100&gt;=score&gt;=90:
+     print(&apos;A&apos;)
+else:
+     if 90&gt; score &gt;= 80:
+          print(&apos;B&apos;)
+     else:
+          if 80&gt; score &gt;= 60:
+               print(&apos;C&apos;)
+          else:
+               if 60&gt; score &gt;= 0:
+                print(&apos;D&apos;)
+           else:
+                print(&apos;false&apos;)
+</code></pre><p>3、方法三：改进二</p>
+<pre><code>score = int(input(&apos;please write down the mark:&apos;))
+if 100&gt;= score &gt;= 90:
+     print(&apos;A&apos;)
+else 90&gt; score &gt;= 80: #C else if 节省判断时间
+     print(&apos;B&apos;)
+else 80&gt; score &gt;= 60:
+     print(&apos;C&apos;)
+else 60&gt; score &gt;= 0:
+     print(&apos;D&apos;)
+else:
+     print(&apos;false&apos;)
+</code></pre><p>#python可以有效避免悬挂else<br>#C语言就近if else匹配，python则利用tab减少不确定性。</p>
+<h3 id="二、条件表达式（三元操作符）"><a href="#二、条件表达式（三元操作符）" class="headerlink" title="二、条件表达式（三元操作符）"></a>二、条件表达式（三元操作符）</h3><p>1、含义：元为操作数，三元即是三个操作数。<br>2、例子</p>
+<pre><code>x, y = 4, 5
+if x &lt; y:
+     small = x
+else:
+     small = y
+small = x if x &lt; y else y
+</code></pre><p>三、断言（assert）<br>1、含义：当这个关键字后面条件为假时，程序自动终止，打印AssertionError异常。<br>2、作用：设置检查点，确保程序中某个条件为真才能让程序工作。<br>assert 3 &gt; 4</p>
+<h2 id="Lecture-9-for循环"><a href="#Lecture-9-for循环" class="headerlink" title="Lecture 9 for循环"></a>Lecture 9 for循环</h2><h3 id="一、for循环"><a href="#一、for循环" class="headerlink" title="一、for循环"></a>一、for循环</h3><p>1、语法<br>for 目标 in 表达式:<br>     循环体<br>2、例子</p>
+<pre><code>for i in practice:
+    print(i)
+for i in practice:
+    print(i, end=&quot;&quot;)
+
+number=[&apos;yanyuteng&apos;,&apos;demos&apos;,&apos;xiaojiayu&apos;,&apos;python&apos;]
+
+for i in number:
+    print(i, len(numeber))
+#yanyuteng 4
+#demos 4
+#xiaojiayu 4
+#python 4
+
+for i in number:
+    print(i, len(i))
+#yanyuteng 9
+#demos 5
+#xiaojiayu 9
+#python 6
+</code></pre><h3 id="二、range"><a href="#二、range" class="headerlink" title="二、range()"></a>二、range()</h3><p>1、语法<br>range([start,] stop[, step=1])<br>（1）[]内两个参数可选<br>（2）step=1默认为1<br>（3）生成从start值到stop值结束的数字序列<br>2、配合for</p>
+<pre><code>range(4) #range(0, 4)
+list(range(4)) #[0, 1, 2, 3]
+for i in range(5):
+     print(i)
+# 生成0到4
+for i in range(2,9):
+    print(i)
+# 生成2到8
+</code></pre><h3 id="三、break与continue"><a href="#三、break与continue" class="headerlink" title="三、break与continue"></a>三、break与continue</h3><p>1、break<br>含义：满足条件才可以终止循环，跳出循环体<br>2、例子</p>
+<pre><code>yes = &quot;yanyuteng&quot;
+answer=input(&quot;the handsome man&apos;s name:&quot;)
+while True:
+    if answer == yes:
+        break
+    answer = input(&quot;sorry,u are wrong, please guess again:&quot;)
+
+print(&apos;smart!&apos;)
+</code></pre><p>2、continue<br>1、含义：终止本循环，开始下一循环<br>2、例子</p>
+<pre><code>for i in range(10):
+    if i%2 != 0:
+        print(i)
+        continue
+    i += 1
+    print(i)
+</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>鱼C论坛 《零基础入门学习Python》</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[python3 猜数字游戏memo]]></title>
+      <url>http://yoursite.com/2017/01/17/python3%20%E7%8C%9C%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8Fmemo/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>Change the world by program.<br><a id="more"></a></p>
+</blockquote>
+<h2 id="Lecture-0-Introduction"><a href="#Lecture-0-Introduction" class="headerlink" title="Lecture 0 Introduction"></a>Lecture 0 Introduction</h2><h3 id="一、python的竞争力"><a href="#一、python的竞争力" class="headerlink" title="一、python的竞争力"></a>一、python的竞争力</h3><p>0、NASA、Google等企业<br>（0）WEB：豆瓣<br>（1）3D动画：玛雅的嵌入应用<br>（2）企业应用：openERP<br>（3）云计算：云存储<br>1、跨平台<br>2、简单：其他语言对比 少代码相同程序<br>（0）java的1/5<br>（1）一个人只能维护两万行代码  </p>
+<h3 id="二、课程内容"><a href="#二、课程内容" class="headerlink" title="二、课程内容"></a>二、课程内容</h3><p>0、python3 常用语法<br>（0）python3对python2极端不兼容<br>（1）具体改动<br>1、面向对象编程思维<br>2、模块编程：乐高游戏的拼接<br>3、游戏编程：打蜜蜂、打飞机、俄罗斯方块、捕鱼猎手、rpg开发等<br>4、计算机仿真：真实世界建模<br>（0）概率实验<br>（1）影响实验<br>（2）飞行员模拟驾驶 等  </p>
+<h2 id="Lecture-1-IDLE-：python-shell"><a href="#Lecture-1-IDLE-：python-shell" class="headerlink" title="Lecture 1 IDLE ：python shell"></a>Lecture 1 IDLE ：python shell</h2><h3 id="一、字符串"><a href="#一、字符串" class="headerlink" title="一、字符串"></a>一、字符串</h3><p>0、C:<br>printf(“hello world”));<br>1、Python:</p>
+<pre><code>print("hello world")
+print("well water"+"river")
+print("well water"+" river")
+print("hello world" * 8)
+print("hello world\n" * 8)</code></pre>
+
+<h3 id="二、数值"><a href="#二、数值" class="headerlink" title="二、数值"></a>二、数值</h3><pre><code>print(5+3)  
+5+3  
+5*3</code></pre>
+
+<h3 id="三、思考"><a href="#三、思考" class="headerlink" title="三、思考"></a>三、思考</h3><pre><code>print("hello world" + 8) #报错：字符串和数值不可通约
+print("\"wolf\"")
+print(365\*24\*60)</code></pre>
+
+<h2 id="Lecture-2-BIF-input-amp-int"><a href="#Lecture-2-BIF-input-amp-int" class="headerlink" title="Lecture 2 BIF: input&amp;int"></a>Lecture 2 BIF: input&amp;int</h2><h3 id="一、猜数字游戏初试"><a href="#一、猜数字游戏初试" class="headerlink" title="一、猜数字游戏初试"></a>一、猜数字游戏初试</h3><pre><code>print('hello world')
+temp = input("guess my number:")
+guess = int(temp)
+if guess == 8:
+    print("yes")
+    print("amazing")
+else:
+    print(“wrong")
+print('end')</code></pre>
+
+<h3 id="二、对比C-like-eg-JAVA"><a href="#二、对比C-like-eg-JAVA" class="headerlink" title="二、对比C-like eg.JAVA"></a>二、对比C-like eg.JAVA</h3><p>0、python不用变量声明<br>1、python不用大括号，缩进是python的灵魂，缩进代替括号<br>2、if else 条件分支 :的使用<br>3、== &amp; =<br># == 相等<br># = 赋值<br>4、BIF(Bulit-in functions 内置函数)  </p>
+<pre><code>a=input(“…= ...“)  #此处输出字符串=，输出后再输入数值或字符串赋给a
+b=int(a) #将字符串a(整数)调整为数值
+help(input)</code></pre>
+
+<h3 id="三、注意"><a href="#三、注意" class="headerlink" title="三、注意"></a>三、注意</h3><p>（1）使用变量前需要先赋值<br>（2）变量名不能以数字开头，可以包括字母、数字、下划线（受C语言影响，python本身也是C写出来的）<br>（3）字母大小写是不同的名字<br>（4）= 左面名字右面赋值<br>（5）变量名命名尽量专业具体</p>
+<h2 id="Lecture-3-变量与字符串"><a href="#Lecture-3-变量与字符串" class="headerlink" title="Lecture 3 变量与字符串"></a>Lecture 3 变量与字符串</h2><h3 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h3><p>variable存储于内存中，给变量赋值。python没有变量，只有名字，更多地是将名字贴到值上面。<br>0、数值</p>
+<pre><code>a = 1
+b = 2
+c = a+b
+print(c)</code></pre>
+1、字符串（文本）
+<pre><code>a = "b"
+print(a)
+a = “c"
+print(a)</code></pre>
+2、字符串的拼接 bc
+<pre><code>a = "b"
+b = "c"
+c = a+b
+print(c)</code></pre>  
+
+<h3 id="二、字符串（文本）"><a href="#二、字符串（文本）" class="headerlink" title="二、字符串（文本）"></a>二、字符串（文本）</h3><p>0、字符串两侧有一致引号<br>1、字符串中需要出现单引号<br>（0）转义符号 \</p>
+<pre><code>print('Let\'s go!')</code></pre>
+（1）双引号套单引号
+<pre><code>print("Let's go!")</code></pre>
+2、原始字符串
+（0）输出c:\now
+<pre><code>str = "c:\now"
+str #输出为'c:\now’
+print(str) #false /n被print认为是换行</code></pre>
+（1）c:\now被print函数识别
+<pre><code>str = "c:\\now” #以\转义\
+print(str) #ok</code></pre>
+（2）多个\：考虑原始字符串r  
+<pre><code>#如果有很多\则不能依次转义，会浪费资源，考虑原始字符串，在字符串前加r
+str = r"c:\now\a\b”
+str #输出为'c:\\now\\a\\b'
+print(str)</code></pre>
+（3）字尾加\
+<pre><code>str = r"c:\now\a\b\” #false 如何字尾加\
+str = r"c:\now\a\b"
+c = "\\"
+print(str+c)</code></pre>
+（4）长字符数传
+<pre><code>#跨越多行字符串时，考虑三重引号字符串 '''…'''
+str='''我刚才读Yeats的诗歌，
+有些话很有共鸣，
+一个青年对情人的占有欲'''</code></pre>
+
+<h2 id="Lecture-4-猜数字游戏改进"><a href="#Lecture-4-猜数字游戏改进" class="headerlink" title="Lecture 4 猜数字游戏改进"></a>Lecture 4 猜数字游戏改进</h2><h3 id="一、条件分支：if-else"><a href="#一、条件分支：if-else" class="headerlink" title="一、条件分支：if else"></a>一、条件分支：if else</h3><p>0、目的：用户猜错后，程序提示大或小<br>1、比较操作符</p>
+<pre><code>> #左面大于右面 eg.1 > 3 False  
+>= #左面大于等于右面  
+== #等于  
+!= #不等于</code></pre>
+2、改进
+<pre><code>temp = input("guess my number:")
+guess = int(temp) #define guess
+if guess == 8:
+    print("yes")
+else:
+    if guess > 8:
+        print("u should guess smaller")
+    else:
+        print("u should guess bigger")
+print(“amazing, end")</code></pre>
+
+<h3 id="二、while循环：重复猜测"><a href="#二、while循环：重复猜测" class="headerlink" title="二、while循环：重复猜测"></a>二、while循环：重复猜测</h3><p>0、目的：多次输入，也即重复运行代码<br>1、改进</p>
+<pre><code>temp = input("guess my number:")
+guess = int(temp) #define guess
+while guess != 8:
+     temp = input(“wrong, please try again:")
+     guess = int(temp)
+     if guess == 8:
+         print("yes")
+     else:
+         if guess > 8:
+             print("u should guess smaller")
+         else:
+             print("u should guess bigger")
+print("amazing, end")</code></pre>
+
+<h3 id="三、and逻辑符：限制猜测次数"><a href="#三、and逻辑符：限制猜测次数" class="headerlink" title="三、and逻辑符：限制猜测次数"></a>三、and逻辑符：限制猜测次数</h3><p>0、and 与逻辑操作符<br>可以将任意表达式连接到一起，得到一个布尔类型(TRUE&amp;FALSE)值<br>1、符的优先级<br>3&gt;2 and 1&lt;2<br>3&lt;2 and 1&lt;2<br>#比较运算符优先级大于逻辑操作符，良好习惯可以加()优先执行<br>2、改进  </p>
+<pre><code>temp = input("guess my number:")  
+guess = int(temp) #define guess  
+i=1  
+while guess != 8 and i<=2: temp="input("wrong," please="" try="" again:")="" guess="int(temp)" if="" 8:="" print("yes")="" print("it's="" amazing.")="" else:=""> 8:  
+             print("u should guess smaller")  
+         else:  
+             print("u should guess bigger")  
+         i=i+1  
+         print("unfortunately.")  
+print("thanking u for ur gussing")</=2:></code></pre>
+
+<h3 id="四、random模块：每次猜测的答案随机"><a href="#四、random模块：每次猜测的答案随机" class="headerlink" title="四、random模块：每次猜测的答案随机"></a>四、random模块：每次猜测的答案随机</h3><p>0、引入random模块的randint()：返回随机整数<br>1、随机数改进</p>
+<pre><code>import random  
+secret= random.randint(1,10)  
+temp = input(&quot;guess my number:&quot;)  
+guess = int(temp) #define guess  
+i=1  
+while guess != secret and i&lt;=2:  
+     temp = input(&quot;wrong, please try again:&quot;)  
+     guess = int(temp)  
+     if guess == secret:  
+         print(&quot;yes&quot;)  
+         print(&quot;it&apos;s amazing.&quot;)  
+     else:  
+         if guess &gt; secret:  
+                 print(&quot;u should guess smaller&quot;)  
+         else:  
+                 print(&quot;u should guess bigger&quot;)  
+    i=i+1  
+    print(&quot;unfortunately.&quot;)  
+print(&quot;thanking u for ur gussing&quot;)&lt;/code&gt;&lt;/pre&gt; 
+</code></pre><p>2、进一步改进：第一次也有提示大或小</p>
+<pre><code>import random
+secret= random.randint(1,10)
+temp = input(&quot;guess my number:&quot;)
+guess = int(temp) #define guess
+if guess == secret:  
+      print(&quot;yes&quot;)  
+      print(&quot;it&apos;s amazing.&quot;)  
+else:  
+    if guess &gt; secret:  
+        print(&quot;u should guess smaller&quot;)  
+    else:  
+        print(&quot;u should guess bigger&quot;)  
+
+i=1 # first try over
+
+while guess != secret and i&lt;=2:  
+    temp = input(&quot;wrong, please try again:&quot;)  
+    guess = int(temp)  
+    if guess == secret:  
+        print(&quot;yes&quot;)  
+        print(&quot;it&apos;s amazing.&quot;)  
+     else:
+        if guess &gt; secret:
+                print(&quot;u should guess smaller&quot;)
+        else:
+                print(&quot;u should guess bigger&quot;)
+    i=i+1 # i+1 try
+    print(&quot;unfortunately.&quot;)
+print(&quot;thanking u for ur gussing&quot;)
+</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>鱼C论坛 《零基础入门学习Python》</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[日记 一六年拾遗]]></title>
       <url>http://yoursite.com/2016/12/31/%E6%97%A5%E8%AE%B0%20%E4%B8%80%E5%85%AD%E5%B9%B4%E6%8B%BE%E9%81%97/</url>
       <content type="html"><![CDATA[<h3 id="16-1-25-拒绝平庸"><a href="#16-1-25-拒绝平庸" class="headerlink" title="16.1.25 拒绝平庸"></a>16.1.25 拒绝平庸</h3><blockquote>
@@ -132,6 +604,7 @@
 <p>  大抵于学术共同体的发展，实证更佳，叠叠代代，固然有断裂性，而始终于认识上曲曲折折地前进；于个体自由的志趣，则质性更胜，洞察的深切，思辨的更广，套路拘束也少的多。<br>  对学术的低落与高潮不断交错在我生命，大抵学术仍是追寻个体终极关怀的最佳路径。或日后潜心在柴米，别处的召唤亦始终是我对现实不满的乌托。</p>
 <h3 id="16-12-14-Drug-Foods"><a href="#16-12-14-Drug-Foods" class="headerlink" title="16.12.14 Drug Foods"></a>16.12.14 Drug Foods</h3><p>  Terrio的《手创法国巧克力的文化与历史》论述Drug Foods，想起《上瘾五百年》，延续西敏斯的以小见大，觉得研究食品历史挺有意思的，顺带可以学术的名义吃吃喝喝。</p>
 <p>  看权力与规则的第十章，empathy翻译成“共情”或要比译成“同情”好的多，学术语言应该尽力避免日常用语，固然可以对日常用语二次加工引申特定情景下的学术意涵，但我总觉得别扭。</p>
+<h3 id="16-12-15"><a href="#16-12-15" class="headerlink" title="16.12.15"></a>16.12.15</h3><p>  你双手张开把我环绕起来，世界任我横冲直撞，而你容忍我的棱角。</p>
 <h3 id="16-12-16-张艺谋的长城"><a href="#16-12-16-张艺谋的长城" class="headerlink" title="16.12.16 张艺谋的长城"></a>16.12.16 张艺谋的长城</h3><p>  今天晚上和含静一起看张艺谋的长城，好莱坞色彩很浓，带着强烈的萨义德批评的东方主义建构，基督教救赎、传统英雄主义，与对东方女子及宫廷的幻想。<br>  长城的文化迎合了西方市场的品味，视觉上迎合了本土观众的眼球。大抵票房会大卖，而文化上则是于其早期作品的倒退。</p>
 <h3 id="16-12-17-嫩肉"><a href="#16-12-17-嫩肉" class="headerlink" title="16.12.17 嫩肉"></a>16.12.17 嫩肉</h3><p>  考完六级回寝，在一楼被大叔拦下，大叔愣愣的看了我两秒。<br>  “诶，你叫什么来着。”<br>  “我看你和他们不一样阿，长得年轻，和他们不一样，长得漂亮，真漂亮。”</p>
 <h3 id="16-12-18-I-am-quiet-inside"><a href="#16-12-18-I-am-quiet-inside" class="headerlink" title="16.12.18 I am quiet inside"></a>16.12.18 I am quiet inside</h3><p>  “I am quiet inside, though they drag me by a wire, through the storm that cracks the sky, I am quiet inside.”<br>  配着论文和台灯，真让人伤感，想起Siles的《北京故宫》，“我整整一生，就像这座宫殿，其中唯一的禁地，正是我自己。”</p>
@@ -149,8 +622,8 @@
 <h3 id="16-12-28-正邪"><a href="#16-12-28-正邪" class="headerlink" title="16.12.28 正邪"></a>16.12.28 正邪</h3><p>  我昨晚做了个光怪陆离的梦，子要语怪，便记录下来。<br>  梦里你是妖狐，但在我身边一直假装自己是普通的江湖儿女，而实际上你却也是隐藏的魔道盟主。我败坏魔道多次手笔，期间凶险异常，却总是莫名其妙化险为夷，是你在我旁边，不忍心看我受伤。<br>  但你到底肩负了魔道前辈颠覆秩序的希冀，通过几个看似不经意的线索，我以为又是一波普通的阴谋，心里疲倦又兼着懦弱，不道是大战便抽身离开，你把我调离了决战地点。<br>  但没想到魔道内部的分裂还是惹来魔道伏击，一路逃奔，你和我一起的真身被一个三代正道弟子偶然撞到，三代弟子只道是妖力高强，通知了正道前辈，正道前辈赶来被你假面幻相击败，不世出宗师蛰伏百年出世，与你鏖战许久，最后你被打回原型。<br>  我概不知情你是魔女，见你变成狐身死了，心下大悲，始知天地间陪我走下的只望是你。堕身魔道。<br>  缘是三生三世缘浅，正邪不敌情深。记你梦中与长老说的。<br>  “若是欢喜那小子，不如把他纳入魔道。”<br>  “他走的正道是他的正道，概不是正道的正道，又怎么纳他入魔。”</p>
 <h3 id="16-12-29-Bayes式归纳"><a href="#16-12-29-Bayes式归纳" class="headerlink" title="16.12.29 Bayes式归纳"></a>16.12.29 Bayes式归纳</h3><p>  研究方法这本书，Babble写的是比风笑天大气多了。或也是我大一还不懂研究方法的两种取向，前段时间读Fierberg用归纳法建构的理论才懵懵懂懂的。仔细想来，统计学的Bayes也是归纳式的。<br>  囫囵觉得可以拓展一下Babble的科学轮，个案归纳——通则归纳——通则演绎——个案演绎，再循环回去。<br>  大概我对更“科学的”数据归纳式兴趣更多一些，或许也是很多人痴迷Bayes的缘由。</p>
 <h3 id="16-12-30-七月与安生"><a href="#16-12-30-七月与安生" class="headerlink" title="16.12.30 七月与安生"></a>16.12.30 七月与安生</h3><p>  晚上看七月与安生，我觉得是年度最好的华语青春片，或者更深层的是两种生活的交织与分野，一种人生方式的选择，已不再局限是青春片。<br>  我常常分不清自己喜欢四海为家，还是安稳待在一处的柴米油盐。只有安生知道全部的真相，最终落叶到生活里，是我觉得最真实和感动的，或许也是我内心深处对人生方式的想法。</p>
-<h3 id="16-12-31-对2017年的几个希冀"><a href="#16-12-31-对2017年的几个希冀" class="headerlink" title="16.12.31 对2017年的几个希冀"></a>16.12.31 对2017年的几个希冀</h3><p>  我想了想觉得自己今年心路起伏挺多的，写什么应该是能写出来的，可是自己比较懒蠢，起伏什么在日记里也零零散散记过了，就不凑年终总结的热闹了。<br>  2017年有几个希冀，算不上是能完成的计划。首要的是能保研到理想学校；次之的是TOFEL单词能真的从头到尾啃一遍；数据分析用R全面替代spss；理解多元统计、时间序列和一些相关的统计知识；初步入门python及其爬虫技术。<br>  当然，对于java和php我也是有意向的，此外一些金融类专业书也一直想看，不过因为离毕业求职尚早，算不上是急需，可以等到研究生阶段慢慢啃。</p>
-<p>  另，晚上因为想念含静，在家翻看朱生豪的情书集，觉得民国读书人除去情书真挚，读书量也大的骇人，旧学新学融汇，却是那个年代的读书人少，金贵也有真才实学，不像我这般虚伪。</p>
+<h3 id="16-12-31-对2017年的几个希冀"><a href="#16-12-31-对2017年的几个希冀" class="headerlink" title="16.12.31 对2017年的几个希冀"></a>16.12.31 对2017年的几个希冀</h3><h4 id="（一）希冀"><a href="#（一）希冀" class="headerlink" title="（一）希冀"></a>（一）希冀</h4><p>  我想了想觉得自己今年心路起伏挺多的，写什么应该是能写出来的，可是自己比较懒蠢，起伏什么在日记里也零零散散记过了，就不凑年终总结的热闹了。<br>  2017年有几个希冀，算不上是能完成的计划。首要的是能保研到理想学校；次之的是TOFEL单词能真的从头到尾啃一遍；数据分析用R全面替代spss；理解多元统计、时间序列和一些相关的统计知识；初步入门python及其爬虫技术。<br>  当然，对于java和php我也是有意向的，此外一些金融类专业书也一直想看，不过因为离毕业求职尚早，算不上是急需，可以等到研究生阶段慢慢啃。</p>
+<h4 id="（二）我这般虚伪"><a href="#（二）我这般虚伪" class="headerlink" title="（二）我这般虚伪"></a>（二）我这般虚伪</h4><p>  晚上因为想念含静，在家翻看朱生豪的情书集，觉得民国读书人除去情书真挚，读书量也大的骇人，旧学新学融汇，却是那个年代的读书人少，金贵也有真才实学，不像我这般虚伪。</p>
 ]]></content>
     </entry>
     
@@ -333,7 +806,10 @@
 <h4 id="（一）、认识论：理性主义"><a href="#（一）、认识论：理性主义" class="headerlink" title="（一）、认识论：理性主义"></a>（一）、认识论：理性主义</h4><p>  狭义上，认识上的理性主义与洛克反对理性主义天赋观念的经验主义相对；广义上，经验主义被包括在理性主义之内，与宗教天启相对。<br>1、怀疑主义<br>  理性主义可追溯至笛卡尔的怀疑精神，后分野为积极怀疑与消极怀疑。怀疑解构了宗教信仰权威性、神圣化，导向了世俗化和文化理性化（Weber的祛魅）。<br>2、古典基础主义知识论：一元真理<br>  认识论确立了一元真理，延伸为存在永恒规律。后有哈耶克有限理性对无限理性的批判。<br>3、人性论<br>  认为人性是永恒不变的。<br>4、逻辑论<br>  理性主义，最初的形式逻辑强调同一律（也即认为矛盾是错误的）；后康德提出先验逻辑，突破了旧有框架，论证人的自由人格等到的价值具有先验必然性；至黑格尔，把我矛盾对立统一，强调辩证思维逻辑；至马克思进一步完善。</p>
 <h4 id="（二）、方法论：科学"><a href="#（二）、方法论：科学" class="headerlink" title="（二）、方法论：科学"></a>（二）、方法论：科学</h4><p>  基于由普遍至个别，还是由个别至普遍，产生了两类方法论，分为理性论与经验论。<br>  理性论强调逻辑推演，代表如笛卡尔的先验性与普遍性、莱布尼兹的真理分为逻辑的与事实的。<br>  经验论强调因果归纳演绎，代表如牛顿、洛克；洛克经验主义思想后发展为休谟的怀疑主义，强调知觉的印象与观念，认识是不可能超越于经验的；继而为康德发展为现象世界与本体世界（物自体），对科学进行了划界；至19C发展为实证主义；至20C发展为逻辑经验主义（泛科学主义）；至当下为分析哲学。<br>  经验论逐渐成为主流，迫使宗教分离，世俗化与理性信仰取而代之。<br>16.10.17 10:00 于正心</p>
 <h4 id="（三）、政治哲学：自由主义"><a href="#（三）、政治哲学：自由主义" class="headerlink" title="（三）、政治哲学：自由主义"></a>（三）、政治哲学：自由主义</h4><p>1、individualism<br>  自由权利至自然权利，至individualism(个体主义)。自由主义的思想基础为个体主义，individualism与egoism(自我主义)不同，individualism与altruism(利他主义)并不矛盾。其实质是以人为本，社会服务于个人。<br>2、自由<br>  自有本质不受权力控制，与法律联系。<br>  卢梭提出的权力让渡为伯林划分的积极自由，强调人主观能动的理性解放，其最后导致了极权主义。<br>  而洛克提出的则被划入为消极自由，其强调生命、财产与自由不可让渡，自由是免于做某事的自由，提出分权学说。<br>16.10.27 11:05 于正心22</p>
-<h2 id="第三讲-康德哲学：现代性的序幕"><a href="#第三讲-康德哲学：现代性的序幕" class="headerlink" title="第三讲 康德哲学：现代性的序幕"></a>第三讲 康德哲学：现代性的序幕</h2><h2 id="第七讲-尼采：后现代性的开端"><a href="#第七讲-尼采：后现代性的开端" class="headerlink" title="第七讲 尼采：后现代性的开端"></a>第七讲 尼采：后现代性的开端</h2><h2 id="第十四讲-哲学范式的转换：从现代新到后现代性"><a href="#第十四讲-哲学范式的转换：从现代新到后现代性" class="headerlink" title="第十四讲 哲学范式的转换：从现代新到后现代性"></a>第十四讲 哲学范式的转换：从现代新到后现代性</h2>]]></content>
+<h2 id="第二讲-现代性的性质与特点"><a href="#第二讲-现代性的性质与特点" class="headerlink" title="第二讲 现代性的性质与特点"></a>第二讲 现代性的性质与特点</h2><p>17.1.16 21:15 于石家庄机场</p>
+<h2 id="第三讲-康德哲学：现代性的序幕"><a href="#第三讲-康德哲学：现代性的序幕" class="headerlink" title="第三讲 康德哲学：现代性的序幕"></a>第三讲 康德哲学：现代性的序幕</h2><h2 id="第五讲-韦伯的理性化的现代性分析"><a href="#第五讲-韦伯的理性化的现代性分析" class="headerlink" title="第五讲 韦伯的理性化的现代性分析"></a>第五讲 韦伯的理性化的现代性分析</h2><h2 id="第六讲-后现代话语的产生于后现代性"><a href="#第六讲-后现代话语的产生于后现代性" class="headerlink" title="第六讲 后现代话语的产生于后现代性"></a>第六讲 后现代话语的产生于后现代性</h2><p>17.1.16 23:45 于石家庄往三亚 飞机</p>
+<h2 id="第七讲-尼采：后现代性的开端"><a href="#第七讲-尼采：后现代性的开端" class="headerlink" title="第七讲 尼采：后现代性的开端"></a>第七讲 尼采：后现代性的开端</h2><h2 id="第九讲-福柯：规训的现代社会及其主体"><a href="#第九讲-福柯：规训的现代社会及其主体" class="headerlink" title="第九讲 福柯：规训的现代社会及其主体"></a>第九讲 福柯：规训的现代社会及其主体</h2><h2 id="第十一讲-吉登斯：晚期现代性的发展"><a href="#第十一讲-吉登斯：晚期现代性的发展" class="headerlink" title="第十一讲 吉登斯：晚期现代性的发展"></a>第十一讲 吉登斯：晚期现代性的发展</h2><h2 id="第十三讲-哈贝马斯：现代性的重建"><a href="#第十三讲-哈贝马斯：现代性的重建" class="headerlink" title="第十三讲 哈贝马斯：现代性的重建"></a>第十三讲 哈贝马斯：现代性的重建</h2><h2 id="第十四讲-哲学范式的转换：从现代新到后现代性"><a href="#第十四讲-哲学范式的转换：从现代新到后现代性" class="headerlink" title="第十四讲 哲学范式的转换：从现代新到后现代性"></a>第十四讲 哲学范式的转换：从现代新到后现代性</h2><p>17.1.17 1:00 于往三亚飞机</p>
+]]></content>
     </entry>
     
     <entry>
@@ -352,8 +828,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[《西方社会学名著提要》memo]]></title>
-      <url>http://yoursite.com/2016/10/19/%E3%80%8A%E8%A5%BF%E6%96%B9%E7%A4%BE%E4%BC%9A%E5%AD%A6%E5%90%8D%E8%91%97%E6%8F%90%E8%A6%81%E3%80%8Bmemo/</url>
+      <title><![CDATA[《资本主义文化矛盾》memo]]></title>
+      <url>http://yoursite.com/2016/10/19/%E3%80%8A%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E6%96%87%E5%8C%96%E7%9F%9B%E7%9B%BE%E3%80%8Bmemo/</url>
       <content type="html"><![CDATA[<h2 id="《资本主义文化矛盾》1976"><a href="#《资本主义文化矛盾》1976" class="headerlink" title="《资本主义文化矛盾》1976"></a>《资本主义文化矛盾》1976</h2><p>  于大三伊始开始理解后现代之冲击，其思想之深刻，实为文艺复兴、启蒙运动比肩之深刻裂变，加缪荒诞主义哲学于我生存意义启示，后现代则于我观察世界视角之转变，福柯于传统史学的弃掷，为断裂解构的重塑。<br>  于现代主义中引发的时空错乱，或许正是我对时空社会学生发兴趣的原因，其正是我对于掌控自我生命的努力，也是我试图理解现代社会中，个人与社会关系的努力，是为Weber所说的志业。<br>2016.10.18 于正心<br><a id="more"></a></p>
 <p>Bell（北大 张敏）<br>  Bell在《后工业社会》中提及了技术理论的集约化，导致了新型原则，继而使得社会科层化。而于《资本主义文化矛盾》中，则论述了个人享乐主义文化导致的文化矛盾、信仰危机及政治困境，为了解决这一危机困境，其回溯享乐主义文化的根源。<br>  Bell首先界定了资本主义，“资本主义是一个经济系统，它同建立在成本核算基础上的商品生产挂钩，依靠资本的持续积累来扩大再投资。”Bell的方法论，也即是坚持断裂观，分解这一综合体。</p>
 <h3 id="一、三领域的断裂：社会矛盾的根源"><a href="#一、三领域的断裂：社会矛盾的根源" class="headerlink" title="一、三领域的断裂：社会矛盾的根源"></a>一、三领域的断裂：社会矛盾的根源</h3><p>  Bell首先指出社会是分裂的不同领域，每个领域都有自己的独特动力。<br>  “社会不是统一的，而是分裂的，它的不同领域各有不同的模式，按照不同的节奏变化，并且由不同的，甚至相反方向的轴心原则加以调节。”<br>  Bell分析社会的三个领域即是经济-技术领域、政治领域，与文化领域，正是领域间的矛盾决定了社会的各种矛盾。<br>  经济-技术领域中，轴心原则是功能理性，力求最大收益；其轴心构造是官僚等级制度；实质是角色间的社会交换，同时依据收益原则，隐含了进步观念。因此经济领域是线性变革的。<br>  政治领域中，轴心原则是暗含平等条件的合法性；轴心构造是代表选举制或参与制，实质是里意见的买卖交易。因此政治领域是不断调和的。<br>  文化领域中，文化实际是象征形式的领域，轴心原则是不断表现再造自我，回越，也即不断转回人类生存痛苦的根本问题探讨。因此文化领域是不断反叛传统的。<br>  正因此，我们可以看到经济等级制度与政治平等参与的矛盾，经济专业分工与文化自我实现的矛盾。矛盾的根源正是诸领域的断裂。发展至今，正是文化与经济的不同取向引导着人类社会，现代主义贯穿其中。</p>
@@ -369,12 +845,13 @@
 <h4 id="（二）、宗教衰败：文化重建宗教"><a href="#（二）、宗教衰败：文化重建宗教" class="headerlink" title="（二）、宗教衰败：文化重建宗教"></a>（二）、宗教衰败：文化重建宗教</h4><p>  历史，事实上恰是人类向自然的扩张，而宗教在人类与自然外物联系中承担了人类的行动指南。但在对自我的追求中，现代主义逐渐侵犯了宗教领域，将权威中心从神圣移向了亵渎。<br>  宗教也即开始了衰败，其表现为世俗化与亵渎行为，现代主义开始无限制扩张。<br>  正因如此，Bell倡导新合成形式的文化重建，也即宗教手段，重新为生活提供终极意义。</p>
 <h4 id="（三）、政治负荷：公众家庭限定"><a href="#（三）、政治负荷：公众家庭限定" class="headerlink" title="（三）、政治负荷：公众家庭限定"></a>（三）、政治负荷：公众家庭限定</h4><p>  在经济活动中，除去家庭经济、市场经济外，公众家庭经济领域是近来的第三领域，其实际是满足公共需求和欲望的媒介，与个人主义的功利主义相反，其存在即是为了满足公众需求。<br>  但Bell考察了美国社会，认为美国社会结构问题集中于民族社会与国际警察的社会结构，美国呈现着个人主义、资产阶级化，及缺少公众利益至上思想的特点，其公众家庭承担了过多的制定经济政策、承担科学发展费用、及制定社会义务的责任。正因此，美国公众家庭政治市场化，超负荷化忽视了公众家庭与市场经济的界限。<br>  Bell由此主张实行相对差别原则、公正分配原则，以约束经济自由主义，坚持政治自由主义。以达成社会凝聚功能。</p>
 <h3 id="五、小结"><a href="#五、小结" class="headerlink" title="五、小结"></a>五、小结</h3><p>  正是上述Bell在经济上的社会主义、政治上的自由主义，及文化上的保守主义，是其圣三一教堂称号的缘由。其指出社会矛盾的根源，正是经济、政治、文化三个领域的对立。而美国现代矛盾实际上正是此三领域的不协调，此有功能主义的更新色彩。为此，Bell提出了重建宗教与公众家庭理论来弥合裂缝。<br>  Bell于后现代思考与功能主义的耦合令人惊艳，及其开万世之太平，立天地之心，生民之命，为吾辈之崇高，精神之先导，学生闫誉腾谨记于正心楼。<br>2016.10.19 17:24</p>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>《西方社会学名著提要》</p>
 ]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[《西方历史学名著提要》memo]]></title>
-      <url>http://yoursite.com/2016/10/15/%E3%80%8A%E8%A5%BF%E6%96%B9%E5%8E%86%E5%8F%B2%E5%AD%A6%E5%90%8D%E8%91%97%E6%8F%90%E8%A6%81%E3%80%8Bmemo/</url>
+      <title><![CDATA[《知识考古学》memo]]></title>
+      <url>http://yoursite.com/2016/10/15/%E3%80%8A%E7%9F%A5%E8%AF%86%E8%80%83%E5%8F%A4%E5%AD%A6%E3%80%8Bmemo/</url>
       <content type="html"><![CDATA[<h2 id="《知识考古学》1966-Foucault"><a href="#《知识考古学》1966-Foucault" class="headerlink" title="《知识考古学》1966 Foucault"></a>《知识考古学》1966 Foucault</h2><h3 id="一、学术生涯"><a href="#一、学术生涯" class="headerlink" title="一、学术生涯"></a>一、学术生涯</h3><p>  Foucault(1926-1984)受新黑格尔主义Hyppolite与结构主义马克思主义阿尔都塞影响，后于心理诊所与监狱工作，1960年出版博士论文《精神病与精神失常》，于1964年缩写为《疯癫与文明》。<br>  早期关注于话语实践的考古学方法，1963年《诊所的诞生》、1966年《词与物》、1969年《知识考古学》，强调对知识的知识，考古知识可能的条件。<br>  1970年开始转为非话语实践的谱系学方法，1971年《尼采、谱系学、历史》、1975年《规训与惩罚》，考察权力—知识关系。<br>  晚期转为了自我的伦理学，撰写《性经验史》，1976年《第一卷 认知的意志》、1984年《第二卷 快感的享用》与《第三卷 关注自我》，及生前未出版的《肉欲的告赎》。<br><a id="more"></a><br>  于此，开始简要《知识考古学》内容。</p>
 <h3 id="二、话语的形成：传统编年史四大批判"><a href="#二、话语的形成：传统编年史四大批判" class="headerlink" title="二、话语的形成：传统编年史四大批判"></a>二、话语的形成：传统编年史四大批判</h3><p>  Foucault对传统编年史的四条预设展开了四大批判。同一话语对象、同一陈述形式、同一概念、同一主题，Foucault则认为，话语对象是异质性的、陈述形式是异质性的、概念由陈述群构成、主题由话语策略决定。</p>
 <h4 id="（一）、陈述群参照同一话语对象与异质性话语对象"><a href="#（一）、陈述群参照同一话语对象与异质性话语对象" class="headerlink" title="（一）、陈述群参照同一话语对象与异质性话语对象"></a>（一）、陈述群参照同一话语对象与异质性话语对象</h4><p>  Foucault予以否定，实际上，同一话语对象是异质性的，传统编年史是人为建构了同质性。<br>  Foucault指出话语对象的显现有三个维度，也即话语对象存在于这个三维空间中。第一维话语形式的差异是表层（专业术语）；第二维非话语实践的区分是对界限的审定（权威机制）；第三维话语实践的整合是对规格的格局（聚合为整体的话语单位）。<br>  话语对象存在于话语关系网络中，关系是话语的极限，其形成中词与物是分离的，是话语建构了话语对象，而不存在一个同一的话语对象。</p>
@@ -396,6 +873,7 @@
 <h3 id="五、Foucault的历史哲学"><a href="#五、Foucault的历史哲学" class="headerlink" title="五、Foucault的历史哲学"></a>五、Foucault的历史哲学</h3><h4 id="（一）、历史的非客观性：知识—权力"><a href="#（一）、历史的非客观性：知识—权力" class="headerlink" title="（一）、历史的非客观性：知识—权力"></a>（一）、历史的非客观性：知识—权力</h4><p>  Foucault否定存在客观性标准，过去实际是由阐释性话语建构的，而一些如民主概念，其本身是话语、话语实践和非话语实践建构的。<br>  及否认显话语与隐话语的二元划分，不能谈论历史的客观性问题，客观性是话语实践的事件，也是非话语实践（权力机制）的影响。</p>
 <h4 id="（二）、于启蒙精神的微观反抗：解构"><a href="#（二）、于启蒙精神的微观反抗：解构" class="headerlink" title="（二）、于启蒙精神的微观反抗：解构"></a>（二）、于启蒙精神的微观反抗：解构</h4><p>  Foucault认为，理性的求真精神，实际是另一种控制性力量，恢复话语的多元性、增殖性、差异性，给予边缘话题关注，拆解宏达History至众多小的history，正是Foucault的反叛，这无疑于我想起了Laporte的《屎的历史》。“便是要绕开所谓的伟大文明，搅一搅文明的下水道。”</p>
 <p>  写这篇memo是Foucault诞辰九十周年，Foucault的书我看的仍颇为吃力，便是他人的总结也有些难读，但我确确愿为Foucault门下走狗，反叛这社会既定。<br>2016.10.15 17:30 于群力</p>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>《西方历史学名著提要》</p>
 <h2 id="《伯罗奔尼撒战争史》Thucydides"><a href="#《伯罗奔尼撒战争史》Thucydides" class="headerlink" title="《伯罗奔尼撒战争史》Thucydides"></a>《伯罗奔尼撒战争史》Thucydides</h2><p>  431 B.C. – 396 B.C. Peloponnesian War，是役结束了希腊黄金时代。而Thucydides因之放逐，转为历史学家，战争史为当代史著作，记录了431 B.C. – 411 B.C. ，未完成本书即意外死亡。</p>
 <h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>  是文可于标题三后开始看，首先牢骚了一下编写问题，然后简要辨析西方概念、历史学概念、历史学性质（当代交叉），及谈及了收录内容。<br>  标题三后介绍西方历史学发展脉络，提纲挈领四阶段，而或可细分七阶段。</p>
 <p>  6 B.C. 荷马史诗，人本思想滥觞。<br>  5 B.C. —— 476西罗马帝国覆灭，古典史学，此时代表为Hecateaus与Thucydides。<br>  476 —— 13 C，中世纪史学（基督教史学），代表为Augustine与Aquinas，发展进步观，此时出现编年史等题材。</p>
@@ -908,7 +1386,7 @@
 <h3 id="（二）"><a href="#（二）" class="headerlink" title="（二）"></a>（二）</h3><p>ahe，我是一條寂寞的布魯斯，<br>等待妳將我拾起，<br>妳的嘴唇將印上我的胸膛，<br>我的箔片隨你震動，<br>妳輕吟，<br>我附和，<br>願你我是一首唱不完的歌。</p>
 <p>  今日頗念舊，所寫有關風月。<br>  閆譽騰 武嶺小雨</p>
 <h2 id="16-6-9"><a href="#16-6-9" class="headerlink" title="16.6.9"></a>16.6.9</h2><p>  昨夜做夢，睡眠不好，夢中妻子很素雅漂亮，但是感情不睦，我對兒子很好，教他游泳。</p>
-<h2 id="16-6-11-好为人师"><a href="#16-6-11-好为人师" class="headerlink" title="16.6.11 好为人师"></a>16.6.11 好为人师</h2><p>  群里民工姐闲聊，她谈及74年的四书章句批注。<br>  “先做原文句读，再做一本正经的注释，再做现代汉语翻译，最后用红宝书开头抡一锤子批判，把四书每一章节都与当年时事政治联系起来……再回头看那个年代的书，谄媚者写的到底空洞，肚里有干货，非得吼两句语录才能做学问的，落笔还是细腻……一样都是译注，传达给读者的，一个是浮躁的煽动，一个是文字下的暗流，我颇想过一阵子那年月教材编写者的心路历程，较之今日喉舌与学棍，作品营造的阅读感受和心得会一样吗？”<br>  由简入繁易，由繁入简难，学生时代的专注再往后越来越很难得。做学问要真的能做冷板凳。不要有点东西就好为人师</p>
+<h2 id="16-6-11-文字下的暗流与好为人师"><a href="#16-6-11-文字下的暗流与好为人师" class="headerlink" title="16.6.11 文字下的暗流与好为人师"></a>16.6.11 文字下的暗流与好为人师</h2><p>  群里民工姐闲聊，她谈及74年的四书章句批注。<br>  “先做原文句读，再做一本正经的注释，再做现代汉语翻译，最后用红宝书开头抡一锤子批判，把四书每一章节都与当年时事政治联系起来……再回头看那个年代的书，谄媚者写的到底空洞，肚里有干货，非得吼两句语录才能做学问的，落笔还是细腻……一样都是译注，传达给读者的，一个是浮躁的煽动，一个是文字下的暗流，我颇想过一阵子那年月教材编写者的心路历程，较之今日喉舌与学棍，作品营造的阅读感受和心得会一样吗？”<br>  由简入繁易，由繁入简难，学生时代的专注再往后越来越很难得。做学问要真的能做冷板凳。不要有点东西就好为人师</p>
 <h2 id="16-6-13"><a href="#16-6-13" class="headerlink" title="16.6.13"></a>16.6.13</h2><p>  在校下雨，今天洗澡的時候，突發奇想寫一個人物叫各種社會家名字的小說。</p>
 <h2 id="16-6-14-不如轉行"><a href="#16-6-14-不如轉行" class="headerlink" title="16.6.14 不如轉行"></a>16.6.14 不如轉行</h2><p>來台灣以後，漸漸接觸了一些計算機的東西，雖說都極為淺顯，可多少也受到了衝擊，我前一陣子在微博上寫，原先喜歡感性，現在愈發喜歡理性，原文懶得去查，大概意思就是這樣吧。<br>今天上完課回來，本來想寫政治學論文，結果渾渾噩噩過了幾個小時，又不知道幹什麼去了，剛才吃完飯，猛然又開始自我否定。<br>我大學讀了兩年的專業到底畢業能幹什麼，不如轉行，可是轉到哪裡又是個問題。<br>想起阮一峰，還是哪個IT的博客，原先是經濟學博士，逐漸覺得，在中國搞社科是沒有出路的，也不能解決什麼社會問題，最後轉到計算機。<br>我爬上床坐了一會，看室友在下面彈吉他，竟然也有些唏噓。  </p>
 <p>我過得到底還是好糾結，可人生本來不就是這樣麼，人做什麼都不是徒勞，可人做什麼也都是徒勞。我也不是聖人，為什麼總要給自己加一個仿佛要拯救黎明天下蒼生的使命。<br>家裡也只是普通家庭，既沒有當官的爸媽，也沒有有錢的親戚，讀社科，讀一輩子，也不過是鏡裡看花，水中月。<br>不如轉行，可轉行又要轉到哪裡去呢，我讀了兩年的社會系，讓我突然放棄我又無論如何難以割捨，放不下麼，期待很淺。<br>又是一篇讓人生厭的日記，和前一篇吸引別人來讀的文章放在一起，也不知道會不會有些搞笑。  </p>
@@ -919,10 +1397,6 @@
 <p>  來台灣交流的本意大概是讓大學的資歷變得不那麼單調，也或是為了稍加擺脫愈發無聊的學分績評比，至於來臺前對台灣抱有什麼期待，似乎卻從未想過。<br>  從高二以來，我一直試圖走在政治正確的道路上，這看起來前途光明，也讓別人覺得安定，我順理成章的以一個不上不下的成績去了工大；順理成章的在荒廢大一後覺得不妥，又爬回系裡不上不下的成績；順理成章的把命運分配予我的專業假象為可以為之奮鬥終身的熱忱。<br>  可我愈發覺得，一切有為法，如夢幻泡影。<br>  無論是社團、支教、台灣交流；還是出門的旅行，拉薩、三亞；這些資歷的羅列於我愈發顯得空虛，其間是真的對社會抱有著熱忱的責任，對學術道路的探索，對未知世界的新奇，還是對於政治正確的資歷索求，已讓我越來越不能分辨。</p>
 <p>  打初來台灣時，大概便將自己的身份定義為在台灣社會的過客，二月裡來，六月裡去。<br>我未曾想過與這片土地發生什麼羅曼蒂克，也很少去思索我是因為什麼原因來到這裡，大概僅是在一個與大陸別無二致的土地上，一個學期的正常學習。<br>  可也是在今天的社會統計學結課時，又猛然覺得，近一周來每日通宵趕論文，與同組的台灣學生在社科院寫報告，有了一些觸動，在我剛剛感覺自己要慢慢浸入這個社會的文化時，我的交流期限也接近了尾聲。<br>我沒有主動走過這個社會的角角落落，這多少讓我覺得有些遺憾，而未來能否再有這麼長期的空檔來臺，抑或有無機會再來臺，也不得而知。</p>
 <p>  在台灣的交流生，有些人逛遍了台灣的每一個角落，有些人躲藏在台灣的大學圖書館裡。我大概介於兩者之間，偶爾週末跑到其他城市，偶爾週末在寢室看論文，我見了些台灣在地的風土人情，也學了些台灣社會科學的學術範式。中庸的道路依舊，我也依舊掙扎在個人意趣與政治正確之間，當然，也有可能是我依舊掙扎在一種虛假的個人意趣與政治正確之間。<br>  對於台灣每個人都有著獨屬自己的經歷，而這經驗也終歸不能為他人複製。每個人都是其他生命的過客，而我在台灣社會的過路，雖然很是平淡，是虛假的資歷也好，是真實的收穫也罷，終歸已經烙印在我短暫的生命歷程裡。<br>  每一個抉擇都影響著下一段道路的方向，而從台灣的離去，也是我下一段未知道路的開始。<br>2016.6.22 13:01<br>閆譽騰 於國立中山大學</p>
-<h2 id="16-6-24-文字下的暗流"><a href="#16-6-24-文字下的暗流" class="headerlink" title="16.6.24 文字下的暗流"></a>16.6.24 文字下的暗流</h2><p>  在社群里聊天，民工姐有一句话让我印象深刻。</p>
-<blockquote>
-<p>“再回头看那个年代的书，谄媚者写的到底空洞，肚里有干货，非得吼两句语录才能做学问的，落笔还是细腻。 一样都是译注，传达给读者的，一个是浮躁的煽动，一个是文字下的暗流。”</p>
-</blockquote>
 <h2 id="16-6-25-台东"><a href="#16-6-25-台东" class="headerlink" title="16.6.25 台东"></a>16.6.25 台东</h2><p>  通宵写完都市社会学的作业，早上6点多睡了1个多小时到7点多，9点多和复旦学长启程去台东。<br>  森林公园的滨海大道人极少，租了两个自行车，这里太平洋的沙滩，与西子湾一样是深灰色的。第一次看太平洋，海水不如垦丁巴士海峡的蓝，在远处可以看到海水的分层，极远处则同巴士海峡近似了。奇怪沙滩上生物极少。我们在沙滩待了很久，在走的时候才来了两个女生。<br>  晚上坐火车到了花莲，下雨，从民宿处把书包放下，去自强夜市，晚3点睡觉。</p>
 <h2 id="16-6-26-花莲"><a href="#16-6-26-花莲" class="headerlink" title="16.6.26 花莲"></a>16.6.26 花莲</h2><p>  上午花莲晴朗，下午阴雨。早上9点起床，中午11点搭车250元票，至七星潭、太鲁阁。<br>  七星湾无沙滩，岸边都是小的石头，海水极为清澈，极为清澈。<br>  在太鲁阁中，脑海浮现三峡，两岸连山，略无阙处，山中雾气很大，刚登上大巴车便开始下雨，气候变化很快。未全部游玩，太鲁阁生态丰富，物种多，昆虫尤甚，蜘蛛、臭虫等很多。为台湾游玩诸多景色之上佳，胜于阿里山。</p>
 <h2 id="16-6-27-僵持"><a href="#16-6-27-僵持" class="headerlink" title="16.6.27 僵持"></a>16.6.27 僵持</h2><p>  花莲往高雄的车过了点，赶往台北差了10分钟，与学长意见不一，在全家僵持良久，最后乘大巴返回高雄。</p>
@@ -2171,7 +2645,7 @@
       <content type="html"><![CDATA[<h3 id="15-7-24-延吉"><a href="#15-7-24-延吉" class="headerlink" title="15.7.24 延吉"></a>15.7.24 延吉</h3><p>  和孟典坐高铁到长春，12:50乘汽车到延吉，妈妈说这是姥爷的故乡，而在我出生的前一年，姥爷去世。<br>  两篇论文尚未写完而出来旅行，大抵是要趁着年轻，多走走看看。我只是个孤独的旅人，喜欢在路上的感觉，6点抵达延吉。</p>
 <p>  延吉路边上铺的牌子都是中韩双语，但多少是去过海拉尔，看过中俄蒙三语的牌子，在拉萨也见多了中藏双语的牌子，对中韩双语已不是特别的新鲜。<br>  安顿好宾馆后，直奔元奶奶韩国参鸡汤，排骨酱汤、石锅豆腐、大的猪肉饭包，米酒，花费210元，剩了好多，但多少是领略了一下韩餐的感觉。<br>  夜晚的布尔哈通河很漂亮。问了问旁边的路人，布尔哈通河有什么寓意，路人也不知。想了想，笑笑自己，非要问这些典故有什么意义，大概很多事情本就是没有原因。<br>  延吉的夜生活较哈尔滨来的丰富，路边很多的酒吧和啤酒屋。和孟典在酒吧坐了坐，喝了几口冰川，延吉的夜色温柔。<br>  江边有很多朝鲜族人漫步，青年广场之下，汉语与韩语间杂，很多美女，一些小贩，小城市的生活无端让我安心。<br><a id="more"></a>  </p>
 <h3 id="15-7-25-图们与敦化"><a href="#15-7-25-图们与敦化" class="headerlink" title="15.7.25 图们与敦化"></a>15.7.25 图们与敦化</h3><p>  孟典的爸妈驱车来到延吉，虽说有了孟典父母的参与，很多嬉笑怒骂不能自在，但有了车，也的确方便很多。<br>  G302国道，奔驰在延吉到图们的路上，郁郁葱葱，大河青山，绿水人家，笔墨丹青，古人不欺。<br>  飞速的行驶中，蓦然看到道路一侧的山体上，刻印了一行红字“亘古天堑变通途，血汗铸就高速路。”于之，猛觉肃然，自古而今，前人辛苦，而后人往往忘记缅怀。<br>  图们江并不宽敞，有些狭窄，江的对面便是朝鲜，一座老桥连接中朝。中朝桥边对比很有意思，朝鲜的桥头挂着两个主席头像，只有两个士兵站在很远处警戒，而中国桥头游客交织。顺手买了两包朝鲜烟草，带回家给爸爸。</p>
-<p>  离开图们，前往敦化，在我本来的计划中，因为时间有限，并不会前往敦化，大抵是从敦化再驱车前进一点便可直达长白山和镜泊湖，如此之近，不能前往，实在遗憾，索性不去。未曾想到孟典的父母听闻敦化大佛，便随他们一路，长白镜泊不看，看看大佛也好。<br>  图们到敦化的道路趋于平坦，山峦稀少，窗外绿草绿树，连绵一片。<br>  2:30抵达敦化，敖东大桥、六顶山正觉寺的大铜佛，以及清祖地。大概敦化离旅游区较近，马路明显较图们宽敞，楼房也比之也气派的多。</p>
+<p>  离开图门，前往敦化，在我本来的计划中，因为时间有限，并不会前往敦化，大抵是从敦化再驱车前进一点便可直达长白山和镜泊湖，如此之近，不能前往，实在遗憾，索性不去。未曾想到孟典的父母听闻敦化大佛，便随他们一路，长白镜泊不看，看看大佛也好。<br>  图们到敦化的道路趋于平坦，山峦稀少，窗外绿草绿树，连绵一片。<br>  2:30抵达敦化，敖东大桥、六顶山正觉寺的大铜佛，以及清祖地。大概敦化离旅游区较近，马路明显较图们宽敞，楼房也比之也气派的多。</p>
 <p>  正觉寺的布局和我去年在内蒙看到的大觉禅寺几乎一模一样，不同之处便在于，这山顶多了一尊金佛，而对外的宣扬则是世界最大的尼姑道场。<br>  与去年去大觉禅寺一般，竟然也赶上了小雨。迎着小雨上山，爬到山顶，风景渺渺，蓦然有了隐居之意，大抵深山老林，高绝之处，佛寺方能自在，俯瞰众生，上承苍莽，独立于世界，自成一方水土。<br>  到了顶端，进入金佛内部，则和三亚的南海观音内部相似，一排排小佛，留待一个个人布施，但我总觉得这种捐赠，和佛教的初衷有些差异，变成了假借信仰而敛财，和天主教赎罪券类似。行善行，结善缘，问心无大愧，小错能自省，足矣。<br>  下山前，跑到了地藏菩萨处，续念去年之愿，与菩萨同行。为天地而立心，或可笑，而确为我一生之宏远。</p>
 <p>  从大觉禅寺出来后，孟典的爸妈又请客吃了韩餐。<br>  晚上走在敦化街头，在街边书店将要打烊前，寻了两本拜伦和叶芝的诗集。携诗而行，多少有些浪漫。<br>  尔后回到宾馆，12点多沉沉睡去。</p>
 <h3 id="15-7-26-平壤馆与伪满皇宫"><a href="#15-7-26-平壤馆与伪满皇宫" class="headerlink" title="15.7.26 平壤馆与伪满皇宫"></a>15.7.26 平壤馆与伪满皇宫</h3><p>  早上8点多在宾馆吃了早饭，9：50与孟典一家回到长春。<br>  孟典的爸妈请客吃了平壤馆，馆里人很少，朝鲜官派的几个女孩在这里工作，然后几年后回到朝鲜。<br>  吃饭的时候，总是不免猜测她们的人生，外出期满，回到朝鲜，然后大概年华在日复一日的单调里，慢慢老去。<br>  记忆中，女孩们很漂亮，一口不太标准的汉语，浅浅的笑，一直为我们服务的女孩，穿着绿衣服，大我两三岁，惹人心中丝丝怜爱。</p>

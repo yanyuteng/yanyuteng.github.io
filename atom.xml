@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-31T16:04:13.000Z</updated>
+  <updated>2017-01-18T11:23:04.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,535 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>python3 爬虫基础memo</title>
+    <link href="http://yoursite.com/2017/01/18/python3%20%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/"/>
+    <id>http://yoursite.com/2017/01/18/python3 爬虫基础/</id>
+    <published>2017-01-18T10:58:00.000Z</published>
+    <updated>2017-01-18T11:23:04.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;第一节-html初步&quot;&gt;&lt;a href=&quot;#第一节-html初步&quot; class=&quot;headerlink&quot; title=&quot;第一节 html初步&quot;&gt;&lt;/a&gt;第一节 html初步&lt;/h2&gt;&lt;h3 id=&quot;一、网页的一般结构&quot;&gt;&lt;a href=&quot;#一、网页的一般结构&quot; class=&quot;headerlink&quot; title=&quot;一、网页的一般结构&quot;&gt;&lt;/a&gt;一、网页的一般结构&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。 
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;二、网页结构的逐步丰富&quot;&gt;&lt;a href=&quot;#二、网页结构的逐步丰富&quot; class=&quot;headerlink&quot; title=&quot;二、网页结构的逐步丰富&quot;&gt;&lt;/a&gt;二、网页结构的逐步丰富&lt;/h3&gt;&lt;h4 id=&quot;1、固定区域&quot;&gt;&lt;a href=&quot;#1、固定区域&quot; class=&quot;headerlink&quot; title=&quot;1、固定区域&quot;&gt;&lt;/a&gt;1、固定区域&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div &amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;2、增加标签-图片、标题-html&quot;&gt;&lt;a href=&quot;#2、增加标签-图片、标题-html&quot; class=&quot;headerlink&quot; title=&quot;2、增加标签 图片、标题 html&quot;&gt;&lt;/a&gt;2、增加标签 图片、标题 html&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div &amp;gt;
+     &amp;lt;p&amp;gt;Wow!&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;3、增加CSS样式修饰&quot;&gt;&lt;a href=&quot;#3、增加CSS样式修饰&quot; class=&quot;headerlink&quot; title=&quot;3、增加CSS样式修饰&quot;&gt;&lt;/a&gt;3、增加CSS样式修饰&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div class = &amp;quot;a&amp;quot;&amp;gt;
+     &amp;lt;p&amp;gt;Wow!&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; #写文字的内容
+&amp;lt;div &amp;gt; &amp;lt;/div&amp;gt; #某区域的框架
+&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt; #列表
+&amp;lt;img&amp;gt; #图
+&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt; #不同字号的标题
+&amp;lt;a&amp;gt; #链接
+&amp;lt;a href = “”&amp;gt; #标签内跟属性href指向的链接
+
+&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt; #浏览器看的
+&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt; #我们看到的
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;#标签能嵌套，元素有层级&lt;/p&gt;
+&lt;h3 id=&quot;三、案例：写一个网页&quot;&gt;&lt;a href=&quot;#三、案例：写一个网页&quot; class=&quot;headerlink&quot; title=&quot;三、案例：写一个网页&quot;&gt;&lt;/a&gt;三、案例：写一个网页&lt;/h3&gt;&lt;h4 id=&quot;（一）、预期结构&quot;&gt;&lt;a href=&quot;#（一）、预期结构&quot; class=&quot;headerlink&quot; title=&quot;（一）、预期结构&quot;&gt;&lt;/a&gt;（一）、预期结构&lt;/h4&gt;&lt;p&gt;1、header&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt; big logo &lt;/strong&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nav1 nav2 nav3&lt;br&gt;2、content&lt;br&gt;pic title description …&lt;br&gt;3、footer  &lt;/p&gt;
+&lt;h4 id=&quot;（二）、案例&quot;&gt;&lt;a href=&quot;#（二）、案例&quot; class=&quot;headerlink&quot; title=&quot;（二）、案例&quot;&gt;&lt;/a&gt;（二）、案例&lt;/h4&gt;&lt;p&gt;# CSS样式是之前写好的，这里直接引用，爬虫不涉及理解CSS写法 &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt; #声明
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+
+&amp;lt;head&amp;gt;
+     &amp;lt;meta charset=“UTF-8&amp;quot;&amp;gt;
+     &amp;lt;title&amp;gt;yanyuteng&amp;lt;/title&amp;gt;
+     &amp;lt;link rel=“stylesheet” type=“text/css” href=“main.css”&amp;gt;  #加载CSS样式
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+     &amp;lt;div class=&amp;quot;header”&amp;gt; #导入CSS样式
+          &amp;lt;img src=“来源图片&amp;quot;&amp;gt;
+          &amp;lt;url class=“nav”&amp;gt; #导入CSS样式
+               &amp;lt;li&amp;gt;&amp;lt;a href=“https://xxx.com&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; #&amp;lt;a href=“”&amp;gt; 指向链接
+               &amp;lt;li&amp;gt;&amp;lt;a href=“https://xxx.com&amp;quot;&amp;gt;Site&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+               &amp;lt;li&amp;gt;&amp;lt;a href=“https://xxx.com&amp;quot;&amp;gt;Other&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+           &amp;lt;/url&amp;gt;
+     &amp;lt;/div&amp;gt;
+
+     &amp;lt;div class=“main-content”&amp;gt; #加CSS修饰
+          &amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;
+          &amp;lt;url&amp;gt;
+               &amp;lt;li&amp;gt;
+                    &amp;lt;img src=&amp;quot;images/0001.jpg&amp;quot;, width=&amp;quot;100&amp;quot;,height=&amp;quot;90&amp;quot;&amp;gt; #修饰img中大小属性
+                    &amp;lt;h3&amp;gt;the prose1&amp;lt;/h3&amp;gt;
+                    &amp;lt;p&amp;gt;”some description”&amp;lt;/p&amp;gt;
+               &amp;lt;/li&amp;gt;
+               &amp;lt;li&amp;gt;
+                    &amp;lt;img src=&amp;quot;images/0002.jpg&amp;quot;, width=&amp;quot;100&amp;quot;,height=&amp;quot;90&amp;quot;&amp;gt;
+                    &amp;lt;h3&amp;gt;the prose2&amp;lt;/h3&amp;gt;
+                    &amp;lt;p&amp;gt;”some description”&amp;lt;/p&amp;gt;
+               &amp;lt;/li&amp;gt;
+               &amp;lt;li&amp;gt;
+                    &amp;lt;img src=&amp;quot;images/0003.jpg&amp;quot;, width=&amp;quot;100&amp;quot;,height=&amp;quot;90&amp;quot;&amp;gt;
+                    &amp;lt;h3&amp;gt;the prose3&amp;lt;/h3&amp;gt;
+                    &amp;lt;p&amp;gt;”some description”&amp;lt;/p&amp;gt;
+               &amp;lt;/li&amp;gt;
+          &amp;lt;/url&amp;gt;
+     &amp;lt;/div class=“footer&amp;quot;&amp;gt;
+         &amp;lt;p&amp;gt;html learning&amp;lt;/p&amp;gt;
+     &amp;lt;div&amp;gt;
+     &amp;lt;/div&amp;gt;
+
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;第二节-解析网页&quot;&gt;&lt;a href=&quot;#第二节-解析网页&quot; class=&quot;headerlink&quot; title=&quot;第二节 解析网页&quot;&gt;&lt;/a&gt;第二节 解析网页&lt;/h2&gt;&lt;h3 id=&quot;一、流程&quot;&gt;&lt;a href=&quot;#一、流程&quot; class=&quot;headerlink&quot; title=&quot;一、流程&quot;&gt;&lt;/a&gt;一、流程&lt;/h3&gt;&lt;p&gt;1、使用BeautifulSoup解析&lt;br&gt;    Soup = BeautifulSoup(html,’lxml’)&lt;br&gt;2、描述爬取内容的位置&lt;br&gt;#名字、位置&lt;br&gt;xxx = Soup.select(‘xxx’)&lt;br&gt;3、标签中获得信息，并初步整理  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;something&amp;lt;/p&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;二、BeautifulSoup理解&quot;&gt;&lt;a href=&quot;#二、BeautifulSoup理解&quot; class=&quot;headerlink&quot; title=&quot;二、BeautifulSoup理解&quot;&gt;&lt;/a&gt;二、BeautifulSoup理解&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;Soup = BeautifulSoup(html,&amp;apos;lxml&amp;apos;)
+汤                    食材  食谱
+# html是解析材料
+# lxml是解析所用的库，目前有五种。
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;三、BeautifulSoup解析&quot;&gt;&lt;a href=&quot;#三、BeautifulSoup解析&quot; class=&quot;headerlink&quot; title=&quot;三、BeautifulSoup解析&quot;&gt;&lt;/a&gt;三、BeautifulSoup解析&lt;/h3&gt;&lt;p&gt;1、获取位置&lt;br&gt;CSS Selector:  #BeautifulSoup识别&lt;br&gt;XPath:  #其他库可以识别，BeautifulSoup不识别&lt;br&gt;2、XPath  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/html/body/div[2]/ul/li[1]/img #元素完整或绝对路径  
+# html总结点下两个子节点 body与head，body与head是兄弟节点，body下类比有body的子节点，也即是html的子孙节点。 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3、CSS Selector&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;body &amp;gt; div.main-content &amp;gt; ul &amp;gt; li:nth-child(1) &amp;gt; img
+\# main-content CSS样式，较XPath更具体一些
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;四、案例：爬取自己写的网页&quot;&gt;&lt;a href=&quot;#四、案例：爬取自己写的网页&quot; class=&quot;headerlink&quot; title=&quot;四、案例：爬取自己写的网页&quot;&gt;&lt;/a&gt;四、案例：爬取自己写的网页&lt;/h3&gt;&lt;h4 id=&quot;1、准备工作&quot;&gt;&lt;a href=&quot;#1、准备工作&quot; class=&quot;headerlink&quot; title=&quot;1、准备工作&quot;&gt;&lt;/a&gt;1、准备工作&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;from bs4 import BeautifulSoup # 导入库
+
+with open(‘/apple/desktop/usualdata/xxx.html’,&amp;apos;r’) as wb_data ## 本地网页示例，读取网页数据
+Soup = BeautifulSoup(wb_data,&amp;apos;lxml’) #解析html数据
+print(Soup)
+
+images = Soup.select(&amp;apos;body &amp;gt; div.main-content &amp;gt; ul &amp;gt; li:nth-of-type(1) &amp;gt; img’) #找到爬取位置
+images = Soup.select(&amp;apos;body &amp;gt; div.main-content &amp;gt; ul &amp;gt; li) &amp;gt; img&amp;apos;)# 去除nth-of-type(1)位置信息，爬取一类图片
+
+#其他信息类比titles, descs, rates, cates,cates中如果标签与标题是多对一结构需要注意，保留附级标签下所有子标签信息
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;2、筛选工作&quot;&gt;&lt;a href=&quot;#2、筛选工作&quot; class=&quot;headerlink&quot; title=&quot;2、筛选工作&quot;&gt;&lt;/a&gt;2、筛选工作&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;# get_text方法释放标签中文本信息
+# for title in titles
+#     print(title.get_text())
+
+# 整合放入字典中
+for title, image, desc, rate, cate in zip(titles, images, descs, rates, cates)
+     data = {
+           &amp;apos;title&amp;apos;: title.get_text(),
+           &amp;apos;rate’: rate.get_text(),
+           &amp;apos;desc&amp;apos;: desc.get_text(),
+           &amp;apos;cate&amp;apos;: list(cate.stripped_strings), #stripped_strings是高级的get_text，处理所有子标签文本
+           &amp;apos;image&amp;apos;: image.get(&amp;apos;src&amp;apos;)  #获取某个标签中属性用get获得
+     }
+print(data)
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;3、初步处理工作&quot;&gt;&lt;a href=&quot;#3、初步处理工作&quot; class=&quot;headerlink&quot; title=&quot;3、初步处理工作&quot;&gt;&lt;/a&gt;3、初步处理工作&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;info()
+info.append(data) #整合数据
+
+# 摘除评分大于3的文章
+for i in info
+     if float(i[‘rate’]) &amp;gt; 3
+          print(i[&amp;apos;title’], i[&amp;apos;cate&amp;apos;])
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;4、真实网页&quot;&gt;&lt;a href=&quot;#4、真实网页&quot; class=&quot;headerlink&quot; title=&quot;4、真实网页&quot;&gt;&lt;/a&gt;4、真实网页&lt;/h4&gt;&lt;p&gt;BeautifulSoup + Requests&lt;/p&gt;
+&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;麻瓜编程 《Python实战：四周实现爬虫系统》&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;第一节-html初步&quot;&gt;&lt;a href=&quot;#第一节-html初步&quot; class=&quot;headerlink&quot; title=&quot;第一节 html初步&quot;&gt;&lt;/a&gt;第一节 html初步&lt;/h2&gt;&lt;h3 id=&quot;一、网页的一般结构&quot;&gt;&lt;a href=&quot;#一、网页的一般结构&quot; class=&quot;headerlink&quot; title=&quot;一、网页的一般结构&quot;&gt;&lt;/a&gt;一、网页的一般结构&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。 
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="Program" scheme="http://yoursite.com/categories/Program/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python3 分支与循环memo</title>
+    <link href="http://yoursite.com/2017/01/18/python3%20%E5%88%86%E6%94%AF%E4%B8%8E%E5%BE%AA%E7%8E%AFmemo/"/>
+    <id>http://yoursite.com/2017/01/18/python3 分支与循环memo/</id>
+    <published>2017-01-18T04:54:00.000Z</published>
+    <updated>2017-01-18T10:43:47.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Lecture-5-python的数据类型&quot;&gt;&lt;a href=&quot;#Lecture-5-python的数据类型&quot; class=&quot;headerlink&quot; title=&quot;Lecture 5 python的数据类型&quot;&gt;&lt;/a&gt;Lecture 5 python的数据类型&lt;/h2&gt;&lt;h3 id=&quot;一、数值类型&quot;&gt;&lt;a href=&quot;#一、数值类型&quot; class=&quot;headerlink&quot; title=&quot;一、数值类型&quot;&gt;&lt;/a&gt;一、数值类型&lt;/h3&gt;&lt;p&gt;1、整型（整数 长度不受限制）&lt;br&gt;2、浮点型（小数） #python的区分方式为小数点。&lt;br&gt;# e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）&lt;br&gt;3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;二、类型转换&quot;&gt;&lt;a href=&quot;#二、类型转换&quot; class=&quot;headerlink&quot; title=&quot;二、类型转换&quot;&gt;&lt;/a&gt;二、类型转换&lt;/h3&gt;&lt;p&gt;1、整数 int()  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;a=‘520&amp;apos;  
+b=int(a)  
+a=‘5.99&amp;apos;  
+c=int(a) #输出为5
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2、字符串 str()&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;a=5.99
+b=str(a)
+c=str(5e19) #输出为&amp;apos;5e19&amp;apos;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3、浮点数 float()&lt;/p&gt;
+&lt;h3 id=&quot;三、获取类型信息&quot;&gt;&lt;a href=&quot;#三、获取类型信息&quot; class=&quot;headerlink&quot; title=&quot;三、获取类型信息&quot;&gt;&lt;/a&gt;三、获取类型信息&lt;/h3&gt;&lt;p&gt;1、type()&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;a=‘520&amp;apos;
+b=5.2
+type(a)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2、isinstance()&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;isinstance(a,str)
+isinstance(320,int) #TURE
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Lecture-6-python的常用操作符&quot;&gt;&lt;a href=&quot;#Lecture-6-python的常用操作符&quot; class=&quot;headerlink&quot; title=&quot;Lecture 6 python的常用操作符&quot;&gt;&lt;/a&gt;Lecture 6 python的常用操作符&lt;/h2&gt;&lt;h3 id=&quot;一、算术操作符&quot;&gt;&lt;a href=&quot;#一、算术操作符&quot; class=&quot;headerlink&quot; title=&quot;一、算术操作符&quot;&gt;&lt;/a&gt;一、算术操作符&lt;/h3&gt;&lt;p&gt;1、+=&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;a = 5
+a += 3 # b=a+3   求b
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2、*=&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;c = 10
+c \*= 10 # c=100
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3、/=&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;c /= 10 # c=1.25
+# python3 与python2不同在于，真除法代替地板除法。
+c//=8 #仍为地板除法，只保留整数 c=1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;4、% 保留余数&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;5 % 2 #1
+11 % 2 #1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;5、** 幂运算&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;3**3 #27
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;6、优先级&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#先乘除后加减，and比较先于计算（二元操作符）
+-3*2+5/-2-4 # -12.5
+# ** 幂运算高于左侧，低于右侧
+ (-3) ** 2 #9
+ -3 ** 2 #-9
+3 ** -2 #0.1111
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;二、比较操作符&quot;&gt;&lt;a href=&quot;#二、比较操作符&quot; class=&quot;headerlink&quot; title=&quot;二、比较操作符&quot;&gt;&lt;/a&gt;二、比较操作符&lt;/h3&gt;&lt;p&gt;&amp;lt; &amp;gt; &amp;lt;= &amp;gt;= == !=&lt;/p&gt;
+&lt;h3 id=&quot;三、逻辑操作符&quot;&gt;&lt;a href=&quot;#三、逻辑操作符&quot; class=&quot;headerlink&quot; title=&quot;三、逻辑操作符&quot;&gt;&lt;/a&gt;三、逻辑操作符&lt;/h3&gt;&lt;p&gt;1、and 与&lt;br&gt;2、or 或&lt;br&gt;3、not（一元操作符，取相反bool）&lt;br&gt;not 0 #0为FALSE 返回TRUE&lt;/p&gt;
+&lt;h3 id=&quot;四、优先级&quot;&gt;&lt;a href=&quot;#四、优先级&quot; class=&quot;headerlink&quot; title=&quot;四、优先级&quot;&gt;&lt;/a&gt;四、优先级&lt;/h3&gt;&lt;p&gt;1、幂运算 **&lt;br&gt;2、正负号&lt;br&gt;3、算术操作符&lt;br&gt;4、比较操作符&lt;br&gt;5、逻辑运算符（not &amp;gt; and &amp;gt; or）&lt;/p&gt;
+&lt;h2 id=&quot;Lecture-7-打飞机的游戏机制&quot;&gt;&lt;a href=&quot;#Lecture-7-打飞机的游戏机制&quot; class=&quot;headerlink&quot; title=&quot;Lecture 7 打飞机的游戏机制&quot;&gt;&lt;/a&gt;Lecture 7 打飞机的游戏机制&lt;/h2&gt;&lt;p&gt;原理：进入一个大循环，只要未触发死亡，小飞机不断生成。&lt;br&gt;1、加载背景音乐&lt;br&gt;2、播放背景音乐（循环）&lt;br&gt;3、我方飞机生成&lt;br&gt;4（5）、interval = 0 #没有interval会不间断生成满屏幕飞机&lt;br&gt;5（4）、进入循环  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;while True：  
+    if 用户是否点击了关闭按钮：  
+          结束程序  
+    else  
+          继续  
+
+    interval += 1 #累计时间以刷新飞机
+
+       if interval == 50：
+          interval = 0 #刷新interval时间
+          小飞机诞生
+
+     小飞机移动一个位置 #移到if外 否则会卡顿
+     屏幕刷新
+
+     if 用户鼠标产生移动：
+        我方飞机中心位置=用户鼠标位置
+        屏幕刷新
+
+     if 我方飞机与小飞机肢体冲突：
+        我方死亡，播放死亡音乐
+        我方飞机图案修改
+        打印’game over’
+        渐变停止背景音乐
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Lecture-8-条件表达式与assert&quot;&gt;&lt;a href=&quot;#Lecture-8-条件表达式与assert&quot; class=&quot;headerlink&quot; title=&quot;Lecture 8 条件表达式与assert&quot;&gt;&lt;/a&gt;Lecture 8 条件表达式与assert&lt;/h2&gt;&lt;h3 id=&quot;一、输入转换&quot;&gt;&lt;a href=&quot;#一、输入转换&quot; class=&quot;headerlink&quot; title=&quot;一、输入转换&quot;&gt;&lt;/a&gt;一、输入转换&lt;/h3&gt;&lt;p&gt;1、方法一：常规法&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;score = int(input(&amp;apos;please write down the mark:&amp;apos;))
+if 100&amp;gt;= score &amp;gt;= 90:
+    print(&amp;apos;A&amp;apos;)
+if 90&amp;gt; score &amp;gt;= 80: #二次后的判断是浪费的
+    print(&amp;apos;B&amp;apos;)
+if 80&amp;gt; score &amp;gt;= 60:
+    print(&amp;apos;C&amp;apos;)
+if 60&amp;gt; score &amp;gt;= 0:
+    print(&amp;apos;D&amp;apos;)
+if score &amp;lt;0 or score &amp;gt;100:
+    print(&amp;apos;false&amp;apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2、方法二：缩进麻烦&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;score = int(input(&amp;quot;please write down the mark:&amp;quot;))
+if 100&amp;gt;=score&amp;gt;=90:
+     print(&amp;apos;A&amp;apos;)
+else:
+     if 90&amp;gt; score &amp;gt;= 80:
+          print(&amp;apos;B&amp;apos;)
+     else:
+          if 80&amp;gt; score &amp;gt;= 60:
+               print(&amp;apos;C&amp;apos;)
+          else:
+               if 60&amp;gt; score &amp;gt;= 0:
+                print(&amp;apos;D&amp;apos;)
+           else:
+                print(&amp;apos;false&amp;apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3、方法三：改进二&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;score = int(input(&amp;apos;please write down the mark:&amp;apos;))
+if 100&amp;gt;= score &amp;gt;= 90:
+     print(&amp;apos;A&amp;apos;)
+else 90&amp;gt; score &amp;gt;= 80: #C else if 节省判断时间
+     print(&amp;apos;B&amp;apos;)
+else 80&amp;gt; score &amp;gt;= 60:
+     print(&amp;apos;C&amp;apos;)
+else 60&amp;gt; score &amp;gt;= 0:
+     print(&amp;apos;D&amp;apos;)
+else:
+     print(&amp;apos;false&amp;apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;#python可以有效避免悬挂else&lt;br&gt;#C语言就近if else匹配，python则利用tab减少不确定性。&lt;/p&gt;
+&lt;h3 id=&quot;二、条件表达式（三元操作符）&quot;&gt;&lt;a href=&quot;#二、条件表达式（三元操作符）&quot; class=&quot;headerlink&quot; title=&quot;二、条件表达式（三元操作符）&quot;&gt;&lt;/a&gt;二、条件表达式（三元操作符）&lt;/h3&gt;&lt;p&gt;1、含义：元为操作数，三元即是三个操作数。&lt;br&gt;2、例子&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;x, y = 4, 5
+if x &amp;lt; y:
+     small = x
+else:
+     small = y
+small = x if x &amp;lt; y else y
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;三、断言（assert）&lt;br&gt;1、含义：当这个关键字后面条件为假时，程序自动终止，打印AssertionError异常。&lt;br&gt;2、作用：设置检查点，确保程序中某个条件为真才能让程序工作。&lt;br&gt;assert 3 &amp;gt; 4&lt;/p&gt;
+&lt;h2 id=&quot;Lecture-9-for循环&quot;&gt;&lt;a href=&quot;#Lecture-9-for循环&quot; class=&quot;headerlink&quot; title=&quot;Lecture 9 for循环&quot;&gt;&lt;/a&gt;Lecture 9 for循环&lt;/h2&gt;&lt;h3 id=&quot;一、for循环&quot;&gt;&lt;a href=&quot;#一、for循环&quot; class=&quot;headerlink&quot; title=&quot;一、for循环&quot;&gt;&lt;/a&gt;一、for循环&lt;/h3&gt;&lt;p&gt;1、语法&lt;br&gt;for 目标 in 表达式:&lt;br&gt;     循环体&lt;br&gt;2、例子&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;for i in practice:
+    print(i)
+for i in practice:
+    print(i, end=&amp;quot;&amp;quot;)
+
+number=[&amp;apos;yanyuteng&amp;apos;,&amp;apos;demos&amp;apos;,&amp;apos;xiaojiayu&amp;apos;,&amp;apos;python&amp;apos;]
+
+for i in number:
+    print(i, len(numeber))
+#yanyuteng 4
+#demos 4
+#xiaojiayu 4
+#python 4
+
+for i in number:
+    print(i, len(i))
+#yanyuteng 9
+#demos 5
+#xiaojiayu 9
+#python 6
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;二、range&quot;&gt;&lt;a href=&quot;#二、range&quot; class=&quot;headerlink&quot; title=&quot;二、range()&quot;&gt;&lt;/a&gt;二、range()&lt;/h3&gt;&lt;p&gt;1、语法&lt;br&gt;range([start,] stop[, step=1])&lt;br&gt;（1）[]内两个参数可选&lt;br&gt;（2）step=1默认为1&lt;br&gt;（3）生成从start值到stop值结束的数字序列&lt;br&gt;2、配合for&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;range(4) #range(0, 4)
+list(range(4)) #[0, 1, 2, 3]
+for i in range(5):
+     print(i)
+# 生成0到4
+for i in range(2,9):
+    print(i)
+# 生成2到8
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;三、break与continue&quot;&gt;&lt;a href=&quot;#三、break与continue&quot; class=&quot;headerlink&quot; title=&quot;三、break与continue&quot;&gt;&lt;/a&gt;三、break与continue&lt;/h3&gt;&lt;p&gt;1、break&lt;br&gt;含义：满足条件才可以终止循环，跳出循环体&lt;br&gt;2、例子&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yes = &amp;quot;yanyuteng&amp;quot;
+answer=input(&amp;quot;the handsome man&amp;apos;s name:&amp;quot;)
+while True:
+    if answer == yes:
+        break
+    answer = input(&amp;quot;sorry,u are wrong, please guess again:&amp;quot;)
+
+print(&amp;apos;smart!&amp;apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2、continue&lt;br&gt;1、含义：终止本循环，开始下一循环&lt;br&gt;2、例子&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;for i in range(10):
+    if i%2 != 0:
+        print(i)
+        continue
+    i += 1
+    print(i)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;鱼C论坛 《零基础入门学习Python》&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Lecture-5-python的数据类型&quot;&gt;&lt;a href=&quot;#Lecture-5-python的数据类型&quot; class=&quot;headerlink&quot; title=&quot;Lecture 5 python的数据类型&quot;&gt;&lt;/a&gt;Lecture 5 python的数据类型&lt;/h2&gt;&lt;h3 id=&quot;一、数值类型&quot;&gt;&lt;a href=&quot;#一、数值类型&quot; class=&quot;headerlink&quot; title=&quot;一、数值类型&quot;&gt;&lt;/a&gt;一、数值类型&lt;/h3&gt;&lt;p&gt;1、整型（整数 长度不受限制）&lt;br&gt;2、浮点型（小数） #python的区分方式为小数点。&lt;br&gt;# e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）&lt;br&gt;3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Program" scheme="http://yoursite.com/categories/Program/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python3 猜数字游戏memo</title>
+    <link href="http://yoursite.com/2017/01/17/python3%20%E7%8C%9C%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8Fmemo/"/>
+    <id>http://yoursite.com/2017/01/17/python3 猜数字游戏memo/</id>
+    <published>2017-01-17T10:51:00.000Z</published>
+    <updated>2017-01-18T05:00:52.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Change the world by program.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Lecture-0-Introduction&quot;&gt;&lt;a href=&quot;#Lecture-0-Introduction&quot; class=&quot;headerlink&quot; title=&quot;Lecture 0 Introduction&quot;&gt;&lt;/a&gt;Lecture 0 Introduction&lt;/h2&gt;&lt;h3 id=&quot;一、python的竞争力&quot;&gt;&lt;a href=&quot;#一、python的竞争力&quot; class=&quot;headerlink&quot; title=&quot;一、python的竞争力&quot;&gt;&lt;/a&gt;一、python的竞争力&lt;/h3&gt;&lt;p&gt;0、NASA、Google等企业&lt;br&gt;（0）WEB：豆瓣&lt;br&gt;（1）3D动画：玛雅的嵌入应用&lt;br&gt;（2）企业应用：openERP&lt;br&gt;（3）云计算：云存储&lt;br&gt;1、跨平台&lt;br&gt;2、简单：其他语言对比 少代码相同程序&lt;br&gt;（0）java的1/5&lt;br&gt;（1）一个人只能维护两万行代码  &lt;/p&gt;
+&lt;h3 id=&quot;二、课程内容&quot;&gt;&lt;a href=&quot;#二、课程内容&quot; class=&quot;headerlink&quot; title=&quot;二、课程内容&quot;&gt;&lt;/a&gt;二、课程内容&lt;/h3&gt;&lt;p&gt;0、python3 常用语法&lt;br&gt;（0）python3对python2极端不兼容&lt;br&gt;（1）具体改动&lt;br&gt;1、面向对象编程思维&lt;br&gt;2、模块编程：乐高游戏的拼接&lt;br&gt;3、游戏编程：打蜜蜂、打飞机、俄罗斯方块、捕鱼猎手、rpg开发等&lt;br&gt;4、计算机仿真：真实世界建模&lt;br&gt;（0）概率实验&lt;br&gt;（1）影响实验&lt;br&gt;（2）飞行员模拟驾驶 等  &lt;/p&gt;
+&lt;h2 id=&quot;Lecture-1-IDLE-：python-shell&quot;&gt;&lt;a href=&quot;#Lecture-1-IDLE-：python-shell&quot; class=&quot;headerlink&quot; title=&quot;Lecture 1 IDLE ：python shell&quot;&gt;&lt;/a&gt;Lecture 1 IDLE ：python shell&lt;/h2&gt;&lt;h3 id=&quot;一、字符串&quot;&gt;&lt;a href=&quot;#一、字符串&quot; class=&quot;headerlink&quot; title=&quot;一、字符串&quot;&gt;&lt;/a&gt;一、字符串&lt;/h3&gt;&lt;p&gt;0、C:&lt;br&gt;printf(“hello world”));&lt;br&gt;1、Python:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;print(&quot;hello world&quot;)
+print(&quot;well water&quot;+&quot;river&quot;)
+print(&quot;well water&quot;+&quot; river&quot;)
+print(&quot;hello world&quot; * 8)
+print(&quot;hello world\n&quot; * 8)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;二、数值&quot;&gt;&lt;a href=&quot;#二、数值&quot; class=&quot;headerlink&quot; title=&quot;二、数值&quot;&gt;&lt;/a&gt;二、数值&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;print(5+3)  
+5+3  
+5*3&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;三、思考&quot;&gt;&lt;a href=&quot;#三、思考&quot; class=&quot;headerlink&quot; title=&quot;三、思考&quot;&gt;&lt;/a&gt;三、思考&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;print(&quot;hello world&quot; + 8) #报错：字符串和数值不可通约
+print(&quot;\&quot;wolf\&quot;&quot;)
+print(365\*24\*60)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;Lecture-2-BIF-input-amp-int&quot;&gt;&lt;a href=&quot;#Lecture-2-BIF-input-amp-int&quot; class=&quot;headerlink&quot; title=&quot;Lecture 2 BIF: input&amp;amp;int&quot;&gt;&lt;/a&gt;Lecture 2 BIF: input&amp;amp;int&lt;/h2&gt;&lt;h3 id=&quot;一、猜数字游戏初试&quot;&gt;&lt;a href=&quot;#一、猜数字游戏初试&quot; class=&quot;headerlink&quot; title=&quot;一、猜数字游戏初试&quot;&gt;&lt;/a&gt;一、猜数字游戏初试&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;print(&#39;hello world&#39;)
+temp = input(&quot;guess my number:&quot;)
+guess = int(temp)
+if guess == 8:
+    print(&quot;yes&quot;)
+    print(&quot;amazing&quot;)
+else:
+    print(“wrong&quot;)
+print(&#39;end&#39;)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;二、对比C-like-eg-JAVA&quot;&gt;&lt;a href=&quot;#二、对比C-like-eg-JAVA&quot; class=&quot;headerlink&quot; title=&quot;二、对比C-like eg.JAVA&quot;&gt;&lt;/a&gt;二、对比C-like eg.JAVA&lt;/h3&gt;&lt;p&gt;0、python不用变量声明&lt;br&gt;1、python不用大括号，缩进是python的灵魂，缩进代替括号&lt;br&gt;2、if else 条件分支 :的使用&lt;br&gt;3、== &amp;amp; =&lt;br&gt;# == 相等&lt;br&gt;# = 赋值&lt;br&gt;4、BIF(Bulit-in functions 内置函数)  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;a=input(“…= ...“)  #此处输出字符串=，输出后再输入数值或字符串赋给a
+b=int(a) #将字符串a(整数)调整为数值
+help(input)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;三、注意&quot;&gt;&lt;a href=&quot;#三、注意&quot; class=&quot;headerlink&quot; title=&quot;三、注意&quot;&gt;&lt;/a&gt;三、注意&lt;/h3&gt;&lt;p&gt;（1）使用变量前需要先赋值&lt;br&gt;（2）变量名不能以数字开头，可以包括字母、数字、下划线（受C语言影响，python本身也是C写出来的）&lt;br&gt;（3）字母大小写是不同的名字&lt;br&gt;（4）= 左面名字右面赋值&lt;br&gt;（5）变量名命名尽量专业具体&lt;/p&gt;
+&lt;h2 id=&quot;Lecture-3-变量与字符串&quot;&gt;&lt;a href=&quot;#Lecture-3-变量与字符串&quot; class=&quot;headerlink&quot; title=&quot;Lecture 3 变量与字符串&quot;&gt;&lt;/a&gt;Lecture 3 变量与字符串&lt;/h2&gt;&lt;h3 id=&quot;一、变量&quot;&gt;&lt;a href=&quot;#一、变量&quot; class=&quot;headerlink&quot; title=&quot;一、变量&quot;&gt;&lt;/a&gt;一、变量&lt;/h3&gt;&lt;p&gt;variable存储于内存中，给变量赋值。python没有变量，只有名字，更多地是将名字贴到值上面。&lt;br&gt;0、数值&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;a = 1
+b = 2
+c = a+b
+print(c)&lt;/code&gt;&lt;/pre&gt;
+1、字符串（文本）
+&lt;pre&gt;&lt;code&gt;a = &quot;b&quot;
+print(a)
+a = “c&quot;
+print(a)&lt;/code&gt;&lt;/pre&gt;
+2、字符串的拼接 bc
+&lt;pre&gt;&lt;code&gt;a = &quot;b&quot;
+b = &quot;c&quot;
+c = a+b
+print(c)&lt;/code&gt;&lt;/pre&gt;  
+
+&lt;h3 id=&quot;二、字符串（文本）&quot;&gt;&lt;a href=&quot;#二、字符串（文本）&quot; class=&quot;headerlink&quot; title=&quot;二、字符串（文本）&quot;&gt;&lt;/a&gt;二、字符串（文本）&lt;/h3&gt;&lt;p&gt;0、字符串两侧有一致引号&lt;br&gt;1、字符串中需要出现单引号&lt;br&gt;（0）转义符号 \&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;print(&#39;Let\&#39;s go!&#39;)&lt;/code&gt;&lt;/pre&gt;
+（1）双引号套单引号
+&lt;pre&gt;&lt;code&gt;print(&quot;Let&#39;s go!&quot;)&lt;/code&gt;&lt;/pre&gt;
+2、原始字符串
+（0）输出c:\now
+&lt;pre&gt;&lt;code&gt;str = &quot;c:\now&quot;
+str #输出为&#39;c:\now’
+print(str) #false /n被print认为是换行&lt;/code&gt;&lt;/pre&gt;
+（1）c:\now被print函数识别
+&lt;pre&gt;&lt;code&gt;str = &quot;c:\\now” #以\转义\
+print(str) #ok&lt;/code&gt;&lt;/pre&gt;
+（2）多个\：考虑原始字符串r  
+&lt;pre&gt;&lt;code&gt;#如果有很多\则不能依次转义，会浪费资源，考虑原始字符串，在字符串前加r
+str = r&quot;c:\now\a\b”
+str #输出为&#39;c:\\now\\a\\b&#39;
+print(str)&lt;/code&gt;&lt;/pre&gt;
+（3）字尾加\
+&lt;pre&gt;&lt;code&gt;str = r&quot;c:\now\a\b\” #false 如何字尾加\
+str = r&quot;c:\now\a\b&quot;
+c = &quot;\\&quot;
+print(str+c)&lt;/code&gt;&lt;/pre&gt;
+（4）长字符数传
+&lt;pre&gt;&lt;code&gt;#跨越多行字符串时，考虑三重引号字符串 &#39;&#39;&#39;…&#39;&#39;&#39;
+str=&#39;&#39;&#39;我刚才读Yeats的诗歌，
+有些话很有共鸣，
+一个青年对情人的占有欲&#39;&#39;&#39;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;Lecture-4-猜数字游戏改进&quot;&gt;&lt;a href=&quot;#Lecture-4-猜数字游戏改进&quot; class=&quot;headerlink&quot; title=&quot;Lecture 4 猜数字游戏改进&quot;&gt;&lt;/a&gt;Lecture 4 猜数字游戏改进&lt;/h2&gt;&lt;h3 id=&quot;一、条件分支：if-else&quot;&gt;&lt;a href=&quot;#一、条件分支：if-else&quot; class=&quot;headerlink&quot; title=&quot;一、条件分支：if else&quot;&gt;&lt;/a&gt;一、条件分支：if else&lt;/h3&gt;&lt;p&gt;0、目的：用户猜错后，程序提示大或小&lt;br&gt;1、比较操作符&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&gt; #左面大于右面 eg.1 &gt; 3 False  
+&gt;= #左面大于等于右面  
+== #等于  
+!= #不等于&lt;/code&gt;&lt;/pre&gt;
+2、改进
+&lt;pre&gt;&lt;code&gt;temp = input(&quot;guess my number:&quot;)
+guess = int(temp) #define guess
+if guess == 8:
+    print(&quot;yes&quot;)
+else:
+    if guess &gt; 8:
+        print(&quot;u should guess smaller&quot;)
+    else:
+        print(&quot;u should guess bigger&quot;)
+print(“amazing, end&quot;)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;二、while循环：重复猜测&quot;&gt;&lt;a href=&quot;#二、while循环：重复猜测&quot; class=&quot;headerlink&quot; title=&quot;二、while循环：重复猜测&quot;&gt;&lt;/a&gt;二、while循环：重复猜测&lt;/h3&gt;&lt;p&gt;0、目的：多次输入，也即重复运行代码&lt;br&gt;1、改进&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;temp = input(&quot;guess my number:&quot;)
+guess = int(temp) #define guess
+while guess != 8:
+     temp = input(“wrong, please try again:&quot;)
+     guess = int(temp)
+     if guess == 8:
+         print(&quot;yes&quot;)
+     else:
+         if guess &gt; 8:
+             print(&quot;u should guess smaller&quot;)
+         else:
+             print(&quot;u should guess bigger&quot;)
+print(&quot;amazing, end&quot;)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;三、and逻辑符：限制猜测次数&quot;&gt;&lt;a href=&quot;#三、and逻辑符：限制猜测次数&quot; class=&quot;headerlink&quot; title=&quot;三、and逻辑符：限制猜测次数&quot;&gt;&lt;/a&gt;三、and逻辑符：限制猜测次数&lt;/h3&gt;&lt;p&gt;0、and 与逻辑操作符&lt;br&gt;可以将任意表达式连接到一起，得到一个布尔类型(TRUE&amp;amp;FALSE)值&lt;br&gt;1、符的优先级&lt;br&gt;3&amp;gt;2 and 1&amp;lt;2&lt;br&gt;3&amp;lt;2 and 1&amp;lt;2&lt;br&gt;#比较运算符优先级大于逻辑操作符，良好习惯可以加()优先执行&lt;br&gt;2、改进  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;temp = input(&quot;guess my number:&quot;)  
+guess = int(temp) #define guess  
+i=1  
+while guess != 8 and i&lt;=2: temp=&quot;input(&quot;wrong,&quot; please=&quot;&quot; try=&quot;&quot; again:&quot;)=&quot;&quot; guess=&quot;int(temp)&quot; if=&quot;&quot; 8:=&quot;&quot; print(&quot;yes&quot;)=&quot;&quot; print(&quot;it&#39;s=&quot;&quot; amazing.&quot;)=&quot;&quot; else:=&quot;&quot;&gt; 8:  
+             print(&quot;u should guess smaller&quot;)  
+         else:  
+             print(&quot;u should guess bigger&quot;)  
+         i=i+1  
+         print(&quot;unfortunately.&quot;)  
+print(&quot;thanking u for ur gussing&quot;)&lt;/=2:&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;四、random模块：每次猜测的答案随机&quot;&gt;&lt;a href=&quot;#四、random模块：每次猜测的答案随机&quot; class=&quot;headerlink&quot; title=&quot;四、random模块：每次猜测的答案随机&quot;&gt;&lt;/a&gt;四、random模块：每次猜测的答案随机&lt;/h3&gt;&lt;p&gt;0、引入random模块的randint()：返回随机整数&lt;br&gt;1、随机数改进&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import random  
+secret= random.randint(1,10)  
+temp = input(&amp;quot;guess my number:&amp;quot;)  
+guess = int(temp) #define guess  
+i=1  
+while guess != secret and i&amp;lt;=2:  
+     temp = input(&amp;quot;wrong, please try again:&amp;quot;)  
+     guess = int(temp)  
+     if guess == secret:  
+         print(&amp;quot;yes&amp;quot;)  
+         print(&amp;quot;it&amp;apos;s amazing.&amp;quot;)  
+     else:  
+         if guess &amp;gt; secret:  
+                 print(&amp;quot;u should guess smaller&amp;quot;)  
+         else:  
+                 print(&amp;quot;u should guess bigger&amp;quot;)  
+    i=i+1  
+    print(&amp;quot;unfortunately.&amp;quot;)  
+print(&amp;quot;thanking u for ur gussing&amp;quot;)&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2、进一步改进：第一次也有提示大或小&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import random
+secret= random.randint(1,10)
+temp = input(&amp;quot;guess my number:&amp;quot;)
+guess = int(temp) #define guess
+if guess == secret:  
+      print(&amp;quot;yes&amp;quot;)  
+      print(&amp;quot;it&amp;apos;s amazing.&amp;quot;)  
+else:  
+    if guess &amp;gt; secret:  
+        print(&amp;quot;u should guess smaller&amp;quot;)  
+    else:  
+        print(&amp;quot;u should guess bigger&amp;quot;)  
+
+i=1 # first try over
+
+while guess != secret and i&amp;lt;=2:  
+    temp = input(&amp;quot;wrong, please try again:&amp;quot;)  
+    guess = int(temp)  
+    if guess == secret:  
+        print(&amp;quot;yes&amp;quot;)  
+        print(&amp;quot;it&amp;apos;s amazing.&amp;quot;)  
+     else:
+        if guess &amp;gt; secret:
+                print(&amp;quot;u should guess smaller&amp;quot;)
+        else:
+                print(&amp;quot;u should guess bigger&amp;quot;)
+    i=i+1 # i+1 try
+    print(&amp;quot;unfortunately.&amp;quot;)
+print(&amp;quot;thanking u for ur gussing&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;p&gt;鱼C论坛 《零基础入门学习Python》&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Change the world by program.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Program" scheme="http://yoursite.com/categories/Program/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日记 一六年拾遗</title>
     <link href="http://yoursite.com/2016/12/31/%E6%97%A5%E8%AE%B0%20%E4%B8%80%E5%85%AD%E5%B9%B4%E6%8B%BE%E9%81%97/"/>
     <id>http://yoursite.com/2016/12/31/日记 一六年拾遗/</id>
     <published>2016-12-31T15:20:00.000Z</published>
-    <updated>2016-12-31T16:04:13.000Z</updated>
+    <updated>2017-01-18T04:31:05.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;16-1-25-拒绝平庸&quot;&gt;&lt;a href=&quot;#16-1-25-拒绝平庸&quot; class=&quot;headerlink&quot; title=&quot;16.1.25 拒绝平庸&quot;&gt;&lt;/a&gt;16.1.25 拒绝平庸&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;  记者：你估计喜欢你的歌的都是些什么样的人？&lt;br&gt;  尹吾：可能是和我差不多的人吧。他们是人群中的少数，他们有自己的价值观和生活态度，但这种价值取向在现实中几乎与痛苦同义。因为他们从骨髓里拒绝各种体制的灌输和同化，但又不得不在这样的体制下生活着。歌唱让我和他们感觉到了彼此的存在，他们听到这些歌后，也许会坐在台灯前一声不响地抽上一两支烟，也许会到屋外默默地走上一会儿。然后第二天，接着被不可抗拒的命运的巨浪扔到人海里，继续着他们自己的沉沉浮浮。但在某个街道的拐角，我们偶然相遇的话，我相信我们彼此都会报以会心的微笑、真诚的握手。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -148,6 +672,7 @@
 &lt;p&gt;  大抵于学术共同体的发展，实证更佳，叠叠代代，固然有断裂性，而始终于认识上曲曲折折地前进；于个体自由的志趣，则质性更胜，洞察的深切，思辨的更广，套路拘束也少的多。&lt;br&gt;  对学术的低落与高潮不断交错在我生命，大抵学术仍是追寻个体终极关怀的最佳路径。或日后潜心在柴米，别处的召唤亦始终是我对现实不满的乌托。&lt;/p&gt;
 &lt;h3 id=&quot;16-12-14-Drug-Foods&quot;&gt;&lt;a href=&quot;#16-12-14-Drug-Foods&quot; class=&quot;headerlink&quot; title=&quot;16.12.14 Drug Foods&quot;&gt;&lt;/a&gt;16.12.14 Drug Foods&lt;/h3&gt;&lt;p&gt;  Terrio的《手创法国巧克力的文化与历史》论述Drug Foods，想起《上瘾五百年》，延续西敏斯的以小见大，觉得研究食品历史挺有意思的，顺带可以学术的名义吃吃喝喝。&lt;/p&gt;
 &lt;p&gt;  看权力与规则的第十章，empathy翻译成“共情”或要比译成“同情”好的多，学术语言应该尽力避免日常用语，固然可以对日常用语二次加工引申特定情景下的学术意涵，但我总觉得别扭。&lt;/p&gt;
+&lt;h3 id=&quot;16-12-15&quot;&gt;&lt;a href=&quot;#16-12-15&quot; class=&quot;headerlink&quot; title=&quot;16.12.15&quot;&gt;&lt;/a&gt;16.12.15&lt;/h3&gt;&lt;p&gt;  你双手张开把我环绕起来，世界任我横冲直撞，而你容忍我的棱角。&lt;/p&gt;
 &lt;h3 id=&quot;16-12-16-张艺谋的长城&quot;&gt;&lt;a href=&quot;#16-12-16-张艺谋的长城&quot; class=&quot;headerlink&quot; title=&quot;16.12.16 张艺谋的长城&quot;&gt;&lt;/a&gt;16.12.16 张艺谋的长城&lt;/h3&gt;&lt;p&gt;  今天晚上和含静一起看张艺谋的长城，好莱坞色彩很浓，带着强烈的萨义德批评的东方主义建构，基督教救赎、传统英雄主义，与对东方女子及宫廷的幻想。&lt;br&gt;  长城的文化迎合了西方市场的品味，视觉上迎合了本土观众的眼球。大抵票房会大卖，而文化上则是于其早期作品的倒退。&lt;/p&gt;
 &lt;h3 id=&quot;16-12-17-嫩肉&quot;&gt;&lt;a href=&quot;#16-12-17-嫩肉&quot; class=&quot;headerlink&quot; title=&quot;16.12.17 嫩肉&quot;&gt;&lt;/a&gt;16.12.17 嫩肉&lt;/h3&gt;&lt;p&gt;  考完六级回寝，在一楼被大叔拦下，大叔愣愣的看了我两秒。&lt;br&gt;  “诶，你叫什么来着。”&lt;br&gt;  “我看你和他们不一样阿，长得年轻，和他们不一样，长得漂亮，真漂亮。”&lt;/p&gt;
 &lt;h3 id=&quot;16-12-18-I-am-quiet-inside&quot;&gt;&lt;a href=&quot;#16-12-18-I-am-quiet-inside&quot; class=&quot;headerlink&quot; title=&quot;16.12.18 I am quiet inside&quot;&gt;&lt;/a&gt;16.12.18 I am quiet inside&lt;/h3&gt;&lt;p&gt;  “I am quiet inside, though they drag me by a wire, through the storm that cracks the sky, I am quiet inside.”&lt;br&gt;  配着论文和台灯，真让人伤感，想起Siles的《北京故宫》，“我整整一生，就像这座宫殿，其中唯一的禁地，正是我自己。”&lt;/p&gt;
@@ -165,8 +690,8 @@
 &lt;h3 id=&quot;16-12-28-正邪&quot;&gt;&lt;a href=&quot;#16-12-28-正邪&quot; class=&quot;headerlink&quot; title=&quot;16.12.28 正邪&quot;&gt;&lt;/a&gt;16.12.28 正邪&lt;/h3&gt;&lt;p&gt;  我昨晚做了个光怪陆离的梦，子要语怪，便记录下来。&lt;br&gt;  梦里你是妖狐，但在我身边一直假装自己是普通的江湖儿女，而实际上你却也是隐藏的魔道盟主。我败坏魔道多次手笔，期间凶险异常，却总是莫名其妙化险为夷，是你在我旁边，不忍心看我受伤。&lt;br&gt;  但你到底肩负了魔道前辈颠覆秩序的希冀，通过几个看似不经意的线索，我以为又是一波普通的阴谋，心里疲倦又兼着懦弱，不道是大战便抽身离开，你把我调离了决战地点。&lt;br&gt;  但没想到魔道内部的分裂还是惹来魔道伏击，一路逃奔，你和我一起的真身被一个三代正道弟子偶然撞到，三代弟子只道是妖力高强，通知了正道前辈，正道前辈赶来被你假面幻相击败，不世出宗师蛰伏百年出世，与你鏖战许久，最后你被打回原型。&lt;br&gt;  我概不知情你是魔女，见你变成狐身死了，心下大悲，始知天地间陪我走下的只望是你。堕身魔道。&lt;br&gt;  缘是三生三世缘浅，正邪不敌情深。记你梦中与长老说的。&lt;br&gt;  “若是欢喜那小子，不如把他纳入魔道。”&lt;br&gt;  “他走的正道是他的正道，概不是正道的正道，又怎么纳他入魔。”&lt;/p&gt;
 &lt;h3 id=&quot;16-12-29-Bayes式归纳&quot;&gt;&lt;a href=&quot;#16-12-29-Bayes式归纳&quot; class=&quot;headerlink&quot; title=&quot;16.12.29 Bayes式归纳&quot;&gt;&lt;/a&gt;16.12.29 Bayes式归纳&lt;/h3&gt;&lt;p&gt;  研究方法这本书，Babble写的是比风笑天大气多了。或也是我大一还不懂研究方法的两种取向，前段时间读Fierberg用归纳法建构的理论才懵懵懂懂的。仔细想来，统计学的Bayes也是归纳式的。&lt;br&gt;  囫囵觉得可以拓展一下Babble的科学轮，个案归纳——通则归纳——通则演绎——个案演绎，再循环回去。&lt;br&gt;  大概我对更“科学的”数据归纳式兴趣更多一些，或许也是很多人痴迷Bayes的缘由。&lt;/p&gt;
 &lt;h3 id=&quot;16-12-30-七月与安生&quot;&gt;&lt;a href=&quot;#16-12-30-七月与安生&quot; class=&quot;headerlink&quot; title=&quot;16.12.30 七月与安生&quot;&gt;&lt;/a&gt;16.12.30 七月与安生&lt;/h3&gt;&lt;p&gt;  晚上看七月与安生，我觉得是年度最好的华语青春片，或者更深层的是两种生活的交织与分野，一种人生方式的选择，已不再局限是青春片。&lt;br&gt;  我常常分不清自己喜欢四海为家，还是安稳待在一处的柴米油盐。只有安生知道全部的真相，最终落叶到生活里，是我觉得最真实和感动的，或许也是我内心深处对人生方式的想法。&lt;/p&gt;
-&lt;h3 id=&quot;16-12-31-对2017年的几个希冀&quot;&gt;&lt;a href=&quot;#16-12-31-对2017年的几个希冀&quot; class=&quot;headerlink&quot; title=&quot;16.12.31 对2017年的几个希冀&quot;&gt;&lt;/a&gt;16.12.31 对2017年的几个希冀&lt;/h3&gt;&lt;p&gt;  我想了想觉得自己今年心路起伏挺多的，写什么应该是能写出来的，可是自己比较懒蠢，起伏什么在日记里也零零散散记过了，就不凑年终总结的热闹了。&lt;br&gt;  2017年有几个希冀，算不上是能完成的计划。首要的是能保研到理想学校；次之的是TOFEL单词能真的从头到尾啃一遍；数据分析用R全面替代spss；理解多元统计、时间序列和一些相关的统计知识；初步入门python及其爬虫技术。&lt;br&gt;  当然，对于java和php我也是有意向的，此外一些金融类专业书也一直想看，不过因为离毕业求职尚早，算不上是急需，可以等到研究生阶段慢慢啃。&lt;/p&gt;
-&lt;p&gt;  另，晚上因为想念含静，在家翻看朱生豪的情书集，觉得民国读书人除去情书真挚，读书量也大的骇人，旧学新学融汇，却是那个年代的读书人少，金贵也有真才实学，不像我这般虚伪。&lt;/p&gt;
+&lt;h3 id=&quot;16-12-31-对2017年的几个希冀&quot;&gt;&lt;a href=&quot;#16-12-31-对2017年的几个希冀&quot; class=&quot;headerlink&quot; title=&quot;16.12.31 对2017年的几个希冀&quot;&gt;&lt;/a&gt;16.12.31 对2017年的几个希冀&lt;/h3&gt;&lt;h4 id=&quot;（一）希冀&quot;&gt;&lt;a href=&quot;#（一）希冀&quot; class=&quot;headerlink&quot; title=&quot;（一）希冀&quot;&gt;&lt;/a&gt;（一）希冀&lt;/h4&gt;&lt;p&gt;  我想了想觉得自己今年心路起伏挺多的，写什么应该是能写出来的，可是自己比较懒蠢，起伏什么在日记里也零零散散记过了，就不凑年终总结的热闹了。&lt;br&gt;  2017年有几个希冀，算不上是能完成的计划。首要的是能保研到理想学校；次之的是TOFEL单词能真的从头到尾啃一遍；数据分析用R全面替代spss；理解多元统计、时间序列和一些相关的统计知识；初步入门python及其爬虫技术。&lt;br&gt;  当然，对于java和php我也是有意向的，此外一些金融类专业书也一直想看，不过因为离毕业求职尚早，算不上是急需，可以等到研究生阶段慢慢啃。&lt;/p&gt;
+&lt;h4 id=&quot;（二）我这般虚伪&quot;&gt;&lt;a href=&quot;#（二）我这般虚伪&quot; class=&quot;headerlink&quot; title=&quot;（二）我这般虚伪&quot;&gt;&lt;/a&gt;（二）我这般虚伪&lt;/h4&gt;&lt;p&gt;  晚上因为想念含静，在家翻看朱生豪的情书集，觉得民国读书人除去情书真挚，读书量也大的骇人，旧学新学融汇，却是那个年代的读书人少，金贵也有真才实学，不像我这般虚伪。&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -420,7 +945,7 @@
     <link href="http://yoursite.com/2016/10/27/%E3%80%8A%E7%8E%B0%E4%BB%A3%E6%80%A7%E4%B8%8E%E5%90%8E%E7%8E%B0%E4%BB%A3%E6%80%A7%E5%8D%81%E4%BA%94%E8%AE%B2%E3%80%8Bmemo/"/>
     <id>http://yoursite.com/2016/10/27/《现代性与后现代性十五讲》memo/</id>
     <published>2016-10-27T03:05:00.000Z</published>
-    <updated>2016-11-20T10:16:39.000Z</updated>
+    <updated>2017-01-18T11:31:13.000Z</updated>
     
     <content type="html">&lt;p&gt;  是书为我于现代性、后现代性之探索，以之为跳板将渐渐转入时空领域的思索。&lt;/p&gt;
 &lt;h2 id=&quot;第一讲-现代性概念与启蒙精神&quot;&gt;&lt;a href=&quot;#第一讲-现代性概念与启蒙精神&quot; class=&quot;headerlink&quot; title=&quot;第一讲 现代性概念与启蒙精神&quot;&gt;&lt;/a&gt;第一讲 现代性概念与启蒙精神&lt;/h2&gt;&lt;h3 id=&quot;一、现代的含义&quot;&gt;&lt;a href=&quot;#一、现代的含义&quot; class=&quot;headerlink&quot; title=&quot;一、现代的含义&quot;&gt;&lt;/a&gt;一、现代的含义&lt;/h3&gt;&lt;p&gt;  “现代”一词，语源学上探讨，音乐上声调语调，美术上新艺术观念，乃及哥特人征服罗马后的分界点。其中最著名者有三，Giddens、哈贝马斯、Foucault。&lt;br&gt;  Giddens认为，现代工业文明社会是与传统断裂的，根本在于制度性转变，其表现为全球化与自我实现的追求。&lt;br&gt;  哈贝马斯认为，现代特征是个人自由，其核心为自我理解与自我确证，理性取代上帝成为新的合理性。&lt;br&gt;  Foucault认为，现代性是一种态度，启蒙之永恒批判的哲学气质。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
@@ -428,7 +953,10 @@
 &lt;h4 id=&quot;（一）、认识论：理性主义&quot;&gt;&lt;a href=&quot;#（一）、认识论：理性主义&quot; class=&quot;headerlink&quot; title=&quot;（一）、认识论：理性主义&quot;&gt;&lt;/a&gt;（一）、认识论：理性主义&lt;/h4&gt;&lt;p&gt;  狭义上，认识上的理性主义与洛克反对理性主义天赋观念的经验主义相对；广义上，经验主义被包括在理性主义之内，与宗教天启相对。&lt;br&gt;1、怀疑主义&lt;br&gt;  理性主义可追溯至笛卡尔的怀疑精神，后分野为积极怀疑与消极怀疑。怀疑解构了宗教信仰权威性、神圣化，导向了世俗化和文化理性化（Weber的祛魅）。&lt;br&gt;2、古典基础主义知识论：一元真理&lt;br&gt;  认识论确立了一元真理，延伸为存在永恒规律。后有哈耶克有限理性对无限理性的批判。&lt;br&gt;3、人性论&lt;br&gt;  认为人性是永恒不变的。&lt;br&gt;4、逻辑论&lt;br&gt;  理性主义，最初的形式逻辑强调同一律（也即认为矛盾是错误的）；后康德提出先验逻辑，突破了旧有框架，论证人的自由人格等到的价值具有先验必然性；至黑格尔，把我矛盾对立统一，强调辩证思维逻辑；至马克思进一步完善。&lt;/p&gt;
 &lt;h4 id=&quot;（二）、方法论：科学&quot;&gt;&lt;a href=&quot;#（二）、方法论：科学&quot; class=&quot;headerlink&quot; title=&quot;（二）、方法论：科学&quot;&gt;&lt;/a&gt;（二）、方法论：科学&lt;/h4&gt;&lt;p&gt;  基于由普遍至个别，还是由个别至普遍，产生了两类方法论，分为理性论与经验论。&lt;br&gt;  理性论强调逻辑推演，代表如笛卡尔的先验性与普遍性、莱布尼兹的真理分为逻辑的与事实的。&lt;br&gt;  经验论强调因果归纳演绎，代表如牛顿、洛克；洛克经验主义思想后发展为休谟的怀疑主义，强调知觉的印象与观念，认识是不可能超越于经验的；继而为康德发展为现象世界与本体世界（物自体），对科学进行了划界；至19C发展为实证主义；至20C发展为逻辑经验主义（泛科学主义）；至当下为分析哲学。&lt;br&gt;  经验论逐渐成为主流，迫使宗教分离，世俗化与理性信仰取而代之。&lt;br&gt;16.10.17 10:00 于正心&lt;/p&gt;
 &lt;h4 id=&quot;（三）、政治哲学：自由主义&quot;&gt;&lt;a href=&quot;#（三）、政治哲学：自由主义&quot; class=&quot;headerlink&quot; title=&quot;（三）、政治哲学：自由主义&quot;&gt;&lt;/a&gt;（三）、政治哲学：自由主义&lt;/h4&gt;&lt;p&gt;1、individualism&lt;br&gt;  自由权利至自然权利，至individualism(个体主义)。自由主义的思想基础为个体主义，individualism与egoism(自我主义)不同，individualism与altruism(利他主义)并不矛盾。其实质是以人为本，社会服务于个人。&lt;br&gt;2、自由&lt;br&gt;  自有本质不受权力控制，与法律联系。&lt;br&gt;  卢梭提出的权力让渡为伯林划分的积极自由，强调人主观能动的理性解放，其最后导致了极权主义。&lt;br&gt;  而洛克提出的则被划入为消极自由，其强调生命、财产与自由不可让渡，自由是免于做某事的自由，提出分权学说。&lt;br&gt;16.10.27 11:05 于正心22&lt;/p&gt;
-&lt;h2 id=&quot;第三讲-康德哲学：现代性的序幕&quot;&gt;&lt;a href=&quot;#第三讲-康德哲学：现代性的序幕&quot; class=&quot;headerlink&quot; title=&quot;第三讲 康德哲学：现代性的序幕&quot;&gt;&lt;/a&gt;第三讲 康德哲学：现代性的序幕&lt;/h2&gt;&lt;h2 id=&quot;第七讲-尼采：后现代性的开端&quot;&gt;&lt;a href=&quot;#第七讲-尼采：后现代性的开端&quot; class=&quot;headerlink&quot; title=&quot;第七讲 尼采：后现代性的开端&quot;&gt;&lt;/a&gt;第七讲 尼采：后现代性的开端&lt;/h2&gt;&lt;h2 id=&quot;第十四讲-哲学范式的转换：从现代新到后现代性&quot;&gt;&lt;a href=&quot;#第十四讲-哲学范式的转换：从现代新到后现代性&quot; class=&quot;headerlink&quot; title=&quot;第十四讲 哲学范式的转换：从现代新到后现代性&quot;&gt;&lt;/a&gt;第十四讲 哲学范式的转换：从现代新到后现代性&lt;/h2&gt;</content>
+&lt;h2 id=&quot;第二讲-现代性的性质与特点&quot;&gt;&lt;a href=&quot;#第二讲-现代性的性质与特点&quot; class=&quot;headerlink&quot; title=&quot;第二讲 现代性的性质与特点&quot;&gt;&lt;/a&gt;第二讲 现代性的性质与特点&lt;/h2&gt;&lt;p&gt;17.1.16 21:15 于石家庄机场&lt;/p&gt;
+&lt;h2 id=&quot;第三讲-康德哲学：现代性的序幕&quot;&gt;&lt;a href=&quot;#第三讲-康德哲学：现代性的序幕&quot; class=&quot;headerlink&quot; title=&quot;第三讲 康德哲学：现代性的序幕&quot;&gt;&lt;/a&gt;第三讲 康德哲学：现代性的序幕&lt;/h2&gt;&lt;h2 id=&quot;第五讲-韦伯的理性化的现代性分析&quot;&gt;&lt;a href=&quot;#第五讲-韦伯的理性化的现代性分析&quot; class=&quot;headerlink&quot; title=&quot;第五讲 韦伯的理性化的现代性分析&quot;&gt;&lt;/a&gt;第五讲 韦伯的理性化的现代性分析&lt;/h2&gt;&lt;h2 id=&quot;第六讲-后现代话语的产生于后现代性&quot;&gt;&lt;a href=&quot;#第六讲-后现代话语的产生于后现代性&quot; class=&quot;headerlink&quot; title=&quot;第六讲 后现代话语的产生于后现代性&quot;&gt;&lt;/a&gt;第六讲 后现代话语的产生于后现代性&lt;/h2&gt;&lt;p&gt;17.1.16 23:45 于石家庄往三亚 飞机&lt;/p&gt;
+&lt;h2 id=&quot;第七讲-尼采：后现代性的开端&quot;&gt;&lt;a href=&quot;#第七讲-尼采：后现代性的开端&quot; class=&quot;headerlink&quot; title=&quot;第七讲 尼采：后现代性的开端&quot;&gt;&lt;/a&gt;第七讲 尼采：后现代性的开端&lt;/h2&gt;&lt;h2 id=&quot;第九讲-福柯：规训的现代社会及其主体&quot;&gt;&lt;a href=&quot;#第九讲-福柯：规训的现代社会及其主体&quot; class=&quot;headerlink&quot; title=&quot;第九讲 福柯：规训的现代社会及其主体&quot;&gt;&lt;/a&gt;第九讲 福柯：规训的现代社会及其主体&lt;/h2&gt;&lt;h2 id=&quot;第十一讲-吉登斯：晚期现代性的发展&quot;&gt;&lt;a href=&quot;#第十一讲-吉登斯：晚期现代性的发展&quot; class=&quot;headerlink&quot; title=&quot;第十一讲 吉登斯：晚期现代性的发展&quot;&gt;&lt;/a&gt;第十一讲 吉登斯：晚期现代性的发展&lt;/h2&gt;&lt;h2 id=&quot;第十三讲-哈贝马斯：现代性的重建&quot;&gt;&lt;a href=&quot;#第十三讲-哈贝马斯：现代性的重建&quot; class=&quot;headerlink&quot; title=&quot;第十三讲 哈贝马斯：现代性的重建&quot;&gt;&lt;/a&gt;第十三讲 哈贝马斯：现代性的重建&lt;/h2&gt;&lt;h2 id=&quot;第十四讲-哲学范式的转换：从现代新到后现代性&quot;&gt;&lt;a href=&quot;#第十四讲-哲学范式的转换：从现代新到后现代性&quot; class=&quot;headerlink&quot; title=&quot;第十四讲 哲学范式的转换：从现代新到后现代性&quot;&gt;&lt;/a&gt;第十四讲 哲学范式的转换：从现代新到后现代性&lt;/h2&gt;&lt;p&gt;17.1.17 1:00 于往三亚飞机&lt;/p&gt;
+</content>
     
     <summary type="html">
     
@@ -451,7 +979,7 @@
     <link href="http://yoursite.com/2016/10/25/%E3%80%8A%E8%AE%BE%E8%AE%A1%E8%B4%A8%E6%80%A7%E7%A0%94%E7%A9%B6%E3%80%8Bmemo/"/>
     <id>http://yoursite.com/2016/10/25/《设计质性研究》memo/</id>
     <published>2016-10-25T12:11:00.000Z</published>
-    <updated>2016-11-27T09:04:20.000Z</updated>
+    <updated>2017-01-18T14:18:33.000Z</updated>
     
     <content type="html">&lt;p&gt;Marshall, Rossman&lt;br&gt;  教育学质性研究方法，于社会学借鉴，而根本上有些差异，如译者言，其对社会结构的关注不足。&lt;/p&gt;
 &lt;h2 id=&quot;导论&quot;&gt;&lt;a href=&quot;#导论&quot; class=&quot;headerlink&quot; title=&quot;导论&quot;&gt;&lt;/a&gt;导论&lt;/h2&gt;&lt;p&gt;  Bell指出，后工业社会中人际关系为主要内容，当下大数据盛行，却无论如何取代不了面谈中的情感激发，是为质性研究方法之地位。我以为，社会学于Duncan定量为主流，量化为学界认可之话语权力，而质性渐为民间认可之话语权力，讲故事是颇为艰难的。学科之兴盛，任舍二者之一，无可为。&lt;br&gt;  导论首先叙述了当下多元研究方法，次而叙述了explain与interpret的不同，前者偏于实证主义，后者偏于诠释学，强调质性研究着重整体性、系统性、反思性，及方法论的复杂性。尔后叙述本书内容为研究计划书的撰写。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -476,16 +1004,16 @@
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="质性研究" scheme="http://yoursite.com/tags/%E8%B4%A8%E6%80%A7%E7%A0%94%E7%A9%B6/"/>
+      <category term="qualitative" scheme="http://yoursite.com/tags/qualitative/"/>
     
   </entry>
   
   <entry>
-    <title>《西方社会学名著提要》memo</title>
-    <link href="http://yoursite.com/2016/10/19/%E3%80%8A%E8%A5%BF%E6%96%B9%E7%A4%BE%E4%BC%9A%E5%AD%A6%E5%90%8D%E8%91%97%E6%8F%90%E8%A6%81%E3%80%8Bmemo/"/>
-    <id>http://yoursite.com/2016/10/19/《西方社会学名著提要》memo/</id>
+    <title>《资本主义文化矛盾》memo</title>
+    <link href="http://yoursite.com/2016/10/19/%E3%80%8A%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E6%96%87%E5%8C%96%E7%9F%9B%E7%9B%BE%E3%80%8Bmemo/"/>
+    <id>http://yoursite.com/2016/10/19/《资本主义文化矛盾》memo/</id>
     <published>2016-10-19T09:24:00.000Z</published>
-    <updated>2016-10-19T15:35:52.000Z</updated>
+    <updated>2017-01-18T11:24:43.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;《资本主义文化矛盾》1976&quot;&gt;&lt;a href=&quot;#《资本主义文化矛盾》1976&quot; class=&quot;headerlink&quot; title=&quot;《资本主义文化矛盾》1976&quot;&gt;&lt;/a&gt;《资本主义文化矛盾》1976&lt;/h2&gt;&lt;p&gt;  于大三伊始开始理解后现代之冲击，其思想之深刻，实为文艺复兴、启蒙运动比肩之深刻裂变，加缪荒诞主义哲学于我生存意义启示，后现代则于我观察世界视角之转变，福柯于传统史学的弃掷，为断裂解构的重塑。&lt;br&gt;  于现代主义中引发的时空错乱，或许正是我对时空社会学生发兴趣的原因，其正是我对于掌控自我生命的努力，也是我试图理解现代社会中，个人与社会关系的努力，是为Weber所说的志业。&lt;br&gt;2016.10.18 于正心&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Bell（北大 张敏）&lt;br&gt;  Bell在《后工业社会》中提及了技术理论的集约化，导致了新型原则，继而使得社会科层化。而于《资本主义文化矛盾》中，则论述了个人享乐主义文化导致的文化矛盾、信仰危机及政治困境，为了解决这一危机困境，其回溯享乐主义文化的根源。&lt;br&gt;  Bell首先界定了资本主义，“资本主义是一个经济系统，它同建立在成本核算基础上的商品生产挂钩，依靠资本的持续积累来扩大再投资。”Bell的方法论，也即是坚持断裂观，分解这一综合体。&lt;/p&gt;
@@ -502,6 +1030,7 @@
 &lt;h4 id=&quot;（二）、宗教衰败：文化重建宗教&quot;&gt;&lt;a href=&quot;#（二）、宗教衰败：文化重建宗教&quot; class=&quot;headerlink&quot; title=&quot;（二）、宗教衰败：文化重建宗教&quot;&gt;&lt;/a&gt;（二）、宗教衰败：文化重建宗教&lt;/h4&gt;&lt;p&gt;  历史，事实上恰是人类向自然的扩张，而宗教在人类与自然外物联系中承担了人类的行动指南。但在对自我的追求中，现代主义逐渐侵犯了宗教领域，将权威中心从神圣移向了亵渎。&lt;br&gt;  宗教也即开始了衰败，其表现为世俗化与亵渎行为，现代主义开始无限制扩张。&lt;br&gt;  正因如此，Bell倡导新合成形式的文化重建，也即宗教手段，重新为生活提供终极意义。&lt;/p&gt;
 &lt;h4 id=&quot;（三）、政治负荷：公众家庭限定&quot;&gt;&lt;a href=&quot;#（三）、政治负荷：公众家庭限定&quot; class=&quot;headerlink&quot; title=&quot;（三）、政治负荷：公众家庭限定&quot;&gt;&lt;/a&gt;（三）、政治负荷：公众家庭限定&lt;/h4&gt;&lt;p&gt;  在经济活动中，除去家庭经济、市场经济外，公众家庭经济领域是近来的第三领域，其实际是满足公共需求和欲望的媒介，与个人主义的功利主义相反，其存在即是为了满足公众需求。&lt;br&gt;  但Bell考察了美国社会，认为美国社会结构问题集中于民族社会与国际警察的社会结构，美国呈现着个人主义、资产阶级化，及缺少公众利益至上思想的特点，其公众家庭承担了过多的制定经济政策、承担科学发展费用、及制定社会义务的责任。正因此，美国公众家庭政治市场化，超负荷化忽视了公众家庭与市场经济的界限。&lt;br&gt;  Bell由此主张实行相对差别原则、公正分配原则，以约束经济自由主义，坚持政治自由主义。以达成社会凝聚功能。&lt;/p&gt;
 &lt;h3 id=&quot;五、小结&quot;&gt;&lt;a href=&quot;#五、小结&quot; class=&quot;headerlink&quot; title=&quot;五、小结&quot;&gt;&lt;/a&gt;五、小结&lt;/h3&gt;&lt;p&gt;  正是上述Bell在经济上的社会主义、政治上的自由主义，及文化上的保守主义，是其圣三一教堂称号的缘由。其指出社会矛盾的根源，正是经济、政治、文化三个领域的对立。而美国现代矛盾实际上正是此三领域的不协调，此有功能主义的更新色彩。为此，Bell提出了重建宗教与公众家庭理论来弥合裂缝。&lt;br&gt;  Bell于后现代思考与功能主义的耦合令人惊艳，及其开万世之太平，立天地之心，生民之命，为吾辈之崇高，精神之先导，学生闫誉腾谨记于正心楼。&lt;br&gt;2016.10.19 17:24&lt;/p&gt;
+&lt;h3 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h3&gt;&lt;p&gt;《西方社会学名著提要》&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -520,11 +1049,11 @@
   </entry>
   
   <entry>
-    <title>《西方历史学名著提要》memo</title>
-    <link href="http://yoursite.com/2016/10/15/%E3%80%8A%E8%A5%BF%E6%96%B9%E5%8E%86%E5%8F%B2%E5%AD%A6%E5%90%8D%E8%91%97%E6%8F%90%E8%A6%81%E3%80%8Bmemo/"/>
-    <id>http://yoursite.com/2016/10/15/《西方历史学名著提要》memo/</id>
+    <title>《知识考古学》memo</title>
+    <link href="http://yoursite.com/2016/10/15/%E3%80%8A%E7%9F%A5%E8%AF%86%E8%80%83%E5%8F%A4%E5%AD%A6%E3%80%8Bmemo/"/>
+    <id>http://yoursite.com/2016/10/15/《知识考古学》memo/</id>
     <published>2016-10-15T13:20:00.000Z</published>
-    <updated>2016-10-16T10:22:31.000Z</updated>
+    <updated>2017-01-18T11:25:56.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;《知识考古学》1966-Foucault&quot;&gt;&lt;a href=&quot;#《知识考古学》1966-Foucault&quot; class=&quot;headerlink&quot; title=&quot;《知识考古学》1966 Foucault&quot;&gt;&lt;/a&gt;《知识考古学》1966 Foucault&lt;/h2&gt;&lt;h3 id=&quot;一、学术生涯&quot;&gt;&lt;a href=&quot;#一、学术生涯&quot; class=&quot;headerlink&quot; title=&quot;一、学术生涯&quot;&gt;&lt;/a&gt;一、学术生涯&lt;/h3&gt;&lt;p&gt;  Foucault(1926-1984)受新黑格尔主义Hyppolite与结构主义马克思主义阿尔都塞影响，后于心理诊所与监狱工作，1960年出版博士论文《精神病与精神失常》，于1964年缩写为《疯癫与文明》。&lt;br&gt;  早期关注于话语实践的考古学方法，1963年《诊所的诞生》、1966年《词与物》、1969年《知识考古学》，强调对知识的知识，考古知识可能的条件。&lt;br&gt;  1970年开始转为非话语实践的谱系学方法，1971年《尼采、谱系学、历史》、1975年《规训与惩罚》，考察权力—知识关系。&lt;br&gt;  晚期转为了自我的伦理学，撰写《性经验史》，1976年《第一卷 认知的意志》、1984年《第二卷 快感的享用》与《第三卷 关注自我》，及生前未出版的《肉欲的告赎》。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;  于此，开始简要《知识考古学》内容。&lt;/p&gt;
 &lt;h3 id=&quot;二、话语的形成：传统编年史四大批判&quot;&gt;&lt;a href=&quot;#二、话语的形成：传统编年史四大批判&quot; class=&quot;headerlink&quot; title=&quot;二、话语的形成：传统编年史四大批判&quot;&gt;&lt;/a&gt;二、话语的形成：传统编年史四大批判&lt;/h3&gt;&lt;p&gt;  Foucault对传统编年史的四条预设展开了四大批判。同一话语对象、同一陈述形式、同一概念、同一主题，Foucault则认为，话语对象是异质性的、陈述形式是异质性的、概念由陈述群构成、主题由话语策略决定。&lt;/p&gt;
@@ -547,6 +1076,7 @@
 &lt;h3 id=&quot;五、Foucault的历史哲学&quot;&gt;&lt;a href=&quot;#五、Foucault的历史哲学&quot; class=&quot;headerlink&quot; title=&quot;五、Foucault的历史哲学&quot;&gt;&lt;/a&gt;五、Foucault的历史哲学&lt;/h3&gt;&lt;h4 id=&quot;（一）、历史的非客观性：知识—权力&quot;&gt;&lt;a href=&quot;#（一）、历史的非客观性：知识—权力&quot; class=&quot;headerlink&quot; title=&quot;（一）、历史的非客观性：知识—权力&quot;&gt;&lt;/a&gt;（一）、历史的非客观性：知识—权力&lt;/h4&gt;&lt;p&gt;  Foucault否定存在客观性标准，过去实际是由阐释性话语建构的，而一些如民主概念，其本身是话语、话语实践和非话语实践建构的。&lt;br&gt;  及否认显话语与隐话语的二元划分，不能谈论历史的客观性问题，客观性是话语实践的事件，也是非话语实践（权力机制）的影响。&lt;/p&gt;
 &lt;h4 id=&quot;（二）、于启蒙精神的微观反抗：解构&quot;&gt;&lt;a href=&quot;#（二）、于启蒙精神的微观反抗：解构&quot; class=&quot;headerlink&quot; title=&quot;（二）、于启蒙精神的微观反抗：解构&quot;&gt;&lt;/a&gt;（二）、于启蒙精神的微观反抗：解构&lt;/h4&gt;&lt;p&gt;  Foucault认为，理性的求真精神，实际是另一种控制性力量，恢复话语的多元性、增殖性、差异性，给予边缘话题关注，拆解宏达History至众多小的history，正是Foucault的反叛，这无疑于我想起了Laporte的《屎的历史》。“便是要绕开所谓的伟大文明，搅一搅文明的下水道。”&lt;/p&gt;
 &lt;p&gt;  写这篇memo是Foucault诞辰九十周年，Foucault的书我看的仍颇为吃力，便是他人的总结也有些难读，但我确确愿为Foucault门下走狗，反叛这社会既定。&lt;br&gt;2016.10.15 17:30 于群力&lt;/p&gt;
+&lt;h3 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h3&gt;&lt;p&gt;《西方历史学名著提要》&lt;/p&gt;
 &lt;h2 id=&quot;《伯罗奔尼撒战争史》Thucydides&quot;&gt;&lt;a href=&quot;#《伯罗奔尼撒战争史》Thucydides&quot; class=&quot;headerlink&quot; title=&quot;《伯罗奔尼撒战争史》Thucydides&quot;&gt;&lt;/a&gt;《伯罗奔尼撒战争史》Thucydides&lt;/h2&gt;&lt;p&gt;  431 B.C. – 396 B.C. Peloponnesian War，是役结束了希腊黄金时代。而Thucydides因之放逐，转为历史学家，战争史为当代史著作，记录了431 B.C. – 411 B.C. ，未完成本书即意外死亡。&lt;/p&gt;
 &lt;h2 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h2&gt;&lt;p&gt;  是文可于标题三后开始看，首先牢骚了一下编写问题，然后简要辨析西方概念、历史学概念、历史学性质（当代交叉），及谈及了收录内容。&lt;br&gt;  标题三后介绍西方历史学发展脉络，提纲挈领四阶段，而或可细分七阶段。&lt;/p&gt;
 &lt;p&gt;  6 B.C. 荷马史诗，人本思想滥觞。&lt;br&gt;  5 B.C. —— 476西罗马帝国覆灭，古典史学，此时代表为Hecateaus与Thucydides。&lt;br&gt;  476 —— 13 C，中世纪史学（基督教史学），代表为Augustine与Aquinas，发展进步观，此时出现编年史等题材。&lt;/p&gt;
@@ -580,7 +1110,7 @@
     <link href="http://yoursite.com/2016/10/09/%E3%80%8A%E6%9C%89%E9%97%B2%E9%98%B6%E7%BA%A7%E8%AE%BA%EF%BC%9A%E5%85%B3%E4%BA%8E%E5%88%B6%E5%BA%A6%E7%9A%84%E7%BB%8F%E6%B5%8E%E7%A0%94%E7%A9%B6%E3%80%8Bmemo/"/>
     <id>http://yoursite.com/2016/10/09/《有闲阶级论：关于制度的经济研究》memo/</id>
     <published>2016-10-09T14:40:00.000Z</published>
-    <updated>2016-10-27T15:38:30.000Z</updated>
+    <updated>2017-01-18T11:36:18.000Z</updated>
     
     <content type="html">&lt;p&gt;中央编译出版社&lt;/p&gt;
 &lt;h2 id=&quot;自叙&quot;&gt;&lt;a href=&quot;#自叙&quot; class=&quot;headerlink&quot; title=&quot;自叙&quot;&gt;&lt;/a&gt;自叙&lt;/h2&gt;&lt;p&gt;  总体而言，除去翻译问题，本书的线索较为冗杂，Veblen的论述常常很是跳跃，在后文又重新弥补前文本应提及却未提及的，使得把握其完整逻辑较为困难；引用基本未标明出处；书中的具例也带有较强的西方社会背景，与中国社会类比时有些出入。虽如此，其对于有闲阶级的心灵学派论述于今日看仍颇独到。&lt;br&gt;16.10.9 于九公寓&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; &lt;/p&gt;
@@ -762,13 +1292,13 @@
       <category term="Review Economics" scheme="http://yoursite.com/categories/Review-Economics/"/>
     
     
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
       <category term="Economics" scheme="http://yoursite.com/tags/Economics/"/>
     
-      <category term="Veblen" scheme="http://yoursite.com/tags/Veblen/"/>
+      <category term="consumption" scheme="http://yoursite.com/tags/consumption/"/>
     
-      <category term="有闲阶级" scheme="http://yoursite.com/tags/%E6%9C%89%E9%97%B2%E9%98%B6%E7%BA%A7/"/>
+      <category term="class" scheme="http://yoursite.com/tags/class/"/>
+    
+      <category term="Sociology" scheme="http://yoursite.com/tags/Sociology/"/>
     
   </entry>
   
@@ -777,7 +1307,7 @@
     <link href="http://yoursite.com/2016/10/05/%E3%80%8A%E8%B5%8B%E9%AD%85%E4%BA%8E%E4%B8%80%E4%B8%AA%E7%A5%9B%E9%AD%85%E7%9A%84%E4%B8%96%E7%95%8C%E3%80%8Bmemo/"/>
     <id>http://yoursite.com/2016/10/05/《赋魅于一个祛魅的世界》memo/</id>
     <published>2016-10-05T05:37:00.000Z</published>
-    <updated>2016-11-20T13:21:00.000Z</updated>
+    <updated>2017-01-18T11:38:04.000Z</updated>
     
     <content type="html">&lt;p&gt;消费圣殿的传承与变迁 Ritzer&lt;br&gt;  是书为我于台湾返回后兴趣点之深入，于都市社会学空间，尤其是消费空间Zukin论述的转移，于时空社会学的关注，乃及近来于组织社会学的兴趣，将时空引入组织研究或可为日后学习之深入。&lt;br&gt;  2016.10.14&lt;/p&gt;
 &lt;h2 id=&quot;中文版序言&quot;&gt;&lt;a href=&quot;#中文版序言&quot; class=&quot;headerlink&quot; title=&quot;中文版序言&quot;&gt;&lt;/a&gt;中文版序言&lt;/h2&gt;&lt;p&gt;  数十年前美国经济便由消费主导，如今的经济增长大约70%来自于消费。而本书关注的正是消费场所。Ritzer于本书中指出了在线消费圣殿，预言产销合一的数字化王国，与壮观现实消费圣殿的竞赛仍将持续。&lt;br&gt;  中国目前正快速由生产重心转为消费重心，消费圣殿正在排斥生产圣殿，而这种转变是否会削弱中国经济？尚不得而知。&lt;br&gt;16.10.4 于致知&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
@@ -831,9 +1361,9 @@
     
       <category term="Capitalism" scheme="http://yoursite.com/tags/Capitalism/"/>
     
-      <category term="Ritzer" scheme="http://yoursite.com/tags/Ritzer/"/>
+      <category term="consumption" scheme="http://yoursite.com/tags/consumption/"/>
     
-      <category term="Consumption" scheme="http://yoursite.com/tags/Consumption/"/>
+      <category term="Ritzer" scheme="http://yoursite.com/tags/Ritzer/"/>
     
   </entry>
   
@@ -842,7 +1372,7 @@
     <link href="http://yoursite.com/2016/09/16/%E3%80%8A%E5%A5%A2%E4%BE%88%E4%B8%8E%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E3%80%8Bmemo/"/>
     <id>http://yoursite.com/2016/09/16/《奢侈与资本主义》memo/</id>
     <published>2016-09-16T06:18:00.000Z</published>
-    <updated>2016-10-27T15:52:58.000Z</updated>
+    <updated>2017-01-18T14:23:54.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;《奢侈与资本主义》英译本导言&quot;&gt;&lt;a href=&quot;#《奢侈与资本主义》英译本导言&quot; class=&quot;headerlink&quot; title=&quot;《奢侈与资本主义》英译本导言&quot;&gt;&lt;/a&gt;《奢侈与资本主义》英译本导言&lt;/h2&gt;&lt;p&gt;  Sombart(1863-1941)，大Weber一岁，先于比萨大学，后至柏林大学，27岁任教，其生平于此不表，但在文后的注释中提及Sombart略为顽固，在其后期思想有很多转变，但又保留了早期观点，导致其很多诡辩。&lt;/p&gt;
 &lt;h3 id=&quot;一、同Marx与Weber的比较&quot;&gt;&lt;a href=&quot;#一、同Marx与Weber的比较&quot; class=&quot;headerlink&quot; title=&quot;一、同Marx与Weber的比较&quot;&gt;&lt;/a&gt;一、同Marx与Weber的比较&lt;/h3&gt;&lt;h4 id=&quot;（一）、同Marx的比较&quot;&gt;&lt;a href=&quot;#（一）、同Marx的比较&quot; class=&quot;headerlink&quot; title=&quot;（一）、同Marx的比较&quot;&gt;&lt;/a&gt;（一）、同Marx的比较&lt;/h4&gt;&lt;p&gt;  首先与Marx比较，二者同于对资本主义批评。但Sombart反对Marx的经济决定论，乃至发出了反决定论，对Marx的反对还在于Sombart认为资本主义不会在衰亡秩序中产生新秩序。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
@@ -916,9 +1446,11 @@
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
+      <category term="Capitalism" scheme="http://yoursite.com/tags/Capitalism/"/>
+    
       <category term="Sombart" scheme="http://yoursite.com/tags/Sombart/"/>
     
-      <category term="Capitalism" scheme="http://yoursite.com/tags/Capitalism/"/>
+      <category term="consumption" scheme="http://yoursite.com/tags/consumption/"/>
     
   </entry>
   
@@ -1020,11 +1552,11 @@
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
+      <category term="quantitative" scheme="http://yoursite.com/tags/quantitative/"/>
+    
       <category term="谢宇" scheme="http://yoursite.com/tags/%E8%B0%A2%E5%AE%87/"/>
     
       <category term="methodology" scheme="http://yoursite.com/tags/methodology/"/>
-    
-      <category term="quantitative" scheme="http://yoursite.com/tags/quantitative/"/>
     
   </entry>
   
@@ -1138,7 +1670,7 @@
     <link href="http://yoursite.com/2016/08/11/%E7%BD%91%E7%BB%9C%E6%96%87%E5%AD%A6%E3%80%81%E5%BA%B8%E4%BF%97%E4%B8%8E%E9%AB%98%E9%9B%85/"/>
     <id>http://yoursite.com/2016/08/11/网络文学、庸俗与高雅/</id>
     <published>2016-08-10T16:33:00.000Z</published>
-    <updated>2016-08-17T09:21:43.000Z</updated>
+    <updated>2017-01-18T14:19:14.000Z</updated>
     
     <content type="html">&lt;p&gt;  说来好笑，人没网的日子委实难受，我今天翻Giddens的教材，Preface里隐隐的谈了谢宇讲的heterogeneity，Giddens感慨 “yet at that time the current pervasiveness of the Internet, email and other digital media in everyday life was unimaginable.” 网络这个绿茶倒是在短短二三十年迅速霸占了生活的闲暇。&lt;br&gt;  也不知梭罗穿越过来可以去哪个湖隐居，瓦尔登大概是不行，得再偏僻一些才能寄情山林，网络的触角细细想来实在是工具控制人类，Weber和Marx早有论述了。而讲实话，我倒不惮网络控制我，实是因为没了网络实在不方便。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;  生这感慨，主要是最近我家里要搬去群力，和兴路已经卖掉，现在算是租住，去年交的网费到期便没再续交，而新家入住还得一段时间。我前些日子便一直蜷缩在家，也没有聚会的兴致，与外界的连通就只能依靠手机网络。&lt;br&gt;  电脑上不了网，单纯的手机网络却实在没什么乐趣，好在用手机看盗版小说还是极方便的，月余来看了百十万字的网文，间或良心发现翻翻专业的书籍，往往只是看了十来页就放到一边，终归是不如网文里的纵横畅快来的爽快。我觉得网络文学与其标榜自己是通俗文学，倒不如直接落到地里，说是大便读物更接地气，这并非贬低网络文学，网络文学也有高雅的，但毕竟相对于其主体而言，庸俗的占了多数。&lt;br&gt;  我从初一开始沉浸其中，还记得初始看的认真，逐字逐句的读，后来就是一页一页的一目十行，对其描述刻画是否有什么技法是不揣摩的，单纯看其的故事情节，看网文主要图的就是一个爽字，虽是看了就忘，但拿来打发时间，实在是一等一的好办法。&lt;br&gt;  我大概先看的是盗墓小说，初一还模仿过盗墓笔记和鬼吹灯，早先就是看看南派三叔和天下霸唱；后来一直沉迷穿越三国的历史网文，虽然后来又扩展到宋明，但汉朝一直是最爱；间歇沉迷过Z大的无限流，沉迷末日流、召唤流、系统流等等；同人、反穿、甚至变身的百合或人妻文一类的也都有涉猎；一直不断的倒是玄幻修仙，睚眦即杀人和青春期的叛逆相结合，代入以后手起刀落，直抒胸臆的比古龙的更是酣畅。&lt;/p&gt;
 &lt;p&gt;  这些年近乎每日不断的读，要是实体书当能累出几十部追忆似水流年了，说是书龄近十年也不为过，网文的初生我没来得及，但其早期、鼎盛倒是经历的清楚，有名气的网文若没看过，也都听得名字。有时想想把这时间拿来读经典，怕是满腹经纶了，但这种假想颇和抽烟一样，若是不抽烟十来年的钱能买个宝马，这么拿时间对比就落了下乘。&lt;br&gt;  若说网文的坏处，除了这虚度时间，最直接的还有眼镜。犹记得直到高三仍趴在床上蒙上被子看，拿手机看小说应是我度数飙涨的元凶。&lt;br&gt;  也正是因此，前几天翻Postman的《娱乐至死》时有些感慨，便成了写这篇文章的初衷，对于网络与网络文学的爱恨，实是有些纠葛，想起去年发誓要戒网文，也是啪啪自己打脸，但写到这里，思路却又有了转变。&lt;br&gt;  事实上，对于网文的渴求恰恰是庸俗化的象征，Postman的忧虑是深刻的，但人性如此，又何苦要做那表面高洁的卫道士。&lt;br&gt;  修道院的圣洁里往往藏污纳垢，风尘场的胭脂里也往往有着纯良。&lt;/p&gt;
@@ -1155,11 +1687,7 @@
       <category term="Prose" scheme="http://yoursite.com/categories/Prose/"/>
     
     
-      <category term="网络文学" scheme="http://yoursite.com/tags/%E7%BD%91%E7%BB%9C%E6%96%87%E5%AD%A6/"/>
-    
-      <category term="庸俗" scheme="http://yoursite.com/tags/%E5%BA%B8%E4%BF%97/"/>
-    
-      <category term="高雅" scheme="http://yoursite.com/tags/%E9%AB%98%E9%9B%85/"/>
+      <category term="文学" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%A6/"/>
     
   </entry>
   
@@ -1168,7 +1696,7 @@
     <link href="http://yoursite.com/2016/08/08/%E3%80%8A%E5%A4%9C%E9%A2%82%E3%80%8B%E7%9A%84%E6%80%9D%E8%80%83/"/>
     <id>http://yoursite.com/2016/08/08/《夜颂》的思考/</id>
     <published>2016-08-07T18:36:00.000Z</published>
-    <updated>2016-10-16T10:07:38.000Z</updated>
+    <updated>2017-01-18T14:13:20.000Z</updated>
     
     <content type="html">&lt;p&gt;  我极爱黑夜，高二以后的作息往往昼夜颠倒，近半年愈加放肆，而假期初始这周的生活，日出而息，日落而作，蒙上被子睡到晌午，有时睡到下午两三点，或可以说是荒诞了。有时身体发出些抗议，像是胸口发闷，或是腰疼腿酸，却也不甚在意。&lt;br&gt;  我自知是凭着年轻作践身体，可到底黑夜有着白日没有的诱惑，明知是折寿的事情，也乐此不疲。&lt;br&gt;  白日往往喧嚣，而黑夜让人独处，独处时最为自由，社会学有句话是人是社会的人，而黑夜的魅力大抵是让人暂时摆脱了枷锁，我白日为奴，夜里却只忠于自己。夜生活的放纵，与白日的谨小慎微大为不同。&lt;br&gt;  鲁迅先生《准风月谈》里有篇《夜颂》，其中一句话被我找了出来，放在这里自觉是颇恰当的，“人的言行，在白天和在深夜，在日下和在灯前，常常显得两样…不知不觉得自己渐渐脱去人造的面具和衣裳，赤条条地裹在这无边际的黑絮似的大块里。”&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;  便是自慰、交合、杀人越货，或是游戏、读书、红袖添香，夜色深沉，而浮华与落寞都能包容进去，假淑女转为荡妇，伪君子变成淫棍，白日硝烟散尽，活的也真亮了一些，倒也作的上是白夜了。&lt;br&gt;  夜揭开了人肉酱罐的盖子，这是自然的，尤甚这千百年间的摩登女郎和怕光明者遍野，游光先生看的真切。&lt;br&gt;  文章刊出百载，世事却没什么变化，夜依旧诚恳的让人光明与自由，爱夜的人能看到夜色里的大黑暗，可夜终归也是勇士独行的慰藉，爱夜的人也能看到夜色里的大光明。&lt;br&gt;  而这对光明的笃信，姑且便算是我作游光先生的狗尾了，世事没什么变化，可若是失去了这Utopias的信仰，却是比大黑暗来的还要黑暗了。&lt;br&gt;2016.8.8 2:36&lt;/p&gt;
 </content>
@@ -1183,227 +1711,6 @@
     
     
       <category term="鲁迅" scheme="http://yoursite.com/tags/%E9%B2%81%E8%BF%85/"/>
-    
-      <category term="夜" scheme="http://yoursite.com/tags/%E5%A4%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日記 台灣</title>
-    <link href="http://yoursite.com/2016/06/30/%E6%97%A5%E8%A8%98%20%E5%8F%B0%E7%81%A3/"/>
-    <id>http://yoursite.com/2016/06/30/日記 台灣/</id>
-    <published>2016-06-29T16:00:00.000Z</published>
-    <updated>2016-12-31T16:06:55.000Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;16-2-15-前夜&quot;&gt;&lt;a href=&quot;#16-2-15-前夜&quot; class=&quot;headerlink&quot; title=&quot;16.2.15 前夜&quot;&gt;&lt;/a&gt;16.2.15 前夜&lt;/h2&gt;&lt;p&gt;  22:02，与宝宝通完电话，明天早上7:40的飞机，下午5点就到台湾了，抵达高雄。&lt;br&gt;  对台湾本无多少期盼，而台湾于我的意义大抵也全是因为另一个政党操持而不同，颇如瑶瑶跟我讲过的，“我永远不知道自己下一站去哪里。”之所以去，是因为想换个环境，虽然间杂了些忐忑，但总归喜欢这种在路上的感觉。&lt;br&gt;  “所谓故乡不也是祖先游荡的最后一站。”我对哈尔滨的感情深厚，可到底知道自己是要离开，世事难料，但愿前程坦途。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;16-2-16-飞机&quot;&gt;&lt;a href=&quot;#16-2-16-飞机&quot; class=&quot;headerlink&quot; title=&quot;16.2.16 飞机&quot;&gt;&lt;/a&gt;16.2.16 飞机&lt;/h2&gt;&lt;h3 id=&quot;（一）哈尔滨—浦东&quot;&gt;&lt;a href=&quot;#（一）哈尔滨—浦东&quot; class=&quot;headerlink&quot; title=&quot;（一）哈尔滨—浦东&quot;&gt;&lt;/a&gt;（一）哈尔滨—浦东&lt;/h3&gt;&lt;p&gt;  早上4:45起床，5:25和学姐碰面，7:25登机，南航的空姐讲实话还是很耐看的。上飞机后，因飞机故障9:30重新登记，近10点起飞，哈尔滨到上海中间飞过渤海，天地如棋盘，万物是棋子。&lt;br&gt;  我在飞机上看了自己学号是I046090017，打开电脑查了一下怎么去学校。过了十几分钟再看窗外，无限水域已过，朝北海，暮苍梧，科技始终让我惊叹。但这次出行好像缺了什么，心情极为平淡，没什么期待，只好看书打发时间。&lt;/p&gt;
-&lt;h3 id=&quot;（二）浦东—高雄&quot;&gt;&lt;a href=&quot;#（二）浦东—高雄&quot; class=&quot;headerlink&quot; title=&quot;（二）浦东—高雄&quot;&gt;&lt;/a&gt;（二）浦东—高雄&lt;/h3&gt;&lt;p&gt;  1点多到上海，第一次出境又终归有些紧张，从浦东到高雄的机场里很多交流生，未与他们交流，有一个外国少女，看书的样子很好看，她看书的时候戴了个眼镜，大概在看一本小说，机场显得有些冷清，身后事一群叽叽喳喳的交流生，又颇显热闹。&lt;br&gt;  再次乘机看了几页的《巨变》，看的很顺畅，仔细想想大概也是作为经济学家的波兰尼有着浓厚社会学家的影子，人生第一次系统接受的专业，确实潜移默化的影响很深。&lt;/p&gt;
-&lt;h3 id=&quot;（三）机场—中山&quot;&gt;&lt;a href=&quot;#（三）机场—中山&quot; class=&quot;headerlink&quot; title=&quot;（三）机场—中山&quot;&gt;&lt;/a&gt;（三）机场—中山&lt;/h3&gt;&lt;p&gt;  近5点抵达高雄，下机后的第一感觉是略像海南。奔向坐捷运过美丽岛站，但出站时已是5:30,旅途周转，与学长学姐一起打车至中山，花费400余台币，均摊每人105元。出租至中山过了一座类似供奉妈祖或关帝的庙宇，一座佛堂，永和或永宁记不清切了，两座基督教堂，初感中西文明之交汇，及宗教信仰之多元。台湾高雄的街道里，几个繁体字牌对生长在大陆的人而言，错落生出了淡淡的民国感。&lt;br&gt;  司机师傅不爱说话，脸色一路冷淡，没有变化，有些感觉台湾人对大陆人的冷淡，但因有钱可赚，也不无可以接触。广播电台里女声很软，与大陆想象一般，又颇柔情，台湾岛内小事尽皆播报，细细碎碎的有很浓的人情味道。与司机之对比，陆台之隔膜可以初窥，自然，这或与司机本身有关，而确为我此时之感慨。&lt;/p&gt;
-&lt;h3 id=&quot;（四）安置&quot;&gt;&lt;a href=&quot;#（四）安置&quot; class=&quot;headerlink&quot; title=&quot;（四）安置&quot;&gt;&lt;/a&gt;（四）安置&lt;/h3&gt;&lt;p&gt;  台湾中山与工大相比，大了太多，与复旦研究生学长一起先在服务站找钥匙，再到福利社买了备品，过程颇曲折，但好在7点多全部搞完，然后同研究生学长回武岭遇到他的同学，同三个复旦学长一起去家乐福买日用品，在肯德基花费132台币吃的很饱，折换人民币26元，比大陆价格稍便宜。&lt;br&gt;  回校打车155元，简单收拾了床铺、书桌，写了日记，已是0:29，夜深毫无睡意，新室友哀嚎寂寞如雪。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-17-安置&quot;&gt;&lt;a href=&quot;#16-2-17-安置&quot; class=&quot;headerlink&quot; title=&quot;16.2.17 安置&quot;&gt;&lt;/a&gt;16.2.17 安置&lt;/h2&gt;&lt;h3 id=&quot;（一）采买&quot;&gt;&lt;a href=&quot;#（一）采买&quot; class=&quot;headerlink&quot; title=&quot;（一）采买&quot;&gt;&lt;/a&gt;（一）采买&lt;/h3&gt;&lt;p&gt;  8:10起床，昨晚睡得还算较早，但到底不是很困，蛮晚才真正睡着。&lt;br&gt;  中山是山里的大学，昨天觉得温度适宜，但入夜温度低了很多，被子是夏被，半夜被冻醒，新买的枕被，味道也有些不太舒服，来台第一夜谁的不是很舒服。&lt;br&gt;  9点多和两个学长回合，乘地铁到家乐福爱河边，午饭番茄牛腩面，160元，汤汁新鲜，采买脸盆拖鞋枕头被子等，新买的夏被想把两个叠在一起盖，花费1500元，打车均摊31元，地铁20元。&lt;/p&gt;
-&lt;h3 id=&quot;（二）隧道的独立&quot;&gt;&lt;a href=&quot;#（二）隧道的独立&quot; class=&quot;headerlink&quot; title=&quot;（二）隧道的独立&quot;&gt;&lt;/a&gt;（二）隧道的独立&lt;/h3&gt;&lt;p&gt;  来台第一天时进校园是完善，灯光昏暗，也没从步行的隧道口进入，今日进入隧道的时候，感慨中山大学独立于市井。&lt;br&gt;  前往超市途中，有中药材店铺，在电视剧中看到的前人生病前去抓药，高雄的药材铺也有聚集在一起，大小好几家，在中山附近产业集聚了一些。&lt;/p&gt;
-&lt;h3 id=&quot;（三）同他校学生的思考&quot;&gt;&lt;a href=&quot;#（三）同他校学生的思考&quot; class=&quot;headerlink&quot; title=&quot;（三）同他校学生的思考&quot;&gt;&lt;/a&gt;（三）同他校学生的思考&lt;/h3&gt;&lt;p&gt;  而同行的学长与不曾谈话太多的其他学校同学，感觉并未如我之前想到的学校间差距很大，大多类似没有什么不同。但复旦室友也确实有着自由精神，可对比之后，亦觉得工大苦心，自由与功利的联姻太多，难掩其背后的浮华，工大功夫，土则土也，而确实可靠。&lt;/p&gt;
-&lt;h3 id=&quot;（四）琐碎&quot;&gt;&lt;a href=&quot;#（四）琐碎&quot; class=&quot;headerlink&quot; title=&quot;（四）琐碎&quot;&gt;&lt;/a&gt;（四）琐碎&lt;/h3&gt;&lt;p&gt;  回校后收拾寝室，2点多出门办理电话卡，无限流量已经没有，而办了4个半月的20G中华电信卡。张帅下午也到了中山。&lt;br&gt;  晚上吃铁男90元咖喱牛腩，对于街边小店蛮精致的，也很好吃，等拿了学生证也会把他家的饭菜都尝试一遍。&lt;br&gt;  饭后回校用手机看了看课程，电脑DNS设置错误，反复试了半天终于试好。近2点睡觉，多盖一层被子舒服很多。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-18-西子湾&quot;&gt;&lt;a href=&quot;#16-2-18-西子湾&quot; class=&quot;headerlink&quot; title=&quot;16.2.18 西子湾&quot;&gt;&lt;/a&gt;16.2.18 西子湾&lt;/h2&gt;&lt;p&gt;  早上10点起床，出门吃全家的便餐，花费75，下午选课特别头疼，才猛然想起我是来求学而不是来玩的，课大多有研究生的，我若只选本科的课程很难置换。&lt;br&gt;  晚上本打算和复旦几个学长去夜市，转而同帅哥一起去西子湾，但夜里的海只是墨色一片，看不清楚。只有远远的灯塔，绿灯红灯一闪一闪。&lt;br&gt;  今日总得来说没什么事情，给老师发邮件选课也很顺畅。中山的狗很多，这两天偶尔也能看到一二猴子，松鼠等都不怕人，让我觉得台湾很小家子气，却也是很文质彬彬。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-19-选课危机&quot;&gt;&lt;a href=&quot;#16-2-19-选课危机&quot; class=&quot;headerlink&quot; title=&quot;16.2.19 选课危机&quot;&gt;&lt;/a&gt;16.2.19 选课危机&lt;/h2&gt;&lt;p&gt;  来中山以后第一次危机。今天下午查选课结果，只选到三门课，英语、体育都未选上，而政治社会学因为属于学位论文指导课程，我不能选，只能期望纸本加选，但尚不知道是否可以。这让我思考gap year的代价或许过为奢侈，补修太多很麻烦，系内课程尚可以接受，而公共课就想日狗了。看了一遍课表，工大规格既是风骨，也是束缚，专业课自然难修了，便索性旁听他系课程，以扩大视野，丰富人文。&lt;br&gt;  晚上和台湾学伴一起散步，他开车带我去了市中心，相谈甚欢。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-20-驳二&quot;&gt;&lt;a href=&quot;#16-2-20-驳二&quot; class=&quot;headerlink&quot; title=&quot;16.2.20 驳二&quot;&gt;&lt;/a&gt;16.2.20 驳二&lt;/h2&gt;&lt;p&gt;  下午4点出门，和三个室友、一个重大、一个负担学长去驳二艺术区，而诚品书店有些失望，不如传闻。&lt;br&gt;  回来在铁男吃饭90台币，回寝室后重新安排了课表，9点左右回寝室，台湾学长邀请我3月份去听音乐会，洗了内衣和衬衫。&lt;br&gt;  宝宝与我生气，哄了蛮久才好。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-21-爱河灯会&quot;&gt;&lt;a href=&quot;#16-2-21-爱河灯会&quot; class=&quot;headerlink&quot; title=&quot;16.2.21 爱河灯会&quot;&gt;&lt;/a&gt;16.2.21 爱河灯会&lt;/h2&gt;&lt;p&gt;  中午11点起床，下午2点逛学校，5点去六合街附近的中正街吃正忠排骨饭。&lt;br&gt;  尔后去六合夜市、高雄爱河灯会，人很多，高雄市很有人情味的城市，艺术气氛很浓。街头艺人、火舞、日本艺妓表演很多。&lt;br&gt; 身后的小孩子说， “今晚的月亮一定很开心。”蓦然一笑。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-22-开学第一天&quot;&gt;&lt;a href=&quot;#16-2-22-开学第一天&quot; class=&quot;headerlink&quot; title=&quot;16.2.22 开学第一天&quot;&gt;&lt;/a&gt;16.2.22 开学第一天&lt;/h2&gt;&lt;p&gt;  早上7点起床，7点20吃早饭，7点50到体育馆等开课，8点20开始课程说明，9点多下课，228放假，实际上体育课要到3月份了。&lt;br&gt;  穿过教学楼到图书馆注册拿学生证，回宿舍叫醒室友，去下卫生间后去全家吃饭，直接去了海工馆，感觉每天上山下山也很棒。&lt;br&gt;  于ME3006教室，外面是蔚蓝大海，余光中说“拥抱海洋，就拥抱了世界。”愿我与世界真诚相待，永不辜负。&lt;br&gt;  下午和北航学姐买水果，回寝时误入柴山，走了近2万步回寝，周遭密林，右手大海，一开始心焦，慢慢走着反而舒缓了。&lt;br&gt;  晚上依旧在寝室安排课表，略麻烦。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-23-情绪&quot;&gt;&lt;a href=&quot;#16-2-23-情绪&quot; class=&quot;headerlink&quot; title=&quot;16.2.23 情绪&quot;&gt;&lt;/a&gt;16.2.23 情绪&lt;/h2&gt;&lt;p&gt;  今早是研究生课，听老师恐吓的冷汗疯流，下午中级英语也是全英授课，需要考试多益。&lt;br&gt;  晚上寝室在看书，并未看很多。&lt;br&gt;  今日又虚度一天，略微烦躁，有些后悔来台湾。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-24-西子湾随笔（一）&quot;&gt;&lt;a href=&quot;#16-2-24-西子湾随笔（一）&quot; class=&quot;headerlink&quot; title=&quot;16.2.24 西子湾随笔（一）&quot;&gt;&lt;/a&gt;16.2.24 西子湾随笔（一）&lt;/h2&gt;&lt;p&gt;  以前看到大海总是感慨人类于自然的渺小，今天上完课，坐在西子湾却猛然觉得人类于几千年中的伟岸，纵使与地球盖亚小如蝼蚁，而终归是惊涛拍岸，其于宇宙中史无前例之巨响，已是浩大。&lt;br&gt;  起风大浪，渔船回岸。大雾，耳边是岸部真明的奇迹之山，我背靠的是高山，面朝的是大海，充滿迷夢的八十年代里，中山宣扬的山海胸襟，是何等的气魄，也是何等的难办。&lt;br&gt;  大海的豪情，给予了大鸟的温情。我无数次梦想逃离，来台湾也是，在于社会的妥协里长大，可心底总是有个声音告诉我，再坚持一下，不要妥协，台湾的教育体系与大陆别无二致，本以为逃离只是换了牢房。&lt;br&gt;  可大海无悲无喜在这里，人生如梦。&lt;br&gt;  大概所有的监狱都是自己铸造的。堤坝上只有我和张帅，高雄有小雨，面向大海拥抱世界。&lt;br&gt;  浪愈大了。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-26-总铺师&quot;&gt;&lt;a href=&quot;#16-2-26-总铺师&quot; class=&quot;headerlink&quot; title=&quot;16.2.26 总铺师&quot;&gt;&lt;/a&gt;16.2.26 总铺师&lt;/h2&gt;&lt;p&gt;  一日在寝室。看了《总铺师》，古早时代的古早心。&lt;br&gt;  感慨台湾花费必有发票，而大陆少有自觉。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-27-outlets与义守大学&quot;&gt;&lt;a href=&quot;#16-2-27-outlets与义守大学&quot; class=&quot;headerlink&quot; title=&quot;16.2.27 outlets与义守大学&quot;&gt;&lt;/a&gt;16.2.27 outlets与义守大学&lt;/h2&gt;&lt;p&gt;  同室友去了outlets和义守大学。欧洲风格。&lt;br&gt;  读《都市主义作为一种生活方式》，义大偏远而少有人前往，大企业于郊区，小企业于市区。&lt;br&gt;  忠孝一路一条街小吃，人很少。&lt;/p&gt;
-&lt;h2 id=&quot;16-2-28-西子湾随笔（二）&quot;&gt;&lt;a href=&quot;#16-2-28-西子湾随笔（二）&quot; class=&quot;headerlink&quot; title=&quot;16.2.28 西子湾随笔（二）&quot;&gt;&lt;/a&gt;16.2.28 西子湾随笔（二）&lt;/h2&gt;&lt;p&gt;  我總是不自覺的將台灣和日本相近，令人心折的物哀文化，以及類武士道精神的豪情，充滿矛盾的張力里，孕育了大島的溫情。&lt;br&gt;  我坐在五嶺的村莊里。手邊有一摞文獻未讀，寢室也因為窗外的高樹而頗為昏暗。&lt;br&gt;  我無數次夢想過逃離，就像里爾克的漂泊，“一個人只有在第二故鄉，才能檢視自己靈魂的強度和靈魂的承載力。”&lt;br&gt;  此行半年亦然。我相信當人開始認真的沉思，就不免將要陷入深深的無力中，不單是于個人命運在巨大社會中的起起伏伏、不由自己，亦有其他各人的不同悲憫。上課一周，台灣教育與大陸並無二致，本以為的脫嵌，也只是嵌入另一個牢籠里。&lt;br&gt;  可是大海這麼無悲無喜，個體人生的苦痛在千萬年間也仿佛變成了笑談，大概在天地看來，所有的監獄都是自己築造。這世間的諸多枷鎖，大概都是自己的建構，道德也好、傳統也罷。當後現代開始解構，是混亂與真正啟蒙的開始。&lt;br&gt;  我將無法預見真正自由來臨之時，大抵莫爾之構想過於艱難，可社會理想主義終歸支撐一代一代孤獨的潛行者，也會波及一代一代之普羅大眾。&lt;br&gt;  余光中有一句話可以拓展，“面向大海，就擁抱了世界。”這肉體的漂泊終歸會停止，而我長眠之時，心靈的漂泊永無終止，海浪愈大，我心愈靜，而無數大海之廣闊，足矣人類之不盡探索。&lt;br&gt;（一日在寝室，本日日记修改自2月24日的日记）&lt;/p&gt;
-&lt;h2 id=&quot;16-2-29-方便面&quot;&gt;&lt;a href=&quot;#16-2-29-方便面&quot; class=&quot;headerlink&quot; title=&quot;16.2.29 方便面&quot;&gt;&lt;/a&gt;16.2.29 方便面&lt;/h2&gt;&lt;p&gt;  在寝室，台湾方便面没有叉子，大陆人很不习惯。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-1&quot;&gt;&lt;a href=&quot;#16-3-1&quot; class=&quot;headerlink&quot; title=&quot;16.3.1&quot;&gt;&lt;/a&gt;16.3.1&lt;/h2&gt;&lt;p&gt;  上课英语课实际感觉并不难，老师英语教学，但台湾学生水平一般。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-2-学人之尊严&quot;&gt;&lt;a href=&quot;#16-3-2-学人之尊严&quot; class=&quot;headerlink&quot; title=&quot;16.3.2 学人之尊严&quot;&gt;&lt;/a&gt;16.3.2 学人之尊严&lt;/h2&gt;&lt;p&gt;  读书笔记还有几个小时就要交，但只写了初稿。旁听课老师没来，不知时间是否赶得上。&lt;br&gt;  学人之尊严，交完笔记去吃饭，回来一个人听歌很爽。此行台湾之意义，在开拓思想，放眼世界，台湾之景点可再游览，而台湾之思想难以再听。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-3&quot;&gt;&lt;a href=&quot;#16-3-3&quot; class=&quot;headerlink&quot; title=&quot;16.3.3&quot;&gt;&lt;/a&gt;16.3.3&lt;/h2&gt;&lt;p&gt;  都市社会学的研究生课程很有趣。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-4&quot;&gt;&lt;a href=&quot;#16-3-4&quot; class=&quot;headerlink&quot; title=&quot;16.3.4&quot;&gt;&lt;/a&gt;16.3.4&lt;/h2&gt;&lt;p&gt;  寝室看书。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-5-左营与鲁凯&quot;&gt;&lt;a href=&quot;#16-3-5-左营与鲁凯&quot; class=&quot;headerlink&quot; title=&quot;16.3.5 左营与鲁凯&quot;&gt;&lt;/a&gt;16.3.5 左营与鲁凯&lt;/h2&gt;&lt;p&gt;  上午去左营启明堂，雅各布斯《美国大城市的死与生》，小街道、多种交通混合，早点、剪发、小卖店，但左营处为宗教之单一首要用途。&lt;br&gt;  德章老师人很好，台湾与大陆的区别也在于老师与学生的相处态度。从他那里了解到“呆湾”，闽南话，运气不好的人死在台湾海峡里。&lt;br&gt;  下午去原住民，恰好赶上有人结婚，鲁凯文化与基督教的融合，纯正性是否真实存在。&lt;br&gt;  以及，德章老师给我的肉粽子，让我想到哈爾濱端午節五彩繩，而江浙、河北等地沒有，哈爾濱的米粽子，沒有肉粽子讓南方同學驚訝。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-6-旗津岛&quot;&gt;&lt;a href=&quot;#16-3-6-旗津岛&quot; class=&quot;headerlink&quot; title=&quot;16.3.6 旗津岛&quot;&gt;&lt;/a&gt;16.3.6 旗津岛&lt;/h2&gt;&lt;p&gt;  和室友去旗津，适合发呆，街道干净，阳光很好，我在海滩放风筝，被他们拿沙子埋起来。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-7&quot;&gt;&lt;a href=&quot;#16-3-7&quot; class=&quot;headerlink&quot; title=&quot;16.3.7&quot;&gt;&lt;/a&gt;16.3.7&lt;/h2&gt;&lt;p&gt;  体育课跑了九圈，中午听歌，很舒服。&lt;br&gt;  下午上课台湾社会与文化，战后台湾三大常青藤，琼瑶、李敖、张小燕。个人选题计划为眷村，小组选题为阵头。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-9&quot;&gt;&lt;a href=&quot;#16-3-9&quot; class=&quot;headerlink&quot; title=&quot;16.3.9&quot;&gt;&lt;/a&gt;16.3.9&lt;/h2&gt;&lt;p&gt;  台湾思考，民主巩固理论，知识分子与民族意识的建构，李登辉去中国化。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-13-音乐会&quot;&gt;&lt;a href=&quot;#16-3-13-音乐会&quot; class=&quot;headerlink&quot; title=&quot;16.3.13 音乐会&quot;&gt;&lt;/a&gt;16.3.13 音乐会&lt;/h2&gt;&lt;p&gt;  同台湾学长听音乐会，第一次听音乐会。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-15-分手&quot;&gt;&lt;a href=&quot;#16-3-15-分手&quot; class=&quot;headerlink&quot; title=&quot;16.3.15 分手&quot;&gt;&lt;/a&gt;16.3.15 分手&lt;/h2&gt;&lt;p&gt;  和含静大吵一架，分开。不知该写什么。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-16&quot;&gt;&lt;a href=&quot;#16-3-16&quot; class=&quot;headerlink&quot; title=&quot;16.3.16&quot;&gt;&lt;/a&gt;16.3.16&lt;/h2&gt;&lt;p&gt;  思考南韩选举中非政府组织的作用，CAGE。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-18&quot;&gt;&lt;a href=&quot;#16-3-18&quot; class=&quot;headerlink&quot; title=&quot;16.3.18&quot;&gt;&lt;/a&gt;16.3.18&lt;/h2&gt;&lt;p&gt;  中山承办的经济方面论坛，听了一场《我国城市公共品市场制度》，有些类似都市社会学对于公共空间的思考。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-22-论文&quot;&gt;&lt;a href=&quot;#16-3-22-论文&quot; class=&quot;headerlink&quot; title=&quot;16.3.22 论文&quot;&gt;&lt;/a&gt;16.3.22 论文&lt;/h2&gt;&lt;p&gt;  6点多约学姐在图书馆读论文，读完11点接着和统计课同学在地下社会读统计文章。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-23&quot;&gt;&lt;a href=&quot;#16-3-23&quot; class=&quot;headerlink&quot; title=&quot;16.3.23&quot;&gt;&lt;/a&gt;16.3.23&lt;/h2&gt;&lt;p&gt;  下午旁听《中国乡村选举的授权效应》、《Leadership Transition…》等文章。对中国的党政合一、路径依赖、第三条道路、制度化与非制度化角力等话题思考。&lt;/p&gt;
-&lt;h2 id=&quot;16-3-30&quot;&gt;&lt;a href=&quot;#16-3-30&quot; class=&quot;headerlink&quot; title=&quot;16.3.30&quot;&gt;&lt;/a&gt;16.3.30&lt;/h2&gt;&lt;p&gt;  刚才排了时间表，4月份会很忙。&lt;br&gt;  此行台湾，选修本科、硕士课程，定性定量课程，体育、通识及政治、经济专业课，为体验台湾中山大学之教育。&lt;br&gt;  下午旁听《自由主义、威权主义在泰国》，从1932—2016的泰国政治演进，bureaucracy何以稳定。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-1&quot;&gt;&lt;a href=&quot;#16-4-1&quot; class=&quot;headerlink&quot; title=&quot;16.4.1&quot;&gt;&lt;/a&gt;16.4.1&lt;/h2&gt;&lt;p&gt;  晚上洗衣服、刷鞋、洗澡。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-2——16-4-4-台北&quot;&gt;&lt;a href=&quot;#16-4-2——16-4-4-台北&quot; class=&quot;headerlink&quot; title=&quot;16.4.2——16.4.4 台北&quot;&gt;&lt;/a&gt;16.4.2——16.4.4 台北&lt;/h2&gt;&lt;h3 id=&quot;16-4-2&quot;&gt;&lt;a href=&quot;#16-4-2&quot; class=&quot;headerlink&quot; title=&quot;16.4.2&quot;&gt;&lt;/a&gt;16.4.2&lt;/h3&gt;&lt;h4 id=&quot;（一）往台北&quot;&gt;&lt;a href=&quot;#（一）往台北&quot; class=&quot;headerlink&quot; title=&quot;（一）往台北&quot;&gt;&lt;/a&gt;（一）往台北&lt;/h4&gt;&lt;p&gt;  晚上11点出门，搭捷运到汽车站，1点坐上大巴，3:45，台中转运站，一路不知道是睡还是没睡。当注意力放在眉心时，很酥痒。&lt;br&gt;  对台北的印象是余光中的《听听那冷雨》，先去了国父纪念馆，尔后中正纪念堂，颇像北京天坛，气势较国父孙中山纪念馆更宏大一些，旁边有国家歌剧院，古典建筑类似故宫。&lt;br&gt;  台大的正门很小，没有围栏的大小，颇像西安交大，绿榕树的颜色很好看。&lt;br&gt;  尔后同史翔天在复旦学习认识的台湾东华大学同学一起，在101附近新天地吃自助火锅，一人699元。&lt;br&gt;  晚上住在桃源，从市区坐大巴一个小时。&lt;/p&gt;
-&lt;h4 id=&quot;（二）印象&quot;&gt;&lt;a href=&quot;#（二）印象&quot; class=&quot;headerlink&quot; title=&quot;（二）印象&quot;&gt;&lt;/a&gt;（二）印象&lt;/h4&gt;&lt;p&gt;  台北是一个现代与古代交融的城市，以现代为主导，而西藏拉萨也是古今交融，但以古代宗教为主导。&lt;br&gt;  感慨很少，似乎人长大就会变得冷漠。&lt;/p&gt;
-&lt;h3 id=&quot;16-4-3&quot;&gt;&lt;a href=&quot;#16-4-3&quot; class=&quot;headerlink&quot; title=&quot;16.4.3&quot;&gt;&lt;/a&gt;16.4.3&lt;/h3&gt;&lt;p&gt;  游玩了淡水老街、台北故宮、士林夜市、西門町。&lt;/p&gt;
-&lt;h3 id=&quot;16-4-4&quot;&gt;&lt;a href=&quot;#16-4-4&quot; class=&quot;headerlink&quot; title=&quot;16.4.4&quot;&gt;&lt;/a&gt;16.4.4&lt;/h3&gt;&lt;p&gt;  游玩了總統府、象山。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-7&quot;&gt;&lt;a href=&quot;#16-4-7&quot; class=&quot;headerlink&quot; title=&quot;16.4.7&quot;&gt;&lt;/a&gt;16.4.7&lt;/h2&gt;&lt;p&gt;  政治学讲述内阁制、总统制、半总统制、台湾政治。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-11-共和國長子：一個貴族的沒落&quot;&gt;&lt;a href=&quot;#16-4-11-共和國長子：一個貴族的沒落&quot; class=&quot;headerlink&quot; title=&quot;16.4.11 共和國長子：一個貴族的沒落&quot;&gt;&lt;/a&gt;16.4.11 共和國長子：一個貴族的沒落&lt;/h2&gt;&lt;p&gt;  福爾摩沙打狗港，雨水拍在窗上，上週刷的鞋子還有些潮濕，南方的四月開始濕熱，而哈爾濱大概還會有著乾冷的雪花。&lt;br&gt;  剛才和室友閒聊台灣，又聊到東北，東北經濟的衰退大概已經成了全國共識，他或是開玩笑的“現在的東北回到日據時代當狗，日本人也不會要了。”莫名便戳住了痛點，隨後莫名的爭吵，平復后又十分尷尬。&lt;br&gt;  東北的經濟衰退無法作假，又怎能怪他人戳到痛處，可那畢竟是我的故鄉，養育了我的大江大地。&lt;/p&gt;
-&lt;p&gt;  我仍舊自豪我是東北大地上的哈爾濱人。&lt;br&gt;  我生在哈爾濱的90年代，共和國長子業已不復，老道外斑駁的巴洛克建築里，黃色墻體在陽光下也早已顯得模糊，而我終歸無法忘懷老一輩口中的榮光，想象中，仿佛彼時的哈爾濱人，脊梁也比如今挺直。&lt;/p&gt;
-&lt;p&gt;  高中時還不懂故土的含義，執意要奔向南方，南方好哇，視野開闊。還記得高考留在本省的哈工大，一陣子內心頗為陰鬱。在這個貧瘠落後的地方，我竟要待上二十二年。&lt;br&gt;  而現在大了些，我終於懂得故土深沉，卻又更深切的知道終歸離去，同每年從龍江流向天南海北的年輕人一樣，獨身去陌生的省份城市，尋找更好的機會。&lt;br&gt;  我心酸的是，黑龍江人無可奈何的背井離鄉，無力改變而離開的宿命，這深切的悲哀，縈繞在遊子心頭。&lt;br&gt;  我猜想要是我的家鄉是北上廣深，我又為何要選擇背井離鄉。&lt;/p&gt;
-&lt;p&gt;  前陣子因為要去台灣交流，想辦張境外銀聯卡，東方巴黎再也找不到34家外資銀行的盛況，而只拿到了一張皺皺巴巴的光大銀行卡。從遠東金融中心到如今的三線城市。&lt;br&gt;  因為我是哈爾濱人，所以有著更深切的痛處。蘇聯體制的解體、計劃經濟的潰敗、東北的沒落。&lt;/p&gt;
-&lt;p&gt;  哈爾濱的百年曆史里，起起伏伏，倒影著晚晴、俄羅斯、日本、滿洲、蘇聯、共和國。&lt;br&gt;  我穿梭在沒落的哈爾濱，求學在沒落的哈工大，我艷羨著南方改革開放的經濟騰飛，可我始終沒有忘記，我有著貴族的血脈與歷史。&lt;br&gt;  我在南方思念著我的家鄉。&lt;br&gt;2016.4.11 20:47:35&lt;br&gt;閆譽騰 於西子灣&lt;/p&gt;
-&lt;h2 id=&quot;16-4-13&quot;&gt;&lt;a href=&quot;#16-4-13&quot; class=&quot;headerlink&quot; title=&quot;16.4.13&quot;&gt;&lt;/a&gt;16.4.13&lt;/h2&gt;&lt;p&gt;  旁听菲律宾民主制度。Rustow的民主转型四阶段，从1946—2016。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-19&quot;&gt;&lt;a href=&quot;#16-4-19&quot; class=&quot;headerlink&quot; title=&quot;16.4.19&quot;&gt;&lt;/a&gt;16.4.19&lt;/h2&gt;&lt;p&gt;  中国经济发展一课，思考民营经济。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-25&quot;&gt;&lt;a href=&quot;#16-4-25&quot; class=&quot;headerlink&quot; title=&quot;16.4.25&quot;&gt;&lt;/a&gt;16.4.25&lt;/h2&gt;&lt;p&gt;  早上游泳課，自由泳恍惚學會，繼而又不會，洗澡有些恍惚到10：05，差點撞到下一節課同學；下午台灣社會與文化，小組略坑。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-26&quot;&gt;&lt;a href=&quot;#16-4-26&quot; class=&quot;headerlink&quot; title=&quot;16.4.26&quot;&gt;&lt;/a&gt;16.4.26&lt;/h2&gt;&lt;p&gt;  早上中國經濟發展，之前未讀書，所聽略為混沌；下午英語課老師生病，回寢。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-27-社会统计学期中报告&quot;&gt;&lt;a href=&quot;#16-4-27-社会统计学期中报告&quot; class=&quot;headerlink&quot; title=&quot;16.4.27 社会统计学期中报告&quot;&gt;&lt;/a&gt;16.4.27 社会统计学期中报告&lt;/h2&gt;&lt;p&gt;  期中小組報告，文獻回顧由我完成，數據分析由台灣同學完成，老師給予肯定，認為可接近碩士論文；&lt;br&gt;  下午東亞政治變遷講述馬來西亞，為此旁聽課程之最後一節。&lt;/p&gt;
-&lt;h2 id=&quot;16-4-28-研究方法与台湾历史&quot;&gt;&lt;a href=&quot;#16-4-28-研究方法与台湾历史&quot; class=&quot;headerlink&quot; title=&quot;16.4.28 研究方法与台湾历史&quot;&gt;&lt;/a&gt;16.4.28 研究方法与台湾历史&lt;/h2&gt;&lt;p&gt;  寫都市社會學memo到5點，今早無精打采，下午上政治學，期中分數76。&lt;br&gt;  一直以來社會學實證主義傳統與人文主義傳統的割裂，剛入工大學習社會學時，大抵環境使然，認為社會學只有完全數據化的量化，後來質疑數據的真實與可靠性而轉向質性理論分析，而於台灣之所學習，認識之發展是社會學需要建立在數據基礎上的理論。&lt;br&gt;  以及，台灣歷史之矛盾，其小確幸后的身份認同的割裂，日本﹣民國﹣台灣國。而其民主之環境，與中國大陸之環境差異。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-3-亚太所课程报告&quot;&gt;&lt;a href=&quot;#16-5-3-亚太所课程报告&quot; class=&quot;headerlink&quot; title=&quot;16.5.3 亚太所课程报告&quot;&gt;&lt;/a&gt;16.5.3 亚太所课程报告&lt;/h2&gt;&lt;p&gt;  10:10上课，中国经济发展的期末报告题目大纲，1个人5分钟。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-5-台南风险社会讲座&quot;&gt;&lt;a href=&quot;#16-5-5-台南风险社会讲座&quot; class=&quot;headerlink&quot; title=&quot;16.5.5 台南风险社会讲座&quot;&gt;&lt;/a&gt;16.5.5 台南风险社会讲座&lt;/h2&gt;&lt;p&gt;  都市社会学一课，往台南听太刀川太郎讲座。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-9-游泳&quot;&gt;&lt;a href=&quot;#16-5-9-游泳&quot; class=&quot;headerlink&quot; title=&quot;16.5.9 游泳&quot;&gt;&lt;/a&gt;16.5.9 游泳&lt;/h2&gt;&lt;p&gt;  游泳，天气很好。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-14-研究方法&quot;&gt;&lt;a href=&quot;#16-5-14-研究方法&quot; class=&quot;headerlink&quot; title=&quot;16.5.14 研究方法&quot;&gt;&lt;/a&gt;16.5.14 研究方法&lt;/h2&gt;&lt;p&gt;  質性研究必須學習邏輯學，正如量化研究必須深入統計學，綜合二者的方法論必將是未來的趨勢，而社會學也必須進行科學化的深入。&lt;br&gt;  昨日與網友爭論同性戀，往圖書館查書。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-15-数学的作用&quot;&gt;&lt;a href=&quot;#16-5-15-数学的作用&quot; class=&quot;headerlink&quot; title=&quot;16.5.15 数学的作用&quot;&gt;&lt;/a&gt;16.5.15 数学的作用&lt;/h2&gt;&lt;p&gt;  數學為一切學科之基石，線性代數於數據分析中理解矩陣極為重要，高等數學於數據分析中建構模型極為重要。捨數學而於量化深入者，幾無可能。&lt;br&gt;  大二已近尾聲而終於明白，蹉跎光陰，亦有悔意，期冀未來之努力，可彌補道路明晰之晚來。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-20-民进党&quot;&gt;&lt;a href=&quot;#16-5-20-民进党&quot; class=&quot;headerlink&quot; title=&quot;16.5.20 民进党&quot;&gt;&lt;/a&gt;16.5.20 民进党&lt;/h2&gt;&lt;p&gt;  有幸親歷了台灣總統的換屆，也即台灣的民主鞏固歷程，政權和平移轉，蔡英文民進黨上台，國民黨落幕。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-25&quot;&gt;&lt;a href=&quot;#16-5-25&quot; class=&quot;headerlink&quot; title=&quot;16.5.25&quot;&gt;&lt;/a&gt;16.5.25&lt;/h2&gt;&lt;p&gt;  一日上课。&lt;/p&gt;
-&lt;h2 id=&quot;16-5-28-垦丁&quot;&gt;&lt;a href=&quot;#16-5-28-垦丁&quot; class=&quot;headerlink&quot; title=&quot;16.5.28 垦丁&quot;&gt;&lt;/a&gt;16.5.28 垦丁&lt;/h2&gt;&lt;p&gt;  叫车去了垦丁，看了巴士海峡，很蓝。可惜没有看到太平洋。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-1-统计学派的量化道路&quot;&gt;&lt;a href=&quot;#16-6-1-统计学派的量化道路&quot; class=&quot;headerlink&quot; title=&quot;16.6.1 统计学派的量化道路&quot;&gt;&lt;/a&gt;16.6.1 统计学派的量化道路&lt;/h2&gt;&lt;p&gt;  反思貝葉斯與頻率學派之爭，R語言之使用，統計知識之重新學習，此台灣求學之於量化研究方向之所得。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-4-間歇性頹廢&quot;&gt;&lt;a href=&quot;#16-6-4-間歇性頹廢&quot; class=&quot;headerlink&quot; title=&quot;16.6.4 間歇性頹廢&quot;&gt;&lt;/a&gt;16.6.4 間歇性頹廢&lt;/h2&gt;&lt;p&gt;我得承認，頹廢總會偶爾浮現。&lt;br&gt;今天中午起床收到助教短信，平時成績再扣2分，有時也會自嘲，成績真是我親爹，可惜我真不願意當他兒子。&lt;br&gt;每到週末睡到中午，總是這般浪蕩，而寢室背陰，也照不到太陽，活像一個鼴鼠，趴在自己在發霉的被褥里。&lt;/p&gt;
-&lt;p&gt;來臺后逐漸開始關注獨立博客，Li Yuqiong、王建碩、阮一峰這些人的博客，總會讓我無端有著挫敗，正如我在19歲生日日記里引用魯迅時的落寞一般。&lt;br&gt;我總歸要承認這世上比我有底蘊的人太多，而上述博客的主人又大多是理工出身，卻在人文素養上不輸于頂尖的文科出身者，這無疑予我以更大的挫敗感。&lt;/p&gt;
-&lt;p&gt;我曾一度抱怨所學無用，偶爾也有後悔，如果當時讀的理工，似乎道路會更為平坦，可時間一去不返，終歸又無從談什麼悔意；而在臺的復旦室友卻依舊無憂無慮玩著吉他，并以自由而無用之精神標榜，與之相比，我似乎又過於狹隘了。&lt;br&gt;可反反復復縈繞心頭的，我之長處不如他人之長處，我之短處，則更不必提及；所學愈多，所知愈少，而高山林立，我只是一屯矮丘。&lt;/p&gt;
-&lt;p&gt;固然，寫的文章總該寫些樂觀的回轉，再無妨喊些口號，可有些無法釋懷，或許要等年歲增長，所讀諸君不必開解，也不必嘲弄。少年總有凌雲沖霄的志向，亦無妨間歇自怨自艾的哀鬱。&lt;/p&gt;
-&lt;p&gt;2016-06-04 16:42&lt;br&gt;閆譽騰 武嶺四村一陋室&lt;/p&gt;
-&lt;h2 id=&quot;16-6-5-布魯斯輿發情&quot;&gt;&lt;a href=&quot;#16-6-5-布魯斯輿發情&quot; class=&quot;headerlink&quot; title=&quot;16.6.5 布魯斯輿發情&quot;&gt;&lt;/a&gt;16.6.5 布魯斯輿發情&lt;/h2&gt;&lt;p&gt;  看陈云松的论文，社會組學的建立前景。&lt;/p&gt;
-&lt;h3 id=&quot;（一）&quot;&gt;&lt;a href=&quot;#（一）&quot; class=&quot;headerlink&quot; title=&quot;（一）&quot;&gt;&lt;/a&gt;（一）&lt;/h3&gt;&lt;p&gt;駐足西子灣，&lt;br&gt;我是一滴眼淚，&lt;br&gt;化為雨水，&lt;br&gt;融入海洋，&lt;br&gt;妳在對岸戲水，&lt;br&gt;而妳可知道，&lt;br&gt;我就在妳手中，&lt;br&gt;又從你指縫間，&lt;br&gt;遠去。&lt;/p&gt;
-&lt;h3 id=&quot;（二）&quot;&gt;&lt;a href=&quot;#（二）&quot; class=&quot;headerlink&quot; title=&quot;（二）&quot;&gt;&lt;/a&gt;（二）&lt;/h3&gt;&lt;p&gt;ahe，我是一條寂寞的布魯斯，&lt;br&gt;等待妳將我拾起，&lt;br&gt;妳的嘴唇將印上我的胸膛，&lt;br&gt;我的箔片隨你震動，&lt;br&gt;妳輕吟，&lt;br&gt;我附和，&lt;br&gt;願你我是一首唱不完的歌。&lt;/p&gt;
-&lt;p&gt;  今日頗念舊，所寫有關風月。&lt;br&gt;  閆譽騰 武嶺小雨&lt;/p&gt;
-&lt;h2 id=&quot;16-6-9&quot;&gt;&lt;a href=&quot;#16-6-9&quot; class=&quot;headerlink&quot; title=&quot;16.6.9&quot;&gt;&lt;/a&gt;16.6.9&lt;/h2&gt;&lt;p&gt;  昨夜做夢，睡眠不好，夢中妻子很素雅漂亮，但是感情不睦，我對兒子很好，教他游泳。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-11-好为人师&quot;&gt;&lt;a href=&quot;#16-6-11-好为人师&quot; class=&quot;headerlink&quot; title=&quot;16.6.11 好为人师&quot;&gt;&lt;/a&gt;16.6.11 好为人师&lt;/h2&gt;&lt;p&gt;  群里民工姐闲聊，她谈及74年的四书章句批注。&lt;br&gt;  “先做原文句读，再做一本正经的注释，再做现代汉语翻译，最后用红宝书开头抡一锤子批判，把四书每一章节都与当年时事政治联系起来……再回头看那个年代的书，谄媚者写的到底空洞，肚里有干货，非得吼两句语录才能做学问的，落笔还是细腻……一样都是译注，传达给读者的，一个是浮躁的煽动，一个是文字下的暗流，我颇想过一阵子那年月教材编写者的心路历程，较之今日喉舌与学棍，作品营造的阅读感受和心得会一样吗？”&lt;br&gt;  由简入繁易，由繁入简难，学生时代的专注再往后越来越很难得。做学问要真的能做冷板凳。不要有点东西就好为人师&lt;/p&gt;
-&lt;h2 id=&quot;16-6-13&quot;&gt;&lt;a href=&quot;#16-6-13&quot; class=&quot;headerlink&quot; title=&quot;16.6.13&quot;&gt;&lt;/a&gt;16.6.13&lt;/h2&gt;&lt;p&gt;  在校下雨，今天洗澡的時候，突發奇想寫一個人物叫各種社會家名字的小說。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-14-不如轉行&quot;&gt;&lt;a href=&quot;#16-6-14-不如轉行&quot; class=&quot;headerlink&quot; title=&quot;16.6.14 不如轉行&quot;&gt;&lt;/a&gt;16.6.14 不如轉行&lt;/h2&gt;&lt;p&gt;來台灣以後，漸漸接觸了一些計算機的東西，雖說都極為淺顯，可多少也受到了衝擊，我前一陣子在微博上寫，原先喜歡感性，現在愈發喜歡理性，原文懶得去查，大概意思就是這樣吧。&lt;br&gt;今天上完課回來，本來想寫政治學論文，結果渾渾噩噩過了幾個小時，又不知道幹什麼去了，剛才吃完飯，猛然又開始自我否定。&lt;br&gt;我大學讀了兩年的專業到底畢業能幹什麼，不如轉行，可是轉到哪裡又是個問題。&lt;br&gt;想起阮一峰，還是哪個IT的博客，原先是經濟學博士，逐漸覺得，在中國搞社科是沒有出路的，也不能解決什麼社會問題，最後轉到計算機。&lt;br&gt;我爬上床坐了一會，看室友在下面彈吉他，竟然也有些唏噓。  &lt;/p&gt;
-&lt;p&gt;我過得到底還是好糾結，可人生本來不就是這樣麼，人做什麼都不是徒勞，可人做什麼也都是徒勞。我也不是聖人，為什麼總要給自己加一個仿佛要拯救黎明天下蒼生的使命。&lt;br&gt;家裡也只是普通家庭，既沒有當官的爸媽，也沒有有錢的親戚，讀社科，讀一輩子，也不過是鏡裡看花，水中月。&lt;br&gt;不如轉行，可轉行又要轉到哪裡去呢，我讀了兩年的社會系，讓我突然放棄我又無論如何難以割捨，放不下麼，期待很淺。&lt;br&gt;又是一篇讓人生厭的日記，和前一篇吸引別人來讀的文章放在一起，也不知道會不會有些搞笑。  &lt;/p&gt;
-&lt;p&gt;我是因為感到了虛無，還是真的疲憊，你說給我生的理由阿，可沒有合適的啤酒，希望頂個屁阿。&lt;br&gt;尹吾的歌正好放出來。活著就是受罪，就得勞累。&lt;br&gt;可是我總是不滿這個現實，我不要你們的煎雞蛋，不要你們的餛飩，不要你們的辣椒和大蒜。&lt;/p&gt;
-&lt;p&gt;不如讓我把雞巴插到土裡，讓我高喊一句，讓我操了地球，然後讓我沉沉睡去。就仿佛看到卡夫卡的嘲弄，你怎麼想著憑藉個人的力量反抗這個時代，誰的理想又不曾恢宏遠大，誰不是一個人吃午飯。&lt;br&gt;我不时害怕自己變成年少最厭惡的人，怕戴久假面，溺水也習以為常，過了二十年，啤酒肚子又含淚地嬉笑怒罵。&lt;/p&gt;
-&lt;p&gt;要不要轉行，我尚不知道，可似乎也没人能给我答案。&lt;br&gt;2016.6.14 19:16 高雄，連續好幾天雨了。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-22-社統結課雜感&quot;&gt;&lt;a href=&quot;#16-6-22-社統結課雜感&quot; class=&quot;headerlink&quot; title=&quot;16.6.22 社統結課雜感&quot;&gt;&lt;/a&gt;16.6.22 社統結課雜感&lt;/h2&gt;&lt;p&gt;  今天社會統計學結課，一時之間也有些感觸。&lt;/p&gt;
-&lt;p&gt;  來台灣交流的本意大概是讓大學的資歷變得不那麼單調，也或是為了稍加擺脫愈發無聊的學分績評比，至於來臺前對台灣抱有什麼期待，似乎卻從未想過。&lt;br&gt;  從高二以來，我一直試圖走在政治正確的道路上，這看起來前途光明，也讓別人覺得安定，我順理成章的以一個不上不下的成績去了工大；順理成章的在荒廢大一後覺得不妥，又爬回系裡不上不下的成績；順理成章的把命運分配予我的專業假象為可以為之奮鬥終身的熱忱。&lt;br&gt;  可我愈發覺得，一切有為法，如夢幻泡影。&lt;br&gt;  無論是社團、支教、台灣交流；還是出門的旅行，拉薩、三亞；這些資歷的羅列於我愈發顯得空虛，其間是真的對社會抱有著熱忱的責任，對學術道路的探索，對未知世界的新奇，還是對於政治正確的資歷索求，已讓我越來越不能分辨。&lt;/p&gt;
-&lt;p&gt;  打初來台灣時，大概便將自己的身份定義為在台灣社會的過客，二月裡來，六月裡去。&lt;br&gt;我未曾想過與這片土地發生什麼羅曼蒂克，也很少去思索我是因為什麼原因來到這裡，大概僅是在一個與大陸別無二致的土地上，一個學期的正常學習。&lt;br&gt;  可也是在今天的社會統計學結課時，又猛然覺得，近一周來每日通宵趕論文，與同組的台灣學生在社科院寫報告，有了一些觸動，在我剛剛感覺自己要慢慢浸入這個社會的文化時，我的交流期限也接近了尾聲。&lt;br&gt;我沒有主動走過這個社會的角角落落，這多少讓我覺得有些遺憾，而未來能否再有這麼長期的空檔來臺，抑或有無機會再來臺，也不得而知。&lt;/p&gt;
-&lt;p&gt;  在台灣的交流生，有些人逛遍了台灣的每一個角落，有些人躲藏在台灣的大學圖書館裡。我大概介於兩者之間，偶爾週末跑到其他城市，偶爾週末在寢室看論文，我見了些台灣在地的風土人情，也學了些台灣社會科學的學術範式。中庸的道路依舊，我也依舊掙扎在個人意趣與政治正確之間，當然，也有可能是我依舊掙扎在一種虛假的個人意趣與政治正確之間。&lt;br&gt;  對於台灣每個人都有著獨屬自己的經歷，而這經驗也終歸不能為他人複製。每個人都是其他生命的過客，而我在台灣社會的過路，雖然很是平淡，是虛假的資歷也好，是真實的收穫也罷，終歸已經烙印在我短暫的生命歷程裡。&lt;br&gt;  每一個抉擇都影響著下一段道路的方向，而從台灣的離去，也是我下一段未知道路的開始。&lt;br&gt;2016.6.22 13:01&lt;br&gt;閆譽騰 於國立中山大學&lt;/p&gt;
-&lt;h2 id=&quot;16-6-24-文字下的暗流&quot;&gt;&lt;a href=&quot;#16-6-24-文字下的暗流&quot; class=&quot;headerlink&quot; title=&quot;16.6.24 文字下的暗流&quot;&gt;&lt;/a&gt;16.6.24 文字下的暗流&lt;/h2&gt;&lt;p&gt;  在社群里聊天，民工姐有一句话让我印象深刻。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“再回头看那个年代的书，谄媚者写的到底空洞，肚里有干货，非得吼两句语录才能做学问的，落笔还是细腻。 一样都是译注，传达给读者的，一个是浮躁的煽动，一个是文字下的暗流。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;16-6-25-台东&quot;&gt;&lt;a href=&quot;#16-6-25-台东&quot; class=&quot;headerlink&quot; title=&quot;16.6.25 台东&quot;&gt;&lt;/a&gt;16.6.25 台东&lt;/h2&gt;&lt;p&gt;  通宵写完都市社会学的作业，早上6点多睡了1个多小时到7点多，9点多和复旦学长启程去台东。&lt;br&gt;  森林公园的滨海大道人极少，租了两个自行车，这里太平洋的沙滩，与西子湾一样是深灰色的。第一次看太平洋，海水不如垦丁巴士海峡的蓝，在远处可以看到海水的分层，极远处则同巴士海峡近似了。奇怪沙滩上生物极少。我们在沙滩待了很久，在走的时候才来了两个女生。&lt;br&gt;  晚上坐火车到了花莲，下雨，从民宿处把书包放下，去自强夜市，晚3点睡觉。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-26-花莲&quot;&gt;&lt;a href=&quot;#16-6-26-花莲&quot; class=&quot;headerlink&quot; title=&quot;16.6.26 花莲&quot;&gt;&lt;/a&gt;16.6.26 花莲&lt;/h2&gt;&lt;p&gt;  上午花莲晴朗，下午阴雨。早上9点起床，中午11点搭车250元票，至七星潭、太鲁阁。&lt;br&gt;  七星湾无沙滩，岸边都是小的石头，海水极为清澈，极为清澈。&lt;br&gt;  在太鲁阁中，脑海浮现三峡，两岸连山，略无阙处，山中雾气很大，刚登上大巴车便开始下雨，气候变化很快。未全部游玩，太鲁阁生态丰富，物种多，昆虫尤甚，蜘蛛、臭虫等很多。为台湾游玩诸多景色之上佳，胜于阿里山。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-27-僵持&quot;&gt;&lt;a href=&quot;#16-6-27-僵持&quot; class=&quot;headerlink&quot; title=&quot;16.6.27 僵持&quot;&gt;&lt;/a&gt;16.6.27 僵持&lt;/h2&gt;&lt;p&gt;  花莲往高雄的车过了点，赶往台北差了10分钟，与学长意见不一，在全家僵持良久，最后乘大巴返回高雄。&lt;/p&gt;
-&lt;h3 id=&quot;16-6-28-意識形態&quot;&gt;&lt;a href=&quot;#16-6-28-意識形態&quot; class=&quot;headerlink&quot; title=&quot;16.6.28 意識形態&quot;&gt;&lt;/a&gt;16.6.28 意識形態&lt;/h3&gt;&lt;p&gt;  今天在圖書館看到一本外國人在中國的旅行，他說漢人為尊的中國，至今仍然視新疆西藏這些邊疆是蠻荒之地，需要漢化，而滿洲國業已不復。頗可深思。&lt;br&gt;  有時想想，當年日本建立大東亞的初衷也不全然是出於侵略目的，若真無一二有此理想的志士，又何能提出如此偉岸的構想，亞細亞的團結頗有國際主義的色彩了，而爭來爭去的意識形態，也多少讓人覺得乏味。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-29-离开&quot;&gt;&lt;a href=&quot;#16-6-29-离开&quot; class=&quot;headerlink&quot; title=&quot;16.6.29 离开&quot;&gt;&lt;/a&gt;16.6.29 离开&lt;/h2&gt;&lt;p&gt;  离开前台灯坏了，袜子洗丢了一只。&lt;br&gt;  12:15，再见高雄，飞机驶过台湾海峡，我回到大陆。零星的渔船，深蓝与浅蓝分界，前方大海，也望不到尽头。&lt;br&gt;  下午在南京转机，晚上飞机延误，本来7点到的机场，但哈尔滨大雨，在上空盘旋后拉到沈阳，1点多重新降落在哈尔滨。&lt;/p&gt;
-&lt;h2 id=&quot;16-6-30-哈尔滨的高雄&quot;&gt;&lt;a href=&quot;#16-6-30-哈尔滨的高雄&quot; class=&quot;headerlink&quot; title=&quot;16.6.30 哈尔滨的高雄&quot;&gt;&lt;/a&gt;16.6.30 哈尔滨的高雄&lt;/h2&gt;&lt;p&gt;  台湾与中国比是一个小地方，却也在东南亚是一个大地方。跳出自己的生活圈子，跳出自己十几年建构的经验，看到了另一个地方的视野，来思考理解台湾青年为什么会喊出独立的口号，去理解西方民主模式的运作。&lt;br&gt;旅行的意义，在于发现新事物，而更在于以新思维去思考，这是原地遐想所不能，或读书或游历方可，尔后反思中国，便不再是盲从，而是更包容。&lt;br&gt;  台湾算是我二十年中的第二故乡，高雄是我第一次离家的乡愁。我怀念在台湾的日子，也将永远铭记那些时光。&lt;/p&gt;
-&lt;p&gt;15.10.6&lt;br&gt;整理于哈尔滨群力&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;16-2-15-前夜&quot;&gt;&lt;a href=&quot;#16-2-15-前夜&quot; class=&quot;headerlink&quot; title=&quot;16.2.15 前夜&quot;&gt;&lt;/a&gt;16.2.15 前夜&lt;/h2&gt;&lt;p&gt;  22:02，与宝宝通完电话，明天早上7:40的飞机，下午5点就到台湾了，抵达高雄。&lt;br&gt;  对台湾本无多少期盼，而台湾于我的意义大抵也全是因为另一个政党操持而不同，颇如瑶瑶跟我讲过的，“我永远不知道自己下一站去哪里。”之所以去，是因为想换个环境，虽然间杂了些忐忑，但总归喜欢这种在路上的感觉。&lt;br&gt;  “所谓故乡不也是祖先游荡的最后一站。”我对哈尔滨的感情深厚，可到底知道自己是要离开，世事难料，但愿前程坦途。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Travel Diary" scheme="http://yoursite.com/categories/Travel-Diary/"/>
-    
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="旅行" scheme="http://yoursite.com/tags/%E6%97%85%E8%A1%8C/"/>
-    
-      <category term="理想" scheme="http://yoursite.com/tags/%E7%90%86%E6%83%B3/"/>
-    
-      <category term="台灣" scheme="http://yoursite.com/tags/%E5%8F%B0%E7%81%A3/"/>
-    
-      <category term="高雄" scheme="http://yoursite.com/tags/%E9%AB%98%E9%9B%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ASEAN的區域整合</title>
-    <link href="http://yoursite.com/2016/06/14/%E6%9D%B1%E7%9B%9FASEAN%E7%9A%84%E5%8D%80%E5%9F%9F%E6%95%B4%E5%90%88/"/>
-    <id>http://yoursite.com/2016/06/14/東盟ASEAN的區域整合/</id>
-    <published>2016-06-14T13:13:00.000Z</published>
-    <updated>2016-09-16T07:27:08.000Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;一、概念辨析&quot;&gt;&lt;a href=&quot;#一、概念辨析&quot; class=&quot;headerlink&quot; title=&quot;一、概念辨析&quot;&gt;&lt;/a&gt;一、概念辨析&lt;/h3&gt;&lt;p&gt;  區域經濟整合，即鄰近國與國之間逐漸消除貿易障礙以及生產要素的移動限制，使商品、服務于生產資源的市場逐漸合二為一的過程。&lt;br&gt;  區域經濟整合可以分為四個層次，FTA(自由貿易協定)、Customs Union(關稅同盟)、Common Market(共同市場)、Economics Union(經濟同盟)。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;（一）、FTA&quot;&gt;&lt;a href=&quot;#（一）、FTA&quot; class=&quot;headerlink&quot; title=&quot;（一）、FTA&quot;&gt;&lt;/a&gt;（一）、FTA&lt;/h4&gt;&lt;p&gt;1、特點&lt;br&gt;  降低區內關稅及排除非關稅貿易值障礙；各國保有對外（成員國外）的關稅及貿易政策。&lt;br&gt;2、例子&lt;br&gt;  （1）、NAFTA(雙邊北美自由貿易區)&lt;br&gt;  （2）、WTO(world trade organization多邊世貿)&lt;br&gt;在WTO中，對於米的關稅，日本778％、台灣16％、美國11.2％，日本極力補貼農民，透過地方組織認證做市場的區隔，有錢買好的，沒錢則買沒有認證的國外大米。&lt;br&gt;3、趨勢&lt;br&gt;  FTA在快速增加，目前已有247個網路，從2001年杜哈會談失敗，國際談判從多邊轉向雙邊。&lt;br&gt;  這主要是由於162個會員國不能共識，共識決在WTO難以發揮效用，而多數決會犧牲小國利益，未被WTO採用，投票則是WTO在難以達成共識後的補充性的決策方式，但162個人也難以同時投票。&lt;/p&gt;
-&lt;h4 id=&quot;（二）、CU&quot;&gt;&lt;a href=&quot;#（二）、CU&quot; class=&quot;headerlink&quot; title=&quot;（二）、CU&quot;&gt;&lt;/a&gt;（二）、CU&lt;/h4&gt;&lt;p&gt;1、特點&lt;br&gt;  區域內零關稅，並排除非關稅貿易障礙；共同對外關稅。&lt;br&gt;2、例子&lt;br&gt;  1969南非關稅同盟&lt;br&gt;  1952﹣2002歐洲煤鋼共同體到歐洲共同市場（雖然一開始政治意味更大）&lt;/p&gt;
-&lt;h4 id=&quot;（三）、CM&quot;&gt;&lt;a href=&quot;#（三）、CM&quot; class=&quot;headerlink&quot; title=&quot;（三）、CM&quot;&gt;&lt;/a&gt;（三）、CM&lt;/h4&gt;&lt;p&gt;1、特點&lt;br&gt;  關稅同盟基礎上，生產要素（人員、資金、勞務、商品）的自由流通。&lt;br&gt;2、例子&lt;br&gt;  1991 南方共同市場&lt;br&gt;  2005 東協共同市場&lt;/p&gt;
-&lt;h4 id=&quot;（四）、EU&quot;&gt;&lt;a href=&quot;#（四）、EU&quot; class=&quot;headerlink&quot; title=&quot;（四）、EU&quot;&gt;&lt;/a&gt;（四）、EU&lt;/h4&gt;&lt;p&gt;1、特點&lt;br&gt;  共同市場之特色外，再加上經濟貨幣政策的統合。&lt;br&gt;2、例子&lt;br&gt;  1993歐盟&lt;br&gt;  1999歐洲貨幣同盟EMU（28國共通貨幣歐元）&lt;br&gt;3、歐債問題&lt;br&gt;  歐元區成立歐洲中央銀行，PIIGS歐洲五國負債率極高，比如Grace的GDP又100％，則其負債率是148％，GDP已經無法cover了。&lt;br&gt;  原因在於，貨幣統一則無法以貶值促進出口；財政權分散，擴大支出成為唯一刺激工具。&lt;/p&gt;
-&lt;h3 id=&quot;二、東協概述&quot;&gt;&lt;a href=&quot;#二、東協概述&quot; class=&quot;headerlink&quot; title=&quot;二、東協概述&quot;&gt;&lt;/a&gt;二、東協概述&lt;/h3&gt;&lt;h4 id=&quot;（一）、為何1967年成立&quot;&gt;&lt;a href=&quot;#（一）、為何1967年成立&quot; class=&quot;headerlink&quot; title=&quot;（一）、為何1967年成立&quot;&gt;&lt;/a&gt;（一）、為何1967年成立&lt;/h4&gt;&lt;p&gt;1、欠缺衝突解決機制&lt;br&gt;  1963馬來西亞聯邦成立&lt;br&gt;  1963﹣1966 馬印衝突&lt;br&gt;  1965 新馬分裂&lt;br&gt;2、美蘇兩極體系代理人戰爭&lt;br&gt;  菲律賓、馬來西亞、新加坡親美；越南等親蘇。&lt;br&gt;  越戰的爆發。&lt;br&gt;3、軍事強人出現&lt;br&gt;  李光耀、1967蘇哈托&lt;br&gt;4、經濟集團化的壓力&lt;/p&gt;
-&lt;p&gt;  由此，1967曼谷宣言ASEAN成立，印馬新菲泰，早期成立類似TPP，維穩的政治目的更大。&lt;/p&gt;
-&lt;h4 id=&quot;（二）、基本原則&quot;&gt;&lt;a href=&quot;#（二）、基本原則&quot; class=&quot;headerlink&quot; title=&quot;（二）、基本原則&quot;&gt;&lt;/a&gt;（二）、基本原則&lt;/h4&gt;&lt;p&gt;1、互不幹預成員國內政；&lt;br&gt;2、協商和共識作為內部運作模式。&lt;/p&gt;
-&lt;h4 id=&quot;（三）、發展&quot;&gt;&lt;a href=&quot;#（三）、發展&quot; class=&quot;headerlink&quot; title=&quot;（三）、發展&quot;&gt;&lt;/a&gt;（三）、發展&lt;/h4&gt;&lt;p&gt;1、早期&lt;br&gt;  1967，不結盟運動。&lt;br&gt;  1970s，從政治目的走向經濟合作。&lt;br&gt;  1976，東協高峰會議，加強政治、經濟、軍事合作。&lt;br&gt;  1984，文萊加入。&lt;br&gt;  1992，AFTA東協自由貿易協定，擴大成員國。&lt;br&gt;2、為何在1990s？&lt;br&gt;  中國崛起威脅，南方諸侯經濟二輪改革。&lt;br&gt;  東協區域內免除關稅，分階段實施後，ASEAN出口值1993 43.26 billion至1996 80 billion.&lt;br&gt;  東協逐漸走向共同市場。&lt;br&gt;3、晚近&lt;br&gt;  1995，越南加入（美越建交）。&lt;br&gt;  1997﹣1999，緬甸、泰國、柬埔寨加入。&lt;br&gt;  2015，東協經濟共同市場。&lt;br&gt;4、為何在2015？&lt;br&gt;（1）、1997年金融危機&lt;br&gt;  印尼受創極大83％，GDP -13%逆增長；泰國40.2％，GDP -10%。&lt;br&gt;  中國也因此逐漸意識到以出口為導向的經濟危險，易受到國際市場影響，中國也因此採取了1999西部大開發計劃，減少出口依賴。&lt;br&gt;（2）、中國與印度崛起&lt;br&gt;5、東帝汶問題&lt;br&gt;  但至今，東帝汶未加入，東帝汶未葡萄牙殖民地，葡萄牙人撤離后印尼進入，東帝汶反抗，澳、葡、印、東帝汶協商，2001年獨立。&lt;br&gt;  東帝汶石油豐富，但未開採，實際處於印尼控制下，印尼希望其能進入，但新加坡因其經濟過差反對其加入。&lt;br&gt;6、東協四大藍圖&lt;br&gt;  單一市場與生產基地等。&lt;/p&gt;
-&lt;h4 id=&quot;（四）、展望&quot;&gt;&lt;a href=&quot;#（四）、展望&quot; class=&quot;headerlink&quot; title=&quot;（四）、展望&quot;&gt;&lt;/a&gt;（四）、展望&lt;/h4&gt;&lt;p&gt;1、飛燕理論&lt;br&gt;  60s日本產業轉移，亞洲四小龍崛起。&lt;br&gt;  70s小龍產業轉移，亞洲小虎崛起。&lt;br&gt;  80s小虎產業轉移，中國、越南崛起。&lt;br&gt;  印尼1967後新秩序；馬來西亞1970後新經濟政策等，經濟發展需要出口，近親繁殖，eager to expend export market.&lt;br&gt;2、台灣新南向政策原因&lt;br&gt;（1）、中國07年勞工合同法，勞力薪資上漲，成本變高；東南亞人力工資低。&lt;br&gt;（2）、中國人口紅利放緩，經濟放緩；東協人口紅利強，6億人，1.5％增長率。&lt;br&gt;3、東盟隱憂&lt;br&gt;  雖然東盟的年輕勞動力豐沛，工資低廉，中國轉型也會遷出大量企業促進發展。&lt;br&gt;  但存在一些隱憂。&lt;br&gt;（1）、異質性大&lt;br&gt;  經濟發展水平不同。&lt;br&gt;  政治制度包含了軍事、威權、君主（泰國、文萊）、民主四種政體。&lt;br&gt;  領頭人鬥爭激烈，新加坡與印尼的鬥爭。&lt;br&gt;  文化差異大，菲律賓北部天主教、南部回教徒；越南基督教；緬甸佛教回教鬥爭；馬來西亞、印尼回教徒居多。印尼暗中支持菲律賓南部回教徒；緬甸滅回運動交惡印尼等等。&lt;br&gt;  種族差異大，新加坡的少數馬來人和多數華人鬥爭，馬來西亞的多數馬來人和少數華人鬥爭等。1998印尼排華運達；2014越南排華運動（越戰後即開始）；馬來西亞1969後的排華。&lt;br&gt;（2）、內部經濟競爭大&lt;br&gt;（3）、邊境衝突 南海、中南半島&lt;br&gt;  南海爭議，1987中越赤光礁衝突後，中國逐漸收復南海，設立石油開採區，越南愈發排華。而中國在2009年成為東盟最大合作夥伴，對菲律賓制裁合縱連橫。&lt;br&gt;（4）、擴散性強&lt;br&gt;  Haze; Drug; People; Terrorism etc.&lt;/p&gt;
-&lt;p&gt;內容主要整理自國立中山大學陳若蘭老師開設的《政治學》一課，部分細節參考了林承正等人校譯的Heywood《Political Science》，僅於此感謝陳若蘭老師的淵博，整理於我是重新認識亞洲，於后讀者或是一些參考借鑒。&lt;br&gt;2016.6&lt;br&gt;閆譽騰&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;一、概念辨析&quot;&gt;&lt;a href=&quot;#一、概念辨析&quot; class=&quot;headerlink&quot; title=&quot;一、概念辨析&quot;&gt;&lt;/a&gt;一、概念辨析&lt;/h3&gt;&lt;p&gt;  區域經濟整合，即鄰近國與國之間逐漸消除貿易障礙以及生產要素的移動限制，使商品、服務于生產資源的市場逐漸合二為一的過程。&lt;br&gt;  區域經濟整合可以分為四個層次，FTA(自由貿易協定)、Customs Union(關稅同盟)、Common Market(共同市場)、Economics Union(經濟同盟)。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Prose" scheme="http://yoursite.com/categories/Prose/"/>
-    
-    
-      <category term="political" scheme="http://yoursite.com/tags/political/"/>
-    
-      <category term="ASEAN" scheme="http://yoursite.com/tags/ASEAN/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>社會學與哈工大社會學</title>
-    <link href="http://yoursite.com/2016/06/11/%E7%A4%BE%E6%9C%83%E5%AD%B8%E8%88%87%E5%93%88%E5%B7%A5%E5%A4%A7%E7%A4%BE%E6%9C%83%E5%AD%B8/"/>
-    <id>http://yoursite.com/2016/06/11/社會學與哈工大社會學/</id>
-    <published>2016-06-10T16:00:00.000Z</published>
-    <updated>2016-10-16T04:58:58.000Z</updated>
-    
-    <content type="html">&lt;p&gt;  這篇是我今年為高考考生寫的文章，雖然主要針對的對象是高三學生，但多少也敘述了一些社會學專業在學什麼的東西，也簡要介紹了我學習的工大環境，內容或有錯漏，則希望后讀者於我指正。&lt;/p&gt;
-&lt;h3 id=&quot;一、引文&quot;&gt;&lt;a href=&quot;#一、引文&quot; class=&quot;headerlink&quot; title=&quot;一、引文&quot;&gt;&lt;/a&gt;一、引文&lt;/h3&gt;&lt;p&gt;  去年我仍是刚入学的新生，新生给新生做介绍时就不免有著争强好胜的心思，介绍也不免会带着个人情绪，现在回想颇为羞愧。&lt;br&gt;  而现在大学已然过半，专业的好坏强弱，却早已不再是心底暗自拿来比较的事情了，我渐而觉得，旁人的看法与我是毫无干系的，我亦不必为之辩解。&lt;br&gt;  我仅是工大社会系中极为普通的一名学生，而放在工大的大背景里，更是不能再平凡的学生，我一直相信我所长大成人，得於无数陌生人的善意，我亦愿将此善意祝福於看我文章的陌生学子，而如能因我这篇文章念了社会系，则是於我意外的喜悅。&lt;br&gt;  当然，这篇文章不单是为高考即将填报志愿的学生而写，亦为对社会学有些兴趣的同学而写。我将尽力如实叙述，并将工大社会学的优缺点一并提及，如有错漏，希望后讀者可以指出，也欢迎质疑讨论。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;二、社会学是什么？&quot;&gt;&lt;a href=&quot;#二、社会学是什么？&quot; class=&quot;headerlink&quot; title=&quot;二、社会学是什么？&quot;&gt;&lt;/a&gt;二、社会学是什么？&lt;/h3&gt;&lt;p&gt;  我发觉或许是大众的刻板印象，在大陆提及社会系总让人觉得是搞哲学的，在台湾提及社会系，便让人觉得是搞社会运动的。&lt;br&gt;  但实际上，正如物理学、化学、生物学这些传统的自然科学试图发现自然运行的规律一般，社会学亦是实地的经验研究，与经济学別无二致，社会学作为一门传统的社会科学，试图发现的是社会运行的规律，或者说社会学试图去探讨，社会是何以可能的，而这与哲学有著根本不同的取向与方法。&lt;/p&gt;
-&lt;h4 id=&quot;（一）、理论性的思考&quot;&gt;&lt;a href=&quot;#（一）、理论性的思考&quot; class=&quot;headerlink&quot; title=&quot;（一）、理论性的思考&quot;&gt;&lt;/a&gt;（一）、理论性的思考&lt;/h4&gt;&lt;p&gt;  社会学诞生于19世纪初，欧美的工业革命浪潮中，其诞生伊始，便被赋予了这样的意义：如何理解这个巨变的社会？&lt;br&gt;  它回应时代问题而生，也正因如此，社会系的学习会让你将逐渐理解全球化何以在新自由主义浪潮下扩张；政治运动的产生与消亡；掩盖在表面公平下的学校对阶级的复制；都市对自然的并吞过程、都市如何营建了公园这样的虚假自然；延续Weber的科层制牢笼，Foucault所讲的全景敞视监狱如何形塑了我们的生活；Huxley担忧的《美丽新世界》又如何演变为了Postman的《娱乐至死》；以及等等关于社会是何以可能的问题。&lt;br&gt;  你将去反思我们习以为常的社会现象，理解其背后的运行机制，并尝试以之分析未来的趋势。你将始终思考，What is it? Why is it? How is it?&lt;br&gt;  这条道路源自德国的人文主义传统，在当今的欧洲大陆仍然极为盛行。&lt;/p&gt;
-&lt;h4 id=&quot;（二）、数据性的思考&quot;&gt;&lt;a href=&quot;#（二）、数据性的思考&quot; class=&quot;headerlink&quot; title=&quot;（二）、数据性的思考&quot;&gt;&lt;/a&gt;（二）、数据性的思考&lt;/h4&gt;&lt;p&gt;  上述大抵是属于形而上的辨析，而如果你并不喜欢，便无妨转向偏重数据的统计分析，从社会统计学入门，途径SPSS、R，或者进一步自学Python，你的学习道路都并不孤独。&lt;br&gt;  你将尝试通过严密的随机抽样得到样本框，制定相应的问卷进行调查，过录问卷，再对数据进行卡方检验、方差分析、回归分析等等，你将利用统计学去思考事件背后的关联。&lt;br&gt;  固然，社会系的数学功底普遍无法同理工学生媲美，但同传统的人文学科类比，我思索，或许更契合费孝通先生在《乡土中国》中所说的真正知识分子的培养，也即文理的综合培养。&lt;br&gt;  这条量化道路，也即社会学的另一个取向，源于法国的实证主义传统，在今天的美国社会学研究中，这条道路占据著主导。&lt;/p&gt;
-&lt;h3 id=&quot;三、社会学的特点&quot;&gt;&lt;a href=&quot;#三、社会学的特点&quot; class=&quot;headerlink&quot; title=&quot;三、社会学的特点&quot;&gt;&lt;/a&gt;三、社会学的特点&lt;/h3&gt;&lt;h4 id=&quot;（一）、社会学就是普通专业&quot;&gt;&lt;a href=&quot;#（一）、社会学就是普通专业&quot; class=&quot;headerlink&quot; title=&quot;（一）、社会学就是普通专业&quot;&gt;&lt;/a&gt;（一）、社会学就是普通专业&lt;/h4&gt;&lt;p&gt;  若论及工大最边缘的学科，社会学大概有一席之位，扩及来讲，若说中国的冷门专业，社会学大概也难免位列其中，或许人类学、考古学更为生僻，而社会学也没有好过多少。国外好很多，但也从来不算是热门专业。&lt;br&gt;  但社会学也从来也不奢成为热门的专业，这门专业或许更适合作为通识课了解，而专业地深入，本就不是大众的需求。&lt;/p&gt;
-&lt;h4 id=&quot;（二）、社会学是反叛的&quot;&gt;&lt;a href=&quot;#（二）、社会学是反叛的&quot; class=&quot;headerlink&quot; title=&quot;（二）、社会学是反叛的&quot;&gt;&lt;/a&gt;（二）、社会学是反叛的&lt;/h4&gt;&lt;p&gt;  正如Bourdieu很早就讲过，社会学是好战的艺术（Sociology Is a Martial Art），在中国也曾作为资本主义毒草一个不留的被取缔多年，直到文革结束才得以恢复。&lt;br&gt;  一直以来，社会学家试图剖开一切社会制度，思考一切被赋予正当性的事物，质疑著一切权威，反对着一切崇拜。这本就不是官方所喜爱的，而社会系的辉煌在70年代社会运动的落幕后，似乎也逐渐被经济学等热门专业排挤。&lt;br&gt;  但正如我前文提及的，社会学将引导你去思考事物的过去与未来，以我浅薄的知识可以断定，中国的都市发展，正走在上世纪美国的道路上，而人口问题也可以与日本类比，等等这些经验上的类比，多少也可以让我们窥视些许未来的方向。&lt;/p&gt;
-&lt;h4 id=&quot;（三）、社会学是温情的&quot;&gt;&lt;a href=&quot;#（三）、社会学是温情的&quot; class=&quot;headerlink&quot; title=&quot;（三）、社会学是温情的&quot;&gt;&lt;/a&gt;（三）、社会学是温情的&lt;/h4&gt;&lt;p&gt;  而另一方面，也如Mills冷峻笔法下的温情，“我力求客观，但拒绝冷漠（I have tried to be objective, I do not claim to be detached.）”，社会学让我们思考社会正义，关注那些被隐匿在主流文化外的边缘角落，我们关注农村（如杀马特文化、近来的快手app）、关注地下世界（如全球化下的性工作者、暗网的社交規則）、关注同性恋（也如与之伴生的同妻現象）等等。&lt;/p&gt;
-&lt;h4 id=&quot;（四）、社会学是贵族的？&quot;&gt;&lt;a href=&quot;#（四）、社会学是贵族的？&quot; class=&quot;headerlink&quot; title=&quot;（四）、社会学是贵族的？&quot;&gt;&lt;/a&gt;（四）、社会学是贵族的？&lt;/h4&gt;&lt;p&gt;  写到这里，却又猛然想起社会学界里流传这样一个笑话：&lt;br&gt;  ﹣“你说我们为什么学不好社会学？”&lt;br&gt;  ﹣“可能是我们名字里没有von”&lt;br&gt;  von在德国是贵族的标志，我也不无感慨过，如果毕业即要工作的学生，学习社会学似乎又有些浪费时间。&lt;br&gt;  但后来我想，这归根不是在讲社会学的学习需要金钱的支持，而只是说，社会学的学习需要长时间心无旁骛的坚持，而过去往往也只有贵族才能长时间坚持。&lt;br&gt;  社会科学的入门是极为容易的，我常见看了几天书的人便能和学习一年的社会学学生互相反驳；但当读书逐渐深入，阻涩感便愈发的大了，入门极易，而有所成就却颇为艰难，多少是社会学培养的困境，也是社会科学在社会上无用之名远扬的些许原因。&lt;br&gt;  但社会科学与自然科学都在用自己的方式去理解世界，以个人几十年的生命历程去丈量人类的历史，我思考这两种方法并无本质上的水平高下，我欣赏理工的严谨，也爱社科的灵动；我仍然相信金子在哪里都会发光，即便是暗处，金子的本质也永远与泥沙不同，而专业也终归无法限制个人的方向。&lt;/p&gt;
-&lt;p&gt;  迈入社会学业已两年，我的个人志趣从经济学转向政治学，最终却又回到了社会学，可如果你让我说清社会系究竟在学什么，我思索良久仍不知如何回答，但倘若高考重新来过，我大概仍会庄重的填下社会系。&lt;br&gt;  我无法向你解释我所读社会理论的意义，我所说的话位卑人轻，我也无从去干涉政治，一切学习的知识，似乎也会慢慢遗忘。&lt;br&gt;  但我深知，我幼时所吃的食物，已然化为了我身体的一部分，成为了我的骨与肉，而再也不可分割。&lt;/p&gt;
-&lt;h3 id=&quot;四、工大的社会系老师&quot;&gt;&lt;a href=&quot;#四、工大的社会系老师&quot; class=&quot;headerlink&quot; title=&quot;四、工大的社会系老师&quot;&gt;&lt;/a&gt;四、工大的社会系老师&lt;/h3&gt;&lt;p&gt;  为众位老师单独开设一节是极为必要的，我大学所学的知识，若无众位老师的指引，则断无我今日的思考。&lt;br&gt;  尹海洁老师78年考入哈工大电气工程系，后参加南开社会系进修班级，离理从文，访学日本大阪。先生在校教授社会调查方法、社会统计，社会调查的问卷设计，课下每一位同学都约谈两次，面批每一个同学的每一个问卷题目；社会统计十几章的作业，全班所有同学每一章的作业也都亲手批改。&lt;br&gt;  王树生老师自北大中文系毕业，尔后转攻社会学，讲社会理论、社会变迁等课程，古典三巨头、后现代的福柯等等，理论讲解事无巨细。&lt;br&gt;  吴肃然老师是我的班任，经历颇为传奇，同尹海洁老师近似，从西工大自动化转至北大攻读社会学，尔后访学剑桥，也是我了解科学哲学的启蒙者；孙佳音老师从工大计算机系毕业后主攻人工智能，则是我统计学的另一位启蒙者，也是从他那里，我第一次得知了R；邵丽老师讲解世界史和人口社会学，极包容我的胆大妄为和书生意气；唐魁玉老师、白淑英老师、郑中玉老师等，亦对我产生颇多影响；此外还有很多老师我尚未接触，于此暂不作评价。&lt;br&gt;  自然，系内亦有江湖，但归根同前一阵工大内影响颇多的計院研究生学长的哲学课不同，我崇敬社会系的众位老师，并乐于追随他们的脚步，而我也自豪於社会系的众位老师，撑起了地处极北的工大社会系的风骨。&lt;/p&gt;
-&lt;h3 id=&quot;五、结语&quot;&gt;&lt;a href=&quot;#五、结语&quot; class=&quot;headerlink&quot; title=&quot;五、结语&quot;&gt;&lt;/a&gt;五、结语&lt;/h3&gt;&lt;p&gt;  Coetzee在《青春》里这样写道：“小镇青年何必心怀远方…这是一个他可以逃避的世界，现在逃还不晚，或者与之和解，和他看到的周围的一个个年轻人那样，满足于婚姻、住宅和汽车，满足于生活能够实际提供的，把精力放进工作之中。他懊恼地看到，讲求实际的原则多么奏效。”&lt;br&gt;  是阿，讲求实际是多么的奏效。&lt;br&gt;  可这多多少少也让我想起了Fromm在《逃避自由》中写下的句子：“现代人生活在这样一种错觉下：他似乎很明白自己的追求，但事实上他追求的，不过是別人期望他去追求的东西罢了。”&lt;/p&gt;
-&lt;p&gt;  人的自由意志是非常有限的。人看到什么，对人的影响非常巨大，我越来越怕给别人写东西，因为这个责任是巨大的，而事实上，我也断无资格去给人写东西。&lt;br&gt;  可我到底想对考生说明，你内心所喜爱的专业，将远比一份前途光明的专业，动人心魄，我希望每个人的人生都可以如同黑塞一般，飞向阿布拉克萨斯（也即真正的内心愿景），而如果你的家庭不要你毕业即工作，选一个喜爱的专业，或许会走的更加轻松。&lt;br&gt;  我还记得清楚我刚入学时满腔热情，很快被浇了一头凉水，尔后逐渐深入又拿吹风机吹干凉水。我希望借由这篇文章，说明些社会学及工大社会学的情况，让报考者可以稍加了解社会学这一专业，不至被莫名其妙地录取后又自怨自艾。&lt;/p&gt;
-&lt;p&gt;  此外我需要声明的是，我所欣赏的工大，是工大一代代八百壮士的教授，是工大一代代刻苦求学的学子，而这绝不包括僵化的行政管理体制。&lt;br&gt;  因此我也要提醒报考者，工大刻板的管理体制仍旧带有计划经济时代遗风，以我有限的阅历无从判断这种管理体制的好坏，但以我浅薄的个人喜好并不喜欢，这其中包括强制性出席的各类活动、大学期间8次的人文素质教育讲座、冗长死板的各类手续审批、以及领导层对人文社科的漠视等。&lt;/p&gt;
-&lt;p&gt;  高考是有标准的考试，可生活从来没有一个确切的答案。你会遇见迷茫、挫折、甚至自我怀疑，如果你不幸报考了社会系，又更不幸的被工大社会系录取，社会系的所有学长学姐都愿意成为你前进路上的试路者，正因我们的前路，亦有著无数学长学姐的帮扶指引。&lt;/p&gt;
-&lt;p&gt;2016.6.11&lt;br&gt;閆譽騰&lt;/p&gt;
-&lt;p&gt;  整理时想起去年我曾写过一篇理论脉络的随笔，于此暂且贴出，这篇不为高考学生，而为刚入大学的社会系学生能稍微把握专业的脉络，当然，今日我的思考已有了很多转变，对诸分支社会学开始初步涉猎，于此重看当时的文章也很是稚嫩，但多少还是可以起到些许的参考作用。&lt;br&gt;2016.10.15 于群力&lt;/p&gt;
-&lt;h3 id=&quot;附录-社会学理论脉络随笔&quot;&gt;&lt;a href=&quot;#附录-社会学理论脉络随笔&quot; class=&quot;headerlink&quot; title=&quot;附录 社会学理论脉络随笔&quot;&gt;&lt;/a&gt;附录 社会学理论脉络随笔&lt;/h3&gt;&lt;p&gt;  前阵子看到Lichtenstein的《Is US Sociology in Decline》，文章援引了Dunlap和Catton的观点，社会学的衰落一方面是自由市场原教旨主义的死灰复燃，一方面也是政府对于社会科学的抑制&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“…… attributed the doldrums of the 1980s to resurgent free market fundamentalism and, as a related matter, to the Reagan administration’s“severe attacks”on the social sciences.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  同时作者也提出了近年来在教学中的感慨，也即功利主义的盛行，促使学生不停地追问，社会学究竟能够做什么&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“There is a general trend toward professional rather than academic degrees, perhaps for economic rather than ideological reasons.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  开篇之所以谈起这篇看起来无关紧要的文章，是想由此引出《Global Dialogue》杂志中的另一篇文章，也即Ivan Szelenyi的《The Triple Crisis of US Sociology》，我想结合自己进入社会学专业后反复思考的问题，写一些对于社会学专业理论的真实感触。什么原因使得社会学在全球范围开始衰落？值此衰落，社会学界由现代理论转向当代理论间又做出了什么努力？未来社会学理论发展的走向，又将去向何方？&lt;br&gt;  大抵千余字写不清，而我的能力也写不出这种宏大，但多少算是我对于社会学一次极不成熟的探索，满足好奇的愿望远大于真正厘清什么的愿望。&lt;/p&gt;
-&lt;h4 id=&quot;一、社会学的危机&quot;&gt;&lt;a href=&quot;#一、社会学的危机&quot; class=&quot;headerlink&quot; title=&quot;一、社会学的危机&quot;&gt;&lt;/a&gt;一、社会学的危机&lt;/h4&gt;&lt;h5 id=&quot;（一）、塞勒尼的观点&quot;&gt;&lt;a href=&quot;#（一）、塞勒尼的观点&quot; class=&quot;headerlink&quot; title=&quot;（一）、塞勒尼的观点&quot;&gt;&lt;/a&gt;（一）、塞勒尼的观点&lt;/h5&gt;&lt;p&gt;  塞勒尼对于社会学的危机提出了三点看法，政治上不再能够为社会提供激进的社会改革方案；方法上，经济学、政治学提供了一个对于因果性逻辑自洽的解决方案，而社会学依旧陷入泥潭；理论上，跨学科界限，也模糊了社会学的研究领域，旧有的领域也不断被经济学、政治学所侵占。&lt;br&gt;  在与当下经济学理论的比对后，塞勒尼提出在政治上尝试批判性的新古典社会学；方法上用反思性、解释性的模式挑战经济学，对数据的含义及采集等持有一种批判性的自我反思；理论上回到最初的政治使命，即马克思、韦伯等古典传统、批判性的宏观社会学。直面大议题(BIG issues)。&lt;/p&gt;
-&lt;h5 id=&quot;（二）、吉登斯的观点&quot;&gt;&lt;a href=&quot;#（二）、吉登斯的观点&quot; class=&quot;headerlink&quot; title=&quot;（二）、吉登斯的观点&quot;&gt;&lt;/a&gt;（二）、吉登斯的观点&lt;/h5&gt;&lt;p&gt;  而吉登斯在1987年所写的《社会理论与现代社会学》第二章中，却有这样一些针对于危机，关于未来发展趋势的观点：社会学将逐步摆脱十九世纪和二十世纪初期社会思想的阴影；社会学将比以前任何时候都重视对世界体系的研究；伴随着社会学争论而来的是将出现新的理论综合；社会学家将重新培育出一种对长期的大规模社会转型过程的关怀。&lt;/p&gt;
-&lt;h5 id=&quot;（三）、塞勒尼与吉登斯的比较&quot;&gt;&lt;a href=&quot;#（三）、塞勒尼与吉登斯的比较&quot; class=&quot;headerlink&quot; title=&quot;（三）、塞勒尼与吉登斯的比较&quot;&gt;&lt;/a&gt;（三）、塞勒尼与吉登斯的比较&lt;/h5&gt;&lt;p&gt;  其中的一些说法似乎矛盾，即吉登斯力主拜托古典思想阴影，而塞勒尼主张回到古典传统，但仔细分析，无论是塞勒尼也好，吉登斯也罢，他们却都有着一个根本的共同点，也即追溯古典理论与关注宏大社会现实。&lt;br&gt;  吉登斯1971年出版的《资本主义和当代社会理论》，即是对古典理论的梳理，而其后《现代性的后果》等书即是对宏大议题的关注。吉登斯所说的摆脱十九世纪和二十世纪初期社会思想的阴影，实质而言大概摆脱旧有的文化分析模式。&lt;/p&gt;
-&lt;h5 id=&quot;（四）、思考&quot;&gt;&lt;a href=&quot;#（四）、思考&quot; class=&quot;headerlink&quot; title=&quot;（四）、思考&quot;&gt;&lt;/a&gt;（四）、思考&lt;/h5&gt;&lt;p&gt;  此外如吴小英（社会学危机的涵义）认为，西方社会学理论的纷繁多样实际上来源于其方法论的分裂与对立，二元对立的症结等，西方社会学的危机是伴随着科学主义的衰落而产生的。&lt;br&gt;  但这些论述我认为归根不是全部或是最致命的的原因。文军（历史困境与未来挑战）套用吉登斯的看法认为，与其说是社会学对科学主义、实证主义长期过分追求的结果，还不如说是由于当前社会现实的快速变化所导致的整个社会学知识体系难以适应人类新的社会实践的需要。&lt;br&gt;  社会学的危机至今大概仍在继续，而由当今学者提出的解决方案，追溯上世纪八十年代后社会学的萧条，大抵社会学理论由由现代理论转向当代理论，也正是因为大的时代环境，也即工业社会转向知识与信息社会、现代社会转向全球社会的大转型的结果。&lt;br&gt;  社会学理论长期以来形成的以现代性研究为中心的体系，被后现代思潮颠覆，也被全球化理论的冲击与提升，而这种裂变中，也正是社会学诞生之初的基调，回应时代问题的调整。&lt;br&gt;  另一方面，诚如蔡锦昌写道的，社会学理论正面临一种可说正面亦可说负面的吊诡处境，即社会学观点几乎渗透到所有人文社会科学中。这种感觉颇像我这阵子读李强的《自由主义》（第24页）中论述的一个观点：“具有悖论意义的是，自由主义政党的衰落在很大程度上是由于自由主义作为一种意识形态的成功而造成的。”某种意义上，社会学与如今的自由主义颇为相似。&lt;br&gt;  但对于时代问题的调整与回应，多少将会使得泛社会学化的今天，予社会学得以重新区别于其他学科。&lt;/p&gt;
-&lt;h4 id=&quot;二、社会学的理论脉络&quot;&gt;&lt;a href=&quot;#二、社会学的理论脉络&quot; class=&quot;headerlink&quot; title=&quot;二、社会学的理论脉络&quot;&gt;&lt;/a&gt;二、社会学的理论脉络&lt;/h4&gt;&lt;p&gt;  而由此当代社会学的发展也即针对社会学危机而来，在对社会学理论由现代转向当代的特征进行更为具体的分析前，大抵就需要回溯社会学理论发展的过程。&lt;br&gt;   对于社会学理论流派的划分，参考了众多学者的划分后，大体将之分为实证主义与非实证主义（人文主义与批判主义）两条路线的交错进行，如果想要进一步思考未来社会学的发展方向，自然需要把握社会学理论发展历史。&lt;br&gt;  孔德开创了实证主义的发端，斯宾塞继承孔德的实证主义传统，此为奠基阶段，尔后涂尔干继承孔德传统、韦伯继承了狄尔泰等的历史主义传统、以及马克思开创的批判主义传统，此为社会学的形成阶段，尔后进入了美国芝加哥学派时期、帕森斯统一社会学阶段、反帕森斯阶段、及80年代后，后现代思潮冲击下的当代社会学理论阶段（一些学者认为是吉登斯阶段）。&lt;br&gt;  假使不以时间顺序来看，而试图把握西方社会学理论发展的内在逻辑，查阅了一些文献后，选取了其中最具代表性的几位，给出了如下观点。&lt;br&gt;  侯均生（关于西方社会学理论的发展脉络的研究）认为，西方社会学理论的发展同其他学科理论的发展一样, 是社会理论中具有相反倾向的理论流派的相互对立、相互渗透和相互融合的有机的历史过程。总共经历了两次高峰与综合，也即第一次实证主义以涂尔干为代表，反实证主义以维科为代表，韦伯于此综合，第二次实证主义以帕森斯为代表，反实证主义以舒茨为代表，哈贝马斯于此综合。&lt;br&gt;  文军（社会学理论的发展脉络与基本规则论略）在侯均生的基础上，对社会学理论进一步梳理，认为社会学理论经历了三次理论综合。前两次与侯均生大体无异，对韦伯的综合进行了进一步的解释，也即韦伯结合实证主义与非实证主义的“理解”概念，同时是解释性与理解性的。第二次综合中以哈贝马斯为代表的社会批判理论，则是从反实证主义立场出发对当代实证主义和人文主义取向的社会学理论第二次综合的努力。&lt;br&gt;  但思考的是，前两次的综合并没有消解二元对立，而只是单纯的简单综合。&lt;br&gt;  而在第三次理论综合上，则表现为一种多元综合的态势, 如以实证主义理论传统为主的新功能主义和以人文主义理论传统为主的理性选择理论, 实际上都表现出了相互吸收、互为补充的特征, 并在理论取向上更多地表现为一种综合性的社会理论。而当下的这种综合性，已不独以超越二元对立、实证与反实证方法论等的综合，更是与时代的综合，与各社会科学学科的综合了。&lt;br&gt;  假使进一步思考，简化上述，便可以得到一个颇可把玩的循环。&lt;br&gt;  社会学理论在演化过程中，一开始的古典理论三巨头为当今的整个社会学理论大厦奠定了关键性基础，他们回应了十九世纪的时代问题，尔后各家使用三巨头理论发现无法回应时代问题时，便在三巨头基础上进行修正和补充，而在帕森斯进行了第一次真正意义上的理论综合后，现在社会学各派也即对帕森斯的补充（但实际上仍必然会回溯三巨头的理论），也即如哈贝马斯对于韦伯提出的理性化困境的回应、布迪厄对于实践与理论割裂的回应、吉登斯对于微观与宏观和能动与结构的回应等等。&lt;br&gt;  后人在前人的基础上发展，针对前人理论的不足发展，而下一次理论的综合大概也即是对于吉登斯、布迪厄、哈贝马斯等等当代理论家的修订与综合。&lt;br&gt;  但一个困窘是个人修补理论的能力永远来不及真正的追赶上时代，所以理论永远无法超越时代、把握时代，而落后于时代，尤其以今日社会变迁急速的社会，这种尴尬显得更为突出。&lt;/p&gt;
-&lt;h4 id=&quot;三、吉登斯的努力&quot;&gt;&lt;a href=&quot;#三、吉登斯的努力&quot; class=&quot;headerlink&quot; title=&quot;三、吉登斯的努力&quot;&gt;&lt;/a&gt;三、吉登斯的努力&lt;/h4&gt;&lt;p&gt;  在新的社会环境中，人们的互动很多时候不再是面对面的互动，社会组织及社会的正常运转日益依赖于新的科学技术。新的全球式的社会与文化的模式正变得日益普及。&lt;br&gt;  在这种深刻的社会变革中，现代理论转向当代理论中，第三次理论综合中，吉登斯大概属于我们时代最具影响力，并相对的化解了旧有分析模式，而对综合理论卓有成效的学者之一。因为能力有限，便仅以吉登斯为例，而阐述当代社会学家对于社会学危机的回应。&lt;br&gt;  吉登斯对于社会理论的雄心勃勃令人想起马克思、韦伯与涂尔干，他们因观察工业革命影响下的新社会的诞生而创造了社会学的概念，许知远（安东尼·吉登斯：失控世界的知识领袖）则指出，吉登斯则试图捕捉在由高科技、信息、全球资本主义构成的新时代中，人与社会的关系。&lt;/p&gt;
-&lt;h5 id=&quot;（一）、超越二元对立&quot;&gt;&lt;a href=&quot;#（一）、超越二元对立&quot; class=&quot;headerlink&quot; title=&quot;（一）、超越二元对立&quot;&gt;&lt;/a&gt;（一）、超越二元对立&lt;/h5&gt;&lt;p&gt;  为了解决长期困扰社会学理论界的“社会结构的制约性与个人行为的自主性”之间的“二元对立”困境，吉登斯首先着手即是如何解决这个问题。&lt;br&gt;  为此，吉登斯建构了整套“结构化理论”体系，与传统社会学理论“单一片面”的和“简单综合”的建构模式相比有很大的改进，属于一种“创新综合”的理论建构模式。化传统的二元论为二重性，社会结构的制约性与个人行为的自主性，是一种互构的关系。&lt;br&gt;  社会是人的实践活动中不断生成的过程，也即吉登斯对于生成活动之动力的实践的内在矛盾的意识，也即实践二重性，使其接近了对社会的辩证理解。&lt;br&gt;  同时，吉登斯以反思性为机制，将二重性建立在实践的基础之上，由此在很大程度上消解了二元对立。&lt;br&gt;  但需要思考的是，吉登斯在诸多定义的模糊，以及批判对象的老旧等方面，使得诸多学者质疑其结构化理论。&lt;/p&gt;
-&lt;h5 id=&quot;（二）、结构化理论的推广与应用&quot;&gt;&lt;a href=&quot;#（二）、结构化理论的推广与应用&quot; class=&quot;headerlink&quot; title=&quot;（二）、结构化理论的推广与应用&quot;&gt;&lt;/a&gt;（二）、结构化理论的推广与应用&lt;/h5&gt;&lt;p&gt;  正如开篇时提到的社会学危机，吉登斯构建了结构化理论之后，进行了诸社会学分析，其中最为主要的也即对现代性、全球化与风险分析。&lt;br&gt;  吉登斯首先分析了现代性的动力机制，也即时空分离、抽离化机制与制度化反思。其次，吉登斯对现代性进行了宏观与微观的具体分析。&lt;br&gt;  宏观方面，吉登斯对现代性进行了制度分析，也即现代性包括了四个基本制度性维度，资本主义、工业主义、监督系统、军事力量，尔后相应地发展为全球化的四个维度，世界资本主义经济、国际劳动分工、民族国家体系、世界军事秩序。微观方面，吉登斯分析了信任关系的变革及自我认同的再造。而吉登斯对现代性分析的微观和宏观，到底是互相影响渗透，并共同交织在一起的。&lt;br&gt;  此外，当代蓬勃发展的全球化浪潮和资本主义社会在其发展过程中面临的风险现实，既是西方风险社会理论兴起的社会历史背景，也是吉登斯风险社会理论产生的社会历史背景。&lt;br&gt;  对于现代性风险，吉登斯一方面强调立足于现实，并提出了基于现实主义的解放政治和生活政治相结合的激进应对思路，另一方面又强调要有乌托邦的理想，并确定了以超越匮乏体系为主的后现代秩序作为乌托邦理想的内容。&lt;br&gt;  由于我对于吉登斯的了解还即为肤浅，所以对于吉登斯的第三条道路、社会变迁思想等诸多思想，于此略为不提，引出吉登斯的目的，仅是在举例说明当代社会学家在回应二元对立与社会转型等问题间的努力与探索。&lt;/p&gt;
-&lt;h4 id=&quot;四、杂感&quot;&gt;&lt;a href=&quot;#四、杂感&quot; class=&quot;headerlink&quot; title=&quot;四、杂感&quot;&gt;&lt;/a&gt;四、杂感&lt;/h4&gt;&lt;p&gt;  大一时虽然读了些许质性研究的书籍，但总觉他们的研究方法不可复制，抑或有着诸多任意性，抑或其他不符合一直以来接受的自然科学传统的模式，而极受涂尔干等实证主义与美国当前的量化趋势影响，而工大的工科气氛也似乎对我产生了深刻的影响，由此而来的是认为社会学科学性的体现，在于全面量化的道路。&lt;br&gt;  但大学至今，逐渐得闻了如波兰尼、哈耶克等大师，由此而来的是反思量化，反思实证主义，而逐渐向韦伯一脉靠拢，社会科学与自然科学有着本质不同，不应该、也不能惟自然科学马首是瞻，尹海洁老师在上课时也曾说过一句话：“统计学只是工具，科学只是工具。”颇坚定了我的思考。&lt;br&gt;  如今的趋势，学科界限早已打破，而方法论亦难免束缚思想，所以如何在实践中调和量化与质化颇可思考。&lt;br&gt;  我的读书太过狭窄，写到后面，尤其是吉登斯时，渐觉文章与我个人能力的脱轨，文章开头所提出的问题，确无力给出答案，仍待我读书，因文章极多的偏颇，惟愿后读者谅解这篇极散漫的文章。&lt;br&gt;  且援引米尔斯：“我力求客观，但拒绝冷漠。”大抵社会学予我最大的慰藉，即是米尔斯的这句话，而这也将是我一生所要追求，并坚定认为是一切社会科学，无论处于何时何地所应秉持，并得以立足于人类科学的基调。&lt;/p&gt;
-&lt;p&gt;2015.12.8&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  這篇是我今年為高考考生寫的文章，雖然主要針對的對象是高三學生，但多少也敘述了一些社會學專業在學什麼的東西，也簡要介紹了我學習的工大環境，內容或有錯漏，則希望后讀者於我指正。&lt;/p&gt;
-&lt;h3 id=&quot;一、引文&quot;&gt;&lt;a href=&quot;#一、引文&quot; class=&quot;headerlink&quot; title=&quot;一、引文&quot;&gt;&lt;/a&gt;一、引文&lt;/h3&gt;&lt;p&gt;  去年我仍是刚入学的新生，新生给新生做介绍时就不免有著争强好胜的心思，介绍也不免会带着个人情绪，现在回想颇为羞愧。&lt;br&gt;  而现在大学已然过半，专业的好坏强弱，却早已不再是心底暗自拿来比较的事情了，我渐而觉得，旁人的看法与我是毫无干系的，我亦不必为之辩解。&lt;br&gt;  我仅是工大社会系中极为普通的一名学生，而放在工大的大背景里，更是不能再平凡的学生，我一直相信我所长大成人，得於无数陌生人的善意，我亦愿将此善意祝福於看我文章的陌生学子，而如能因我这篇文章念了社会系，则是於我意外的喜悅。&lt;br&gt;  当然，这篇文章不单是为高考即将填报志愿的学生而写，亦为对社会学有些兴趣的同学而写。我将尽力如实叙述，并将工大社会学的优缺点一并提及，如有错漏，希望后讀者可以指出，也欢迎质疑讨论。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Prose" scheme="http://yoursite.com/categories/Prose/"/>
-    
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="HIT" scheme="http://yoursite.com/tags/HIT/"/>
     
   </entry>
   
