@@ -4,8 +4,359 @@
   
     
     <entry>
+      <title><![CDATA[python3 Function基础memo]]></title>
+      <url>http://yoursite.com/2017/01/22/python3%20Function%E5%9F%BA%E7%A1%80memo/</url>
+      <content type="html"><![CDATA[<h2 id="Lecture-17-Define-a-Function"><a href="#Lecture-17-Define-a-Function" class="headerlink" title="Lecture 17 Define a Function"></a>Lecture 17 Define a Function</h2><p># python的三大组成：函数、对象和模块<br># 函数：python的乐高积木</p>
+<pre><code>def firstfunction():
+    print(&apos;hello world&apos;)
+
+firstfunction()
+
+# 参数使函数个性化
+def secondfuction(name):
+    print(name + &apos;, I love u&apos;)
+secondfuction(&apos;yanyuteng&apos;)
+
+def add(num1, num2):
+    return (num1 + num2)
+
+add(1,2)
+</code></pre><a id="more"></a>
+<h2 id="Lecture-18-函数的参数"><a href="#Lecture-18-函数的参数" class="headerlink" title="Lecture 18 函数的参数"></a>Lecture 18 函数的参数</h2><h3 id="一、形式参数-parameter-和实际参数-argument"><a href="#一、形式参数-parameter-和实际参数-argument" class="headerlink" title="一、形式参数(parameter)和实际参数(argument)"></a>一、形式参数(parameter)和实际参数(argument)</h3><p>1、形式参数为函数定义时的name，只是一个形式，占据一个参数位置<br>2、实际参数为用户输入的具体参数值’yanyuteng’</p>
+<h3 id="二、函数文档"><a href="#二、函数文档" class="headerlink" title="二、函数文档"></a>二、函数文档</h3><pre><code>def firstfunction():
+    &apos;this is an example discription.&apos;
+    print(&apos;hello world&apos;)
+
+firstfunction.__doc__ # &apos;this is an example discription.&apos;
+help(firstfunction)
+</code></pre><h3 id="三、关键字：参数匹配"><a href="#三、关键字：参数匹配" class="headerlink" title="三、关键字：参数匹配"></a>三、关键字：参数匹配</h3><pre><code>thirduction(name=&apos;yanyuteng&apos;,words=&apos;love u&apos;)
+thirduction(words=&apos;love u&apos;,name=&apos;yanyuteng’) #yanyuteng-&gt;love u
+</code></pre><h3 id="四、默认值"><a href="#四、默认值" class="headerlink" title="四、默认值"></a>四、默认值</h3><pre><code>def secondfuction(name=&apos;yanyuteng&apos;):
+     print(name + &apos;, I love u&apos;)
+</code></pre><h3 id="五、收集参数（可变参数）"><a href="#五、收集参数（可变参数）" class="headerlink" title="五、收集参数（可变参数）"></a>五、收集参数（可变参数）</h3><pre><code>def test(*params):
+     print(&apos;print len:&apos;,len(params))
+     print(&apos;index(the second number:)&apos;,params[1])
+
+test(1,2,4,5,3,7,9,0,11,-1)
+</code></pre><h2 id="Lecture-19-函数返回值与变量作用域"><a href="#Lecture-19-函数返回值与变量作用域" class="headerlink" title="Lecture 19 函数返回值与变量作用域"></a>Lecture 19 函数返回值与变量作用域</h2><h3 id="一、函数返回值"><a href="#一、函数返回值" class="headerlink" title="一、函数返回值"></a>一、函数返回值</h3><p>1、函数(function)是有返回值，过程(procedure)是简单的、特殊的，没有返回值<br>2、python严格只有函数，所有函数都会返回某些东西，没有过程。</p>
+<pre><code>def hello():
+     print(&apos;hello world&apos;)
+
+temp = hello()
+print(temp) #None
+type(temp) #&lt;class &apos;NoneType&apos;&gt;
+</code></pre><p>3、python动态确定类型，只有赋值时，编译器自动确定需要类型，没有变量，只有名字，包括返回值（可以返回多个值）。</p>
+<pre><code>def back():
+    return [1, &apos;yyt&apos;, 3, 2] #list打包返回
+</code></pre><h3 id="二、函数变量作用域（可见性）"><a href="#二、函数变量作用域（可见性）" class="headerlink" title="二、函数变量作用域（可见性）"></a>二、函数变量作用域（可见性）</h3><p>1、局部变量(local variable)和全局变量(global variable)</p>
+<pre><code>def discounts(price,rate):
+    final_price = price * rate # final_price is a local variable，出了function就不再生效，栈暂时存储，运行尔后删除
+    return final_price
+
+old_price = float(input(&apos;old_price:’)) #global variable，作用域整个文件
+rate = float(input(&apos;rate:’)) #global variable
+new_price = discount(old_price,rate) #global variable
+print(’the new_price:’, new_price)
+</code></pre><p>2、一般不要在函数内部访问修改，会在函数中新建一个名字同全局变量相同的局部变量，容易产生bug。</p>
+<pre><code>def myfun():
+    count = 10
+    print(10)
+
+myfun() #10
+print(count) #5，函数内修改未修改全局变量
+
+# 用global关键字在函数内修改
+def myfun():
+    global count ## global variable changed
+    count = 10
+    print(count)
+</code></pre><h2 id="Lecture-20-内嵌函数"><a href="#Lecture-20-内嵌函数" class="headerlink" title="Lecture 20 内嵌函数"></a>Lecture 20 内嵌函数</h2><h3 id="一、内嵌函数"><a href="#一、内嵌函数" class="headerlink" title="一、内嵌函数"></a>一、内嵌函数</h3><pre><code>def fun1():
+    print(&apos;fun1() is working...&apos;)
+    def fun2():
+        print(&apos;fun2() is working...&apos;)
+    fun2()
+</code></pre><h3 id="二、闭包"><a href="#二、闭包" class="headerlink" title="二、闭包"></a>二、闭包</h3><p>  函数是编程重要的语法结构，面向对象或面向过程是编程范式，不同编程语言实现闭包方式不同。<br>  Python中，如果在一个内部函数里，对外部作用域（但不是在全局作用域）中被引用，那么就被认为是闭包。</p>
+<pre><code>def funx(x):
+    def funy(y):
+        return x*y
+    return funy
+
+i = funx(8)
+i(5) #40
+funx(8)(5) #40
+</code></pre><p>#不能在外部函数外调用闭包，内部函数中只能对外部函数的局部变量访问，不能修改</p>
+<pre><code>def fun1():
+    x = 5
+    def fun2():
+        x *= x
+        return x
+    return fun2() #local variable &apos;x&apos; referenced before assignment
+
+def fun1():
+    x = [5]
+    def fun2():
+        x[0] *= x[0]
+        return x[0]
+    return fun2() #python2.x版本暗度陈仓
+
+def fun1():
+    x = 5
+    def fun2():
+        nonlocal x #声明不是局部变量
+        x *= x
+        return x
+    return fun2()
+</code></pre><h2 id="Lecture-21-lambda表达式"><a href="#Lecture-21-lambda表达式" class="headerlink" title="Lecture 21 lambda表达式"></a>Lecture 21 lambda表达式</h2><h3 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h3><p>1、Python写执行脚本，使用lambda节省定义函数过程<br>2、调用一两次的函数不用再起名字<br>3、简化代码可读性</p>
+<pre><code>def ds(x):
+    return 2*x +1
+
+g = lambda x : 2*x +1 #匿名函数
+g(5)
+
+def add(x,y):
+    return x+y
+
+g = lambda x,y : x+y
+</code></pre><h3 id="二、相关BIF"><a href="#二、相关BIF" class="headerlink" title="二、相关BIF"></a>二、相关BIF</h3><p>1、过滤器 filter()<br>作用：任何非True内容过滤，保留关注信息</p>
+<pre><code>list(filter(None,[1,0,False,True]))
+
+def odd(x):
+    return x % 2
+temp = range(0,10)
+list(filter(odd,temp)) #过滤偶数
+
+list(filter(lambda x: x % 2,range(0,10)))
+</code></pre><p>2、映射 map()<br>作用：序列每一个元素作为参数加工，直到可迭代序列每一个元素都加工后，返回所有加工后的元素构成新序列</p>
+<pre><code>list(map(lambda x : x*2, range(0,10)))
+#return &apos;[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]&apos;
+</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>鱼C论坛 《零基础入门学习Python》</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[python3 序列：列表、元组与字符串memo]]></title>
+      <url>http://yoursite.com/2017/01/20/python3%20%E5%BA%8F%E5%88%97%EF%BC%9A%E5%88%97%E8%A1%A8%E3%80%81%E5%85%83%E7%BB%84%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2memo/</url>
+      <content type="html"><![CDATA[<h2 id="Lecture-10-11-list基础"><a href="#Lecture-10-11-list基础" class="headerlink" title="Lecture 10 11 list基础"></a>Lecture 10 11 list基础</h2><h3 id="一、list含义"><a href="#一、list含义" class="headerlink" title="一、list含义"></a>一、list含义</h3><p>1、数组即同种类型数据放在一起。python没有数组，而以列表代替。<br>2、列表可以将对象、整数、浮点数、字符串等加入，基本所有的python都需要列表。<br><a id="more"></a></p>
+<h3 id="二、list创建"><a href="#二、list创建" class="headerlink" title="二、list创建"></a>二、list创建</h3><pre><code>member = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;]
+number = [1, 2, 3, 4]
+mix = [1, &apos;a&apos;, 3.14, [1,2,3] ]
+empty = []
+</code></pre><h3 id="三、list添加元素"><a href="#三、list添加元素" class="headerlink" title="三、list添加元素"></a>三、list添加元素</h3><p>1、append()  尾部加入单个</p>
+<pre><code>member.append(&apos;e&apos;)
+len(member)
+</code></pre><p>2、extend() 尾部加入列表</p>
+<pre><code># 使用一个列表扩展另一个列表，其参数是一个列表
+member.extend([&apos;e’,&apos;f&apos;])
+</code></pre><p>3、insert() 加入任意位置</p>
+<pre><code>member.insert(0,&apos;g&apos;)
+# 列表索引值从0开始
+</code></pre><h3 id="四、list调换元素：调换a、b位置"><a href="#四、list调换元素：调换a、b位置" class="headerlink" title="四、list调换元素：调换a、b位置"></a>四、list调换元素：调换a、b位置</h3><pre><code>member=[&apos;b&apos;,&apos;a&apos;,&apos;c&apos;,&apos;d&apos;]
+temp=member[0]
+member[0]=member[1]
+member[1]=temp
+</code></pre><h3 id="五、list删除元素"><a href="#五、list删除元素" class="headerlink" title="五、list删除元素"></a>五、list删除元素</h3><p>1、remove()</p>
+<pre><code>member.remove(&apos;d&apos;)
+# 必须知道名字，不需知道顺序
+</code></pre><p>2、del语句</p>
+<pre><code>del member[1]
+# 知道顺序
+</code></pre><p>3、pop()</p>
+<pre><code>name = member.pop()
+#默认取出最后一个元素，并显示已取出
+member.pop(1)
+</code></pre><h3 id="六、读取多个元素：列表分片（slice）"><a href="#六、读取多个元素：列表分片（slice）" class="headerlink" title="六、读取多个元素：列表分片（slice）"></a>六、读取多个元素：列表分片（slice）</h3><p>利用索引值，每次可以从列表中获取一个元素，如何一次性获取多个元素。  </p>
+<pre><code>member = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;]
+member[1:3]
+</code></pre><h2 id="Lecture-12-list操作符与BIF"><a href="#Lecture-12-list操作符与BIF" class="headerlink" title="Lecture 12 list操作符与BIF"></a>Lecture 12 list操作符与BIF</h2><h3 id="一、list中常用操作符"><a href="#一、list中常用操作符" class="headerlink" title="一、list中常用操作符"></a>一、list中常用操作符</h3><p>1、比较操作符</p>
+<pre><code>list1 = [123,456]
+list2 = [234,123]
+list1&gt;list2 #FALSE 比较第0个
+</code></pre><p>2、逻辑操作符</p>
+<pre><code>list3 = list1
+(list1 &lt; list2) and (list1 == list3)
+</code></pre><p>3、连接操作符</p>
+<pre><code>list4 = list1 + list2
+list4 #[123, 456, 234, 123]
+list1 + ‘yyt&apos; #FALSE +号两边需要一致
+# 此处应该用extend或append更规范
+</code></pre><p>4、重复操作符</p>
+<pre><code>list3* = 3
+</code></pre><p>5、成员关系操作符</p>
+<pre><code>123 in list3
+&apos;yyt&apos; not in list3
+list5 = [123, [&apos;yyt&apos;,&apos;demos&apos;], 456]
+&apos;yyt&apos; in list5 #FALSE 只判断一层
+&apos;yyt&apos; in list5[1]
+list5[1][1] #demos
+</code></pre><h3 id="二、list的相关函数"><a href="#二、list的相关函数" class="headerlink" title="二、list的相关函数"></a>二、list的相关函数</h3><pre><code>dir(list) #列表相关BIF
+</code></pre><p>1、count()</p>
+<pre><code>list5.count(123) #返回出现次数
+</code></pre><p>2、index()</p>
+<pre><code>list5.index(123) #返回位置
+list5.index(123，3，7) #返回3到7中 123的位置
+</code></pre><p>3、reverse()</p>
+<pre><code>list5.reverse() #翻转list5顺序
+</code></pre><p> 4、sort()</p>
+<pre><code>sort(func,key,reverse)
+list6 = [4,3,2,5,9,10,99,0,-1,8]
+list6.sort() #从小到大排序
+list6.sort(reverse = True) #从小到大排序
+</code></pre><p>5、list[:]分片</p>
+<pre><code>list6 = [99, 10, 9, 8, 5, 4, 3, 2, 0, -1]
+list7 = list6[:] #分片拷贝：完全复制后保存独立性
+list8 = list6 #不完全复制，跟着list6变化而变化
+</code></pre><h2 id="Lecture-13-元组-tuple"><a href="#Lecture-13-元组-tuple" class="headerlink" title="Lecture 13 元组 tuple"></a>Lecture 13 元组 tuple</h2><h3 id="一、创建和访问"><a href="#一、创建和访问" class="headerlink" title="一、创建和访问"></a>一、创建和访问</h3><pre><code># 元组一旦定义不可改变，戴了枷锁的list
+# 创建元组大部分用()，但根本区分在于,
+apple = (1,2,3,4,5,6,7,8)
+apple[1]
+apple[5:]
+8 * (8) # 64
+8 * (8,) # (8, 8, 8, 8, 8, 8, 8, 8)
+</code></pre><h3 id="二、更新和删除"><a href="#二、更新和删除" class="headerlink" title="二、更新和删除"></a>二、更新和删除</h3><p>1、更新</p>
+<pre><code>temp = (&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;)
+temp = temp[:2] + (‘e&apos;,) + temp[2:]
+</code></pre><p>2、删除</p>
+<pre><code>del temp # 完全删除 较少使用
+</code></pre><h3 id="三、操作符同于list"><a href="#三、操作符同于list" class="headerlink" title="三、操作符同于list"></a>三、操作符同于list</h3><pre><code>+, *, in not in, &gt; &lt; =, and or...
+</code></pre><h2 id="Lecture-14-字符串BIF"><a href="#Lecture-14-字符串BIF" class="headerlink" title="Lecture 14 字符串BIF"></a>Lecture 14 字符串BIF</h2><pre><code># 字符串同元组类似，一旦定义较难修改
+str1 = &quot;yan yu teng&quot;
+str1 = str1[:3] + &apos; str2&apos; + str1[3:]
+</code></pre><h3 id="一、转换类"><a href="#一、转换类" class="headerlink" title="一、转换类"></a>一、转换类</h3><p>1、大小写</p>
+<pre><code># capitalize() 第一个字母大写
+str1.capitalize() #&apos;Yan str2 yu teng&apos;
+
+# casefold() lower() 所有字符改为小写
+str2 = &apos;YAN YU TENG&apos;
+str2.casefold() #&apos;yan yu teng&apos;
+# str1.upper() 所有字符改为大写
+
+# swapcase() 大小写翻转
+# title() 返回title样式
+</code></pre><p>2、格式对齐</p>
+<pre><code># center(width) 将字符串居中，并用空格填充字符串左右width长度新字符串
+str2.center(30) #&apos;         YAN YU TENG          &apos;
+# str1.ljust(width) 将字符串左对齐，并用空格填充字符串右width长度新字符
+
+# strip(chars) 去除左右空格，chars为可选同时去掉的字符
+# lstrip() 去除左面空格
+
+# expandtabs(tabsize = 8) 将字符串中tab（\t）转换为空格，默认为8
+str3 = &apos;    yanyuteng’ #&apos;\tyanyuteng&apos;
+str3 = str3.expandtabs() #&apos;        yanyuteng&apos;
+</code></pre><p>3、插入或分割</p>
+<pre><code>#join() 将字符串均匀插入到sub中（作为分隔符）
+str1.join(&apos;123&apos;)#&apos;1yan str2 yu teng2yan str2 yu teng3&apos;
+
+# partition(sub) 找到sub后分割为三个元组，不包含则返回(‘xxx&apos; , , )
+str1 = &apos;yan yu teng&apos;
+str1.partition(&apos;yu’) # (&apos;yan &apos;, &apos;yu&apos;, &apos; teng&apos;)
+
+#split(sep = ’none’, maxsplit = -1) 自动切片为列表，默认以空格为切割
+</code></pre><p>4、替换类</p>
+<pre><code># replace(old,new,count) new替换old，次数为count
+# translate(str.maketrans()) 按ASCLL码转换
+str1.translate(str.maketrans(&apos;y&apos;,&apos;d’)) # &apos;dan du teng&apos;
+# encode(encoding = &apos;utf-8&apos;, errors = &apos;strict’) 以encoding指定编码格式编码
+</code></pre><h3 id="二、查找类"><a href="#二、查找类" class="headerlink" title="二、查找类"></a>二、查找类</h3><pre><code># count(sub,start,end) 返回sub在字符串中的出现次数，start和end为可选范围点
+str2.count(&apos;Y’) #2
+
+# find(sub,start,end) 查找sub是否包含在字符串中，有则返回第一个元素索引值，没有返回-1
+# rfind(sub,start,end) 右侧开始查找
+# index(sub,start,end) 同上，没有返回异常
+</code></pre><h3 id="三、判断类"><a href="#三、判断类" class="headerlink" title="三、判断类"></a>三、判断类</h3><pre><code># endswith(sub,start,end) 检查字符串是否以sub字符串结束，start和end为可选范围点
+# startswith(sub,start,end)
+str1.endswith(&apos;g’) #True
+
+# isalnum() 字符串至少有一个字符，且全为数字或字母返回True，否则返回False
+# isalpha 字符串至少有一个字符，且只包含字母字符返回True，否则返回False
+# isnumeric() 字符串至少有一个字符，且只包含数字字符返回True，否则返回False
+
+# isdligit() 只含数字返回True，否则返回False
+# isspace() 判断只含空格
+# istitle() 判断单词首字母大写，后面小写（标题化）
+</code></pre><h2 id="Lecture-15-字符串的格式化"><a href="#Lecture-15-字符串的格式化" class="headerlink" title="Lecture 15 字符串的格式化"></a>Lecture 15 字符串的格式化</h2><p>  格式化目的：格式化字符串，按照统一的规格输出，如果规格不统一，如16进制1 0与10进制1 0。</p>
+<h3 id="一、format方法"><a href="#一、format方法" class="headerlink" title="一、format方法"></a>一、format方法</h3><p>format方法接受位置参数和关键字参数两种，二者传递到replacement字段（花括号）。<br>1、位置参数</p>
+<pre><code>&quot;{0} love {1}.{2}&quot;.format(&apos;yan&apos;,&apos;yu&apos;,&apos;teng&apos;,&apos;demos’) #&apos;yan love yu.teng&apos;
+</code></pre><p>2、关键字参数</p>
+<pre><code>&quot;{a} love {b}.{c}&quot;.format(a=&apos;yan&apos;,b=&apos;yu&apos;,c=&apos;teng&apos;)
+</code></pre><p>3、混合使用</p>
+<pre><code>&quot;{0} love {b}.{c}&quot;.format(&apos;yan&apos;,b=&apos;yu&apos;,c=&apos;teng&apos;)
+# 位置参数必须在关键字参数之前，0必须在b c前，否则报错
+</code></pre><p>4、格式化符号 :</p>
+<pre><code>{{0}}.format{&apos;不打印’} #没有字段可以被输出，0已经被解释了，同/一样
+&apos;{0: .1f}{1}&apos;.format(27.658,&apos;GB’) #位置参数多了:
+# :表示格式化符号的开始；.1四舍五入保留一位；f为定点数，同浮点数类似，打印一个小数。
+</code></pre><h3 id="二、字符串格式化符号含义"><a href="#二、字符串格式化符号含义" class="headerlink" title="二、字符串格式化符号含义"></a>二、字符串格式化符号含义</h3><pre><code># %遇到字符串时变为格式化符号
+%c 格式化字符及其ASCII码
+&apos;%c&apos; % 97 # &apos;a&apos;
+&apos;%c&apos; &apos;%c&apos; &apos;%c&apos; % (97, 98, 99) # &apos;abc&apos;
+
+%s 格式化字符串
+&apos;%s&apos; % &apos;yan yu teng’ # &apos;yan yu teng&apos;
+
+%d 格式化整数
+&apos;%d + %d = %d&apos; % (4, 5, 4+5)
+
+%o 格式化无符号八进制数 # 0-7 00=8 01=9
+%x 格式化无符号十六进制数 # 0-9 a=10 b=11 c=12 g=16 00=17 a0=160
+%X 格式化无符号十六进制数（大写）
+&apos;%x&apos; % 10 # &apos;a&apos;
+&apos;%X&apos; % 10 # &apos;A&apos;
+
+%f 格式化定点数，可指定精度
+&apos;%f + x =&apos; % 27.658 # &apos;27.658000 + x =&apos;
+%e 科学计数法保留
+%g 智能根据值大小决定用%f %e
+&apos;%g&apos; % 27.658 # &apos;27.658&apos;
+</code></pre><h3 id="三、格式化操作辅助命令"><a href="#三、格式化操作辅助命令" class="headerlink" title="三、格式化操作辅助命令"></a>三、格式化操作辅助命令</h3><p>1、m.n  # m最小总宽度，n小数点后位数</p>
+<pre><code>‘%.2e&apos; % 27.658 # &apos;2.77e+01’ (2.77*10^1)
+</code></pre><p>2、- +</p>
+<pre><code>- # 左对齐
++ # 正数前面显示+，负数前- （打酱油符号）
+</code></pre><p>3、# 转换八进制前用(‘0o’)；转换十六进制前用(‘0x’)或(‘0X’)</p>
+<pre><code>&apos;%#o&apos; % 8 # ‘0o10&apos; 八进制的10
+&apos;%#X&apos; % 108 # ‘0X6C’ 十六进制的6C
+</code></pre><p>4、0 #前面都用0填充</p>
+<pre><code>&apos;%010d&apos; % 5 # &apos;0000000005&apos;
+&apos;%-010d&apos; % 5 # &apos;5         &apos;
+</code></pre><h3 id="四、字符串转义符含义"><a href="#四、字符串转义符含义" class="headerlink" title="四、字符串转义符含义"></a>四、字符串转义符含义</h3><pre><code>\n 换行符
+\t 横向制表符
+...
+</code></pre><h2 id="Lecture-16-序列"><a href="#Lecture-16-序列" class="headerlink" title="Lecture 16 序列"></a>Lecture 16 序列</h2><h3 id="一、列表、元组和字符串共同点-：序列"><a href="#一、列表、元组和字符串共同点-：序列" class="headerlink" title="一、列表、元组和字符串共同点 ：序列"></a>一、列表、元组和字符串共同点 ：序列</h3><p>1、可以通过索引得到每一个元素<br>2、默认索引值从0开始<br>3、分片方法得到一个范围内元素集合<br>4、很多共同的操作符<br># 列表、元组和字符串统称为序列</p>
+<h3 id="二、序列的相关BIF"><a href="#二、序列的相关BIF" class="headerlink" title="二、序列的相关BIF"></a>二、序列的相关BIF</h3><p>list() # 不带参数空列表或带一个迭代器作为参数<br># 迭代 重复反馈过程的活动，其目的是为了接近或达到接近的目标，每一次迭代的结果作为下一次迭代的初始值。序列本身是可迭代对象，迭代本身是序列泛化而来。</p>
+<h4 id="1、转换"><a href="#1、转换" class="headerlink" title="1、转换"></a>1、转换</h4><pre><code>tuple([iterable]) # 可迭代对象转换为元组
+str(obj) #把obj对象转换为字符串
+ c=(1,1,2,3,5,8,13,21,34)
+ c = list(c) # [1, 1, 2, 3, 5, 8, 13, 21, 34]
+</code></pre><h4 id="2、计算"><a href="#2、计算" class="headerlink" title="2、计算"></a>2、计算</h4><pre><code>len(sub) #返回sub的长度
+
+min(sub)
+max(sub) #返回序列或参数集合中最大值，字母则返回ASCLL码最大值
+max() 迭代原理：
+ max = tuple(0)
+ for i in tuple:
+     if i &gt; max:
+         max = i
+ return max
+
+sum(iterable[,start=0]) #加总
+</code></pre><h4 id="3、排序"><a href="#3、排序" class="headerlink" title="3、排序"></a>3、排序</h4><pre><code>sorted() #默认从小到大排序 sorted(numbers)
+reversed() #返回迭代器对象 list(reversed(numbers))从大到小排序
+</code></pre><h4 id="4、拼接"><a href="#4、拼接" class="headerlink" title="4、拼接"></a>4、拼接</h4><pre><code>enumerate() #返回（index, item)的元组
+number = (2,1,3,4)
+list(enumerate(number))
+
+zip #返回成对参数打包的元组
+a = [1,2,3,4,5,6,7,8]
+b = [4,5,6,7,8]
+list(zip(a,b)) #[(1, 4), (2, 5), (3, 6), (4, 7), (5, 8)]
+</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>鱼C论坛 《零基础入门学习Python》</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[python3 爬虫基础memo]]></title>
-      <url>http://yoursite.com/2017/01/18/python3%20%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80/</url>
+      <url>http://yoursite.com/2017/01/18/python3%20%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80memo/</url>
       <content type="html"><![CDATA[<h2 id="第一节-html初步"><a href="#第一节-html初步" class="headerlink" title="第一节 html初步"></a>第一节 html初步</h2><h3 id="一、网页的一般结构"><a href="#一、网页的一般结构" class="headerlink" title="一、网页的一般结构"></a>一、网页的一般结构</h3><pre><code>html: &lt;&gt;  # html是结构部分，客厅、卧室等。  
 CSS: &lt;div class=&quot; &quot;&gt; # class CSS是装修结构的，墙壁、地板。  
 JavaScript: &lt;script&gt;  #JavaScript是功能，房间中的电器。 
@@ -126,9 +477,9 @@ for i in info
     </entry>
     
     <entry>
-      <title><![CDATA[python3 分支与循环memo]]></title>
-      <url>http://yoursite.com/2017/01/18/python3%20%E5%88%86%E6%94%AF%E4%B8%8E%E5%BE%AA%E7%8E%AFmemo/</url>
-      <content type="html"><![CDATA[<h2 id="Lecture-5-python的数据类型"><a href="#Lecture-5-python的数据类型" class="headerlink" title="Lecture 5 python的数据类型"></a>Lecture 5 python的数据类型</h2><h3 id="一、数值类型"><a href="#一、数值类型" class="headerlink" title="一、数值类型"></a>一、数值类型</h3><p>1、整型（整数 长度不受限制）<br>2、浮点型（小数） #python的区分方式为小数点。<br># e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）<br>3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）<br><a id="more"></a></p>
+      <title><![CDATA[python3 数值、操作符与for循环memo]]></title>
+      <url>http://yoursite.com/2017/01/18/python3%20%E6%95%B0%E5%80%BC%E3%80%81%E6%93%8D%E4%BD%9C%E7%AC%A6%E4%B8%8Efor%E5%BE%AA%E7%8E%AFmemo/</url>
+      <content type="html"><![CDATA[<h2 id="Lecture-5-python的数值类型"><a href="#Lecture-5-python的数值类型" class="headerlink" title="Lecture 5 python的数值类型"></a>Lecture 5 python的数值类型</h2><h3 id="一、数值类型"><a href="#一、数值类型" class="headerlink" title="一、数值类型"></a>一、数值类型</h3><p>1、整型（整数 长度不受限制）<br>2、浮点型（小数） #python的区分方式为小数点。<br># e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）<br>3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）<br><a id="more"></a></p>
 <h3 id="二、类型转换"><a href="#二、类型转换" class="headerlink" title="二、类型转换"></a>二、类型转换</h3><p>1、整数 int()  </p>
 <pre><code>a=‘520&apos;  
 b=int(a)  
@@ -208,7 +559,7 @@ if 60&gt; score &gt;= 0:
     print(&apos;D&apos;)
 if score &lt;0 or score &gt;100:
     print(&apos;false&apos;)
-</code></pre><p>2、方法二：缩进麻烦</p>
+</code></pre><p>2、方法二：但缩进麻烦</p>
 <pre><code>score = int(input(&quot;please write down the mark:&quot;))
 if 100&gt;=score&gt;=90:
      print(&apos;A&apos;)
@@ -243,7 +594,7 @@ if x &lt; y:
 else:
      small = y
 small = x if x &lt; y else y
-</code></pre><p>三、断言（assert）<br>1、含义：当这个关键字后面条件为假时，程序自动终止，打印AssertionError异常。<br>2、作用：设置检查点，确保程序中某个条件为真才能让程序工作。<br>assert 3 &gt; 4</p>
+</code></pre><h3 id="三、断言（assert）"><a href="#三、断言（assert）" class="headerlink" title="三、断言（assert）"></a>三、断言（assert）</h3><p>1、含义：当这个关键字后面条件为假时，程序自动终止，打印AssertionError异常。<br>2、作用：设置检查点，确保程序中某个条件为真才能让程序工作。<br>assert 3 &gt; 4  </p>
 <h2 id="Lecture-9-for循环"><a href="#Lecture-9-for循环" class="headerlink" title="Lecture 9 for循环"></a>Lecture 9 for循环</h2><h3 id="一、for循环"><a href="#一、for循环" class="headerlink" title="一、for循环"></a>一、for循环</h3><p>1、语法<br>for 目标 in 表达式:<br>     循环体<br>2、例子</p>
 <pre><code>for i in practice:
     print(i)
@@ -295,83 +646,78 @@ print(&apos;smart!&apos;)
     </entry>
     
     <entry>
-      <title><![CDATA[python3 猜数字游戏memo]]></title>
-      <url>http://yoursite.com/2017/01/17/python3%20%E7%8C%9C%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8Fmemo/</url>
+      <title><![CDATA[python3 变量、if循环与while循环memo]]></title>
+      <url>http://yoursite.com/2017/01/17/python3%20%E5%8F%98%E9%87%8F%E4%B8%8Eif&while%E5%BE%AA%E7%8E%AFmemo/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>Change the world by program.<br><a id="more"></a></p>
 </blockquote>
 <h2 id="Lecture-0-Introduction"><a href="#Lecture-0-Introduction" class="headerlink" title="Lecture 0 Introduction"></a>Lecture 0 Introduction</h2><h3 id="一、python的竞争力"><a href="#一、python的竞争力" class="headerlink" title="一、python的竞争力"></a>一、python的竞争力</h3><p>0、NASA、Google等企业<br>（0）WEB：豆瓣<br>（1）3D动画：玛雅的嵌入应用<br>（2）企业应用：openERP<br>（3）云计算：云存储<br>1、跨平台<br>2、简单：其他语言对比 少代码相同程序<br>（0）java的1/5<br>（1）一个人只能维护两万行代码  </p>
 <h3 id="二、课程内容"><a href="#二、课程内容" class="headerlink" title="二、课程内容"></a>二、课程内容</h3><p>0、python3 常用语法<br>（0）python3对python2极端不兼容<br>（1）具体改动<br>1、面向对象编程思维<br>2、模块编程：乐高游戏的拼接<br>3、游戏编程：打蜜蜂、打飞机、俄罗斯方块、捕鱼猎手、rpg开发等<br>4、计算机仿真：真实世界建模<br>（0）概率实验<br>（1）影响实验<br>（2）飞行员模拟驾驶 等  </p>
-<h2 id="Lecture-1-IDLE-：python-shell"><a href="#Lecture-1-IDLE-：python-shell" class="headerlink" title="Lecture 1 IDLE ：python shell"></a>Lecture 1 IDLE ：python shell</h2><h3 id="一、字符串"><a href="#一、字符串" class="headerlink" title="一、字符串"></a>一、字符串</h3><p>0、C:<br>printf(“hello world”));<br>1、Python:</p>
-<pre><code>print("hello world")
-print("well water"+"river")
-print("well water"+" river")
-print("hello world" * 8)
-print("hello world\n" * 8)</code></pre>
-
-<h3 id="二、数值"><a href="#二、数值" class="headerlink" title="二、数值"></a>二、数值</h3><pre><code>print(5+3)  
+<h2 id="Lecture-1-IDLE-python-shell"><a href="#Lecture-1-IDLE-python-shell" class="headerlink" title="Lecture 1 IDLE: python shell"></a>Lecture 1 IDLE: python shell</h2><h3 id="一、字符串"><a href="#一、字符串" class="headerlink" title="一、字符串"></a>一、字符串</h3><p>0、C:   </p>
+<pre><code>printf(&quot;hello world&quot;));  
+</code></pre><p>1、Python:</p>
+<pre><code>print(&quot;hello world&quot;)
+print(&quot;well water&quot;+&quot;river&quot;)
+print(&quot;well water&quot;+&quot; river&quot;)
+print(&quot;hello world&quot; * 8)
+print(&quot;hello world\n&quot; * 8)&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="二、数值"><a href="#二、数值" class="headerlink" title="二、数值"></a>二、数值</h3><pre><code>print(5+3)  
 5+3  
-5*3</code></pre>
-
-<h3 id="三、思考"><a href="#三、思考" class="headerlink" title="三、思考"></a>三、思考</h3><pre><code>print("hello world" + 8) #报错：字符串和数值不可通约
-print("\"wolf\"")
-print(365\*24\*60)</code></pre>
-
-<h2 id="Lecture-2-BIF-input-amp-int"><a href="#Lecture-2-BIF-input-amp-int" class="headerlink" title="Lecture 2 BIF: input&amp;int"></a>Lecture 2 BIF: input&amp;int</h2><h3 id="一、猜数字游戏初试"><a href="#一、猜数字游戏初试" class="headerlink" title="一、猜数字游戏初试"></a>一、猜数字游戏初试</h3><pre><code>print('hello world')
-temp = input("guess my number:")
+5*3&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="三、思考"><a href="#三、思考" class="headerlink" title="三、思考"></a>三、思考</h3><pre><code>print(&quot;hello world&quot; + 8) #报错：字符串和数值不可通约
+print(&quot;\&quot;wolf\&quot;&quot;) #转义
+print(365\*24\*60)
+</code></pre><h2 id="Lecture-2-BIF-input-amp-int"><a href="#Lecture-2-BIF-input-amp-int" class="headerlink" title="Lecture 2 BIF: input&amp;int"></a>Lecture 2 BIF: input&amp;int</h2><h3 id="一、猜数字游戏初试"><a href="#一、猜数字游戏初试" class="headerlink" title="一、猜数字游戏初试"></a>一、猜数字游戏初试</h3><pre><code>print(&apos;hello world&apos;)
+temp = input(&quot;guess my number:&quot;)
 guess = int(temp)
 if guess == 8:
-    print("yes")
-    print("amazing")
+    print(&quot;yes&quot;)
+    print(&quot;amazing&quot;)
 else:
-    print(“wrong")
-print('end')</code></pre>
-
-<h3 id="二、对比C-like-eg-JAVA"><a href="#二、对比C-like-eg-JAVA" class="headerlink" title="二、对比C-like eg.JAVA"></a>二、对比C-like eg.JAVA</h3><p>0、python不用变量声明<br>1、python不用大括号，缩进是python的灵魂，缩进代替括号<br>2、if else 条件分支 :的使用<br>3、== &amp; =<br># == 相等<br># = 赋值<br>4、BIF(Bulit-in functions 内置函数)  </p>
-<pre><code>a=input(“…= ...“)  #此处输出字符串=，输出后再输入数值或字符串赋给a
+    print(“wrong&quot;)
+print(&apos;end&apos;)
+</code></pre><h3 id="二、对比C-like-eg-JAVA"><a href="#二、对比C-like-eg-JAVA" class="headerlink" title="二、对比C-like eg.JAVA"></a>二、对比C-like eg.JAVA</h3><p>0、python不用变量声明<br>1、python不用大括号，缩进是python的灵魂，缩进代替括号<br>2、if else 条件分支 :的使用<br>3、== &amp; =<br># == 相等<br># = 赋值<br>4、BIF(Bulit-in functions 内置函数)  </p>
+<pre><code>a=input(&apos;... = ...&apos;)  #此处输出字符串=，输出后再输入数值或字符串赋给a
 b=int(a) #将字符串a(整数)调整为数值
-help(input)</code></pre>
-
-<h3 id="三、注意"><a href="#三、注意" class="headerlink" title="三、注意"></a>三、注意</h3><p>（1）使用变量前需要先赋值<br>（2）变量名不能以数字开头，可以包括字母、数字、下划线（受C语言影响，python本身也是C写出来的）<br>（3）字母大小写是不同的名字<br>（4）= 左面名字右面赋值<br>（5）变量名命名尽量专业具体</p>
-<h2 id="Lecture-3-变量与字符串"><a href="#Lecture-3-变量与字符串" class="headerlink" title="Lecture 3 变量与字符串"></a>Lecture 3 变量与字符串</h2><h3 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h3><p>variable存储于内存中，给变量赋值。python没有变量，只有名字，更多地是将名字贴到值上面。<br>0、数值</p>
+help(input)
+</code></pre><h3 id="三、注意"><a href="#三、注意" class="headerlink" title="三、注意"></a>三、注意</h3><p>（1）使用变量前需要先赋值<br>（2）变量名不能以数字开头，可以包括字母、数字、下划线（受C语言影响，python本身也是C写出来的）<br>（3）字母大小写是不同的名字<br>（4）= 左面名字右面赋值<br>（5）变量名命名尽量专业具体</p>
+<h2 id="Lecture-3-变量"><a href="#Lecture-3-变量" class="headerlink" title="Lecture 3 变量"></a>Lecture 3 变量</h2><h3 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h3><p>variable存储于内存中，给变量赋值。python没有变量，只有名字，更多地是将名字贴到值上面。<br>0、数值</p>
 <pre><code>a = 1
 b = 2
 c = a+b
-print(c)</code></pre>
-1、字符串（文本）
-<pre><code>a = "b"
+print(c)
+</code></pre><p>1、字符串（文本）</p>
+<pre><code>a = &quot;b&quot;
 print(a)
-a = “c"
-print(a)</code></pre>
-2、字符串的拼接 bc
-<pre><code>a = "b"
-b = "c"
+a = “c&quot;
+print(a)
+</code></pre><p># 字符串的拼接 bc</p>
+<pre><code>a = &quot;b&quot;
+b = &quot;c&quot;
 c = a+b
-print(c)</code></pre>  
-
-<h3 id="二、字符串（文本）"><a href="#二、字符串（文本）" class="headerlink" title="二、字符串（文本）"></a>二、字符串（文本）</h3><p>0、字符串两侧有一致引号<br>1、字符串中需要出现单引号<br>（0）转义符号 \</p>
-<pre><code>print('Let\'s go!')</code></pre>
-（1）双引号套单引号
-<pre><code>print("Let's go!")</code></pre>
-2、原始字符串
-（0）输出c:\now
-<pre><code>str = "c:\now"
-str #输出为'c:\now’
-print(str) #false /n被print认为是换行</code></pre>
-（1）c:\now被print函数识别
-<pre><code>str = "c:\\now” #以\转义\
-print(str) #ok</code></pre>
-（2）多个\：考虑原始字符串r  
+print(c)
+</code></pre><h3 id="二、字符串（文本）"><a href="#二、字符串（文本）" class="headerlink" title="二、字符串（文本）"></a>二、字符串（文本）</h3><p>0、字符串两侧有一致引号<br>1、字符串中需要出现单引号<br>（0）转义符号 \</p>
+<pre><code>print(&apos;Let\&apos;s go!&apos;)
+</code></pre><p>（1）双引号套单引号</p>
+<pre><code>print(&quot;Let&apos;s go!&quot;)
+</code></pre><p>2、原始字符串<br>（0）输出c:\now</p>
+<pre><code>str = &quot;c:\now&quot;
+str #输出为&apos;c:\now’
+print(str) #false /n被print认为是换行
+</code></pre><p>（1）c:\now被print函数识别</p>
+<pre><code>str = &quot;c:\\now” #以\转义\
+print(str) #ok
+</code></pre><p>（2）多个\：考虑原始字符串r  </p>
 <pre><code>#如果有很多\则不能依次转义，会浪费资源，考虑原始字符串，在字符串前加r
-str = r"c:\now\a\b”
-str #输出为'c:\\now\\a\\b'
-print(str)</code></pre>
-（3）字尾加\
-<pre><code>str = r"c:\now\a\b\” #false 如何字尾加\
-str = r"c:\now\a\b"
-c = "\\"
-print(str+c)</code></pre>
-（4）长字符数传
+str = r&quot;c:\now\a\b”
+str #输出为&apos;c:\\now\\a\\b&apos;
+print(str)
+</code></pre><p>（3）字尾加\</p>
+<pre><code>str = r&quot;c:\now\a\b\” #false 如何字尾加\
+str = r&quot;c:\now\a\b&quot;
+c = &quot;\\&quot;
+print(str+c)
+</code></pre><p>（4）长字符数传</p>
 <pre><code>#跨越多行字符串时，考虑三重引号字符串 '''…'''
 str='''我刚才读Yeats的诗歌，
 有些话很有共鸣，
@@ -383,45 +729,51 @@ str='''我刚才读Yeats的诗歌，
 == #等于  
 != #不等于</code></pre>
 2、改进
-<pre><code>temp = input("guess my number:")
-guess = int(temp) #define guess
-if guess == 8:
-    print("yes")
-else:
-    if guess > 8:
-        print("u should guess smaller")
+
+    temp = input("guess my number:")
+    guess = int(temp) #define guess
+    if guess == 8:
+        print("yes")
     else:
-        print("u should guess bigger")
-print(“amazing, end")</code></pre>
+        if guess > 8:
+            print("u should guess smaller")
+        else:
+            print("u should guess bigger")
+    print(“amazing, end")
 
 <h3 id="二、while循环：重复猜测"><a href="#二、while循环：重复猜测" class="headerlink" title="二、while循环：重复猜测"></a>二、while循环：重复猜测</h3><p>0、目的：多次输入，也即重复运行代码<br>1、改进</p>
-<pre><code>temp = input("guess my number:")
+<pre><code>temp = input(&quot;guess my number:&quot;)
 guess = int(temp) #define guess
 while guess != 8:
-     temp = input(“wrong, please try again:")
+     temp = input(“wrong, please try again:&quot;)
      guess = int(temp)
      if guess == 8:
-         print("yes")
-     else:
-         if guess > 8:
-             print("u should guess smaller")
+         print(&quot;yes&quot;)
+       else:
+         if guess &gt; 8:
+            print(&quot;u should guess smaller&quot;)
          else:
-             print("u should guess bigger")
-print("amazing, end")</code></pre>
-
-<h3 id="三、and逻辑符：限制猜测次数"><a href="#三、and逻辑符：限制猜测次数" class="headerlink" title="三、and逻辑符：限制猜测次数"></a>三、and逻辑符：限制猜测次数</h3><p>0、and 与逻辑操作符<br>可以将任意表达式连接到一起，得到一个布尔类型(TRUE&amp;FALSE)值<br>1、符的优先级<br>3&gt;2 and 1&lt;2<br>3&lt;2 and 1&lt;2<br>#比较运算符优先级大于逻辑操作符，良好习惯可以加()优先执行<br>2、改进  </p>
-<pre><code>temp = input("guess my number:")  
+             print(&quot;u should guess bigger&quot;)
+print(&quot;amazing, end&quot;)&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="三、and逻辑符：限制猜测次数"><a href="#三、and逻辑符：限制猜测次数" class="headerlink" title="三、and逻辑符：限制猜测次数"></a>三、and逻辑符：限制猜测次数</h3><p>0、and 与逻辑操作符<br>可以将任意表达式连接到一起，得到一个布尔类型(TRUE&amp;FALSE)值<br>1、符的优先级<br>3&gt;2 and 1&lt;2<br>3&lt;2 and 1&lt;2<br>#比较运算符优先级大于逻辑操作符，良好习惯可以加()优先执行<br>2、改进  </p>
+<pre><code>temp = input(&quot;guess my number:&quot;)  
 guess = int(temp) #define guess  
 i=1  
-while guess != 8 and i<=2: temp="input("wrong," please="" try="" again:")="" guess="int(temp)" if="" 8:="" print("yes")="" print("it's="" amazing.")="" else:=""> 8:  
-             print("u should guess smaller")  
+while guess != 8 and i&lt;=2:  
+     temp = input(&quot;wrong, please try again:&quot;)  
+     guess = int(temp)  
+     if guess == 8:  
+         print(&quot;yes&quot;)  
+         print(&quot;it&apos;s amazing.&quot;)  
+     else:  
+         if guess &gt; 8:  
+             print(&quot;u should guess smaller&quot;)  
          else:  
-             print("u should guess bigger")  
+             print(&quot;u should guess bigger&quot;)  
          i=i+1  
-         print("unfortunately.")  
-print("thanking u for ur gussing")</=2:></code></pre>
-
-<h3 id="四、random模块：每次猜测的答案随机"><a href="#四、random模块：每次猜测的答案随机" class="headerlink" title="四、random模块：每次猜测的答案随机"></a>四、random模块：每次猜测的答案随机</h3><p>0、引入random模块的randint()：返回随机整数<br>1、随机数改进</p>
+         print(&quot;unfortunately.&quot;)  
+print(&quot;thanking u for ur gussing&quot;)&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="四、random模块：每次猜测的答案随机"><a href="#四、random模块：每次猜测的答案随机" class="headerlink" title="四、random模块：每次猜测的答案随机"></a>四、random模块：每次猜测的答案随机</h3><p>0、引入random模块的randint()：返回随机整数<br>1、随机数改进</p>
 <pre><code>import random  
 secret= random.randint(1,10)  
 temp = input(&quot;guess my number:&quot;)  
@@ -874,8 +1226,8 @@ print(&quot;thanking u for ur gussing&quot;)
 <h4 id="（二）、于启蒙精神的微观反抗：解构"><a href="#（二）、于启蒙精神的微观反抗：解构" class="headerlink" title="（二）、于启蒙精神的微观反抗：解构"></a>（二）、于启蒙精神的微观反抗：解构</h4><p>  Foucault认为，理性的求真精神，实际是另一种控制性力量，恢复话语的多元性、增殖性、差异性，给予边缘话题关注，拆解宏达History至众多小的history，正是Foucault的反叛，这无疑于我想起了Laporte的《屎的历史》。“便是要绕开所谓的伟大文明，搅一搅文明的下水道。”</p>
 <p>  写这篇memo是Foucault诞辰九十周年，Foucault的书我看的仍颇为吃力，便是他人的总结也有些难读，但我确确愿为Foucault门下走狗，反叛这社会既定。<br>2016.10.15 17:30 于群力</p>
 <h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>《西方历史学名著提要》</p>
-<h2 id="《伯罗奔尼撒战争史》Thucydides"><a href="#《伯罗奔尼撒战争史》Thucydides" class="headerlink" title="《伯罗奔尼撒战争史》Thucydides"></a>《伯罗奔尼撒战争史》Thucydides</h2><p>  431 B.C. – 396 B.C. Peloponnesian War，是役结束了希腊黄金时代。而Thucydides因之放逐，转为历史学家，战争史为当代史著作，记录了431 B.C. – 411 B.C. ，未完成本书即意外死亡。</p>
-<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>  是文可于标题三后开始看，首先牢骚了一下编写问题，然后简要辨析西方概念、历史学概念、历史学性质（当代交叉），及谈及了收录内容。<br>  标题三后介绍西方历史学发展脉络，提纲挈领四阶段，而或可细分七阶段。</p>
+<h4 id="《伯罗奔尼撒战争史》Thucydides"><a href="#《伯罗奔尼撒战争史》Thucydides" class="headerlink" title="《伯罗奔尼撒战争史》Thucydides"></a>《伯罗奔尼撒战争史》Thucydides</h4><p>  431 B.C. – 396 B.C. Peloponnesian War，是役结束了希腊黄金时代。而Thucydides因之放逐，转为历史学家，战争史为当代史著作，记录了431 B.C. – 411 B.C. ，未完成本书即意外死亡。</p>
+<h4 id="序"><a href="#序" class="headerlink" title="序"></a>序</h4><p>  是文可于标题三后开始看，首先牢骚了一下编写问题，然后简要辨析西方概念、历史学概念、历史学性质（当代交叉），及谈及了收录内容。<br>  标题三后介绍西方历史学发展脉络，提纲挈领四阶段，而或可细分七阶段。</p>
 <p>  6 B.C. 荷马史诗，人本思想滥觞。<br>  5 B.C. —— 476西罗马帝国覆灭，古典史学，此时代表为Hecateaus与Thucydides。<br>  476 —— 13 C，中世纪史学（基督教史学），代表为Augustine与Aquinas，发展进步观，此时出现编年史等题材。</p>
 <p>  14 C —— 18 C，人文主义史学，强调人的本性觉得了历史内部法则，代表如马基雅维利、波吉奥等。<br>  18 C，理性主义史学，强调人的理性本质，代表如Vico、伏尔泰、卢梭、孔多塞、孟德斯鸠、赫尔德、吉本等。<br>  18 C末，浪漫主义史学，回溯中世纪研究，强调历史阶段特点。</p>
 <p>  19 C，实证主义（客观主义）史学，代表如兰克学派，强调历史学的科学性、带有精英史观与西方中心特色；及此时德国的历史主义史学。</p>
@@ -2334,7 +2686,7 @@ print(&quot;thanking u for ur gussing&quot;)
 <p>“精英是指最强有力，最生气勃勃和最精明能干的人，而无论好人还是坏人。”</p>
 </blockquote>
 <p>  后半句极有意思，无论好坏，于此基础上，帕累托细分了广义与狭义的精英。<br>  广义精英指在各领域中的领军人物，以之引出了狭义精英概念——统治精英，也称政治精英，即执行政治或社会领导职能的一小部分人。帕累托于此将民众分为两个阶层，精英之外的低等阶层，与精英的高级阶层。<br>  其认为，社会的发展过程就是政治精英的无限循环的过程。他将当前的统治阶级称为旧精英，随着时间的推移，旧精英的力量会逐渐衰弱，行为会更加腐败，而被统治阶级中则将涌现出一些优秀人物形成“新精英”，他们强大而富于纪律性，通常借助宗教的力量，向腐朽的旧精英发出挑战，最终成为统治阶级。<br>  但是，新精英掌握权力后也会腐朽，并最终走上旧精英老路，被另一个新精英阶层或原来的精英阶层推翻；剩余物与衍生物、狐狸与狮子等，即构成了循环的条件，而这大的循环系统即是帕累托所谓的精英循环。</p>
-<h3 id="二、精英循环理论的历史例证"><a href="#二、精英循环理论的历史例证" class="headerlink" title="二、精英循环理论的历史例证"></a>二、精英循环理论的历史例证</h3><h4 id="（一）、历史革命"><a href="#（一）、历史革命" class="headerlink" title="（一）、历史革命"></a>（一）、历史革命</h4><p><strong> 1、法国大革命与辛亥革命 </strong></p>
+<h3 id="二、精英循环理论的历史例证"><a href="#二、精英循环理论的历史例证" class="headerlink" title="二、精英循环理论的历史例证"></a>二、精英循环理论的历史例证</h3><h4 id="（一）、历史革命"><a href="#（一）、历史革命" class="headerlink" title="（一）、历史革命"></a>（一）、历史革命</h4><p><strong> 1、法国大革命与辛亥革命 </strong>  </p>
 <blockquote>
 <p>“直到革命前夜，他们还在围攻路易十六，为金钱而吵闹。”</p>
 </blockquote>
@@ -2358,7 +2710,7 @@ print(&quot;thanking u for ur gussing&quot;)
 <p>“虽属套套逻辑，帕累托条件毕竟提供一个简单而重要的角度看世界，协助我们在解释行为的过程中，面对多而复杂的局限转变时，作出清晰的选择。”</p>
 </blockquote>
 <p>  帕累托的精英理论饱受诟病，乃及衍生了意大利法西斯，但帕累托的确给我们提供了一个独特的视角，一个似弗洛伊德笃信性是一切心理根源的人性的恶，审慎的使用帕累托理论，依旧是对于社会流动的一种有效解读。<br>  我最近时常陷入一些悲哀的思索，又适逢读了帕累托的《精英的兴衰》，一时之间不禁迷茫于人性的美丑，从这个意义上，帕累托给我的，已不仅仅是一种对于社会的思考，更是对于自己的思考，正如王阳明的心学“除心中贼难。”<br>2015.5.15</p>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>  整理博客時想起一個TED的視頻，有興趣可以找來：马丁·雅克：了解中国的崛起 Martin Jacques Understanding The Rise of China TED演讲集<br>  2016.6.1</p>
+<h3 id="五、后记"><a href="#五、后记" class="headerlink" title="五、后记"></a>五、后记</h3><p>  整理博客時想起一個TED的視頻，有興趣可以找來：Martin Jacques Understanding The Rise of China TED演讲集<br>  2016.6.1</p>
 ]]></content>
     </entry>
     

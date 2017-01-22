@@ -88,13 +88,13 @@
 
 <meta name="description" content="Change the world by program.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python3 猜数字游戏memo">
-<meta property="og:url" content="http://yoursite.com/2017/01/17/python3 猜数字游戏memo/index.html">
+<meta property="og:title" content="python3 变量、if循环与while循环memo">
+<meta property="og:url" content="http://yoursite.com/2017/01/17/python3 变量与if&while循环memo/index.html">
 <meta property="og:site_name" content="AncientDemos">
 <meta property="og:description" content="Change the world by program.">
-<meta property="og:updated_time" content="2017-01-18T05:00:52.000Z">
+<meta property="og:updated_time" content="2017-01-20T14:36:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python3 猜数字游戏memo">
+<meta name="twitter:title" content="python3 变量、if循环与while循环memo">
 <meta name="twitter:description" content="Change the world by program.">
 
 
@@ -113,7 +113,7 @@
   };
 </script>
 
-  <title> python3 猜数字游戏memo | AncientDemos </title>
+  <title> python3 变量、if循环与while循环memo | AncientDemos </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -295,7 +295,7 @@
             
             
               
-                python3 猜数字游戏memo
+                python3 变量、if循环与while循环memo
               
             
           </h1>
@@ -337,8 +337,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/01/17/python3 猜数字游戏memo/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/17/python3 猜数字游戏memo/" itemprop="commentsCount"></span>
+                <a href="/2017/01/17/python3 变量与if&while循环memo/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/17/python3 变量与if&while循环memo/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -371,76 +371,71 @@
 </blockquote>
 <h2 id="Lecture-0-Introduction"><a href="#Lecture-0-Introduction" class="headerlink" title="Lecture 0 Introduction"></a>Lecture 0 Introduction</h2><h3 id="一、python的竞争力"><a href="#一、python的竞争力" class="headerlink" title="一、python的竞争力"></a>一、python的竞争力</h3><p>0、NASA、Google等企业<br>（0）WEB：豆瓣<br>（1）3D动画：玛雅的嵌入应用<br>（2）企业应用：openERP<br>（3）云计算：云存储<br>1、跨平台<br>2、简单：其他语言对比 少代码相同程序<br>（0）java的1/5<br>（1）一个人只能维护两万行代码  </p>
 <h3 id="二、课程内容"><a href="#二、课程内容" class="headerlink" title="二、课程内容"></a>二、课程内容</h3><p>0、python3 常用语法<br>（0）python3对python2极端不兼容<br>（1）具体改动<br>1、面向对象编程思维<br>2、模块编程：乐高游戏的拼接<br>3、游戏编程：打蜜蜂、打飞机、俄罗斯方块、捕鱼猎手、rpg开发等<br>4、计算机仿真：真实世界建模<br>（0）概率实验<br>（1）影响实验<br>（2）飞行员模拟驾驶 等  </p>
-<h2 id="Lecture-1-IDLE-：python-shell"><a href="#Lecture-1-IDLE-：python-shell" class="headerlink" title="Lecture 1 IDLE ：python shell"></a>Lecture 1 IDLE ：python shell</h2><h3 id="一、字符串"><a href="#一、字符串" class="headerlink" title="一、字符串"></a>一、字符串</h3><p>0、C:<br>printf(“hello world”));<br>1、Python:</p>
-<pre><code>print("hello world")
-print("well water"+"river")
-print("well water"+" river")
-print("hello world" * 8)
-print("hello world\n" * 8)</code></pre>
-
-<h3 id="二、数值"><a href="#二、数值" class="headerlink" title="二、数值"></a>二、数值</h3><pre><code>print(5+3)  
+<h2 id="Lecture-1-IDLE-python-shell"><a href="#Lecture-1-IDLE-python-shell" class="headerlink" title="Lecture 1 IDLE: python shell"></a>Lecture 1 IDLE: python shell</h2><h3 id="一、字符串"><a href="#一、字符串" class="headerlink" title="一、字符串"></a>一、字符串</h3><p>0、C:   </p>
+<pre><code>printf(&quot;hello world&quot;));  
+</code></pre><p>1、Python:</p>
+<pre><code>print(&quot;hello world&quot;)
+print(&quot;well water&quot;+&quot;river&quot;)
+print(&quot;well water&quot;+&quot; river&quot;)
+print(&quot;hello world&quot; * 8)
+print(&quot;hello world\n&quot; * 8)&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="二、数值"><a href="#二、数值" class="headerlink" title="二、数值"></a>二、数值</h3><pre><code>print(5+3)  
 5+3  
-5*3</code></pre>
-
-<h3 id="三、思考"><a href="#三、思考" class="headerlink" title="三、思考"></a>三、思考</h3><pre><code>print("hello world" + 8) #报错：字符串和数值不可通约
-print("\"wolf\"")
-print(365\*24\*60)</code></pre>
-
-<h2 id="Lecture-2-BIF-input-amp-int"><a href="#Lecture-2-BIF-input-amp-int" class="headerlink" title="Lecture 2 BIF: input&amp;int"></a>Lecture 2 BIF: input&amp;int</h2><h3 id="一、猜数字游戏初试"><a href="#一、猜数字游戏初试" class="headerlink" title="一、猜数字游戏初试"></a>一、猜数字游戏初试</h3><pre><code>print('hello world')
-temp = input("guess my number:")
+5*3&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="三、思考"><a href="#三、思考" class="headerlink" title="三、思考"></a>三、思考</h3><pre><code>print(&quot;hello world&quot; + 8) #报错：字符串和数值不可通约
+print(&quot;\&quot;wolf\&quot;&quot;) #转义
+print(365\*24\*60)
+</code></pre><h2 id="Lecture-2-BIF-input-amp-int"><a href="#Lecture-2-BIF-input-amp-int" class="headerlink" title="Lecture 2 BIF: input&amp;int"></a>Lecture 2 BIF: input&amp;int</h2><h3 id="一、猜数字游戏初试"><a href="#一、猜数字游戏初试" class="headerlink" title="一、猜数字游戏初试"></a>一、猜数字游戏初试</h3><pre><code>print(&apos;hello world&apos;)
+temp = input(&quot;guess my number:&quot;)
 guess = int(temp)
 if guess == 8:
-    print("yes")
-    print("amazing")
+    print(&quot;yes&quot;)
+    print(&quot;amazing&quot;)
 else:
-    print(“wrong")
-print('end')</code></pre>
-
-<h3 id="二、对比C-like-eg-JAVA"><a href="#二、对比C-like-eg-JAVA" class="headerlink" title="二、对比C-like eg.JAVA"></a>二、对比C-like eg.JAVA</h3><p>0、python不用变量声明<br>1、python不用大括号，缩进是python的灵魂，缩进代替括号<br>2、if else 条件分支 :的使用<br>3、== &amp; =<br># == 相等<br># = 赋值<br>4、BIF(Bulit-in functions 内置函数)  </p>
-<pre><code>a=input(“…= ...“)  #此处输出字符串=，输出后再输入数值或字符串赋给a
+    print(“wrong&quot;)
+print(&apos;end&apos;)
+</code></pre><h3 id="二、对比C-like-eg-JAVA"><a href="#二、对比C-like-eg-JAVA" class="headerlink" title="二、对比C-like eg.JAVA"></a>二、对比C-like eg.JAVA</h3><p>0、python不用变量声明<br>1、python不用大括号，缩进是python的灵魂，缩进代替括号<br>2、if else 条件分支 :的使用<br>3、== &amp; =<br># == 相等<br># = 赋值<br>4、BIF(Bulit-in functions 内置函数)  </p>
+<pre><code>a=input(&apos;... = ...&apos;)  #此处输出字符串=，输出后再输入数值或字符串赋给a
 b=int(a) #将字符串a(整数)调整为数值
-help(input)</code></pre>
-
-<h3 id="三、注意"><a href="#三、注意" class="headerlink" title="三、注意"></a>三、注意</h3><p>（1）使用变量前需要先赋值<br>（2）变量名不能以数字开头，可以包括字母、数字、下划线（受C语言影响，python本身也是C写出来的）<br>（3）字母大小写是不同的名字<br>（4）= 左面名字右面赋值<br>（5）变量名命名尽量专业具体</p>
-<h2 id="Lecture-3-变量与字符串"><a href="#Lecture-3-变量与字符串" class="headerlink" title="Lecture 3 变量与字符串"></a>Lecture 3 变量与字符串</h2><h3 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h3><p>variable存储于内存中，给变量赋值。python没有变量，只有名字，更多地是将名字贴到值上面。<br>0、数值</p>
+help(input)
+</code></pre><h3 id="三、注意"><a href="#三、注意" class="headerlink" title="三、注意"></a>三、注意</h3><p>（1）使用变量前需要先赋值<br>（2）变量名不能以数字开头，可以包括字母、数字、下划线（受C语言影响，python本身也是C写出来的）<br>（3）字母大小写是不同的名字<br>（4）= 左面名字右面赋值<br>（5）变量名命名尽量专业具体</p>
+<h2 id="Lecture-3-变量"><a href="#Lecture-3-变量" class="headerlink" title="Lecture 3 变量"></a>Lecture 3 变量</h2><h3 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h3><p>variable存储于内存中，给变量赋值。python没有变量，只有名字，更多地是将名字贴到值上面。<br>0、数值</p>
 <pre><code>a = 1
 b = 2
 c = a+b
-print(c)</code></pre>
-1、字符串（文本）
-<pre><code>a = "b"
+print(c)
+</code></pre><p>1、字符串（文本）</p>
+<pre><code>a = &quot;b&quot;
 print(a)
-a = “c"
-print(a)</code></pre>
-2、字符串的拼接 bc
-<pre><code>a = "b"
-b = "c"
+a = “c&quot;
+print(a)
+</code></pre><p># 字符串的拼接 bc</p>
+<pre><code>a = &quot;b&quot;
+b = &quot;c&quot;
 c = a+b
-print(c)</code></pre>  
-
-<h3 id="二、字符串（文本）"><a href="#二、字符串（文本）" class="headerlink" title="二、字符串（文本）"></a>二、字符串（文本）</h3><p>0、字符串两侧有一致引号<br>1、字符串中需要出现单引号<br>（0）转义符号 \</p>
-<pre><code>print('Let\'s go!')</code></pre>
-（1）双引号套单引号
-<pre><code>print("Let's go!")</code></pre>
-2、原始字符串
-（0）输出c:\now
-<pre><code>str = "c:\now"
-str #输出为'c:\now’
-print(str) #false /n被print认为是换行</code></pre>
-（1）c:\now被print函数识别
-<pre><code>str = "c:\\now” #以\转义\
-print(str) #ok</code></pre>
-（2）多个\：考虑原始字符串r  
+print(c)
+</code></pre><h3 id="二、字符串（文本）"><a href="#二、字符串（文本）" class="headerlink" title="二、字符串（文本）"></a>二、字符串（文本）</h3><p>0、字符串两侧有一致引号<br>1、字符串中需要出现单引号<br>（0）转义符号 \</p>
+<pre><code>print(&apos;Let\&apos;s go!&apos;)
+</code></pre><p>（1）双引号套单引号</p>
+<pre><code>print(&quot;Let&apos;s go!&quot;)
+</code></pre><p>2、原始字符串<br>（0）输出c:\now</p>
+<pre><code>str = &quot;c:\now&quot;
+str #输出为&apos;c:\now’
+print(str) #false /n被print认为是换行
+</code></pre><p>（1）c:\now被print函数识别</p>
+<pre><code>str = &quot;c:\\now” #以\转义\
+print(str) #ok
+</code></pre><p>（2）多个\：考虑原始字符串r  </p>
 <pre><code>#如果有很多\则不能依次转义，会浪费资源，考虑原始字符串，在字符串前加r
-str = r"c:\now\a\b”
-str #输出为'c:\\now\\a\\b'
-print(str)</code></pre>
-（3）字尾加\
-<pre><code>str = r"c:\now\a\b\” #false 如何字尾加\
-str = r"c:\now\a\b"
-c = "\\"
-print(str+c)</code></pre>
-（4）长字符数传
+str = r&quot;c:\now\a\b”
+str #输出为&apos;c:\\now\\a\\b&apos;
+print(str)
+</code></pre><p>（3）字尾加\</p>
+<pre><code>str = r&quot;c:\now\a\b\” #false 如何字尾加\
+str = r&quot;c:\now\a\b&quot;
+c = &quot;\\&quot;
+print(str+c)
+</code></pre><p>（4）长字符数传</p>
 <pre><code>#跨越多行字符串时，考虑三重引号字符串 '''…'''
 str='''我刚才读Yeats的诗歌，
 有些话很有共鸣，
@@ -452,45 +447,51 @@ str='''我刚才读Yeats的诗歌，
 == #等于  
 != #不等于</code></pre>
 2、改进
-<pre><code>temp = input("guess my number:")
-guess = int(temp) #define guess
-if guess == 8:
-    print("yes")
-else:
-    if guess > 8:
-        print("u should guess smaller")
+
+    temp = input("guess my number:")
+    guess = int(temp) #define guess
+    if guess == 8:
+        print("yes")
     else:
-        print("u should guess bigger")
-print(“amazing, end")</code></pre>
+        if guess > 8:
+            print("u should guess smaller")
+        else:
+            print("u should guess bigger")
+    print(“amazing, end")
 
 <h3 id="二、while循环：重复猜测"><a href="#二、while循环：重复猜测" class="headerlink" title="二、while循环：重复猜测"></a>二、while循环：重复猜测</h3><p>0、目的：多次输入，也即重复运行代码<br>1、改进</p>
-<pre><code>temp = input("guess my number:")
+<pre><code>temp = input(&quot;guess my number:&quot;)
 guess = int(temp) #define guess
 while guess != 8:
-     temp = input(“wrong, please try again:")
+     temp = input(“wrong, please try again:&quot;)
      guess = int(temp)
      if guess == 8:
-         print("yes")
-     else:
-         if guess > 8:
-             print("u should guess smaller")
+         print(&quot;yes&quot;)
+       else:
+         if guess &gt; 8:
+            print(&quot;u should guess smaller&quot;)
          else:
-             print("u should guess bigger")
-print("amazing, end")</code></pre>
-
-<h3 id="三、and逻辑符：限制猜测次数"><a href="#三、and逻辑符：限制猜测次数" class="headerlink" title="三、and逻辑符：限制猜测次数"></a>三、and逻辑符：限制猜测次数</h3><p>0、and 与逻辑操作符<br>可以将任意表达式连接到一起，得到一个布尔类型(TRUE&amp;FALSE)值<br>1、符的优先级<br>3&gt;2 and 1&lt;2<br>3&lt;2 and 1&lt;2<br>#比较运算符优先级大于逻辑操作符，良好习惯可以加()优先执行<br>2、改进  </p>
-<pre><code>temp = input("guess my number:")  
+             print(&quot;u should guess bigger&quot;)
+print(&quot;amazing, end&quot;)&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="三、and逻辑符：限制猜测次数"><a href="#三、and逻辑符：限制猜测次数" class="headerlink" title="三、and逻辑符：限制猜测次数"></a>三、and逻辑符：限制猜测次数</h3><p>0、and 与逻辑操作符<br>可以将任意表达式连接到一起，得到一个布尔类型(TRUE&amp;FALSE)值<br>1、符的优先级<br>3&gt;2 and 1&lt;2<br>3&lt;2 and 1&lt;2<br>#比较运算符优先级大于逻辑操作符，良好习惯可以加()优先执行<br>2、改进  </p>
+<pre><code>temp = input(&quot;guess my number:&quot;)  
 guess = int(temp) #define guess  
 i=1  
-while guess != 8 and i<=2: temp="input("wrong," please="" try="" again:")="" guess="int(temp)" if="" 8:="" print("yes")="" print("it's="" amazing.")="" else:=""> 8:  
-             print("u should guess smaller")  
+while guess != 8 and i&lt;=2:  
+     temp = input(&quot;wrong, please try again:&quot;)  
+     guess = int(temp)  
+     if guess == 8:  
+         print(&quot;yes&quot;)  
+         print(&quot;it&apos;s amazing.&quot;)  
+     else:  
+         if guess &gt; 8:  
+             print(&quot;u should guess smaller&quot;)  
          else:  
-             print("u should guess bigger")  
+             print(&quot;u should guess bigger&quot;)  
          i=i+1  
-         print("unfortunately.")  
-print("thanking u for ur gussing")</=2:></code></pre>
-
-<h3 id="四、random模块：每次猜测的答案随机"><a href="#四、random模块：每次猜测的答案随机" class="headerlink" title="四、random模块：每次猜测的答案随机"></a>四、random模块：每次猜测的答案随机</h3><p>0、引入random模块的randint()：返回随机整数<br>1、随机数改进</p>
+         print(&quot;unfortunately.&quot;)  
+print(&quot;thanking u for ur gussing&quot;)&lt;/code&gt;&lt;/pre&gt;
+</code></pre><h3 id="四、random模块：每次猜测的答案随机"><a href="#四、random模块：每次猜测的答案随机" class="headerlink" title="四、random模块：每次猜测的答案随机"></a>四、random模块：每次猜测的答案随机</h3><p>0、引入random模块的randint()：返回随机整数<br>1、随机数改进</p>
 <pre><code>import random  
 secret= random.randint(1,10)  
 temp = input(&quot;guess my number:&quot;)  
@@ -579,8 +580,8 @@ print(&quot;thanking u for ur gussing&quot;)
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/01/18/python3 分支与循环memo/" rel="prev" title="python3 分支与循环memo">
-                python3 分支与循环memo <i class="fa fa-chevron-right"></i>
+              <a href="/2017/01/18/python3 数值、操作符与for循环memo/" rel="prev" title="python3 数值、操作符与for循环memo">
+                python3 数值、操作符与for循环memo <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -607,8 +608,8 @@ print(&quot;thanking u for ur gussing&quot;)
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/01/17/python3 猜数字游戏memo/"
-           data-title="python3 猜数字游戏memo" data-url="http://yoursite.com/2017/01/17/python3 猜数字游戏memo/">
+      <div class="ds-thread" data-thread-key="2017/01/17/python3 变量与if&while循环memo/"
+           data-title="python3 变量、if循环与while循环memo" data-url="http://yoursite.com/2017/01/17/python3 变量与if&while循环memo/">
       </div>
     
   </div>
@@ -653,7 +654,7 @@ print(&quot;thanking u for ur gussing&quot;)
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">84</span>
+              <span class="site-state-item-count">86</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -670,7 +671,7 @@ print(&quot;thanking u for ur gussing&quot;)
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">134</span>
+                <span class="site-state-item-count">132</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -753,7 +754,7 @@ print(&quot;thanking u for ur gussing&quot;)
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-0-Introduction"><span class="nav-text">Lecture 0 Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、python的竞争力"><span class="nav-text">一、python的竞争力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、课程内容"><span class="nav-text">二、课程内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-1-IDLE-：python-shell"><span class="nav-text">Lecture 1 IDLE ：python shell</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、字符串"><span class="nav-text">一、字符串</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、数值"><span class="nav-text">二、数值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、思考"><span class="nav-text">三、思考</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-2-BIF-input-amp-int"><span class="nav-text">Lecture 2 BIF: input&int</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、猜数字游戏初试"><span class="nav-text">一、猜数字游戏初试</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、对比C-like-eg-JAVA"><span class="nav-text">二、对比C-like eg.JAVA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、注意"><span class="nav-text">三、注意</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-3-变量与字符串"><span class="nav-text">Lecture 3 变量与字符串</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、变量"><span class="nav-text">一、变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、字符串（文本）"><span class="nav-text">二、字符串（文本）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-4-猜数字游戏改进"><span class="nav-text">Lecture 4 猜数字游戏改进</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、条件分支：if-else"><span class="nav-text">一、条件分支：if else</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、while循环：重复猜测"><span class="nav-text">二、while循环：重复猜测</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、and逻辑符：限制猜测次数"><span class="nav-text">三、and逻辑符：限制猜测次数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、random模块：每次猜测的答案随机"><span class="nav-text">四、random模块：每次猜测的答案随机</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-0-Introduction"><span class="nav-text">Lecture 0 Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、python的竞争力"><span class="nav-text">一、python的竞争力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、课程内容"><span class="nav-text">二、课程内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-1-IDLE-python-shell"><span class="nav-text">Lecture 1 IDLE: python shell</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、字符串"><span class="nav-text">一、字符串</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、数值"><span class="nav-text">二、数值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、思考"><span class="nav-text">三、思考</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-2-BIF-input-amp-int"><span class="nav-text">Lecture 2 BIF: input&int</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、猜数字游戏初试"><span class="nav-text">一、猜数字游戏初试</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、对比C-like-eg-JAVA"><span class="nav-text">二、对比C-like eg.JAVA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、注意"><span class="nav-text">三、注意</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-3-变量"><span class="nav-text">Lecture 3 变量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、变量"><span class="nav-text">一、变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、字符串（文本）"><span class="nav-text">二、字符串（文本）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-4-猜数字游戏改进"><span class="nav-text">Lecture 4 猜数字游戏改进</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、条件分支：if-else"><span class="nav-text">一、条件分支：if else</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、while循环：重复猜测"><span class="nav-text">二、while循环：重复猜测</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、and逻辑符：限制猜测次数"><span class="nav-text">三、and逻辑符：限制猜测次数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、random模块：每次猜测的答案随机"><span class="nav-text">四、random模块：每次猜测的答案随机</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
             
           </div>
         </section>

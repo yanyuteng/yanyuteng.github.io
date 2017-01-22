@@ -86,16 +86,22 @@
 
 
 
-<meta name="description" content="Lecture 5 python的数据类型一、数值类型1、整型（整数 长度不受限制）2、浮点型（小数） #python的区分方式为小数点。# e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）">
+<meta name="description" content="第一节 html初步一、网页的一般结构html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python3 分支与循环memo">
-<meta property="og:url" content="http://yoursite.com/2017/01/18/python3 分支与循环memo/index.html">
+<meta property="og:title" content="python3 爬虫基础memo">
+<meta property="og:url" content="http://yoursite.com/2017/01/18/python3 爬虫基础memo/index.html">
 <meta property="og:site_name" content="AncientDemos">
-<meta property="og:description" content="Lecture 5 python的数据类型一、数值类型1、整型（整数 长度不受限制）2、浮点型（小数） #python的区分方式为小数点。# e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）">
-<meta property="og:updated_time" content="2017-01-18T10:43:47.000Z">
+<meta property="og:description" content="第一节 html初步一、网页的一般结构html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。">
+<meta property="og:updated_time" content="2017-01-18T11:23:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python3 分支与循环memo">
-<meta name="twitter:description" content="Lecture 5 python的数据类型一、数值类型1、整型（整数 长度不受限制）2、浮点型（小数） #python的区分方式为小数点。# e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）">
+<meta name="twitter:title" content="python3 爬虫基础memo">
+<meta name="twitter:description" content="第一节 html初步一、网页的一般结构html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。">
 
 
 
@@ -113,7 +119,7 @@
   };
 </script>
 
-  <title> python3 分支与循环memo | AncientDemos </title>
+  <title> python3 爬虫基础memo | AncientDemos </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -295,7 +301,7 @@
             
             
               
-                python3 分支与循环memo
+                python3 爬虫基础memo
               
             
           </h1>
@@ -307,7 +313,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-01-18T12:54:00+08:00" content="2017-01-18">
+            <time itemprop="dateCreated" datetime="2017-01-18T18:58:00+08:00" content="2017-01-18">
               2017-01-18
             </time>
           </span>
@@ -337,8 +343,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/01/18/python3 分支与循环memo/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/18/python3 分支与循环memo/" itemprop="commentsCount"></span>
+                <a href="/2017/01/18/python3 爬虫基础memo/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/18/python3 爬虫基础memo/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -366,169 +372,122 @@
       
 
       
-        <h2 id="Lecture-5-python的数据类型"><a href="#Lecture-5-python的数据类型" class="headerlink" title="Lecture 5 python的数据类型"></a>Lecture 5 python的数据类型</h2><h3 id="一、数值类型"><a href="#一、数值类型" class="headerlink" title="一、数值类型"></a>一、数值类型</h3><p>1、整型（整数 长度不受限制）<br>2、浮点型（小数） #python的区分方式为小数点。<br># e记法（浮点型的科学计数法，特别大或特别小 eg.1.5e4=1.5*(10^4)）<br>3、布尔类型（bool 特殊的整型 TRUE=1 FALSE=0）<br><a id="more"></a></p>
-<h3 id="二、类型转换"><a href="#二、类型转换" class="headerlink" title="二、类型转换"></a>二、类型转换</h3><p>1、整数 int()  </p>
-<pre><code>a=‘520&apos;  
-b=int(a)  
-a=‘5.99&apos;  
-c=int(a) #输出为5
-</code></pre><p>2、字符串 str()</p>
-<pre><code>a=5.99
-b=str(a)
-c=str(5e19) #输出为&apos;5e19&apos;
-</code></pre><p>3、浮点数 float()</p>
-<h3 id="三、获取类型信息"><a href="#三、获取类型信息" class="headerlink" title="三、获取类型信息"></a>三、获取类型信息</h3><p>1、type()</p>
-<pre><code>a=‘520&apos;
-b=5.2
-type(a)
-</code></pre><p>2、isinstance()</p>
-<pre><code>isinstance(a,str)
-isinstance(320,int) #TURE
-</code></pre><h2 id="Lecture-6-python的常用操作符"><a href="#Lecture-6-python的常用操作符" class="headerlink" title="Lecture 6 python的常用操作符"></a>Lecture 6 python的常用操作符</h2><h3 id="一、算术操作符"><a href="#一、算术操作符" class="headerlink" title="一、算术操作符"></a>一、算术操作符</h3><p>1、+=</p>
-<pre><code>a = 5
-a += 3 # b=a+3   求b
-</code></pre><p>2、*=</p>
-<pre><code>c = 10
-c \*= 10 # c=100
-</code></pre><p>3、/=</p>
-<pre><code>c /= 10 # c=1.25
-# python3 与python2不同在于，真除法代替地板除法。
-c//=8 #仍为地板除法，只保留整数 c=1
-</code></pre><p>4、% 保留余数</p>
-<pre><code>5 % 2 #1
-11 % 2 #1
-</code></pre><p>5、** 幂运算</p>
-<pre><code>3**3 #27
-</code></pre><p>6、优先级</p>
-<pre><code>#先乘除后加减，and比较先于计算（二元操作符）
--3*2+5/-2-4 # -12.5
-# ** 幂运算高于左侧，低于右侧
- (-3) ** 2 #9
- -3 ** 2 #-9
-3 ** -2 #0.1111
-</code></pre><h3 id="二、比较操作符"><a href="#二、比较操作符" class="headerlink" title="二、比较操作符"></a>二、比较操作符</h3><p>&lt; &gt; &lt;= &gt;= == !=</p>
-<h3 id="三、逻辑操作符"><a href="#三、逻辑操作符" class="headerlink" title="三、逻辑操作符"></a>三、逻辑操作符</h3><p>1、and 与<br>2、or 或<br>3、not（一元操作符，取相反bool）<br>not 0 #0为FALSE 返回TRUE</p>
-<h3 id="四、优先级"><a href="#四、优先级" class="headerlink" title="四、优先级"></a>四、优先级</h3><p>1、幂运算 **<br>2、正负号<br>3、算术操作符<br>4、比较操作符<br>5、逻辑运算符（not &gt; and &gt; or）</p>
-<h2 id="Lecture-7-打飞机的游戏机制"><a href="#Lecture-7-打飞机的游戏机制" class="headerlink" title="Lecture 7 打飞机的游戏机制"></a>Lecture 7 打飞机的游戏机制</h2><p>原理：进入一个大循环，只要未触发死亡，小飞机不断生成。<br>1、加载背景音乐<br>2、播放背景音乐（循环）<br>3、我方飞机生成<br>4（5）、interval = 0 #没有interval会不间断生成满屏幕飞机<br>5（4）、进入循环  </p>
-<pre><code>while True：  
-    if 用户是否点击了关闭按钮：  
-          结束程序  
-    else  
-          继续  
+        <h2 id="第一节-html初步"><a href="#第一节-html初步" class="headerlink" title="第一节 html初步"></a>第一节 html初步</h2><h3 id="一、网页的一般结构"><a href="#一、网页的一般结构" class="headerlink" title="一、网页的一般结构"></a>一、网页的一般结构</h3><pre><code>html: &lt;&gt;  # html是结构部分，客厅、卧室等。  
+CSS: &lt;div class=&quot; &quot;&gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &lt;script&gt;  #JavaScript是功能，房间中的电器。 
+</code></pre><a id="more"></a>
+<h3 id="二、网页结构的逐步丰富"><a href="#二、网页结构的逐步丰富" class="headerlink" title="二、网页结构的逐步丰富"></a>二、网页结构的逐步丰富</h3><h4 id="1、固定区域"><a href="#1、固定区域" class="headerlink" title="1、固定区域"></a>1、固定区域</h4><pre><code>&lt;div &gt;
+&lt;/div&gt;
+</code></pre><h4 id="2、增加标签-图片、标题-html"><a href="#2、增加标签-图片、标题-html" class="headerlink" title="2、增加标签 图片、标题 html"></a>2、增加标签 图片、标题 html</h4><pre><code>&lt;div &gt;
+     &lt;p&gt;Wow!&lt;/p&gt;
+&lt;/div&gt;
+</code></pre><h4 id="3、增加CSS样式修饰"><a href="#3、增加CSS样式修饰" class="headerlink" title="3、增加CSS样式修饰"></a>3、增加CSS样式修饰</h4><pre><code>&lt;div class = &quot;a&quot;&gt;
+     &lt;p&gt;Wow!&lt;/p&gt;
+&lt;/div&gt;
 
-    interval += 1 #累计时间以刷新飞机
 
-       if interval == 50：
-          interval = 0 #刷新interval时间
-          小飞机诞生
+&lt;p&gt;&lt;/p&gt; #写文字的内容
+&lt;div &gt; &lt;/div&gt; #某区域的框架
+&lt;li&gt;&lt;/li&gt; #列表
+&lt;img&gt; #图
+&lt;h1&gt;&lt;/h1&gt; &lt;h6&gt;&lt;/h6&gt; #不同字号的标题
+&lt;a&gt; #链接
+&lt;a href = “”&gt; #标签内跟属性href指向的链接
 
-     小飞机移动一个位置 #移到if外 否则会卡顿
-     屏幕刷新
+&lt;head&gt;&lt;/head&gt; #浏览器看的
+&lt;body&gt;&lt;/body&gt; #我们看到的
+</code></pre><p>#标签能嵌套，元素有层级</p>
+<h3 id="三、案例：写一个网页"><a href="#三、案例：写一个网页" class="headerlink" title="三、案例：写一个网页"></a>三、案例：写一个网页</h3><h4 id="（一）、预期结构"><a href="#（一）、预期结构" class="headerlink" title="（一）、预期结构"></a>（一）、预期结构</h4><p>1、header<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> big logo </strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nav1 nav2 nav3<br>2、content<br>pic title description …<br>3、footer  </p>
+<h4 id="（二）、案例"><a href="#（二）、案例" class="headerlink" title="（二）、案例"></a>（二）、案例</h4><p># CSS样式是之前写好的，这里直接引用，爬虫不涉及理解CSS写法 </p>
+<pre><code>&lt;!DOCTYPE html&gt; #声明
+&lt;html lang=&quot;en&quot;&gt;
 
-     if 用户鼠标产生移动：
-        我方飞机中心位置=用户鼠标位置
-        屏幕刷新
+&lt;head&gt;
+     &lt;meta charset=“UTF-8&quot;&gt;
+     &lt;title&gt;yanyuteng&lt;/title&gt;
+     &lt;link rel=“stylesheet” type=“text/css” href=“main.css”&gt;  #加载CSS样式
+&lt;/head&gt;
 
-     if 我方飞机与小飞机肢体冲突：
-        我方死亡，播放死亡音乐
-        我方飞机图案修改
-        打印’game over’
-        渐变停止背景音乐
-</code></pre><h2 id="Lecture-8-条件表达式与assert"><a href="#Lecture-8-条件表达式与assert" class="headerlink" title="Lecture 8 条件表达式与assert"></a>Lecture 8 条件表达式与assert</h2><h3 id="一、输入转换"><a href="#一、输入转换" class="headerlink" title="一、输入转换"></a>一、输入转换</h3><p>1、方法一：常规法</p>
-<pre><code>score = int(input(&apos;please write down the mark:&apos;))
-if 100&gt;= score &gt;= 90:
-    print(&apos;A&apos;)
-if 90&gt; score &gt;= 80: #二次后的判断是浪费的
-    print(&apos;B&apos;)
-if 80&gt; score &gt;= 60:
-    print(&apos;C&apos;)
-if 60&gt; score &gt;= 0:
-    print(&apos;D&apos;)
-if score &lt;0 or score &gt;100:
-    print(&apos;false&apos;)
-</code></pre><p>2、方法二：缩进麻烦</p>
-<pre><code>score = int(input(&quot;please write down the mark:&quot;))
-if 100&gt;=score&gt;=90:
-     print(&apos;A&apos;)
-else:
-     if 90&gt; score &gt;= 80:
-          print(&apos;B&apos;)
-     else:
-          if 80&gt; score &gt;= 60:
-               print(&apos;C&apos;)
-          else:
-               if 60&gt; score &gt;= 0:
-                print(&apos;D&apos;)
-           else:
-                print(&apos;false&apos;)
-</code></pre><p>3、方法三：改进二</p>
-<pre><code>score = int(input(&apos;please write down the mark:&apos;))
-if 100&gt;= score &gt;= 90:
-     print(&apos;A&apos;)
-else 90&gt; score &gt;= 80: #C else if 节省判断时间
-     print(&apos;B&apos;)
-else 80&gt; score &gt;= 60:
-     print(&apos;C&apos;)
-else 60&gt; score &gt;= 0:
-     print(&apos;D&apos;)
-else:
-     print(&apos;false&apos;)
-</code></pre><p>#python可以有效避免悬挂else<br>#C语言就近if else匹配，python则利用tab减少不确定性。</p>
-<h3 id="二、条件表达式（三元操作符）"><a href="#二、条件表达式（三元操作符）" class="headerlink" title="二、条件表达式（三元操作符）"></a>二、条件表达式（三元操作符）</h3><p>1、含义：元为操作数，三元即是三个操作数。<br>2、例子</p>
-<pre><code>x, y = 4, 5
-if x &lt; y:
-     small = x
-else:
-     small = y
-small = x if x &lt; y else y
-</code></pre><p>三、断言（assert）<br>1、含义：当这个关键字后面条件为假时，程序自动终止，打印AssertionError异常。<br>2、作用：设置检查点，确保程序中某个条件为真才能让程序工作。<br>assert 3 &gt; 4</p>
-<h2 id="Lecture-9-for循环"><a href="#Lecture-9-for循环" class="headerlink" title="Lecture 9 for循环"></a>Lecture 9 for循环</h2><h3 id="一、for循环"><a href="#一、for循环" class="headerlink" title="一、for循环"></a>一、for循环</h3><p>1、语法<br>for 目标 in 表达式:<br>     循环体<br>2、例子</p>
-<pre><code>for i in practice:
-    print(i)
-for i in practice:
-    print(i, end=&quot;&quot;)
+&lt;body&gt;
+     &lt;div class=&quot;header”&gt; #导入CSS样式
+          &lt;img src=“来源图片&quot;&gt;
+          &lt;url class=“nav”&gt; #导入CSS样式
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; #&lt;a href=“”&gt; 指向链接
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Site&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Other&lt;/a&gt;&lt;/li&gt;
+           &lt;/url&gt;
+     &lt;/div&gt;
 
-number=[&apos;yanyuteng&apos;,&apos;demos&apos;,&apos;xiaojiayu&apos;,&apos;python&apos;]
+     &lt;div class=“main-content”&gt; #加CSS修饰
+          &lt;h2&gt;&lt;/h2&gt;
+          &lt;url&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0001.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt; #修饰img中大小属性
+                    &lt;h3&gt;the prose1&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0002.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt;
+                    &lt;h3&gt;the prose2&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0003.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt;
+                    &lt;h3&gt;the prose3&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+          &lt;/url&gt;
+     &lt;/div class=“footer&quot;&gt;
+         &lt;p&gt;html learning&lt;/p&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
 
-for i in number:
-    print(i, len(numeber))
-#yanyuteng 4
-#demos 4
-#xiaojiayu 4
-#python 4
+&lt;/html&gt;
+</code></pre><h2 id="第二节-解析网页"><a href="#第二节-解析网页" class="headerlink" title="第二节 解析网页"></a>第二节 解析网页</h2><h3 id="一、流程"><a href="#一、流程" class="headerlink" title="一、流程"></a>一、流程</h3><p>1、使用BeautifulSoup解析<br>    Soup = BeautifulSoup(html,’lxml’)<br>2、描述爬取内容的位置<br>#名字、位置<br>xxx = Soup.select(‘xxx’)<br>3、标签中获得信息，并初步整理  </p>
+<pre><code>&lt;p&gt;something&lt;/p&gt;  
+</code></pre><h3 id="二、BeautifulSoup理解"><a href="#二、BeautifulSoup理解" class="headerlink" title="二、BeautifulSoup理解"></a>二、BeautifulSoup理解</h3><pre><code>Soup = BeautifulSoup(html,&apos;lxml&apos;)
+汤                    食材  食谱
+# html是解析材料
+# lxml是解析所用的库，目前有五种。
+</code></pre><h3 id="三、BeautifulSoup解析"><a href="#三、BeautifulSoup解析" class="headerlink" title="三、BeautifulSoup解析"></a>三、BeautifulSoup解析</h3><p>1、获取位置<br>CSS Selector:  #BeautifulSoup识别<br>XPath:  #其他库可以识别，BeautifulSoup不识别<br>2、XPath  </p>
+<pre><code>/html/body/div[2]/ul/li[1]/img #元素完整或绝对路径  
+# html总结点下两个子节点 body与head，body与head是兄弟节点，body下类比有body的子节点，也即是html的子孙节点。 
+</code></pre><p>3、CSS Selector</p>
+<pre><code>body &gt; div.main-content &gt; ul &gt; li:nth-child(1) &gt; img
+\# main-content CSS样式，较XPath更具体一些
+</code></pre><h3 id="四、案例：爬取自己写的网页"><a href="#四、案例：爬取自己写的网页" class="headerlink" title="四、案例：爬取自己写的网页"></a>四、案例：爬取自己写的网页</h3><h4 id="1、准备工作"><a href="#1、准备工作" class="headerlink" title="1、准备工作"></a>1、准备工作</h4><pre><code>from bs4 import BeautifulSoup # 导入库
 
-for i in number:
-    print(i, len(i))
-#yanyuteng 9
-#demos 5
-#xiaojiayu 9
-#python 6
-</code></pre><h3 id="二、range"><a href="#二、range" class="headerlink" title="二、range()"></a>二、range()</h3><p>1、语法<br>range([start,] stop[, step=1])<br>（1）[]内两个参数可选<br>（2）step=1默认为1<br>（3）生成从start值到stop值结束的数字序列<br>2、配合for</p>
-<pre><code>range(4) #range(0, 4)
-list(range(4)) #[0, 1, 2, 3]
-for i in range(5):
-     print(i)
-# 生成0到4
-for i in range(2,9):
-    print(i)
-# 生成2到8
-</code></pre><h3 id="三、break与continue"><a href="#三、break与continue" class="headerlink" title="三、break与continue"></a>三、break与continue</h3><p>1、break<br>含义：满足条件才可以终止循环，跳出循环体<br>2、例子</p>
-<pre><code>yes = &quot;yanyuteng&quot;
-answer=input(&quot;the handsome man&apos;s name:&quot;)
-while True:
-    if answer == yes:
-        break
-    answer = input(&quot;sorry,u are wrong, please guess again:&quot;)
+with open(‘/apple/desktop/usualdata/xxx.html’,&apos;r’) as wb_data ## 本地网页示例，读取网页数据
+Soup = BeautifulSoup(wb_data,&apos;lxml’) #解析html数据
+print(Soup)
 
-print(&apos;smart!&apos;)
-</code></pre><p>2、continue<br>1、含义：终止本循环，开始下一循环<br>2、例子</p>
-<pre><code>for i in range(10):
-    if i%2 != 0:
-        print(i)
-        continue
-    i += 1
-    print(i)
-</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>鱼C论坛 《零基础入门学习Python》</p>
+images = Soup.select(&apos;body &gt; div.main-content &gt; ul &gt; li:nth-of-type(1) &gt; img’) #找到爬取位置
+images = Soup.select(&apos;body &gt; div.main-content &gt; ul &gt; li) &gt; img&apos;)# 去除nth-of-type(1)位置信息，爬取一类图片
+
+#其他信息类比titles, descs, rates, cates,cates中如果标签与标题是多对一结构需要注意，保留附级标签下所有子标签信息
+</code></pre><h4 id="2、筛选工作"><a href="#2、筛选工作" class="headerlink" title="2、筛选工作"></a>2、筛选工作</h4><pre><code># get_text方法释放标签中文本信息
+# for title in titles
+#     print(title.get_text())
+
+# 整合放入字典中
+for title, image, desc, rate, cate in zip(titles, images, descs, rates, cates)
+     data = {
+           &apos;title&apos;: title.get_text(),
+           &apos;rate’: rate.get_text(),
+           &apos;desc&apos;: desc.get_text(),
+           &apos;cate&apos;: list(cate.stripped_strings), #stripped_strings是高级的get_text，处理所有子标签文本
+           &apos;image&apos;: image.get(&apos;src&apos;)  #获取某个标签中属性用get获得
+     }
+print(data)
+</code></pre><h4 id="3、初步处理工作"><a href="#3、初步处理工作" class="headerlink" title="3、初步处理工作"></a>3、初步处理工作</h4><pre><code>info()
+info.append(data) #整合数据
+
+# 摘除评分大于3的文章
+for i in info
+     if float(i[‘rate’]) &gt; 3
+          print(i[&apos;title’], i[&apos;cate&apos;])
+</code></pre><h4 id="4、真实网页"><a href="#4、真实网页" class="headerlink" title="4、真实网页"></a>4、真实网页</h4><p>BeautifulSoup + Requests</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>麻瓜编程 《Python实战：四周实现爬虫系统》</p>
 
       
     </div>
@@ -559,16 +518,16 @@ print(&apos;smart!&apos;)
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/17/python3 猜数字游戏memo/" rel="next" title="python3 猜数字游戏memo">
-                <i class="fa fa-chevron-left"></i> python3 猜数字游戏memo
+              <a href="/2017/01/18/python3 数值、操作符与for循环memo/" rel="next" title="python3 数值、操作符与for循环memo">
+                <i class="fa fa-chevron-left"></i> python3 数值、操作符与for循环memo
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/01/18/python3 爬虫基础/" rel="prev" title="python3 爬虫基础memo">
-                python3 爬虫基础memo <i class="fa fa-chevron-right"></i>
+              <a href="/2017/01/20/python3 序列：列表、元组与字符串memo/" rel="prev" title="python3 序列：列表、元组与字符串memo">
+                python3 序列：列表、元组与字符串memo <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -595,8 +554,8 @@ print(&apos;smart!&apos;)
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/01/18/python3 分支与循环memo/"
-           data-title="python3 分支与循环memo" data-url="http://yoursite.com/2017/01/18/python3 分支与循环memo/">
+      <div class="ds-thread" data-thread-key="2017/01/18/python3 爬虫基础memo/"
+           data-title="python3 爬虫基础memo" data-url="http://yoursite.com/2017/01/18/python3 爬虫基础memo/">
       </div>
     
   </div>
@@ -641,7 +600,7 @@ print(&apos;smart!&apos;)
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">84</span>
+              <span class="site-state-item-count">86</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -658,7 +617,7 @@ print(&apos;smart!&apos;)
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">134</span>
+                <span class="site-state-item-count">132</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -741,7 +700,7 @@ print(&apos;smart!&apos;)
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-5-python的数据类型"><span class="nav-text">Lecture 5 python的数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、数值类型"><span class="nav-text">一、数值类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、类型转换"><span class="nav-text">二、类型转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、获取类型信息"><span class="nav-text">三、获取类型信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-6-python的常用操作符"><span class="nav-text">Lecture 6 python的常用操作符</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、算术操作符"><span class="nav-text">一、算术操作符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、比较操作符"><span class="nav-text">二、比较操作符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、逻辑操作符"><span class="nav-text">三、逻辑操作符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、优先级"><span class="nav-text">四、优先级</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-7-打飞机的游戏机制"><span class="nav-text">Lecture 7 打飞机的游戏机制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-8-条件表达式与assert"><span class="nav-text">Lecture 8 条件表达式与assert</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、输入转换"><span class="nav-text">一、输入转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、条件表达式（三元操作符）"><span class="nav-text">二、条件表达式（三元操作符）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-9-for循环"><span class="nav-text">Lecture 9 for循环</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、for循环"><span class="nav-text">一、for循环</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、range"><span class="nav-text">二、range()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、break与continue"><span class="nav-text">三、break与continue</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一节-html初步"><span class="nav-text">第一节 html初步</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、网页的一般结构"><span class="nav-text">一、网页的一般结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、网页结构的逐步丰富"><span class="nav-text">二、网页结构的逐步丰富</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、固定区域"><span class="nav-text">1、固定区域</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、增加标签-图片、标题-html"><span class="nav-text">2、增加标签 图片、标题 html</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、增加CSS样式修饰"><span class="nav-text">3、增加CSS样式修饰</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、案例：写一个网页"><span class="nav-text">三、案例：写一个网页</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）、预期结构"><span class="nav-text">（一）、预期结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）、案例"><span class="nav-text">（二）、案例</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二节-解析网页"><span class="nav-text">第二节 解析网页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、流程"><span class="nav-text">一、流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、BeautifulSoup理解"><span class="nav-text">二、BeautifulSoup理解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、BeautifulSoup解析"><span class="nav-text">三、BeautifulSoup解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、案例：爬取自己写的网页"><span class="nav-text">四、案例：爬取自己写的网页</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、准备工作"><span class="nav-text">1、准备工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、筛选工作"><span class="nav-text">2、筛选工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、初步处理工作"><span class="nav-text">3、初步处理工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、真实网页"><span class="nav-text">4、真实网页</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
             
           </div>
         </section>
