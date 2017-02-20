@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-19T11:10:20.000Z</updated>
+  <updated>2017-02-20T16:49:59.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,122 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《集体行动的逻辑》memo</title>
+    <link href="http://yoursite.com/2017/02/20/%E3%80%8A%E9%9B%86%E4%BD%93%E8%A1%8C%E5%8A%A8%E7%9A%84%E9%80%BB%E8%BE%91%E3%80%8Bmemo/"/>
+    <id>http://yoursite.com/2017/02/20/《集体行动的逻辑》memo/</id>
+    <published>2017-02-20T10:58:00.000Z</published>
+    <updated>2017-02-20T16:49:59.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;译者话&quot;&gt;&lt;a href=&quot;#译者话&quot; class=&quot;headerlink&quot; title=&quot;译者话&quot;&gt;&lt;/a&gt;译者话&lt;/h2&gt;&lt;p&gt;  以经济人为基点外扩经济学研究领域，其中代表如公共选择学派，Olson为之奠基人。是书即为Olson 1965年于普林斯顿任教时所著，Olson后于1985年评为美国人文科学院院士。&lt;br&gt;  Olson批评传统理论认为“利益集团有进一步扩大其利益的倾向”的观点，其指出，由于集团利益的公共性，使人有搭便车心理，以经济人假设，个人如要付出成本为集团获利，则集团返回利益必须大于个人成本，个人才会行动，否则个人不会行动。这一点让我想起了之前的几次小组作业，一二人挑大梁，其他人打酱油，盖是成员的分数未被区别对待，我于台湾修社会统计学时，老师提供了两种方案，一种为分数的共产主义（也即是成员分数一视同仁），一种为分数的资本主义（也即是成员互评加小组基础分），前者或更近似道德自律，后者或更近似理性人。&lt;br&gt;  Olson将集体行动分为相容性与排他性，前者为正和博弈，利人利己，更类似于做蛋糕；后者为零和博弈，损人利己，更类似为分蛋糕。而只有相容性集体行动，更有可能实现集体共同利益。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23119754/734a1f5e-f794-11e6-8bec-6f0cf7eaa68a.png&quot; width=&quot;550&quot; height=&quot;250&quot;&gt;&lt;br&gt;Fig.1 集体行动的划分&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;  为解决搭便车行为，Olson指出，有选择的激励，也即实行成员的差别对待是有效的，但同时，随着随着组织的扩张，成本也随之剧增，最后将陷入集体行动的困境。为此，其深化小集团理论，因成本小，个人利益与集体利益达成一致，更易于组织集体行动。Olson后以本书的集团框架，进一步分析了国家的兴衰。&lt;br&gt;2017.2.16 于群力贝肯山&lt;/p&gt;
+&lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h2&gt;&lt;p&gt;  Olson在序言中开列了长长的名单，更近似名人录，翻看的时候会心一笑。是书有Schelling(谢林模型), Parsons, Buchanan, Hamilton, Hayak等大咖协助。&lt;br&gt;2017.2.16&lt;/p&gt;
+&lt;h2 id=&quot;导论&quot;&gt;&lt;a href=&quot;#导论&quot; class=&quot;headerlink&quot; title=&quot;导论&quot;&gt;&lt;/a&gt;导论&lt;/h2&gt;&lt;p&gt;  以往的理论基于理性人认为，有共同利益的行动者组成的集体，个体会为他们的共同利益行事，也即是集体会有自发的扩大利益的行动。其代表如Marx阶级斗争、压力集团理论、工会理论、补偿权力概念等。&lt;br&gt;  而Olson基于理性人认为，有共同利益的行动者组成的集体，个体不会为他们的共同利益行事，也即是集体，至少是大集体，缺少自发扩大利益的行动，即便行动者明白如果他们协作，可以从集体行动中获益。&lt;br&gt;  基于理性人假设，却导致推论分野的原因在于，Olson指出的搭便车现象。事实上，理性人寻求自我利益的最大化，而不是集体利益的最大化（Olson当然不排除情感性集团的存在，但在更广泛的讨论中，持续的非理性是特例而无实际意义的）。&lt;br&gt;2016.2.16 于群力贝肯山&lt;/p&gt;
+&lt;h2 id=&quot;第一章-集团和组织理论&quot;&gt;&lt;a href=&quot;#第一章-集团和组织理论&quot; class=&quot;headerlink&quot; title=&quot;第一章 集团和组织理论&quot;&gt;&lt;/a&gt;第一章 集团和组织理论&lt;/h2&gt;&lt;h3 id=&quot;一、集团目的：增进共同利益&quot;&gt;&lt;a href=&quot;#一、集团目的：增进共同利益&quot; class=&quot;headerlink&quot; title=&quot;一、集团目的：增进共同利益&quot;&gt;&lt;/a&gt;一、集团目的：增进共同利益&lt;/h3&gt;&lt;p&gt;  为了解行动，当先了解行动所一般的实现方式——组织（集团）。按照Weber对组织的划分，理性协议为结合体(associative group)，情感协议为共同体(communal group)，Olson研究更侧重于结合体的经济组织。&lt;br&gt;  经济学认为，大多数组织一般有一个相同目的，增进其成员的共同利益（Weber谈及了官僚制，如果没有会继续留存一段时间，但终将消亡）。我们会期待组织会增进其成员的共同利益，也即是假设组织预先假定存在一个其成员共同享有的利益(Maclver),乃及对集团的研究，也是假设有共同利益的行动者。当然，这些假定后也承认个人有其个人利益。&lt;/p&gt;
+&lt;h3 id=&quot;二、集团作用：提供公共物品&quot;&gt;&lt;a href=&quot;#二、集团作用：提供公共物品&quot; class=&quot;headerlink&quot; title=&quot;二、集团作用：提供公共物品&quot;&gt;&lt;/a&gt;二、集团作用：提供公共物品&lt;/h3&gt;&lt;h4 id=&quot;（一）市场：完全竞争产业不能提供&quot;&gt;&lt;a href=&quot;#（一）市场：完全竞争产业不能提供&quot; class=&quot;headerlink&quot; title=&quot;（一）市场：完全竞争产业不能提供&quot;&gt;&lt;/a&gt;（一）市场：完全竞争产业不能提供&lt;/h4&gt;&lt;p&gt;  Olson假设完全竞争市场，且此时产业暂时为非均衡、只有已有企业的竞争而无新企业进入、产业需求曲线无弹性（弹性为因变量对自变量变化的反应的敏感度，ed=0即为完全无弹性）&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23119718/492990a6-f794-11e6-8d72-472599288cbf.jpg&quot; width=&quot;300&quot; height=&quot;250&quot;&gt;&lt;br&gt;Fig.2 完全无弹性&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23119729/5897a4e2-f794-11e6-982f-3813e9dbca5d.jpg&quot; width=&quot;260&quot; height=&quot;250&quot;&gt;&lt;br&gt;Fig.3 完全竞争产业下 产业收益&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;  此时，因为价格高于成本，供给增多，供给增多导致供给曲线右移，价格下跌，又因需求曲线无弹性，需求不增多的情况下，产业的总收益就会下降。也即是每一个企业都希望价格上升，且让同行减少产量，以保证产业的总收益不变，而自己的份额增多并获利。&lt;br&gt;  且因为完全竞争市场中，个体的影响力微弱，即便个体遇见到增产会导致产业收益下降，也只能硬着头皮增产，否则因为就会使自己的收益更少。&lt;br&gt;  防止下跌的唯一方法，也即是外部干预，因而Olson将论述进一步深入至非市场领域，并得出市场与非市场领域的相似。&lt;/p&gt;
+&lt;h4 id=&quot;（二）非市场：游说集团不能提供&quot;&gt;&lt;a href=&quot;#（二）非市场：游说集团不能提供&quot; class=&quot;headerlink&quot; title=&quot;（二）非市场：游说集团不能提供&quot;&gt;&lt;/a&gt;（二）非市场：游说集团不能提供&lt;/h4&gt;&lt;p&gt;  争取政府控制价格对企业是有利的，但由于任何单独的企业无法个体完全承担成本，或者说产业给予企业争取的回报小于其单独承担的成本，即便所有企业都知道游说有利于整体产业收益（蛋糕做大），但无人愿意损失自己的收益，寄希望于其他个体，因而整体依旧。&lt;/p&gt;
+&lt;h4 id=&quot;（三）组织的作用：提供公共物品-公共利益&quot;&gt;&lt;a href=&quot;#（三）组织的作用：提供公共物品-公共利益&quot; class=&quot;headerlink&quot; title=&quot;（三）组织的作用：提供公共物品/公共利益&quot;&gt;&lt;/a&gt;（三）组织的作用：提供公共物品/公共利益&lt;/h4&gt;&lt;p&gt;  Olson因而进一步推论，即便如国家拥有强意识形态等情感支持，其维持的手段必是强制的税款。这是由于国家政府为每个人提供最基本的物品服务，是属于每个人的，也即是公共物品，这一概念回应上文，也即可延伸为公共利益。&lt;br&gt;  个人是很难提供公共物品的，而组织的实质，正是其提供了不可分的、普遍的利益，我们无法将单独的个人分离排除享受这一服务，如军队、警察、法律等。&lt;/p&gt;
+&lt;h3 id=&quot;三、集团理论：大小有别&quot;&gt;&lt;a href=&quot;#三、集团理论：大小有别&quot; class=&quot;headerlink&quot; title=&quot;三、集团理论：大小有别&quot;&gt;&lt;/a&gt;三、集团理论：大小有别&lt;/h3&gt;&lt;h4 id=&quot;（一）传统理论&quot;&gt;&lt;a href=&quot;#（一）传统理论&quot; class=&quot;headerlink&quot; title=&quot;（一）传统理论&quot;&gt;&lt;/a&gt;（一）传统理论&lt;/h4&gt;&lt;p&gt;  Olson将传统理论分为两类，随意变体(casual variant)与正式变体(formal variant)，二者的共同在于承认集团的普遍性。随意变体将集团的普遍性归因于人类本能；正式变体将集团的普遍性归因于功能需要，也即是原始社会（亲属关系）至现代社会(非亲属关系)过渡中，大集团对小集团的功能替代。&lt;br&gt;  传统理论只是假设了集团存在大小的区别，但二者的性质是相同的。&lt;/p&gt;
+&lt;h4 id=&quot;（二）Olson的反驳&quot;&gt;&lt;a href=&quot;#（二）Olson的反驳&quot; class=&quot;headerlink&quot; title=&quot;（二）Olson的反驳&quot;&gt;&lt;/a&gt;（二）Olson的反驳&lt;/h4&gt;&lt;p&gt;  Olson认为，大量的经验研究表明，大集团与小集团的性质与运作原则是截然不同的，为了阐述二者的区别，Olson指出，我们必须研究不同大小的集团中，个人可能采取的行为的成本与收益。&lt;/p&gt;
+&lt;h5 id=&quot;1、非市场集团&quot;&gt;&lt;a href=&quot;#1、非市场集团&quot; class=&quot;headerlink&quot; title=&quot;1、非市场集团&quot;&gt;&lt;/a&gt;1、非市场集团&lt;/h5&gt;&lt;p&gt;（1）论述假设&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23104187/f3c8e840-f703-11e6-8b9c-9ae0bf6ff1c7.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;br&gt;Fig.4 非市场条件下 变量假设&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;（2）数学推导&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23104193/022e05e6-f704-11e6-9e57-856e03ae9ee2.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;br&gt;Fig.5 个人提供集体物品 最优数量&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt; Olson的思路即是，将问题简化为只有一个人提供集体物品，则个人提供多少集体物品时，个人收益最大，并进一步将个人未知变量转为集体已知变量，当集体处于何种状态时，个人收益最大。&lt;br&gt;  但Olson更为关注的不是个人最优的情况，而是提供集体物品的最低条件界限，因而其进一步推导如下：&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23104201/16343e7a-f704-11e6-8b60-ba0d27ac92ab.jpg&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;br&gt;Fig.6 个人最低限度提供集体物品条件&lt;br&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;2、市场集团&quot;&gt;&lt;a href=&quot;#2、市场集团&quot; class=&quot;headerlink&quot; title=&quot;2、市场集团&quot;&gt;&lt;/a&gt;2、市场集团&lt;/h5&gt;&lt;p&gt;（1）论述假设&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23112509/c55ae8b0-f76b-11e6-957a-a393f60b2ab0.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;br&gt;Fig.7 市场条件下 变量假设&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;（2）数学推导&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23112513/cdf6a040-f76b-11e6-86a7-496f3ebb8243.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;br&gt;Fig.8 企业限制产量 最优数量&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;  对于市场集团（产业）中的个体（企业）而言，受到激励限制产量以满足集体利益的关键，即是需求弹性E的大小，Fi&amp;lt;E时，Vi&amp;lt;C，停止增产。&lt;br&gt;  我们可以看到，非市场集团中，最低限度提供集体物品标准为Fi，市场集团中，最低限度限制产量（提供产业利益）的标准也为Fi。&lt;/p&gt;
+&lt;h5 id=&quot;3、Olson集团理论-行动选择图解&quot;&gt;&lt;a href=&quot;#3、Olson集团理论-行动选择图解&quot; class=&quot;headerlink&quot; title=&quot;3、Olson集团理论 行动选择图解&quot;&gt;&lt;/a&gt;3、Olson集团理论 行动选择图解&lt;/h5&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23112521/d7368abc-f76b-11e6-9ea5-28b2d5eb63ca.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;br&gt;Fig.9 图解&lt;br&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;4、结论&quot;&gt;&lt;a href=&quot;#4、结论&quot; class=&quot;headerlink&quot; title=&quot;4、结论&quot;&gt;&lt;/a&gt;4、结论&lt;/h5&gt;&lt;p&gt;  对非市场集团的个体而言，是否提供集体物品与提供多少集体物品是关心的，同样的对于市场集团而言，提供多少可以物品可以达到帕累托最优（集团收益最大化）是关心的。&lt;br&gt;（1）个体数量越多，离最优水平越远&lt;br&gt;  一般而言，传统理论认为每个人提供一部分，可以累加为最优状态。但实际上，由于集体物品（集体利益）的公共性，现实只能提供低于最低水平的集体物品（个体理性累加不等于产业理性）。这是因为根据最大Fi提供的集体物品可以被Fi小者的他人共享，而他人的小Fi由于已经获得了最大Fi提供的集体物品，就不会再浪费成本去提供满足自己数量的集体物品。举例如下：&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23119739/64fa47d0-f794-11e6-9e7c-edfc65134875.jpg&quot; width=&quot;&quot; 500&quot;&quot;=&quot;&quot; height=&quot;100&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;  个体数量越多，Fi越小，离最优水平越远，也即成员多的集团效率低于成员少的集团。且总体的规律是弱者剥削强者，Olson的话为“存在着少数剥夺多数的令人惊讶的倾向”。&lt;br&gt;  此外需要注意的是，Hume与Olson的区别。Hume对于小集团优越性已有论述(Rawls)，其强调小集团易达成共同计划，大集团则只能借助第三方政府强制计划，但Olson的论点更强调Fi概念，只要Vi&amp;gt;C，一部分人便会做，而不必达成协议，大集团因为单个的Fi过小，Vi&amp;lt;&amp;lt;C，就没有人会做。&lt;br&gt;（2）集团成员规模不等，更易提供集体物品&lt;br&gt;  且Si不等的集团，其偏离最优倾向要小于Si相等集团，也即是规模不等会更易提供集体物品，因其Fi大，获益大，而集团越大(Vg大)，提供集体物品数量越远于最优(Fi小)。Olson进一步在注释中提及，如果更复杂的考虑，由于Fi大者提供了集体物品，本来支出未支出，导致Fi小者的实际收入增多，需求也会增多，Fi小者会承担一部分Fi(max)的成本。&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/19641933/23119745/6b814b08-f794-11e6-8ecb-71cd2657fca6.jpg&quot; width=&quot;150&quot; height=&quot;75&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;5、结论的推广&quot;&gt;&lt;a href=&quot;#5、结论的推广&quot; class=&quot;headerlink&quot; title=&quot;5、结论的推广&quot;&gt;&lt;/a&gt;5、结论的推广&lt;/h5&gt;&lt;p&gt;（1）最优的困境&lt;br&gt;  Olson指出，如果考虑制度或程序安排，小集团是有可能达到最优解的，但由于需要考虑的超过本书范围，本书的重点关注仍是大集团。&lt;br&gt;  如果想达到最优，则分配比例必须干预，也即使成本承担比例与收益比例相同，使个人成本收益比等于总体成本收益比。但在实际中由于公共性，是很难操作的。&lt;br&gt;（2）框架的应用&lt;br&gt;  Olson这一分析可以被推论至更广的领域，如解释为何国家、地方政府等层面不能达到最优数量。&lt;/p&gt;
+&lt;h3 id=&quot;四、集团理论：行业有别&quot;&gt;&lt;a href=&quot;#四、集团理论：行业有别&quot; class=&quot;headerlink&quot; title=&quot;四、集团理论：行业有别&quot;&gt;&lt;/a&gt;四、集团理论：行业有别&lt;/h3&gt;&lt;p&gt;  Olson在上述论述中证明了市场与非市场集团是否提供公共利益取决于Fi大小，但其进一步指出，市场和非市场集团对于准入准出存在差异。&lt;br&gt;  市场集团更排外，非市场集团更相容，为何存在这种态度的差异？&lt;/p&gt;
+&lt;h4 id=&quot;（一）根本：零和博弈与正向博弈&quot;&gt;&lt;a href=&quot;#（一）根本：零和博弈与正向博弈&quot; class=&quot;headerlink&quot; title=&quot;（一）根本：零和博弈与正向博弈&quot;&gt;&lt;/a&gt;（一）根本：零和博弈与正向博弈&lt;/h4&gt;&lt;p&gt;  市场为零和博弈，一荣他损，非市场为正向博弈，一荣俱荣。因而分为排外的集体物品与相容的集体物品。前者由于收益固定，需要成员减少规模（减少成员数或生产数，分蛋糕）；后者由于收益会随着规模扩大而扩大，增加规模（做蛋糕）。&lt;br&gt;  对某一个体而言，二者的身份是可以并存的，这取决于其寻求的目标。因而在排外与相容间存在一个充满张力的矛盾。“这个矛盾是分析工会在寻求什么时必须对待的根本要素”。&lt;/p&gt;
+&lt;h4 id=&quot;（二）表现&quot;&gt;&lt;a href=&quot;#（二）表现&quot; class=&quot;headerlink&quot; title=&quot;（二）表现&quot;&gt;&lt;/a&gt;（二）表现&lt;/h4&gt;&lt;h5 id=&quot;1、不可侵占与可侵占&quot;&gt;&lt;a href=&quot;#1、不可侵占与可侵占&quot; class=&quot;headerlink&quot; title=&quot;1、不可侵占与可侵占&quot;&gt;&lt;/a&gt;1、不可侵占与可侵占&lt;/h5&gt;&lt;p&gt;  相容的集体物品由于是公共性的，不会使贡献者受到除成本外的损失。&lt;br&gt;  排外性集体物品由于可以受到未参与者的侵占，会使贡献者受到除成本外的损失，也即如A, B, C三个企业减少产量抬高价格，D企业不减产享受ABC成果，则ABC成果被D侵占而削弱。ABC如争取D加入，则D会待价而沽，因而ABC都会放弃参与行动。&lt;/p&gt;
+&lt;h5 id=&quot;2、非竞争与竞争&quot;&gt;&lt;a href=&quot;#2、非竞争与竞争&quot; class=&quot;headerlink&quot; title=&quot;2、非竞争与竞争&quot;&gt;&lt;/a&gt;2、非竞争与竞争&lt;/h5&gt;&lt;p&gt;  相容集团则人体间非竞争性关系，且提供集体物品的行动，不需全员参与。&lt;br&gt;  排外集团中个体（企业）互相喂竞争关系，但行动必须全员参与，每一个个体都希望占据更多的Fi，少量行动者时可类比为寡头市场相互依赖，但行动者个数越多，卖方反应将会越发复杂。&lt;br&gt;2017.2.17 23:37&lt;/p&gt;
+&lt;h3 id=&quot;五、三四的推论：集团分类&quot;&gt;&lt;a href=&quot;#五、三四的推论：集团分类&quot; class=&quot;headerlink&quot; title=&quot;五、三四的推论：集团分类&quot;&gt;&lt;/a&gt;五、三四的推论：集团分类&lt;/h3&gt;&lt;h4 id=&quot;（一）集团理论大小有别的补充&quot;&gt;&lt;a href=&quot;#（一）集团理论大小有别的补充&quot; class=&quot;headerlink&quot; title=&quot;（一）集团理论大小有别的补充&quot;&gt;&lt;/a&gt;（一）集团理论大小有别的补充&lt;/h4&gt;&lt;h5 id=&quot;1、不确定性差异&quot;&gt;&lt;a href=&quot;#1、不确定性差异&quot; class=&quot;headerlink&quot; title=&quot;1、不确定性差异&quot;&gt;&lt;/a&gt;1、不确定性差异&lt;/h5&gt;&lt;p&gt;  回应上一部分排外性集团的相互依赖，相容性集团中个体在一定规模时也会考虑其他个体反应。&lt;br&gt;  在小集团中，每个人是否参与提供集体物品都影响显著。如某一个体突然撤资，必然会导致其他个体负担显著加重，而其是否会重新参与是不确定的（当然，如果单个Fi都不足以提供集体物品（Vi&amp;lt;C），则仍然是不确定的，但现实不存在绝对相等的Fi）。&lt;br&gt;  而大集团中始终是确定性的，也即个人不会提供，个人是否参与影响太小，除非外界强制，否则个体很难提供集体物品。&lt;/p&gt;
+&lt;h5 id=&quot;2、大集团的阻碍因素&quot;&gt;&lt;a href=&quot;#2、大集团的阻碍因素&quot; class=&quot;headerlink&quot; title=&quot;2、大集团的阻碍因素&quot;&gt;&lt;/a&gt;2、大集团的阻碍因素&lt;/h5&gt;&lt;p&gt;  我们之前已经论述了市场与非市场集团是否提供公共物品，都取决于数量。且由于收益不同，进一步取决于个体的影响力Fi。&lt;br&gt;  小集团中Fi大，Vi&amp;gt;C时提供；中大集团由于单个个体无力，必须至少两个个体及以上个体合作，这就需要组织或协议，集团越大组织越难，因其成本均摊费用与讨价还价人都增多。小集团只需要考虑直接成本，而大集团要考虑直接成本、交往成本、组织成本等，不断加大总成本。&lt;br&gt;  对于大集团而言，有三个主要的阻碍因素：&lt;br&gt;（1）人增多，份额Fi减少，单个Vi降低&lt;br&gt;（2）人增多，价格T趋于不变（有人减产抬价就有人挖墙脚）&lt;br&gt;（3）人增多，成本C增多&lt;/p&gt;
+&lt;h4 id=&quot;（二）集团分类&quot;&gt;&lt;a href=&quot;#（二）集团分类&quot; class=&quot;headerlink&quot; title=&quot;（二）集团分类&quot;&gt;&lt;/a&gt;（二）集团分类&lt;/h4&gt;&lt;p&gt;  Olson进一步论述，我简要整理如下表：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;&lt;br&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;1个&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;2个或多个&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;大量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;市场&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;纯粹垄断&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;寡头卖方垄断&lt;br&gt;同类&amp;amp;不同类&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;原子式竞争&lt;br&gt;纯粹竞争&amp;amp;垄断竞争&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;非市场&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;特权团&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;中间团&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;潜在团&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;其中，特权团即单个人承担提供集体物品；中间团为可能也可能不提供集体物品；潜在团为肯定不提供集体物品（但Olson指出可以通过选择性激励动员提供）。&lt;br&gt;21017.2.18 0:50 于群力&lt;/p&gt;
+&lt;h2 id=&quot;第二章-集团规模和集团行为&quot;&gt;&lt;a href=&quot;#第二章-集团规模和集团行为&quot; class=&quot;headerlink&quot; title=&quot;第二章 集团规模和集团行为&quot;&gt;&lt;/a&gt;第二章 集团规模和集团行为&lt;/h2&gt;&lt;p&gt;  正如上一章的论述，小集团的行动更高效，这使得组织常求助于小集团，因而形成了小组委员会等。John James等人已经验性证实。又如合伙人制在人数少时获得成功；股东制在人数少时，管理人（经理）权力小，股东制在人数多时，管理人为权力大。这用Fi的Vi&amp;lt;C可以解释。&lt;/p&gt;
+&lt;h3 id=&quot;一、大集团如何形成：疑问&quot;&gt;&lt;a href=&quot;#一、大集团如何形成：疑问&quot; class=&quot;headerlink&quot; title=&quot;一、大集团如何形成：疑问&quot;&gt;&lt;/a&gt;一、大集团如何形成：疑问&lt;/h3&gt;&lt;p&gt;  Olson引述Homans的理论，Homans以历史论述了小集团优势，并认为文明如果继续，必须保留小集团的某些特征，“它含蓄地认为潜在集团会以与小集团相同的方式采取行动以实现某种功能。”&lt;br&gt;  Olson批评其局限性，认为大集团不可照搬小集团方法（也即小集团经验不可以直接适用于大集团中），而这局限性即是传统理论的局限。传统理论认为，大集团功能性替代小集团，所以人们参与。而事实上，即便是在意见完全一致的情况下，大集团的成员仍不会自发组织实现集团目标，也即是不会自发形成大集团。&lt;br&gt;  因此Olson发问，如果不是参与本能与功能性替代，大集团是如何形成的？为了解这个问题，首先要引述激励概念。&lt;/p&gt;
+&lt;h3 id=&quot;二、激励&quot;&gt;&lt;a href=&quot;#二、激励&quot; class=&quot;headerlink&quot; title=&quot;二、激励&quot;&gt;&lt;/a&gt;二、激励&lt;/h3&gt;&lt;h4 id=&quot;1、激励的类别&quot;&gt;&lt;a href=&quot;#1、激励的类别&quot; class=&quot;headerlink&quot; title=&quot;1、激励的类别&quot;&gt;&lt;/a&gt;1、激励的类别&lt;/h4&gt;&lt;p&gt;  Olson将激励分为经济激励与社会激励，前者对应经济损失，后者对应社会损失，若经济激励缺乏，但可由社会激励弥补，则行动者会承担成本，提供集体物品。这里的社会激励，事实上即是选择性激励。&lt;/p&gt;
+&lt;h4 id=&quot;2、激励的效果&quot;&gt;&lt;a href=&quot;#2、激励的效果&quot; class=&quot;headerlink&quot; title=&quot;2、激励的效果&quot;&gt;&lt;/a&gt;2、激励的效果&lt;/h4&gt;&lt;p&gt;  大集团中，由于个人影响小、个人交往有限，社会激励的作用小；因此大集团往往分成N个小集团，组成联邦集团，以此发挥社会激励的作用。&lt;br&gt;  小集团因此受到双重激励，经济激励与社会激励。也即是社会压力对大小集团的作用完全不同。&lt;/p&gt;
+&lt;h4 id=&quot;3、无激励行为的无意义&quot;&gt;&lt;a href=&quot;#3、无激励行为的无意义&quot; class=&quot;headerlink&quot; title=&quot;3、无激励行为的无意义&quot;&gt;&lt;/a&gt;3、无激励行为的无意义&lt;/h4&gt;&lt;p&gt;  Olson继而回应了无私（情感性）行为，其认为，立足理性人假设下，非理性行为对市场的影响太小而可以忽略。  &lt;/p&gt;
+&lt;p&gt;  一、二章已充分说明大小集团的性质不同，在下一章中，Olson将深入回应大集团如何吸收人并维持其自身存在，也即大集团如何形成。&lt;br&gt;2017.2.18 18:33&lt;/p&gt;
+&lt;h2 id=&quot;第三章-工会和经济自由&quot;&gt;&lt;a href=&quot;#第三章-工会和经济自由&quot; class=&quot;headerlink&quot; title=&quot;第三章 工会和经济自由&quot;&gt;&lt;/a&gt;第三章 工会和经济自由&lt;/h2&gt;&lt;h3 id=&quot;一、大集团形成的需求&quot;&gt;&lt;a href=&quot;#一、大集团形成的需求&quot; class=&quot;headerlink&quot; title=&quot;一、大集团形成的需求&quot;&gt;&lt;/a&gt;一、大集团形成的需求&lt;/h3&gt;&lt;p&gt;  工会的历史发展，由最初的工厂工会，至地方工会，再至全国工会。&lt;br&gt;  小集团优势理论可以解释早期工会的形成。值得一提，早期工会除经济利益外，也提供社会利益。&lt;br&gt;  但工会组织很易被市场力量打击，一行业的部分（小集团）反抗是无意义的，此时需要政治势力更强的大工会（大集团），因而大工会逐渐成长。  &lt;/p&gt;
+&lt;h3 id=&quot;二、大集团形成的手段&quot;&gt;&lt;a href=&quot;#二、大集团形成的手段&quot; class=&quot;headerlink&quot; title=&quot;二、大集团形成的手段&quot;&gt;&lt;/a&gt;二、大集团形成的手段&lt;/h3&gt;&lt;p&gt;  为了维持大工会，其手段以强制与暴力为主，具体为强制性成员资格制、罢工（与对不罢工者的暴力）。&lt;/p&gt;
+&lt;h4 id=&quot;（一）强制资格制&quot;&gt;&lt;a href=&quot;#（一）强制资格制&quot; class=&quot;headerlink&quot; title=&quot;（一）强制资格制&quot;&gt;&lt;/a&gt;（一）强制资格制&lt;/h4&gt;&lt;p&gt;  工作的前提是成为工会成员，这一成员资格制早于工业革命已经成熟，小工会可以自发形成，但正是强制成员资格制保证了地方工会向全国工会的过度（大集团的形成）。  &lt;/p&gt;
+&lt;h4 id=&quot;（二）罢工&quot;&gt;&lt;a href=&quot;#（二）罢工&quot; class=&quot;headerlink&quot; title=&quot;（二）罢工&quot;&gt;&lt;/a&gt;（二）罢工&lt;/h4&gt;&lt;p&gt;  同时，为迫使非罢工者不干扰罢工（损害罢工者利益，且吸引罢工者取消罢工），暴力在工会形成中扮演了重要角色。&lt;br&gt;  因而Olson论述道：“正如研究工人运动的一些学者认为的，它完全可以被用来证明，当某一特定的讨价还价集团中的大多数工人都赞成罢工时，应该用法律禁止那一集团中的其他工人蔑视大多数人的决定而继续工作。这样就把强制的任务交给了警察以防止群众暴力。”&lt;br&gt;  对这一论述，我可以用一个更简明的例子来说明Olson的思想。如社会学系同学为争取40.5元的补助上升为50.5元，举行罢课，本月哈工大资本家不发给我们系补助，由此供给变少，我们的补助发放给隔壁法学系和经济学系，他们的人均补助上升为42.5，他们的补助上升了，他们不参与我们的罢课，我们的行为由于是小集团行为而最终失败。总结反思，若想争取50.5元的补助，则必须联合全院。这一部分颇像Olson教你如何工人运动——深入群众。  &lt;/p&gt;
+&lt;h4 id=&quot;（三）选择性激励&quot;&gt;&lt;a href=&quot;#（三）选择性激励&quot; class=&quot;headerlink&quot; title=&quot;（三）选择性激励&quot;&gt;&lt;/a&gt;（三）选择性激励&lt;/h4&gt;&lt;p&gt;  当然，工会除强制与暴力，也会运用积极选择性激励。这在早期的铁路工人协会非常明显。协会成员可以购买保险，一般铁路工人则不能购买保险；协会成员签约可获得资深权利，一般工人则要央求公司心情。&lt;/p&gt;
+&lt;h3 id=&quot;三、大集团发展的过程&quot;&gt;&lt;a href=&quot;#三、大集团发展的过程&quot; class=&quot;headerlink&quot; title=&quot;三、大集团发展的过程&quot;&gt;&lt;/a&gt;三、大集团发展的过程&lt;/h3&gt;&lt;h4 id=&quot;（一）早期&quot;&gt;&lt;a href=&quot;#（一）早期&quot; class=&quot;headerlink&quot; title=&quot;（一）早期&quot;&gt;&lt;/a&gt;（一）早期&lt;/h4&gt;&lt;p&gt;  在大集团形成的初期，成员既属于小集团，也属于大集团，这一时期，成员可以从小集团中获取集体物品（小集团优势），同时小集团联合起来形成的大集团，也会反过来提供非集体性物品（选择性激励）。&lt;/p&gt;
+&lt;h4 id=&quot;（二）晚期&quot;&gt;&lt;a href=&quot;#（二）晚期&quot; class=&quot;headerlink&quot; title=&quot;（二）晚期&quot;&gt;&lt;/a&gt;（二）晚期&lt;/h4&gt;&lt;p&gt;  但随着现代工会的发展，小型地方工会逐渐没落（小集团），留存为大型地方工会，且全国性工会正逐步取代地方工会。&lt;br&gt;  原本吸引人的选择性激励措施逐渐由于政府的福利制度而失去吸引力。多数情况下，工会的生存依赖于强制入会制，法律上规定人人有工作权，但在实际执行中是依附于工会资格的。这一点不难理解，套用在中国，法律上规定人人有选举权，但在实际执行中是依附于党组织的。&lt;br&gt;  正是在上述的分析下，Olson将关注点集中于大集团，且提供或服务于共同利益的工会。&lt;br&gt;2017.2.19 0:00&lt;/p&gt;
+&lt;h3 id=&quot;四、大集团发展的理论&quot;&gt;&lt;a href=&quot;#四、大集团发展的理论&quot; class=&quot;headerlink&quot; title=&quot;四、大集团发展的理论&quot;&gt;&lt;/a&gt;四、大集团发展的理论&lt;/h3&gt;&lt;p&gt;2017.2.19 16:45&lt;/p&gt;
+&lt;h2 id=&quot;第四章-国家、阶级的正统理论&quot;&gt;&lt;a href=&quot;#第四章-国家、阶级的正统理论&quot; class=&quot;headerlink&quot; title=&quot;第四章 国家、阶级的正统理论&quot;&gt;&lt;/a&gt;第四章 国家、阶级的正统理论&lt;/h2&gt;&lt;h2 id=&quot;第五章-压力集团的正统理论&quot;&gt;&lt;a href=&quot;#第五章-压力集团的正统理论&quot; class=&quot;headerlink&quot; title=&quot;第五章 压力集团的正统理论&quot;&gt;&lt;/a&gt;第五章 压力集团的正统理论&lt;/h2&gt;&lt;h2 id=&quot;第六章-副产品和特殊利益理论&quot;&gt;&lt;a href=&quot;#第六章-副产品和特殊利益理论&quot; class=&quot;headerlink&quot; title=&quot;第六章 副产品和特殊利益理论&quot;&gt;&lt;/a&gt;第六章 副产品和特殊利益理论&lt;/h2&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;译者话&quot;&gt;&lt;a href=&quot;#译者话&quot; class=&quot;headerlink&quot; title=&quot;译者话&quot;&gt;&lt;/a&gt;译者话&lt;/h2&gt;&lt;p&gt;  以经济人为基点外扩经济学研究领域，其中代表如公共选择学派，Olson为之奠基人。是书即为Olson 1965年于普林斯顿任教时所著，Olson后于1985年评为美国人文科学院院士。&lt;br&gt;  Olson批评传统理论认为“利益集团有进一步扩大其利益的倾向”的观点，其指出，由于集团利益的公共性，使人有搭便车心理，以经济人假设，个人如要付出成本为集团获利，则集团返回利益必须大于个人成本，个人才会行动，否则个人不会行动。这一点让我想起了之前的几次小组作业，一二人挑大梁，其他人打酱油，盖是成员的分数未被区别对待，我于台湾修社会统计学时，老师提供了两种方案，一种为分数的共产主义（也即是成员分数一视同仁），一种为分数的资本主义（也即是成员互评加小组基础分），前者或更近似道德自律，后者或更近似理性人。&lt;br&gt;  Olson将集体行动分为相容性与排他性，前者为正和博弈，利人利己，更类似于做蛋糕；后者为零和博弈，损人利己，更类似为分蛋糕。而只有相容性集体行动，更有可能实现集体共同利益。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Review Economics" scheme="http://yoursite.com/categories/Review-Economics/"/>
+    
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="Economics" scheme="http://yoursite.com/tags/Economics/"/>
+    
+      <category term="Organization" scheme="http://yoursite.com/tags/Organization/"/>
+    
+      <category term="Olson" scheme="http://yoursite.com/tags/Olson/"/>
+    
+  </entry>
   
   <entry>
     <title>日记 一七年手记</title>
@@ -1878,9 +1994,9 @@ print(&amp;quot;thanking u for ur gussing&amp;quot;)
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="Capitalism" scheme="http://yoursite.com/tags/Capitalism/"/>
-    
       <category term="consumption" scheme="http://yoursite.com/tags/consumption/"/>
+    
+      <category term="Capitalism" scheme="http://yoursite.com/tags/Capitalism/"/>
     
       <category term="Ritzer" scheme="http://yoursite.com/tags/Ritzer/"/>
     
@@ -1966,11 +2082,11 @@ print(&amp;quot;thanking u for ur gussing&amp;quot;)
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="Capitalism" scheme="http://yoursite.com/tags/Capitalism/"/>
-    
       <category term="Sombart" scheme="http://yoursite.com/tags/Sombart/"/>
     
       <category term="consumption" scheme="http://yoursite.com/tags/consumption/"/>
+    
+      <category term="Capitalism" scheme="http://yoursite.com/tags/Capitalism/"/>
     
   </entry>
   
@@ -2072,86 +2188,11 @@ print(&amp;quot;thanking u for ur gussing&amp;quot;)
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="quantitative" scheme="http://yoursite.com/tags/quantitative/"/>
-    
       <category term="谢宇" scheme="http://yoursite.com/tags/%E8%B0%A2%E5%AE%87/"/>
     
       <category term="methodology" scheme="http://yoursite.com/tags/methodology/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Book Review： Sociology</title>
-    <link href="http://yoursite.com/2016/08/27/%E3%80%8ASociology%E3%80%8BBook%20Review/"/>
-    <id>http://yoursite.com/2016/08/27/《Sociology》Book Review/</id>
-    <published>2016-08-26T16:00:00.000Z</published>
-    <updated>2016-10-28T14:28:22.000Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;Preface-to-the-sixth-edition&quot;&gt;&lt;a href=&quot;#Preface-to-the-sixth-edition&quot; class=&quot;headerlink&quot; title=&quot;Preface to the sixth edition&quot;&gt;&lt;/a&gt;Preface to the sixth edition&lt;/h2&gt;&lt;p&gt;  The world has changed a great deal after this book first published in 1989. Nearly thirty years has passed. This book has been rewritten once by once.&lt;br&gt;  As Xie Yu point out the concept of heterogeneity(社会的本质是变异), we have to study the heterogeneity sociologically, and set aside our personal beliefs and options when analyzing research findings and theories.&lt;br&gt;2016.8.11&lt;/p&gt;
-&lt;h2 id=&quot;Organization-of-the-book&quot;&gt;&lt;a href=&quot;#Organization-of-the-book&quot; class=&quot;headerlink&quot; title=&quot;Organization of the book&quot;&gt;&lt;/a&gt;Organization of the book&lt;/h2&gt;&lt;p&gt;  This book is just an introduction, so the chapters can be ignored or studied in any order. Just due to this circumstance, I can read this book to cultivate my English writing skills.&lt;br&gt;16.8.11&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;What-is-Sociology&quot;&gt;&lt;a href=&quot;#What-is-Sociology&quot; class=&quot;headerlink&quot; title=&quot;What is Sociology?&quot;&gt;&lt;/a&gt;What is Sociology?&lt;/h2&gt;&lt;h3 id=&quot;The-sociological-imagination&quot;&gt;&lt;a href=&quot;#The-sociological-imagination&quot; class=&quot;headerlink&quot; title=&quot;The sociological imagination&quot;&gt;&lt;/a&gt;The sociological imagination&lt;/h3&gt;&lt;p&gt;  As Giddens’ definition,&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“ Sociology is the scientific study of human life, social groups, whole societies dazzling and compelling enterprise, as its subject-matter is our own behavior as social beings.” (P6)&lt;br&gt;  “It is the business of sociology to investigate the connections between what society makes of us and what we make of ourselves and society.” (P9) &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  It means that the private decision reflects his position within the wider society.&lt;br&gt;  So the sociological mind, for I think, is realize that our individual lives reflect the contexts of our social experience(个人是社会的个人). Wright Mills points that the sociological imagination requires us to think ourselves away. Thus, Sociologists translate the personal trouble into the public issue, and they always remember the social structure and the structuration.&lt;br&gt;  From my opinion, as the saying above, if we want to cultivate the sociological mind, we should have a liberal mind to imagine the no border world, and we need the sociological big picture to look our social state. Also, it requires us to think with the loving care, which Mills has said, “I tried to be objective, but I do not to be detached.”&lt;/p&gt;
-&lt;p&gt;  Giddens takes an example from the familiar routines of our daily lives for us, the coffee.&lt;br&gt;  For many westerners, coffee drinking is not just individual, but a social ritual. If we compare the western with China, may be Bian Yanjie’s 餐饮网 is similar to coffee, the eating is not important, but the meeting is the first. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“In all society, drinking and eating provide occasions for social interaction.”(P7)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  And we need to consider that, coffee is a socially acceptable drug compared with ecstasy, why these differences exist and how they came out?(合法化的coffee)&lt;br&gt;  Also, coffee means the global order. In fact, coffee became widely consumed only from the late 1800s, the colonial legacy contribute a lot to the coffee trade development.&lt;br&gt;  Besides, coffee links to the human rights and environmental destruction.&lt;/p&gt;
-&lt;h3 id=&quot;The-development-of-sociological-thinking&quot;&gt;&lt;a href=&quot;#The-development-of-sociological-thinking&quot; class=&quot;headerlink&quot; title=&quot;The development of sociological thinking&quot;&gt;&lt;/a&gt;The development of sociological thinking&lt;/h3&gt;&lt;p&gt;  Cause we can’t just explain the surface, we have to develop theoretical thinking. But compare with natural science, due to the fact that our own behavior is quite complex. There is no discipline in sociology. So we will see there are many different theories, and even some of them are conflicting, but on the other hand, each of them also seems right, they are just different insights. (始终无一定论而各派纷争，亦非社会学之魅力乎)&lt;br&gt;  In fact, factual research and theories can never be completely separated, and all practical decisions have some theoretical assumptions behind them. &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;That means “we can only develop valid theoretical explanations if we are able to test them by means of factual research.”(P11)&lt;/p&gt;
-&lt;p&gt;“The background to the origins of sociology lies in the series of sweeping changes ushered in by the French Revolution and the mid-eighteenth-century Industrial Revolution in Europe.”(P12) &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  Our human beings want to know why is society structured the way it is, how and why do societies change? So from the early, the duty of sociology is to understand this world and what the future is likely to be.&lt;br&gt;  Comte invented the word ‘sociology’ with the dream we can shape our destiny, which we can explain the laws of the social world just as natural science explained the functioning of the physical world. For the critics of early concepts of sociology (positivism etc.), u can consult this in Xie Yu’s sociological methodology and quantitative research.&lt;br&gt;  After Comte, Durkheim studied the social facts, their thoughts were absorbed by the latter, especially in Functionalists. From my opinion, if we dip deeply in the positive studies, we can find the ecology’s heritage, for their view that see the society as the human body, and “analyzing the function of social item means showing the part it plays in the continued existence and health of a society.”(P23) But in fact, although Karl Marx was well known for his materialist conception of history, we can find the similar thinking in his own words. “To say that man’s physical and mental life is linked to nature simply means that nature is linked to itself, for man is part of nature.” Beside those famous founders, Max Weber studied the rationalization and other aspects influenced even deeper. I will refer more in the Chapter 3, so I just omit these founders here, if u have a strong interest in these figures, u could look for this book straightly. Giddens tells much more details.&lt;/p&gt;
-&lt;p&gt;  Here, I just want to emphasize two figures, which mostly textbooks would ignore them.&lt;br&gt;  The first one is Ibn Khaldun (1332-1406). From Giddens’ introduction, it let me think about the history circulating theory, which was famous in the Chinese tradition. This history circulating theory is based on the malthusism.&lt;br&gt;  Khaldun’s circulating theory mixed with a bit of conflict theory, he attempts to explain the rise and decline of Maghribian and Arab state, in this sense, he may be seen as one of the pioneers of the Western historical sociology. Giddens conclude his theory in a word.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Groups and society with a strong group feeling were able to dominate and control those with weaker forms of internal solidarity …… However, the Bodouin then became settled into the more urbanized lifestyles and their previously strong group feeling and military force diminished, thus leaving them open to attack from external enemies once again.”(P22)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  The next one is Harriet Martineau(1802-1876). We often called her the first woman sociologist. We all know Tocqueville studied the American society in the 1830s, but in fact, Martineau studied this subject in the meanwhile. I don’t know if they know each other, but we could imagine they meet each in a normal street in a normal day, and then smiles to each other. It even sounds a little cool. In fact, Martineau is famous for her acted in ways to benefit society. Martineau was an active proponent of both women’s rights and the emancipation of slaves.&lt;/p&gt;
-&lt;h2 id=&quot;Theories-and-Perspectives-in-Sociology&quot;&gt;&lt;a href=&quot;#Theories-and-Perspectives-in-Sociology&quot; class=&quot;headerlink&quot; title=&quot;Theories and Perspectives in Sociology&quot;&gt;&lt;/a&gt;Theories and Perspectives in Sociology&lt;/h2&gt;&lt;p&gt;此章笔记较多，有时间再行整理。&lt;/p&gt;
-&lt;h2 id=&quot;Families-and-Intimate-Relationships&quot;&gt;&lt;a href=&quot;#Families-and-Intimate-Relationships&quot; class=&quot;headerlink&quot; title=&quot;Families and Intimate Relationships&quot;&gt;&lt;/a&gt;Families and Intimate Relationships&lt;/h2&gt;&lt;h3 id=&quot;love&quot;&gt;&lt;a href=&quot;#love&quot; class=&quot;headerlink&quot; title=&quot;love&quot;&gt;&lt;/a&gt;love&lt;/h3&gt;&lt;p&gt;  旧有的arranged marriages时代，romantic love was regarded as at best a weakness and at worst a kind of sickness.直至18C，romantic love involoed idealizing its object, 因为novel而spearding. Romantic love was shaped by board social and historical influences today.And most people believe that a good relationship os based on emotional communication or intimacy(性行为).&lt;br&gt;  但于P377处引用的甘肃60%父母安排婚姻真实性存疑，Giddens未给明出处。&lt;/p&gt;
-&lt;h3 id=&quot;family&quot;&gt;&lt;a href=&quot;#family&quot; class=&quot;headerlink&quot; title=&quot;family&quot;&gt;&lt;/a&gt;family&lt;/h3&gt;&lt;p&gt;  对于家庭的划分则分为了nuclear family和extended family，对于婚姻则分为了monogamy(一夫一妻制)和polygamy(多配偶制)，polygamy又分为polygyny(一夫多妻制)或polyandry(一妻多夫制)，颇amazing的是Giddens的引用，1998年全球1231个社会中仍有84%为polygyny。&lt;/p&gt;
-&lt;h2 id=&quot;Sexuality-and-Gender&quot;&gt;&lt;a href=&quot;#Sexuality-and-Gender&quot; class=&quot;headerlink&quot; title=&quot;Sexuality and Gender&quot;&gt;&lt;/a&gt;Sexuality and Gender&lt;/h2&gt;&lt;h3 id=&quot;Theories-of-gender-inequality&quot;&gt;&lt;a href=&quot;#Theories-of-gender-inequality&quot; class=&quot;headerlink&quot; title=&quot;Theories of gender inequality&quot;&gt;&lt;/a&gt;Theories of gender inequality&lt;/h3&gt;&lt;h4 id=&quot;Functional-approaches&quot;&gt;&lt;a href=&quot;#Functional-approaches&quot; class=&quot;headerlink&quot; title=&quot;Functional approaches&quot;&gt;&lt;/a&gt;Functional approaches&lt;/h4&gt;&lt;h4 id=&quot;Feminist-approaches&quot;&gt;&lt;a href=&quot;#Feminist-approaches&quot; class=&quot;headerlink&quot; title=&quot;Feminist approaches&quot;&gt;&lt;/a&gt;Feminist approaches&lt;/h4&gt;&lt;p&gt;  女性主义颇关注的是sexism(男性至上主义)、patriarchy(父权制)和capitalism。&lt;/p&gt;
-&lt;h5 id=&quot;Liberal-feminism&quot;&gt;&lt;a href=&quot;#Liberal-feminism&quot; class=&quot;headerlink&quot; title=&quot;Liberal feminism&quot;&gt;&lt;/a&gt;Liberal feminism&lt;/h5&gt;&lt;p&gt;  1970 equal pay act.自由主义女权主义者力图通过合法途径reform，但批评者认为其未触及root, the oppression。&lt;/p&gt;
-&lt;h5 id=&quot;Social-and-Marxist-feminism&quot;&gt;&lt;a href=&quot;#Social-and-Marxist-feminism&quot; class=&quot;headerlink&quot; title=&quot;Social and Marxist feminism&quot;&gt;&lt;/a&gt;Social and Marxist feminism&lt;/h5&gt;&lt;blockquote&gt;
-&lt;p&gt;“Engels argued that under capitalism, patriarchy has its roots in private property…..To Engels, capitalism exploited men by paying low wages and women by paying no wages.(P616)”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  对于女性的压榨，便是家务薪酬的忽略。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Payment for housework is an important component of many feminists’ belief.(P616)”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h5 id=&quot;Radical-feminism&quot;&gt;&lt;a href=&quot;#Radical-feminism&quot; class=&quot;headerlink&quot; title=&quot;Radical feminism&quot;&gt;&lt;/a&gt;Radical feminism&lt;/h5&gt;&lt;p&gt;  Shulamith Firestone(1971)是早期激进主义者代表之一，argues that men control women’s roles in reproduction and childrearing. This ‘biological inequality’ is socially organized in the nuclear family.&lt;br&gt;  其强调emancipate, abolition, assert, 批判男性对于女性形象的设定，&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“The ‘objectification’ of women through the media, fashion and advertising turns women into sexual ovjects whose main role is to please and entertain men……Becaues patriarchy is a systemic phenomenon, they agrue, gender equality can only be attained by overthrowing the patriarchal order.(P617)”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  正因这些讨论，其主流的核心议题是’women’s subordination’,Family is the primary sources of women’s oppression in society.&lt;br&gt;  晚近的Walby研究, from private patriarchy to public patriarchy has shifed its form.&lt;br&gt;  批评者认为，其过于强调性别而忽视社会结构，&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“doing so risk biological reductionism - attributing all the complexities of gender inequality to simple distinction between men and women.(P619)”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h5 id=&quot;Black-feminism&quot;&gt;&lt;a href=&quot;#Black-feminism&quot; class=&quot;headerlink&quot; title=&quot;Black feminism&quot;&gt;&lt;/a&gt;Black feminism&lt;/h5&gt;&lt;p&gt;  黑人女性主义认为，过往的研究都是白人主导，将黑人与白人女性一视同仁受到压迫，事实上，&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Black women were discriminated against on the basis of their race and gender.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;  也即是’multiplt disadvantages’&lt;/p&gt;
-&lt;h5 id=&quot;Postmodern-feminism&quot;&gt;&lt;a href=&quot;#Postmodern-feminism&quot; class=&quot;headerlink&quot; title=&quot;Postmodern feminism&quot;&gt;&lt;/a&gt;Postmodern feminism&lt;/h5&gt;&lt;p&gt;  The recognition of difference is central to postmodern feminism, 差异打破essential core, 强调otherness, deconstruction.&lt;br&gt;2016.8.24&lt;/p&gt;
-&lt;h2 id=&quot;The-epilogue-of-this-memo&quot;&gt;&lt;a href=&quot;#The-epilogue-of-this-memo&quot; class=&quot;headerlink&quot; title=&quot;The epilogue of this memo&quot;&gt;&lt;/a&gt;The epilogue of this memo&lt;/h2&gt;&lt;p&gt;  入社会学业已两年，所学略多，而于初始之新鲜日少，于专业之疏离日多，闲暇时扪心专业为何，凝噎不知，又忖专业之博大，任一生而不能穷一二，因其广博，而愈茫然，群学之道起于西洋，故回观西人之入门教材，冀能有一二解惑，以之反观己身，亦可为后学经验之先导。&lt;br&gt;  是书置书架余一年，盖其英文为我之短柄，今乃开卷观之，自叹已迟，而终胜之弗遇。&lt;br&gt;2016.8.12&lt;br&gt;  Recently I have always been struggling with myself. If I want to be the common views’ success, it seems that I must give up my dream. After I graduated from my high school, I nearly forget Zhang Zai’s words, “为天地立心，为生民立命，为往圣继绝学，为万世开太平”. Yeah, it too hard for me, and it seems too remote for me.&lt;br&gt;  But sometimes, one person needs the unrealistic dream to support him keep going. I just twenty, and there is a board future standing by. Just reading, writing, and going.&lt;br&gt;2016.8.27&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Preface-to-the-sixth-edition&quot;&gt;&lt;a href=&quot;#Preface-to-the-sixth-edition&quot; class=&quot;headerlink&quot; title=&quot;Preface to the sixth edition&quot;&gt;&lt;/a&gt;Preface to the sixth edition&lt;/h2&gt;&lt;p&gt;  The world has changed a great deal after this book first published in 1989. Nearly thirty years has passed. This book has been rewritten once by once.&lt;br&gt;  As Xie Yu point out the concept of heterogeneity(社会的本质是变异), we have to study the heterogeneity sociologically, and set aside our personal beliefs and options when analyzing research findings and theories.&lt;br&gt;2016.8.11&lt;/p&gt;
-&lt;h2 id=&quot;Organization-of-the-book&quot;&gt;&lt;a href=&quot;#Organization-of-the-book&quot; class=&quot;headerlink&quot; title=&quot;Organization of the book&quot;&gt;&lt;/a&gt;Organization of the book&lt;/h2&gt;&lt;p&gt;  This book is just an introduction, so the chapters can be ignored or studied in any order. Just due to this circumstance, I can read this book to cultivate my English writing skills.&lt;br&gt;16.8.11&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Review Sociology" scheme="http://yoursite.com/categories/Review-Sociology/"/>
-    
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="Giddens" scheme="http://yoursite.com/tags/Giddens/"/>
+      <category term="quantitative" scheme="http://yoursite.com/tags/quantitative/"/>
     
   </entry>
   
