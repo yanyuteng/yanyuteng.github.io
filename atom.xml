@@ -1930,9 +1930,9 @@ print(&amp;quot;thanking u for ur gussing&amp;quot;)
       <category term="Review Economics" scheme="http://yoursite.com/categories/Review-Economics/"/>
     
     
-      <category term="consumption" scheme="http://yoursite.com/tags/consumption/"/>
-    
       <category term="Economics" scheme="http://yoursite.com/tags/Economics/"/>
+    
+      <category term="consumption" scheme="http://yoursite.com/tags/consumption/"/>
     
       <category term="class" scheme="http://yoursite.com/tags/class/"/>
     
@@ -2191,11 +2191,11 @@ print(&amp;quot;thanking u for ur gussing&amp;quot;)
     
       <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
-      <category term="quantitative" scheme="http://yoursite.com/tags/quantitative/"/>
-    
       <category term="谢宇" scheme="http://yoursite.com/tags/%E8%B0%A2%E5%AE%87/"/>
     
       <category term="methodology" scheme="http://yoursite.com/tags/methodology/"/>
+    
+      <category term="quantitative" scheme="http://yoursite.com/tags/quantitative/"/>
     
   </entry>
   
