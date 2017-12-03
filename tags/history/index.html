@@ -349,7 +349,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">106</span>
+              <span class="site-state-item-count">107</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -413,6 +413,15 @@
                 </a>
               </span>
             
+              <span class="links-of-author-item">
+                <a href="https://www.researchgate.net/profile/Yuteng_Yan" target="_blank" title="Researchgate">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Researchgate
+                </a>
+              </span>
+            
           
         </div>
 
@@ -471,7 +480,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Yuteng Yan</span>
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共417.1k字</span>
+  <span class="post-count">博客全站共417.9k字</span>
 </div>
 
         
@@ -681,42 +690,6 @@
                 str += "</ul>";
                 if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
                 if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
-                $resultContent.innerHTML = str;
-            });
-            proceedsearch();
-        }
-    });}
-
-    // handle and trigger popup window;
-    $('.popup-trigger').mousedown(function(e) {
-      e.stopPropagation();
-      if (isfetched == false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-
-    });
-
-    $('.popup-btn-close').click(function(e){
-      $('.popup').hide();
-      $(".popoverlay").remove();
-      $('body').css('overflow', '');
-    });
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-  </script>
-
-  
-
-  
-
-  
-
-</body>
-</html>
-/div>' }
                 $resultContent.innerHTML = str;
             });
             proceedsearch();
