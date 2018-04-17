@@ -1,0 +1,1002 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #8EA8CD; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #8EA8CD;    /*上边框颜色*/
+        border-left-color: #8EA8CD;    /*左边框颜色*/
+    }
+</style>
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="R," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="AncientDemos" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="3.1 Basic regular expression[]### find &amp;quot;do&amp;quot; 
+text&amp;lt;-c(&amp;quot;Don&amp;apos;t&amp;quot;,&amp;quot;aim&amp;quot;,&amp;quot;for&amp;quot;,&amp;quot;success&amp;quot;,&amp;quot;if&amp;quot;,&amp;quot;you&amp;quot;,&amp;quot;want&amp;quot;,&amp;quot;it&amp;qu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="R003 Regular expression">
+<meta property="og:url" content="http://yoursite.com/2018/04/17/R003 regular expression/index.html">
+<meta property="og:site_name" content="AncientDemos">
+<meta property="og:description" content="3.1 Basic regular expression[]### find &amp;quot;do&amp;quot; 
+text&amp;lt;-c(&amp;quot;Don&amp;apos;t&amp;quot;,&amp;quot;aim&amp;quot;,&amp;quot;for&amp;quot;,&amp;quot;success&amp;quot;,&amp;quot;if&amp;quot;,&amp;quot;you&amp;quot;,&amp;quot;want&amp;quot;,&amp;quot;it&amp;qu">
+<meta property="og:updated_time" content="2018-04-17T09:54:04.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="R003 Regular expression">
+<meta name="twitter:description" content="3.1 Basic regular expression[]### find &amp;quot;do&amp;quot; 
+text&amp;lt;-c(&amp;quot;Don&amp;apos;t&amp;quot;,&amp;quot;aim&amp;quot;,&amp;quot;for&amp;quot;,&amp;quot;success&amp;quot;,&amp;quot;if&amp;quot;,&amp;quot;you&amp;quot;,&amp;quot;want&amp;quot;,&amp;quot;it&amp;qu">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6290758321678845000,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> R003 Regular expression | AncientDemos </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '78540146', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a4b91e42146075c064f7b30e32634d4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">AncientDemos</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">“A Sociology Dancer”</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                R003 Regular expression
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2018-04-17T17:35:00+08:00" content="2018-04-17">
+              2018-04-17
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/R/" itemprop="url" rel="index">
+                    <span itemprop="name">R</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv">本文總閱讀量
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+              </span>
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="3-1-Basic-regular-expression"><a href="#3-1-Basic-regular-expression" class="headerlink" title="3.1 Basic regular expression"></a>3.1 Basic regular expression</h1><h2 id=""><a href="#" class="headerlink" title="[]"></a>[]</h2><pre><code>### find &quot;do&quot; 
+text&lt;-c(&quot;Don&apos;t&quot;,&quot;aim&quot;,&quot;for&quot;,&quot;success&quot;,&quot;if&quot;,&quot;you&quot;,&quot;want&quot;,&quot;it&quot;,&quot;just&quot;,&quot;do&quot;,&quot;what&quot;,&quot;you&quot;,&quot;love&quot;,&quot;and&quot;,&quot;believe&quot;,&quot;in&quot;,&quot;and&quot;,&quot;it&quot;,&quot;will&quot;,&quot;come&quot;,&quot;naturally&quot;) 
+grep(&quot;[Dd]o&quot;,text) ##### Do and do 
+grep(&quot;[D]o&quot;,text) ##### Do 
+grep(&quot;[d]o&quot;,text) ##### do 
+
+### find &apos;R&apos;&amp;&apos;r&apos; ; find &apos;Rr&apos; 
+text = c(&apos;Ro&apos;,&apos;Rr&apos;,&apos;rr&apos;,&apos;RR&apos;,&apos;rR&apos;)
+grep(&apos;[Rr]&apos;,text) ##### [1] 1 2 3 4 5
+grep(&apos;[R]r&apos;,text) ##### [1] 2
+</code></pre><a id="more"></a>
+<h2 id="d-0-9-find-all-numbers"><a href="#d-0-9-find-all-numbers" class="headerlink" title="\d == [0-9] (find all numbers)"></a>\d == [0-9] (find all numbers)</h2><pre><code>text&lt;-c(&apos;7&apos;,&apos;1&apos;,&apos;c&apos;,&apos;a&apos;,&apos;a1&apos;) 
+grep(&apos;[0-9]&apos;,text) ##### [1] 1 2 5
+text&lt;-c(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;a&apos;,&apos;e&apos;)
+grep(&apos;[0-9]&apos;,text) ##### integer(0)
+</code></pre><h2 id="D-0-9-find-the-pure-numbers"><a href="#D-0-9-find-the-pure-numbers" class="headerlink" title="\D == ^[0-9] (find the pure numbers)"></a>\D == ^[0-9] (find the pure numbers)</h2><pre><code>### ^ means only
+text&lt;-c(&apos;a&apos;,&apos;1&apos;,&apos;c&apos;,&apos;a&apos;,&apos;a1&apos;) 
+grep(&apos;^[0-9]&apos;,text) ##### [1] 2
+text&lt;-c(&apos;a&apos;,&apos;b1&apos;,&apos;c&apos;,&apos;a&apos;,&apos;a1&apos;) 
+grep(&apos;^[0-9]&apos;,text) ##### integer(0)
+</code></pre><h2 id="w-a-zA-Z0-9-all-nums-and-abcd…z"><a href="#w-a-zA-Z0-9-all-nums-and-abcd…z" class="headerlink" title="\w == [a-zA-Z0-9] (all nums and abcd…z)"></a>\w == [a-zA-Z0-9] (all nums and abcd…z)</h2><pre><code>text&lt;-c(&apos;a&apos;,&apos;b1&apos;,&apos;c&apos;,&apos;a&apos;,&apos;a1&apos;) 
+grep(&apos;[a-zA-Z0-9]&apos;,text)
+text&lt;-c(&apos;a&apos;,&apos;1&apos;,&apos;2&apos;,&apos;a&apos;,&apos;3&apos;) 
+grep(&apos;[a-zA-Z0-9]&apos;,text)
+</code></pre><h2 id="1-The-previous-expression-is-repeated-1-times"><a href="#1-The-previous-expression-is-repeated-1-times" class="headerlink" title="{1} The previous expression is repeated 1 times"></a>{1} The previous expression is repeated 1 times</h2><pre><code>### {4} The previous expression is repeated 4 times
+### \\d{4} == [0-9]{4}
+</code></pre><h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><pre><code>## . Match any(all) character 
+### eg r.t means &apos;rut rat rot etc.&apos; but cannot &apos;root&apos;
+
+## * Mismatch characters or match 0, 1, or more(n) characters
+
+## + Match 1 or more(n) characters
+
+## ? Match 0 or 1 characters
+
+## $ End of string
+</code></pre><h1 id="3-2-String-connection"><a href="#3-2-String-connection" class="headerlink" title="3.2 String connection"></a>3.2 String connection</h1><pre><code>paste()
+</code></pre><h1 id="3-3-String-query"><a href="#3-3-String-query" class="headerlink" title="3.3 String query"></a>3.3 String query</h1><pre><code>### grep,grepl Function search string to match regular expression, return string or logical vector.
+### Regexpr, gregexpr, regexec return the character position starting with regular expression matching, and the number of matching characters.
+
+exampletext &lt;- c(&quot;Hellow, Adam!&quot;, &quot;Hi, Adam!&quot;, &quot;How are you, Adam.&quot;) 
+regexpr(&quot;Adam&quot;, exampletext)
+gregexpr(&quot;Adam&quot;, exampletext)
+</code></pre><h1 id="3-4-String-substitution"><a href="#3-4-String-substitution" class="headerlink" title="3.4 String substitution"></a>3.4 String substitution</h1><pre><code>### sub(pattern, replacement, x)
+sub(pattern = &quot;Adam&quot;, replacement = &quot;world&quot;, exampletext)
+</code></pre><h1 id="3-5-String-extraction"><a href="#3-5-String-extraction" class="headerlink" title="3.5 String extraction"></a>3.5 String extraction</h1><pre><code>### substring() Extract or replace substrings in a character vector.
+substr(&quot;abcdef&quot;, 2, 4)
+substring(&quot;abcdef&quot;, 1:3, 1:6)
+### attr(,&apos;match.length&apos;)
+</code></pre><h1 id="3-6-Example"><a href="#3-6-Example" class="headerlink" title="3.6 Example"></a>3.6 Example</h1><h2 id="example1-Email"><a href="#example1-Email" class="headerlink" title="example1: Email"></a>example1: Email</h2><pre><code>text&lt;-c(&quot;704232753@qq.com is my email address.&quot;,&quot;704232753@&quot;) 
+grep(&quot;[0-9.*]+@[a-z.*].[a-z.*]&quot;,text) ##### [1] 1
+grepl(&quot;[0-9.*]+@[a-z.*].[a-z.*]&quot;,text) ##### [1] TRUE
+</code></pre><h2 id="example2-QQ-chat-anaylsis"><a href="#example2-QQ-chat-anaylsis" class="headerlink" title="example2: QQ chat anaylsis"></a>example2: QQ chat anaylsis</h2><pre><code>setwd(&quot;~/desktop/usualdata/chat analysis&quot;)
+chat &lt;- readLines(&quot;chat.txt&quot;,encoding=&apos;UTF-8&apos;)
+### chatdata1 == chatdata2
+chatdata &lt;- chat[grep(&quot;^\\d{4}-\\d{2}-\\d{2} \\d+:\\d{2}:\\d{2} .+$&quot;,chat)]
+### chatdata2 &lt;- chat[grep(&apos;^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} .+$&apos;,chat)]
+
+data={}
+
+data$id&lt;-sub(&quot;\\d{4}-\\d{2}-\\d{2} \\d+:\\d{2}:\\d{2}&quot;,&apos;&apos;,chatdata)
+
+gg&lt;-gregexpr(&quot;\\d{4}-\\d{2}-\\d{2} \\d+:\\d{2}:\\d{2}&quot;,chatdata,perl=TRUE)
+gg
+### eg. substring(chatdata[1],gg[[1]],gg[[1]]+attr(gg[[1]],&apos;match.length&apos;)-1)
+getcontent &lt;- function(s,g){
+                substring(s,g,g+attr(g,&apos;match.length&apos;)-1)
+                }
+for(j in 1:length(gg)){
+            data$time[j]&lt;-getcontent(chatdata[j],gg[[j]])
+            }
+data$time
+library(stringr)
+temp1 &lt;- str_split(data$time,&apos; &apos;)
+library(plyr)
+result1 &lt;- ldply(temp1,.fun=NULL)
+names(result1) &lt;- c(&apos;date&apos;,&apos;clock&apos;)
+
+temp2 &lt;- str_split(result1$date,&apos;-&apos;)
+result2 &lt;- ldply(temp2,.fun=NULL)
+names(result2) &lt;- c(&apos;year&apos;,&apos;month&apos;,&apos;day&apos;)
+temp3 &lt;- str_split(result1$clock,&apos;:&apos;)
+result3 &lt;- ldply(temp3,.fun=NULL)
+names(result3) &lt;- c(&apos;hour&apos;,&apos;minutes&apos;,&apos;second&apos;)
+
+newdata &lt;- cbind(data,result1,result2,result3)
+
+library(lubridate)
+newdata$date &lt;- ymd(newdata$date) 
+newdata$wday &lt;- wday(newdata$date)
+newdata$month &lt;- ordered(as.numeric(newdata$month) )
+newdata$year &lt;- ordered(newdata$year)
+newdata$day &lt;- ordered(as.numeric(newdata$day))
+newdata$hour &lt;- ordered(as.numeric(newdata$hour))
+newdata$wday &lt;- ordered(newdata$wday)
+</code></pre><h2 id="example3-Douban’s-best-250-movies"><a href="#example3-Douban’s-best-250-movies" class="headerlink" title="example3: Douban’s best 250 movies"></a>example3: Douban’s best 250 movies</h2><pre><code>url &lt;- &apos;http://movie.douban.com/top250?format=text&apos;
+web &lt;- readLines(url,encoding=&quot;UTF-8&quot;)
+for(i in 1:9){
+        url1&lt;-paste(&apos;http://movie.douban.com/top250?start=&apos;,25*i,&apos;&amp;filter=&amp;type=&apos;,sep=&quot;&quot;)
+        web1 &lt;- readLines(url1,encoding=&quot;UTF-8&quot;)
+        web&lt;-c(web,web1)  
+        }
+
+### year 
+year &lt;- web[grep(&apos;&lt;p class=&quot;&quot;&gt;&apos;,web)+2]
+movie.year &lt;- substr(year,28,32)
+
+### name
+name &lt;- web[grep(&apos;&lt;span class=\&quot;other\&quot;&gt;&amp;nbsp;/&amp;nbsp;&apos;,web)-1]
+name &lt;- sub(&apos;&lt;span class=\&quot;title\&quot;&gt;&apos;,&apos;&apos;,name)
+name &lt;- sub(&apos;&amp;nbsp;/&amp;nbsp;&apos;,&apos;&apos;,name)
+name &lt;- sub(&apos;&lt;/span&gt;&apos;,&apos;&apos;,name)
+name &lt;- sub(&apos;                            &apos;,&apos;&apos;,name)
+movie.name &lt;- sub(&apos;        &apos;,&apos;&apos;,name)
+
+### score
+score &lt;- web[grep(&apos;&lt;div class=&quot;star&quot;&gt;&apos;,web)+2]
+ss&lt;-gregexpr(&quot;[0-9].+$&quot;,score,perl=TRUE)
+getcontent &lt;- function(s,g){
+        substring(s,g,g+attr(g,&apos;match.length&apos;)-1)
+        }
+for(j in 1:length(ss)){
+        score[j]&lt;-getcontent(score[j],ss[[j]])
+        }
+movie.score &lt;- sub(&apos;&lt;/span&gt;&apos;,&apos;&apos;,score)
+
+### ratenum
+reviewnum &lt;- web[grep(&apos;&lt;span class=\&quot;rating_num\&quot;&apos;,web)+2]
+reviewnum &lt;- sub(&apos;&lt;span&gt;&apos;,&apos;&apos;,reviewnum)
+reviewnum &lt;- sub(&apos;&lt;/span&gt;&apos;,&apos;&apos;,reviewnum)
+reviewnum &lt;- sub(&apos;人评价&apos;,&apos;&apos;,reviewnum)
+movie.reviewnum &lt;- sub(&apos;                                &apos;,&apos;&apos;,reviewnum)
+
+### movie data
+movie &lt;- data.frame(name=movie.name, year=as.numeric(movie.year),score=as.numeric(movie.score),ratenum=as.numeric(movie.reviewnum))
+
+### analysis
+library(ggplot2)
+</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://www.cnblogs.com/wheng/p/6262737.html" target="_blank" rel="external">R语言之正则表达式 by王亨</a><br><a href="http://blog.sina.com.cn/s/blog_69ffa1f90101sie9.html" target="_blank" rel="external">R语言文本（字符串）处理与正则表达式 by在路上</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzA3MTM3NTA5Ng==&amp;mid=2651055478&amp;idx=1&amp;sn=bb441c94cfcf0592d60b20a74dd54570&amp;chksm=84d9c4e1b3ae4df7b286d07f3870a73dedab073d4b660dd05c1f459b12d6b6214c5912ea6baf&amp;mpshare=1&amp;scene=23&amp;srcid=0105sgJhWzMXZhe8e0z8NltE#rd" target="_blank" rel="external">R 语言挖掘 QQ 群聊天记录 by疯狂的拖鞋</a><br><a href="https://blog.csdn.net/jiabiao1602/article/details/39177175" target="_blank" rel="external">R语言抓取豆瓣前250名的影片评分 byjiabiao1602</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/R/" rel="tag">#R</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/15/日记 一八年摘记/" rel="next" title="日记 一八年摘记">
+                <i class="fa fa-chevron-left"></i> 日记 一八年摘记
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+       <div id="uyan_frame"></div>
+    
+  </div>
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://avatars1.githubusercontent.com/u/19641933?v=3&u=c77c48f0d50311d5a580f99e5fc88b357a98654e&s=140"
+               alt="Yuteng Yan" />
+          <p class="site-author-name" itemprop="name">Yuteng Yan</p>
+          <p class="site-description motion-element" itemprop="description">I have tried to be objective. I do not claim to be detached. —— C.Mills</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">117</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">149</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yanyuteng" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.weibo.com/p/1005055384033959/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100011471880385" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.researchgate.net/profile/Yuteng_Yan" target="_blank" title="Researchgate">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Researchgate
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.everydaysociologyblog.com" title="Everyday_Sociology" target="_blank">Everyday_Sociology</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://kieranhealy.org" title="Kieran Healy" target="_blank">Kieran Healy</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://yuqli.com" title="Yuqiong Li" target="_blank">Yuqiong Li</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://twstreetcorner.org" title="巷仔口社会学" target="_blank">巷仔口社会学</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#3-1-Basic-regular-expression"><span class="nav-text">3.1 Basic regular expression</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-text">[]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#d-0-9-find-all-numbers"><span class="nav-text">\d == [0-9] (find all numbers)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#D-0-9-find-the-pure-numbers"><span class="nav-text">\D == ^[0-9] (find the pure numbers)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#w-a-zA-Z0-9-all-nums-and-abcd…z"><span class="nav-text">\w == [a-zA-Z0-9] (all nums and abcd…z)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-The-previous-expression-is-repeated-1-times"><span class="nav-text">{1} The previous expression is repeated 1 times</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Others"><span class="nav-text">Others</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-2-String-connection"><span class="nav-text">3.2 String connection</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-3-String-query"><span class="nav-text">3.3 String query</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-4-String-substitution"><span class="nav-text">3.4 String substitution</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-5-String-extraction"><span class="nav-text">3.5 String extraction</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-6-Example"><span class="nav-text">3.6 Example</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#example1-Email"><span class="nav-text">example1: Email</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#example2-QQ-chat-anaylsis"><span class="nav-text">example2: QQ chat anaylsis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#example3-Douban’s-best-250-movies"><span class="nav-text">example3: Douban’s best 250 movies</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuteng Yan</span>
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共435.7k字</span>
+</div>
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv">博客總訪問量<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+    
+  
+
+ 
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2130168"></script>
+      <!-- UY END -->
+  
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+
+</body>
+</html>

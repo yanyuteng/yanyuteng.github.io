@@ -1,0 +1,1058 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #8EA8CD; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #8EA8CD;    /*上边框颜色*/
+        border-left-color: #8EA8CD;    /*左边框颜色*/
+    }
+</style>
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="python," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="AncientDemos" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="Lecture 17 Define a Function# python的三大组成：函数、对象和模块# 函数：python的乐高积木
+def firstfunction():
+    print(&amp;apos;hello world&amp;apos;)
+
+firstfunction()
+
+# 参数使函数个性化
+def secondfuction(name):
+    print(name + &amp;apos;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python004 Function and recursion">
+<meta property="og:url" content="http://yoursite.com/2017/01/22/Python004 Function and recursion/index.html">
+<meta property="og:site_name" content="AncientDemos">
+<meta property="og:description" content="Lecture 17 Define a Function# python的三大组成：函数、对象和模块# 函数：python的乐高积木
+def firstfunction():
+    print(&amp;apos;hello world&amp;apos;)
+
+firstfunction()
+
+# 参数使函数个性化
+def secondfuction(name):
+    print(name + &amp;apos;">
+<meta property="og:updated_time" content="2018-04-17T09:35:07.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Python004 Function and recursion">
+<meta name="twitter:description" content="Lecture 17 Define a Function# python的三大组成：函数、对象和模块# 函数：python的乐高积木
+def firstfunction():
+    print(&amp;apos;hello world&amp;apos;)
+
+firstfunction()
+
+# 参数使函数个性化
+def secondfuction(name):
+    print(name + &amp;apos;">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6290758321678845000,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Python004 Function and recursion | AncientDemos </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '78540146', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a4b91e42146075c064f7b30e32634d4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">AncientDemos</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">“A Sociology Dancer”</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Python004 Function and recursion
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-01-22T14:25:00+08:00" content="2017-01-22">
+              2017-01-22
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv">本文總閱讀量
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+              </span>
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="Lecture-17-Define-a-Function"><a href="#Lecture-17-Define-a-Function" class="headerlink" title="Lecture 17 Define a Function"></a>Lecture 17 Define a Function</h2><p># python的三大组成：函数、对象和模块<br># 函数：python的乐高积木</p>
+<pre><code>def firstfunction():
+    print(&apos;hello world&apos;)
+
+firstfunction()
+
+# 参数使函数个性化
+def secondfuction(name):
+    print(name + &apos;, I love u&apos;)
+secondfuction(&apos;yanyuteng&apos;)
+
+def add(num1, num2):
+    return (num1 + num2)
+
+add(1,2)
+</code></pre><a id="more"></a>
+<h2 id="Lecture-18-函数的参数"><a href="#Lecture-18-函数的参数" class="headerlink" title="Lecture 18 函数的参数"></a>Lecture 18 函数的参数</h2><h3 id="一、形式参数-parameter-和实际参数-argument"><a href="#一、形式参数-parameter-和实际参数-argument" class="headerlink" title="一、形式参数(parameter)和实际参数(argument)"></a>一、形式参数(parameter)和实际参数(argument)</h3><p>1、形式参数为函数定义时的name，只是一个形式，占据一个参数位置<br>2、实际参数为用户输入的具体参数值’yanyuteng’</p>
+<h3 id="二、函数文档"><a href="#二、函数文档" class="headerlink" title="二、函数文档"></a>二、函数文档</h3><pre><code>def firstfunction():
+    &apos;this is an example discription.&apos;
+    print(&apos;hello world&apos;)
+
+firstfunction.__doc__ # &apos;this is an example discription.&apos;
+help(firstfunction)
+</code></pre><h3 id="三、关键字：参数匹配"><a href="#三、关键字：参数匹配" class="headerlink" title="三、关键字：参数匹配"></a>三、关键字：参数匹配</h3><pre><code>thirduction(name=&apos;yanyuteng&apos;,words=&apos;love u&apos;)
+thirduction(words=&apos;love u&apos;,name=&apos;yanyuteng’) #yanyuteng-&gt;love u
+</code></pre><h3 id="四、默认值"><a href="#四、默认值" class="headerlink" title="四、默认值"></a>四、默认值</h3><pre><code>def secondfuction(name=&apos;yanyuteng&apos;):
+     print(name + &apos;, I love u&apos;)
+</code></pre><h3 id="五、收集参数（可变参数）"><a href="#五、收集参数（可变参数）" class="headerlink" title="五、收集参数（可变参数）"></a>五、收集参数（可变参数）</h3><pre><code>def test(*params):
+     print(&apos;print len:&apos;,len(params))
+     print(&apos;index(the second number:)&apos;,params[1])
+
+test(1,2,4,5,3,7,9,0,11,-1)
+</code></pre><h2 id="Lecture-19-函数返回值与变量作用域"><a href="#Lecture-19-函数返回值与变量作用域" class="headerlink" title="Lecture 19 函数返回值与变量作用域"></a>Lecture 19 函数返回值与变量作用域</h2><h3 id="一、函数返回值"><a href="#一、函数返回值" class="headerlink" title="一、函数返回值"></a>一、函数返回值</h3><p>1、函数(function)是有返回值，过程(procedure)是简单的、特殊的，没有返回值<br>2、python严格只有函数，所有函数都会返回某些东西，没有过程。</p>
+<pre><code>def hello():
+     print(&apos;hello world&apos;)
+
+temp = hello()
+print(temp) #None
+type(temp) #&lt;class &apos;NoneType&apos;&gt;
+</code></pre><p>3、python动态确定类型，只有赋值时，编译器自动确定需要类型，没有变量，只有名字，包括返回值（可以返回多个值）。</p>
+<pre><code>def back():
+    return [1, &apos;yyt&apos;, 3, 2] #list打包返回
+</code></pre><h3 id="二、函数变量作用域（可见性）"><a href="#二、函数变量作用域（可见性）" class="headerlink" title="二、函数变量作用域（可见性）"></a>二、函数变量作用域（可见性）</h3><p>1、局部变量(local variable)和全局变量(global variable)</p>
+<pre><code>def discounts(price,rate):
+    final_price = price * rate # final_price is a local variable，出了function就不再生效，栈暂时存储，运行尔后删除
+    return final_price
+
+old_price = float(input(&apos;old_price:’)) #global variable，作用域整个文件
+rate = float(input(&apos;rate:’)) #global variable
+new_price = discount(old_price,rate) #global variable
+print(’the new_price:’, new_price)
+</code></pre><p>2、一般不要在函数内部访问修改，会在函数中新建一个名字同全局变量相同的局部变量，容易产生bug。</p>
+<pre><code>def myfun():
+    count = 10
+    print(10)
+
+myfun() #10
+print(count) #5，函数内修改未修改全局变量
+
+# 用global关键字在函数内修改
+def myfun():
+    global count ## global variable changed
+    count = 10
+    print(count)
+</code></pre><h2 id="Lecture-20-内嵌函数"><a href="#Lecture-20-内嵌函数" class="headerlink" title="Lecture 20 内嵌函数"></a>Lecture 20 内嵌函数</h2><h3 id="一、内嵌函数"><a href="#一、内嵌函数" class="headerlink" title="一、内嵌函数"></a>一、内嵌函数</h3><pre><code>def fun1():
+    print(&apos;fun1() is working...&apos;)
+    def fun2():
+        print(&apos;fun2() is working...&apos;)
+    fun2()
+</code></pre><h3 id="二、闭包"><a href="#二、闭包" class="headerlink" title="二、闭包"></a>二、闭包</h3><p>  函数是编程重要的语法结构，面向对象或面向过程是编程范式，不同编程语言实现闭包方式不同。<br>  Python中，如果在一个内部函数里，对外部作用域（但不是在全局作用域）中被引用，那么就被认为是闭包。</p>
+<pre><code>def funx(x):
+    def funy(y):
+        return x*y
+    return funy
+
+i = funx(8)
+i(5) #40
+funx(8)(5) #40
+</code></pre><p>#不能在外部函数外调用闭包，内部函数中只能对外部函数的局部变量访问，不能修改</p>
+<pre><code>def fun1():
+    x = 5
+    def fun2():
+        x *= x
+        return x
+    return fun2() #local variable &apos;x&apos; referenced before assignment
+
+def fun1():
+    x = [5]
+    def fun2():
+        x[0] *= x[0]
+        return x[0]
+    return fun2() #python2.x版本暗度陈仓
+
+def fun1():
+    x = 5
+    def fun2():
+        nonlocal x #声明不是局部变量
+        x *= x
+        return x
+    return fun2()
+</code></pre><h2 id="Lecture-21-lambda表达式"><a href="#Lecture-21-lambda表达式" class="headerlink" title="Lecture 21 lambda表达式"></a>Lecture 21 lambda表达式</h2><h3 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h3><p>1、Python写执行脚本，使用lambda节省定义函数过程<br>2、调用一两次的函数不用再起名字<br>3、简化代码可读性</p>
+<pre><code>def ds(x):
+    return 2*x +1
+
+g = lambda x : 2*x +1 #匿名函数
+g(5)
+
+def add(x,y):
+    return x+y
+
+g = lambda x,y : x+y
+</code></pre><h3 id="二、相关BIF"><a href="#二、相关BIF" class="headerlink" title="二、相关BIF"></a>二、相关BIF</h3><p>1、过滤器 filter()<br>作用：任何非True内容过滤，保留关注信息</p>
+<pre><code>list(filter(None,[1,0,False,True]))
+
+def odd(x):
+    return x % 2
+temp = range(0,10)
+list(filter(odd,temp)) #过滤偶数
+
+list(filter(lambda x: x % 2,range(0,10)))
+</code></pre><p>2、映射 map()<br>作用：序列每一个元素作为参数加工，直到可迭代序列每一个元素都加工后，返回所有加工后的元素构成新序列</p>
+<pre><code>list(map(lambda x : x*2, range(0,10)))
+#return &apos;[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]&apos;
+</code></pre><h2 id="Lecture-22-递归"><a href="#Lecture-22-递归" class="headerlink" title="Lecture 22 递归"></a>Lecture 22 递归</h2><p>1、例子<br>（1）汉诺塔游戏的实现<br>（2）树结构的定义<br>（3）谢尔宾斯基三角形<br>（4）递归自拍照片<br>2、含义：函数调用自身的行为，理论上将永远运行下去，直到消耗掉所有内存，python初始设置最多100层。</p>
+<pre><code>import sys
+sys.setrecursionlimit(10000) #修改递归层数
+</code></pre><p>3、写一个求阶乘的函数<br># 正整数阶乘，1*2*3*……n</p>
+<pre><code>def factorial(n):
+    result = n
+    for i in range(1,n):
+        result *= i
+    print(result) # 迭代
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1) # 递归
+</code></pre><p># 有进有出是递归，有调用自身、有正确返回条件。</p>
+<h2 id="Lecture23-Fibonacci数列递归"><a href="#Lecture23-Fibonacci数列递归" class="headerlink" title="Lecture23 Fibonacci数列递归"></a>Lecture23 Fibonacci数列递归</h2><p>1、黄金分割 0.618:1<br>Fibonacci 从第三个数字开始，后一个数字等于前两个数字相加，越往后推越接近0.618:1，数据结构往往模拟成Fibonacci来接近黄金分割。</p>
+<p>2、兔子出生两个月后可以生出一对兔子，一对刚出生的兔子，在20个月后会产生多少对兔子？</p>
+<pre><code>def rabbit(n):
+    n1 = 1
+    n2 = 1
+    n3 = 2
+    if n &lt; 1 :
+        print(&apos;false&apos;)
+        return 0
+    while (n-2) &gt; 0:
+        n3 = n2 + n1
+        n1 = n2
+        n2 = n3
+        n -= 1
+    return n3 # 迭代，效率快
+
+def rabbit(n):
+    if n == 1 or n == 2:
+        return 1
+    else:
+        return rabbit(n-1) + rabbit(n-2)
+</code></pre><p># 分治思想，细化难题，缺点是效率低</p>
+<h2 id="Lecture24-汉诺塔游戏"><a href="#Lecture24-汉诺塔游戏" class="headerlink" title="Lecture24 汉诺塔游戏"></a>Lecture24 汉诺塔游戏</h2><p># 1-c 2-b 1-b 3-c 1-a 2-c 1-c over<br># 规则：每一次只能移动一个圆盘，要借助除了起始针和目标针外的第三针实现。<br># 写出汉诺塔移动过程</p>
+<pre><code>def hanoi(n,a1=&apos;a1&apos;,a2=&apos;a2&apos;,a3=&apos;a3&apos;):
+    if n == 1:
+        print(a1,&apos;--&gt;&apos;,a3)
+    else:
+        hanoi(n-1,a1,a3,a2)# move (n-1)obj from a1 to a2
+        print(a1,&apos;--&gt;&apos;,a3) # the biggest obj move from a1 to a3
+        hanoi(n-1,a2,a1,a3)# move a2&apos;s (n-1)obj from a2 to a3
+</code></pre><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>鱼C论坛 《零基础入门学习Python》</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/python/" rel="tag">#python</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/18/Python005 Crawler/" rel="next" title="Python005 Crawler">
+                <i class="fa fa-chevron-left"></i> Python005 Crawler
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/02/20/《集体行动的逻辑》memo/" rel="prev" title="《集体行动的逻辑》memo">
+                《集体行动的逻辑》memo <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+       <div id="uyan_frame"></div>
+    
+  </div>
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://avatars1.githubusercontent.com/u/19641933?v=3&u=c77c48f0d50311d5a580f99e5fc88b357a98654e&s=140"
+               alt="Yuteng Yan" />
+          <p class="site-author-name" itemprop="name">Yuteng Yan</p>
+          <p class="site-description motion-element" itemprop="description">I have tried to be objective. I do not claim to be detached. —— C.Mills</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">117</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">149</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yanyuteng" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.weibo.com/p/1005055384033959/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100011471880385" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.researchgate.net/profile/Yuteng_Yan" target="_blank" title="Researchgate">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Researchgate
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.everydaysociologyblog.com" title="Everyday_Sociology" target="_blank">Everyday_Sociology</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://kieranhealy.org" title="Kieran Healy" target="_blank">Kieran Healy</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://yuqli.com" title="Yuqiong Li" target="_blank">Yuqiong Li</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://twstreetcorner.org" title="巷仔口社会学" target="_blank">巷仔口社会学</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-17-Define-a-Function"><span class="nav-text">Lecture 17 Define a Function</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-18-函数的参数"><span class="nav-text">Lecture 18 函数的参数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、形式参数-parameter-和实际参数-argument"><span class="nav-text">一、形式参数(parameter)和实际参数(argument)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、函数文档"><span class="nav-text">二、函数文档</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、关键字：参数匹配"><span class="nav-text">三、关键字：参数匹配</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、默认值"><span class="nav-text">四、默认值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、收集参数（可变参数）"><span class="nav-text">五、收集参数（可变参数）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-19-函数返回值与变量作用域"><span class="nav-text">Lecture 19 函数返回值与变量作用域</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、函数返回值"><span class="nav-text">一、函数返回值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、函数变量作用域（可见性）"><span class="nav-text">二、函数变量作用域（可见性）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-20-内嵌函数"><span class="nav-text">Lecture 20 内嵌函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、内嵌函数"><span class="nav-text">一、内嵌函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、闭包"><span class="nav-text">二、闭包</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-21-lambda表达式"><span class="nav-text">Lecture 21 lambda表达式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、简介"><span class="nav-text">一、简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、相关BIF"><span class="nav-text">二、相关BIF</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-22-递归"><span class="nav-text">Lecture 22 递归</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture23-Fibonacci数列递归"><span class="nav-text">Lecture23 Fibonacci数列递归</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture24-汉诺塔游戏"><span class="nav-text">Lecture24 汉诺塔游戏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuteng Yan</span>
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共435.7k字</span>
+</div>
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv">博客總訪問量<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+    
+  
+
+ 
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2130168"></script>
+      <!-- UY END -->
+  
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+
+</body>
+</html>

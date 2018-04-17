@@ -1,0 +1,986 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #8EA8CD; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #8EA8CD;    /*上边框颜色*/
+        border-left-color: #8EA8CD;    /*左边框颜色*/
+    }
+</style>
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="python," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="AncientDemos" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="第一节 HTML初步一、网页的一般结构html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python005 Crawler">
+<meta property="og:url" content="http://yoursite.com/2017/01/18/Python005 Crawler/index.html">
+<meta property="og:site_name" content="AncientDemos">
+<meta property="og:description" content="第一节 HTML初步一、网页的一般结构html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。">
+<meta property="og:updated_time" content="2018-04-17T09:35:23.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Python005 Crawler">
+<meta name="twitter:description" content="第一节 HTML初步一、网页的一般结构html: &amp;lt;&amp;gt;  # html是结构部分，客厅、卧室等。  
+CSS: &amp;lt;div class=&amp;quot; &amp;quot;&amp;gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &amp;lt;script&amp;gt;  #JavaScript是功能，房间中的电器。">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6290758321678845000,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Python005 Crawler | AncientDemos </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '78540146', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a4b91e42146075c064f7b30e32634d4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">AncientDemos</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">“A Sociology Dancer”</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Python005 Crawler
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-01-18T18:58:00+08:00" content="2017-01-18">
+              2017-01-18
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv">本文總閱讀量
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+              </span>
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="第一节-HTML初步"><a href="#第一节-HTML初步" class="headerlink" title="第一节 HTML初步"></a>第一节 HTML初步</h2><h3 id="一、网页的一般结构"><a href="#一、网页的一般结构" class="headerlink" title="一、网页的一般结构"></a>一、网页的一般结构</h3><pre><code>html: &lt;&gt;  # html是结构部分，客厅、卧室等。  
+CSS: &lt;div class=&quot; &quot;&gt; # class CSS是装修结构的，墙壁、地板。  
+JavaScript: &lt;script&gt;  #JavaScript是功能，房间中的电器。 
+</code></pre><a id="more"></a>
+<h3 id="二、网页结构的逐步丰富"><a href="#二、网页结构的逐步丰富" class="headerlink" title="二、网页结构的逐步丰富"></a>二、网页结构的逐步丰富</h3><h4 id="1、固定区域"><a href="#1、固定区域" class="headerlink" title="1、固定区域"></a>1、固定区域</h4><pre><code>&lt;div &gt;
+&lt;/div&gt;
+</code></pre><h4 id="2、增加标签-图片、标题-html"><a href="#2、增加标签-图片、标题-html" class="headerlink" title="2、增加标签 图片、标题 html"></a>2、增加标签 图片、标题 html</h4><pre><code>&lt;div &gt;
+     &lt;p&gt;Wow!&lt;/p&gt;
+&lt;/div&gt;
+</code></pre><h4 id="3、增加CSS样式修饰"><a href="#3、增加CSS样式修饰" class="headerlink" title="3、增加CSS样式修饰"></a>3、增加CSS样式修饰</h4><pre><code>&lt;div class = &quot;a&quot;&gt;
+     &lt;p&gt;Wow!&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt; #写文字的内容
+&lt;div &gt; &lt;/div&gt; #某区域的框架
+&lt;li&gt;&lt;/li&gt; #列表
+&lt;img&gt; #图
+&lt;h1&gt;&lt;/h1&gt; &lt;h6&gt;&lt;/h6&gt; #不同字号的标题
+&lt;a&gt; #链接
+&lt;a href = “”&gt; #标签内跟属性href指向的链接
+
+&lt;head&gt;&lt;/head&gt; #浏览器看的
+&lt;body&gt;&lt;/body&gt; #我们看到的
+</code></pre><p>#标签能嵌套，元素有层级</p>
+<h3 id="三、案例：写一个网页"><a href="#三、案例：写一个网页" class="headerlink" title="三、案例：写一个网页"></a>三、案例：写一个网页</h3><h4 id="（一）、预期结构"><a href="#（一）、预期结构" class="headerlink" title="（一）、预期结构"></a>（一）、预期结构</h4><p>1、header<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> big logo </strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nav1 nav2 nav3<br>2、content<br>pic title description …<br>3、footer  </p>
+<h4 id="（二）、案例"><a href="#（二）、案例" class="headerlink" title="（二）、案例"></a>（二）、案例</h4><p># CSS样式是之前写好的，这里直接引用，爬虫不涉及理解CSS写法 </p>
+<pre><code>&lt;!DOCTYPE html&gt; #声明
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+     &lt;meta charset=“UTF-8&quot;&gt;
+     &lt;title&gt;yanyuteng&lt;/title&gt;
+     &lt;link rel=“stylesheet” type=“text/css” href=“main.css”&gt;  #加载CSS样式
+&lt;/head&gt;
+
+&lt;body&gt;
+     &lt;div class=&quot;header”&gt; #导入CSS样式
+          &lt;img src=“来源图片&quot;&gt;
+          &lt;url class=“nav”&gt; #导入CSS样式
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; #&lt;a href=“”&gt; 指向链接
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Site&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href=“https://xxx.com&quot;&gt;Other&lt;/a&gt;&lt;/li&gt;
+           &lt;/url&gt;
+     &lt;/div&gt;
+
+     &lt;div class=“main-content”&gt; #加CSS修饰
+          &lt;h2&gt;&lt;/h2&gt;
+          &lt;url&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0001.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt; #修饰img中大小属性
+                    &lt;h3&gt;the prose1&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0002.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt;
+                    &lt;h3&gt;the prose2&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+               &lt;li&gt;
+                    &lt;img src=&quot;images/0003.jpg&quot;, width=&quot;100&quot;,height=&quot;90&quot;&gt;
+                    &lt;h3&gt;the prose3&lt;/h3&gt;
+                    &lt;p&gt;”some description”&lt;/p&gt;
+               &lt;/li&gt;
+          &lt;/url&gt;
+     &lt;/div class=“footer&quot;&gt;
+         &lt;p&gt;html learning&lt;/p&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
+
+&lt;/html&gt;
+</code></pre><h2 id="第二节-解析网页"><a href="#第二节-解析网页" class="headerlink" title="第二节 解析网页"></a>第二节 解析网页</h2><h3 id="一、流程"><a href="#一、流程" class="headerlink" title="一、流程"></a>一、流程</h3><p>1、使用BeautifulSoup解析<br>    Soup = BeautifulSoup(html,’lxml’)<br>2、描述爬取内容的位置<br>#名字、位置<br>xxx = Soup.select(‘xxx’)<br>3、标签中获得信息，并初步整理  </p>
+<pre><code>&lt;p&gt;something&lt;/p&gt;  
+</code></pre><h3 id="二、BeautifulSoup理解"><a href="#二、BeautifulSoup理解" class="headerlink" title="二、BeautifulSoup理解"></a>二、BeautifulSoup理解</h3><pre><code>Soup = BeautifulSoup(html,&apos;lxml&apos;)
+汤                    食材  食谱
+# html是解析材料
+# lxml是解析所用的库，目前有五种。
+</code></pre><h3 id="三、BeautifulSoup解析"><a href="#三、BeautifulSoup解析" class="headerlink" title="三、BeautifulSoup解析"></a>三、BeautifulSoup解析</h3><p>1、获取位置<br>CSS Selector:  #BeautifulSoup识别<br>XPath:  #其他库可以识别，BeautifulSoup不识别<br>2、XPath  </p>
+<pre><code>/html/body/div[2]/ul/li[1]/img #元素完整或绝对路径  
+# html总结点下两个子节点 body与head，body与head是兄弟节点，body下类比有body的子节点，也即是html的子孙节点。 
+</code></pre><p>3、CSS Selector</p>
+<pre><code>body &gt; div.main-content &gt; ul &gt; li:nth-child(1) &gt; img
+\# main-content CSS样式，较XPath更具体一些
+</code></pre><h3 id="四、案例：爬取自己写的网页"><a href="#四、案例：爬取自己写的网页" class="headerlink" title="四、案例：爬取自己写的网页"></a>四、案例：爬取自己写的网页</h3><h4 id="1、准备工作"><a href="#1、准备工作" class="headerlink" title="1、准备工作"></a>1、准备工作</h4><pre><code>from bs4 import BeautifulSoup # 导入库
+
+with open(‘/apple/desktop/usualdata/xxx.html’,&apos;r’) as wb_data ## 本地网页示例，读取网页数据
+Soup = BeautifulSoup(wb_data,&apos;lxml’) #解析html数据
+print(Soup)
+
+images = Soup.select(&apos;body &gt; div.main-content &gt; ul &gt; li:nth-of-type(1) &gt; img’) #找到爬取位置
+images = Soup.select(&apos;body &gt; div.main-content &gt; ul &gt; li) &gt; img&apos;)# 去除nth-of-type(1)位置信息，爬取一类图片
+
+#其他信息类比titles, descs, rates, cates,cates中如果标签与标题是多对一结构需要注意，保留附级标签下所有子标签信息
+</code></pre><h4 id="2、筛选工作"><a href="#2、筛选工作" class="headerlink" title="2、筛选工作"></a>2、筛选工作</h4><pre><code># get_text方法释放标签中文本信息
+# for title in titles
+#     print(title.get_text())
+
+# 整合放入字典中
+for title, image, desc, rate, cate in zip(titles, images, descs, rates, cates)
+     data = {
+           &apos;title&apos;: title.get_text(),
+           &apos;rate’: rate.get_text(),
+           &apos;desc&apos;: desc.get_text(),
+           &apos;cate&apos;: list(cate.stripped_strings), #stripped_strings是高级的get_text，处理所有子标签文本
+           &apos;image&apos;: image.get(&apos;src&apos;)  #获取某个标签中属性用get获得
+     }
+print(data)
+</code></pre><h4 id="3、初步处理工作"><a href="#3、初步处理工作" class="headerlink" title="3、初步处理工作"></a>3、初步处理工作</h4><pre><code>info()
+info.append(data) #整合数据
+
+# 摘除评分大于3的文章
+for i in info
+     if float(i[‘rate’]) &gt; 3
+          print(i[&apos;title’], i[&apos;cate&apos;])
+</code></pre><h4 id="4、真实网页"><a href="#4、真实网页" class="headerlink" title="4、真实网页"></a>4、真实网页</h4><p>BeautifulSoup + Requests</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>麻瓜编程 《Python实战：四周实现爬虫系统》</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/python/" rel="tag">#python</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/18/Python002 Numeric, operator and for loop/" rel="next" title="Python002 Numeric, operator and for loop">
+                <i class="fa fa-chevron-left"></i> Python002 Numeric, operator and for loop
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/01/22/Python004 Function and recursion/" rel="prev" title="Python004 Function and recursion">
+                Python004 Function and recursion <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+       <div id="uyan_frame"></div>
+    
+  </div>
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://avatars1.githubusercontent.com/u/19641933?v=3&u=c77c48f0d50311d5a580f99e5fc88b357a98654e&s=140"
+               alt="Yuteng Yan" />
+          <p class="site-author-name" itemprop="name">Yuteng Yan</p>
+          <p class="site-description motion-element" itemprop="description">I have tried to be objective. I do not claim to be detached. —— C.Mills</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">117</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">149</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/yanyuteng" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.weibo.com/p/1005055384033959/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100011471880385" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.researchgate.net/profile/Yuteng_Yan" target="_blank" title="Researchgate">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Researchgate
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.everydaysociologyblog.com" title="Everyday_Sociology" target="_blank">Everyday_Sociology</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://kieranhealy.org" title="Kieran Healy" target="_blank">Kieran Healy</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://yuqli.com" title="Yuqiong Li" target="_blank">Yuqiong Li</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://twstreetcorner.org" title="巷仔口社会学" target="_blank">巷仔口社会学</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一节-HTML初步"><span class="nav-text">第一节 HTML初步</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、网页的一般结构"><span class="nav-text">一、网页的一般结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、网页结构的逐步丰富"><span class="nav-text">二、网页结构的逐步丰富</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、固定区域"><span class="nav-text">1、固定区域</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、增加标签-图片、标题-html"><span class="nav-text">2、增加标签 图片、标题 html</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、增加CSS样式修饰"><span class="nav-text">3、增加CSS样式修饰</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、案例：写一个网页"><span class="nav-text">三、案例：写一个网页</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#（一）、预期结构"><span class="nav-text">（一）、预期结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#（二）、案例"><span class="nav-text">（二）、案例</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二节-解析网页"><span class="nav-text">第二节 解析网页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、流程"><span class="nav-text">一、流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、BeautifulSoup理解"><span class="nav-text">二、BeautifulSoup理解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、BeautifulSoup解析"><span class="nav-text">三、BeautifulSoup解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、案例：爬取自己写的网页"><span class="nav-text">四、案例：爬取自己写的网页</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、准备工作"><span class="nav-text">1、准备工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、筛选工作"><span class="nav-text">2、筛选工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、初步处理工作"><span class="nav-text">3、初步处理工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、真实网页"><span class="nav-text">4、真实网页</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuteng Yan</span>
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共435.7k字</span>
+</div>
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv">博客總訪問量<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+    
+  
+
+ 
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2130168"></script>
+      <!-- UY END -->
+  
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+
+</body>
+</html>
