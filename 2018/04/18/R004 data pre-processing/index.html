@@ -67,7 +67,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="R," />
 
 
 
@@ -85,15 +85,19 @@
 
 
 
-<meta name="description" content="I have tried to be objective. I do not claim to be detached. —— C.Mills">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AncientDemos">
-<meta property="og:url" content="http://yoursite.com/tags/军国主义/index.html">
+<meta name="description" content="4.1 Inputsetwd(&amp;apos;~/desktop/usualdata&amp;apos;)
+getwd()">
+<meta property="og:type" content="article">
+<meta property="og:title" content="R004 Data pre-processing">
+<meta property="og:url" content="http://yoursite.com/2018/04/18/R004 data pre-processing/index.html">
 <meta property="og:site_name" content="AncientDemos">
-<meta property="og:description" content="I have tried to be objective. I do not claim to be detached. —— C.Mills">
+<meta property="og:description" content="4.1 Inputsetwd(&amp;apos;~/desktop/usualdata&amp;apos;)
+getwd()">
+<meta property="og:updated_time" content="2018-04-18T14:32:58.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AncientDemos">
-<meta name="twitter:description" content="I have tried to be objective. I do not claim to be detached. —— C.Mills">
+<meta name="twitter:title" content="R004 Data pre-processing">
+<meta name="twitter:description" content="4.1 Inputsetwd(&amp;apos;~/desktop/usualdata&amp;apos;)
+getwd()">
 
 
 
@@ -111,7 +115,7 @@
   };
 </script>
 
-  <title> 标签: 军国主义 | AncientDemos </title>
+  <title> R004 Data pre-processing | AncientDemos </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -151,7 +155,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -272,46 +276,226 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        军国主义
-        <small>标签</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                R004 Data pre-processing
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2018-04-18T22:20:00+08:00" content="2018-04-18">
+              2018-04-18
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/R/" itemprop="url" rel="index">
+                    <span itemprop="name">R</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv">本文總閱讀量
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+              </span>
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <h1 id="4-1-Input"><a href="#4-1-Input" class="headerlink" title="4.1 Input"></a>4.1 Input</h1><pre><code>setwd(&apos;~/desktop/usualdata&apos;)
+getwd()
+</code></pre><a id="more"></a>
+<h2 id="txt"><a href="#txt" class="headerlink" title=".txt"></a>.txt</h2><pre><code>a = read.table(&apos;abc.txt&apos;)
+a = read.table(&apos;clipboard&apos;,header=&apos;F&apos;) ##### read the clipboard
+</code></pre><h2 id="excel"><a href="#excel" class="headerlink" title=".excel"></a>.excel</h2><pre><code>##### Open excel and convert the data file format to &apos;.prn&apos;, then use the function &apos;read.table&apos;
+read.table()
 
-      <h1 class="post-title">
+read.csv()
+</code></pre><h2 id="csv"><a href="#csv" class="headerlink" title=".csv"></a>.csv</h2><pre><code>a = read.csv(&quot;~/desktop/usualdata/abc.csv&quot;)
+a = read.table(&quot;~/desktop/usualdata/abc.csv&quot;, header=T)
+</code></pre><h2 id="dta-SPSS"><a href="#dta-SPSS" class="headerlink" title=".dta(SPSS)"></a>.dta(SPSS)</h2><pre><code>### library(&apos;foreign&apos;) 
+read.spss()
+read.dta()
+
+### library(&apos;Hmisc&apos;)  easy use
+spss.get()
+</code></pre><h2 id="others"><a href="#others" class="headerlink" title="others"></a>others</h2><pre><code>a &lt;- scan()
+</code></pre><h1 id="4-2-Output"><a href="#4-2-Output" class="headerlink" title="4.2 Output"></a>4.2 Output</h1><pre><code>write.table(mark,file=&apos;~/desktop/usualdata/abc.txt&apos;,col.names = F,row.names = F,sep = &apos; &apos;)
+</code></pre><h1 id="4-3-Data-pre-processing-normol-way"><a href="#4-3-Data-pre-processing-normol-way" class="headerlink" title="4.3 Data pre-processing: normol way"></a>4.3 Data pre-processing: normol way</h1><h2 id="Order"><a href="#Order" class="headerlink" title="Order"></a>Order</h2><pre><code>sort(iris$Sepal.Length)
+rev(iris$Sepal.Length)
+</code></pre><h2 id="Calculation"><a href="#Calculation" class="headerlink" title="Calculation"></a>Calculation</h2><pre><code>iris$Sepal2 = with(iris,iris$Sepal.Length/iris$Sepal.Width)
+</code></pre><h2 id="Delet"><a href="#Delet" class="headerlink" title="Delet"></a>Delet</h2><pre><code>rm(iris)
+</code></pre><h2 id="Missing-value"><a href="#Missing-value" class="headerlink" title="Missing value"></a>Missing value</h2><h3 id="Detect-missing-value"><a href="#Detect-missing-value" class="headerlink" title="Detect missing value"></a>Detect missing value</h3><pre><code>y &lt;- c(1,2,3,NA) 
+is.na(y)
+
+data(sleep, package= &quot;VIM&quot;) 
+sleep[!complete.cases(sleep),]
+
+#### Number of missing values
+!complete.cases(sleep) 
+sum(!complete.cases(sleep))
+
+#### Missing value ratio 
+mean(complete.cases(sleep))
+</code></pre><h3 id="Delet-missing-value"><a href="#Delet-missing-value" class="headerlink" title="Delet missing value"></a>Delet missing value</h3><pre><code>sleep &lt;- na.omit(sleep)
+</code></pre><h3 id="Replace-missing-value-Multiple-Imputation"><a href="#Replace-missing-value-Multiple-Imputation" class="headerlink" title="Replace missing value: Multiple Imputation"></a>Replace missing value: Multiple Imputation</h3><pre><code>##### 3types: miss completely at random MCAR, missing at random MAR, missing not at random MNAR
+library(mice)
+data(sleep, package=&apos;VIM&apos;)
+imp &lt;- mice(sleep, seed=100)
+fit &lt;- with(imp,lm(Dream ~ Span + Gest))
+pooled &lt;- pool(fit)
+summary(pooled)
+</code></pre><h2 id="Change-data"><a href="#Change-data" class="headerlink" title="Change data"></a>Change data</h2><h3 id="Modifying-variable-type"><a href="#Modifying-variable-type" class="headerlink" title="Modifying variable type"></a>Modifying variable type</h3><pre><code>is.numeric(a) 
+is.logical(a)
+a &lt;- as.character(a)
+
+day &lt;-c(&quot;01/01/2011&quot;)
+day &lt;- as.Date(day,&apos;%m/%d/%Y&apos;)
+</code></pre><h3 id="Rename"><a href="#Rename" class="headerlink" title="Rename"></a>Rename</h3><pre><code>fix(iris)
+
+names(iris)[1] &lt;- &apos;sl&apos;
+
+library(&quot;reshape&quot;) ##### but indeed, dplyr is more useful
+iris &lt;- rename(iris, c(Sepal.Length=&quot;sl&quot;))
+detach(&quot;package:reshape&quot;, unload=TRUE)
+</code></pre><h1 id="4-4-Data-pre-processing-dplyr"><a href="#4-4-Data-pre-processing-dplyr" class="headerlink" title="4.4 Data pre-processing: dplyr"></a>4.4 Data pre-processing: dplyr</h1><pre><code>library(dplyr)
+</code></pre><h2 id="summary"><a href="#summary" class="headerlink" title="summary()"></a>summary()</h2><pre><code>tbl_df(iris)
+glimpse(iris)
+summarise(iris,meanswidth=mean(Sepal.Width,na.rm = TRUE))
+</code></pre><h2 id="subset"><a href="#subset" class="headerlink" title="subset"></a>subset</h2><h3 id="Subset-rows-filter"><a href="#Subset-rows-filter" class="headerlink" title="Subset rows: filter"></a>Subset rows: filter</h3><pre><code>iris[iris$Sepal.Length==5 &amp; iris$Petal.Length==1.6,]
+filter(iris,Sepal.Length==5, Petal.Length==1.6)
+filter(iris,Sepal.Length==5 | Petal.Length==1.6)
+filter(iris,Sepal.Length&gt;7 , Petal.Length&lt;6)
+
+slice(iris, 9:15)
+</code></pre><h3 id="Subset-columns"><a href="#Subset-columns" class="headerlink" title="Subset columns"></a>Subset columns</h3><pre><code>select(iris, Sepal.Width, Petal.Length, Species)
+select(iris,Sepal.Width:Species)
+
+distinct(select(iris,Petal.Length))
+</code></pre><h3 id="Order-colums"><a href="#Order-colums" class="headerlink" title="Order colums"></a>Order colums</h3><pre><code>arrange(iris,Sepal.Width,Sepal.Length) ##### Ascending order, exsist priority
+arrange(iris,desc(Sepal.Width)) ##### Descending order
+</code></pre><h3 id="Sample"><a href="#Sample" class="headerlink" title="Sample"></a>Sample</h3><pre><code>sample_frac(iris, 0.99, replace = TRUE)
+glimpse(distinct(glimpse(sample_frac(iris, 0.99, replace = TRUE))))
+sample_n(iris, 10, replace = TRUE) 
+</code></pre><h2 id="Change-data-1"><a href="#Change-data-1" class="headerlink" title="Change data"></a>Change data</h2><h3 id="Rename-old-variable"><a href="#Rename-old-variable" class="headerlink" title="Rename old variable"></a>Rename old variable</h3><pre><code>rename(data,newname=oldname)
+</code></pre><h3 id="generate-new-variable"><a href="#generate-new-variable" class="headerlink" title="generate new variable"></a>generate new variable</h3><pre><code>newiris &lt;- mutate(iris,Sepal2=Sepal.Length*Sepal.Width,Sepal0=Sepal.Length/Sepal.Width)
+</code></pre><h3 id="group-the-data"><a href="#group-the-data" class="headerlink" title="group the data"></a>group the data</h3><pre><code>iris_byspecies &lt;- group_by(iris,Species)
+slmean &lt;- summarise(iris_byspecies, count = n(),
+                   slmean = mean(Sepal.Length, na.rm = TRUE),
+                   plmean = mean(Sepal.Length, na.rm = TRUE))
+slmean &lt;- filter(slmean, count &gt; 20, plmean &lt; 6)
+</code></pre>
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2015/09/12/《日本论》笔记/" itemprop="url">
-              
-                <span itemprop="name">《日本论》笔记</span>
-              
-            </a>
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-09-12T12:45:28+08:00"
-              content="2015-09-12" >
-          09-12
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/R/" rel="tag">#R</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/18/Sociologists' blog sites/" rel="next" title="Sociologists' blog sites">
+                <i class="fa fa-chevron-left"></i> Sociologists' blog sites
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </div>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -319,6 +503,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+       <div id="uyan_frame"></div>
+    
+  </div>
+
         </div>
         
           
@@ -337,8 +527,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://avatars1.githubusercontent.com/u/19641933?v=3&u=c77c48f0d50311d5a580f99e5fc88b357a98654e&s=140"
@@ -460,6 +659,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#4-1-Input"><span class="nav-text">4.1 Input</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#txt"><span class="nav-text">.txt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#excel"><span class="nav-text">.excel</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#csv"><span class="nav-text">.csv</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#dta-SPSS"><span class="nav-text">.dta(SPSS)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#others"><span class="nav-text">others</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-2-Output"><span class="nav-text">4.2 Output</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-3-Data-pre-processing-normol-way"><span class="nav-text">4.3 Data pre-processing: normol way</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Order"><span class="nav-text">Order</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Calculation"><span class="nav-text">Calculation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Delet"><span class="nav-text">Delet</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Missing-value"><span class="nav-text">Missing value</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Detect-missing-value"><span class="nav-text">Detect missing value</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Delet-missing-value"><span class="nav-text">Delet missing value</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Replace-missing-value-Multiple-Imputation"><span class="nav-text">Replace missing value: Multiple Imputation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Change-data"><span class="nav-text">Change data</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Modifying-variable-type"><span class="nav-text">Modifying variable type</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Rename"><span class="nav-text">Rename</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-4-Data-pre-processing-dplyr"><span class="nav-text">4.4 Data pre-processing: dplyr</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#summary"><span class="nav-text">summary()</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#subset"><span class="nav-text">subset</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Subset-rows-filter"><span class="nav-text">Subset rows: filter</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Subset-columns"><span class="nav-text">Subset columns</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Order-colums"><span class="nav-text">Order colums</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample"><span class="nav-text">Sample</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Change-data-1"><span class="nav-text">Change data</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Rename-old-variable"><span class="nav-text">Rename old variable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#generate-new-variable"><span class="nav-text">generate new variable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#group-the-data"><span class="nav-text">group the data</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -562,6 +772,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
@@ -585,6 +799,10 @@
   
 
  
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2130168"></script>
+      <!-- UY END -->
+  
 
   
   
