@@ -73,7 +73,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="AncientDemos" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Yuteng Yan" type="application/atom+xml" />
 
 
 
@@ -90,10 +90,10 @@ getwd()">
 <meta property="og:type" content="article">
 <meta property="og:title" content="R004 Data pre-processing">
 <meta property="og:url" content="http://yoursite.com/2018/04/18/R004 data pre-processing/index.html">
-<meta property="og:site_name" content="AncientDemos">
+<meta property="og:site_name" content="Yuteng Yan">
 <meta property="og:description" content="4.1 Inputsetwd(&amp;apos;~/desktop/usualdata&amp;apos;)
 getwd()">
-<meta property="og:updated_time" content="2018-04-18T14:32:58.000Z">
+<meta property="og:updated_time" content="2018-04-19T12:15:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="R004 Data pre-processing">
 <meta name="twitter:description" content="4.1 Inputsetwd(&amp;apos;~/desktop/usualdata&amp;apos;)
@@ -115,7 +115,7 @@ getwd()">
   };
 </script>
 
-  <title> R004 Data pre-processing | AncientDemos </title>
+  <title> R004 Data pre-processing | Yuteng Yan </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -165,7 +165,7 @@ getwd()">
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">AncientDemos</span>
+      <span class="site-title">Yuteng Yan</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -410,13 +410,22 @@ a &lt;- as.character(a)
 
 day &lt;-c(&quot;01/01/2011&quot;)
 day &lt;- as.Date(day,&apos;%m/%d/%Y&apos;)
-</code></pre><h3 id="Rename"><a href="#Rename" class="headerlink" title="Rename"></a>Rename</h3><pre><code>fix(iris)
+</code></pre><h3 id="Rename-old-variable"><a href="#Rename-old-variable" class="headerlink" title="Rename old variable"></a>Rename old variable</h3><pre><code>fix(iris)
 
 names(iris)[1] &lt;- &apos;sl&apos;
 
 library(&quot;reshape&quot;) ##### but indeed, dplyr is more useful
 iris &lt;- rename(iris, c(Sepal.Length=&quot;sl&quot;))
 detach(&quot;package:reshape&quot;, unload=TRUE)
+</code></pre><h3 id="Variable-coding"><a href="#Variable-coding" class="headerlink" title="Variable coding"></a>Variable coding</h3><pre><code>iris$sl &lt;- cut(iris$Sepal.Length,c(min(iris$Sepal.Length),5.1,6.4,max(iris$Sepal.Length)))
+levels(iris$sl) &lt;- c(&apos;short&apos;,&apos;medium&apos;,&apos;long&apos;)
+
+iris &lt;- within(iris,{
+        sl &lt;- NA
+        sl[iris$Sepal.Length&gt;=6.4] &lt;- &apos;long&apos;
+        sl[iris$Sepal.Length&gt;=5.1&amp;iris$Sepal.Length&lt;6.4] &lt;- &apos;medium&apos;
+        sl[iris$Sepal.Length&lt;5.1] &lt;- &apos;short&apos;
+        })
 </code></pre><h1 id="4-4-Data-pre-processing-dplyr"><a href="#4-4-Data-pre-processing-dplyr" class="headerlink" title="4.4 Data pre-processing: dplyr"></a>4.4 Data pre-processing: dplyr</h1><pre><code>library(dplyr)
 </code></pre><h2 id="summary"><a href="#summary" class="headerlink" title="summary()"></a>summary()</h2><pre><code>tbl_df(iris)
 glimpse(iris)
@@ -436,7 +445,7 @@ arrange(iris,desc(Sepal.Width)) ##### Descending order
 </code></pre><h3 id="Sample"><a href="#Sample" class="headerlink" title="Sample"></a>Sample</h3><pre><code>sample_frac(iris, 0.99, replace = TRUE)
 glimpse(distinct(glimpse(sample_frac(iris, 0.99, replace = TRUE))))
 sample_n(iris, 10, replace = TRUE) 
-</code></pre><h2 id="Change-data-1"><a href="#Change-data-1" class="headerlink" title="Change data"></a>Change data</h2><h3 id="Rename-old-variable"><a href="#Rename-old-variable" class="headerlink" title="Rename old variable"></a>Rename old variable</h3><pre><code>rename(data,newname=oldname)
+</code></pre><h2 id="Change-data-1"><a href="#Change-data-1" class="headerlink" title="Change data"></a>Change data</h2><h3 id="Rename-old-variable-1"><a href="#Rename-old-variable-1" class="headerlink" title="Rename old variable"></a>Rename old variable</h3><pre><code>rename(data,newname=oldname)
 </code></pre><h3 id="generate-new-variable"><a href="#generate-new-variable" class="headerlink" title="generate new variable"></a>generate new variable</h3><pre><code>newiris &lt;- mutate(iris,Sepal2=Sepal.Length*Sepal.Width,Sepal0=Sepal.Length/Sepal.Width)
 </code></pre><h3 id="group-the-data"><a href="#group-the-data" class="headerlink" title="group the data"></a>group the data</h3><pre><code>iris_byspecies &lt;- group_by(iris,Species)
 slmean &lt;- summarise(iris_byspecies, count = n(),
@@ -480,6 +489,10 @@ slmean &lt;- filter(slmean, count &gt; 20, plmean &lt; 6)
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/04/30/日记 一八年摘记/" rel="prev" title="日记 一八年摘记">
+                日记 一八年摘记 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -548,7 +561,7 @@ slmean &lt;- filter(slmean, count &gt; 20, plmean &lt; 6)
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">120</span>
+              <span class="site-state-item-count">122</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -665,7 +678,7 @@ slmean &lt;- filter(slmean, count &gt; 20, plmean &lt; 6)
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#4-1-Input"><span class="nav-text">4.1 Input</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#txt"><span class="nav-text">.txt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#excel"><span class="nav-text">.excel</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#csv"><span class="nav-text">.csv</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#dta-SPSS"><span class="nav-text">.dta(SPSS)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#others"><span class="nav-text">others</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-2-Output"><span class="nav-text">4.2 Output</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-3-Data-pre-processing-normol-way"><span class="nav-text">4.3 Data pre-processing: normol way</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Order"><span class="nav-text">Order</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Calculation"><span class="nav-text">Calculation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Delet"><span class="nav-text">Delet</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Missing-value"><span class="nav-text">Missing value</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Detect-missing-value"><span class="nav-text">Detect missing value</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Delet-missing-value"><span class="nav-text">Delet missing value</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Replace-missing-value-Multiple-Imputation"><span class="nav-text">Replace missing value: Multiple Imputation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Change-data"><span class="nav-text">Change data</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Modifying-variable-type"><span class="nav-text">Modifying variable type</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Rename"><span class="nav-text">Rename</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-4-Data-pre-processing-dplyr"><span class="nav-text">4.4 Data pre-processing: dplyr</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#summary"><span class="nav-text">summary()</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#subset"><span class="nav-text">subset</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Subset-rows-filter"><span class="nav-text">Subset rows: filter</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Subset-columns"><span class="nav-text">Subset columns</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Order-colums"><span class="nav-text">Order colums</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample"><span class="nav-text">Sample</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Change-data-1"><span class="nav-text">Change data</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Rename-old-variable"><span class="nav-text">Rename old variable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#generate-new-variable"><span class="nav-text">generate new variable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#group-the-data"><span class="nav-text">group the data</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#4-1-Input"><span class="nav-text">4.1 Input</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#txt"><span class="nav-text">.txt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#excel"><span class="nav-text">.excel</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#csv"><span class="nav-text">.csv</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#dta-SPSS"><span class="nav-text">.dta(SPSS)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#others"><span class="nav-text">others</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-2-Output"><span class="nav-text">4.2 Output</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-3-Data-pre-processing-normol-way"><span class="nav-text">4.3 Data pre-processing: normol way</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Order"><span class="nav-text">Order</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Calculation"><span class="nav-text">Calculation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Delet"><span class="nav-text">Delet</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Missing-value"><span class="nav-text">Missing value</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Detect-missing-value"><span class="nav-text">Detect missing value</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Delet-missing-value"><span class="nav-text">Delet missing value</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Replace-missing-value-Multiple-Imputation"><span class="nav-text">Replace missing value: Multiple Imputation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Change-data"><span class="nav-text">Change data</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Modifying-variable-type"><span class="nav-text">Modifying variable type</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Rename-old-variable"><span class="nav-text">Rename old variable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Variable-coding"><span class="nav-text">Variable coding</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-4-Data-pre-processing-dplyr"><span class="nav-text">4.4 Data pre-processing: dplyr</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#summary"><span class="nav-text">summary()</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#subset"><span class="nav-text">subset</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Subset-rows-filter"><span class="nav-text">Subset rows: filter</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Subset-columns"><span class="nav-text">Subset columns</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Order-colums"><span class="nav-text">Order colums</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample"><span class="nav-text">Sample</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Change-data-1"><span class="nav-text">Change data</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Rename-old-variable-1"><span class="nav-text">Rename old variable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#generate-new-variable"><span class="nav-text">generate new variable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#group-the-data"><span class="nav-text">group the data</span></a></li></ol></li></ol></li></ol></div>
             
           </div>
         </section>
@@ -690,7 +703,7 @@ slmean &lt;- filter(slmean, count &gt; 20, plmean &lt; 6)
   </span>
   <span class="author" itemprop="copyrightHolder">Yuteng Yan</span>
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共438.6k字</span>
+  <span class="post-count">博客全站共440.5k字</span>
 </div>
 
         

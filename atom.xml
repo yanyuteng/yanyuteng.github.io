@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>AncientDemos</title>
+  <title>Yuteng Yan</title>
   <subtitle>“A Sociology Dancer”</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-18T14:32:58.000Z</updated>
+  <updated>2018-05-01T18:34:50.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,77 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日记 一八年摘记</title>
+    <link href="http://yoursite.com/2018/04/30/%E6%97%A5%E8%AE%B0%20%E4%B8%80%E5%85%AB%E5%B9%B4%E6%91%98%E8%AE%B0/"/>
+    <id>http://yoursite.com/2018/04/30/日记 一八年摘记/</id>
+    <published>2018-04-29T16:00:00.000Z</published>
+    <updated>2018-05-01T18:34:50.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;2018-1-5-乏味&quot;&gt;&lt;a href=&quot;#2018-1-5-乏味&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 乏味&quot;&gt;&lt;/a&gt;2018.1.5 乏味&lt;/h3&gt;&lt;p&gt;社会学的研究，有时真让人乏味。Mills说的已经半个世纪了，研究却越来越精致琐碎，社会学的论文对宏大现实已经失去了话语权。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2018-1-6-对学术提不起兴趣&quot;&gt;&lt;a href=&quot;#2018-1-6-对学术提不起兴趣&quot; class=&quot;headerlink&quot; title=&quot;2018.1.6 对学术提不起兴趣&quot;&gt;&lt;/a&gt;2018.1.6 对学术提不起兴趣&lt;/h3&gt;&lt;p&gt;开题糊里糊涂，文献做的还不够扎实就开了。最近对写论文有些疲乏，觉得大部分时间是在论文里建构冲突和矛盾，做精致没有意义的工作。多少应该留一条退路，要紧英语和编程。&lt;br&gt;最近想看史记，这是属于不务正业的行为，学业上敦促我应该去看张静的法团主义，但我对组织与政治运动的兴趣始终不大，还是爱看书的，只是强迫不来，耐着性子写这篇本土化的论文的时候，觉得大概自己学哪科做什么都是可以尽力的。对学术渐渐提不起兴趣，想做自己喜欢的事情，又发觉这几年我着实没什么喜欢的事情了。&lt;/p&gt;
+&lt;h3 id=&quot;2018-1-11-苏帕金斯游历湄公河&quot;&gt;&lt;a href=&quot;#2018-1-11-苏帕金斯游历湄公河&quot; class=&quot;headerlink&quot; title=&quot;2018.1.11 苏帕金斯游历湄公河&quot;&gt;&lt;/a&gt;2018.1.11 苏帕金斯游历湄公河&lt;/h3&gt;&lt;p&gt;苏帕金斯游历湄公河的片子很有人类学的味道，掺杂着越南小农经济、花灯传统与高棉反思等。&lt;/p&gt;
+&lt;h3 id=&quot;2018-1-16-柯林斯抨击琐碎&quot;&gt;&lt;a href=&quot;#2018-1-16-柯林斯抨击琐碎&quot; class=&quot;headerlink&quot; title=&quot;2018.1.16 柯林斯抨击琐碎&quot;&gt;&lt;/a&gt;2018.1.16 柯林斯抨击琐碎&lt;/h3&gt;&lt;p&gt;火车上看柯林斯遥遥对话Mills，批评实证主义的琐碎化，忽略了社会学的根本任务。而我这次去南京上的恰是怎么琐碎化，怎么量化。学界的大流是这样，做定量的可以不懂定性，但是做定性需要懂定量。 ​​​​ &lt;/p&gt;
+&lt;h3 id=&quot;2018-1-21-对大数据疲软&quot;&gt;&lt;a href=&quot;#2018-1-21-对大数据疲软&quot; class=&quot;headerlink&quot; title=&quot;2018.1.21 对大数据疲软&quot;&gt;&lt;/a&gt;2018.1.21 对大数据疲软&lt;/h3&gt;&lt;p&gt;南大寒假开的大数据班，上了四天，我觉得很多讲座是单纯地为了技术而技术，有点疲软。&lt;/p&gt;
+&lt;h3 id=&quot;2018-1-22-同梁莹教授的疑惑&quot;&gt;&lt;a href=&quot;#2018-1-22-同梁莹教授的疑惑&quot; class=&quot;headerlink&quot; title=&quot;2018.1.22 同梁莹教授的疑惑&quot;&gt;&lt;/a&gt;2018.1.22 同梁莹教授的疑惑&lt;/h3&gt;&lt;p&gt;上午是梁莹教授的讲座，主要在社会工作中引入脑科学实验方法，案例是对南京大屠杀幸存者的一些研究。有两点疑问，第一，相比于脑科学实验，传统实验在社会科学，尤其是在社会学的发展中是否还有必要，如果有必要的话有什么作用？一些新技术如计算机模拟实验的作用又是什么？第二，脑科学的实验很烧钱，那么对于学生而言，或者对于尚无经费的青年学者而言，学习脑科学实验方法是否有必要？&lt;br&gt;下午华南理工石头君讲学术圈投稿的事情，收获颇多。&lt;/p&gt;
+&lt;h3 id=&quot;2018-1-24-海口&quot;&gt;&lt;a href=&quot;#2018-1-24-海口&quot; class=&quot;headerlink&quot; title=&quot;2018.1.24 海口&quot;&gt;&lt;/a&gt;2018.1.24 海口&lt;/h3&gt;&lt;p&gt;下午在海口办了一张海南电信的流量卡，终于摆脱历年过来断网的日子。&lt;/p&gt;
+&lt;h3 id=&quot;2018-1-25-游泳&quot;&gt;&lt;a href=&quot;#2018-1-25-游泳&quot; class=&quot;headerlink&quot; title=&quot;2018.1.25 游泳&quot;&gt;&lt;/a&gt;2018.1.25 游泳&lt;/h3&gt;&lt;p&gt;好久没游泳了，今天游十多圈感觉胳膊酸疼，十分爽快。想重新锻炼，争取练出来胸肌腹肌。 ​​​​ &lt;/p&gt;
+&lt;h3 id=&quot;2018-1-27-慵懒&quot;&gt;&lt;a href=&quot;#2018-1-27-慵懒&quot; class=&quot;headerlink&quot; title=&quot;2018.1.27 慵懒&quot;&gt;&lt;/a&gt;2018.1.27 慵懒&lt;/h3&gt;&lt;p&gt;慵懒的天气，真是让人心情愉快。日文或法文或俄文歌，听不懂跟着随瞎哼哼，也让人欢喜。&lt;/p&gt;
+&lt;h3 id=&quot;2018-1-29-怀念毛时代&quot;&gt;&lt;a href=&quot;#2018-1-29-怀念毛时代&quot; class=&quot;headerlink&quot; title=&quot;2018.1.29 怀念毛时代&quot;&gt;&lt;/a&gt;2018.1.29 怀念毛时代&lt;/h3&gt;&lt;p&gt;我有时会莫名怀念毛时代，这不是说我是一个马克思主义者，或者一个左派。只是简单的想到，当时大家都穷，阶级是被淡化的，人与人之间不必费心考虑他背后的背景。&lt;br&gt;这或许是我对过去的美化，当一个时代被美化，这个时代便已彻底逝去。 ​​​​ &lt;/p&gt;
+&lt;h3 id=&quot;2018-2-1-极道天魔&quot;&gt;&lt;a href=&quot;#2018-2-1-极道天魔&quot; class=&quot;headerlink&quot; title=&quot;2018.2.1 极道天魔&quot;&gt;&lt;/a&gt;2018.2.1 极道天魔&lt;/h3&gt;&lt;p&gt;极道天魔的气氛有一些聊斋的感觉，怪异和鬼物算是老瓶里耳目一新了。&lt;/p&gt;
+&lt;h3 id=&quot;2018-2-3-三亚降温&quot;&gt;&lt;a href=&quot;#2018-2-3-三亚降温&quot; class=&quot;headerlink&quot; title=&quot;2018.2.3 三亚降温&quot;&gt;&lt;/a&gt;2018.2.3 三亚降温&lt;/h3&gt;&lt;p&gt;三亚这两天真他妈的要冻死了，前段时间在南京也是，晚上睡觉先要肉体烘干被窝。南方取暖全靠抖，不禁忧虑起未来在广东念书。&lt;/p&gt;
+&lt;h3 id=&quot;2018-2-10-若是慢一点就好了&quot;&gt;&lt;a href=&quot;#2018-2-10-若是慢一点就好了&quot; class=&quot;headerlink&quot; title=&quot;2018.2.10 若是慢一点就好了&quot;&gt;&lt;/a&gt;2018.2.10 若是慢一点就好了&lt;/h3&gt;&lt;p&gt;时间逼的人们太急躁了，应该慢一点，左右不过几十年的光景，做自己喜欢的事情就好了。又想到李诞讲人间不值得，我觉得无疑是赤裸裸的犬儒。&lt;/p&gt;
+&lt;h3 id=&quot;2018-2-14-少男心&quot;&gt;&lt;a href=&quot;#2018-2-14-少男心&quot; class=&quot;headerlink&quot; title=&quot;2018.2.14 少男心&quot;&gt;&lt;/a&gt;2018.2.14 少男心&lt;/h3&gt;&lt;p&gt;晚上突然想吃蛋糕，在美团上定了一家崖城的榴莲千层和黑森林，吃起来十分甜腻，又十分解腻。&lt;/p&gt;
+&lt;h3 id=&quot;2018-2-18-如何弥合理想与现实&quot;&gt;&lt;a href=&quot;#2018-2-18-如何弥合理想与现实&quot; class=&quot;headerlink&quot; title=&quot;2018.2.18 如何弥合理想与现实&quot;&gt;&lt;/a&gt;2018.2.18 如何弥合理想与现实&lt;/h3&gt;&lt;p&gt;我应该坚持做计算社会学方向，好好学习编程如ABM计算机模拟、大数据爬取与清理等，也要好好学习英语，以此弥合理想与现实。&lt;/p&gt;
+&lt;h3 id=&quot;2018-2-19-许知远和陈嘉映的对话&quot;&gt;&lt;a href=&quot;#2018-2-19-许知远和陈嘉映的对话&quot; class=&quot;headerlink&quot; title=&quot;2018.2.19 许知远和陈嘉映的对话&quot;&gt;&lt;/a&gt;2018.2.19 许知远和陈嘉映的对话&lt;/h3&gt;&lt;p&gt;晚上看许知远和陈嘉映的对话，许知远提了一个很有意思的问题，也是我认为当代很多人文社科类学生思考的问题。&lt;br&gt;沿着越来越量化的成功标准，许知远困惑我们如何消解对成功的巨大焦虑，陈嘉映的回答是良好的实践就是目的本身，这个对话不禁让我想起韦伯对康德的发展，四种理性的划分及由此产生的责任伦理，如果说实践本身就是目的，那么如何思考韦伯的发问？&lt;br&gt;又及陈嘉映最后意味深长的结语提及鲁迅评价陀罗耶夫斯基，我们去拷问真实下的虚伪并不难，难的是如何拷问虚伪下的真实。如何发掘自己灵魂的底色始终是这个时代十分艰难的事情。&lt;/p&gt;
+&lt;h3 id=&quot;2018-2-20-社会学学生焦虑的原因&quot;&gt;&lt;a href=&quot;#2018-2-20-社会学学生焦虑的原因&quot; class=&quot;headerlink&quot; title=&quot;2018.2.20 社会学学生焦虑的原因&quot;&gt;&lt;/a&gt;2018.2.20 社会学学生焦虑的原因&lt;/h3&gt;&lt;p&gt;我今天想明白一件事情，为什么很多社会学的学生处于焦虑却不知原因？相当程度上，是因为我们一直处于单线的成长中，沿着可量化的阶梯上爬，从小学到大学，倘若留级或复读，其实是相对失败的事情。但这一按部就班的道路，对于社会学学生而言，在大学以后戛然而止，一小部分继续按部就班念书，大学以后开始升华为学术道路，但终归学业这条道路并不适合多数人，对多数学生而言，不得不忧虑的事情是毕业以后进入社会的工作。&lt;br&gt;这方面，法律在社会上有着对应的律所，经济金融有着对应的银行券商，而社会学，以及相当多的人文社科专业缺乏明确的晋升道路，这是社会学专业学生忧虑的原因。个体被突然抛入社会，茫然无措，及个体将抛未抛时的忐忑不安。如何解决这一问题，必须从大学的教学制度入手，同工业界紧密结合，但另一方面，过于实际的课程也会磨灭学术种子的发轫，这是一个矛盾的事情，但总体上职业化教育课程应该是必须的，以此纾解个体的不安。&lt;/p&gt;
+&lt;h3 id=&quot;2018-2-28-《法团主义》的写作风格&quot;&gt;&lt;a href=&quot;#2018-2-28-《法团主义》的写作风格&quot; class=&quot;headerlink&quot; title=&quot;2018.2.28 《法团主义》的写作风格&quot;&gt;&lt;/a&gt;2018.2.28 《法团主义》的写作风格&lt;/h3&gt;&lt;p&gt;张静教授是肃然老师的导师，树生让我看她写的法团主义入门。我耐着性子看，行文有些啰嗦，一些语句颇像英文转译，同多元主义的对比略为散乱，吃力抓她的脉络。还记得大二看同一系列李强写的的自由主义，行文更加紧凑流畅。政治哲学还是喜欢按历史脉络梳理，张静教授的风格有些疲惫。&lt;br&gt;对法团主义的感受是，社会学在当代是有些乏味的，没有了八十年代的社会运动，但仔细审查，我们周边的变革或革命其实始终在隐秘发生着，如何洞察这些表层下的暗流，就是社会学的意义，也是因此，社会学始终是边缘却不死亡的学科。 ​​​​&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-5-对未来的焦虑&quot;&gt;&lt;a href=&quot;#2018-3-5-对未来的焦虑&quot; class=&quot;headerlink&quot; title=&quot;2018.3.5 对未来的焦虑&quot;&gt;&lt;/a&gt;2018.3.5 对未来的焦虑&lt;/h3&gt;&lt;p&gt;昨天晚上和朋友聊天，一夜没有睡好。今天下午回学校，和大哥商量了一下就糊里糊涂买了司考的书，打算今年考一下司考。这个决定有脑热的成分，也有对数据分析的疲惫，根本上的仍然是对未来的焦虑。&lt;br&gt;焦虑始终萦绕在每一个现代人的心头，大部分时间它引而不发，如头顶的剑，让人无所适从。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-8-国家治理逻辑的参考&quot;&gt;&lt;a href=&quot;#2018-3-8-国家治理逻辑的参考&quot; class=&quot;headerlink&quot; title=&quot;2018.3.8 国家治理逻辑的参考&quot;&gt;&lt;/a&gt;2018.3.8 国家治理逻辑的参考&lt;/h3&gt;&lt;p&gt;今天下午一直在看中残联领导对狮子会的批示文件和讲话，思考不一定要拘泥在既往传统的ngo理论里，想起周雪光的国家治理逻辑，当然这也可以归类是一种嵌入性或法团主义的理论，但无疑是一个很好的突破口。 ​​​​ &lt;/p&gt;
+&lt;h3 id=&quot;2018-3-9-对未来的困惑&quot;&gt;&lt;a href=&quot;#2018-3-9-对未来的困惑&quot; class=&quot;headerlink&quot; title=&quot;2018.3.9 对未来的困惑&quot;&gt;&lt;/a&gt;2018.3.9 对未来的困惑&lt;/h3&gt;&lt;p&gt;借了一本阮云星的吸纳与赋权，加上周雪光的国家治理逻辑，看看能不能有什么思路。&lt;br&gt;最近大哥和我买的司考书陆续邮到，我不知道自己是否会就业，可能在念研究生期间彻底投身市场了。人生如过客，未来总是不可期的。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-10-未来不可期&quot;&gt;&lt;a href=&quot;#2018-3-10-未来不可期&quot; class=&quot;headerlink&quot; title=&quot;2018.3.10 未来不可期&quot;&gt;&lt;/a&gt;2018.3.10 未来不可期&lt;/h3&gt;&lt;p&gt;借了一本阮云星的吸纳与赋权，加上周雪光的国家治理逻辑，看看能不能有什么论文思路。&lt;br&gt;最近大哥和我买了司考的书，我不知道自己是不是会就业，可能在念研究生期间彻底投身市场了。人生如过客，未来总是不可期的。 ​​​​&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-12-文科博士是否有一条退路&quot;&gt;&lt;a href=&quot;#2018-3-12-文科博士是否有一条退路&quot; class=&quot;headerlink&quot; title=&quot;2018.3.12 文科博士是否有一条退路&quot;&gt;&lt;/a&gt;2018.3.12 文科博士是否有一条退路&lt;/h3&gt;&lt;p&gt;这两天在豆瓣看了几篇博士的劝退文章，这两年也陆续见了些前辈放弃学术，他们大多比我聪明坚毅，我有自知之明，自忖不如他们。学术圈有时残酷令人生畏，文科博士又不像理工类，转身去工业界也无有可为。焦灼是现代人的常态，这一点在有企图念博士的人文社科生上似乎更加扩大了。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-17-尹海洁老师的鸡血&quot;&gt;&lt;a href=&quot;#2018-3-17-尹海洁老师的鸡血&quot; class=&quot;headerlink&quot; title=&quot;2018.3.17 尹海洁老师的鸡血&quot;&gt;&lt;/a&gt;2018.3.17 尹海洁老师的鸡血&lt;/h3&gt;&lt;p&gt;课间和尹海洁老师聊天，她说她一个念社会统计的博士现在上海年入40个，今年的吕杨学姐去京东做数据分析月17k。这样一种打鸡血就感觉好像学术又可以做下去了。心里又在想，四年前好像就是这样被骗到社会学系的。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-18-讨厌理工科生的自鸣得意&quot;&gt;&lt;a href=&quot;#2018-3-18-讨厌理工科生的自鸣得意&quot; class=&quot;headerlink&quot; title=&quot;2018.3.18 讨厌理工科生的自鸣得意&quot;&gt;&lt;/a&gt;2018.3.18 讨厌理工科生的自鸣得意&lt;/h3&gt;&lt;p&gt;今天在网络上和一个理工科的人吵了起来，他爱搬弄一些社会学的术语，但不曾真的看过厚书。我发现理工科对社科感兴趣的学生有两种特点，一是沉迷进化论，并认为可以此解释人类社会；一是对自己的想法很坚定。我讨厌这种自鸣得意的浮躁，它使社会科学流于表面的喧嚣。&lt;br&gt;但另一方面，我也哑然自己实际并不能真的说服他，这是因为社会科学的理论十分碎片化，虽然他的观点让我十分不适，但一时间我并不能显示科班学生的学术训练。这又颇使我落寞。我的根基说到底也是不牢固的。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-21-怀念父母辈的年代&quot;&gt;&lt;a href=&quot;#2018-3-21-怀念父母辈的年代&quot; class=&quot;headerlink&quot; title=&quot;2018.3.21 怀念父母辈的年代&quot;&gt;&lt;/a&gt;2018.3.21 怀念父母辈的年代&lt;/h3&gt;&lt;p&gt;我最近开始沉迷八九十年代的歌，这些歌需要一些阅历，后知后觉在某一天的深夜突然被打动。我怀念父母生活的年代，过去始终带有一种尘土味道的感伤。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-26-建构的NGO历程&quot;&gt;&lt;a href=&quot;#2018-3-26-建构的NGO历程&quot; class=&quot;headerlink&quot; title=&quot;2018.3.26 建构的NGO历程&quot;&gt;&lt;/a&gt;2018.3.26 建构的NGO历程&lt;/h3&gt;&lt;p&gt;我刚才在想念了三年社会学硕士，然后再去念统计硕士会不会太晚。&lt;br&gt;最近在ngo做定性方面的调查发觉自己并不喜欢这种精致琐碎的研究，我始终分不清我所发现的，是我自己建构的，还是事物本身，定量的统计研究不会有这个疑虑，只需要反复修正数据与方法，工具是相对客观的。&lt;br&gt;本科毕业后不打算再做定性的论文了，要不要转去理工科？又该如何转过去，去年放弃地理学倒没什么遗憾的，我今年的兴趣点不太在城市研究了。拍了拍胸脯，仍旧拿不定主意，不知道自己现在喜欢什么，人懒散久了就没有了方向。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-27-做学术归根要去国外历练&quot;&gt;&lt;a href=&quot;#2018-3-27-做学术归根要去国外历练&quot; class=&quot;headerlink&quot; title=&quot;2018.3.27 做学术归根要去国外历练&quot;&gt;&lt;/a&gt;2018.3.27 做学术归根要去国外历练&lt;/h3&gt;&lt;p&gt;今天看朋友圈，有个很久没联系的同学去了巴黎政治学院继续念书。&lt;br&gt;我反思自己始终是不思进取，这大学四年除了推免去岭南，别的是一无是处，得过且过在班里的圈子，在班内又也只是在推免线的边缘混迹。大学没有长进，回想高三时的雄心壮志，已是全然忘在脑后了，愈发羞愧。&lt;br&gt;阿姊在Cornell和宾大念书，我很羡慕，也颇有压力。又想起有学问的前辈都是在海外待过几年，回国或是另一个事情，但英文都是极为熟练。我如果想做出点东西，归根要去外面。&lt;br&gt;可是胆胆怯怯，有时考虑生计的烦闷，挂念法律或统计或计算机，有时考虑英语的枯燥，纠结雅思或托福或Gre，很多机会倏而远去，我又自怨自艾。到底我很懒惰，怨恨的也只是自己了。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-29-从个体生活的逼仄中解脱&quot;&gt;&lt;a href=&quot;#2018-3-29-从个体生活的逼仄中解脱&quot; class=&quot;headerlink&quot; title=&quot;2018.3.29 从个体生活的逼仄中解脱&quot;&gt;&lt;/a&gt;2018.3.29 从个体生活的逼仄中解脱&lt;/h3&gt;&lt;p&gt;青年人从学校走向社会，逐渐被周遭世俗的金钱、物质与利益围绕。高中念的先贤文章会随着年龄增长逐渐忘记，大学如果未再接触，人就总会不自觉地向现实低头。&lt;br&gt;虽然现实不时让我感到焦虑，我心里归根感激我大学念的是社会学，它使高中这种纯净的思考得以延续。大学以来听韦伯讲新教伦理与资本主义精神；听马克思讲人的异化。&lt;br&gt;这些务虚知识的意义是什么？我最大的体会是，它将我从个体生活的逼仄中解脱出来，投身于一种更宏大的历史现实，它促使我反思我习以为常的现实，热切地寻找另一种生活的可能。&lt;/p&gt;
+&lt;h3 id=&quot;2018-3-30-想去异国他乡&quot;&gt;&lt;a href=&quot;#2018-3-30-想去异国他乡&quot; class=&quot;headerlink&quot; title=&quot;2018.3.30 想去异国他乡&quot;&gt;&lt;/a&gt;2018.3.30 想去异国他乡&lt;/h3&gt;&lt;p&gt;最近想去异国他乡，把在中国的焦虑都浪掷一旁，不用汲汲于富贵，每天就是单纯地念书念论文。 ​​​​&lt;/p&gt;
+&lt;h3 id=&quot;2018-4-7-了凡四训&quot;&gt;&lt;a href=&quot;#2018-4-7-了凡四训&quot; class=&quot;headerlink&quot; title=&quot;2018.4.7 了凡四训&quot;&gt;&lt;/a&gt;2018.4.7 了凡四训&lt;/h3&gt;&lt;p&gt;最近沉迷算卦，人在了无趣味的时候总是寄托幽冥，而这又突然使我警醒，高中时的壮志已是落到尘埃里了。不应如此。凡事还是要做自己喜欢的事情，也要有一些年轻人的冲劲，这样自己舒服，前途无亮也不会懊恼自悔。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;务要日日知非，日日改过；一日不知非，即一日安于自是； 一日无过可改，即一日无步可进；天下聪明俊秀不少，所以德不加修，业不加广者，只为因循二字，耽阁一生。 ​​​​&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2018-4-9-林语堂的幽默&quot;&gt;&lt;a href=&quot;#2018-4-9-林语堂的幽默&quot; class=&quot;headerlink&quot; title=&quot;2018.4.9 林语堂的幽默&quot;&gt;&lt;/a&gt;2018.4.9 林语堂的幽默&lt;/h3&gt;&lt;p&gt;晚上睡不着，起来看林语堂的散文，从初中以来，我最喜欢的作家始终是他。&lt;br&gt;坐在精神的围炉前烤烤火，深夜就可以得到一些慰藉。 ​​​​&lt;/p&gt;
+&lt;h3 id=&quot;2018-4-12-偏爱量化一些&quot;&gt;&lt;a href=&quot;#2018-4-12-偏爱量化一些&quot; class=&quot;headerlink&quot; title=&quot;2018.4.12 偏爱量化一些&quot;&gt;&lt;/a&gt;2018.4.12 偏爱量化一些&lt;/h3&gt;&lt;p&gt;今天在看Matrix67的博客，有一些启发，我觉得我的道路还是应该走人文社科里做编程或统计的。数学很严谨，也十分令人着迷。我喜欢看社科学者讲故事，但轮到我自己讲的时候，我总是害怕会误导他人。&lt;/p&gt;
+&lt;h3 id=&quot;2018-4-17-山海胸襟&quot;&gt;&lt;a href=&quot;#2018-4-17-山海胸襟&quot; class=&quot;headerlink&quot; title=&quot;2018.4.17 山海胸襟&quot;&gt;&lt;/a&gt;2018.4.17 山海胸襟&lt;/h3&gt;&lt;p&gt;听说中山大学要公投废中山像，台湾的去中国化教育让青年人厌恶大陆，这不应该怪罪于青年人本身。我只是觉得有些可惜，中山大学的教育是山海胸襟，却容不下校园里的一尊塑像。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;台湾中山大学发起全校网络“公投”，由教职员及在校学生投票决定孙中山及蒋介石铜像的去留。对此，有台湾中山大学校友痛斥，“如果孙中山铜像被移除，我以身为台湾中山大学校友为耻”。 ​​​​&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;2018-4-26-社会分层&quot;&gt;&lt;a href=&quot;#2018-4-26-社会分层&quot; class=&quot;headerlink&quot; title=&quot;2018.4.26 社会分层&quot;&gt;&lt;/a&gt;2018.4.26 社会分层&lt;/h3&gt;&lt;p&gt;最近在看社会分层的书，Erik Wright的履历真是开挂了，家里放着两年前在台湾买他的真实乌托邦，一直没看。最近终于开始读分层的书，以后要做这个方向。 ​​​​&lt;/p&gt;
+&lt;h3 id=&quot;2018-4-27-更深层的刺激&quot;&gt;&lt;a href=&quot;#2018-4-27-更深层的刺激&quot; class=&quot;headerlink&quot; title=&quot;2018.4.27 更深层的刺激&quot;&gt;&lt;/a&gt;2018.4.27 更深层的刺激&lt;/h3&gt;&lt;p&gt;下午又看了一遍布达佩斯大饭店，电影有强烈的美感，对我的精神支持远胜于金钱的刺激。&lt;br&gt;我以前写过一篇文章讲文学是没有高低的，这主要应该是形式的，另一方面，我现在承认文学的确是存在高低的，这主要是指精神的感染力，一种更深层次的刺激。 ​​​​&lt;/p&gt;
+&lt;h3 id=&quot;2018-4-30-三颗智齿&quot;&gt;&lt;a href=&quot;#2018-4-30-三颗智齿&quot; class=&quot;headerlink&quot; title=&quot;2018.4.30 三颗智齿&quot;&gt;&lt;/a&gt;2018.4.30 三颗智齿&lt;/h3&gt;&lt;p&gt;很多人一生没有长过智齿，我最近长了三颗。&lt;br&gt;上牙没什么感受，主要还是下牙有一颗顶着旁边，早上醒来感觉有些酸痛。去校医院问了，医生看了看说不好拔，让我过几天等主任回来再开刀，只好姑且安慰自己算是聪明伶俐了。&lt;/p&gt;
+&lt;h3 id=&quot;2018-5-1-儒家与佛家对根本困惑的助益&quot;&gt;&lt;a href=&quot;#2018-5-1-儒家与佛家对根本困惑的助益&quot; class=&quot;headerlink&quot; title=&quot;2018.5.1 儒家与佛家对根本困惑的助益&quot;&gt;&lt;/a&gt;2018.5.1 儒家与佛家对根本困惑的助益&lt;/h3&gt;&lt;p&gt;晚上看了一集广府春秋，里面讲广东受佛教文化影响。这部片子电影化的手法很舒服。&lt;br&gt;我最近一直在思考，更确切应该说我大学以来在思考，社会科学虽然提供了一种洞察，但无法解答一些人生的根本困惑，这点Weber讲过，但没给什么具体的答案。西方人没有中国的儒道佛文化，回想以前看过的书，君子自省，这几年已是荒废了。&lt;br&gt;这个时代的焦虑太多，我觉得年轻人应该回归一些儒佛，以此开释自己。自觉与自省很艰难。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;2018-1-5-乏味&quot;&gt;&lt;a href=&quot;#2018-1-5-乏味&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 乏味&quot;&gt;&lt;/a&gt;2018.1.5 乏味&lt;/h3&gt;&lt;p&gt;社会学的研究，有时真让人乏味。Mills说的已经半个世纪了，研究却越来越精致琐碎，社会学的论文对宏大现实已经失去了话语权。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Struggle Diary" scheme="http://yoursite.com/categories/Struggle-Diary/"/>
+    
+    
+      <category term="理想" scheme="http://yoursite.com/tags/%E7%90%86%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>R004 Data pre-processing</title>
     <link href="http://yoursite.com/2018/04/18/R004%20data%20pre-processing/"/>
     <id>http://yoursite.com/2018/04/18/R004 data pre-processing/</id>
     <published>2018-04-18T14:20:00.000Z</published>
-    <updated>2018-04-18T14:32:58.000Z</updated>
+    <updated>2018-04-19T12:15:14.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;4-1-Input&quot;&gt;&lt;a href=&quot;#4-1-Input&quot; class=&quot;headerlink&quot; title=&quot;4.1 Input&quot;&gt;&lt;/a&gt;4.1 Input&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;setwd(&amp;apos;~/desktop/usualdata&amp;apos;)
 getwd()
@@ -71,13 +137,22 @@ a &amp;lt;- as.character(a)
 
 day &amp;lt;-c(&amp;quot;01/01/2011&amp;quot;)
 day &amp;lt;- as.Date(day,&amp;apos;%m/%d/%Y&amp;apos;)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Rename&quot;&gt;&lt;a href=&quot;#Rename&quot; class=&quot;headerlink&quot; title=&quot;Rename&quot;&gt;&lt;/a&gt;Rename&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;fix(iris)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Rename-old-variable&quot;&gt;&lt;a href=&quot;#Rename-old-variable&quot; class=&quot;headerlink&quot; title=&quot;Rename old variable&quot;&gt;&lt;/a&gt;Rename old variable&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;fix(iris)
 
 names(iris)[1] &amp;lt;- &amp;apos;sl&amp;apos;
 
 library(&amp;quot;reshape&amp;quot;) ##### but indeed, dplyr is more useful
 iris &amp;lt;- rename(iris, c(Sepal.Length=&amp;quot;sl&amp;quot;))
 detach(&amp;quot;package:reshape&amp;quot;, unload=TRUE)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Variable-coding&quot;&gt;&lt;a href=&quot;#Variable-coding&quot; class=&quot;headerlink&quot; title=&quot;Variable coding&quot;&gt;&lt;/a&gt;Variable coding&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;iris$sl &amp;lt;- cut(iris$Sepal.Length,c(min(iris$Sepal.Length),5.1,6.4,max(iris$Sepal.Length)))
+levels(iris$sl) &amp;lt;- c(&amp;apos;short&amp;apos;,&amp;apos;medium&amp;apos;,&amp;apos;long&amp;apos;)
+
+iris &amp;lt;- within(iris,{
+        sl &amp;lt;- NA
+        sl[iris$Sepal.Length&amp;gt;=6.4] &amp;lt;- &amp;apos;long&amp;apos;
+        sl[iris$Sepal.Length&amp;gt;=5.1&amp;amp;iris$Sepal.Length&amp;lt;6.4] &amp;lt;- &amp;apos;medium&amp;apos;
+        sl[iris$Sepal.Length&amp;lt;5.1] &amp;lt;- &amp;apos;short&amp;apos;
+        })
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;4-4-Data-pre-processing-dplyr&quot;&gt;&lt;a href=&quot;#4-4-Data-pre-processing-dplyr&quot; class=&quot;headerlink&quot; title=&quot;4.4 Data pre-processing: dplyr&quot;&gt;&lt;/a&gt;4.4 Data pre-processing: dplyr&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;library(dplyr)
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;summary&quot;&gt;&lt;a href=&quot;#summary&quot; class=&quot;headerlink&quot; title=&quot;summary()&quot;&gt;&lt;/a&gt;summary()&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;tbl_df(iris)
 glimpse(iris)
@@ -97,7 +172,7 @@ arrange(iris,desc(Sepal.Width)) ##### Descending order
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Sample&quot;&gt;&lt;a href=&quot;#Sample&quot; class=&quot;headerlink&quot; title=&quot;Sample&quot;&gt;&lt;/a&gt;Sample&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sample_frac(iris, 0.99, replace = TRUE)
 glimpse(distinct(glimpse(sample_frac(iris, 0.99, replace = TRUE))))
 sample_n(iris, 10, replace = TRUE) 
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Change-data-1&quot;&gt;&lt;a href=&quot;#Change-data-1&quot; class=&quot;headerlink&quot; title=&quot;Change data&quot;&gt;&lt;/a&gt;Change data&lt;/h2&gt;&lt;h3 id=&quot;Rename-old-variable&quot;&gt;&lt;a href=&quot;#Rename-old-variable&quot; class=&quot;headerlink&quot; title=&quot;Rename old variable&quot;&gt;&lt;/a&gt;Rename old variable&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;rename(data,newname=oldname)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Change-data-1&quot;&gt;&lt;a href=&quot;#Change-data-1&quot; class=&quot;headerlink&quot; title=&quot;Change data&quot;&gt;&lt;/a&gt;Change data&lt;/h2&gt;&lt;h3 id=&quot;Rename-old-variable-1&quot;&gt;&lt;a href=&quot;#Rename-old-variable-1&quot; class=&quot;headerlink&quot; title=&quot;Rename old variable&quot;&gt;&lt;/a&gt;Rename old variable&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;rename(data,newname=oldname)
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;generate-new-variable&quot;&gt;&lt;a href=&quot;#generate-new-variable&quot; class=&quot;headerlink&quot; title=&quot;generate new variable&quot;&gt;&lt;/a&gt;generate new variable&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;newiris &amp;lt;- mutate(iris,Sepal2=Sepal.Length*Sepal.Width,Sepal0=Sepal.Length/Sepal.Width)
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;group-the-data&quot;&gt;&lt;a href=&quot;#group-the-data&quot; class=&quot;headerlink&quot; title=&quot;group the data&quot;&gt;&lt;/a&gt;group the data&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;iris_byspecies &amp;lt;- group_by(iris,Species)
 slmean &amp;lt;- summarise(iris_byspecies, count = n(),
@@ -328,68 +403,6 @@ grep(&amp;apos;[R]r&amp;apos;,text) ##### [1] 2
     
     
       <category term="R" scheme="http://yoursite.com/tags/R/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日记 一八年摘记</title>
-    <link href="http://yoursite.com/2018/04/15/%E6%97%A5%E8%AE%B0%20%E4%B8%80%E5%85%AB%E5%B9%B4%E6%91%98%E8%AE%B0/"/>
-    <id>http://yoursite.com/2018/04/15/日记 一八年摘记/</id>
-    <published>2018-04-14T16:00:00.000Z</published>
-    <updated>2018-04-17T10:06:33.000Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;2018-1-5-乏味&quot;&gt;&lt;a href=&quot;#2018-1-5-乏味&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 乏味&quot;&gt;&lt;/a&gt;2018.1.5 乏味&lt;/h3&gt;&lt;p&gt;社会学的研究，有时真让人乏味。Mills说的已经半个世纪了，研究却越来越精致琐碎，社会学的论文对宏大现实已经失去了话语权。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;2018-1-6-对学术提不起兴趣&quot;&gt;&lt;a href=&quot;#2018-1-6-对学术提不起兴趣&quot; class=&quot;headerlink&quot; title=&quot;2018.1.6 对学术提不起兴趣&quot;&gt;&lt;/a&gt;2018.1.6 对学术提不起兴趣&lt;/h3&gt;&lt;p&gt;开题糊里糊涂，文献做的还不够扎实就开了。最近对写论文有些疲乏，觉得大部分时间是在论文里建构冲突和矛盾，做精致没有意义的工作。多少应该留一条退路，要紧英语和编程。&lt;br&gt;最近想看史记，这是属于不务正业的行为，学业上敦促我应该去看张静的法团主义，但我对组织与政治运动的兴趣始终不大，还是爱看书的，只是强迫不来，耐着性子写这篇本土化的论文的时候，觉得大概自己学哪科做什么都是可以尽力的。对学术渐渐提不起兴趣，想做自己喜欢的事情，又发觉这几年我着实没什么喜欢的事情了。&lt;/p&gt;
-&lt;h3 id=&quot;2018-1-11-苏帕金斯游历湄公河&quot;&gt;&lt;a href=&quot;#2018-1-11-苏帕金斯游历湄公河&quot; class=&quot;headerlink&quot; title=&quot;2018.1.11 苏帕金斯游历湄公河&quot;&gt;&lt;/a&gt;2018.1.11 苏帕金斯游历湄公河&lt;/h3&gt;&lt;p&gt;苏帕金斯游历湄公河的片子很有人类学的味道，掺杂着越南小农经济、花灯传统与高棉反思等。&lt;/p&gt;
-&lt;h3 id=&quot;2018-1-16-柯林斯抨击琐碎&quot;&gt;&lt;a href=&quot;#2018-1-16-柯林斯抨击琐碎&quot; class=&quot;headerlink&quot; title=&quot;2018.1.16 柯林斯抨击琐碎&quot;&gt;&lt;/a&gt;2018.1.16 柯林斯抨击琐碎&lt;/h3&gt;&lt;p&gt;火车上看柯林斯遥遥对话Mills，批评实证主义的琐碎化，忽略了社会学的根本任务。而我这次去南京上的恰是怎么琐碎化，怎么量化。学界的大流是这样，做定量的可以不懂定性，但是做定性需要懂定量。 ​​​​ &lt;/p&gt;
-&lt;h3 id=&quot;2018-1-21-对大数据疲软&quot;&gt;&lt;a href=&quot;#2018-1-21-对大数据疲软&quot; class=&quot;headerlink&quot; title=&quot;2018.1.21 对大数据疲软&quot;&gt;&lt;/a&gt;2018.1.21 对大数据疲软&lt;/h3&gt;&lt;p&gt;南大寒假开的大数据班，上了四天，我觉得很多讲座是单纯地为了技术而技术，有点疲软。&lt;/p&gt;
-&lt;h3 id=&quot;2018-1-22-同梁莹教授的疑惑&quot;&gt;&lt;a href=&quot;#2018-1-22-同梁莹教授的疑惑&quot; class=&quot;headerlink&quot; title=&quot;2018.1.22 同梁莹教授的疑惑&quot;&gt;&lt;/a&gt;2018.1.22 同梁莹教授的疑惑&lt;/h3&gt;&lt;p&gt;上午是梁莹教授的讲座，主要在社会工作中引入脑科学实验方法，案例是对南京大屠杀幸存者的一些研究。有两点疑问，第一，相比于脑科学实验，传统实验在社会科学，尤其是在社会学的发展中是否还有必要，如果有必要的话有什么作用？一些新技术如计算机模拟实验的作用又是什么？第二，脑科学的实验很烧钱，那么对于学生而言，或者对于尚无经费的青年学者而言，学习脑科学实验方法是否有必要？&lt;br&gt;下午华南理工石头君讲学术圈投稿的事情，收获颇多。&lt;/p&gt;
-&lt;h3 id=&quot;2018-1-24-海口&quot;&gt;&lt;a href=&quot;#2018-1-24-海口&quot; class=&quot;headerlink&quot; title=&quot;2018.1.24 海口&quot;&gt;&lt;/a&gt;2018.1.24 海口&lt;/h3&gt;&lt;p&gt;下午在海口办了一张海南电信的流量卡，终于摆脱历年过来断网的日子。&lt;/p&gt;
-&lt;h3 id=&quot;2018-1-25-游泳&quot;&gt;&lt;a href=&quot;#2018-1-25-游泳&quot; class=&quot;headerlink&quot; title=&quot;2018.1.25 游泳&quot;&gt;&lt;/a&gt;2018.1.25 游泳&lt;/h3&gt;&lt;p&gt;好久没游泳了，今天游十多圈感觉胳膊酸疼，十分爽快。想重新锻炼，争取练出来胸肌腹肌。 ​​​​ &lt;/p&gt;
-&lt;h3 id=&quot;2018-1-27-慵懒&quot;&gt;&lt;a href=&quot;#2018-1-27-慵懒&quot; class=&quot;headerlink&quot; title=&quot;2018.1.27 慵懒&quot;&gt;&lt;/a&gt;2018.1.27 慵懒&lt;/h3&gt;&lt;p&gt;慵懒的天气，真是让人心情愉快。日文或法文或俄文歌，听不懂跟着随瞎哼哼，也让人欢喜。&lt;/p&gt;
-&lt;h3 id=&quot;2018-1-29-怀念毛时代&quot;&gt;&lt;a href=&quot;#2018-1-29-怀念毛时代&quot; class=&quot;headerlink&quot; title=&quot;2018.1.29 怀念毛时代&quot;&gt;&lt;/a&gt;2018.1.29 怀念毛时代&lt;/h3&gt;&lt;p&gt;我有时会莫名怀念毛时代，这不是说我是一个马克思主义者，或者一个左派。只是简单的想到，当时大家都穷，阶级是被淡化的，人与人之间不必费心考虑他背后的背景。&lt;br&gt;这或许是我对过去的美化，当一个时代被美化，这个时代便已彻底逝去。 ​​​​ &lt;/p&gt;
-&lt;h3 id=&quot;2018-2-1-极道天魔&quot;&gt;&lt;a href=&quot;#2018-2-1-极道天魔&quot; class=&quot;headerlink&quot; title=&quot;2018.2.1 极道天魔&quot;&gt;&lt;/a&gt;2018.2.1 极道天魔&lt;/h3&gt;&lt;p&gt;极道天魔的气氛有一些聊斋的感觉，怪异和鬼物算是老瓶里耳目一新了。&lt;/p&gt;
-&lt;h3 id=&quot;2018-2-3-三亚降温&quot;&gt;&lt;a href=&quot;#2018-2-3-三亚降温&quot; class=&quot;headerlink&quot; title=&quot;2018.2.3 三亚降温&quot;&gt;&lt;/a&gt;2018.2.3 三亚降温&lt;/h3&gt;&lt;p&gt;三亚这两天真他妈的要冻死了，前段时间在南京也是，晚上睡觉先要肉体烘干被窝。南方取暖全靠抖，不禁忧虑起未来在广东念书。&lt;/p&gt;
-&lt;h3 id=&quot;2018-2-10-若是慢一点就好了&quot;&gt;&lt;a href=&quot;#2018-2-10-若是慢一点就好了&quot; class=&quot;headerlink&quot; title=&quot;2018.2.10 若是慢一点就好了&quot;&gt;&lt;/a&gt;2018.2.10 若是慢一点就好了&lt;/h3&gt;&lt;p&gt;时间逼的人们太急躁了，应该慢一点，左右不过几十年的光景，做自己喜欢的事情就好了。又想到李诞讲人间不值得，我觉得无疑是赤裸裸的犬儒。&lt;/p&gt;
-&lt;h3 id=&quot;2018-2-14-少男心&quot;&gt;&lt;a href=&quot;#2018-2-14-少男心&quot; class=&quot;headerlink&quot; title=&quot;2018.2.14 少男心&quot;&gt;&lt;/a&gt;2018.2.14 少男心&lt;/h3&gt;&lt;p&gt;晚上突然想吃蛋糕，在美团上定了一家崖城的榴莲千层和黑森林，吃起来十分甜腻，又十分解腻。&lt;/p&gt;
-&lt;h3 id=&quot;2018-2-18-如何弥合理想与现实&quot;&gt;&lt;a href=&quot;#2018-2-18-如何弥合理想与现实&quot; class=&quot;headerlink&quot; title=&quot;2018.2.18 如何弥合理想与现实&quot;&gt;&lt;/a&gt;2018.2.18 如何弥合理想与现实&lt;/h3&gt;&lt;p&gt;我应该坚持做计算社会学方向，好好学习编程如ABM计算机模拟、大数据爬取与清理等，也要好好学习英语，以此弥合理想与现实。&lt;/p&gt;
-&lt;h3 id=&quot;2018-2-19-许知远和陈嘉映的对话&quot;&gt;&lt;a href=&quot;#2018-2-19-许知远和陈嘉映的对话&quot; class=&quot;headerlink&quot; title=&quot;2018.2.19 许知远和陈嘉映的对话&quot;&gt;&lt;/a&gt;2018.2.19 许知远和陈嘉映的对话&lt;/h3&gt;&lt;p&gt;晚上看许知远和陈嘉映的对话，许知远提了一个很有意思的问题，也是我认为当代很多人文社科类学生思考的问题。&lt;br&gt;沿着越来越量化的成功标准，许知远困惑我们如何消解对成功的巨大焦虑，陈嘉映的回答是良好的实践就是目的本身，这个对话不禁让我想起韦伯对康德的发展，四种理性的划分及由此产生的责任伦理，如果说实践本身就是目的，那么如何思考韦伯的发问？&lt;br&gt;又及陈嘉映最后意味深长的结语提及鲁迅评价陀罗耶夫斯基，我们去拷问真实下的虚伪并不难，难的是如何拷问虚伪下的真实。如何发掘自己灵魂的底色始终是这个时代十分艰难的事情。&lt;/p&gt;
-&lt;h3 id=&quot;2018-2-20-社会学学生焦虑的原因&quot;&gt;&lt;a href=&quot;#2018-2-20-社会学学生焦虑的原因&quot; class=&quot;headerlink&quot; title=&quot;2018.2.20 社会学学生焦虑的原因&quot;&gt;&lt;/a&gt;2018.2.20 社会学学生焦虑的原因&lt;/h3&gt;&lt;p&gt;我今天想明白一件事情，为什么很多社会学的学生处于焦虑却不知原因？相当程度上，是因为我们一直处于单线的成长中，沿着可量化的阶梯上爬，从小学到大学，倘若留级或复读，其实是相对失败的事情。但这一按部就班的道路，对于社会学学生而言，在大学以后戛然而止，一小部分继续按部就班念书，大学以后开始升华为学术道路，但终归学业这条道路并不适合多数人，对多数学生而言，不得不忧虑的事情是毕业以后进入社会的工作。&lt;br&gt;这方面，法律在社会上有着对应的律所，经济金融有着对应的银行券商，而社会学，以及相当多的人文社科专业缺乏明确的晋升道路，这是社会学专业学生忧虑的原因。个体被突然抛入社会，茫然无措，及个体将抛未抛时的忐忑不安。如何解决这一问题，必须从大学的教学制度入手，同工业界紧密结合，但另一方面，过于实际的课程也会磨灭学术种子的发轫，这是一个矛盾的事情，但总体上职业化教育课程应该是必须的，以此纾解个体的不安。&lt;/p&gt;
-&lt;h3 id=&quot;2018-2-28-《法团主义》的写作风格&quot;&gt;&lt;a href=&quot;#2018-2-28-《法团主义》的写作风格&quot; class=&quot;headerlink&quot; title=&quot;2018.2.28 《法团主义》的写作风格&quot;&gt;&lt;/a&gt;2018.2.28 《法团主义》的写作风格&lt;/h3&gt;&lt;p&gt;张静教授是肃然老师的导师，树生让我看她写的法团主义入门。我耐着性子看，行文有些啰嗦，一些语句颇像英文转译，同多元主义的对比略为散乱，吃力抓她的脉络。还记得大二看同一系列李强写的的自由主义，行文更加紧凑流畅。政治哲学还是喜欢按历史脉络梳理，张静教授的风格有些疲惫。&lt;br&gt;对法团主义的感受是，社会学在当代是有些乏味的，没有了八十年代的社会运动，但仔细审查，我们周边的变革或革命其实始终在隐秘发生着，如何洞察这些表层下的暗流，就是社会学的意义，也是因此，社会学始终是边缘却不死亡的学科。 ​​​​&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-5-对未来的焦虑&quot;&gt;&lt;a href=&quot;#2018-3-5-对未来的焦虑&quot; class=&quot;headerlink&quot; title=&quot;2018.3.5 对未来的焦虑&quot;&gt;&lt;/a&gt;2018.3.5 对未来的焦虑&lt;/h3&gt;&lt;p&gt;昨天晚上和朋友聊天，一夜没有睡好。今天下午回学校，和大哥商量了一下就糊里糊涂买了司考的书，打算今年考一下司考。这个决定有脑热的成分，也有对数据分析的疲惫，根本上的仍然是对未来的焦虑。&lt;br&gt;焦虑始终萦绕在每一个现代人的心头，大部分时间它引而不发，如头顶的剑，让人无所适从。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-8-国家治理逻辑的参考&quot;&gt;&lt;a href=&quot;#2018-3-8-国家治理逻辑的参考&quot; class=&quot;headerlink&quot; title=&quot;2018.3.8 国家治理逻辑的参考&quot;&gt;&lt;/a&gt;2018.3.8 国家治理逻辑的参考&lt;/h3&gt;&lt;p&gt;今天下午一直在看中残联领导对狮子会的批示文件和讲话，思考不一定要拘泥在既往传统的ngo理论里，想起周雪光的国家治理逻辑，当然这也可以归类是一种嵌入性或法团主义的理论，但无疑是一个很好的突破口。 ​​​​ &lt;/p&gt;
-&lt;h3 id=&quot;2018-3-9-对未来的困惑&quot;&gt;&lt;a href=&quot;#2018-3-9-对未来的困惑&quot; class=&quot;headerlink&quot; title=&quot;2018.3.9 对未来的困惑&quot;&gt;&lt;/a&gt;2018.3.9 对未来的困惑&lt;/h3&gt;&lt;p&gt;借了一本阮云星的吸纳与赋权，加上周雪光的国家治理逻辑，看看能不能有什么思路。&lt;br&gt;最近大哥和我买的司考书陆续邮到，我不知道自己是否会就业，可能在念研究生期间彻底投身市场了。人生如过客，未来总是不可期的。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-10-未来不可期&quot;&gt;&lt;a href=&quot;#2018-3-10-未来不可期&quot; class=&quot;headerlink&quot; title=&quot;2018.3.10 未来不可期&quot;&gt;&lt;/a&gt;2018.3.10 未来不可期&lt;/h3&gt;&lt;p&gt;借了一本阮云星的吸纳与赋权，加上周雪光的国家治理逻辑，看看能不能有什么论文思路。&lt;br&gt;最近大哥和我买了司考的书，我不知道自己是不是会就业，可能在念研究生期间彻底投身市场了。人生如过客，未来总是不可期的。 ​​​​&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-12-文科博士是否有一条退路&quot;&gt;&lt;a href=&quot;#2018-3-12-文科博士是否有一条退路&quot; class=&quot;headerlink&quot; title=&quot;2018.3.12 文科博士是否有一条退路&quot;&gt;&lt;/a&gt;2018.3.12 文科博士是否有一条退路&lt;/h3&gt;&lt;p&gt;这两天在豆瓣看了几篇博士的劝退文章，这两年也陆续见了些前辈放弃学术，他们大多比我聪明坚毅，我有自知之明，自忖不如他们。学术圈有时残酷令人生畏，文科博士又不像理工类，转身去工业界也无有可为。焦灼是现代人的常态，这一点在有企图念博士的人文社科生上似乎更加扩大了。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-17-尹海洁老师的鸡血&quot;&gt;&lt;a href=&quot;#2018-3-17-尹海洁老师的鸡血&quot; class=&quot;headerlink&quot; title=&quot;2018.3.17 尹海洁老师的鸡血&quot;&gt;&lt;/a&gt;2018.3.17 尹海洁老师的鸡血&lt;/h3&gt;&lt;p&gt;课间和尹海洁老师聊天，她说她一个念社会统计的博士现在上海年入40个，今年的吕杨学姐去京东做数据分析月17k。这样一种打鸡血就感觉好像学术又可以做下去了。心里又在想，四年前好像就是这样被骗到社会学系的。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-18-讨厌理工科生的自鸣得意&quot;&gt;&lt;a href=&quot;#2018-3-18-讨厌理工科生的自鸣得意&quot; class=&quot;headerlink&quot; title=&quot;2018.3.18 讨厌理工科生的自鸣得意&quot;&gt;&lt;/a&gt;2018.3.18 讨厌理工科生的自鸣得意&lt;/h3&gt;&lt;p&gt;今天在网络上和一个理工科的人吵了起来，他爱搬弄一些社会学的术语，但不曾真的看过厚书。我发现理工科对社科感兴趣的学生有两种特点，一是沉迷进化论，并认为可以此解释人类社会；一是对自己的想法很坚定。我讨厌这种自鸣得意的浮躁，它使社会科学流于表面的喧嚣。&lt;br&gt;但另一方面，我也哑然自己实际并不能真的说服他，这是因为社会科学的理论十分碎片化，虽然他的观点让我十分不适，但一时间我并不能显示科班学生的学术训练。这又颇使我落寞。我的根基说到底也是不牢固的。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-21-怀念父母辈的年代&quot;&gt;&lt;a href=&quot;#2018-3-21-怀念父母辈的年代&quot; class=&quot;headerlink&quot; title=&quot;2018.3.21 怀念父母辈的年代&quot;&gt;&lt;/a&gt;2018.3.21 怀念父母辈的年代&lt;/h3&gt;&lt;p&gt;我最近开始沉迷八九十年代的歌，这些歌需要一些阅历，后知后觉在某一天的深夜突然被打动。我怀念父母生活的年代，过去始终带有一种尘土味道的感伤。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-26-建构的NGO历程&quot;&gt;&lt;a href=&quot;#2018-3-26-建构的NGO历程&quot; class=&quot;headerlink&quot; title=&quot;2018.3.26 建构的NGO历程&quot;&gt;&lt;/a&gt;2018.3.26 建构的NGO历程&lt;/h3&gt;&lt;p&gt;我刚才在想念了三年社会学硕士，然后再去念统计硕士会不会太晚。&lt;br&gt;最近在ngo做定性方面的调查发觉自己并不喜欢这种精致琐碎的研究，我始终分不清我所发现的，是我自己建构的，还是事物本身，定量的统计研究不会有这个疑虑，只需要反复修正数据与方法，工具是相对客观的。&lt;br&gt;本科毕业后不打算再做定性的论文了，要不要转去理工科？又该如何转过去，去年放弃地理学倒没什么遗憾的，我今年的兴趣点不太在城市研究了。拍了拍胸脯，仍旧拿不定主意，不知道自己现在喜欢什么，人懒散久了就没有了方向。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-27-做学术归根要去国外历练&quot;&gt;&lt;a href=&quot;#2018-3-27-做学术归根要去国外历练&quot; class=&quot;headerlink&quot; title=&quot;2018.3.27 做学术归根要去国外历练&quot;&gt;&lt;/a&gt;2018.3.27 做学术归根要去国外历练&lt;/h3&gt;&lt;p&gt;今天看朋友圈，有个很久没联系的同学去了巴黎政治学院继续念书。&lt;br&gt;我反思自己始终是不思进取，这大学四年除了推免去岭南，别的是一无是处，得过且过在班里的圈子，在班内又也只是在推免线的边缘混迹。大学没有长进，回想高三时的雄心壮志，已是全然忘在脑后了，愈发羞愧。&lt;br&gt;阿姊在Cornell和宾大念书，我很羡慕，也颇有压力。又想起有学问的前辈都是在海外待过几年，回国或是另一个事情，但英文都是极为熟练。我如果想做出点东西，归根要去外面。&lt;br&gt;可是胆胆怯怯，有时考虑生计的烦闷，挂念法律或统计或计算机，有时考虑英语的枯燥，纠结雅思或托福或Gre，很多机会倏而远去，我又自怨自艾。到底我很懒惰，怨恨的也只是自己了。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-29-从个体生活的逼仄中解脱&quot;&gt;&lt;a href=&quot;#2018-3-29-从个体生活的逼仄中解脱&quot; class=&quot;headerlink&quot; title=&quot;2018.3.29 从个体生活的逼仄中解脱&quot;&gt;&lt;/a&gt;2018.3.29 从个体生活的逼仄中解脱&lt;/h3&gt;&lt;p&gt;青年人从学校走向社会，逐渐被周遭世俗的金钱、物质与利益围绕。高中念的先贤文章会随着年龄增长逐渐忘记，大学如果未再接触，人就总会不自觉地向现实低头。&lt;br&gt;虽然现实不时让我感到焦虑，我心里归根感激我大学念的是社会学，它使高中这种纯净的思考得以延续。大学以来听韦伯讲新教伦理与资本主义精神；听马克思讲人的异化。&lt;br&gt;这些务虚知识的意义是什么？我最大的体会是，它将我从个体生活的逼仄中解脱出来，投身于一种更宏大的历史现实，它促使我反思我习以为常的现实，热切地寻找另一种生活的可能。&lt;/p&gt;
-&lt;h3 id=&quot;2018-3-30-想去异国他乡&quot;&gt;&lt;a href=&quot;#2018-3-30-想去异国他乡&quot; class=&quot;headerlink&quot; title=&quot;2018.3.30 想去异国他乡&quot;&gt;&lt;/a&gt;2018.3.30 想去异国他乡&lt;/h3&gt;&lt;p&gt;最近想去异国他乡，把在中国的焦虑都浪掷一旁，不用汲汲于富贵，每天就是单纯地念书念论文。 ​​​​&lt;/p&gt;
-&lt;h3 id=&quot;2018-4-7-了凡四训&quot;&gt;&lt;a href=&quot;#2018-4-7-了凡四训&quot; class=&quot;headerlink&quot; title=&quot;2018.4.7 了凡四训&quot;&gt;&lt;/a&gt;2018.4.7 了凡四训&lt;/h3&gt;&lt;p&gt;最近沉迷算卦，人在了无趣味的时候总是寄托幽冥，而这又突然使我警醒，高中时的壮志已是落到尘埃里了。不应如此。凡事还是要做自己喜欢的事情，也要有一些年轻人的冲劲，这样自己舒服，前途无亮也不会懊恼自悔。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;务要日日知非，日日改过；一日不知非，即一日安于自是； 一日无过可改，即一日无步可进；天下聪明俊秀不少，所以德不加修，业不加广者，只为因循二字，耽阁一生。 ​​​​&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;2018-4-9-林语堂的幽默&quot;&gt;&lt;a href=&quot;#2018-4-9-林语堂的幽默&quot; class=&quot;headerlink&quot; title=&quot;2018.4.9 林语堂的幽默&quot;&gt;&lt;/a&gt;2018.4.9 林语堂的幽默&lt;/h3&gt;&lt;p&gt;晚上睡不着，起来看林语堂的散文，从初中以来，我最喜欢的作家始终是他。&lt;br&gt;坐在精神的围炉前烤烤火，深夜就可以得到一些慰藉。 ​​​​&lt;/p&gt;
-&lt;h3 id=&quot;2018-4-12-偏爱量化一些&quot;&gt;&lt;a href=&quot;#2018-4-12-偏爱量化一些&quot; class=&quot;headerlink&quot; title=&quot;2018.4.12 偏爱量化一些&quot;&gt;&lt;/a&gt;2018.4.12 偏爱量化一些&lt;/h3&gt;&lt;p&gt;今天在看Matrix67的博客，有一些启发，我觉得我的道路还是应该走人文社科里做编程或统计的。数学很严谨，也十分令人着迷。我喜欢看社科学者讲故事，但轮到我自己讲的时候，我总是害怕会误导他人。&lt;/p&gt;
-&lt;h3 id=&quot;2018-4-15-山海胸襟&quot;&gt;&lt;a href=&quot;#2018-4-15-山海胸襟&quot; class=&quot;headerlink&quot; title=&quot;2018.4.15 山海胸襟&quot;&gt;&lt;/a&gt;2018.4.15 山海胸襟&lt;/h3&gt;&lt;p&gt;听说中山大学要公投废中山像，台湾的去中国化教育让青年人厌恶大陆，这不应该怪罪于青年人本身。我只是觉得有些可惜，中山大学的教育是山海胸襟，却容不下校园里的一尊塑像。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;台湾中山大学发起全校网络“公投”，由教职员及在校学生投票决定孙中山及蒋介石铜像的去留。对此，有台湾中山大学校友痛斥，“如果孙中山铜像被移除，我以身为台湾中山大学校友为耻”。 ​​​​&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;2018-1-5-乏味&quot;&gt;&lt;a href=&quot;#2018-1-5-乏味&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 乏味&quot;&gt;&lt;/a&gt;2018.1.5 乏味&lt;/h3&gt;&lt;p&gt;社会学的研究，有时真让人乏味。Mills说的已经半个世纪了，研究却越来越精致琐碎，社会学的论文对宏大现实已经失去了话语权。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Struggle Diary" scheme="http://yoursite.com/categories/Struggle-Diary/"/>
-    
-    
-      <category term="理想" scheme="http://yoursite.com/tags/%E7%90%86%E6%83%B3/"/>
     
   </entry>
   
@@ -691,6 +704,75 @@ Fibonacci
       <category term="政治哲学" scheme="http://yoursite.com/tags/%E6%94%BF%E6%B2%BB%E5%93%B2%E5%AD%A6/"/>
     
       <category term="法团主义" scheme="http://yoursite.com/tags/%E6%B3%95%E5%9B%A2%E4%B8%BB%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《吸纳与赋权》memo</title>
+    <link href="http://yoursite.com/2018/03/12/%E3%80%8A%E5%90%B8%E7%BA%B3%E4%B8%8E%E8%B5%8B%E6%9D%83%E3%80%8Bmemo/"/>
+    <id>http://yoursite.com/2018/03/12/《吸纳与赋权》memo/</id>
+    <published>2018-03-11T16:00:00.000Z</published>
+    <updated>2018-05-01T17:20:59.000Z</updated>
+    
+    <content type="html">&lt;p&gt;  这本书基于Burawoy的探索使我沉思，回转大学以来的兴趣，我这学期阴差阳错接触政治社会学研究，非政府组织在社区中的作用或许是国家-社会关系的绝佳切入点。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
+&lt;h2 id=&quot;序章-探究当代中国社会组织管理创新的社会机制&quot;&gt;&lt;a href=&quot;#序章-探究当代中国社会组织管理创新的社会机制&quot; class=&quot;headerlink&quot; title=&quot;序章 探究当代中国社会组织管理创新的社会机制&quot;&gt;&lt;/a&gt;序章 探究当代中国社会组织管理创新的社会机制&lt;/h2&gt;&lt;h3 id=&quot;1-研究内容&quot;&gt;&lt;a href=&quot;#1-研究内容&quot; class=&quot;headerlink&quot; title=&quot;1.研究内容&quot;&gt;&lt;/a&gt;1.研究内容&lt;/h3&gt;&lt;p&gt;社会组织&lt;strong&gt;如何影响&lt;/strong&gt;地方治理&lt;br&gt;社会组织&lt;strong&gt;为何可以&lt;/strong&gt;影响地方治理&lt;br&gt;&lt;strong&gt;三阶段理论&lt;/strong&gt;的印证与拓展&lt;br&gt;通过表面的组织及管理制度，透视背后的社会机制。第一部分着重社会组织历史与理论框架；第二部分经验研究，如上海模式管理至合作治理；最后一章总结。&lt;/p&gt;
+&lt;h3 id=&quot;2-理论基础&quot;&gt;&lt;a href=&quot;#2-理论基础&quot; class=&quot;headerlink&quot; title=&quot;2.理论基础&quot;&gt;&lt;/a&gt;2.理论基础&lt;/h3&gt;&lt;p&gt;吸纳理论&lt;br&gt;金耀基 “行政吸纳政治”(administrative absorption of politics)&lt;br&gt;康晓光 “行政吸纳社会”&lt;br&gt;赋权理论&lt;br&gt;社会工作赋权理论&lt;/p&gt;
+&lt;h3 id=&quot;3-研究方法&quot;&gt;&lt;a href=&quot;#3-研究方法&quot; class=&quot;headerlink&quot; title=&quot;3.研究方法&quot;&gt;&lt;/a&gt;3.研究方法&lt;/h3&gt;&lt;p&gt;民族志研究 拓展个案法&lt;br&gt;公共社会学&lt;/p&gt;
+&lt;h2 id=&quot;第一部分-背景与理论&quot;&gt;&lt;a href=&quot;#第一部分-背景与理论&quot; class=&quot;headerlink&quot; title=&quot;第一部分 背景与理论&quot;&gt;&lt;/a&gt;第一部分 背景与理论&lt;/h2&gt;&lt;h3 id=&quot;1-告别管制：中国社会组织管理新阶段的到来&quot;&gt;&lt;a href=&quot;#1-告别管制：中国社会组织管理新阶段的到来&quot; class=&quot;headerlink&quot; title=&quot;1.告别管制：中国社会组织管理新阶段的到来&quot;&gt;&lt;/a&gt;1.告别管制：中国社会组织管理新阶段的到来&lt;/h3&gt;&lt;h4 id=&quot;1-1-中国社会组织分类&quot;&gt;&lt;a href=&quot;#1-1-中国社会组织分类&quot; class=&quot;headerlink&quot; title=&quot;1.1 中国社会组织分类&quot;&gt;&lt;/a&gt;1.1 中国社会组织分类&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;http://onmqf40zo.bkt.clouddn.com/18-5-2/6625432.jpg&quot; alt=&quot;中国社会组织分类&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1-2-中国社会组织发展&quot;&gt;&lt;a href=&quot;#1-2-中国社会组织发展&quot; class=&quot;headerlink&quot; title=&quot;1.2 中国社会组织发展&quot;&gt;&lt;/a&gt;1.2 中国社会组织发展&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;政府管制阶段&lt;/strong&gt;&lt;br&gt;1978-1989 发展；&lt;br&gt;1989-1998 双重管理体制&lt;br&gt;&lt;strong&gt;吸纳赋权阶段&lt;/strong&gt;&lt;br&gt;1998-2012 再发展&lt;br&gt;&lt;strong&gt;伙伴合作阶段&lt;/strong&gt;&lt;br&gt;2012至今&lt;br&gt;如温州2012年取消业务主管单位，统一登记，伙伴式合作雏形；但另一方面这本书出版于2016，2017年十九大的召开，也即是我目前撰写本科论文的阶段，政府对社会组织的管理似乎重新收紧。&lt;/p&gt;
+&lt;h3 id=&quot;2-理论与方法检视：合作治理、资源依赖和拓展个案法&quot;&gt;&lt;a href=&quot;#2-理论与方法检视：合作治理、资源依赖和拓展个案法&quot; class=&quot;headerlink&quot; title=&quot;2.理论与方法检视：合作治理、资源依赖和拓展个案法&quot;&gt;&lt;/a&gt;2.理论与方法检视：合作治理、资源依赖和拓展个案法&lt;/h3&gt;&lt;h4 id=&quot;2-1-合作治理理论&quot;&gt;&lt;a href=&quot;#2-1-合作治理理论&quot; class=&quot;headerlink&quot; title=&quot;2.1 合作治理理论&quot;&gt;&lt;/a&gt;2.1 合作治理理论&lt;/h4&gt;&lt;p&gt;这一部分的探讨贴近公共管理专业的思考，D.Young认为政府与NPO的关系可以分为互补、补充与对抗三种，阮云星总结学界对合作治理机制的模式分为如下五种：&lt;br&gt;政府资助&lt;br&gt;包容性治理&lt;br&gt;伙伴关系&lt;br&gt;合作企业家&lt;br&gt;权变模式和综合模式  &lt;/p&gt;
+&lt;h4 id=&quot;2-2-资源依赖理论&quot;&gt;&lt;a href=&quot;#2-2-资源依赖理论&quot; class=&quot;headerlink&quot; title=&quot;2.2 资源依赖理论&quot;&gt;&lt;/a&gt;2.2 资源依赖理论&lt;/h4&gt;&lt;p&gt;资源依赖的程度：资源重要性、资源使用自行裁量程度、资源替代性程度；&lt;br&gt;组织的策略：控制依赖根源、建立协商环境、创造环境；&lt;br&gt;组织的类型：水平依存、共生依存和垂直依存&lt;br&gt;我国政府与社会组织处于一种非对称性状态&lt;/p&gt;
+&lt;h4 id=&quot;2-3-拓展个案法&quot;&gt;&lt;a href=&quot;#2-3-拓展个案法&quot; class=&quot;headerlink&quot; title=&quot;2.3 拓展个案法&quot;&gt;&lt;/a&gt;2.3 拓展个案法&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;民族志的两个方向：拓展个案法与扎根理论&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;与实证区别&lt;/strong&gt;：实证科学是一种局外客观性，反思性科学是嵌入性客观性&lt;br&gt;&lt;strong&gt;与Glaser扎根理论(grounded theory)区别&lt;/strong&gt;：扎根理论强调理论建构社会生活，理论指导下不断比较，最终得到普遍、复杂性理论；拓展个案法强调个案中理论对话，发掘理论无法解释的部分，以此重构特定情境、简单性理论。&lt;br&gt;简言之：假设-误差-重建-新理论-假设-……&lt;/p&gt;
+&lt;p&gt;这一部分对Burawoy理论的简要回溯，包含学界的赞同与批评。阮云星于此主张Burawoy的弥合研究与实践，重新思考知识分子的历史定位。&lt;/p&gt;
+&lt;p&gt;2018.3.12 14:45 于中国狮子联会哈尔滨代表机构&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  这本书基于Burawoy的探索使我沉思，回转大学以来的兴趣，我这学期阴差阳错接触政治社会学研究，非政府组织在社区中的作用或许是国家-社会关系的绝佳切入点。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Review_Sociology Books" scheme="http://yoursite.com/categories/Review-Sociology-Books/"/>
+    
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
+    
+      <category term="organization" scheme="http://yoursite.com/tags/organization/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《发现社会》memo</title>
+    <link href="http://yoursite.com/2018/01/17/%E3%80%8A%E5%8F%91%E7%8E%B0%E7%A4%BE%E4%BC%9A%E3%80%8Bmemo/"/>
+    <id>http://yoursite.com/2018/01/17/《发现社会》memo/</id>
+    <published>2018-01-17T03:20:00.000Z</published>
+    <updated>2018-05-01T18:25:48.000Z</updated>
+    
+    <content type="html">&lt;p&gt;  火车上思考宏大命题让人心情愉悦，车窗外光影倒退，车内的思考更为真实。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;导言：社会与幻象&quot;&gt;&lt;a href=&quot;#导言：社会与幻象&quot; class=&quot;headerlink&quot; title=&quot;导言：社会与幻象&quot;&gt;&lt;/a&gt;导言：社会与幻象&lt;/h2&gt;&lt;p&gt;  应当存在一种客观性的领域。即使幻想与客观真实交织难解，社会学自身混杂着幻像与真实，但社会学致力打造一种客观性利刃以理解社会。&lt;/p&gt;
+&lt;h3 id=&quot;1-幻象的根源&quot;&gt;&lt;a href=&quot;#1-幻象的根源&quot; class=&quot;headerlink&quot; title=&quot;1.幻象的根源&quot;&gt;&lt;/a&gt;1.幻象的根源&lt;/h3&gt;&lt;h4 id=&quot;1-1-人与人-Marx——-gt-Weber-amp-Durkheim&quot;&gt;&lt;a href=&quot;#1-1-人与人-Marx——-gt-Weber-amp-Durkheim&quot; class=&quot;headerlink&quot; title=&quot;1.1 人与人 Marx——&amp;gt;Weber&amp;amp;Durkheim&quot;&gt;&lt;/a&gt;1.1 人与人 Marx——&amp;gt;Weber&amp;amp;Durkheim&lt;/h4&gt;&lt;p&gt;Marx经济利益决定观念——&amp;gt;底层人民为何接受不符合自身利益的观念——&amp;gt;Weber观念与权力&amp;amp;Durkheim仪式与团结&lt;br&gt;Weber事实与价值的区分——&amp;gt;纯粹社会学(detachment)与应用社会学(moral)的争论&lt;/p&gt;
+&lt;h4 id=&quot;1-2-人自身-Spencer——-gt-Frued——-gt-Perls-amp-Goffman&quot;&gt;&lt;a href=&quot;#1-2-人自身-Spencer——-gt-Frued——-gt-Perls-amp-Goffman&quot; class=&quot;headerlink&quot; title=&quot;1.2 人自身 Spencer——&amp;gt;Frued——&amp;gt;Perls&amp;amp;Goffman&quot;&gt;&lt;/a&gt;1.2 人自身 Spencer——&amp;gt;Frued——&amp;gt;Perls&amp;amp;Goffman&lt;/h4&gt;&lt;p&gt;压抑(repression)生理性的普遍性&lt;br&gt;认同(indentification)生理性至理性  &lt;/p&gt;
+&lt;h3 id=&quot;2-幻象的破除：社会学&quot;&gt;&lt;a href=&quot;#2-幻象的破除：社会学&quot; class=&quot;headerlink&quot; title=&quot;2.幻象的破除：社会学&quot;&gt;&lt;/a&gt;2.幻象的破除：社会学&lt;/h3&gt;&lt;h4 id=&quot;2-1-由个体心理学至社会机制结构&quot;&gt;&lt;a href=&quot;#2-1-由个体心理学至社会机制结构&quot; class=&quot;headerlink&quot; title=&quot;2.1 由个体心理学至社会机制结构&quot;&gt;&lt;/a&gt;2.1 由个体心理学至社会机制结构&lt;/h4&gt;&lt;h4 id=&quot;2-2-由自然科学取向至三角测量&quot;&gt;&lt;a href=&quot;#2-2-由自然科学取向至三角测量&quot; class=&quot;headerlink&quot; title=&quot;2.2 由自然科学取向至三角测量&quot;&gt;&lt;/a&gt;2.2 由自然科学取向至三角测量&lt;/h4&gt;&lt;h3 id=&quot;3-社会学的任务&quot;&gt;&lt;a href=&quot;#3-社会学的任务&quot; class=&quot;headerlink&quot; title=&quot;3.社会学的任务&quot;&gt;&lt;/a&gt;3.社会学的任务&lt;/h3&gt;&lt;h4 id=&quot;3-1-学术任务-广泛理解性理论&quot;&gt;&lt;a href=&quot;#3-1-学术任务-广泛理解性理论&quot; class=&quot;headerlink&quot; title=&quot;3.1 学术任务 广泛理解性理论&quot;&gt;&lt;/a&gt;3.1 学术任务 广泛理解性理论&lt;/h4&gt;&lt;p&gt;十九世纪社会思潮是当代理论的滥觞。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“他们甚至忘记了，建立一种广泛的理解性理论才是这一学科的首要目标”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;3-2-道德任务-建立宜居世界&quot;&gt;&lt;a href=&quot;#3-2-道德任务-建立宜居世界&quot; class=&quot;headerlink&quot; title=&quot;3.2 道德任务 建立宜居世界&quot;&gt;&lt;/a&gt;3.2 道德任务 建立宜居世界&lt;/h4&gt;&lt;h3 id=&quot;4-社会学的边界&quot;&gt;&lt;a href=&quot;#4-社会学的边界&quot; class=&quot;headerlink&quot; title=&quot;4.社会学的边界&quot;&gt;&lt;/a&gt;4.社会学的边界&lt;/h3&gt;&lt;p&gt;社会学致力于在特定社会发展普遍性理论；历史学致力于应用普遍原则研究特定事件序列&lt;/p&gt;
+&lt;h2 id=&quot;第二章-地下社会学：卡尔马克思&quot;&gt;&lt;a href=&quot;#第二章-地下社会学：卡尔马克思&quot; class=&quot;headerlink&quot; title=&quot;第二章 地下社会学：卡尔马克思&quot;&gt;&lt;/a&gt;第二章 地下社会学：卡尔马克思&lt;/h2&gt;&lt;h3 id=&quot;1-P73-哲学方面的回溯&quot;&gt;&lt;a href=&quot;#1-P73-哲学方面的回溯&quot; class=&quot;headerlink&quot; title=&quot;1.P73 哲学方面的回溯&quot;&gt;&lt;/a&gt;1.P73 哲学方面的回溯&lt;/h3&gt;&lt;p&gt;笛卡尔——休谟 因果不存在——康德 全是自身观念一部分——黑格尔 理性精神的展开，但在人认识现实本质前，理性与自我是隔断的，即异化——Marx 金钱拜物教 如何控制异化与权力？&lt;/p&gt;
+&lt;h3 id=&quot;2-P77-Marxism的发展&quot;&gt;&lt;a href=&quot;#2-P77-Marxism的发展&quot; class=&quot;headerlink&quot; title=&quot;2.P77 Marxism的发展&quot;&gt;&lt;/a&gt;2.P77 Marxism的发展&lt;/h3&gt;&lt;p&gt;Lukacs 转回唯心主义 根本不在于经济剥削，而是资本主义虚假意识形态的物化&lt;br&gt;Sartre马克思主义与存在主义；Althusser马克思主义与结构主义&lt;/p&gt;
+&lt;h3 id=&quot;3-P85-Engels——-gt-女权主义运动&quot;&gt;&lt;a href=&quot;#3-P85-Engels——-gt-女权主义运动&quot; class=&quot;headerlink&quot; title=&quot;3.P85 Engels——&amp;gt;女权主义运动&quot;&gt;&lt;/a&gt;3.P85 Engels——&amp;gt;女权主义运动&lt;/h3&gt;&lt;p&gt;2018.01.17 11:20 火车于安徽境内&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  火车上思考宏大命题让人心情愉悦，车窗外光影倒退，车内的思考更为真实。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Review_Sociology Books" scheme="http://yoursite.com/categories/Review-Sociology-Books/"/>
+    
+    
+      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
     
   </entry>
   
@@ -1325,82 +1407,6 @@ Fibonacci
       <category term="官僚君主制" scheme="http://yoursite.com/tags/%E5%AE%98%E5%83%9A%E5%90%9B%E4%B8%BB%E5%88%B6/"/>
     
       <category term="Weber" scheme="http://yoursite.com/tags/Weber/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《我的凉山兄弟》memo</title>
-    <link href="http://yoursite.com/2017/09/01/%E3%80%8A%E6%88%91%E7%9A%84%E5%87%89%E5%B1%B1%E5%85%84%E5%BC%9F%E3%80%8Bmemo/"/>
-    <id>http://yoursite.com/2017/09/01/《我的凉山兄弟》memo/</id>
-    <published>2017-08-31T16:00:00.000Z</published>
-    <updated>2017-10-15T17:59:38.000Z</updated>
-    
-    <content type="html">&lt;p&gt;  适合大二上修完社会学理论后再读，文化人类学、医疗人类学著作，蕴含着权力毛细血管式的福柯性思考。应该尝试去理解写作方式逻辑，而非以往的理论启示或其他琐碎。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;第一章-凉山研究框架概述：导论&quot;&gt;&lt;a href=&quot;#第一章-凉山研究框架概述：导论&quot; class=&quot;headerlink&quot; title=&quot;第一章 凉山研究框架概述：导论&quot;&gt;&lt;/a&gt;第一章 凉山研究框架概述：导论&lt;/h2&gt;&lt;p&gt;  第一章大致脉络是，如何进入——概述其研究对象——理论框架（变量）——研究技术技巧。&lt;br&gt;  概述研究对象中：发展意涵在中国经历了两次转变，80年代前是“进步”“现代”，此时期包含了社会主义与资本主义；80年代后发展意味的是“全球市场”，此处同Zukin划分的1975前后亦然。同时，出去闯一闯的成人仪式，使个人主义具备双重性，也即一方面摆脱了家族控制，一方面也进入了失去家族保护的风险社会。&lt;br&gt;  理论框架可以看到受到前辈影响，如波兰尼的双重互动与Weber的行动者核心单位（积极与消极并存）。&lt;br&gt;  最后，刘绍华简要陈述：进城的成人礼对诺苏族的疫情形成有很大影响，传统的调试与衰落、国家的调试与失败，共同造成了污名恶果。&lt;br&gt;17.8.8 0:55 于群力&lt;/p&gt;
-&lt;h2 id=&quot;第二章-凉山历史：现代化路漫漫长兮&quot;&gt;&lt;a href=&quot;#第二章-凉山历史：现代化路漫漫长兮&quot; class=&quot;headerlink&quot; title=&quot;第二章 凉山历史：现代化路漫漫长兮&quot;&gt;&lt;/a&gt;第二章 凉山历史：现代化路漫漫长兮&lt;/h2&gt;&lt;p&gt;  第二章的大致脉络是将凉山的发展分成三个阶段，以问题导向叙述，政策/现实——问题引出。&lt;br&gt;  首先将研究对象分期：前—[1]—1956—[2]—1978—[3]—至今。1956年前，刘绍华叙述了诺苏人的等级阶层划分，比汉人更严格的家支；1956年后，诺苏社会由强转弱与污名化，这一阶段时常可见传统与现代的角力；1978年后，现代化使山地诺苏涌入盆地诺苏——盆地诺苏劳动力剩余——地方经济发展——集市/水泥厂——市场道德伦理/水泥厂的腐败/年轻人价值观的改变——海诺因。&lt;br&gt;17.8.9 14:55 于群力&lt;/p&gt;
-&lt;h2 id=&quot;第三章-凉山毒品问题概述：男子气概、探险与海洛因&quot;&gt;&lt;a href=&quot;#第三章-凉山毒品问题概述：男子气概、探险与海洛因&quot; class=&quot;headerlink&quot; title=&quot;第三章 凉山毒品问题概述：男子气概、探险与海洛因&quot;&gt;&lt;/a&gt;第三章 凉山毒品问题概述：男子气概、探险与海洛因&lt;/h2&gt;&lt;p&gt;  第三章大致叙述了海洛因泛滥的原因（2）、海洛因泛滥的特点（3）与海洛因泛滥的影响（2）。&lt;br&gt;  第一个原因是在都市中犯罪反而成为了诺苏男子气概的表现之一，同诺苏文化交融成了新的价值观。早期80年代，区域性割据偷抢；至90年代，打工潮但仍然缺乏社会资本。&lt;br&gt;  第二个原因是诺苏历史上的鸦片并不负面，而是一种时尚与阶级的体现，乃及是一种社交方式。即历史上诺苏与毒品——海洛因时尚——社交需要——经济利润。&lt;br&gt;  海洛因泛滥的特点，第一个特点是海洛因吸食延续了传统男女地位中女性的附属地位，第二个特点是诺苏人与汉人的城市隔离，第三个特点是，吸食海洛因成为了一种普遍性的男性成年仪式。&lt;br&gt;  同时，海洛因泛滥造成的影响，包含如诺苏人都市死亡与诺苏传统冲突；诺苏社会被动又主动的参与到社会变迁中。&lt;br&gt;17.9.1&lt;/p&gt;
-&lt;h2 id=&quot;第四章-凉山家支戒毒概述：暗潮汹涌的地方禁毒史&quot;&gt;&lt;a href=&quot;#第四章-凉山家支戒毒概述：暗潮汹涌的地方禁毒史&quot; class=&quot;headerlink&quot; title=&quot;第四章 凉山家支戒毒概述：暗潮汹涌的地方禁毒史&quot;&gt;&lt;/a&gt;第四章 凉山家支戒毒概述：暗潮汹涌的地方禁毒史&lt;/h2&gt;&lt;p&gt;  可联系之前曾读过的《瘾品五百年》。第四章概述了地方社会自救过程，家支戒毒的努力与失败。&lt;br&gt;  首先叙述家支戒毒的历史。1990年家支各自为战，2001年成立了家支协会，但2005年协会集体瓦解，这是由于“协会除了自救的本业，也必须同时满足上级官员与干部的期待。”&lt;br&gt;  继而叙述家支戒毒的局限。在戒毒过程中，家支与国家界限的纠葛模糊，亦如城管，但同时由于历史因素，家支会刻意回避政治事务。由此引出了家支戒毒崩溃的具体原因与社会原因如下图：&lt;br&gt;&lt;img src=&quot;http://onmqf40zo.bkt.clouddn.com/家支失败图.jpg&quot; alt=&quot;家支失败图&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;第五章-凉山毒品的解放作用：啼声初试个体性&quot;&gt;&lt;a href=&quot;#第五章-凉山毒品的解放作用：啼声初试个体性&quot; class=&quot;headerlink&quot; title=&quot;第五章 凉山毒品的解放作用：啼声初试个体性&quot;&gt;&lt;/a&gt;第五章 凉山毒品的解放作用：啼声初试个体性&lt;/h2&gt;&lt;p&gt;  本章的论述仍然是由概述至具体，主要叙述了毒品对诺苏人个体主义的形成作用。&lt;br&gt;  诺苏人的社会支持包括横向的兄弟亲属，与纵向的家支长辈。先叙述了男性诺苏人进入现代社会的尝试，继而讨论了诺苏禁毒中忽视女性。&lt;br&gt;  事实上不仅仅是男性，诺苏女性借助海洛因逃离家支束缚，迈入现代化，海洛因由此连接了诺苏人与现代社会。&lt;/p&gt;
-&lt;h2 id=&quot;第六章-凉山政府戒毒概述：体检失败的地方疾病治理&quot;&gt;&lt;a href=&quot;#第六章-凉山政府戒毒概述：体检失败的地方疾病治理&quot; class=&quot;headerlink&quot; title=&quot;第六章 凉山政府戒毒概述：体检失败的地方疾病治理&quot;&gt;&lt;/a&gt;第六章 凉山政府戒毒概述：体检失败的地方疾病治理&lt;/h2&gt;&lt;p&gt;  本章主要讨论了政府项目（中英合作项目）的失败原因及其影响。&lt;br&gt;  首先叙述了微观凉山背景层面，地方政府治理失败的原因，在于科层制与科学主义。科层制，是国家项目或中央政策进入地方社会时会经过层层扭曲，官僚制的缺陷使我想起社会实习，对上不对下的体制；科学主义则是科学知识对地方文化的忽视，生搬硬套而会形成扭曲，刻意回避地方文化实际上也直指了现代化这一世界观单线进化的矛盾。&lt;br&gt;  继而叙述宏观社会背景层面，凉山地区的国家医疗系统历程。毛泽东时代医疗相对平衡，市场化与专业化后原有集体公社的合作医疗崩溃；晚近政府财政分权与医疗专业化要求都使得凉山医疗匮乏，留在凉山的医生本身的专业能力弱，对凉山也有着疏离。&lt;br&gt;  继而论述微观项目具体背景，管理问题存在着腐败、信息不透明与部门缺乏合作而互相竞争等因素。&lt;br&gt;  尔后，又论述了中英项目落地后的影响，使艾滋病因为补助反而成为了一种利益特权。&lt;/p&gt;
-&lt;h2 id=&quot;第七章-凉山政府戒毒批判：艾滋污名与全球化移植&quot;&gt;&lt;a href=&quot;#第七章-凉山政府戒毒批判：艾滋污名与全球化移植&quot; class=&quot;headerlink&quot; title=&quot;第七章 凉山政府戒毒批判：艾滋污名与全球化移植&quot;&gt;&lt;/a&gt;第七章 凉山政府戒毒批判：艾滋污名与全球化移植&lt;/h2&gt;&lt;p&gt;  本章主要是全球至地方的写作手法，联想我自身毕业论文的选题，是否可以类比全球街区—地方街区？不恰当的介入使污名不断复制。全球至中国至凉山。&lt;br&gt;  首先叙述了凉山诺苏社会的世界观，艾滋病并未纳入疾病的分类；因果推论是立即成因，所以艾滋病的死亡多属于诺苏人认为的正常死亡，而非凶死。传统的诺苏社会中，艾滋病是没有污名化的。&lt;br&gt;  政府的不当介入，无疑至少是加速了艾滋病污名化的进程。&lt;/p&gt;
-&lt;h2 id=&quot;第八章-结论：疾病治理的时空意义&quot;&gt;&lt;a href=&quot;#第八章-结论：疾病治理的时空意义&quot; class=&quot;headerlink&quot; title=&quot;第八章 结论：疾病治理的时空意义&quot;&gt;&lt;/a&gt;第八章 结论：疾病治理的时空意义&lt;/h2&gt;&lt;p&gt;  本章引入了更为广阔的时空思考。对单一图景模式应用于多元现实地方的批判，指出了虚假的中国特色。最后总结了全书的分析维度，即全球、国家、地方与个人。&lt;br&gt;2017.9.4 20:40 于诚意&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  适合大二上修完社会学理论后再读，文化人类学、医疗人类学著作，蕴含着权力毛细血管式的福柯性思考。应该尝试去理解写作方式逻辑，而非以往的理论启示或其他琐碎。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Review Anthropology" scheme="http://yoursite.com/categories/Review-Anthropology/"/>
-    
-    
-      <category term="Anthropology" scheme="http://yoursite.com/tags/Anthropology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日记 FR社区</title>
-    <link href="http://yoursite.com/2017/06/29/%E6%97%A5%E8%AE%B0%20FR%E7%A4%BE%E5%8C%BA/"/>
-    <id>http://yoursite.com/2017/06/29/日记 FR社区/</id>
-    <published>2017-06-29T12:45:00.000Z</published>
-    <updated>2018-03-04T17:26:29.000Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;17-6-19-周一&quot;&gt;&lt;a href=&quot;#17-6-19-周一&quot; class=&quot;headerlink&quot; title=&quot;17.6.19 周一&quot;&gt;&lt;/a&gt;17.6.19 周一&lt;/h3&gt;&lt;p&gt;下午第一次来到FR社区，新的正在装修的大厅，书记讲完话后主任作了总结。隐约有一些两派的区别，后来的实习也证明了这一点，党委工作不会用主任的人，主任的行政工作也很少用党委的人。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;17-6-20-周二&quot;&gt;&lt;a href=&quot;#17-6-20-周二&quot; class=&quot;headerlink&quot; title=&quot;17.6.20 周二&quot;&gt;&lt;/a&gt;17.6.20 周二&lt;/h3&gt;&lt;h4 id=&quot;（一）清晨：不守时的考勤&quot;&gt;&lt;a href=&quot;#（一）清晨：不守时的考勤&quot; class=&quot;headerlink&quot; title=&quot;（一）清晨：不守时的考勤&quot;&gt;&lt;/a&gt;（一）清晨：不守时的考勤&lt;/h4&gt;&lt;p&gt;FR社区的第二天，早上下雨，我们三人8：15到达后，8：20左右92年的小姐姐（郑薇）来了，她的第一件事情是烧开水。&lt;br&gt;早上办公人员还没来，几个残疾人在门口闲聊，FR社区同南岗区残联共用办公建筑。&lt;br&gt;8：27戴眼镜波浪头的大姐（刘桂云）来了，她7：30坐公交出门，书记寇姐（寇宪慧）第三个来，书记的第一件事是买早饭。&lt;br&gt;没戴眼镜的大姐（翁博）第四个来，副书记崔聪（崔聪）第5个，8：41时社区社工（郭红霞）到达，8：45大家同85岁老人唠嗑，副书记崔姐和书记寇姐说话。&lt;br&gt;主任刘姐（刘文琳）是8：50左右到的，办公室内唯一一个男人吴哥（吴怀宇）应该是9点以后最后到的，9：15大家陆续进入工作。&lt;/p&gt;
-&lt;h4 id=&quot;（二）办公室称呼&quot;&gt;&lt;a href=&quot;#（二）办公室称呼&quot; class=&quot;headerlink&quot; title=&quot;（二）办公室称呼&quot;&gt;&lt;/a&gt;（二）办公室称呼&lt;/h4&gt;&lt;p&gt;1、办公室表面存在着一套隐匿的称呼系统，如下：&lt;br&gt;吴哥 -&amp;gt; 寇姐 寇书记&lt;br&gt;吴哥 -&amp;gt; 崔姐 崔聪&lt;br&gt;崔姐 -&amp;gt; 刘主任 刘主任&lt;br&gt;刘主任 -&amp;gt;崔姐 崔聪&lt;br&gt;崔姐 -&amp;gt; 寇姐 寇姐&lt;br&gt;寇姐 -&amp;gt; 崔姐 崔聪&lt;br&gt;寇姐 -&amp;gt; 刘主任 刘主任&lt;br&gt;2、但办公室内并没有严格的上下级分别，在我做表格的时候，主任刘姐询问副书记崔姐文件封皮这么做行不行，崔姐说行，就按这么做就行。但崔姐和刘姐的称呼上仍然是存在等级的，崔姐向刘姐称呼为刘主任，刘姐称呼崔姐为崔聪本名。办公室内主要是年轻人干活，资历在社区办公室中是一种资本，可以让上下级关系虚化。&lt;/p&gt;
-&lt;h4 id=&quot;（三）社区活动：东拼西凑的材料&quot;&gt;&lt;a href=&quot;#（三）社区活动：东拼西凑的材料&quot; class=&quot;headerlink&quot; title=&quot;（三）社区活动：东拼西凑的材料&quot;&gt;&lt;/a&gt;（三）社区活动：东拼西凑的材料&lt;/h4&gt;&lt;p&gt;最近要准备廉洁政府宣传，下午便同崔姐和寇姐去复华学校向老师借画。此外闲聊也得知了崔姐小孩今年上清滨小学。&lt;/p&gt;
-&lt;h3 id=&quot;17-6-21-周三&quot;&gt;&lt;a href=&quot;#17-6-21-周三&quot; class=&quot;headerlink&quot; title=&quot;17.6.21 周三&quot;&gt;&lt;/a&gt;17.6.21 周三&lt;/h3&gt;&lt;p&gt;上午8:30，主任、书记去华旗饭店开两学一做会议。今天的主要工作是整理创城材料。&lt;/p&gt;
-&lt;h4 id=&quot;（一）动迁户：弱者的无奈&quot;&gt;&lt;a href=&quot;#（一）动迁户：弱者的无奈&quot; class=&quot;headerlink&quot; title=&quot;（一）动迁户：弱者的无奈&quot;&gt;&lt;/a&gt;（一）动迁户：弱者的无奈&lt;/h4&gt;&lt;p&gt;1、政策与实际分离&lt;br&gt;政府强拆后居民没有拿到拆迁费，政府糊弄完，余百涛、余百海兄弟来社区寻求支持。除兄弟两个，社区的江一也在同国家打官司。&lt;br&gt;纠纷源于动迁款是一种买房补助，也即不买房子不给钱，但实际上，开发商不会提供20m的房子，提供的房子不仅是位置不好的边边角角，而且一定需要动迁户自己添钱，而动迁户本身是拿不出新房这笔钱的。&lt;br&gt;吴哥说20m的房子给你十万块钱，“国家能给你多少钱？”，而再买需要40多万，一般人拿不起。推来推去，社区也无能为力。动迁户如果拿廉租房补贴，一个月500元，则不能有房子。&lt;br&gt;—“制定政策的和老百姓真是….（脱离）”&lt;br&gt;—“缺德的国家，不是那么公平”&lt;br&gt;我感觉社区更像是一种科赛设置的冲突阀，提供解压，但不能解决压力。&lt;br&gt;2、负责人问题&lt;br&gt;同时还有的问题是，动迁户打官司找不到负责人，动迁是政府和公司合谋，个人、公、私三方势力，个人是最弱小的。&lt;/p&gt;
-&lt;h4 id=&quot;（二）社区职工：伪装强者的弱者&quot;&gt;&lt;a href=&quot;#（二）社区职工：伪装强者的弱者&quot; class=&quot;headerlink&quot; title=&quot;（二）社区职工：伪装强者的弱者&quot;&gt;&lt;/a&gt;（二）社区职工：伪装强者的弱者&lt;/h4&gt;&lt;p&gt;1、郑薇&lt;br&gt;92年的郑薇姐目前在医大二院租房子住，家在宣德街，往外租1800元/月，但是供热很差。还有一套房子在南极广场的南海街房子最近准备拆迁了。&lt;br&gt;结婚在父母家房子，丈夫是长春人，不准备生孩子，准备将道外房子卖了再买一个高层，但是目前也拿不出钱。&lt;br&gt;2、吴哥&lt;br&gt;孩子阑尾炎住院，这几天又要工作又要陪孩子&lt;/p&gt;
-&lt;h4 id=&quot;（三）政协下基层：不完全虚构的编造事实&quot;&gt;&lt;a href=&quot;#（三）政协下基层：不完全虚构的编造事实&quot; class=&quot;headerlink&quot; title=&quot;（三）政协下基层：不完全虚构的编造事实&quot;&gt;&lt;/a&gt;（三）政协下基层：不完全虚构的编造事实&lt;/h4&gt;&lt;p&gt;在社区的正式文件中记录道：“社区居民孙燕芬报警，属矛盾纠纷，政协委员接待来访群众，帮忙解决。”&lt;br&gt;在真实记录时，事实上按照刘姐的话是“接待人不写、时间不写、受理人不写，以后再编写。”&lt;br&gt;—刘桂云姐：“政协委员是谁？”&lt;br&gt;—吴哥：“呵，编呗”&lt;br&gt;—刘桂云姐：“你说这些东西谁来看？”&lt;br&gt;—刘文琳主任：“啊对了，时间瞎编一个，别编周六周日啊”&lt;/p&gt;
-&lt;h3 id=&quot;17-6-22-周四&quot;&gt;&lt;a href=&quot;#17-6-22-周四&quot; class=&quot;headerlink&quot; title=&quot;17.6.22 周四&quot;&gt;&lt;/a&gt;17.6.22 周四&lt;/h3&gt;&lt;p&gt;今天的主要任务是搭建办公室局域网，整理党统材料和创城材料。下午和郑薇去社区贴宣传单。&lt;/p&gt;
-&lt;h4 id=&quot;（一）社区调解：前台后台的变化&quot;&gt;&lt;a href=&quot;#（一）社区调解：前台后台的变化&quot; class=&quot;headerlink&quot; title=&quot;（一）社区调解：前台后台的变化&quot;&gt;&lt;/a&gt;（一）社区调解：前台后台的变化&lt;/h4&gt;&lt;p&gt;清晨的办公室内不时有居民进入，寻求各种困难的解决。&lt;br&gt;大约9点左右是一个男人来寻求家庭婚姻调解，社区只是安慰倾听一番，男人走后社区干部开始闲聊男人的八卦。&lt;br&gt;9点20左右一位老人来社区寻求收入证明，但社区主任刘姐按照规定不能盖章证明，打发走了老人。&lt;/p&gt;
-&lt;h4 id=&quot;（二）社区构成：年轻人的缺位&quot;&gt;&lt;a href=&quot;#（二）社区构成：年轻人的缺位&quot; class=&quot;headerlink&quot; title=&quot;（二）社区构成：年轻人的缺位&quot;&gt;&lt;/a&gt;（二）社区构成：年轻人的缺位&lt;/h4&gt;&lt;p&gt;—吴哥：“年轻人哪有功夫搭理你”&lt;br&gt;年轻人忽视社区，老年人为主要社区群体。&lt;/p&gt;
-&lt;h4 id=&quot;（三）社区官僚：形式的功夫&quot;&gt;&lt;a href=&quot;#（三）社区官僚：形式的功夫&quot; class=&quot;headerlink&quot; title=&quot;（三）社区官僚：形式的功夫&quot;&gt;&lt;/a&gt;（三）社区官僚：形式的功夫&lt;/h4&gt;&lt;p&gt;下午领导来之前，主任让我们四个男生搬一个大铁柜子到地下室。&lt;/p&gt;
-&lt;h3 id=&quot;17-6-23-周五&quot;&gt;&lt;a href=&quot;#17-6-23-周五&quot; class=&quot;headerlink&quot; title=&quot;17.6.23 周五&quot;&gt;&lt;/a&gt;17.6.23 周五&lt;/h3&gt;&lt;p&gt;上午两个男人来社区寻求不扰民证明，主任刘姐让他们找街坊签字。社区负责的事物繁杂冗乱。&lt;br&gt;下午因为领导不知怎么看到了办公室后院杂草，主任刘姐带着办公室人员去除草，我们也不能幸免。&lt;/p&gt;
-&lt;h3 id=&quot;17-6-26-周一&quot;&gt;&lt;a href=&quot;#17-6-26-周一&quot; class=&quot;headerlink&quot; title=&quot;17.6.26 周一&quot;&gt;&lt;/a&gt;17.6.26 周一&lt;/h3&gt;&lt;p&gt;今天由于考试，一天没去社区。&lt;/p&gt;
-&lt;h3 id=&quot;17-6-27-周二&quot;&gt;&lt;a href=&quot;#17-6-27-周二&quot; class=&quot;headerlink&quot; title=&quot;17.6.27 周二&quot;&gt;&lt;/a&gt;17.6.27 周二&lt;/h3&gt;&lt;p&gt;我今天再来社区时，社区的建筑已经焕然一新，是因为今天南岗区长来FR视察，由此我一改之前对官僚效率低下的看法，事实上，官僚制效率很高，只是这种效率或更多的是对上而非对下，社区作为基层民主自治组织，实际是是隶属于上级政府，名义上的自组织，而实际上的党政基层。&lt;/p&gt;
-&lt;h3 id=&quot;17-6-28-周三&quot;&gt;&lt;a href=&quot;#17-6-28-周三&quot; class=&quot;headerlink&quot; title=&quot;17.6.28 周三&quot;&gt;&lt;/a&gt;17.6.28 周三&lt;/h3&gt;&lt;p&gt;今天主要的工作仍是打印整理党员统计信息。&lt;/p&gt;
-&lt;h3 id=&quot;17-6-29-周四&quot;&gt;&lt;a href=&quot;#17-6-29-周四&quot; class=&quot;headerlink&quot; title=&quot;17.6.29 周四&quot;&gt;&lt;/a&gt;17.6.29 周四&lt;/h3&gt;&lt;p&gt;今天社区开展廉政宣传，一些领导来视察，我恰好去拉屎没有参与。&lt;br&gt;下午2点多社区工作人员陆陆续续离开，其中刘主任开会去了。在我们四点半即将离去时，一个低保户正在寻求社区帮助，希望提高低保待遇。但社区无能为力，只是一个上下级的中转站，党员邱姐一边说软话安抚低保人，一边面露无奈。&lt;br&gt;—低保户：“你们这是逼死我啊”&lt;br&gt;—邱姐：“你的情况我一定跟领导上报的”&lt;/p&gt;
-&lt;p&gt;这是一帮非常普通的人，生活在我们周边，是我们每一个人，夹在科层制体系下身不由己，又保有对未来的憧憬。&lt;/p&gt;
-&lt;p&gt;注释：文中社区、社区干部等名字已做假名处理&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;17-6-19-周一&quot;&gt;&lt;a href=&quot;#17-6-19-周一&quot; class=&quot;headerlink&quot; title=&quot;17.6.19 周一&quot;&gt;&lt;/a&gt;17.6.19 周一&lt;/h3&gt;&lt;p&gt;下午第一次来到FR社区，新的正在装修的大厅，书记讲完话后主任作了总结。隐约有一些两派的区别，后来的实习也证明了这一点，党委工作不会用主任的人，主任的行政工作也很少用党委的人。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Struggle Diary" scheme="http://yoursite.com/categories/Struggle-Diary/"/>
-    
-    
-      <category term="sociology" scheme="http://yoursite.com/tags/sociology/"/>
-    
-      <category term="哈尔滨" scheme="http://yoursite.com/tags/%E5%93%88%E5%B0%94%E6%BB%A8/"/>
-    
-      <category term="社区" scheme="http://yoursite.com/tags/%E7%A4%BE%E5%8C%BA/"/>
     
   </entry>
   
