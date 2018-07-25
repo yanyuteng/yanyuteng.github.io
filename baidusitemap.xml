@@ -203,28 +203,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2017/11/08/community-across-the-border-life-history-of-zhejiang-village-in-beijing-memo.html</loc>
-    <lastmod>2018-07-25T08:44:58.433Z</lastmod>
-    <data>
-        <display>
-        <title>《跨越边界的社区:北京浙江村生活史》memo</title>
-        <pubTime>2017-11-08T12:25:00.000Z</pubTime>
-        
-        <tag>sociology</tag>
-         
-        <tag>Urban</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2015/06/20/golden-wing-essay.html</loc>
     <lastmod>2018-07-25T08:44:58.433Z</lastmod>
     <data>
@@ -242,6 +220,28 @@
            
              
               <breadCrumb title="Review Anthropology" url="http://sociologist.cn/categories/Review-Anthropology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2017/11/08/community-across-the-border-life-history-of-zhejiang-village-in-beijing-memo.html</loc>
+    <lastmod>2018-07-25T08:44:58.433Z</lastmod>
+    <data>
+        <display>
+        <title>《跨越边界的社区:北京浙江村生活史》memo</title>
+        <pubTime>2017-11-08T12:25:00.000Z</pubTime>
+        
+        <tag>sociology</tag>
+         
+        <tag>Urban</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
           
         </display>
     </data>
@@ -289,6 +289,26 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2017/01/17/python001-variable-if-loop-and-while.html</loc>
+    <lastmod>2018-07-25T08:44:58.409Z</lastmod>
+    <data>
+        <display>
+        <title>Python001 Variable、if loop and while loop</title>
+        <pubTime>2017-01-17T10:51:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://sociologist.cn/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2016/04/07/nature-and-the-city-notes-ecology-air-pollution-market-risk-society.html</loc>
     <lastmod>2018-07-25T08:44:58.409Z</lastmod>
     <data>
@@ -304,26 +324,6 @@
            
              
               <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2017/01/17/python001-variable-if-loop-and-while.html</loc>
-    <lastmod>2018-07-25T08:44:58.409Z</lastmod>
-    <data>
-        <display>
-        <title>Python001 Variable、if loop and while loop</title>
-        <pubTime>2017-01-17T10:51:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="http://sociologist.cn/categories/Python/"/>
           
         </display>
     </data>
@@ -395,6 +395,28 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2011/07/30/diary.html</loc>
+    <lastmod>2018-07-25T08:44:58.294Z</lastmod>
+    <data>
+        <display>
+        <title>日记 一一年拾遗</title>
+        <pubTime>2011-07-30T11:28:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+        <tag>青春</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2015/09/06/diary.html</loc>
     <lastmod>2018-07-25T08:44:58.294Z</lastmod>
     <data>
@@ -419,16 +441,14 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2011/07/30/diary.html</loc>
-    <lastmod>2018-07-25T08:44:58.294Z</lastmod>
+    <loc>http://sociologist.cn/2015/08/27/diary.html</loc>
+    <lastmod>2018-07-25T08:44:58.293Z</lastmod>
     <data>
         <display>
-        <title>日记 一一年拾遗</title>
-        <pubTime>2011-07-30T11:28:00.000Z</pubTime>
+        <title>日记 延边</title>
+        <pubTime>2015-08-27T08:43:14.000Z</pubTime>
         
-        <tag>理想</tag>
-         
-        <tag>青春</tag>
+        <tag>Travel</tag>
          
          
            
@@ -456,26 +476,6 @@
            
              
               <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2015/08/27/diary.html</loc>
-    <lastmod>2018-07-25T08:44:58.293Z</lastmod>
-    <data>
-        <display>
-        <title>日记 延边</title>
-        <pubTime>2015-08-27T08:43:14.000Z</pubTime>
-        
-        <tag>Travel</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
           
         </display>
     </data>
@@ -571,6 +571,28 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2012/10/10/diary-one-or-two-years.html</loc>
+    <lastmod>2018-07-25T08:44:58.289Z</lastmod>
+    <data>
+        <display>
+        <title>日记 一二年拾遗</title>
+        <pubTime>2012-10-09T16:00:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+        <tag>青春</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2016/05/26/harbin-eats-a-street-and-talks.html</loc>
     <lastmod>2018-07-25T08:44:58.289Z</lastmod>
     <data>
@@ -590,28 +612,6 @@
            
              
               <breadCrumb title="Prose" url="http://sociologist.cn/categories/Prose/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2012/10/10/diary-one-or-two-years.html</loc>
-    <lastmod>2018-07-25T08:44:58.289Z</lastmod>
-    <data>
-        <display>
-        <title>日记 一二年拾遗</title>
-        <pubTime>2012-10-09T16:00:00.000Z</pubTime>
-        
-        <tag>理想</tag>
-         
-        <tag>青春</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
           
         </display>
     </data>
@@ -661,16 +661,14 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2018/07/21/diary-nanjing-travel-news-sociology-annual-meeting.html</loc>
+    <loc>http://sociologist.cn/2015/08/26/diary-yalsey.html</loc>
     <lastmod>2018-07-25T08:44:58.185Z</lastmod>
     <data>
         <display>
-        <title>日记 南京旅闻曁社会学年会后感</title>
-        <pubTime>2018-07-20T16:00:00.000Z</pubTime>
+        <title>日记 雅尔塞</title>
+        <pubTime>2015-08-26T14:26:29.000Z</pubTime>
         
-        <tag>sociology</tag>
-         
-        <tag>Travel</tag>
+        <tag>Education</tag>
          
          
            
@@ -683,14 +681,16 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2015/08/26/diary-yalsey.html</loc>
+    <loc>http://sociologist.cn/2018/07/21/diary-nanjing-travel-news-sociology-annual-meeting.html</loc>
     <lastmod>2018-07-25T08:44:58.185Z</lastmod>
     <data>
         <display>
-        <title>日记 雅尔塞</title>
-        <pubTime>2015-08-26T14:26:29.000Z</pubTime>
+        <title>日记 南京旅闻曁社会学年会后感</title>
+        <pubTime>2018-07-20T16:00:00.000Z</pubTime>
         
-        <tag>Education</tag>
+        <tag>sociology</tag>
+         
+        <tag>Travel</tag>
          
          
            
@@ -738,9 +738,9 @@
         
         <tag>sociology</tag>
          
-        <tag>Methodology</tag>
-         
         <tag>谢宇</tag>
+         
+        <tag>Methodology</tag>
          
         <tag>Quantitative</tag>
          
@@ -821,28 +821,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2017/05/15/public-enterprise-reforms-in-the-united-states-and-peoples-republic-of-china.html</loc>
-    <lastmod>2018-07-25T08:44:58.068Z</lastmod>
-    <data>
-        <display>
-        <title>译 Public Enterprise Reforms in the United States and the People's Republic of China</title>
-        <pubTime>2017-05-15T08:41:00.000Z</pubTime>
-        
-        <tag>Translation</tag>
-         
-        <tag>PM</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review Politics" url="http://sociologist.cn/categories/Review-Politics/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2017/12/31/service-over-secrecy-how-lodge%E2%80%90style-fraternalism-yielded-popularity-to-mens-clubs.html</loc>
     <lastmod>2018-07-25T08:44:58.068Z</lastmod>
     <data>
@@ -860,6 +838,28 @@
            
              
               <breadCrumb title="Review_Sociology Papers" url="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2017/05/15/public-enterprise-reforms-in-the-united-states-and-peoples-republic-of-china.html</loc>
+    <lastmod>2018-07-25T08:44:58.068Z</lastmod>
+    <data>
+        <display>
+        <title>译 Public Enterprise Reforms in the United States and the People's Republic of China</title>
+        <pubTime>2017-05-15T08:41:00.000Z</pubTime>
+        
+        <tag>Translation</tag>
+         
+        <tag>PM</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review Politics" url="http://sociologist.cn/categories/Review-Politics/"/>
           
         </display>
     </data>
@@ -919,34 +919,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2016/03/19/translated-urban-lifestyles.html</loc>
-    <lastmod>2018-07-25T08:44:57.927Z</lastmod>
-    <data>
-        <display>
-        <title>译 Urban Lifestyles</title>
-        <pubTime>2016-03-19T15:46:16.000Z</pubTime>
-        
-        <tag>sociology</tag>
-         
-        <tag>Urban</tag>
-         
-        <tag>History</tag>
-         
-        <tag>Zukin</tag>
-         
-        <tag>Lifestyle</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review_Sociology Papers" url="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2016/05/12/urban-political-ecology-justice-and-the-politics-of-scale.html</loc>
     <lastmod>2018-07-25T08:44:57.927Z</lastmod>
     <data>
@@ -963,6 +935,34 @@
         <tag>Translation</tag>
          
         <tag>Justice</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review_Sociology Papers" url="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2016/03/19/translated-urban-lifestyles.html</loc>
+    <lastmod>2018-07-25T08:44:57.927Z</lastmod>
+    <data>
+        <display>
+        <title>译 Urban Lifestyles</title>
+        <pubTime>2016-03-19T15:46:16.000Z</pubTime>
+        
+        <tag>sociology</tag>
+         
+        <tag>History</tag>
+         
+        <tag>Urban</tag>
+         
+        <tag>Zukin</tag>
+         
+        <tag>Lifestyle</tag>
          
          
            
@@ -1023,34 +1023,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2016/03/17/whose-city-is-itsassen.html</loc>
-    <lastmod>2018-07-25T08:44:57.924Z</lastmod>
-    <data>
-        <display>
-        <title>译 Whose city is it_Sassen</title>
-        <pubTime>2016-03-16T16:16:12.000Z</pubTime>
-        
-        <tag>sociology</tag>
-         
-        <tag>Urban</tag>
-         
-        <tag>Translation</tag>
-         
-        <tag>Sassen</tag>
-         
-        <tag>Immigration</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review_Sociology Papers" url="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2017/11/23/urban-studies-journals-production-and-consumption-of-chinas-new-space-government-market-society.html</loc>
     <lastmod>2018-07-25T08:44:57.924Z</lastmod>
     <data>
@@ -1075,6 +1047,34 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2016/03/17/whose-city-is-itsassen.html</loc>
+    <lastmod>2018-07-25T08:44:57.924Z</lastmod>
+    <data>
+        <display>
+        <title>译 Whose city is it_Sassen</title>
+        <pubTime>2016-03-16T16:16:12.000Z</pubTime>
+        
+        <tag>sociology</tag>
+         
+        <tag>Urban</tag>
+         
+        <tag>Translation</tag>
+         
+        <tag>Immigration</tag>
+         
+        <tag>Sassen</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review_Sociology Papers" url="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2015/09/02/essays-on-chinese-political-success-and-failure.html</loc>
     <lastmod>2018-07-25T08:44:57.923Z</lastmod>
     <data>
@@ -1082,9 +1082,9 @@
         <title>《中国历代政治得失》随笔</title>
         <pubTime>2015-09-01T16:00:00.000Z</pubTime>
         
-        <tag>钱穆</tag>
-         
         <tag>China</tag>
+         
+        <tag>钱穆</tag>
          
          
            
@@ -1151,24 +1151,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2009/12/26/diary.html</loc>
-    <lastmod>2018-07-25T08:44:57.921Z</lastmod>
-    <data>
-        <display>
-        <title>日记 零九年拾遗</title>
-        <pubTime>2009-12-25T16:00:00.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2016/12/20/an-overview-of-the-cultural-perspective-relationship-between-parents-and-children.html</loc>
     <lastmod>2018-07-25T08:44:57.921Z</lastmod>
     <data>
@@ -1186,6 +1168,24 @@
            
              
               <breadCrumb title="Review_Sociology Papers" url="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2009/12/26/diary.html</loc>
+    <lastmod>2018-07-25T08:44:57.921Z</lastmod>
+    <data>
+        <display>
+        <title>日记 零九年拾遗</title>
+        <pubTime>2009-12-25T16:00:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
           
         </display>
     </data>
@@ -1237,28 +1237,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2016/08/08/nightingale-utopias-faith.html</loc>
-    <lastmod>2018-07-25T08:44:57.856Z</lastmod>
-    <data>
-        <display>
-        <title>《夜颂》：Utopias信仰</title>
-        <pubTime>2016-08-07T18:36:00.000Z</pubTime>
-        
-        <tag>Utopias</tag>
-         
-        <tag>鲁迅</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review Literature" url="http://sociologist.cn/categories/Review-Literature/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2015/11/30/translating-the-triple-crisis-of-sociology.html</loc>
     <lastmod>2018-07-25T08:44:57.856Z</lastmod>
     <data>
@@ -1278,6 +1256,28 @@
            
              
               <breadCrumb title="Review_Sociology Papers" url="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2016/08/08/nightingale-utopias-faith.html</loc>
+    <lastmod>2018-07-25T08:44:57.856Z</lastmod>
+    <data>
+        <display>
+        <title>《夜颂》：Utopias信仰</title>
+        <pubTime>2016-08-07T18:36:00.000Z</pubTime>
+        
+        <tag>Utopias</tag>
+         
+        <tag>鲁迅</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review Literature" url="http://sociologist.cn/categories/Review-Literature/"/>
           
         </display>
     </data>
@@ -1587,30 +1587,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2015/06/20/demian-memo.html</loc>
-    <lastmod>2018-07-25T08:44:57.645Z</lastmod>
-    <data>
-        <display>
-        <title>《德米安》 memo</title>
-        <pubTime>2015-06-20T11:31:00.000Z</pubTime>
-        
-        <tag>Literature</tag>
-         
-        <tag>Hesse</tag>
-         
-        <tag>理想</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review Literature" url="http://sociologist.cn/categories/Review-Literature/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2015/10/04/prisoners-theory-and-other-essays.html</loc>
     <lastmod>2018-07-25T08:44:57.645Z</lastmod>
     <data>
@@ -1635,21 +1611,23 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2015/09/19/invitation-of-sociology-memo.html</loc>
-    <lastmod>2018-07-25T08:44:57.644Z</lastmod>
+    <loc>http://sociologist.cn/2015/06/20/demian-memo.html</loc>
+    <lastmod>2018-07-25T08:44:57.645Z</lastmod>
     <data>
         <display>
-        <title>《社会学的邀请》memo</title>
-        <pubTime>2015-09-18T17:37:13.000Z</pubTime>
+        <title>《德米安》 memo</title>
+        <pubTime>2015-06-20T11:31:00.000Z</pubTime>
         
-        <tag>sociology</tag>
+        <tag>Literature</tag>
          
-        <tag>Witt</tag>
+        <tag>Hesse</tag>
+         
+        <tag>理想</tag>
          
          
            
              
-              <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
+              <breadCrumb title="Review Literature" url="http://sociologist.cn/categories/Review-Literature/"/>
           
         </display>
     </data>
@@ -1666,9 +1644,9 @@
         
         <tag>sociology</tag>
          
-        <tag>Consumption</tag>
-         
         <tag>Economics</tag>
+         
+        <tag>Consumption</tag>
          
         <tag>Class</tag>
          
@@ -1676,6 +1654,28 @@
            
              
               <breadCrumb title="Review Economics" url="http://sociologist.cn/categories/Review-Economics/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2015/09/19/invitation-of-sociology-memo.html</loc>
+    <lastmod>2018-07-25T08:44:57.644Z</lastmod>
+    <data>
+        <display>
+        <title>《社会学的邀请》memo</title>
+        <pubTime>2015-09-18T17:37:13.000Z</pubTime>
+        
+        <tag>sociology</tag>
+         
+        <tag>Witt</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
           
         </display>
     </data>
@@ -1744,9 +1744,9 @@
         
         <tag>sociology</tag>
          
-        <tag>Urban</tag>
-         
         <tag>Jacbos</tag>
+         
+        <tag>Urban</tag>
          
          
            
@@ -1768,9 +1768,9 @@
         
         <tag>sociology</tag>
          
-        <tag>Monti</tag>
-         
         <tag>Urban</tag>
+         
+        <tag>Monti</tag>
          
          
            
@@ -1793,32 +1793,6 @@
         <tag>sociology</tag>
          
         <tag>Rural</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2015/09/12/japan-notes.html</loc>
-    <lastmod>2018-07-25T08:44:57.590Z</lastmod>
-    <data>
-        <display>
-        <title>《日本论》笔记</title>
-        <pubTime>2015-09-12T04:45:28.000Z</pubTime>
-        
-        <tag>sociology</tag>
-         
-        <tag>Japan</tag>
-         
-        <tag>Militarism</tag>
-         
-        <tag>戴季陶</tag>
          
          
            
@@ -1857,6 +1831,32 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2015/09/12/japan-notes.html</loc>
+    <lastmod>2018-07-25T08:44:57.590Z</lastmod>
+    <data>
+        <display>
+        <title>《日本论》笔记</title>
+        <pubTime>2015-09-12T04:45:28.000Z</pubTime>
+        
+        <tag>sociology</tag>
+         
+        <tag>Japan</tag>
+         
+        <tag>Militarism</tag>
+         
+        <tag>戴季陶</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review_Sociology Books" url="http://sociologist.cn/categories/Review-Sociology-Books/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2016/10/15/western-history-masterpieces-memo.html</loc>
     <lastmod>2018-07-25T08:44:57.589Z</lastmod>
     <data>
@@ -1874,6 +1874,28 @@
            
              
               <breadCrumb title="Review History" url="http://sociologist.cn/categories/Review-History/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2015/11/16/i-will-leave-without-saying-goodbye.html</loc>
+    <lastmod>2018-07-25T08:44:57.588Z</lastmod>
+    <data>
+        <display>
+        <title>《昨日不辞而别》 随笔</title>
+        <pubTime>2015-11-15T17:01:47.000Z</pubTime>
+        
+        <tag>摇滚</tag>
+         
+        <tag>青春</tag>
+         
+         
+           
+             
+              <breadCrumb title="Review Literature" url="http://sociologist.cn/categories/Review-Literature/"/>
           
         </display>
     </data>
@@ -1905,28 +1927,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2015/11/16/i-will-leave-without-saying-goodbye.html</loc>
-    <lastmod>2018-07-25T08:44:57.588Z</lastmod>
-    <data>
-        <display>
-        <title>《昨日不辞而别》 随笔</title>
-        <pubTime>2015-11-15T17:01:47.000Z</pubTime>
-        
-        <tag>摇滚</tag>
-         
-        <tag>青春</tag>
-         
-         
-           
-             
-              <breadCrumb title="Review Literature" url="http://sociologist.cn/categories/Review-Literature/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2015/08/29/wanli-fifteen-years-notes.html</loc>
     <lastmod>2018-07-25T08:44:57.587Z</lastmod>
     <data>
@@ -1936,11 +1936,11 @@
         
         <tag>China</tag>
          
-        <tag>History</tag>
-         
         <tag>明朝</tag>
          
         <tag>黃仁宇</tag>
+         
+        <tag>History</tag>
          
          
            
@@ -2544,11 +2544,11 @@
         
         <tag>China</tag>
          
+        <tag>History</tag>
+         
         <tag>Bureaucracy</tag>
          
         <tag>Weber</tag>
-         
-        <tag>History</tag>
          
          
            
@@ -2906,9 +2906,9 @@
         
         <tag>sociology</tag>
          
-        <tag>Mills</tag>
-         
         <tag>Methodology</tag>
+         
+        <tag>Mills</tag>
          
          
            
