@@ -1,6 +1,7 @@
 http://sociologist.cn/2018/08/19/diary-note-of-the-year-1818.html
 http://sociologist.cn/2018/08/03/from-the-late-qing-dynasty-to-history-of-republic-china-memo.html
 http://sociologist.cn/2018/07/21/diary-nanjing-travel-news-sociology-annual-meeting.html
+http://sociologist.cn/2018/06/19/logic-of-separatism-ecological-analysis-chinas-legal-service-market-memo.html
 http://sociologist.cn/2018/05/31/policy-recommendations-for-fostering-economic-development-through-social-capital.html
 http://sociologist.cn/2018/05/21/institutional-logic-of-chinas-national-governance-memo.html
 http://sociologist.cn/2018/04/18/r004-data-preprocessing.html
@@ -8,8 +9,8 @@ http://sociologist.cn/2018/04/18/sociologists-blog-sites.html
 http://sociologist.cn/2018/04/17/r003-regular-expression.html
 http://sociologist.cn/2018/04/13/r002-essential-dataframe.html
 http://sociologist.cn/2018/04/12/r001-essential-statement.html
-http://sociologist.cn/2018/03/12/absorption-and-empowerment-memo.html
 http://sociologist.cn/2018/03/12/corporateism-memo.html
+http://sociologist.cn/2018/03/12/absorption-and-empowerment-memo.html
 http://sociologist.cn/2018/01/17/discovery-society-memo.html
 http://sociologist.cn/2018/01/01/international-expansion-of-the-americanstyle-service-club.html
 http://sociologist.cn/2017/12/31/service-over-secrecy-how-lodge‐style-fraternalism-yielded-popularity-to-mens-clubs.html
@@ -97,4 +98,3 @@ http://sociologist.cn/2015/09/19/invitation-of-sociology-memo.html
 http://sociologist.cn/2015/09/16/academic-and-political-memo.html
 http://sociologist.cn/2015/09/12/japan-notes.html
 http://sociologist.cn/2015/09/09/japanese-study-of-a-foreigner-notes.html
-http://sociologist.cn/2015/09/06/diary.html
