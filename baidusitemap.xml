@@ -3,21 +3,20 @@
 
 
     
-    
   <url>
-    <loc>http://sociologist.cn/2018/09/06/Light%20light.html</loc>
-    <lastmod>2018-09-07T10:07:15.851Z</lastmod>
+    <loc>http://sociologist.cn/2015/08/26/diary-jalse.html</loc>
+    <lastmod>2018-09-08T17:11:16.107Z</lastmod>
     <data>
         <display>
-        <title>灯光熹微</title>
-        <pubTime>2018-09-06T04:05:00.000Z</pubTime>
+        <title>日记 雅尔塞</title>
+        <pubTime>2015-08-26T14:26:29.000Z</pubTime>
         
-        <tag>理想</tag>
+        <tag>Education</tag>
          
          
            
              
-              <breadCrumb title="Prose" url="http://sociologist.cn/categories/Prose/"/>
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
           
         </display>
     </data>
@@ -25,8 +24,8 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2016/03/19/translation-of-urban-lifestyles.html</loc>
-    <lastmod>2018-09-06T08:37:56.053Z</lastmod>
+    <loc>http://sociologist.cn/2016/03/19/translation-of-urban-lifestyles_zukin.html</loc>
+    <lastmod>2018-09-08T17:11:12.877Z</lastmod>
     <data>
         <display>
         <title>译 Urban Lifestyles_Zukin</title>
@@ -51,6 +50,47 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2018/09/06/light-light.html</loc>
+    <lastmod>2018-09-08T17:11:08.526Z</lastmod>
+    <data>
+        <display>
+        <title>灯光熹微</title>
+        <pubTime>2018-09-06T04:05:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+         
+           
+             
+              <breadCrumb title="Prose" url="http://sociologist.cn/categories/Prose/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://sociologist.cn/2018/09/08/diary-two-and-18-years'-notes.html</loc>
+    <lastmod>2018-09-08T06:22:44.732Z</lastmod>
+    <data>
+        <display>
+        <title>日记 二〇一八年摘记</title>
+        <pubTime>2018-09-07T16:00:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2016/04/07/notes-on-nature-and-the-city:-ecology,-air-pollution-market-and-risk-society.html</loc>
     <lastmod>2018-09-06T08:37:13.940Z</lastmod>
     <data>
@@ -58,9 +98,9 @@
         <title>Nature and the City 筆記：生態、空污市場與風險社會</title>
         <pubTime>2016-04-06T19:37:07.000Z</pubTime>
         
-        <tag>Environment</tag>
-         
         <tag>sociology</tag>
+         
+        <tag>Environment</tag>
          
          
            
@@ -130,9 +170,9 @@
          
         <tag>Translation</tag>
          
-        <tag>Sassen</tag>
-         
         <tag>Immigration</tag>
+         
+        <tag>Sassen</tag>
          
          
            
@@ -304,9 +344,9 @@
         <title>译 Urban Political Ecology, Justice and the Politics of Scale</title>
         <pubTime>2016-05-12T03:03:57.000Z</pubTime>
         
-        <tag>Marx</tag>
-         
         <tag>sociology</tag>
+         
+        <tag>Marx</tag>
          
         <tag>Translation</tag>
          
@@ -332,9 +372,9 @@
         <title>译 Rethinking Political Ecologies of Water</title>
         <pubTime>2016-04-09T16:35:34.000Z</pubTime>
         
-        <tag>Environment</tag>
-         
         <tag>sociology</tag>
+         
+        <tag>Environment</tag>
          
         <tag>Translation</tag>
          
@@ -360,6 +400,8 @@
         <title>Everyday Environmentalism_Ch1 memo</title>
         <pubTime>2016-03-29T16:00:00.000Z</pubTime>
         
+        <tag>sociology</tag>
+         
         <tag>Marx</tag>
          
         <tag>Harvey</tag>
@@ -367,8 +409,6 @@
         <tag>Smith</tag>
          
         <tag>Environment</tag>
-         
-        <tag>sociology</tag>
          
          
            
@@ -473,26 +513,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2015/08/26/diary-of-yalse,-qigihar.html</loc>
-    <lastmod>2018-09-06T08:23:18.861Z</lastmod>
-    <data>
-        <display>
-        <title>日记 雅尔塞</title>
-        <pubTime>2015-08-26T14:26:29.000Z</pubTime>
-        
-        <tag>Education</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2016/08/29/essays-on-sociological-methods-and-quantitative-studies.html</loc>
     <lastmod>2018-09-05T16:14:18.341Z</lastmod>
     <data>
@@ -502,11 +522,11 @@
         
         <tag>sociology</tag>
          
+        <tag>谢宇</tag>
+         
         <tag>Methodology</tag>
          
         <tag>Quantitative</tag>
-         
-        <tag>谢宇</tag>
          
          
            
@@ -692,26 +712,6 @@
            
              
               <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2018/09/02/diary-two-and-18-years'-notes.html</loc>
-    <lastmod>2018-09-03T02:12:26.887Z</lastmod>
-    <data>
-        <display>
-        <title>日记 二〇一八年摘记</title>
-        <pubTime>2018-09-01T16:00:00.000Z</pubTime>
-        
-        <tag>理想</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
           
         </display>
     </data>
@@ -1736,9 +1736,9 @@
         
         <tag>sociology</tag>
          
-        <tag>士大夫</tag>
-         
         <tag>费孝通</tag>
+         
+        <tag>士大夫</tag>
          
         <tag>吳晗</tag>
          
@@ -1964,9 +1964,9 @@
          
         <tag>Medical sociology</tag>
          
-        <tag>Translation</tag>
-         
         <tag>ICU</tag>
+         
+        <tag>Translation</tag>
          
          
            
@@ -2120,9 +2120,9 @@
          
         <tag>Methodology</tag>
          
-        <tag>Qualitative</tag>
-         
         <tag>Quantitative</tag>
+         
+        <tag>Qualitative</tag>
          
          
            
@@ -2731,9 +2731,9 @@
         <title>Sociology memo</title>
         <pubTime>2016-08-26T16:00:00.000Z</pubTime>
         
-        <tag>sociology</tag>
-         
         <tag>Giddens</tag>
+         
+        <tag>sociology</tag>
          
          
            
@@ -2918,9 +2918,9 @@
         
         <tag>sociology</tag>
          
-        <tag>Mills</tag>
-         
         <tag>Methodology</tag>
+         
+        <tag>Mills</tag>
          
          
            
