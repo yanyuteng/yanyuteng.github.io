@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2018/09/08/diary-two-and-18-years'-notes.html</loc>
+    <lastmod>2018-09-09T02:12:05.283Z</lastmod>
+    <data>
+        <display>
+        <title>日记 二〇一八年摘记</title>
+        <pubTime>2018-09-07T16:00:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2015/08/26/diary-jalse.html</loc>
     <lastmod>2018-09-08T17:11:16.107Z</lastmod>
     <data>
@@ -71,26 +91,6 @@
     
     
   <url>
-    <loc>http://sociologist.cn/2018/09/08/diary-two-and-18-years'-notes.html</loc>
-    <lastmod>2018-09-08T06:22:44.732Z</lastmod>
-    <data>
-        <display>
-        <title>日记 二〇一八年摘记</title>
-        <pubTime>2018-09-07T16:00:00.000Z</pubTime>
-        
-        <tag>理想</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2016/04/07/notes-on-nature-and-the-city:-ecology,-air-pollution-market-and-risk-society.html</loc>
     <lastmod>2018-09-06T08:37:13.940Z</lastmod>
     <data>
@@ -98,9 +98,9 @@
         <title>Nature and the City 筆記：生態、空污市場與風險社會</title>
         <pubTime>2016-04-06T19:37:07.000Z</pubTime>
         
-        <tag>sociology</tag>
-         
         <tag>Environment</tag>
+         
+        <tag>sociology</tag>
          
          
            
@@ -344,9 +344,9 @@
         <title>译 Urban Political Ecology, Justice and the Politics of Scale</title>
         <pubTime>2016-05-12T03:03:57.000Z</pubTime>
         
-        <tag>sociology</tag>
-         
         <tag>Marx</tag>
+         
+        <tag>sociology</tag>
          
         <tag>Translation</tag>
          
@@ -372,9 +372,9 @@
         <title>译 Rethinking Political Ecologies of Water</title>
         <pubTime>2016-04-09T16:35:34.000Z</pubTime>
         
-        <tag>sociology</tag>
-         
         <tag>Environment</tag>
+         
+        <tag>sociology</tag>
          
         <tag>Translation</tag>
          
@@ -400,8 +400,6 @@
         <title>Everyday Environmentalism_Ch1 memo</title>
         <pubTime>2016-03-29T16:00:00.000Z</pubTime>
         
-        <tag>sociology</tag>
-         
         <tag>Marx</tag>
          
         <tag>Harvey</tag>
@@ -409,6 +407,8 @@
         <tag>Smith</tag>
          
         <tag>Environment</tag>
+         
+        <tag>sociology</tag>
          
          
            
@@ -2286,9 +2286,9 @@
         <title>《中国历代政治得失》随笔</title>
         <pubTime>2015-09-01T16:00:00.000Z</pubTime>
         
-        <tag>钱穆</tag>
-         
         <tag>China</tag>
+         
+        <tag>钱穆</tag>
          
          
            
@@ -2731,9 +2731,9 @@
         <title>Sociology memo</title>
         <pubTime>2016-08-26T16:00:00.000Z</pubTime>
         
-        <tag>Giddens</tag>
-         
         <tag>sociology</tag>
+         
+        <tag>Giddens</tag>
          
          
            
