@@ -296,6 +296,251 @@
             
               
                 
+                <a class="post-title-link" href="/2018/04/17/r003-regular-expression.html" itemprop="url">
+                  R003 Regular expression
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2018-04-17T17:35:00+08:00" content="2018-04-17">
+              2018-04-17
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Quantitative-Method/" itemprop="url" rel="index">
+                    <span itemprop="name">Quantitative Method</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="3-1-Basic-regular-expression"><a href="#3-1-Basic-regular-expression" class="headerlink" title="3.1 Basic regular expression"></a>3.1 Basic regular expression</h1><h2 id=""><a href="#" class="headerlink" title="[]"></a>[]</h2><pre><code>### find &quot;do&quot; 
+text&lt;-c(&quot;Don&apos;t&quot;,&quot;aim&quot;,&quot;for&quot;,&quot;success&quot;,&quot;if&quot;,&quot;you&quot;,&quot;want&quot;,&quot;it&quot;,&quot;just&quot;,&quot;do&quot;,&quot;what&quot;,&quot;you&quot;,&quot;love&quot;,&quot;and&quot;,&quot;believe&quot;,&quot;in&quot;,&quot;and&quot;,&quot;it&quot;,&quot;will&quot;,&quot;come&quot;,&quot;naturally&quot;) 
+grep(&quot;[Dd]o&quot;,text) ##### Do and do 
+grep(&quot;[D]o&quot;,text) ##### Do 
+grep(&quot;[d]o&quot;,text) ##### do 
+
+### find &apos;R&apos;&amp;&apos;r&apos; ; find &apos;Rr&apos; 
+text = c(&apos;Ro&apos;,&apos;Rr&apos;,&apos;rr&apos;,&apos;RR&apos;,&apos;rR&apos;)
+grep(&apos;[Rr]&apos;,text) ##### [1] 1 2 3 4 5
+grep(&apos;[R]r&apos;,text) ##### [1] 2
+</code></pre>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2018/04/17/r003-regular-expression.html#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2018/04/13/r002-essential-dataframe.html" itemprop="url">
+                  R002 Essential dataframe
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2018-04-13T16:20:00+08:00" content="2018-04-13">
+              2018-04-13
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Quantitative-Method/" itemprop="url" rel="index">
+                    <span itemprop="name">Quantitative Method</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="Vector"><a href="#Vector" class="headerlink" title="Vector"></a>Vector</h1><h2 id="generate-vector"><a href="#generate-vector" class="headerlink" title="generate vector"></a>generate vector</h2><pre><code>a &lt;- c(1,4,7,3,7)
+b &lt;- c(&apos;one&apos;,&apos;two&apos;,&apos;three&apos;)
+c &lt;- c(TRUE,FALSE,TRUE)
+d &lt;- seq(3,20,by=2) 
+e &lt;- seq(3,20,length=9)
+</code></pre>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2018/04/13/r002-essential-dataframe.html#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2018/04/12/r001-essential-statement.html" itemprop="url">
                   R001 Essential statement
                 </a>
@@ -1091,239 +1336,6 @@ Fibonacci
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/12/05/citizen's-right-of-way-and-urban-control:-analysis-of-guangzhou's-anti-lock-policy-in-2004.html" itemprop="url">
-                  市民路权与城市管制：2004年广州禁摩政策分析
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2017-12-05T00:00:00+08:00" content="2017-12-05">
-              2017-12-05
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Prose/" itemprop="url" rel="index">
-                    <span itemprop="name">Prose</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>  我对禁摩政策的兴趣，始于16年在台湾交流时期。台湾的机车（摩托）十分普遍，在城市居民的日常生活中扮演着重要角色，我交流所在的台湾中山大学也是在16年成立了校内机车管理协会，当时全校学生正为此协会的主席职位激烈竞选。在这样的环境下，我看到了深圳市正在大幅清缴摩托的新闻 ，对比台湾机车在交通运输中的有条不紊，我当时在想，大陆强硬的禁摩是否可取？又或者说，这种强硬的禁摩是否必要，是否存在一些更好的替代政策？<br>  同时，因为我个人兴趣聚焦于城市研究，近来一直在阅读urban studies的系列期刊，在15年有一整期主题是聚焦于中国大陆的城市变迁，其中钱俊希博士对广州摩的的地理学分析让我印象深刻，也正是这一论文勾起我对台湾摩的的回忆，促成了这篇文章。<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/12/05/citizen's-right-of-way-and-urban-control:-analysis-of-guangzhou's-anti-lock-policy-in-2004.html#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/12/01/people-and-places-in-the-city-memo.html" itemprop="url">
-                  《城市中的人和地方》memo_Introduction
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2017-12-01T15:45:00+08:00" content="2017-12-01">
-              2017-12-01
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Urban-Sociology/" itemprop="url" rel="index">
-                    <span itemprop="name">Urban Sociology</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <blockquote>
-<p>当过去的社会纽带断裂时，个体往往会找到新的方式和其他人联系起来，融为一体。  </p>
-</blockquote>
-<p>Monti D J, Borer M I, Macgregor L C. Urban people and places: The sociology of cities, suburbs, and towns[M]. Sage Publications, 2014.<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/12/01/people-and-places-in-the-city-memo.html#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1360,7 +1372,7 @@ Fibonacci
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="http://onmqf40zo.bkt.clouddn.com/18-6-11/64353688.jpg"
+               src="https://avatars2.githubusercontent.com/u/19641933?s=400&v=4"
                alt="Yuteng Yan" />
           <p class="site-author-name" itemprop="name">Yuteng Yan</p>
           <p class="site-description motion-element" itemprop="description">I have tried to be objective. I do not claim to be detached. —— C.Mills</p>
@@ -1368,7 +1380,7 @@ Fibonacci
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">132</span>
+              <span class="site-state-item-count">134</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -1376,7 +1388,7 @@ Fibonacci
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-count">13</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -1486,7 +1498,7 @@ Fibonacci
   
   &copy;  2015 - 
   <span itemprop="copyrightYear">2018</span>
-  <span class="post-count">The blog has written 488.1k words</span>
+  <span class="post-count">The blog has written 501.0k words</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
