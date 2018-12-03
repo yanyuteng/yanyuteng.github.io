@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sociologist.cn/"/>
-  <updated>2018-11-26T08:01:23.150Z</updated>
+  <updated>2018-12-03T13:53:30.301Z</updated>
   <id>http://sociologist.cn/</id>
   
   <author>
@@ -16,13 +16,67 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>综 布迪厄及其之后</title>
-    <link href="http://sociologist.cn/2018/11/23/summary-of-bourdieu.html"/>
-    <id>http://sociologist.cn/2018/11/23/summary-of-bourdieu.html</id>
-    <published>2018-11-22T16:00:00.000Z</published>
-    <updated>2018-11-26T08:01:23.150Z</updated>
+    <title>Translation_The Cultural Contingency of Structure</title>
+    <link href="http://sociologist.cn/2018/12/02/translation-Cultural-Contingency-of-Structure.html"/>
+    <id>http://sociologist.cn/2018/12/02/translation-Cultural-Contingency-of-Structure.html</id>
+    <published>2018-12-01T16:00:00.000Z</published>
+    <updated>2018-12-03T13:53:30.301Z</updated>
     
-    <content type="html">&lt;p&gt;在我本科的学习中，我时常感觉理论好像和现实是蛮割裂的，如果我们做研究，理论是理论的，经验研究是经验研究的。但近来我觉得不是这样的。社会学理论和哲学理论不同的就有两点，（1）一方面，社会学理论是为了经验研究的，如果这些理论不能用于经验研究，我觉得这个理论就玄学，就不是社会学的。（2）同时，社会学理论一定是可以在经验中得到发展，也就是能够做理论对话的。&lt;br&gt;当我们谈社会理论时，我们并不是在谈玄学，所以我上周末和龙哥一起看Weber，我们其实有很大的分歧，我回去在想这个问题，我觉得这可能也是我和龙哥学科背景不一样，我本科是社会学的，龙哥本科是哲学的，所以我们在看理论的时候会有不同的想法，这很正常。我回想了一下，觉得这个分歧可能也在于一篇论文已经指出来的，这篇论文来源于孙宇凡的推介，他有一段话我觉得很有裨益。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Ingram P, Silverman B S. The Cultural Contingency of Structure: Evidence from Entry to the Slave Trade In and Around the Abolition Movement[J]. American Journal of Sociology, 2016, 122(3): 755-797.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Background-and-Research-Questions&quot;&gt;&lt;a href=&quot;#Background-and-Research-Questions&quot; class=&quot;headerlink&quot; title=&quot;Background and Research Questions:&quot;&gt;&lt;/a&gt;Background and Research Questions:&lt;/h2&gt;&lt;p&gt;(1)    Theory: There has been prior attention to the interdependence of culture and structure, most prominently with regard to networks. However, the energy has mostly gone into examining the influences of networks on culture.&lt;br&gt;(2)    Case: Our empirical analysis examines the structural and cultural forces behind entry into the Liverpool slave trade, with particular attention to how those forces changed around the abolition movement. In other words, we ask, what makes a trader become a slave trader?&lt;br&gt;(3)    Questions: Whether or not the economic effects of social structure depend on Culture?&lt;br&gt;A. Social Influence and Entry to the Slave Trade&lt;br&gt;B. Status and Entry to the Slave Trade&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Hypotheses-for-Q-A&quot;&gt;&lt;a href=&quot;#Hypotheses-for-Q-A&quot; class=&quot;headerlink&quot; title=&quot;Hypotheses for Q_A:&quot;&gt;&lt;/a&gt;Hypotheses for Q_A:&lt;/h2&gt;&lt;p&gt;(1)    HYPOTHESIS 1. Social influence through network ties to enter, or forgo entering, the slave trade will be stronger during the abolition movement.&lt;br&gt;(2)    HYPOTHESIS 2. The influence of slavers on their nonslaving network partners will decrease relative to the influence of nonslavers on those same nonslaving network partners during the abolition movement.&lt;br&gt;(3)    HYPOTHESIS 3. The differential effect described in hypothesis 2, that nonslaving ties will be more influential relative to slaving ties in the abolition movement, will be attenuated for private club ties.&lt;/p&gt;
+&lt;h2 id=&quot;Hypotheses-for-Q-B&quot;&gt;&lt;a href=&quot;#Hypotheses-for-Q-B&quot; class=&quot;headerlink&quot; title=&quot;Hypotheses for Q_B:&quot;&gt;&lt;/a&gt;Hypotheses for Q_B:&lt;/h2&gt;&lt;p&gt;(4)    HYPOTHESIS 4. Relative to middle-status individuals, higher-status individuals will be more likely to enter the slave trade during the abolition movement.&lt;/p&gt;
+&lt;h2 id=&quot;Evidence-H1&quot;&gt;&lt;a href=&quot;#Evidence-H1&quot; class=&quot;headerlink&quot; title=&quot;Evidence H1:&quot;&gt;&lt;/a&gt;Evidence H1:&lt;/h2&gt;&lt;p&gt;We therefore apply a structural change model, where we interact all of the independent variables with our mea- sures of abolitionist culture. When calculating the interaction variables, we centered all of the noncultural variables. This transformation affects only the coefficient for culture in our model estimates, producing a coefficient that can be interpreted as the effect of culture when all other variables are at their mean level. &lt;/p&gt;
+&lt;p&gt;摘要：社会结构的经济效应是依赖于文化的，且必须在其文化背景下讨论。作者通过对利物浦奴隶贸易的分析论述了这一观点。在英国文化中的废奴运动似乎是更显著的。对于预测（某个体是否）参与奴隶贸易而言，奴隶主与非奴隶主的投资网络中的连接（connections）是十分重要的；随着废奴运动的兴起，公共网络中的非奴隶主比奴隶主获得更多的影响力，但在精英社会团体的私人网络中，情况正好相反（即奴隶主获得了比非奴隶主更多的影响力）。此外，潜在奴隶主的地位在废奴运动时代中也是十分重要的，随着反对奴隶制度的道德意识逐渐清晰，实际上相对于高地位的奴隶主，更多地限制了中产奴隶主。作者为网络与地位理论家提供了一种新的理解，如何在一个即便很稳定的文化背景中也可以发现文化的权变性，并由此，作者认为我们可以发展一个更综合与更稳健的经济社会学。&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h3 id=&quot;（一）提出问题：结构的文化权变性&quot;&gt;&lt;a href=&quot;#（一）提出问题：结构的文化权变性&quot; class=&quot;headerlink&quot; title=&quot;（一）提出问题：结构的文化权变性&quot;&gt;&lt;/a&gt;（一）提出问题：结构的文化权变性&lt;/h3&gt;&lt;p&gt;社会学家对于经济行为的理解不同于其他学科的学者，社会学家们往往更多地关注文化或结构位置，或者更具体地讲，网络与地位等级。在这篇文章中，作者认为文化与结构是相互依赖的。在定义方面，每一个社会学家都会同意，这些力量（forces）是相互依赖的，比如，文化促成了互动并进而成为了网络关系（relations），或者定义价值观（values），价值观决定了谁有地位。但作者在本文提出了一个更尖锐的问题，经济社会学家们习以为常的、用以解释（现实的）网络与地位影响（概念）工具，实际上具有文化权变性（culturally contingent）（或者说，要依赖于具体的文化背景）。它们能否像期待一样发挥作用，（实际上）依赖于文化的基本要素，特别是那些可以变化并产生一些改变的文化要素。作者将论述，理解结构的文化权变性对于理解变化中的经济活动是必要的。作者认为，即便在研究稳定的文化背景，经济社会学家门也需要意识到文化权变性的存在，以便最大限度地使用结构工具。&lt;/p&gt;
+&lt;h3 id=&quot;（二）以往忽略：结构（网络）对文化的影响&quot;&gt;&lt;a href=&quot;#（二）以往忽略：结构（网络）对文化的影响&quot; class=&quot;headerlink&quot; title=&quot;（二）以往忽略：结构（网络）对文化的影响&quot;&gt;&lt;/a&gt;（二）以往忽略：结构（网络）对文化的影响&lt;/h3&gt;&lt;p&gt;当然，我们首先要考虑的是文化与结构的互相依赖，这在学界谈及网络时，已有很多讨论。但是以往的关注都强调网络对文化的影响，比如使用网络方法去分析叙事与符号结构、识别场域与公众的结构性决定作用，及品味的社会影响。很少有研究讨论了Emirbayer与Goodwin的想法，文化对结构有着“分析上的自主性（analytically autonomous）”影响，或者他们的建议即“一个恰当的历史阐释，需要同时包含社会结构与文化观念对社会行动的影响”。（Emirbayer, Mustafa, and Jeff Goodwin. 1994. “Network Analysis, Culture, and the Problem of Agency.” American Journal of Sociology 99:1411–54.）正是基于这一讨论，我们在理解网络的影响时需要考虑文化；Thornton也论述了这一观点，他认为网络对于经济行为的影响十分依赖于文化背景。 &lt;/p&gt;
+&lt;h3 id=&quot;（三）第一贡献：结构的文化权变性&quot;&gt;&lt;a href=&quot;#（三）第一贡献：结构的文化权变性&quot; class=&quot;headerlink&quot; title=&quot;（三）第一贡献：结构的文化权变性&quot;&gt;&lt;/a&gt;（三）第一贡献：结构的文化权变性&lt;/h3&gt;&lt;p&gt;为什么我们絮絮叨叨了这么多呢，难道文化不是已经在网络理论中占有重要地位了么？Swidler强调了文化惰性（cultural inertia）的含义，“在（相对）稳定的文化时期，对于分析而言，文化与社会结构同时是过于结合（fused）与过于割裂（disconnected）的。”她认为，“（我们要）聚焦于那些历史性节点（junctures），在那些历史性节点中，新的文化复杂系统可能会产生行动的新的或重组的策略。”这就是我们本文要追寻的策略，关注“文化的革命”时刻，作者将论述，依据文化背景，非常相似的网络联系（ties），其功能可能是截然不同的。虽然尚不稳定的文化背景将是本文作者经验分析的关键，但作者们理论性的讨论可以应用到更稳定的背境中。意识到网络的文化权变性，可以帮助我们理解表面上矛盾的经验结论，比如，对于彼此竞争的造船工人而言，社会联系在19世纪末帮助他们减少失败风险，但20世纪初则并非如此；或者，努力拓宽结构洞的网络行动者（networkers）在美国企业中取得了成功，但中国则不然；或者，某一经济实践通过董事会网络扩散了，但另一个（经济实践）却没有。意识到这种权变性对于发现结构性影响的根本原因、能动（agency）的角色是必要的，且最终，这也会为行动者提供实用的指引。&lt;/p&gt;
+&lt;h3 id=&quot;（四）以往支持：结构依赖于文化&quot;&gt;&lt;a href=&quot;#（四）以往支持：结构依赖于文化&quot; class=&quot;headerlink&quot; title=&quot;（四）以往支持：结构依赖于文化&quot;&gt;&lt;/a&gt;（四）以往支持：结构依赖于文化&lt;/h3&gt;&lt;p&gt;实际上，地位等级（status hierarchies）中的位置（positions）与经济行为都依赖于文化，Homans在1974年对英国绅士在某些时刻与某些实践中的越轨的预测中含蓄地讨论了这一观点；同样的，在当前对中间地位的文献中，也关注着道德的类型学发展。Phillips, Turco, and Zuckerman在2013年介绍了伦理（ethical）的、背叛的及成员身份的规范（norms）的分类，这一分类有助于理解高地位行动者从事经济越轨。换句话说，存在一种文化调解因素（mediator），以一种阐释并映射价值系统的形式，存在于地位结构与行为之间。比如网络，在文化背景下，同样的地位位置会有截然不同的与经济行为。&lt;/p&gt;
+&lt;h3 id=&quot;（五）第二贡献：社会运动-文化变迁-个体决策&quot;&gt;&lt;a href=&quot;#（五）第二贡献：社会运动-文化变迁-个体决策&quot; class=&quot;headerlink&quot; title=&quot;（五）第二贡献：社会运动-文化变迁-个体决策&quot;&gt;&lt;/a&gt;（五）第二贡献：社会运动-文化变迁-个体决策&lt;/h3&gt;&lt;p&gt;作者对于网络的文化权变性与地位影响的关注，需要聚焦于文化改变的时刻，这也为作者提供了次要的理论发展机会。作者所研究的，是由于社会运动而产生的文化改变，因此，作者在论述结构的文化权变性时，实际上也论述了社会运动的冲突影响（impact）方面。特别地，在论述由于社会运动而使得文化改变，受文化的改变而影响的个体行为的改变，作者寻觅到社会运动通过文化变革对个体决策产生影响的微观路径。作者的研究实际上也遵循着Polletta在2008年的讲话，即社会运动理论家们更关注人们对于适当手段的信念，即她所讲的制度性图式（schema），或者其他学者讲的制度性逻辑。因为现有研究对社会运动对文化的影响还不够深入，因此本文的这一部分或许也是更有意义的。 &lt;/p&gt;
+&lt;h3 id=&quot;（六）研究对象&quot;&gt;&lt;a href=&quot;#（六）研究对象&quot; class=&quot;headerlink&quot; title=&quot;（六）研究对象&quot;&gt;&lt;/a&gt;（六）研究对象&lt;/h3&gt;&lt;p&gt;作者着重于对利物浦奴隶贸易参与背后的结构与文化力量做经验分析，特别是关注于这些力量在废奴运动中如何变化。或者换句话说，作者试图询问，为什么一个商人成为了奴隶贸易商人？十八世纪的英国人视“奴隶主”是一个二分（dichotomous）的类别，相比什么“小奴隶主到大奴隶主”或者“奴隶主到前奴隶主”而言，从“非奴隶主到奴隶主”在文化类别上是一个更大的跨越。因此，参与奴隶贸易这一事件吸引了作者的注意力，这其实代表着一种戏剧性的标准规范（normative）变迁，当然，这也是探索结构的文化权变性的好机会。 &lt;/p&gt;
+&lt;h3 id=&quot;（七）第三贡献：如何开始从事肮脏生意&quot;&gt;&lt;a href=&quot;#（七）第三贡献：如何开始从事肮脏生意&quot; class=&quot;headerlink&quot; title=&quot;（七）第三贡献：如何开始从事肮脏生意&quot;&gt;&lt;/a&gt;（七）第三贡献：如何开始从事肮脏生意&lt;/h3&gt;&lt;p&gt;第三个贡献相对于前两者更贴近现实，乔治（Georgian）时代的英国普遍认为奴隶贸易是“肮脏的生意”，即是说，经济活动虽然并未被官方禁止，但的确是有违社会价值的。肮脏的生意实际上同当代有着很强的共鸣，相关研究如对神圣的市场与羞耻的工业的分析，这些研究都分析参与者如何管理价值的挑战并降低他们的成本。&lt;br&gt;但是，在他们被企业家精神与战略决策所吸引前，他们首先是要进入竞争性的行业中，这一基础性的进入决策是极其重要的，甚至当考虑潜在的社会成本时，（这些从事肮脏生意的决策）是令人困惑的。&lt;br&gt;文化与经济也许可以解释有资本与有影响力的家伙们为何从事诸如贩奴、卖寿险、操刀堕胎或向不了解他们的人们推销复杂金融产品等生意。作者通过运用结构的视角，试图解释这一重要的经济现象的进入阶段，理解人们在什么文化时刻，更倾向于肮脏生意，并潜在地避免从事肮脏生意的社会惩罚。 &lt;/p&gt;
+&lt;h2 id=&quot;一、利物浦与跨大西洋奴隶贸易&quot;&gt;&lt;a href=&quot;#一、利物浦与跨大西洋奴隶贸易&quot; class=&quot;headerlink&quot; title=&quot;一、利物浦与跨大西洋奴隶贸易&quot;&gt;&lt;/a&gt;一、利物浦与跨大西洋奴隶贸易&lt;/h2&gt;&lt;p&gt;英国奴隶贸易最初是伦敦开始的，皇家非洲公司一直到1712年始终垄断奴隶贸易，尔后几十年间，因为布里斯托和伦敦竞争全球工业的领头羊地位，利物浦的奴隶贸易在1744年首次超过伦敦，直到废奴运动时始终是第一奴隶贸易城市，因此利物浦也被称为“世界奴隶之都”或“奴隶都会”。&lt;br&gt;利物浦的成功有三点原因：（1）第一，大量的便于贸易与造船的船坞，Power将这一点归结为，18世纪奴隶贸易者们在议会中的无声商业革命，奴隶主的利益支配了利物浦议会；（2）第二，利物浦得天独厚的地理位置，利物浦可以北起爱尔兰，从而绕过18世纪经常性的海战，而南部的布里斯托与伦敦则需要面对海盗与海战的影响；同时，利物浦离马恩岛（Isle of Man）更近，马恩岛直到1765年始终是避税天堂，这使得利物浦商人可以逃税；再则，利物浦离盛产纺织品与手工业的兰开夏郡和曼彻斯特很近，而纺织品是奴隶贸易中最通用的货物；（3）第三，利物浦的人力资本，商业对地方文化有很强的影响，唯物主义与重商主义者往往鄙夷启蒙的审美与人文主义，这一商业传统同海外贸易的机遇与风险相结合时，产生了大量的革新者，因此利物浦实际上比布里斯托和伦敦更早地产生了便利商人的高效组织治理机制与贸易汇款机制，利物浦的海外商人同非洲商人建立了甚至是紧密的基于信任的贸易，利物浦的政府官员也能够在从未有过欧洲殖民者居住过的比亚法拉湾（Biafra）进行有效地治理，McDade将之总结为利物浦人（相较于布里斯托人）有着更广也更紧密的网络，这一网络无疑对于信息交换与资源获取都更有优势。 &lt;/p&gt;
+&lt;h2 id=&quot;二、英国奴隶贸易的文化背景&quot;&gt;&lt;a href=&quot;#二、英国奴隶贸易的文化背景&quot; class=&quot;headerlink&quot; title=&quot;二、英国奴隶贸易的文化背景&quot;&gt;&lt;/a&gt;二、英国奴隶贸易的文化背景&lt;/h2&gt;&lt;p&gt;1、废奴运动的历史传统&lt;br&gt;Brown认为一直存在着“没有废奴运动的反奴情绪”，在Drescher的1986年的解释中，这是由于基督教的博爱与启蒙以来的人文主义传统，使得实际上在废奴运动前的英国社会一直有着反对奴隶制的声音；在迪马乔（DiMaggio）1997年的论文中，认为实际上英国文化中对自由的推崇与英国奴隶制的殖民地经济有着模糊的紧张关系，而之所以这种道德能够与奴隶制共存，是因为奴隶制殖民地同大不列颠相距甚远，距离使诘责变得轻微。&lt;br&gt;2、废奴运动的争论核心&lt;br&gt;这一“破碎年代”在废奴运动开始的1787年及随后的两拨运动中被彻底改变了，20年后废奴在法律上被予以通过。起始于文化反思的废奴运动深刻地影响了英国，诚如Wiberforce讲道的“对国家的群众性道德感知”。伦敦社会委员会（London Committee of the Society ）为地方组织提供了信息、支持与组织资源，反奴隶制运动迅速席卷全国。几年内上百封来自全英国各地的请愿书被送至国会，但这其中却不包含利物浦，而同利物浦奴隶贸易关系密切的曼彻斯特确有超过万人签名的请愿书。&lt;br&gt;在这场是否废奴的争论中，核心在于大英帝国的标准到底是什么，是务实性还是道义性。支持废奴者强调英国的罪恶、荣誉、宗教与正义；反对废奴者则强调贸易、国际需求、资本与权力，奴隶制是“必要的罪恶”，在全球竞争中道义是次要的。双方争执不下，问题一次一次的回到，贸易的规范是什么？&lt;br&gt;随着情愿的扩大，支持废奴者在民众中赢得了更多的认同，这一运动的影响被Drescher视为“文化的革命”，“根本性地改变了民众对于奴隶贸易与奴隶制本身的想法”；但民众也在摇摆，特别是在社会与政治精英那里，这为反对废奴者强调的务实性提供了论述空间，并一度削弱了道德谴责。&lt;br&gt;3、废奴运动的具体进程&lt;br&gt;第一波争论在1792年时衰落，当时的地缘政治事件（法国大革命）使得反对废奴者有机会将支持废奴者与激进主义、国家威胁相联系起来。&lt;br&gt;第二波争论在1804年时依赖当时的政治机会而重新开始争论，支持废奴者将废奴与务实的目的，如贸易、秩序与地缘权力相结合，当然这次争论仍然伴随着广泛的、公众的道德谴责，奴隶制在1807年被正式废止（1807年英国本土禁止，1833年英国殖民地禁止）。 &lt;/p&gt;
+&lt;h3 id=&quot;（一）社会影响与奴隶贸易的参与&quot;&gt;&lt;a href=&quot;#（一）社会影响与奴隶贸易的参与&quot; class=&quot;headerlink&quot; title=&quot;（一）社会影响与奴隶贸易的参与&quot;&gt;&lt;/a&gt;（一）社会影响与奴隶贸易的参与&lt;/h3&gt;&lt;h4 id=&quot;1、假设一&quot;&gt;&lt;a href=&quot;#1、假设一&quot; class=&quot;headerlink&quot; title=&quot;1、假设一&quot;&gt;&lt;/a&gt;1、假设一&lt;/h4&gt;&lt;p&gt;（1）既有，网络联系影响个体行为：静态的&lt;br&gt;大量论文讨论过，很大程度上相互关联的行动者们共享一套近似的态度与行为，如果某人所在社会团体有着并不为社会认可的道德规范，便为其做出类似的行为找到了地方性社会支持。利物浦的商人们或许也是如此，如果他们的关系网络中有着其他奴隶主，那么可能他本人会有动力或甚至是被迫从事奴隶贸易。&lt;br&gt;Social influence could act with regard to entry to the slave trade as it does in so many other contexts, such that individuals are more likely to adopt practices if their network partners engage in them and less likely if their partners do not.&lt;br&gt;（2）本文，基于文化背景的网络联系影响个体行为：动态的&lt;br&gt;作者试图超越这种思考，将网络效应的变化视为文化背景变革的函数（function），具体而言，作者思考的是，在废奴运动期间，奴隶贸易作为文化议程的首要问题，同破碎年代奴隶贸易作为缄默的、很少被讨论的问题而言，社会影响对奴隶贸易产生了什么新的变化？作者的核心理论观点即，网络联系会随着联系嵌入的文化背景而变化。&lt;br&gt;A 为什么：理论背景&lt;br&gt;Mische与White认为，论争（discourse）是社会网络的附属（stuff），他们将网络在文化领域（domain）的嵌入称为网状物（netdoms），网状物中文化背景的改变，自然会导致网络结构的可能结果发生改变。背景会影响领域，特别是他们称为“公共（publics）”的社会空间；但是，他们将领域的转移视为暂时性背景，特别是当（背景）未定时，就会引发高风险的处境（situation）。在他们的语言中，我们可以将某一处境的可能结果视为文化变动（dynamism）的产物。&lt;br&gt;B 为什么：具体机制&lt;br&gt;在废奴运动期间，存在两种机制促使网络联系在个体是否从事奴隶贸易中扮演重要作用。（1）首先，第一个机制是支持废奴者们所讲的文化要点（即社会的压力）与奴隶贸易中增多的风险（stakes），使得从事贩奴将问题与其自身网络相关联。Gamson在1995年认为，媒体中的议题热点会提高直接从事这一议题的行动者对这一议题的重要性看法，利物浦的商人都从事奴隶贸易，操作化方面，作者即使用媒体内容作为文化的变化。（2）其次，第二个机制是废奴运动中（个体的）论争（discource）能力（capacity）实际增加了，支持与反对的双方都要为其合法性据理力争，持续性的运动实际上增强了他们对（其自身网络中）位置的感知，进而影响了行动者的影响力。&lt;br&gt;C 什么是本文的网络：论文限定&lt;br&gt;但我们所做的论述需要一个范围条件，我们可以想象，当一个问题出现且使网络中的成员发现彼此处于对立方时，这个问题可能引起足够大的争议，从而造成某些类型的关系的破坏。在这个情况下，在问题出现之前便存在的网络，可能会失去而非增加其社会影响力。比如，奴隶制问题成为了足够有争议的议题，我们可以想象某些关系在这争论中解体了。&lt;br&gt;因此作者所用于检验论文假设的网络联系即是小团体共同投资的联系，实际上代表着大量的稳固联系与信任。尽管作者预计废奴运动使得团体内成员彼此关系紧张，但这些联系足够强大以忍受（或至少一段时间）对于是否贩奴的分歧。更一般地讲，关键在于切断这些联系的代价很高，要么是因为它们很牢固，要么是由于某种其他的原因。&lt;br&gt;假设1：社会影响（Social influence）通过网络联系（ties）来促使个体是否参与奴隶贸易；在废奴运动期间，奴隶贸易实际上更坚固了（stronger）&lt;br&gt;对于个体是否参与贩奴，有两种路径：（1）非奴隶主影响非奴隶主；（2）奴隶主影响非奴隶主。虽然两种都有影响，但作者假设后者影响更大。 &lt;/p&gt;
+&lt;h4 id=&quot;2、假设二与假设三&quot;&gt;&lt;a href=&quot;#2、假设二与假设三&quot; class=&quot;headerlink&quot; title=&quot;2、假设二与假设三&quot;&gt;&lt;/a&gt;2、假设二与假设三&lt;/h4&gt;&lt;p&gt;（1）理论背景：文化洞，难以跨越&lt;br&gt;作者认为，废奴运动破坏了非奴隶主和奴隶主之间道德上的平等关系，从而使非奴隶主与奴隶主之间关系紧张。废奴运动将奴隶主与非奴隶主之间的关系从结构洞，即双方可以从结构洞获得不同但可能和解的知识基础，转变为跨越了不同价值观的“文化洞”（cultural holes）。文化洞是更难穿越的，考虑到非奴隶主与非贩奴目标的联系，其影响力并不会被文化洞危及，而奴隶主相对于非奴隶主则会失去其影响力。&lt;br&gt;（2）理论背景：羞耻化，为何疏远&lt;br&gt;在非奴隶主与奴隶主文化洞的背后，是羞耻化与社会距离化的进程……支持废奴者将羞耻（stigma）概念与奴隶贸易相连接，使得奴隶贸易是“卑鄙与不道德的”。&lt;br&gt;这种再分类实际上是社会影响的一部分，对网络内的互动产生了影响。一个贩奴者如何同一个非贩奴者讨论已经被打上残暴、不列颠社会毒瘤的贩奴，其实是有好处的？即便我们在假设一中提及贩奴者有自我激励、自我武装的行动，但事实上在同非贩奴者的对话中仍然是处于劣势地位的。文化场域与奴隶贸易的捍卫者们背道而驰，前面已经论述很多了，较少合法性的商业活动也同样地可能性较小的通过网络扩散（Davis and Greve 1997）。&lt;br&gt;（3）影响：对于大众而言&lt;br&gt;废奴运动绝非仅仅影响了大众对贩奴的看法，也影响了奴隶主其自身。羞耻是有传染性的，人们会自觉地同被羞耻者保持距离，甚至不仅仅是空间的，也是社会的（Albrecht, Walker, and Levy 1982; Pontikes, Negro, and Rao 2010 ）。这就涉及到另一个机制，废奴运动期间，影响是通过“从奴隶主到非奴隶主的联系”而变化的：对于被打上了羞耻标签的贩奴者，非贩奴者会寻求与其保持社会距离，以削弱联系对其自身的影响。有趣的是，这一机制其实可以扩展到所有类型的社会影响，不仅仅是奴隶制度，比如，随着废奴运动的发展，奴隶主对非贩奴网络中成员的影响逐渐减弱，但奴隶主的羞耻可以同样的方式运作，即贩奴的非法活动的增长，这既促使我们提出假设二：&lt;br&gt;假设2：在废奴运动期间，在非贩奴网络中，奴隶主的影响力相对于非奴隶主的影响力下降了。&lt;br&gt;（4）影响：对于精英而言&lt;br&gt;假设二的背后机制会更可能的在不同的特定网络类型中发生。那些更公开的，个体更暴露在大众文化下的，有着特定的合法性与非法性认知，这些互动是更容易被观察到的，因此也是更可能受羞耻的传染性影响的；而私人的网络则对非道德规范的实践有着更多的包容，Yue等人2013年发现，通过私人的精英团体联系的纽约银行家比通过公共的董事会联系的，更可能出现冷漠。因此作者认为，在利物浦，嵌入私人商业团体的网络可以作为社会影响的基础，即便这一影响在公众网络中是被抑制的。私人团体的背景，不仅是私人的，也是精英的，鉴于精英更可能是商业领导人，这些私人团体也尤为关联肮脏生意。&lt;br&gt;“the British elite’s reaction to abolitionism . . . [was] that the higher the social level the deeper was the opposition”&lt;br&gt;At the onset of the abolition movement in 1787, slavers outnumbered nonslavers by more than three to one among overseas traders in the Sephton Club. At the same time, nonslavers outnumbered slavers by about two to one in Liverpool’s trading community as a whole.（上层是要和平民不同才能凸显上层的高贵，也就说，在上层圈子里，贩奴有时反而是政治正确）&lt;br&gt;假设3：细微不同于假设2，在废奴运动期间，非贩奴联系的影响力比贩奴联系更强，但在私人团体联系中则减弱。&lt;/p&gt;
+&lt;h3 id=&quot;（二）地位与奴隶贸易的参与（略）&quot;&gt;&lt;a href=&quot;#（二）地位与奴隶贸易的参与（略）&quot; class=&quot;headerlink&quot; title=&quot;（二）地位与奴隶贸易的参与（略）&quot;&gt;&lt;/a&gt;（二）地位与奴隶贸易的参与（略）&lt;/h3&gt;&lt;p&gt;假设4：在废奴运动期间，相对于中产个体，高地位个体更可能参与奴隶贸易。&lt;/p&gt;
+&lt;h2 id=&quot;三、数据、分析与结论&quot;&gt;&lt;a href=&quot;#三、数据、分析与结论&quot; class=&quot;headerlink&quot; title=&quot;三、数据、分析与结论&quot;&gt;&lt;/a&gt;三、数据、分析与结论&lt;/h2&gt;&lt;p&gt;数据：(1) the Trans-Atlantic Slave Trade Database (to identify slave voyages and their owners); (2) the Liver- pool Plantation Register (to identify nonslave voyages and their owners); (3) Gore’s directories of Liverpool and Liverpool voting records (to identify the occupation and status of owners); (4) archival records of the Mock Cor- poration of Sephton (to identify members and their dates of joining); and (5) the Gale Collection of British Newspapers, 1600–1950 (to document antislaving rhetoric in public discourse).&lt;/p&gt;
+&lt;h3 id=&quot;（一）如何测量“反对奴隶贸易的文化压力”：报纸标题及内容（关键词检索加人工手筛）&quot;&gt;&lt;a href=&quot;#（一）如何测量“反对奴隶贸易的文化压力”：报纸标题及内容（关键词检索加人工手筛）&quot; class=&quot;headerlink&quot; title=&quot;（一）如何测量“反对奴隶贸易的文化压力”：报纸标题及内容（关键词检索加人工手筛）&quot;&gt;&lt;/a&gt;（一）如何测量“反对奴隶贸易的文化压力”：报纸标题及内容（关键词检索加人工手筛）&lt;/h3&gt;&lt;h3 id=&quot;（二）如何测量“网络”：船主的姓名&quot;&gt;&lt;a href=&quot;#（二）如何测量“网络”：船主的姓名&quot; class=&quot;headerlink&quot; title=&quot;（二）如何测量“网络”：船主的姓名&quot;&gt;&lt;/a&gt;（二）如何测量“网络”：船主的姓名&lt;/h3&gt;&lt;p&gt;Shipping voyages in the period we study were typically owned by a partnership of investors……Coinvesting groups for nonslaving voyages in our data had on aver- age 3.17 partners……Coinvesting groups for slaving voyages were a little larger, probably because slaving voyages were more expensive to launch: 4.08 partners mean.&lt;br&gt;Xt represents a time-varying matrix of shipping investors by voyages. Multiplying this matrix by its transpose produces Tt, an investor- by-investor matrix in which the cells represent the number of times two investors have coinvested in a voyage.（Xt即随时间变化的船的主人；Tt即任意两个商人之间的合作次数）&lt;br&gt;1、为了检验假设一与假设二，作者设置了两个变量：（1）某个体与所有的奴隶主的合作次数；（2）某个体与所有的非奴隶主的合作次数。这两个变量反应了现实，即同奴隶主的或非奴隶主的第一联系，比第五联系有着更多的潜在社会影响；同理，第五也比第十更有影响。&lt;br&gt;2、为了检验假设三，即社会影响对私人团体奴隶贸易的影响，作者将Sephton Club每年的成员汇总，标记出其中活跃的奴隶主与非奴隶主，因为这两个变量高度相关，所以作者做了一个正交。(for members of the Sephton Club in each year, a count of the number of other members who were active slavers and a count of active members who were nonslavers.)&lt;/p&gt;
+&lt;h3 id=&quot;（三）如何测量“地位”：花名册前缀，绅士、商人与其他人（做成了虚拟变量）&quot;&gt;&lt;a href=&quot;#（三）如何测量“地位”：花名册前缀，绅士、商人与其他人（做成了虚拟变量）&quot; class=&quot;headerlink&quot; title=&quot;（三）如何测量“地位”：花名册前缀，绅士、商人与其他人（做成了虚拟变量）&quot;&gt;&lt;/a&gt;（三）如何测量“地位”：花名册前缀，绅士、商人与其他人（做成了虚拟变量）&lt;/h3&gt;&lt;p&gt;only 3.5% were gentlemen or esquires……Given their rarity, we collapse esquires and gentlemen into one category for analysis, which we will refer to as simply “gentlemen,”……Among the remaining 96.5% of traders, we differentiate between mer- chants (51.5%) and others (45%).&lt;/p&gt;
+&lt;h3 id=&quot;（四）控制变量（略）&quot;&gt;&lt;a href=&quot;#（四）控制变量（略）&quot; class=&quot;headerlink&quot; title=&quot;（四）控制变量（略）&quot;&gt;&lt;/a&gt;（四）控制变量（略）&lt;/h3&gt;&lt;h3 id=&quot;（五）分析：事件史分析模型（event-history-hazard-model）的分段指数模型（piecewise-exponential-model）&quot;&gt;&lt;a href=&quot;#（五）分析：事件史分析模型（event-history-hazard-model）的分段指数模型（piecewise-exponential-model）&quot; class=&quot;headerlink&quot; title=&quot;（五）分析：事件史分析模型（event-history (hazard) model）的分段指数模型（piecewise exponential model）&quot;&gt;&lt;/a&gt;（五）分析：事件史分析模型（event-history (hazard) model）的分段指数模型（piecewise exponential model）&lt;/h3&gt;&lt;p&gt;选用原因：The phenomenon we study could be called the transition to slaving, and we model it with a piecewise exponential model, an event-history (hazard) model that allows the risk of becoming a slaver to vary over preselected ranges of the trader’s career history.&lt;br&gt;模型设定：The model estimates different constants for the hazard of becoming a slaver depending on whether a trader is in the first year of his career, in years 1–3, 3–5, 5–10, 10–20, or more than 20 years. Our analysis includes 5,918 traders, 1,760 of whom eventually become slavers. The regressions include 25,694 spells, corresponding to 25,694 separate voyage investments made by the traders we observe.&lt;/p&gt;
+&lt;h3 id=&quot;（六）结论&quot;&gt;&lt;a href=&quot;#（六）结论&quot; class=&quot;headerlink&quot; title=&quot;（六）结论&quot;&gt;&lt;/a&gt;（六）结论&lt;/h3&gt;&lt;h3 id=&quot;（七）备择解释（Alternative-Explanations）的稳健性检验&quot;&gt;&lt;a href=&quot;#（七）备择解释（Alternative-Explanations）的稳健性检验&quot; class=&quot;headerlink&quot; title=&quot;（七）备择解释（Alternative Explanations）的稳健性检验&quot;&gt;&lt;/a&gt;（七）备择解释（Alternative Explanations）的稳健性检验&lt;/h3&gt;&lt;h2 id=&quot;四、讨论（略）&quot;&gt;&lt;a href=&quot;#四、讨论（略）&quot; class=&quot;headerlink&quot; title=&quot;四、讨论（略）&quot;&gt;&lt;/a&gt;四、讨论（略）&lt;/h2&gt;&lt;h2 id=&quot;五、结论（略）&quot;&gt;&lt;a href=&quot;#五、结论（略）&quot; class=&quot;headerlink&quot; title=&quot;五、结论（略）&quot;&gt;&lt;/a&gt;五、结论（略）&lt;/h2&gt;&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&quot;翻译术语表&quot;&gt;&lt;a href=&quot;#翻译术语表&quot; class=&quot;headerlink&quot; title=&quot;翻译术语表&quot;&gt;&lt;/a&gt;翻译术语表&lt;/h2&gt;&lt;p&gt;agency 能动；actor 行动者；networker 网络行动者；activity 活动；behavior 行为；&lt;br&gt;structure 结构；status 地位；position 位置；situations 处境&lt;br&gt;connection 连接；ties 联系；relationship 关系&lt;br&gt;ethical 伦理的 含义更强；moral 道德的 含义稍弱；norm （道德）规范&lt;br&gt;impact 冲突影响；influence 影响&lt;br&gt;schema 图式&lt;/p&gt;
+&lt;h2 id=&quot;拓展&quot;&gt;&lt;a href=&quot;#拓展&quot; class=&quot;headerlink&quot; title=&quot;拓展&quot;&gt;&lt;/a&gt;拓展&lt;/h2&gt;&lt;p&gt;周雪光, 侯立仁. 文革的孩子们——当代中国的国家与生命历程[J]. 中国社会学, 2003, 2.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ingram P, Silverman B S. The Cultural Contingency of Structure: Evidence from Entry to the Slave Trade In and Around the Abolition Movement[J]. American Journal of Sociology, 2016, 122(3): 755-797.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Background-and-Research-Questions&quot;&gt;&lt;a href=&quot;#Background-and-Research-Questions&quot; class=&quot;headerlink&quot; title=&quot;Background and Research Questions:&quot;&gt;&lt;/a&gt;Background and Research Questions:&lt;/h2&gt;&lt;p&gt;(1)    Theory: There has been prior attention to the interdependence of culture and structure, most prominently with regard to networks. However, the energy has mostly gone into examining the influences of networks on culture.&lt;br&gt;(2)    Case: Our empirical analysis examines the structural and cultural forces behind entry into the Liverpool slave trade, with particular attention to how those forces changed around the abolition movement. In other words, we ask, what makes a trader become a slave trader?&lt;br&gt;(3)    Questions: Whether or not the economic effects of social structure depend on Culture?&lt;br&gt;A. Social Influence and Entry to the Slave Trade&lt;br&gt;B. Status and Entry to the Slave Trade&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Sociological Theory" scheme="http://sociologist.cn/categories/Sociological-Theory/"/>
+    
+    
+      <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
+    
+      <category term="Culture" scheme="http://sociologist.cn/tags/Culture/"/>
+    
+      <category term="Structure" scheme="http://sociologist.cn/tags/Structure/"/>
+    
+      <category term="Actor" scheme="http://sociologist.cn/tags/Actor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Summary_After Bourdieu</title>
+    <link href="http://sociologist.cn/2018/11/23/after-bourdieu.html"/>
+    <id>http://sociologist.cn/2018/11/23/after-bourdieu.html</id>
+    <published>2018-11-22T16:00:00.000Z</published>
+    <updated>2018-12-03T14:00:47.959Z</updated>
+    
+    <content type="html">&lt;p&gt;我以前时常感觉理论好像和现实是蛮割裂的，如果我们做研究，理论是理论的，经验研究是经验研究的。但近来我觉得不是这样的。社会学理论和哲学理论不同的就有两点，（1）一方面，社会学理论是为了经验研究的，如果这些理论不能用于经验研究，我觉得这个理论就玄学，就不是社会学的。（2）同时，社会学理论一定是可以在经验中得到发展，也就是能够做理论对话的。&lt;br&gt;当我们谈社会理论时，我们并不是在谈玄学，所以我上周末和龙哥一起看Weber，我们其实有很大的分歧，我回去在想这个问题，我觉得这可能也是我和龙哥学科背景不一样，我本科是社会学的，龙哥本科是哲学的，所以我们在看理论的时候会有不同的想法，这很正常。我回想了一下，觉得这个分歧可能也在于一篇论文已经指出来的，这篇论文来源于孙宇凡的推介，他有一段话我觉得很有裨益。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;一、社会学家的世代&quot;&gt;&lt;a href=&quot;#一、社会学家的世代&quot; class=&quot;headerlink&quot; title=&quot;一、社会学家的世代&quot;&gt;&lt;/a&gt;一、社会学家的世代&lt;/h2&gt;&lt;h3 id=&quot;（一）什么是理论：Theory-A-amp-Theory-B&quot;&gt;&lt;a href=&quot;#（一）什么是理论：Theory-A-amp-Theory-B&quot; class=&quot;headerlink&quot; title=&quot;（一）什么是理论：Theory A &amp;amp; Theory B&quot;&gt;&lt;/a&gt;（一）什么是理论：Theory A &amp;amp; Theory B&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Abend G. The meaning of ‘theory’[J]. Sociological Theory, 2008, 26(2): 173-199.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://blog-demos.oss-cn-hongkong.aliyuncs.com/18-11-26/61455390.jpg&quot; alt=&quot;孙宇凡理论划分&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Theory A：观察和检验我所观察的世界，得到数据检验的理论。不管这种数据检验是通过民族志式的意义诠释，还是量化学者的变量分析，都往往不倾向有价值判断。我借用Isaac Reed的形容，研究者在此过程中类似于戏剧观评者，把自己观察到的世界评论和转述出来。在评论和转述过程中，观评者可以从主角的个别意义表现，认为这个戏剧虽然好看，但世界更大，我只评论这个戏剧，也可以从角色分布的抽象模式入手，认为这个戏剧就是世界的缩小版。格尔茨分析斗鸡，量化学者常说的教育和地位获得关系，都归为这种理论类型。&lt;br&gt;Theory B：观察和检验社会所在的世界，得到超验的范畴框架。我们往往说的某些欧洲理论流派，比如风险社会、后结构主义、批判理论，指的就是此类语义。他们作为安乐椅上的观察者，往往可能有数据检验，但这种检验不是必需的、而是可有可无的。而且，这种理论往往带有价值判断，或批判或重构。&lt;br&gt;Theory C：观察和检验经典文本世界，将理论视为理论史。不同于看我所见世界、看社会世界，文本世界的理论研究就是释经者的工作。这也是我们常常将理论学者视为韦伯专家、涂尔干专家的原因。此类学者，也可能用数据检验，比如讨论齐美尔理论的当代适用性，但这种检验也同样是可有可无的。由于只限于释经，所以他们也不会讨论对世界进行价值判断。”  &lt;/p&gt;
@@ -63,11 +117,11 @@
     
     <summary type="html">
     
-      &lt;p&gt;在我本科的学习中，我时常感觉理论好像和现实是蛮割裂的，如果我们做研究，理论是理论的，经验研究是经验研究的。但近来我觉得不是这样的。社会学理论和哲学理论不同的就有两点，（1）一方面，社会学理论是为了经验研究的，如果这些理论不能用于经验研究，我觉得这个理论就玄学，就不是社会学的。（2）同时，社会学理论一定是可以在经验中得到发展，也就是能够做理论对话的。&lt;br&gt;当我们谈社会理论时，我们并不是在谈玄学，所以我上周末和龙哥一起看Weber，我们其实有很大的分歧，我回去在想这个问题，我觉得这可能也是我和龙哥学科背景不一样，我本科是社会学的，龙哥本科是哲学的，所以我们在看理论的时候会有不同的想法，这很正常。我回想了一下，觉得这个分歧可能也在于一篇论文已经指出来的，这篇论文来源于孙宇凡的推介，他有一段话我觉得很有裨益。&lt;br&gt;
+      &lt;p&gt;我以前时常感觉理论好像和现实是蛮割裂的，如果我们做研究，理论是理论的，经验研究是经验研究的。但近来我觉得不是这样的。社会学理论和哲学理论不同的就有两点，（1）一方面，社会学理论是为了经验研究的，如果这些理论不能用于经验研究，我觉得这个理论就玄学，就不是社会学的。（2）同时，社会学理论一定是可以在经验中得到发展，也就是能够做理论对话的。&lt;br&gt;当我们谈社会理论时，我们并不是在谈玄学，所以我上周末和龙哥一起看Weber，我们其实有很大的分歧，我回去在想这个问题，我觉得这可能也是我和龙哥学科背景不一样，我本科是社会学的，龙哥本科是哲学的，所以我们在看理论的时候会有不同的想法，这很正常。我回想了一下，觉得这个分歧可能也在于一篇论文已经指出来的，这篇论文来源于孙宇凡的推介，他有一段话我觉得很有裨益。&lt;br&gt;
     
     </summary>
     
-      <category term="Review_Sociology Papers" scheme="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
+      <category term="Sociological Theory" scheme="http://sociologist.cn/categories/Sociological-Theory/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
@@ -77,11 +131,11 @@
   </entry>
   
   <entry>
-    <title>译 Bourdieu and an update of health lifestyle theory</title>
+    <title>Translation_Bourdieu and an update of health lifestyle theory</title>
     <link href="http://sociologist.cn/2018/11/22/translation-Bourdieu-and-an-update-of-health-lifestyle-theory.html"/>
     <id>http://sociologist.cn/2018/11/22/translation-Bourdieu-and-an-update-of-health-lifestyle-theory.html</id>
     <published>2018-11-21T16:00:00.000Z</published>
-    <updated>2018-11-26T07:54:35.272Z</updated>
+    <updated>2018-12-03T13:58:45.801Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Cockerham W C. Bourdieu and an update of health lifestyle theory[M]//Medical sociology on the move. Springer, Dordrecht, 2013: 127-154.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;  本章的目的是为了变革健康生活方式理论，并在这一论述中强调布迪厄在这一议题上对社会学研究的贡献。布迪厄从未出版过健康或医疗社会学的书，但他的很多想法，特别是惯习（habitus）与各种形式的资本（如社会、文化）在健康及相关研究上提供了很好的理论模型。布迪厄理论的优点在于，其承认结构在形塑并决定人类社会行为及生活方式方面的重要角色。在健康社会学及更普遍的社会学中，结构功能主义衰落、行动者取向理论盛行了几十年后，这一方法转回了有结构意识的方法。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;一、健康生活方式：能动与结构的讨论&quot;&gt;&lt;a href=&quot;#一、健康生活方式：能动与结构的讨论&quot; class=&quot;headerlink&quot; title=&quot;一、健康生活方式：能动与结构的讨论&quot;&gt;&lt;/a&gt;一、健康生活方式：能动与结构的讨论&lt;/h2&gt;&lt;p&gt;  在健康生活方式理论的发展中，能动-结构（agency-structure）的讨论是十分重要的，这一方面是因为自社会学的学科成立以来，理解能动与结构在多大程度上影响社会行为，始终是社会学的核心问题；同时，理解能动与结构的关系之所以始终是核心的，也是因为这是我们理解社会与社会互动究竟谁被建构的前提。然而，健康社会学家门对能动-结构的讨论关注甚少。&lt;/p&gt;
@@ -120,11 +174,11 @@
   </entry>
   
   <entry>
-    <title>日记 二〇一八年摘记</title>
+    <title>Diary_2018</title>
     <link href="http://sociologist.cn/2018/11/19/diary-2018-years'-notes.html"/>
     <id>http://sociologist.cn/2018/11/19/diary-2018-years'-notes.html</id>
     <published>2018-11-18T16:00:00.000Z</published>
-    <updated>2018-11-26T08:05:50.438Z</updated>
+    <updated>2018-12-03T14:20:58.291Z</updated>
     
     <content type="html">&lt;h3 id=&quot;2018-1-5-话语权&quot;&gt;&lt;a href=&quot;#2018-1-5-话语权&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 话语权&quot;&gt;&lt;/a&gt;2018.1.5 话语权&lt;/h3&gt;&lt;p&gt;社会学的研究有时让人乏味。米尔斯说的已经半个世纪了，研究却越来越精致琐碎，我有时在想，社会学的论文是否已经对宏大现实失去了话语权。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;2018-1-6-有点失去信心&quot;&gt;&lt;a href=&quot;#2018-1-6-有点失去信心&quot; class=&quot;headerlink&quot; title=&quot;2018.1.6 有点失去信心&quot;&gt;&lt;/a&gt;2018.1.6 有点失去信心&lt;/h3&gt;&lt;p&gt;毕业论文的开题糊里糊涂，文献做的不够扎实。最近对写论文有些疲乏，觉得大部分时间是在论文里建构冲突和矛盾，做精致没有意义的工作。或许我仍然更喜爱编程。&lt;br&gt;最近也想看史记，这是属于不务正业的行为，学业上敦促我应该去看张静《法团主义》，但我对组织与政治运动的兴趣并不强烈，还是爱看书的，只是强迫不来，耐着性子写这篇本土化的论文的时候，觉得大概自己学哪科做什么都是可以尽力的。对学术渐渐失去信心，想做自己喜欢的事情，又发觉这几年我着实没什么喜欢的事情了。&lt;/p&gt;
@@ -233,11 +287,11 @@
   </entry>
   
   <entry>
-    <title>《科学在行动》的讨论——何为网络？</title>
-    <link href="http://sociologist.cn/2018/11/11/what-is-networks-the-debate-of-ANT-and-SNA.html"/>
-    <id>http://sociologist.cn/2018/11/11/what-is-networks-the-debate-of-ANT-and-SNA.html</id>
+    <title>What is Network? A Discussion Between ANT and SNA</title>
+    <link href="http://sociologist.cn/2018/11/11/what-is-networks-a-debate-of-ANT-and-SNA.html"/>
+    <id>http://sociologist.cn/2018/11/11/what-is-networks-a-debate-of-ANT-and-SNA.html</id>
     <published>2018-11-10T19:00:00.000Z</published>
-    <updated>2018-11-11T07:41:04.873Z</updated>
+    <updated>2018-12-03T14:20:17.701Z</updated>
     
     <content type="html">&lt;p&gt;  当我们在读拉图尔（Latour）的《科学在行动》的时候，拉图尔所使用的网络概念同社会网络分析（Social Networks Analysis）学者们所使用的网络概念是相同的么？&lt;br&gt;  本文在查阅了国内论文后，发现二者的对话仅有一篇今年刊印的一页文章（李晓冉，2018），国内对拉图尔的大量讨论仍聚焦于ANT（Actor-Networks Theory）的本体论与认识论等科学哲学方面（郭荣茂，2014；刘文旋，2017；郭俊立，2018），学界对本体论与认识论的辩证是十分具有意义的，但过多的形而上讨论，是否也忽视了拉图尔在经验层面的贡献。&lt;br&gt;  因此，本文认为拉图尔的网络概念是值得进一步讨论的，并试图厘清一些概念上的似是而非，即网络概念在行动者网络与社会网络分析中的使用是一致的么？如果不是，这其中到底有哪些差异？本文将主要借助匈牙利布达佩斯-考文纽斯大学的维泽克教授（Vicsek etc. ，2016）与英国伦敦大学国王学院文图里尼教授（Venturini etc. ，2018）的论文展开，全文分为三个部分，即ANT与SNA的概述、ANT与SNA的整合，及ANT与SNA的未来展望。本文认为，ANT与SNA的对话有助于彼此理论的进一步发展。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;一、ANT与SNA的理论概述&quot;&gt;&lt;a href=&quot;#一、ANT与SNA的理论概述&quot; class=&quot;headerlink&quot; title=&quot;一、ANT与SNA的理论概述&quot;&gt;&lt;/a&gt;一、ANT与SNA的理论概述&lt;/h2&gt;&lt;p&gt;  尽管网络科学已经在社会科学中发展多年，网络这一概念对理论与经验研究的学者们仍然是具有启发性的，许多不同的网络研究方法不断发展。但相对来讲，很多理论与分析的发展相互独立，并使用着不同的术语与范式。维泽克系统对比了行动者网络（ANT）与社会网络分析（SNA）的相似与差异，本文将在他的基础上进一步细化讨论。&lt;/p&gt;
@@ -259,32 +313,33 @@
     
     </summary>
     
-      <category term="Review_Sociology Books" scheme="http://sociologist.cn/categories/Review-Sociology-Books/"/>
+      <category term="Sociological Theory" scheme="http://sociologist.cn/categories/Sociological-Theory/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
     
+      <category term="SNA" scheme="http://sociologist.cn/tags/SNA/"/>
+    
   </entry>
   
   <entry>
-    <title>综 毒品市场的文献综述</title>
+    <title>Summary_Illicit Drug Markets</title>
     <link href="http://sociologist.cn/2018/10/30/summary-of-pusher-and-addict.html"/>
     <id>http://sociologist.cn/2018/10/30/summary-of-pusher-and-addict.html</id>
     <published>2018-10-29T16:00:00.000Z</published>
-    <updated>2018-11-06T14:52:41.528Z</updated>
+    <updated>2018-12-03T14:00:42.522Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Ritter A. Studying illicit drug markets: Disciplinary contributions[J]. International Journal of Drug Policy, 2006, 17(6): 453-463.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;  本文将基于Ritter的综述展开，穿插自Ritter之后的相关论文。&lt;br&gt;  毒品市场（Drug markets）对于不同学科的研究者有不同含义，作者向我们展示了五种不同的研究毒品市场的学科路径，即民族志与定性方法、经济学方法、行为与心理学方法、基于人群的调查方法、犯罪学与执法评估。应当讲，没有最好的方法，需要发展的是更多的跨学科方法。Ritter一开始想综述一下毒品市场的研究，但是他发现好像每一个毒品市场都不一样，都有自己的特征，因此综述不同学科的研究路径差异反而对学界是更有价值的。&lt;br&gt;  Ritter首先提了一个问题，什么是毒品市场？对于经济学家可能是商品与价格（在不同层次的市场中）、市场结构、供给与需求的关系；对于犯罪学家可能是吸毒者、贩毒者（dealer）、毒枭或批发商（wholesalers）与制毒者（producers）的违法行为；对于社会学家，毒品市场可能是“变化中的多元的社会关系所占据的空白场域（blank space）（Tribe，1981）”&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;一、社会学与人类学研究：民族志与定性研究&quot;&gt;&lt;a href=&quot;#一、社会学与人类学研究：民族志与定性研究&quot; class=&quot;headerlink&quot; title=&quot;一、社会学与人类学研究：民族志与定性研究&quot;&gt;&lt;/a&gt;一、社会学与人类学研究：民族志与定性研究&lt;/h2&gt;&lt;p&gt;  民族志试图思考个体生命经验、社会进程、文化实践与某一群体或社区的结构性变量，在其传统形式中，民族志基于社会学与人类学，力求对被研究的社会环境有着长期浸入。民族志可以勾勒市场的丰富图景（不同角色、市场结构），勾勒市集（marketplace，行动者间的互动）与毒品市场的社会与文化规范。&lt;/p&gt;
 &lt;h3 id=&quot;（一）毒品行动者的类型学&quot;&gt;&lt;a href=&quot;#（一）毒品行动者的类型学&quot; class=&quot;headerlink&quot; title=&quot;（一）毒品行动者的类型学&quot;&gt;&lt;/a&gt;（一）毒品行动者的类型学&lt;/h3&gt;&lt;h4 id=&quot;1、Ritter文&quot;&gt;&lt;a href=&quot;#1、Ritter文&quot; class=&quot;headerlink&quot; title=&quot;1、Ritter文&quot;&gt;&lt;/a&gt;1、Ritter文&lt;/h4&gt;&lt;p&gt;  早在1969年，Preble and Casey就定性研究了纽约的海洛因市场，从此很多学者聚焦于地方零售层面的毒品市场研究；英国方面，Dorn, Murji and South在1992年做了大量的毒贩、吸毒者、警察、线人和既吸也贩者的访谈，他们概括了七种越轨模式：贸易慈善团体、互助社团、局外人、犯罪性分散经营者、投机性非正规人员、零售专家、国家担保贸易商；2004年May and Hough概括了零售市场的几种类型：封闭的、开放的、交易屋、社会网、俱乐部（半开放）。这些学者的划分标准各不相同，但技术与执法活动都是如何定义市场的重要考量。作者介绍了一个相对被广为接受的划分，即Natarajan and Belanger在1998年依据角色/任务与结构的划分，任务角色可以分为5种：种植者、制毒者、吸毒者、大批发毒枭、地区代理人；结构可以分4种：散户、家庭、社区、公司。一个理想概型即可依据任务角色与结构的交叉而产生，并进而指导包括其他学科的研究。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;思考1：如果效仿Wright的新马克思主义的阶级划分，那么一个基于毒品的人群划分也是可行的，即毒贩作为一种职业，其职业内部也有很多差异，由此可以产生很好的基于logistics模型的定量研究，比如，毒贩的子女在多大概率上也成为毒贩，哪种毒贩的子女更容易成为毒贩？这样，犯罪学问题与社会分层问题就结合了。但结构性数据获取不易。&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&quot;2、扩展：作为个体的毒品行动者&quot;&gt;&lt;a href=&quot;#2、扩展：作为个体的毒品行动者&quot; class=&quot;headerlink&quot; title=&quot;2、扩展：作为个体的毒品行动者&quot;&gt;&lt;/a&gt;2、扩展：作为个体的毒品行动者&lt;/h4&gt;&lt;h5 id=&quot;（1）作为分析工具的社会网络&quot;&gt;&lt;a href=&quot;#（1）作为分析工具的社会网络&quot; class=&quot;headerlink&quot; title=&quot;（1）作为分析工具的社会网络&quot;&gt;&lt;/a&gt;（1）作为分析工具的社会网络&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Curtis R, Friedman S R, Neaigus A, et al. Street-level drug markets: Network structure and HIV risk[J]. Social networks, 1995, 17(3-4): 229-249.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;    民族志与正式社会网络方法已经被用于概括街道毒品市场中的注射吸毒者——核心人、次要人及外部人三类，处于网络结构的不同位置，也关联着高危艾滋病行为、艾滋感染概率的不同等级。网络视角有助于我们理解艾滋病风险，并进而适当的干预。&lt;/p&gt;
+&lt;h4 id=&quot;2、扩展：作为个体的毒品行动者&quot;&gt;&lt;a href=&quot;#2、扩展：作为个体的毒品行动者&quot; class=&quot;headerlink&quot; title=&quot;2、扩展：作为个体的毒品行动者&quot;&gt;&lt;/a&gt;2、扩展：作为个体的毒品行动者&lt;/h4&gt;&lt;h5 id=&quot;（1）作为分析工具的社会网络&quot;&gt;&lt;a href=&quot;#（1）作为分析工具的社会网络&quot; class=&quot;headerlink&quot; title=&quot;（1）作为分析工具的社会网络&quot;&gt;&lt;/a&gt;（1）作为分析工具的社会网络&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Curtis R, Friedman S R, Neaigus A, et al. Street-level drug markets: Network structure and HIV risk[J]. Social networks, 1995, 17(3-4): 229-249.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;​    民族志与正式社会网络方法已经被用于概括街道毒品市场中的注射吸毒者——核心人、次要人及外部人三类，处于网络结构的不同位置，也关联着高危艾滋病行为、艾滋感染概率的不同等级。网络视角有助于我们理解艾滋病风险，并进而适当的干预。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Latkin C, Mandell W, Oziemkowska M, et al. Using social network analysis to study patterns of drug use among urban drug users at high risk for HIV/AIDS[J]. Drug &amp;amp; Alcohol Dependence, 1995, 38(1): 1-9.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h5 id=&quot;（2）作为分析工具的民族-种族&quot;&gt;&lt;a href=&quot;#（2）作为分析工具的民族-种族&quot; class=&quot;headerlink&quot; title=&quot;（2）作为分析工具的民族/种族&quot;&gt;&lt;/a&gt;（2）作为分析工具的民族/种族&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Murji K. Hierarchies, markets and networks: Ethnicity/race and drug distribution[J]. Journal of Drug Issues, 2007, 37(4): 781-804.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;    等级体系、市场与网络的模型已经被用于探索毒品分销组织及其中种族因素在毒品分销中的角色。这些模型作为概念框架去理解社会生活是恰当的，尽管并非始终清晰，但这三者都可用于分析毒品分销。作者即试图理解当这些分析要素同种族关联时有什么特点，作者质疑既往研究与政策中思考种族因素的方式，抨击既往对种族的单调性与种族是组织毒品分销中的基础的幼稚假设。种族也许是分析犯罪与合法企业的有效工具，但在比较这二者的研究中，有关到底什么是种族的细节往往是缺乏的。作者继而提出了一些未来的研究路径与研究原则。&lt;/p&gt;
-&lt;h5 id=&quot;（3）类型学的发展&quot;&gt;&lt;a href=&quot;#（3）类型学的发展&quot; class=&quot;headerlink&quot; title=&quot;（3）类型学的发展&quot;&gt;&lt;/a&gt;（3）类型学的发展&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Coomber R. Reconceptualising drug markets and drug dealers—the need for change[J]. Drugs and alcohol today, 2010, 10(1): 10-13.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;    作者认为，毒品市场目前已经不再是既往研究假设的那样了，我们需要再定义什么时毒品市场，什么是毒品交易者。作者首先抨击既往很多研究过分夸大，甚至根本荒谬的描绘毒品市场与毒品交易。依据毒品市场的形状、结构和人员，甚至观察到的毒品市场也只是它的伪装。社会供给提供了一个反例，可以看到我们现在流行的视角，特别是对于大麻与年轻人的看法到底有多错误，同时，另一个证据是，“纸牌屋”作为目前流行的对毒品市场与毒品交易者的看法，需要同目前对现状缺乏足够敏感与回应的政策一起重新进行评估。&lt;/p&gt;
-&lt;h4 id=&quot;3、作为组织的毒品行动者&quot;&gt;&lt;a href=&quot;#3、作为组织的毒品行动者&quot; class=&quot;headerlink&quot; title=&quot;3、作为组织的毒品行动者&quot;&gt;&lt;/a&gt;3、作为组织的毒品行动者&lt;/h4&gt;&lt;h5 id=&quot;（1）Natarajan-M的类型学&quot;&gt;&lt;a href=&quot;#（1）Natarajan-M的类型学&quot; class=&quot;headerlink&quot; title=&quot;（1）Natarajan M的类型学&quot;&gt;&lt;/a&gt;（1）Natarajan M的类型学&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Natarajan M, Belanger M. Varieties of drug trafficking organizations: a typology of cases prosecuted in New York City[J]. Journal of Drug Issues, 1998, 28(4): 1005-1025.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;    贩毒组织的规模从松散的“散户”团伙到等级化的“公司式”组织，“散户”团伙更可能处于高等级的毒品供应，而等级化的“公司式”组织从事链条低等级的零售。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Natarajan M. Understanding the structure of a drug trafficking organization: a conversational analysis[J]. Crime Prevention Studies, 2000, 11: 273-298.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Natarajan M, Zanella M, Yu C. Classifying the variety of drug trafficking organizations[J]. Journal of Drug Issues, 2015, 45(4): 409-430.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;    2015年Natarajan和Belanger采用新的数据对1998年贩毒组织分类进行检验，贩毒组织两维度（组织任务与组织结构）的类型学分类仍然适用，并应用企业管理的权变理论（contingency theories of business management）对贩毒组织规模和运作上变化加以解释，证明贩毒组织同外部环境保有结构一致性，对1998年研究进行补充。同时也提出，应对组织结构的定义进行澄清，任务分类要容纳事实，这就需要新的样本来丰富研究。&lt;/p&gt;
-&lt;h5 id=&quot;（2）中国研究&quot;&gt;&lt;a href=&quot;#（2）中国研究&quot; class=&quot;headerlink&quot; title=&quot;（2）中国研究&quot;&gt;&lt;/a&gt;（2）中国研究&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Zhang S X, Chin K. Snakeheads, mules, and protective umbrellas: A review of current research on Chinese organized crime[J]. Crime, Law and Social Change, 2008, 50(3): 177-195.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;    最近二十年就，中国的火热经济不仅带来了空前的经济发展，提高了在全球的政治话语，也创造了大量的犯罪团体/企业繁荣的机会。对最近的论文回溯揭示，目前学界大量的经验研究，关注两种跨国的犯罪活动，即人口买卖与毒品贸易。其他的犯罪，尽管也具有跨国影响，但是并未得到足够的关注。得益于近些年的经验研究，以往学界认为跨国犯罪活动主要是传统中国犯罪组织做的想法已经被否掉了，研究发现被卷入跨国犯罪的往往其他方面是普通人，他们利用社会或家庭网络的优势抓住了这些机会。中国的地下犯罪逐渐发展为两种路径，一种是跨国组织犯罪，另一种是基于地方犯罪组织的。两种犯罪实体在任何系统方式上都尚未交叉。&lt;/p&gt;
+&lt;h5 id=&quot;（2）作为分析工具的民族-种族&quot;&gt;&lt;a href=&quot;#（2）作为分析工具的民族-种族&quot; class=&quot;headerlink&quot; title=&quot;（2）作为分析工具的民族/种族&quot;&gt;&lt;/a&gt;（2）作为分析工具的民族/种族&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Murji K. Hierarchies, markets and networks: Ethnicity/race and drug distribution[J]. Journal of Drug Issues, 2007, 37(4): 781-804.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;​    等级体系、市场与网络的模型已经被用于探索毒品分销组织及其中种族因素在毒品分销中的角色。这些模型作为概念框架去理解社会生活是恰当的，尽管并非始终清晰，但这三者都可用于分析毒品分销。作者即试图理解当这些分析要素同种族关联时有什么特点，作者质疑既往研究与政策中思考种族因素的方式，抨击既往对种族的单调性与种族是组织毒品分销中的基础的幼稚假设。种族也许是分析犯罪与合法企业的有效工具，但在比较这二者的研究中，有关到底什么是种族的细节往往是缺乏的。作者继而提出了一些未来的研究路径与研究原则。&lt;/p&gt;
+&lt;h5 id=&quot;（3）类型学的发展&quot;&gt;&lt;a href=&quot;#（3）类型学的发展&quot; class=&quot;headerlink&quot; title=&quot;（3）类型学的发展&quot;&gt;&lt;/a&gt;（3）类型学的发展&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Coomber R. Reconceptualising drug markets and drug dealers—the need for change[J]. Drugs and alcohol today, 2010, 10(1): 10-13.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;​    作者认为，毒品市场目前已经不再是既往研究假设的那样了，我们需要再定义什么时毒品市场，什么是毒品交易者。作者首先抨击既往很多研究过分夸大，甚至根本荒谬的描绘毒品市场与毒品交易。依据毒品市场的形状、结构和人员，甚至观察到的毒品市场也只是它的伪装。社会供给提供了一个反例，可以看到我们现在流行的视角，特别是对于大麻与年轻人的看法到底有多错误，同时，另一个证据是，“纸牌屋”作为目前流行的对毒品市场与毒品交易者的看法，需要同目前对现状缺乏足够敏感与回应的政策一起重新进行评估。&lt;/p&gt;
+&lt;h4 id=&quot;3、作为组织的毒品行动者&quot;&gt;&lt;a href=&quot;#3、作为组织的毒品行动者&quot; class=&quot;headerlink&quot; title=&quot;3、作为组织的毒品行动者&quot;&gt;&lt;/a&gt;3、作为组织的毒品行动者&lt;/h4&gt;&lt;h5 id=&quot;（1）Natarajan-M的类型学&quot;&gt;&lt;a href=&quot;#（1）Natarajan-M的类型学&quot; class=&quot;headerlink&quot; title=&quot;（1）Natarajan M的类型学&quot;&gt;&lt;/a&gt;（1）Natarajan M的类型学&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Natarajan M, Belanger M. Varieties of drug trafficking organizations: a typology of cases prosecuted in New York City[J]. Journal of Drug Issues, 1998, 28(4): 1005-1025.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;​    贩毒组织的规模从松散的“散户”团伙到等级化的“公司式”组织，“散户”团伙更可能处于高等级的毒品供应，而等级化的“公司式”组织从事链条低等级的零售。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Natarajan M. Understanding the structure of a drug trafficking organization: a conversational analysis[J]. Crime Prevention Studies, 2000, 11: 273-298.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;​&lt;br&gt;&lt;strong&gt;&lt;em&gt;Natarajan M, Zanella M, Yu C. Classifying the variety of drug trafficking organizations[J]. Journal of Drug Issues, 2015, 45(4): 409-430.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;​    2015年Natarajan和Belanger采用新的数据对1998年贩毒组织分类进行检验，贩毒组织两维度（组织任务与组织结构）的类型学分类仍然适用，并应用企业管理的权变理论（contingency theories of business management）对贩毒组织规模和运作上变化加以解释，证明贩毒组织同外部环境保有结构一致性，对1998年研究进行补充。同时也提出，应对组织结构的定义进行澄清，任务分类要容纳事实，这就需要新的样本来丰富研究。&lt;/p&gt;
+&lt;h5 id=&quot;（2）中国研究&quot;&gt;&lt;a href=&quot;#（2）中国研究&quot; class=&quot;headerlink&quot; title=&quot;（2）中国研究&quot;&gt;&lt;/a&gt;（2）中国研究&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Zhang S X, Chin K. Snakeheads, mules, and protective umbrellas: A review of current research on Chinese organized crime[J]. Crime, Law and Social Change, 2008, 50(3): 177-195.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;​    最近二十年就，中国的火热经济不仅带来了空前的经济发展，提高了在全球的政治话语，也创造了大量的犯罪团体/企业繁荣的机会。对最近的论文回溯揭示，目前学界大量的经验研究，关注两种跨国的犯罪活动，即人口买卖与毒品贸易。其他的犯罪，尽管也具有跨国影响，但是并未得到足够的关注。得益于近些年的经验研究，以往学界认为跨国犯罪活动主要是传统中国犯罪组织做的想法已经被否掉了，研究发现被卷入跨国犯罪的往往其他方面是普通人，他们利用社会或家庭网络的优势抓住了这些机会。中国的地下犯罪逐渐发展为两种路径，一种是跨国组织犯罪，另一种是基于地方犯罪组织的。两种犯罪实体在任何系统方式上都尚未交叉。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Chin, K. L., &amp;amp; Zhang, S. X. (2012). Chinese Connection: Cross-Border Drug Trafficking Between Myanmar and China. BiblioGov.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Dobinson I. Pinning a tail on the dragon: The Chinese and the international heroin trade[J]. Crime &amp;amp; Delinquency, 1993, 39(3): 373-384.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;思考2：是否可以和纽约市立大学犯罪学教授Natarajan M进行理论对话，Natarajan做了大量的、持续性的犯罪组织的类型学研究，但是西方的概念在中国可能是有问题的，比如博社村的18个团伙，是中国乡土社会里的宗族性贩毒，一定是和西方社区（community）贩毒是不同的，其中必然会存在细微差异，值得进一步深入研究。似乎博社村也可以作为澳门大学Li的2017年这篇文章的反例。&lt;/strong&gt;&lt;/p&gt;
@@ -324,7 +379,7 @@
     
     </summary>
     
-      <category term="Review_Sociology Papers" scheme="http://sociologist.cn/categories/Review-Sociology-Papers/"/>
+      <category term="Organizational Sociology" scheme="http://sociologist.cn/categories/Organizational-Sociology/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
@@ -336,11 +391,11 @@
   </entry>
   
   <entry>
-    <title>《个体化》的讨论——阶级概念死了么？</title>
-    <link href="http://sociologist.cn/2018/10/05/Individualization-death%20of%20class%20debate.html"/>
-    <id>http://sociologist.cn/2018/10/05/Individualization-death of class debate.html</id>
+    <title>Is Class Dead? A Discussion About the Zombie Category</title>
+    <link href="http://sociologist.cn/2018/10/05/Individualization-death-of-class.html"/>
+    <id>http://sociologist.cn/2018/10/05/Individualization-death-of-class.html</id>
     <published>2018-10-05T12:30:00.000Z</published>
-    <updated>2018-10-06T15:25:05.530Z</updated>
+    <updated>2018-12-03T14:19:55.239Z</updated>
     
     <content type="html">&lt;p&gt;  我的兴趣点在社会分层与政治社会学，所以当我看贝克（Beck）的理论时，我其实会更关注这个理论与经验如何关联。如下的两个问题贯穿了我思考的始终，我将尽力在本文予以一定的回应。&lt;br&gt;  （1）当贝克说阶级已死（Zombie Category）时，我们应该如何思考“阶级”这一概念，“阶级”概念真的死了么，阶级分析学者（如新马克思主义者、新韦伯主义者等）如何看待，贝克又如何回应？&lt;br&gt;  （2）如果诚如贝克所讲，贝克的个体化路径是基于德国的经验，那么中国的个体化路径会复制欧洲经验么？还是说中国的个体化是不同的，不同又体现在哪里？欧洲社会与中国社会如何重新整合？&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;一、个体化理论的概述&quot;&gt;&lt;a href=&quot;#一、个体化理论的概述&quot; class=&quot;headerlink&quot; title=&quot;一、个体化理论的概述&quot;&gt;&lt;/a&gt;一、个体化理论的概述&lt;/h2&gt;&lt;h3 id=&quot;（一）第二现代性：风险社会与个体化&quot;&gt;&lt;a href=&quot;#（一）第二现代性：风险社会与个体化&quot; class=&quot;headerlink&quot; title=&quot;（一）第二现代性：风险社会与个体化&quot;&gt;&lt;/a&gt;（一）第二现代性：风险社会与个体化&lt;/h3&gt;&lt;p&gt;  应当讲，风险社会与个体化是贝克庞大理论的任督二脉，这二者相辅相成，互为表里，有必要在陈述个体化理论前，对风险社会做简要介绍，这一介绍的目的是将个体化理论置于一个更宏观的历史背景下。&lt;br&gt;在贝克的理论中，现代化进程因其自身不断累积的负效应，削弱了工业技术社会的基础，并根本性的由第一现代性阶段进入了一个第二现代性阶段。这一新的阶段有两个主要特征，即风险分配逻辑与个体化：&lt;br&gt;  （1）作为技术发展负效应的产物，当代资本主义社会的“分配逻辑”已经由财富变迁至风险。即第一现代性下的工业社会，主轴是财富的社会生产与分配，这一主轴伴随着诞生于科技发展的风险分配，这一时期的财富与风险分配是同一进程中的，并引发了两个敌对阵营，即劳工与资本之间的阶级间对立；但随着现代性的发展、生产的扩张，这一进程被翻转了，福利社会的日渐富裕、危险与威胁的大规模爆发，将财富分配逻辑附属于风险分配逻辑，首要矛盾不再是阶级对立而演变为关联着全球风险的个人位置。“归结为一个公式：贫穷是分层的，雾霾是民主的。（Beck，1992：36）”（2）作为福利国家的产物，社会不平等被“个体化”了，随之而来的是如阶级等大型团体概念的消亡（Dawson，2012）。&lt;/p&gt;
@@ -372,7 +427,7 @@
     
     </summary>
     
-      <category term="Review_Sociology Books" scheme="http://sociologist.cn/categories/Review-Sociology-Books/"/>
+      <category term="Sociological Theory" scheme="http://sociologist.cn/categories/Sociological-Theory/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
@@ -567,7 +622,7 @@
     <link href="http://sociologist.cn/2018/08/03/historical-review-from-late-qing-dynasty-to-republic-of-china-memo.html"/>
     <id>http://sociologist.cn/2018/08/03/historical-review-from-late-qing-dynasty-to-republic-of-china-memo.html</id>
     <published>2018-08-03T09:20:00.000Z</published>
-    <updated>2018-11-26T07:04:12.562Z</updated>
+    <updated>2018-12-03T13:46:12.843Z</updated>
     
     <content type="html">&lt;p&gt;全书力求匡正意识形态对史学研究的干预，及新疆问题，或为其被封禁的缘由。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;第一章-演员越来越清晰，剧本越来越模糊&quot;&gt;&lt;a href=&quot;#第一章-演员越来越清晰，剧本越来越模糊&quot; class=&quot;headerlink&quot; title=&quot;第一章 演员越来越清晰，剧本越来越模糊&quot;&gt;&lt;/a&gt;第一章 演员越来越清晰，剧本越来越模糊&lt;/h2&gt;&lt;p&gt;本章认为：&lt;br&gt;（1）立宪党与革命党的所用手段都可以是暴力，二者仅区别于是否保留虚君，实质相同。&lt;br&gt;（2）中国传统与日本封建不同，中国为专制集权，无“万世一系”的文化，汤武革命之传统，为中国之未成立宪的原因。&lt;/p&gt;
@@ -588,7 +643,7 @@
     
     </summary>
     
-      <category term="Review History" scheme="http://sociologist.cn/categories/Review-History/"/>
+      <category term="History" scheme="http://sociologist.cn/categories/History/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
@@ -630,7 +685,7 @@
     <link href="http://sociologist.cn/2018/06/19/the-logic-of-separation:-ecological-analysis-of-china's-legal-service-market,-memo.html"/>
     <id>http://sociologist.cn/2018/06/19/the-logic-of-separation:-ecological-analysis-of-china's-legal-service-market,-memo.html</id>
     <published>2018-06-19T13:19:00.000Z</published>
-    <updated>2018-09-17T08:24:56.884Z</updated>
+    <updated>2018-12-03T13:36:56.335Z</updated>
     
     <content type="html">&lt;p&gt;刘思达这本书改编自其2007年的博士论文，其后记《方庭的窗口》有启发性：&lt;br&gt;（1）每周阅读一千页，6天学校，1天自己，培养学术品味；&lt;br&gt;（2）英语是门槛，要跨过；&lt;br&gt;（3）尽早确立研究兴趣；&lt;br&gt;（4）忍耐（perseverance）乏味。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;刘思达在前言中强调其试图发展社会空间里了，强调社会互动的影响。2007至2017年间，法律业有了一些新动向：&lt;br&gt;（1）法律从业人员激增；&lt;br&gt;（2）律所规模化、全球化（中外律所边界模糊）、专业化；&lt;br&gt;（3）律所地域分布不均衡；&lt;br&gt;（4）律师、基层法律服务者仍然重合，但城市中律师已经胜出；&lt;br&gt;（5）公司律师、公职律师、法律顾问边界仍存在一定模糊，但被已被打破，2018年法考改革或会产生深远影响；&lt;br&gt;（6）非盈利诉讼兴起。&lt;/p&gt;
@@ -649,7 +704,7 @@
     
     </summary>
     
-      <category term="Review_Sociology Books" scheme="http://sociologist.cn/categories/Review-Sociology-Books/"/>
+      <category term="Organizational Sociology" scheme="http://sociologist.cn/categories/Organizational-Sociology/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
@@ -657,11 +712,11 @@
   </entry>
   
   <entry>
-    <title>译 Policy Recommendations for Fostering Economic Development through Social Capital</title>
+    <title>Translation_Policy Recommendations for Fostering Economic Development through Social Capital</title>
     <link href="http://sociologist.cn/2018/05/31/policy-recommendations-for-fostering-economic-development-through-social-capital.html"/>
     <id>http://sociologist.cn/2018/05/31/policy-recommendations-for-fostering-economic-development-through-social-capital.html</id>
     <published>2018-05-31T06:00:00.000Z</published>
-    <updated>2018-07-25T08:22:57.805Z</updated>
+    <updated>2018-12-03T14:13:05.381Z</updated>
     
     <content type="html">&lt;p&gt;Engbers T A, Rubin B M. Theory to Practice: Policy Recommendations for Fostering Economic Development through Social Capital[J]. Public Administration Review, 2018.&lt;/p&gt;
 &lt;p&gt;摘要：社会资本理论的倡导者们长期主张，建立社会资本事实上不仅仅是因为公民生活的最大利益，也是因为社会资本对社会经济的良性运行至关重要。最近的研究已经表明，在城市一级的统计数据上，社会资本，特别是它的桥连接形式(bridging form)，同工作岗位的创造是正相关的。同时，社会资本也经常被视为一个社会或固有的或缺乏的东西。本文通过提供一个基于政策的方法，采纳了这一假设来发展社会资本。本文为社会资本如何影响经济发展提供了两种理论解释，为致力于经济发展的实践者们提供了四种方法去发展社会资本。这些基于研究的、为致力于经济发展的实践者们与政策制定者们的建议，(可以)发展社会资本，及(通过发展社会资本而得以发展)他们社区的经济发展。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -692,7 +747,7 @@
     
     </summary>
     
-      <category term="Review Politics" scheme="http://sociologist.cn/categories/Review-Politics/"/>
+      <category term="Politics" scheme="http://sociologist.cn/categories/Politics/"/>
     
     
       <category term="Translation" scheme="http://sociologist.cn/tags/Translation/"/>
@@ -706,7 +761,7 @@
     <link href="http://sociologist.cn/2018/05/21/institutional-logic-of-china's-state-governance:-a-study-of-histology,-memo.html"/>
     <id>http://sociologist.cn/2018/05/21/institutional-logic-of-china's-state-governance:-a-study-of-histology,-memo.html</id>
     <published>2018-05-21T08:50:00.000Z</published>
-    <updated>2018-09-17T08:20:27.717Z</updated>
+    <updated>2018-12-03T14:09:29.875Z</updated>
     
     <content type="html">&lt;h3 id=&quot;一-核心观点&quot;&gt;&lt;a href=&quot;#一-核心观点&quot; class=&quot;headerlink&quot; title=&quot;一 核心观点&quot;&gt;&lt;/a&gt;一 核心观点&lt;/h3&gt;&lt;p&gt;宏观制度诱导微观行为，这一制度安排产生的因果联系，即为国家治理的制度逻辑。而中国国家治理的矛盾是统一体制与有效治理的矛盾，中央管辖与地方治理的矛盾，是治理规模与治理负荷的矛盾。本书是对这一矛盾的体现、应对与后果的论述。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;二-中国统一体制的维系困难&quot;&gt;&lt;a href=&quot;#二-中国统一体制的维系困难&quot; class=&quot;headerlink&quot; title=&quot;二 中国统一体制的维系困难&quot;&gt;&lt;/a&gt;二 中国统一体制的维系困难&lt;/h3&gt;&lt;h4 id=&quot;1、管理方面&quot;&gt;&lt;a href=&quot;#1、管理方面&quot; class=&quot;headerlink&quot; title=&quot;1、管理方面&quot;&gt;&lt;/a&gt;1、管理方面&lt;/h4&gt;&lt;p&gt;（1）统一体制的根本特点即一刀切。统一的政策部署同地方实际需求相冲突。&lt;br&gt;（2）组织局限性&lt;br&gt;交易成本学派的理论可以解释计划经济的失败，随着复杂程度的增加，管理成本、协调成本急剧提高，组织的边际回报递减出现拐点。&lt;/p&gt;
@@ -727,7 +782,7 @@
     
     </summary>
     
-      <category term="Review_Sociology Books" scheme="http://sociologist.cn/categories/Review-Sociology-Books/"/>
+      <category term="Organizational Sociology" scheme="http://sociologist.cn/categories/Organizational-Sociology/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
@@ -741,7 +796,7 @@
     <link href="http://sociologist.cn/2018/05/19/ten-lectures-on-social-stratification,-memo.html"/>
     <id>http://sociologist.cn/2018/05/19/ten-lectures-on-social-stratification,-memo.html</id>
     <published>2018-05-18T16:00:00.000Z</published>
-    <updated>2018-11-26T07:21:01.367Z</updated>
+    <updated>2018-12-03T14:19:28.637Z</updated>
     
     <content type="html">&lt;p&gt;  为何研究社会分层，对我而言，承接Weber的行动者核心，社会分层是切入城市研究的重要理论视角，它使社会学不同于建筑学、城市规划等专业，这里面也包含着我思维的转变与深入。李强老师的这本书重分层、略流动，于我有启发的是：&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;1、社会分层理论的发展：为什么当今社会不革命了？&lt;br&gt;（1）第三讲第一节 新马克思主义（达伦多夫），他认为为工人革命的历史条件改变了；&lt;br&gt;（2）第四讲第二节 新韦伯主义（帕金），他认为资本主义社会的排他由集体排他转为了个体排他；&lt;br&gt;（3）第四讲第三节 新韦伯主义（洛克伍德），他认为是由于白领职员与工人意识形态的不同。&lt;br&gt;（4）第五讲第一节 新涂尔干主义，认为社会的基本分析单位由阶级至职业；&lt;br&gt;（5）第六讲第二节 新功能主义，论述人才供需理论，讨论了社会分层的合理性。&lt;br&gt;2、社会分层理论的测量&lt;br&gt;（1）第七讲 阶级结构测量，新马克主义赖特与新韦伯主义戈德索普；&lt;br&gt;（2）第九讲第三节 布迪厄，文化资本理论。&lt;/p&gt;
 &lt;h2 id=&quot;第一讲-社会分层与社会流动概述&quot;&gt;&lt;a href=&quot;#第一讲-社会分层与社会流动概述&quot; class=&quot;headerlink&quot; title=&quot;第一讲 社会分层与社会流动概述&quot;&gt;&lt;/a&gt;第一讲 社会分层与社会流动概述&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://blog-demos.oss-cn-hongkong.aliyuncs.com/18-11-26/4134757.jpg&quot; alt=&quot;社会分层概述&quot;&gt;&lt;/p&gt;
@@ -754,7 +809,7 @@
     
     </summary>
     
-      <category term="Review_Sociology Books" scheme="http://sociologist.cn/categories/Review-Sociology-Books/"/>
+      <category term="Sociological Theory" scheme="http://sociologist.cn/categories/Sociological-Theory/"/>
     
     
       <category term="sociology" scheme="http://sociologist.cn/tags/sociology/"/>
@@ -879,11 +934,11 @@ getwd()
   </entry>
   
   <entry>
-    <title>Sociologists&#39; blog sites</title>
+    <title>Blogs of Sociologists</title>
     <link href="http://sociologist.cn/2018/04/18/sociologists'blog-sites.html"/>
     <id>http://sociologist.cn/2018/04/18/sociologists'blog-sites.html</id>
     <published>2018-04-18T11:30:00.000Z</published>
-    <updated>2018-11-19T16:03:20.905Z</updated>
+    <updated>2018-12-03T13:58:28.678Z</updated>
     
     <content type="html">&lt;p&gt;  Actually, I wish to collect the sociologists’ blog sites have been long. This essay collects blogs that are still updated now, I hope this collection is helpful for anyone who reading this essay now.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;USA&lt;/strong&gt;&lt;br&gt;&lt;a href=&quot;https://kieranhealy.org/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kieran healy&lt;/a&gt;&lt;br&gt;Brief introduction: Associate Professor of Sociology at Duke University.  &lt;/p&gt;
@@ -1078,151 +1133,6 @@ grep(&amp;quot;[d]o&amp;quot;,text) ##### do
 text = c(&amp;apos;Ro&amp;apos;,&amp;apos;Rr&amp;apos;,&amp;apos;rr&amp;apos;,&amp;apos;RR&amp;apos;,&amp;apos;rR&amp;apos;)
 grep(&amp;apos;[Rr]&amp;apos;,text) ##### [1] 1 2 3 4 5
 grep(&amp;apos;[R]r&amp;apos;,text) ##### [1] 2
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-      <category term="Quantitative Method" scheme="http://sociologist.cn/categories/Quantitative-Method/"/>
-    
-    
-      <category term="R" scheme="http://sociologist.cn/tags/R/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>R002 Essential dataframe</title>
-    <link href="http://sociologist.cn/2018/04/13/r002-essential-dataframe.html"/>
-    <id>http://sociologist.cn/2018/04/13/r002-essential-dataframe.html</id>
-    <published>2018-04-13T08:20:00.000Z</published>
-    <updated>2018-09-05T16:13:45.478Z</updated>
-    
-    <content type="html">&lt;h1 id=&quot;Vector&quot;&gt;&lt;a href=&quot;#Vector&quot; class=&quot;headerlink&quot; title=&quot;Vector&quot;&gt;&lt;/a&gt;Vector&lt;/h1&gt;&lt;h2 id=&quot;generate-vector&quot;&gt;&lt;a href=&quot;#generate-vector&quot; class=&quot;headerlink&quot; title=&quot;generate vector&quot;&gt;&lt;/a&gt;generate vector&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a &amp;lt;- c(1,4,7,3,7)
-b &amp;lt;- c(&amp;apos;one&amp;apos;,&amp;apos;two&amp;apos;,&amp;apos;three&amp;apos;)
-c &amp;lt;- c(TRUE,FALSE,TRUE)
-d &amp;lt;- seq(3,20,by=2) 
-e &amp;lt;- seq(3,20,length=9)
-&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;read-vector&quot;&gt;&lt;a href=&quot;#read-vector&quot; class=&quot;headerlink&quot; title=&quot;read vector&quot;&gt;&lt;/a&gt;read vector&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a[1:3]
-a[c(1,3)]
-
-### read the vector&amp;apos;s order; R from 1, but Python from 0
-which.min(a)
-which.max(a)
-which(a==7)
-
-### read the vector&amp;apos;s number
-max(a)
-a[a&amp;lt;7]
-
-### judge the vector&amp;apos;s type
-mode(a)
-is.vector(a)
-is.function(c)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;delete-vector&quot;&gt;&lt;a href=&quot;#delete-vector&quot; class=&quot;headerlink&quot; title=&quot;delete vector&quot;&gt;&lt;/a&gt;delete vector&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a[-2]
-a[-2:-4]
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;change-vector&quot;&gt;&lt;a href=&quot;#change-vector&quot; class=&quot;headerlink&quot; title=&quot;change vector&quot;&gt;&lt;/a&gt;change vector&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;rev(a)
-sort(a)
-paste(a,e)
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;Matrix&quot;&gt;&lt;a href=&quot;#Matrix&quot; class=&quot;headerlink&quot; title=&quot;Matrix&quot;&gt;&lt;/a&gt;Matrix&lt;/h1&gt;&lt;h2 id=&quot;generate-matrix&quot;&gt;&lt;a href=&quot;#generate-matrix&quot; class=&quot;headerlink&quot; title=&quot;generate matrix&quot;&gt;&lt;/a&gt;generate matrix&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a &amp;lt;- c(1:12)
-a &amp;lt;- matrix(a,nrow = 3,ncol = 4,byrow = T)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;read-matrix&quot;&gt;&lt;a href=&quot;#read-matrix&quot; class=&quot;headerlink&quot; title=&quot;read matrix&quot;&gt;&lt;/a&gt;read matrix&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a[2,]
-a[,2]
-a[2,2]
-a[2,c(2,3)]
-a[1:2,2]
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;change-matrix’s-names&quot;&gt;&lt;a href=&quot;#change-matrix’s-names&quot; class=&quot;headerlink&quot; title=&quot;change matrix’s names&quot;&gt;&lt;/a&gt;change matrix’s names&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a &amp;lt;- matrix(1:9,nrow = 3,ncol = 3,byrow = T)
-rnames = c(&amp;apos;num&amp;apos;,&amp;apos;height&amp;apos;,&amp;apos;weight&amp;apos;)
-cnames = c(&amp;apos;cat&amp;apos;,&amp;apos;dog&amp;apos;,&amp;apos;pig&amp;apos;)
-rownames(a) = rnames
-colnames(a) = cnames
-
-rownames(a) = c(&amp;apos;num&amp;apos;,&amp;apos;height&amp;apos;,&amp;apos;weight&amp;apos;)
-colnames(a) = c(&amp;apos;cat&amp;apos;,&amp;apos;dog&amp;apos;,&amp;apos;pig&amp;apos;)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;change-victor-to-matrix&quot;&gt;&lt;a href=&quot;#change-victor-to-matrix&quot; class=&quot;headerlink&quot; title=&quot;change victor to matrix&quot;&gt;&lt;/a&gt;change victor to matrix&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a = c(1:6)
-dim(a) = c(2,3)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;computer&quot;&gt;&lt;a href=&quot;#computer&quot; class=&quot;headerlink&quot; title=&quot;computer&quot;&gt;&lt;/a&gt;computer&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;set.seed(100)
-a = matrix(sample(100,15),nrow = 5,ncol = 3)
-set.seed(101)
-b = matrix(sample(100,15),nrow = 5,ncol = 3)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;basic-computer&quot;&gt;&lt;a href=&quot;#basic-computer&quot; class=&quot;headerlink&quot; title=&quot;basic computer&quot;&gt;&lt;/a&gt;basic computer&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;a*2
-a^2
-a-2
-colSums(a)
-colMeans(a)[1]
-rowMeans(a)
-rowMeans(a)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;matrix-matrix-linear-algebra&quot;&gt;&lt;a href=&quot;#matrix-matrix-linear-algebra&quot; class=&quot;headerlink&quot; title=&quot;matrix*matrix (linear algebra)&quot;&gt;&lt;/a&gt;matrix*matrix (linear algebra)&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;#### front rows*latter cols
-t(a) %*% b 
-
-#### t(a) %*% b = crossprod(a,b)
-#### t(a)*a = crossprod(a)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;diagonal-matrix&quot;&gt;&lt;a href=&quot;#diagonal-matrix&quot; class=&quot;headerlink&quot; title=&quot;diagonal matrix&quot;&gt;&lt;/a&gt;diagonal matrix&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;diag(c(1,2,3,4))
-diag(a)
-diag(3)
-diag(diag(a))
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;solve-the-linear-simultaneous-equations&quot;&gt;&lt;a href=&quot;#solve-the-linear-simultaneous-equations&quot; class=&quot;headerlink&quot; title=&quot;solve the linear simultaneous equations&quot;&gt;&lt;/a&gt;solve the linear simultaneous equations&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;#### inverse matrix
-a = matrix(rnorm(16),4,4)
-solve(a) 
-
-#### ax=b
-a = matrix(rnorm(16),4,4)
-b = c(1:4)
-solve(a,b)
-
-#### consider xa=b?
-is it the t(a)t(x)=t(b) ?
-a = matrix(rnorm(16),4,4)
-b = matrix(1:4,nrow = 1)
-solve(t(a),t(b))
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;eigenvalu&quot;&gt;&lt;a href=&quot;#eigenvalu&quot; class=&quot;headerlink&quot; title=&quot;eigenvalu&quot;&gt;&lt;/a&gt;eigenvalu&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;a = diag(4) + 1
-a.e = eigen(a,symmetric = T)
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;Data-frame-two-axis-matrix&quot;&gt;&lt;a href=&quot;#Data-frame-two-axis-matrix&quot; class=&quot;headerlink&quot; title=&quot;Data.frame (two-axis matrix)&quot;&gt;&lt;/a&gt;Data.frame (two-axis matrix)&lt;/h1&gt;&lt;h2 id=&quot;generate&quot;&gt;&lt;a href=&quot;#generate&quot; class=&quot;headerlink&quot; title=&quot;generate&quot;&gt;&lt;/a&gt;generate&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a1 = c(1,2,3)
-a2 = c(2,3,4)
-a = data.frame(a1,a2)
-a = data.frame(&amp;apos;weight&amp;apos;=a1,&amp;apos;price&amp;apos;=a2)
-
-a = data.frame(a1=&amp;apos;weight&amp;apos;,a2=&amp;apos;price&amp;apos;)
-
-
-patientID = c(1, 2, 3, 4)
-age = c(25, 34, 28, 52)
-diabetes = c(&amp;quot;Type1&amp;quot;, &amp;quot;Type2&amp;quot;, &amp;quot;Type1&amp;quot;, &amp;quot;Type1&amp;quot;)
-status = c(&amp;quot;Poor&amp;quot;, &amp;quot;Improved&amp;quot;, &amp;quot;Excellent&amp;quot;, &amp;quot;Poor&amp;quot;) 
-patientdata = data.frame(patientID, age, diabetes, status) 
-patientdata
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;read&quot;&gt;&lt;a href=&quot;#read&quot; class=&quot;headerlink&quot; title=&quot;read&quot;&gt;&lt;/a&gt;read&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;patientdata[,1:2]
-patientdata[1:2,]
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;Array-Multidimensional-Matrix&quot;&gt;&lt;a href=&quot;#Array-Multidimensional-Matrix&quot; class=&quot;headerlink&quot; title=&quot;Array (Multidimensional Matrix)&quot;&gt;&lt;/a&gt;Array (Multidimensional Matrix)&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;dim1 = c(&amp;quot;A1&amp;quot;, &amp;quot;A2&amp;quot;)
-dim2 = c(&amp;quot;B1&amp;quot;, &amp;quot;B2&amp;quot;, &amp;quot;B3&amp;quot;)
-dim3 = c(&amp;quot;C1&amp;quot;, &amp;quot;C2&amp;quot;, &amp;quot;C3&amp;quot;, &amp;quot;C4&amp;quot;)
-dim4 = c(&amp;quot;D1&amp;quot;, &amp;quot;D2&amp;quot;, &amp;quot;D3&amp;quot;)
-z = array(1:72, c(2, 3, 4, 3), dimnames=list(dim1, dim2, dim3, dim4))
-z[1,2,3,]
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;List&quot;&gt;&lt;a href=&quot;#List&quot; class=&quot;headerlink&quot; title=&quot;List&quot;&gt;&lt;/a&gt;List&lt;/h1&gt;&lt;h2 id=&quot;generate-list&quot;&gt;&lt;a href=&quot;#generate-list&quot; class=&quot;headerlink&quot; title=&quot;generate list&quot;&gt;&lt;/a&gt;generate list&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;x = matrix(1:20, nrow=5, ncol=4, byrow=TRUE)
-swim = read.csv(&amp;quot;http://www.macalester.edu/~kaplan/ISM/datasets/swim100m.csv&amp;quot;)
-examplelist=list(swim,x)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;read-list&quot;&gt;&lt;a href=&quot;#read-list&quot; class=&quot;headerlink&quot; title=&quot;read list&quot;&gt;&lt;/a&gt;read list&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;examplelist[[2]][1:3,2:4]
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;Factor&quot;&gt;&lt;a href=&quot;#Factor&quot; class=&quot;headerlink&quot; title=&quot;Factor&quot;&gt;&lt;/a&gt;Factor&lt;/h1&gt;&lt;h2 id=&quot;generate-1&quot;&gt;&lt;a href=&quot;#generate-1&quot; class=&quot;headerlink&quot; title=&quot;generate&quot;&gt;&lt;/a&gt;generate&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;examplefactor = factor(rep(c(1:3), times=5) )
-a = sample(100,15)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;mean-quantile-sum-etc&quot;&gt;&lt;a href=&quot;#mean-quantile-sum-etc&quot; class=&quot;headerlink&quot; title=&quot;mean, quantile, sum etc.&quot;&gt;&lt;/a&gt;mean, quantile, sum etc.&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;tapply(a,examplefactor,mean)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;test-tapply&quot;&gt;&lt;a href=&quot;#test-tapply&quot; class=&quot;headerlink&quot; title=&quot;test tapply&quot;&gt;&lt;/a&gt;test tapply&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;rbind(a,examplefactor)
-boo =rbind(a,examplefactor)[2,] == 2
-which(boo)
-rbind(a,examplefactor)[1,which(boo)]
-sum(rbind(a,examplefactor)[1,which(boo)])/length(which(boo))
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;Others-read-data&quot;&gt;&lt;a href=&quot;#Others-read-data&quot; class=&quot;headerlink&quot; title=&quot;Others: read data&quot;&gt;&lt;/a&gt;Others: read data&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;attach(mtcars)
-mtcars
-mpg
-detach(mtcars)
-&lt;/code&gt;&lt;/pre&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Vector&quot;&gt;&lt;a href=&quot;#Vector&quot; class=&quot;headerlink&quot; title=&quot;Vector&quot;&gt;&lt;/a&gt;Vector&lt;/h1&gt;&lt;h2 id=&quot;generate-vector&quot;&gt;&lt;a href=&quot;#generate-vector&quot; class=&quot;headerlink&quot; title=&quot;generate vector&quot;&gt;&lt;/a&gt;generate vector&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;a &amp;lt;- c(1,4,7,3,7)
-b &amp;lt;- c(&amp;apos;one&amp;apos;,&amp;apos;two&amp;apos;,&amp;apos;three&amp;apos;)
-c &amp;lt;- c(TRUE,FALSE,TRUE)
-d &amp;lt;- seq(3,20,by=2) 
-e &amp;lt;- seq(3,20,length=9)
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>
