@@ -4,6 +4,232 @@
 
     
   <url>
+    <loc>http://sociologist.cn/2018/04/18/r004-data-pre-processing.html</loc>
+    <lastmod>2019-01-11T02:47:57.287Z</lastmod>
+    <data>
+        <display>
+        <title>R004_Data pre-processing</title>
+        <pubTime>2018-04-18T14:20:00.000Z</pubTime>
+        
+        <tag>R</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2018/04/17/r003-regular-expression.html</loc>
+    <lastmod>2019-01-11T02:47:49.196Z</lastmod>
+    <data>
+        <display>
+        <title>R003_Regular expression</title>
+        <pubTime>2018-04-17T09:35:00.000Z</pubTime>
+        
+        <tag>R</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2018/04/13/r002-essential-dataframe.html</loc>
+    <lastmod>2019-01-11T02:47:44.620Z</lastmod>
+    <data>
+        <display>
+        <title>R002_Essential dataframe</title>
+        <pubTime>2018-04-13T08:20:00.000Z</pubTime>
+        
+        <tag>R</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2017/01/18/python005-crawler.html</loc>
+    <lastmod>2019-01-11T02:46:50.973Z</lastmod>
+    <data>
+        <display>
+        <title>Py005_Crawler</title>
+        <pubTime>2017-01-18T10:58:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2017/01/22/python004-function-and-recursion.html</loc>
+    <lastmod>2019-01-11T02:46:46.438Z</lastmod>
+    <data>
+        <display>
+        <title>Py004_Function and recursion</title>
+        <pubTime>2017-01-22T06:25:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2017/01/20/python003-sequence-list,-tuple,-and-string.html</loc>
+    <lastmod>2019-01-11T02:46:39.638Z</lastmod>
+    <data>
+        <display>
+        <title>Py003_Sequence list, tuple, and string</title>
+        <pubTime>2017-01-20T12:46:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2017/01/18/python002-numeric,-operator-and-for-loop.html</loc>
+    <lastmod>2019-01-11T02:46:35.225Z</lastmod>
+    <data>
+        <display>
+        <title>Py002_Numeric, operator and for loop</title>
+        <pubTime>2017-01-18T04:54:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2017/01/17/python001-variable,-if-loop-and-while-loop.html</loc>
+    <lastmod>2019-01-11T02:46:30.433Z</lastmod>
+    <data>
+        <display>
+        <title>Py001_Variable、if loop and while loop</title>
+        <pubTime>2017-01-17T10:51:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2019/01/10/diary-2019-year-notes.html</loc>
+    <lastmod>2019-01-11T02:45:36.648Z</lastmod>
+    <data>
+        <display>
+        <title>Diary_2019</title>
+        <pubTime>2019-01-09T16:00:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2018/12/31/diary-2018-years'-notes.html</loc>
+    <lastmod>2019-01-11T02:42:11.163Z</lastmod>
+    <data>
+        <display>
+        <title>Diary_2018</title>
+        <pubTime>2018-12-30T16:00:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2018/12/02/translation-Cultural-Contingency-of-Structure.html</loc>
+    <lastmod>2019-01-11T02:39:19.972Z</lastmod>
+    <data>
+        <display>
+        <title>Translation_The Cultural Contingency of Structure</title>
+        <pubTime>2018-12-01T16:00:00.000Z</pubTime>
+        
+        <tag>sociology</tag>
+         
+        <tag>Culture</tag>
+         
+        <tag>Structure</tag>
+         
+        <tag>Actor</tag>
+         
+         
+           
+             
+              <breadCrumb title="Sociological Theory" url="http://sociologist.cn/categories/Sociological-Theory/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://sociologist.cn/2017/12/05/citizen's-right-of-way-and-urban-control:-analysis-of-guangzhou's-anti-lock-policy-in-2004.html</loc>
     <lastmod>2019-01-11T02:32:28.836Z</lastmod>
     <data>
@@ -257,11 +483,11 @@
         <title>Diary_兴城</title>
         <pubTime>2015-09-06T01:33:56.000Z</pubTime>
         
-        <tag>Travel</tag>
-         
         <tag>明朝</tag>
          
         <tag>袁崇焕</tag>
+         
+        <tag>Travel</tag>
          
          
            
@@ -625,9 +851,9 @@
         <title>Memo_在中国做田野调查</title>
         <pubTime>2018-09-15T09:30:00.000Z</pubTime>
         
-        <tag>Methodology</tag>
-         
         <tag>Fieldwork</tag>
+         
+        <tag>Methodology</tag>
          
          
            
@@ -2125,9 +2351,9 @@
         <title>Memo_定性研究 方法论基础</title>
         <pubTime>2018-09-11T16:00:00.000Z</pubTime>
         
-        <tag>Paradigm</tag>
-         
         <tag>Methodology</tag>
+         
+        <tag>Paradigm</tag>
          
          
            
@@ -2377,26 +2603,6 @@
            
              
               <breadCrumb title="Prose" url="http://sociologist.cn/categories/Prose/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2018/12/11/diary-2018-years'-notes.html</loc>
-    <lastmod>2018-12-17T05:52:39.599Z</lastmod>
-    <data>
-        <display>
-        <title>Diary_2018</title>
-        <pubTime>2018-12-10T16:00:00.000Z</pubTime>
-        
-        <tag>理想</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
           
         </display>
     </data>
@@ -2893,32 +3099,6 @@
 
     
   <url>
-    <loc>http://sociologist.cn/2018/12/02/translation-Cultural-Contingency-of-Structure.html</loc>
-    <lastmod>2018-12-03T13:53:30.301Z</lastmod>
-    <data>
-        <display>
-        <title>Translation_The Cultural Contingency of Structure</title>
-        <pubTime>2018-12-01T16:00:00.000Z</pubTime>
-        
-        <tag>sociology</tag>
-         
-        <tag>Culture</tag>
-         
-        <tag>Structure</tag>
-         
-        <tag>Actor</tag>
-         
-         
-           
-             
-              <breadCrumb title="Sociological Theory" url="http://sociologist.cn/categories/Sociological-Theory/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://sociologist.cn/2017/12/31/translation-service-over-secrecy_-how-lodge-%3E-style-fraternalism-yielded-popularity-to-men's-popularity.html</loc>
     <lastmod>2018-12-03T13:35:53.153Z</lastmod>
     <data>
@@ -2936,166 +3116,6 @@
            
              
               <breadCrumb title="Organizational Sociology" url="http://sociologist.cn/categories/Organizational-Sociology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2017/01/18/python005-crawler.html</loc>
-    <lastmod>2018-09-17T08:29:27.273Z</lastmod>
-    <data>
-        <display>
-        <title>Py005 Crawler</title>
-        <pubTime>2017-01-18T10:58:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2017/01/22/python004-function-and-recursion.html</loc>
-    <lastmod>2018-09-17T08:29:19.610Z</lastmod>
-    <data>
-        <display>
-        <title>Py004 Function and recursion</title>
-        <pubTime>2017-01-22T06:25:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2017/01/20/python003-sequence-list,-tuple,-and-string.html</loc>
-    <lastmod>2018-09-17T08:29:11.658Z</lastmod>
-    <data>
-        <display>
-        <title>Py003 Sequence list, tuple, and string</title>
-        <pubTime>2017-01-20T12:46:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2017/01/18/python002-numeric,-operator-and-for-loop.html</loc>
-    <lastmod>2018-09-17T08:29:03.450Z</lastmod>
-    <data>
-        <display>
-        <title>Py002 Numeric, operator and for loop</title>
-        <pubTime>2017-01-18T04:54:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2017/01/17/python001-variable,-if-loop-and-while-loop.html</loc>
-    <lastmod>2018-09-17T08:28:52.083Z</lastmod>
-    <data>
-        <display>
-        <title>Py001 Variable、if loop and while loop</title>
-        <pubTime>2017-01-17T10:51:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2018/04/18/r004-data-pre-processing.html</loc>
-    <lastmod>2018-09-05T16:13:56.661Z</lastmod>
-    <data>
-        <display>
-        <title>R004 Data pre-processing</title>
-        <pubTime>2018-04-18T14:20:00.000Z</pubTime>
-        
-        <tag>R</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2018/04/17/r003-regular-expression.html</loc>
-    <lastmod>2018-09-05T16:13:51.157Z</lastmod>
-    <data>
-        <display>
-        <title>R003 Regular expression</title>
-        <pubTime>2018-04-17T09:35:00.000Z</pubTime>
-        
-        <tag>R</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2018/04/13/r002-essential-dataframe.html</loc>
-    <lastmod>2018-09-05T16:13:45.478Z</lastmod>
-    <data>
-        <display>
-        <title>R002 Essential dataframe</title>
-        <pubTime>2018-04-13T08:20:00.000Z</pubTime>
-        
-        <tag>R</tag>
-         
-         
-           
-             
-              <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
           
         </display>
     </data>
