@@ -3,6 +3,47 @@
 
 
     
+    
+  <url>
+    <loc>http://sociologist.cn/2019/01/10/diary-2019-year-notes.html</loc>
+    <lastmod>2019-01-11T08:32:21.571Z</lastmod>
+    <data>
+        <display>
+        <title>Diary_2019</title>
+        <pubTime>2019-01-09T16:00:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://sociologist.cn/2018/12/31/diary-2018-years'-notes.html</loc>
+    <lastmod>2019-01-11T03:07:07.163Z</lastmod>
+    <data>
+        <display>
+        <title>Diary_2018</title>
+        <pubTime>2018-12-30T16:00:00.000Z</pubTime>
+        
+        <tag>理想</tag>
+         
+         
+           
+             
+              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://sociologist.cn/2018/04/18/r004-data-pre-processing.html</loc>
     <lastmod>2019-01-11T02:47:57.287Z</lastmod>
@@ -157,46 +198,6 @@
            
              
               <breadCrumb title="Quantitative Method" url="http://sociologist.cn/categories/Quantitative-Method/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2019/01/10/diary-2019-year-notes.html</loc>
-    <lastmod>2019-01-11T02:45:36.648Z</lastmod>
-    <data>
-        <display>
-        <title>Diary_2019</title>
-        <pubTime>2019-01-09T16:00:00.000Z</pubTime>
-        
-        <tag>理想</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://sociologist.cn/2018/12/31/diary-2018-years'-notes.html</loc>
-    <lastmod>2019-01-11T02:42:11.163Z</lastmod>
-    <data>
-        <display>
-        <title>Diary_2018</title>
-        <pubTime>2018-12-30T16:00:00.000Z</pubTime>
-        
-        <tag>理想</tag>
-         
-         
-           
-             
-              <breadCrumb title="Struggle Diary" url="http://sociologist.cn/categories/Struggle-Diary/"/>
           
         </display>
     </data>
@@ -483,11 +484,11 @@
         <title>Diary_兴城</title>
         <pubTime>2015-09-06T01:33:56.000Z</pubTime>
         
+        <tag>Travel</tag>
+         
         <tag>明朝</tag>
          
         <tag>袁崇焕</tag>
-         
-        <tag>Travel</tag>
          
          
            
@@ -711,9 +712,9 @@
         <title>Memo_中国历代政治得失</title>
         <pubTime>2015-09-01T16:00:00.000Z</pubTime>
         
-        <tag>钱穆</tag>
-         
         <tag>China</tag>
+         
+        <tag>钱穆</tag>
          
          
            
@@ -2191,9 +2192,9 @@
         
         <tag>Sociology</tag>
          
-        <tag>费孝通</tag>
-         
         <tag>士大夫</tag>
+         
+        <tag>费孝通</tag>
          
         <tag>吳晗</tag>
          
@@ -2608,7 +2609,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://sociologist.cn/2015/11/26/diary-in-two-15-years.html</loc>
