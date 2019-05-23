@@ -96,7 +96,7 @@
 <meta property="og:description" content="2019.1.5 书斋式学者我的内心有时非常矛盾，一方面社会学其实固有着关怀苦难的温情，很多学者倡导要积极参与社会改革，另一方面，父母从小对我的教育是远离政治事务。中国学者做Abbott式的书斋学者，往往并非自愿，但也往往最终变成了自愿。">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/18-11-26/%E9%A2%90%E5%92%8C%E5%9B%AD190121.jpg">
-<meta property="og:updated_time" content="2019-05-23T10:44:12.041Z">
+<meta property="og:updated_time" content="2019-05-23T11:52:18.993Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Diary_2019">
 <meta name="twitter:description" content="2019.1.5 书斋式学者我的内心有时非常矛盾，一方面社会学其实固有着关怀苦难的温情，很多学者倡导要积极参与社会改革，另一方面，父母从小对我的教育是远离政治事务。中国学者做Abbott式的书斋学者，往往并非自愿，但也往往最终变成了自愿。">
@@ -423,70 +423,80 @@
 <h3 id="2019-5-20-学术作为普通职业"><a href="#2019-5-20-学术作为普通职业" class="headerlink" title="2019.5.20 学术作为普通职业"></a>2019.5.20 学术作为普通职业</h3><p>今天在豆瓣看到一个帖子。我觉得以学术为业的人要放弃经世致用的想法，学术只是一种寻常的工作，并不因我从事学术，而要承担什么改造的任务。我们做学术是为了在求生与求知间平衡，如能在此之外，有些许对社会的贡献，那属于额外的惊喜。</p>
 <h3 id="2019-5-22-Mitchell与Nadel"><a href="#2019-5-22-Mitchell与Nadel" class="headerlink" title="2019.5.22 Mitchell与Nadel"></a>2019.5.22 Mitchell与Nadel</h3><p>我上周看完Scott的社会网络分析法（social network analysis 3ed），最近这周正在看Wasserman的社会网络分析。Scott的这本较为简单，基本不涉及数学定义，便于概览；Wasserman这本偏经济学，讲的很细，便于基础。二者有很好的互补。<br>在整理笔记的过程中，想起来黎熙园老师昨天上课讲社会网络与不平等的研究，她认为sna是制度学派的一个补充，这个观点是Mitchell的；我和昱堃讨论的时候，昱堃多认为sna或许可以成为社会学统一的契机，这种观点是Nadel的，Nadel叫结构社会学。而Mitchell与Nadel都是曼彻斯特学派的。看书还是需要至少两遍，一遍通读，一遍整理，在整理的过程中其实会发现很多当时遗漏的细节。</p>
 <h3 id="2019-5-23-Echart"><a href="#2019-5-23-Echart" class="headerlink" title="2019.5.23 Echart"></a>2019.5.23 Echart</h3><p>我今天下午在想如何将Echart和博客写作结合起来，通过<a href="https://kchen.cc/2016/11/05/echarts-in-hexo/" target="_blank" rel="noopener">KChen’s Blog</a>的<a href="https://github.com/quentin-chen/hexo-tag-echarts3" target="_blank" rel="noopener">ECharts插件</a>，这里有了一个初步的显示。但问题在于，KChen的插件只能在option里定义data，如果data较大，或data是动态的，显示起来就比较麻烦。因为我对JavaScript知之甚少，只能暂时搁置。</p>
-<p><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><br><div id="echarts6554" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<p><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><br><div id="echarts9118" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts6554'));
+        var myChart = echarts.init(document.getElementById('echarts9118'));
         // 指定图表的配置项和数据
-        var option = {
-    tooltip : {
+        var option = option = {
+    tooltip: {
         trigger: 'axis',
-        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        axisPointer: {
+            type: 'cross',
+            crossStyle: {
+                color: '#999'
+            }
+        }
+    },
+    toolbox: {
+        feature: {
+            dataView: {show: true, readOnly: false},
+            magicType: {show: true, type: ['line', 'bar']},
+            restore: {show: true},
+            saveAsImage: {show: true}
         }
     },
     legend: {
-        data:['利润', '支出', '收入']
+        data:['蒸发量','降水量','平均温度']
     },
-    grid: {
-        left: '3%',
-        right: '4%',
-        bottom: '3%',
-        containLabel: true
-    },
-    xAxis : [
+    xAxis: [
         {
-            type : 'value'
+            type: 'category',
+            data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+            axisPointer: {
+                type: 'shadow'
+            }
         }
     ],
-    yAxis : [
+    yAxis: [
         {
-            type : 'category',
-            axisTick : {show: false},
-            data : ['周一','周二','周三','周四','周五','周六','周日']
+            type: 'value',
+            name: '水量',
+            min: 0,
+            max: 250,
+            interval: 50,
+            axisLabel: {
+                formatter: '{value} ml'
+            }
+        },
+        {
+            type: 'value',
+            name: '温度',
+            min: 0,
+            max: 25,
+            interval: 5,
+            axisLabel: {
+                formatter: '{value} °C'
+            }
         }
     ],
-    series : [
+    series: [
         {
-            name:'利润',
+            name:'蒸发量',
             type:'bar',
-            itemStyle : {
-                normal: {
-                    label: {show: true, position: 'inside'}
-                }
-            },
-            data:[200, 170, 240, 244, 200, 220, 210]
+            data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
         },
         {
-            name:'收入',
+            name:'降水量',
             type:'bar',
-            stack: '总量',
-            itemStyle: {
-                normal: {
-                    label : {show: true}
-                }
-            },
-            data:[320, 302, 341, 374, 390, 450, 420]
+            data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
         },
         {
-            name:'支出',
-            type:'bar',
-            stack: '总量',
-            itemStyle: {normal: {
-                label : {show: true, position: 'left'}
-            }},
-            data:[-120, -132, -101, -134, -190, -230, -210]
+            name:'平均温度',
+            type:'line',
+            yAxisIndex: 1,
+            data:[2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
         }
     ]
 };
@@ -740,7 +750,7 @@
   
   &copy;  2015 - 
   <span itemprop="copyrightYear">2019</span>
-  <span class="post-count">The blog has written 565.6k words</span>
+  <span class="post-count">The blog has written 565.7k words</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
