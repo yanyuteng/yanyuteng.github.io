@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://sociologist.cn/2019/05/10/diary-2019-year-notes.html</loc>
+    <loc>http://sociologist.cn/2019/05/23/diary-2019-year-notes.html</loc>
     
-    <lastmod>2019-05-16T18:35:52.634Z</lastmod>
+    <lastmod>2019-05-23T07:43:33.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sociologist.cn/tags/index.html</loc>
+    
+    <lastmod>2019-05-21T16:45:51.415Z</lastmod>
     
   </url>
   
@@ -1034,13 +1041,6 @@
     <loc>http://sociologist.cn/categories/index.html</loc>
     
     <lastmod>2018-07-25T08:22:56.258Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sociologist.cn/tags/index.html</loc>
-    
-    <lastmod>2018-07-25T08:22:53.492Z</lastmod>
     
   </url>
   
