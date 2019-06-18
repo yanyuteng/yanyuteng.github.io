@@ -1,4 +1,4 @@
-http://sociologist.cn/2019/06/07/diary-2019-year-notes.html
+http://sociologist.cn/2019/06/17/diary-2019-year-notes.html
 http://sociologist.cn/2019/05/06/diary-Fenghuang.html
 http://sociologist.cn/2019/04/23/the-communist-manifesto-memo.html
 http://sociologist.cn/2019/04/01/social-capital-social-structure-and-action-memo.html
@@ -27,11 +27,7 @@ http://sociologist.cn/2018/06/19/the-logic-of-separation:-ecological-analysis-of
 http://sociologist.cn/2018/05/31/policy-recommendations-for-fostering-economic-development-through-social-capital.html
 http://sociologist.cn/2018/05/21/institutional-logic-of-china's-state-governance:-a-study-of-histology,-memo.html
 http://sociologist.cn/2018/05/19/ten-lectures-on-social-stratification,-memo.html
-http://sociologist.cn/2018/04/18/r004-data-pre-processing.html
 http://sociologist.cn/2018/04/18/sociologists'blog-sites.html
-http://sociologist.cn/2018/04/17/r003-regular-expression.html
-http://sociologist.cn/2018/04/13/r002-essential-dataframe.html
-http://sociologist.cn/2018/04/12/r001-essential-statement.html
 http://sociologist.cn/2018/03/12/absorption-and-empowerment-memo.html
 http://sociologist.cn/2018/03/12/corporatism-memo.html
 http://sociologist.cn/2018/01/17/discovery-society-memo.html
@@ -60,11 +56,6 @@ http://sociologist.cn/2017/03/29/the-politics-of-time-memo.html
 http://sociologist.cn/2017/03/19/chrysanthemum-and-knife-memo.html
 http://sociologist.cn/2017/03/14/sociologist-and-historian-memo.html
 http://sociologist.cn/2017/02/20/the-logic-of-collective-action-memo.html
-http://sociologist.cn/2017/01/22/python004-function-and-recursion.html
-http://sociologist.cn/2017/01/20/python003-sequence-list,-tuple,-and-string.html
-http://sociologist.cn/2017/01/18/python005-crawler.html
-http://sociologist.cn/2017/01/18/python002-numeric,-operator-and-for-loop.html
-http://sociologist.cn/2017/01/17/python001-variable,-if-loop-and-while-loop.html
 http://sociologist.cn/2016/12/31/diary-2016-year-notes.html
 http://sociologist.cn/2016/12/20/an-overview-of-the-relationship-between-parents-and-children-from-a-cultural-perspective.html
 http://sociologist.cn/2016/12/18/power-and-rules-memo.html
@@ -81,7 +72,6 @@ http://sociologist.cn/2016/09/14/sociology-and-workplace-snake:-english-world-ab
 http://sociologist.cn/2016/09/12/on-shit.html
 http://sociologist.cn/2016/08/29/essays-on-sociological-methods-and-quantitative-studies.html
 http://sociologist.cn/2016/08/27/sociology-memo.html
-http://sociologist.cn/2016/08/17/the-road-to-slavery-memo.html
 http://sociologist.cn/2016/08/11/network-literature:-on-vulgarity-and-elegance.html
 http://sociologist.cn/2016/08/08/ode-to-the-night:-utopias-faith.html
 http://sociologist.cn/2016/07/29/social-network-and-status-attainment-and-reflection-on-recent-social-surveys.html
@@ -91,6 +81,7 @@ http://sociologist.cn/2016/06/11/sociology-and-sociology-of-harbin-institute-of-
 http://sociologist.cn/2016/06/07/the-art-of-travel-follows.html
 http://sociologist.cn/2016/05/26/a-talk-about-haste-street.html
 http://sociologist.cn/2016/05/12/translation-urban-political-ecology,-justice-and-the-politics-of-scale.html
+http://sociologist.cn/2016/05/01/the-road-to-slavery-memo.html
 http://sociologist.cn/2016/04/10/translation-rethinking-political-ecologies-of-water.html
 http://sociologist.cn/2016/04/07/notes-on-great-economic-transformation-of-china.html
 http://sociologist.cn/2016/04/07/notes-on-nature-and-the-city:-ecology,-air-pollution-market-and-risk-society.html
@@ -98,3 +89,12 @@ http://sociologist.cn/2016/03/30/everyday-environmentalism_ch1-memo.html
 http://sociologist.cn/2016/03/19/translation-of-urban-lifestyles_zukin.html
 http://sociologist.cn/2016/03/17/translation-whose-city-is-it_sassen.html
 http://sociologist.cn/2016/03/16/translation-immigrants-and-world-cities.html
+http://sociologist.cn/2016/03/13/translation-cities-and-labour-immigration.html
+http://sociologist.cn/2016/03/10/notes-on-contemporary-china's-economic-development.html
+http://sociologist.cn/2016/03/10/naked-city:-the-truman-show.html
+http://sociologist.cn/2016/03/09/great-change:-the-origin-of-contemporary-politics-and-economy,-memo.html
+http://sociologist.cn/2016/03/01/notes-on-the-birth-and-decline-of-great-cities.html
+http://sociologist.cn/2016/01/31/cliff-edge-report-memo.html
+http://sociologist.cn/2016/01/27/notes-on-liberalism.html
+http://sociologist.cn/2016/01/24/three-theories-of-sexuality-memo.html
+http://sociologist.cn/2016/01/23/velvet-prison-memo.html
