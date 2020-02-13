@@ -87,21 +87,21 @@
 
 
 
-<meta name="description" content="最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），或许这一预测更应称为判断，">
+<meta name="description" content="最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），因此这一预测更应称为判断，">
 <meta name="keywords" content="Methodology,Quantitative,Machine Learning">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Prose_基于分类树的体制内外就职预测">
+<meta property="og:title" content="Prose_基于分类树的体制内外就职判断">
 <meta property="og:url" content="http://sociologist.cn/2019/08/13/prose-intra-system-employment-prediction-based-on-classification-tree.html">
 <meta property="og:site_name" content="Yuteng Yan">
-<meta property="og:description" content="最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），或许这一预测更应称为判断，">
+<meta property="og:description" content="最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），因此这一预测更应称为判断，">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/employment-prediction-based-on-classification-tree/id3%20classification%20tree.png">
 <meta property="og:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/employment-prediction-based-on-classification-tree/id3%20cp.png">
 <meta property="og:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/employment-prediction-based-on-classification-tree/di3%20cp%20eroor.png">
-<meta property="og:updated_time" content="2019-10-24T15:11:16.864Z">
+<meta property="og:updated_time" content="2020-01-25T08:07:07.285Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Prose_基于分类树的体制内外就职预测">
-<meta name="twitter:description" content="最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），或许这一预测更应称为判断，">
+<meta name="twitter:title" content="Prose_基于分类树的体制内外就职判断">
+<meta name="twitter:description" content="最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），因此这一预测更应称为判断，">
 <meta name="twitter:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/employment-prediction-based-on-classification-tree/id3%20classification%20tree.png">
 
 
@@ -120,7 +120,7 @@
   };
 </script>
 
-  <title> Prose_基于分类树的体制内外就职预测 | Yuteng Yan </title>
+  <title> Prose_基于分类树的体制内外就职判断 | Yuteng Yan </title>
 </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="en">
@@ -308,7 +308,7 @@
             
             
               
-                Prose_基于分类树的体制内外就职预测
+                Prose_基于分类树的体制内外就职判断
               
             
           </h1>
@@ -372,8 +372,8 @@
       
 
       
-        <p>最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），或许这一预测更应称为判断，未来可以进一步考虑因果预测机制。<br><a id="more"></a></p>
-<h2 id="（一）classification-tree"><a href="#（一）classification-tree" class="headerlink" title="（一）classification tree"></a>（一）classification tree</h2><p>R语言中分类树模型最常用的是”rpart”包与”party”包。这里同时用两个包进行分类树模型预测。对于它们的原理，很多<a href="http://blog.sina.com.cn/s/blog_5041e6f00102v8co.html" target="_blank" rel="noopener">文章</a>已经讲得十分清楚。</p>
+        <p>最近学习了一些机器学习的传统分类算法。这里用传统分类树（ID3算法与CART算法）、条件推断分类树与随机森林算法，示例预测个人最终是否在体制内就业。基于2009年JSNET广州数据，通过R语言的”rpart”包、”party”包与”randomForest”包，最终模型的预测准确率在75%左右。但这一预测由于数据限制，难以厘清某些变量与就业的前后关系（如社会资本的影响），因此这一预测更应称为判断，未来可以进一步考虑因果预测机制。<br><a id="more"></a></p>
+<h2 id="（一）Classification-Tree"><a href="#（一）Classification-Tree" class="headerlink" title="（一）Classification Tree"></a>（一）Classification Tree</h2><p>R语言中分类树模型最常用的是”rpart”包与”party”包。这里同时用两个包进行分类树模型预测。对于它们的原理，很多<a href="http://blog.sina.com.cn/s/blog_5041e6f00102v8co.html" target="_blank" rel="noopener">文章</a>已经讲得十分清楚。</p>
 <blockquote>
 <p>“rpart”包的处理方式不同于”party”包，它首先对所有自变量和所有分割点进行评估，最佳的选择是使分割后组内的数据更为”一致”（pure）。这里的”一致”是指组内数据的因变量取值变异较小。”rpart”包对这种”一致”性的默认度量是Gini值。但确定停止划分的参数仍有很多（参见rpart.control），这些参数是非常重要且微妙的，因为划分越细，模型越复杂，越容易出现过度拟合的情况，而划分过粗，又会出现拟合不足。处理这个问题通常是使用”剪枝”（prune）方法。即先建立一个划分较细较为复杂的树模型，再根据交叉检验（Cross-Validation）的方法来估计不同”剪枝”条件下，各模型的误差，最后选择误差最小的树模型。</p>
 </blockquote>
@@ -389,7 +389,7 @@
 <p>“party”包的背景理论是”条件推断决策树”（conditional inference trees），不同于传统决策树”rpart”包，它是根据统计检验来确定自变量和分割点的选择，即先假设所有自变量与因变量均独立；再对它们进行卡方独立检验，检验P值小于阀值的自变量加入模型，相关性最强的自变量作为第一次分割的自变量。自变量选择好后，用置换检验来选择分割点。用”party”包建立的决策树不需要剪枝，因为阀值就决定了模型的复杂程度。所以如何决定阀值参数是非常重要的（参见ctree_control）。较为流行的做法是取不同的参数值进行交叉检验，选择误差最小的模型参数。</p>
 </blockquote>
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Conditional Inference Tree</span></span><br><span class="line"><span class="keyword">library</span>(<span class="string">'party'</span>)</span><br><span class="line">clds_train &lt;- ctree(formula, data=traindata)</span><br><span class="line">ptable &lt;- table(predict(clds_train), traindata$ecosector)</span><br><span class="line">pratio &lt;- sum(diag(ptable))/sum(ptable)</span><br><span class="line">print(clds_train)</span><br><span class="line">plot(clds_train)</span><br><span class="line">plot(clds_train, type=<span class="string">"simple"</span>)</span><br><span class="line">clds_test &lt;- predict(clds_train, newdata = testdata)</span><br><span class="line">ptable2 &lt;- table(clds_test, testdata$ecosector,dnn=c(<span class="string">"predictvalue"</span>,<span class="string">"truevalue"</span>))</span><br><span class="line">pratio2 &lt;- sum(diag(ptable2))/sum(ptable2)        </span><br><span class="line">pratio2</span><br></pre></td></tr></table></figure>
-<h2 id="（二）random-forest"><a href="#（二）random-forest" class="headerlink" title="（二）random forest"></a>（二）random forest</h2><p>尽管我们上述比较了传统ID3、CART算法与新近的条件推断决策树，但一棵树的生成肯定还是不如多棵树，随机森林结构比较复杂，但是它却极端易用，需要的假设条件（如变量的独立性、正态性等）比逻辑斯蒂回归等模型要少得多，也不需要检查变量的交互作用和非线性作用是否显著，在大多数情况下模型参数的缺省设置可以给出最优或接近最优的结果。<br>因此为了解决单个决策树泛化能力弱的缺点，我们可以使用基于”rpart”包的随机森林”randomForest”包。我们设定生成100棵决策树，进行随机森林的预测。随机森林的训练组预测准确率为0.7641791。我们进一步计算MeanDecreaseGini值，该数值即通过基尼指数计算每个变量对分类树上每个节点的观测值的异质性影响，值越大表示该变量的重要性越大。年龄（其MeanDecreaseGini值为105.03092）、社会资本（其MeanDecreaseGini值为68.44540）与户口（其MeanDecreaseGini值为34.15491）对个人最终是否体制内就业有显著影响。<br><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># random forest</span></span><br><span class="line"><span class="keyword">library</span>(<span class="string">'randomForest'</span>)</span><br><span class="line">clds_rftrain &lt;- randomForest(formula, data=traindata, ntree=<span class="number">100</span>, proximity=<span class="literal">TRUE</span>)</span><br><span class="line">ptable &lt;- table(predict(clds_rftrain), traindata$ecosector,dnn=c(<span class="string">"predictvalue"</span>,<span class="string">"truevalue"</span>))</span><br><span class="line">pratio &lt;- sum(diag(ptable))/sum(ptable)</span><br><span class="line">pratio</span><br><span class="line">print(clds_rftrain)</span><br><span class="line">importance(clds_rftrain)</span><br><span class="line">varImpPlot(clds_rftrain)</span><br><span class="line"></span><br><span class="line">clds_rftest &lt;- predict(clds_rftrain, newdata=testdata)</span><br><span class="line">ptable3 &lt;- table(clds_rftest, testdata$ecosector,dnn=c(<span class="string">"predictvalue"</span>,<span class="string">"truevalue"</span>))</span><br><span class="line">pratio3 &lt;- sum(diag(ptable3))/sum(ptable3)</span><br><span class="line">pratio3</span><br><span class="line">plot(margin(clds_rftrain, testdata$ecosector))</span><br></pre></td></tr></table></figure></p>
+<h2 id="（二）Random-Forest"><a href="#（二）Random-Forest" class="headerlink" title="（二）Random Forest"></a>（二）Random Forest</h2><p>尽管我们上述比较了传统ID3、CART算法与新近的条件推断决策树，但一棵树的生成肯定还是不如多棵树，随机森林结构比较复杂，但是它却极端易用，需要的假设条件（如变量的独立性、正态性等）比逻辑斯蒂回归等模型要少得多，也不需要检查变量的交互作用和非线性作用是否显著，在大多数情况下模型参数的缺省设置可以给出最优或接近最优的结果。<br>因此为了解决单个决策树泛化能力弱的缺点，我们可以使用基于”rpart”包的随机森林”randomForest”包。我们设定生成100棵决策树，进行随机森林的预测。随机森林的训练组预测准确率为0.7641791。我们进一步计算MeanDecreaseGini值，该数值即通过基尼指数计算每个变量对分类树上每个节点的观测值的异质性影响，值越大表示该变量的重要性越大。年龄（其MeanDecreaseGini值为105.03092）、社会资本（其MeanDecreaseGini值为68.44540）与户口（其MeanDecreaseGini值为34.15491）对个人最终是否体制内就业有显著影响。<br><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># random forest</span></span><br><span class="line"><span class="keyword">library</span>(<span class="string">'randomForest'</span>)</span><br><span class="line">clds_rftrain &lt;- randomForest(formula, data=traindata, ntree=<span class="number">100</span>, proximity=<span class="literal">TRUE</span>)</span><br><span class="line">ptable &lt;- table(predict(clds_rftrain), traindata$ecosector,dnn=c(<span class="string">"predictvalue"</span>,<span class="string">"truevalue"</span>))</span><br><span class="line">pratio &lt;- sum(diag(ptable))/sum(ptable)</span><br><span class="line">pratio</span><br><span class="line">print(clds_rftrain)</span><br><span class="line">importance(clds_rftrain)</span><br><span class="line">varImpPlot(clds_rftrain)</span><br><span class="line"></span><br><span class="line">clds_rftest &lt;- predict(clds_rftrain, newdata=testdata)</span><br><span class="line">ptable3 &lt;- table(clds_rftest, testdata$ecosector,dnn=c(<span class="string">"predictvalue"</span>,<span class="string">"truevalue"</span>))</span><br><span class="line">pratio3 &lt;- sum(diag(ptable3))/sum(ptable3)</span><br><span class="line">pratio3</span><br><span class="line">plot(margin(clds_rftrain, testdata$ecosector))</span><br></pre></td></tr></table></figure></p>
 <p>最后，我们基于训练组模型，对测试组进行预测的准确率为0.7265306。本文随后进行了多次测试，准确率最终稳定在75%左右。认为该模型可以大致预测个人最终的就职情况。但值得注意的是，由于数据限制，我们很难完全厘清某些变量如社会资本对个人就职的影响，是个人就职影响社会资本，还是反过来社会资本影响个人就职。因此这里的示例仍更偏向于判断而非预测。</p>
 
       
@@ -626,7 +626,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#（一）classification-tree"><span class="nav-text">（一）classification tree</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#（二）random-forest"><span class="nav-text">（二）random forest</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#（一）Classification-Tree"><span class="nav-text">（一）Classification Tree</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#（二）Random-Forest"><span class="nav-text">（二）Random Forest</span></a></li></ol></div>
             
           </div>
         </section>
@@ -646,7 +646,7 @@
   
   &copy;  2015 - 
   <span itemprop="copyrightYear">2020</span>
-  <span class="post-count">The blog has written 586.8k words</span>
+  <span class="post-count">The blog has written 587.4k words</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
