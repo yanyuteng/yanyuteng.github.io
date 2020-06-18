@@ -1,3 +1,4 @@
+http://yanyuteng.github.io/2020/06/18/trans-A-Demographic-Microsimulation-Model-Using-NetLogo.html
 http://yanyuteng.github.io/2020/06/08/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/05/28/diary-nanning.html
 http://yanyuteng.github.io/2020/05/19/prose-ARIMA-population-forecast.html
@@ -147,4 +148,3 @@ http://yanyuteng.github.io/2015/04/02/akutagawa-ryunosuke's-short-story-memo.htm
 http://yanyuteng.github.io/2015/03/27/notes-on-rural-reconstruction-in-the-interior.html
 http://yanyuteng.github.io/2015/03/13/notes-on-birth-system.html
 http://yanyuteng.github.io/2015/03/11/notes-on-rural-china.html
-http://yanyuteng.github.io/2015/03/06/diary-hainan.html
