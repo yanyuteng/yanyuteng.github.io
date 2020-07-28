@@ -1,4 +1,4 @@
-http://yanyuteng.github.io/2020/07/20/diary-2020-year-notes.html
+http://yanyuteng.github.io/2020/07/27/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/07/18/prose-intro-to-geoda-software.html
 http://yanyuteng.github.io/2020/07/13/sociologists'blog-sites.html
 http://yanyuteng.github.io/2020/07/11/diary-impression-of-yun-nan.html
@@ -12,6 +12,7 @@ http://yanyuteng.github.io/2019/12/28/diary-2019-year-notes.html
 http://yanyuteng.github.io/2019/12/11/memo-Peony-transplanted.html
 http://yanyuteng.github.io/2019/10/18/prose-population-prediction-based-on-system-dynamics.html
 http://yanyuteng.github.io/2019/09/30/memo-western-esotcricism.html
+http://yanyuteng.github.io/2019/09/30/prose-transition-of-chinas-population-policy.html
 http://yanyuteng.github.io/2019/08/13/prose-intra-system-employment-prediction-based-on-classification-tree.html
 http://yanyuteng.github.io/2019/07/30/memo-of-the-sociological-study-of-anomie.html
 http://yanyuteng.github.io/2019/07/19/memo-of-generation-perdue.html
@@ -152,4 +153,3 @@ http://yanyuteng.github.io/2015/03/27/notes-on-rural-reconstruction-in-the-inter
 http://yanyuteng.github.io/2015/03/13/notes-on-birth-system.html
 http://yanyuteng.github.io/2015/03/11/notes-on-rural-china.html
 http://yanyuteng.github.io/2015/03/06/diary-hainan.html
-http://yanyuteng.github.io/2015/01/28/diary-lhasa.html
