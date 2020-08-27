@@ -103,21 +103,21 @@
 
 
 
-<meta name="description" content="有关人口预测的模型和方法很多，不同方法和模型各有优缺点，本文用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}">
+<meta name="description" content="有关人口预测的模型和方法很多，不同方法和模型各有优缺点，这里用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}">
 <meta name="keywords" content="methodology,demography">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Prose_基于ARIMA模型的人口预测">
+<meta property="og:title" content="Prose_Intro to ARIMA Model">
 <meta property="og:url" content="http://yanyuteng.github.io/2020/05/19/prose-ARIMA-population-forecast.html">
 <meta property="og:site_name" content="Yuteng Yan">
-<meta property="og:description" content="有关人口预测的模型和方法很多，不同方法和模型各有优缺点，本文用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}">
+<meta property="og:description" content="有关人口预测的模型和方法很多，不同方法和模型各有优缺点，这里用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/model_arima/forecastRplot.jpeg">
 <meta property="og:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/model_arima/pop.jpg">
 <meta property="og:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/model_arima/popdif.jpg">
-<meta property="og:updated_time" content="2020-05-20T19:31:49.019Z">
+<meta property="og:updated_time" content="2020-08-27T09:27:37.949Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Prose_基于ARIMA模型的人口预测">
-<meta name="twitter:description" content="有关人口预测的模型和方法很多，不同方法和模型各有优缺点，本文用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}">
+<meta name="twitter:title" content="Prose_Intro to ARIMA Model">
+<meta name="twitter:description" content="有关人口预测的模型和方法很多，不同方法和模型各有优缺点，这里用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}">
 <meta name="twitter:image" content="https://blog-demos.oss-cn-hongkong.aliyuncs.com/model_arima/forecastRplot.jpeg">
 
 
@@ -136,7 +136,7 @@
   };
 </script>
 
-  <title> Prose_基于ARIMA模型的人口预测 | Yuteng Yan </title>
+  <title> Prose_Intro to ARIMA Model | Yuteng Yan </title>
 </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="en">
@@ -324,7 +324,7 @@
             
             
               
-                Prose_基于ARIMA模型的人口预测
+                Prose_Intro to ARIMA Model
               
             
           </h1>
@@ -387,7 +387,7 @@
       
 
       
-        <p>有关人口预测的模型和方法很多，不同方法和模型各有优缺点，本文用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：<br>$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}\alpha_{t - 1} + \cdots + \theta_{q}\alpha_{t - q}$$<br><a id="more"></a></p>
+        <p>有关人口预测的模型和方法很多，不同方法和模型各有优缺点，这里用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：<br>$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}\alpha_{t - 1} + \cdots + \theta_{q}\alpha_{t - q}$$<br><a id="more"></a></p>
 <h2 id="1．预测参数设定与估计"><a href="#1．预测参数设定与估计" class="headerlink" title="1．预测参数设定与估计"></a>1．预测参数设定与估计</h2><p>运用 ARIMA 模型建立模型通常从以下三个步骤出发：<br>第一步，时间序列平稳化处理:根据时间序列趋势图，如果所得出的时间序列不是平稳时间序列，应当采用差分运算将原时间序列变为平稳时间序列，几阶差分需要通过单方根检验得出最优差分阶数d。差分运算就是后一时间点减去当前时间如$y_{t}-y_{t-1}$，用D表示，定义为$D_{y_{t}}=y_{t}-y_{t-1}$。那么k阶差分可表示为：$y_{t}-y_{t-\mathrm{k}}=D_{k} y_{t}=\left(1-L^{k}\right) y_{t}=y_{t}-L^{k} y_{t}$，$L$为滞后算子，定义为$L_{y_{t}}=y_{t-1}$，则k阶之后算子定义为$L^{k} y_{t}=y_{t-k}$。<br>第二步，模型参数估计与检验：根据时间序列的自相关函数图(ACF)与偏相关函数图(PACF)的拖尾与截尾的性质，可以判断参数p与q。通过由低阶到高阶的尝试，选取最优的模型参数值；并进行残差的白噪声检验，选择合适的模型；如果未通过检验，应当重新选择模型。</p>
 <table>
 <thead>
@@ -621,7 +621,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">160</span>
+              <span class="site-state-item-count">161</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -638,7 +638,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">74</span>
+                <span class="site-state-item-count">76</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
@@ -750,7 +750,7 @@
   
   &copy;  2015 - 
   <span itemprop="copyrightYear">2020</span>
-  <span class="post-count">The blog has written 639.9k words by Yuteng Yan</span>
+  <span class="post-count">The blog has written 645.2k words by Yuteng Yan</span>
 </div>
         
 
