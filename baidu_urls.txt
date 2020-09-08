@@ -1,3 +1,4 @@
+http://yanyuteng.github.io/2020/09/08/memo-text-analysis-deep-learning-and-causal-inference.html
 http://yanyuteng.github.io/2020/09/07/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/09/03/translation-of-lifecourse-health-development-past-present-and-future.html
 http://yanyuteng.github.io/2020/08/29/memo-of-Decomposing-causes-of-se-related-health-inequality-urban-and-rural.html
@@ -97,4 +98,3 @@ http://yanyuteng.github.io/2016/10/09/the-theory-of-leisure-class:-economic-rese
 http://yanyuteng.github.io/2016/10/05/enchanting-in-a-world-of-enchantment-memo.html
 http://yanyuteng.github.io/2016/09/16/luxury-and-capitalism-memo.html
 http://yanyuteng.github.io/2016/09/14/sociology-and-workplace-snake:-english-world-abstracts-in-80s.html
-http://yanyuteng.github.io/2016/09/12/on-shit.html
