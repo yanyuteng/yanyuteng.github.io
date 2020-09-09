@@ -24,6 +24,7 @@ http://yanyuteng.github.io/2019/09/30/prose-transition-of-chinas-population-poli
 http://yanyuteng.github.io/2019/08/13/prose-intra-system-employment-prediction-based-on-classification-tree.html
 http://yanyuteng.github.io/2019/07/30/memo-of-the-sociological-study-of-anomie.html
 http://yanyuteng.github.io/2019/07/19/memo-of-generation-perdue.html
+http://yanyuteng.github.io/2019/07/01/prose-how-to-write-literature-review.html
 http://yanyuteng.github.io/2019/06/22/memo-theoretical-foundation-causal-inference-in-the-social-science.html
 http://yanyuteng.github.io/2019/06/04/memo-social-network-analysis-wasserman.html
 http://yanyuteng.github.io/2019/05/16/memo-social-network-analysis-scott.html
@@ -97,4 +98,3 @@ http://yanyuteng.github.io/2016/10/15/a-summary-of-western-classics:-memo.html
 http://yanyuteng.github.io/2016/10/09/the-theory-of-leisure-class:-economic-research-on-systems-memo.html
 http://yanyuteng.github.io/2016/10/05/enchanting-in-a-world-of-enchantment-memo.html
 http://yanyuteng.github.io/2016/09/16/luxury-and-capitalism-memo.html
-http://yanyuteng.github.io/2016/09/14/sociology-and-workplace-snake:-english-world-abstracts-in-80s.html
