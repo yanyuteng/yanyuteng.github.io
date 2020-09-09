@@ -1,6 +1,7 @@
+http://yanyuteng.github.io/2020/09/09/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/09/08/memo-text-analysis-deep-learning-and-causal-inference.html
-http://yanyuteng.github.io/2020/09/08/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/09/03/translation-of-lifecourse-health-development-past-present-and-future.html
+http://yanyuteng.github.io/2020/09/02/prose-starting-with-parsons.html
 http://yanyuteng.github.io/2020/08/29/memo-of-Decomposing-causes-of-se-related-health-inequality-urban-and-rural.html
 http://yanyuteng.github.io/2020/08/28/memo-of-health-income-inequality-averages-and-disparities.html
 http://yanyuteng.github.io/2020/08/27/memo-of-occuption-status-working-condition-and-health.html
@@ -26,6 +27,7 @@ http://yanyuteng.github.io/2019/07/30/memo-of-the-sociological-study-of-anomie.h
 http://yanyuteng.github.io/2019/07/19/memo-of-generation-perdue.html
 http://yanyuteng.github.io/2019/07/01/prose-how-to-write-literature-review.html
 http://yanyuteng.github.io/2019/06/22/memo-theoretical-foundation-causal-inference-in-the-social-science.html
+http://yanyuteng.github.io/2019/06/20/memo-hermeneutics-and-the-rise-of-modern-science-butian-zhang.html
 http://yanyuteng.github.io/2019/06/04/memo-social-network-analysis-wasserman.html
 http://yanyuteng.github.io/2019/05/16/memo-social-network-analysis-scott.html
 http://yanyuteng.github.io/2019/05/07/memo-of-sources-of-urban-residents-social-capital.html
@@ -96,5 +98,3 @@ http://yanyuteng.github.io/2016/10/27/fifteen-lectures-on-modernity-and-postmode
 http://yanyuteng.github.io/2016/10/25/design-qualitative-research,-memo.html
 http://yanyuteng.github.io/2016/10/19/cultural-contradictions-in-capitalism-memo.html
 http://yanyuteng.github.io/2016/10/15/a-summary-of-western-classics:-memo.html
-http://yanyuteng.github.io/2016/10/09/the-theory-of-leisure-class:-economic-research-on-systems-memo.html
-http://yanyuteng.github.io/2016/10/05/enchanting-in-a-world-of-enchantment-memo.html
