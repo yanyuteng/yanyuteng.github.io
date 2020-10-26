@@ -1,7 +1,8 @@
-http://yanyuteng.github.io/2020/10/22/diary-2020-year-notes.html
+http://yanyuteng.github.io/2020/10/25/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/10/18/diary-zhao-qing.html
 http://yanyuteng.github.io/2020/10/07/diary-chen-zhou-and-heng-yang.html
 http://yanyuteng.github.io/2020/10/04/diary-qian-xi-nan.html
+http://yanyuteng.github.io/2020/09/30/memo-norbert-elias-and-modern-social-theory.html
 http://yanyuteng.github.io/2020/09/27/diary-jiang-men.html
 http://yanyuteng.github.io/2020/09/08/memo-text-analysis-deep-learning-and-causal-inference.html
 http://yanyuteng.github.io/2020/09/03/translation-of-lifecourse-health-development-past-present-and-future.html
@@ -97,4 +98,3 @@ http://yanyuteng.github.io/2017/02/20/the-logic-of-collective-action-memo.html
 http://yanyuteng.github.io/2016/12/31/diary-2016-year-notes.html
 http://yanyuteng.github.io/2016/12/20/an-overview-of-the-relationship-between-parents-and-children-from-a-cultural-perspective.html
 http://yanyuteng.github.io/2016/12/18/power-and-rules-memo.html
-http://yanyuteng.github.io/2016/11/06/ten-lectures-on-organizational-sociology-memo.html
