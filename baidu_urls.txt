@@ -1,6 +1,6 @@
+http://yanyuteng.github.io/2020/12/13/translation-of-social-networks-and-health-in-later-life-a-state-of-the-literature.html
 http://yanyuteng.github.io/2020/12/11/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/12/10/translation-of-nature-and-health-annual-review-of-public-health.html
-http://yanyuteng.github.io/2020/12/03/translation-of-environment-and-health-of-cambridge-handbook-of-psychology.html
 http://yanyuteng.github.io/2020/12/02/translation-of-introduction-beyond-the-black-report.html
 http://yanyuteng.github.io/2020/12/01/translation-of-dispelling-the-myths-of-the-black-report.html
 http://yanyuteng.github.io/2020/11/30/translation-of-the-orgin-of-black-report.html
@@ -16,8 +16,8 @@ http://yanyuteng.github.io/2020/09/03/translation-of-lifecourse-health-developme
 http://yanyuteng.github.io/2020/09/02/prose-starting-with-parsons.html
 http://yanyuteng.github.io/2020/08/29/memo-of-Decomposing-causes-of-se-related-health-inequality-urban-and-rural.html
 http://yanyuteng.github.io/2020/08/28/memo-of-health-income-inequality-averages-and-disparities.html
-http://yanyuteng.github.io/2020/08/27/memo-of-occuption-status-working-condition-and-health.html
 http://yanyuteng.github.io/2020/08/27/translation-of-life-course-social-change-sei-and-health-disparities.html
+http://yanyuteng.github.io/2020/08/27/memo-of-occuption-status-working-condition-and-health.html
 http://yanyuteng.github.io/2020/08/22/memo-interview-chen-jia-ying-and-xiang-biao.html
 http://yanyuteng.github.io/2020/08/02/memo-demography Past, present, and future.html
 http://yanyuteng.github.io/2020/07/18/prose-intro-to-geoda-software.html
