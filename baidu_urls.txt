@@ -1,13 +1,10 @@
 http://yanyuteng.github.io/2021/01/03/diary-gui-lin.html
-http://yanyuteng.github.io/2021/01/01/diary-2021-year-notes.html
 http://yanyuteng.github.io/2020/12/31/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/12/27/diary-wu-zhou.html
-http://yanyuteng.github.io/2020/12/14/memo-of-health-and-enviorment-social-ecology-theory.html
 http://yanyuteng.github.io/2020/12/13/translation-of-social-networks-and-health-in-later-life-a-state-of-the-literature.html
-http://yanyuteng.github.io/2020/12/10/translation-of-nature-and-health-annual-review-of-public-health.html
-http://yanyuteng.github.io/2020/12/02/translation-of-introduction-beyond-the-black-report.html
-http://yanyuteng.github.io/2020/12/01/translation-of-dispelling-the-myths-of-the-black-report.html
-http://yanyuteng.github.io/2020/11/30/translation-of-the-orgin-of-black-report.html
+http://yanyuteng.github.io/2020/12/12/translation-of-nature-and-health-annual-review-of-public-health-2.html
+http://yanyuteng.github.io/2020/12/11/translation-of-nature-and-health-annual-review-of-public-health-1.html
+http://yanyuteng.github.io/2020/12/02/memo-of-the-history-of-black-report.html
 http://yanyuteng.github.io/2020/11/20/memo-introducition-the-need-to-rethink-population-forecasts-method.html
 http://yanyuteng.github.io/2020/11/03/diary-jiang-men.html
 http://yanyuteng.github.io/2020/10/30/prose-mens-life-is-like-boarding-in-this-world.html
@@ -20,9 +17,8 @@ http://yanyuteng.github.io/2020/09/03/translation-of-lifecourse-health-developme
 http://yanyuteng.github.io/2020/09/02/prose-starting-with-parsons.html
 http://yanyuteng.github.io/2020/08/29/memo-of-Decomposing-causes-of-se-related-health-inequality-urban-and-rural.html
 http://yanyuteng.github.io/2020/08/28/memo-of-health-income-inequality-averages-and-disparities.html
-http://yanyuteng.github.io/2020/08/27/memo-of-occuption-status-working-condition-and-health.html
 http://yanyuteng.github.io/2020/08/27/translation-of-life-course-social-change-sei-and-health-disparities.html
-http://yanyuteng.github.io/2020/08/22/memo-interview-chen-jia-ying-and-xiang-biao.html
+http://yanyuteng.github.io/2020/08/22/memo-interview-of-chen-jia-ying-and-xiang-biao.html
 http://yanyuteng.github.io/2020/08/02/memo-demography Past, present, and future.html
 http://yanyuteng.github.io/2020/07/18/prose-intro-to-geoda-software.html
 http://yanyuteng.github.io/2020/07/13/sociologists'blog-sites.html
@@ -30,7 +26,7 @@ http://yanyuteng.github.io/2020/07/11/diary-impression-of-yun-nan.html
 http://yanyuteng.github.io/2020/06/18/trans-A-Demographic-Microsimulation-Model-Using-NetLogo.html
 http://yanyuteng.github.io/2020/05/28/diary-nanning.html
 http://yanyuteng.github.io/2020/05/19/prose-ARIMA-population-forecast.html
-http://yanyuteng.github.io/2020/04/11/sociology-PhD-in-Sociology-in-Hong-Kong.html
+http://yanyuteng.github.io/2020/04/11/sociology-phd-programs-in-Hong-Kong.html
 http://yanyuteng.github.io/2020/02/01/memo-urban-building-blocks.html
 http://yanyuteng.github.io/2020/01/15/memo-interactions-natural-sciences-social-sciences.html
 http://yanyuteng.github.io/2019/12/28/diary-2019-year-notes.html
@@ -57,7 +53,7 @@ http://yanyuteng.github.io/2019/03/19/prose-sheaf-coefficients.html
 http://yanyuteng.github.io/2019/03/13/translation-of-do-the-poor-pay-more-for-housing.html
 http://yanyuteng.github.io/2019/02/24/translation-of-connected-in-crime.html
 http://yanyuteng.github.io/2019/01/24/jae-on-kim-interview.html
-http://yanyuteng.github.io/2019/01/19/castells-as-an-urban-sociologist.html
+http://yanyuteng.github.io/2019/01/19/castells-as-an-urban-sociologist-discussion-based-on-network-society.html
 http://yanyuteng.github.io/2019/01/08/strategism-memo.html
 http://yanyuteng.github.io/2018/12/31/diary-2018-year-notes.html
 http://yanyuteng.github.io/2018/12/14/death-in-the-age-of-individualization-memo.html
@@ -66,7 +62,7 @@ http://yanyuteng.github.io/2018/12/06/prose-how-to-do-a-theoretical-dialogue.htm
 http://yanyuteng.github.io/2018/12/02/translation-Cultural-Contingency-of-Structure.html
 http://yanyuteng.github.io/2018/11/23/after-bourdieu.html
 http://yanyuteng.github.io/2018/11/22/translation-Bourdieu-and-an-update-of-health-lifestyle-theory.html
-http://yanyuteng.github.io/2018/11/11/what-is-networks-a-debate-of-ANT-and-SNA.html
+http://yanyuteng.github.io/2018/11/11/what-is-networks-a-discussion-between-of-ANT-and-SNA.html
 http://yanyuteng.github.io/2018/10/30/summary-of-pusher-and-addict.html
 http://yanyuteng.github.io/2018/10/05/individualization-death-of-class.html
 http://yanyuteng.github.io/2018/09/15/doing-fieldwork-in-china-memo.html
@@ -90,7 +86,7 @@ http://yanyuteng.github.io/2017/11/24/i-am-on-the-scene,-memo.html
 http://yanyuteng.github.io/2017/11/23/urban-studies-periodicals:-production-and-consumption-of-new-urban-space-in-china:-government,-market-and-society.html
 http://yanyuteng.github.io/2017/11/15/the-day-of-gangster-boss-memo.html
 http://yanyuteng.github.io/2017/11/08/community-across-the-border:-life-history-of-zhejiang-village,-beijing,-memo.html
-http://yanyuteng.github.io/2017/10/24/summary-of-sociological-research-on-icu.html
+http://yanyuteng.github.io/2017/10/24/an-overview-of-sociological-research-on-icu.html
 http://yanyuteng.github.io/2017/10/20/translation-the-missing-voice-of-the-critically-ill.html
 http://yanyuteng.github.io/2017/10/14/soulstealers-memo.html
 http://yanyuteng.github.io/2017/09/01/my-liangshan-brothers-memo.html
@@ -98,3 +94,7 @@ http://yanyuteng.github.io/2017/06/29/diary-f-community.html
 http://yanyuteng.github.io/2017/05/15/translation-public-enterprise-reforms-in-the-united-states-and-the-people's-republic-people's.html
 http://yanyuteng.github.io/2017/05/14/naive-anthropologist-memo.html
 http://yanyuteng.github.io/2017/05/11/translation-of-feeding-the-city.html
+http://yanyuteng.github.io/2017/04/30/the-imagination-of-sociology-memo.html
+http://yanyuteng.github.io/2017/04/23/the-politics-of-life-itself-memo.html
+http://yanyuteng.github.io/2017/04/13/the-space-for-struggle:-gossip-about-the-famous-residential-district.html
+http://yanyuteng.github.io/2017/04/12/rationalization-and-its-limitations-memo.html
