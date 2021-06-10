@@ -33,7 +33,7 @@ http://yanyuteng.github.io/2019/12/28/diary-2019-year-notes.html
 http://yanyuteng.github.io/2019/12/11/memo-Peony-transplanted.html
 http://yanyuteng.github.io/2019/11/29/memo-a-journey-to-explore-sociology.html
 http://yanyuteng.github.io/2019/11/17/memo-tsinghua-sociologist-chen-da.html
-http://yanyuteng.github.io/2019/10/18/prose-population-prediction-based-on-system-dynamics.html
+http://yanyuteng.github.io/2019/10/18/prose-intro-to-cohort-component-method-based-on-vensim.html
 http://yanyuteng.github.io/2019/09/30/memo-western-esotcricism.html
 http://yanyuteng.github.io/2019/09/30/prose-transition-of-chinas-population-policy.html
 http://yanyuteng.github.io/2019/08/13/prose-intra-system-employment-prediction-based-on-classification-tree.html
