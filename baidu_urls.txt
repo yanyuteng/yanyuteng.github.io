@@ -1,5 +1,4 @@
 http://yanyuteng.github.io/2021/01/03/diary-gui-lin.html
-http://yanyuteng.github.io/2020/12/31/diary-2020-year-notes.html
 http://yanyuteng.github.io/2020/12/27/diary-wu-zhou.html
 http://yanyuteng.github.io/2020/12/13/translation-of-social-networks-and-health-in-later-life-a-state-of-the-literature.html
 http://yanyuteng.github.io/2020/12/12/translation-of-nature-and-health-annual-review-of-public-health-2.html
@@ -29,7 +28,6 @@ http://yanyuteng.github.io/2020/05/19/prose-ARIMA-population-forecast.html
 http://yanyuteng.github.io/2020/04/11/sociology-phd-programs-in-Hong-Kong.html
 http://yanyuteng.github.io/2020/02/01/memo-urban-building-blocks.html
 http://yanyuteng.github.io/2020/01/15/memo-interactions-natural-sciences-social-sciences.html
-http://yanyuteng.github.io/2019/12/28/diary-2019-year-notes.html
 http://yanyuteng.github.io/2019/12/11/memo-Peony-transplanted.html
 http://yanyuteng.github.io/2019/11/29/memo-a-journey-to-explore-sociology.html
 http://yanyuteng.github.io/2019/11/17/memo-tsinghua-sociologist-chen-da.html
@@ -55,7 +53,6 @@ http://yanyuteng.github.io/2019/02/24/translation-of-connected-in-crime.html
 http://yanyuteng.github.io/2019/01/24/jae-on-kim-interview.html
 http://yanyuteng.github.io/2019/01/19/castells-as-an-urban-sociologist-discussion-based-on-network-society.html
 http://yanyuteng.github.io/2019/01/08/strategism-memo.html
-http://yanyuteng.github.io/2018/12/31/diary-2018-year-notes.html
 http://yanyuteng.github.io/2018/12/14/death-in-the-age-of-individualization-a-discussion-based-on-loneliness-of-the-dying.html
 http://yanyuteng.github.io/2018/12/09/summary-reshaping-life-with-pain-and-fortune-dual-narrative-of-depressive-patients.html
 http://yanyuteng.github.io/2018/12/06/prose-how-to-do-a-theoretical-dialogue.html
@@ -80,7 +77,6 @@ http://yanyuteng.github.io/2018/03/12/corporatism-memo.html
 http://yanyuteng.github.io/2018/01/17/discovery-society-memo.html
 http://yanyuteng.github.io/2018/01/01/translation-international-expansion-of-the-american-style-service-club.html
 http://yanyuteng.github.io/2017/12/31/translation-service-over-secrecy_-how-lodge->-style-fraternalism-yielded-popularity-to-men's-popularity.html
-http://yanyuteng.github.io/2017/12/31/diary-2017-year-notes.html
 http://yanyuteng.github.io/2017/12/01/people-and-places-in-the-city-memo.html
 http://yanyuteng.github.io/2017/11/24/i-am-on-the-scene,-memo.html
 http://yanyuteng.github.io/2017/11/23/urban-studies-periodicals:-production-and-consumption-of-new-urban-space-in-china:-government,-market-and-society.html
@@ -90,7 +86,6 @@ http://yanyuteng.github.io/2017/10/24/an-overview-of-sociological-research-on-ic
 http://yanyuteng.github.io/2017/10/20/translation-the-missing-voice-of-the-critically-ill.html
 http://yanyuteng.github.io/2017/10/14/soulstealers-memo.html
 http://yanyuteng.github.io/2017/09/01/my-liangshan-brothers-memo.html
-http://yanyuteng.github.io/2017/06/29/diary-f-community.html
 http://yanyuteng.github.io/2017/05/15/translation-public-enterprise-reforms-in-the-united-states-and-the-people's-republic-people's.html
 http://yanyuteng.github.io/2017/05/14/naive-anthropologist-memo.html
 http://yanyuteng.github.io/2017/05/11/translation-of-feeding-the-city.html
@@ -98,3 +93,8 @@ http://yanyuteng.github.io/2017/04/30/the-imagination-of-sociology-memo.html
 http://yanyuteng.github.io/2017/04/23/the-politics-of-life-itself-memo.html
 http://yanyuteng.github.io/2017/04/13/the-space-for-struggle:-gossip-about-the-famous-residential-district.html
 http://yanyuteng.github.io/2017/04/12/rationalization-and-its-limitations-memo.html
+http://yanyuteng.github.io/2017/04/12/modernity-and-the-holocaust-memo.html
+http://yanyuteng.github.io/2017/04/06/voyager-on-the-western-pacific,-memo.html
+http://yanyuteng.github.io/2017/03/29/the-politics-of-time-memo.html
+http://yanyuteng.github.io/2017/03/19/chrysanthemum-and-knife-memo.html
+http://yanyuteng.github.io/2017/03/14/sociologist-and-historian-memo.html
