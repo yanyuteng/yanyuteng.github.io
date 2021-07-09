@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Yuteng Y.</title>
+  <title>Yuteng</title>
   
   <subtitle>“A Writer”</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yanyuteng.github.io/</id>
   
   <author>
-    <name>Yuteng Y.</name>
+    <name>Yuteng</name>
     
   </author>
   

@@ -366,7 +366,7 @@
   <entry>
     <title><![CDATA[Prose_如何用Vensim做人口预测？]]></title>
     <url>%2F2019%2F10%2F18%2Fprose-intro-to-cohort-component-method-based-on-vensim.html</url>
-    <content type="text"><![CDATA[最近几天的主要精力是整理广东某市的统计年鉴与人口普查的数据，年鉴侧重于户籍人口，普查侧重于常住人口。这里用基于JavaScript的Echarts做了男女性别比，用VensimPLE做了一次系统动力学的常住人口预测示例；尔后用R语言的animation包与ggplot2包做了人口金字塔的动图，最终效果如下图。 Fig.1 Population Pyramid，2010-2035 这一常住人口模型是十分粗糙的，它假定了常住人口流动幅度很小（模型中设定为0）、死亡率变化幅度很小（模型中不变）、总和生育率恒定在1.6左右，乃及不同年龄别的男女比为计算方便，假定为1：1。如果需要精细预测，就要进一步考虑到年龄别的男女死亡率、外出务工人员的老年返乡等因素。2010年，该市的常住人口结构很有意思，我们以性别比为例。男性数量在同期人群占比上存在两个峰值，一个是1948年前后出生的人口，一个是2003年前后出生的人口。当然，1913年前后出生的人口考虑到女性寿命长于男性，可能也会低估同期男性占比。但总得来讲，性别比应该是受到同期的社会环境影响，比如中间年龄段的洼地可能是由于该市是劳动力的输出大市。 // 基于准备好的dom，初始化echarts实例 var myChart = echarts.init(document.getElementById('echarts5363')); // 指定图表的配置项和数据 var option = option = { tooltip: { trigger: 'axis', axisPointer: { type: 'cross', crossStyle: { color: '#999' } } }, toolbox: { feature: { dataView: {show: true, readOnly: false}, magicType: {show: true, type: ['line', 'bar']}, restore: {show: true}, saveAsImage: {show: true} } }, legend: { data:['female proportion','male proportion','sex ratio'] }, xAxis: [ { type: 'category', data: ['1913','1918','1923','1928','1933','1938','1943','1948','1953','1958','1963','1968','1973','1978','1983','1988','1993','1998','2003','2008'], axisPointer: { type: 'shadow' } } ], yAxis: [ { type: 'value', name: 'female proportion', min: 0, max: 1.5, interval: 0.2, axisLabel: { formatter: '{value} per' } }, { type: 'value', name: 'male proportion', min: 0, max: 1.5, interval: 0.2, axisLabel: { formatter: '{value} per' } } ], series: [ { name:'female proportion', type:'bar', data:[0.764,0.645,0.619,0.561,0.519,0.474,0.469,0.451,0.481,0.496,0.521,0.540,0.540,0.521,0.520,0.491,0.457,0.422,0.415,0.440] }, { name:'male proportion', type:'bar', data:[0.236,0.355,0.381,0.439,0.481,0.526,0.531,0.549,0.519,0.504,0.479,0.460,0.460,0.479,0.480,0.509,0.543,0.578,0.585,0.560] }, { name:'sex ratio', type:'line', yAxisIndex: 1, data:[0.31,0.55,0.61,0.78,0.93,1.11,1.13,1.22,1.08,1.02,0.92,0.85,0.85,0.92,0.92,1.04,1.19,1.37,1.41,1.27] } ] }; // 使用刚指定的配置项和数据显示图表。 myChart.setOption(option); 同时，诚如Fig1的人口金字塔，2010年前后，该市人口结构是增长性人口结构；预期在2035年前后转为稳定型人口结构；如果进一步预测，该市可能2050年前后开始迅速老龄化。但相比于东北城市，该市的生育率仍然是相当高的，城市人口也十分年轻。最后，本文使用的系统动力学的人口模型如下图；人口金字塔的制图参考了EasyCharts2017年5月的文章，代码如下。 Fig.2 System Dynamics Graph1234567891011121314151617181920212223242526272829303132333435363738394041424344454647library(ggplot2)library(animation)library(dplyr)library(tidyr)library(xlsx)library(ggthemes)male&lt;-read.xlsx("population simulation.xlsx",sheetName="male2",header=T,encoding='UTF-8',check.names = FALSE)female&lt;-read.xlsx("population simulation.xlsx",sheetName="female2",header=T,encoding='UTF-8',check.names = FALSE)female&lt;-female%&gt;%gather(Year,Population,-1)male&lt;-male%&gt;%gather(Year,Population,-1)female$Population&lt;-female$Population*-1male$sex&lt;-"male";female$sex&lt;-"female"maoming&lt;-rbind(male,female)maoming$Population &lt;- round(maoming$Population)maoming$abs_pop &lt;- abs(maoming$Population)maoming$agegroup&lt;-factor(maoming$agegroup,levels=c("0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49", "50-54","55-59","60-64","65-69","70-74","75-79","80-84",'85-90','91-94','95-99'),order=T)m&lt;-seq(2010,2035,by=1)saveGIF(&#123; for (i in m) &#123; title &lt;- as.character(i) year_data &lt;- filter(maoming,Year==i) g1&lt;-ggplot(year_data,aes(x =agegroup,y=Population,fill=sex,width=1)) + coord_fixed()+ coord_flip() + geom_bar(data=subset(year_data,sex=="female"),stat = "identity") + geom_bar(data=subset(year_data,sex=="male"), stat = "identity") + scale_y_continuous(breaks = seq(-400000,400000,length=9), labels = paste0(as.character(c(abs(seq(-40,40,length=9)))), "w"), limits = c(-450000, 450000)) + theme_economist(base_size = 14) + scale_fill_manual(values = c('#D40225', '#374F8F')) + labs(title=paste0("Population structure of Maoming:", title), caption="Data Source: Census data of Maoming City, the 2010 Revision" ,y="Population",x="Age") + guides(fill=guide_legend(reverse = TRUE))+ theme( legend.position =c(0.8,0.9), legend.title = element_blank(), plot.title = element_text(size=20), plot.caption = element_text(size=12,hjust=0), ) print(g1) &#125;&#125;,movie.name='maoming_population.gif',interval=0.5,ani.width=700,ani.height=600)]]></content>
+    <content type="text"><![CDATA[最近几天的主要精力是整理广东某市的统计年鉴与人口普查的数据，年鉴侧重于户籍人口，普查侧重于常住人口。这里用基于JavaScript的Echarts做了男女性别比，用VensimPLE做了一次系统动力学的常住人口预测示例；尔后用R语言的animation包与ggplot2包做了人口金字塔的动图，最终效果如下图。 Fig.1 Population Pyramid，2010-2035 这一常住人口模型是十分粗糙的，它假定了常住人口流动幅度很小（模型中设定为0）、死亡率变化幅度很小（模型中不变）、总和生育率恒定在1.6左右，乃及不同年龄别的男女比为计算方便，假定为1：1。如果需要精细预测，就要进一步考虑到年龄别的男女死亡率、外出务工人员的老年返乡等因素。2010年，该市的常住人口结构很有意思，我们以性别比为例。男性数量在同期人群占比上存在两个峰值，一个是1948年前后出生的人口，一个是2003年前后出生的人口。当然，1913年前后出生的人口考虑到女性寿命长于男性，可能也会低估同期男性占比。但总得来讲，性别比应该是受到同期的社会环境影响，比如中间年龄段的洼地可能是由于该市是劳动力的输出大市。 // 基于准备好的dom，初始化echarts实例 var myChart = echarts.init(document.getElementById('echarts6813')); // 指定图表的配置项和数据 var option = option = { tooltip: { trigger: 'axis', axisPointer: { type: 'cross', crossStyle: { color: '#999' } } }, toolbox: { feature: { dataView: {show: true, readOnly: false}, magicType: {show: true, type: ['line', 'bar']}, restore: {show: true}, saveAsImage: {show: true} } }, legend: { data:['female proportion','male proportion','sex ratio'] }, xAxis: [ { type: 'category', data: ['1913','1918','1923','1928','1933','1938','1943','1948','1953','1958','1963','1968','1973','1978','1983','1988','1993','1998','2003','2008'], axisPointer: { type: 'shadow' } } ], yAxis: [ { type: 'value', name: 'female proportion', min: 0, max: 1.5, interval: 0.2, axisLabel: { formatter: '{value} per' } }, { type: 'value', name: 'male proportion', min: 0, max: 1.5, interval: 0.2, axisLabel: { formatter: '{value} per' } } ], series: [ { name:'female proportion', type:'bar', data:[0.764,0.645,0.619,0.561,0.519,0.474,0.469,0.451,0.481,0.496,0.521,0.540,0.540,0.521,0.520,0.491,0.457,0.422,0.415,0.440] }, { name:'male proportion', type:'bar', data:[0.236,0.355,0.381,0.439,0.481,0.526,0.531,0.549,0.519,0.504,0.479,0.460,0.460,0.479,0.480,0.509,0.543,0.578,0.585,0.560] }, { name:'sex ratio', type:'line', yAxisIndex: 1, data:[0.31,0.55,0.61,0.78,0.93,1.11,1.13,1.22,1.08,1.02,0.92,0.85,0.85,0.92,0.92,1.04,1.19,1.37,1.41,1.27] } ] }; // 使用刚指定的配置项和数据显示图表。 myChart.setOption(option); 同时，诚如Fig1的人口金字塔，2010年前后，该市人口结构是增长性人口结构；预期在2035年前后转为稳定型人口结构；如果进一步预测，该市可能2050年前后开始迅速老龄化。但相比于东北城市，该市的生育率仍然是相当高的，城市人口也十分年轻。最后，本文使用的系统动力学的人口模型如下图；人口金字塔的制图参考了EasyCharts2017年5月的文章，代码如下。 Fig.2 System Dynamics Graph1234567891011121314151617181920212223242526272829303132333435363738394041424344454647library(ggplot2)library(animation)library(dplyr)library(tidyr)library(xlsx)library(ggthemes)male&lt;-read.xlsx("population simulation.xlsx",sheetName="male2",header=T,encoding='UTF-8',check.names = FALSE)female&lt;-read.xlsx("population simulation.xlsx",sheetName="female2",header=T,encoding='UTF-8',check.names = FALSE)female&lt;-female%&gt;%gather(Year,Population,-1)male&lt;-male%&gt;%gather(Year,Population,-1)female$Population&lt;-female$Population*-1male$sex&lt;-"male";female$sex&lt;-"female"maoming&lt;-rbind(male,female)maoming$Population &lt;- round(maoming$Population)maoming$abs_pop &lt;- abs(maoming$Population)maoming$agegroup&lt;-factor(maoming$agegroup,levels=c("0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49", "50-54","55-59","60-64","65-69","70-74","75-79","80-84",'85-90','91-94','95-99'),order=T)m&lt;-seq(2010,2035,by=1)saveGIF(&#123; for (i in m) &#123; title &lt;- as.character(i) year_data &lt;- filter(maoming,Year==i) g1&lt;-ggplot(year_data,aes(x =agegroup,y=Population,fill=sex,width=1)) + coord_fixed()+ coord_flip() + geom_bar(data=subset(year_data,sex=="female"),stat = "identity") + geom_bar(data=subset(year_data,sex=="male"), stat = "identity") + scale_y_continuous(breaks = seq(-400000,400000,length=9), labels = paste0(as.character(c(abs(seq(-40,40,length=9)))), "w"), limits = c(-450000, 450000)) + theme_economist(base_size = 14) + scale_fill_manual(values = c('#D40225', '#374F8F')) + labs(title=paste0("Population structure of Maoming:", title), caption="Data Source: Census data of Maoming City, the 2010 Revision" ,y="Population",x="Age") + guides(fill=guide_legend(reverse = TRUE))+ theme( legend.position =c(0.8,0.9), legend.title = element_blank(), plot.title = element_text(size=20), plot.caption = element_text(size=12,hjust=0), ) print(g1) &#125;&#125;,movie.name='maoming_population.gif',interval=0.5,ani.width=700,ani.height=600)]]></content>
       <categories>
         <category>Quantitative Method</category>
       </categories>
@@ -429,8 +429,8 @@
         <category>History</category>
       </categories>
       <tags>
-        <tag>history</tag>
         <tag>china</tag>
+        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -452,8 +452,8 @@
         <category>Quantitative Method</category>
       </categories>
       <tags>
-        <tag>methodology</tag>
         <tag>econometrics</tag>
+        <tag>methodology</tag>
         <tag>causal inference</tag>
       </tags>
   </entry>
@@ -477,8 +477,8 @@
       </categories>
       <tags>
         <tag>sociology</tag>
-        <tag>methodology</tag>
         <tag>sna</tag>
+        <tag>methodology</tag>
       </tags>
   </entry>
   <entry>
@@ -490,8 +490,8 @@
       </categories>
       <tags>
         <tag>sociology</tag>
-        <tag>methodology</tag>
         <tag>sna</tag>
+        <tag>methodology</tag>
       </tags>
   </entry>
   <entry>
@@ -1005,8 +1005,8 @@
         <category>History</category>
       </categories>
       <tags>
-        <tag>history</tag>
         <tag>china</tag>
+        <tag>history</tag>
         <tag>bureaucracy</tag>
         <tag>weber</tag>
       </tags>
@@ -1229,8 +1229,8 @@
       </categories>
       <tags>
         <tag>sociology</tag>
-        <tag>philosophy</tag>
         <tag>modernity</tag>
+        <tag>philosophy</tag>
       </tags>
   </entry>
   <entry>
@@ -1600,8 +1600,8 @@
         <category>Economics</category>
       </categories>
       <tags>
-        <tag>organization</tag>
         <tag>china</tag>
+        <tag>organization</tag>
         <tag>rural area</tag>
         <tag>economics</tag>
       </tags>
@@ -1856,9 +1856,9 @@
         <category>History</category>
       </categories>
       <tags>
+        <tag>china</tag>
         <tag>history</tag>
         <tag>organization</tag>
-        <tag>china</tag>
       </tags>
   </entry>
   <entry>
@@ -1877,8 +1877,8 @@
         <category>History</category>
       </categories>
       <tags>
-        <tag>history</tag>
         <tag>china</tag>
+        <tag>history</tag>
       </tags>
   </entry>
   <entry>
