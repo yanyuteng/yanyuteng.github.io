@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yuteng&#39;s Blog</title>
+  <icon>https://yanyuteng.github.io/icon.png</icon>
+  
+  <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yanyuteng.github.io/"/>
+  <updated>2021-08-12T08:02:05.525Z</updated>
+  <id>https://yanyuteng.github.io/</id>
+  
+  <author>
+    <name>Yuteng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Diary_桂林旅记</title>
+    <link href="https://yanyuteng.github.io/2021/01/03/9e17885b/"/>
+    <id>https://yanyuteng.github.io/2021/01/03/9e17885b/</id>
+    <published>2021-01-02T16:00:00.000Z</published>
+    <updated>2021-08-12T08:02:05.525Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一月一日至三日，在广西省桂林市的旅记。桂林是白先勇的故乡，确有着南国特有的婉约和清秀。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_梧州旅记</title>
+    <link href="https://yanyuteng.github.io/2020/12/27/e4ad26a5/"/>
+    <id>https://yanyuteng.github.io/2020/12/27/e4ad26a5/</id>
+    <published>2020-12-26T16:00:00.000Z</published>
+    <updated>2021-08-12T08:04:46.448Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;廿六日与廿七日，在广西省梧州市的旅记。梧州作为两广门户，或许文化上更近于粤而远于桂，从广州南至梧州万秀区全程约三小时。行政区划上，沿桂江可分为河东与河西，二者都属于万秀区，属梧州的文旅、商业中心；万秀区西侧的长洲区是梧州市政府所在，属行政中心；交通枢纽原在长洲区的梧州站，但南侧龙圩区的梧州南站或已取代梧州站作用。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="canton" scheme="https://yanyuteng.github.io/tags/canton/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Trans_老年健康与社会网络</title>
+    <link href="https://yanyuteng.github.io/2020/12/13/9aa54a49/"/>
+    <id>https://yanyuteng.github.io/2020/12/13/9aa54a49/</id>
+    <published>2020-12-12T16:00:00.000Z</published>
+    <updated>2021-08-12T08:15:06.368Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇文章是2020年社会网络、生命历程对老年健康的影响的综述。作者Roth的单位系Indiana University社会学系。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+    <category term="sna" scheme="https://yanyuteng.github.io/tags/sna/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_健康、环境与自然（二）</title>
+    <link href="https://yanyuteng.github.io/2020/12/12/65b77c1d/"/>
+    <id>https://yanyuteng.github.io/2020/12/12/65b77c1d/</id>
+    <published>2020-12-11T16:00:00.000Z</published>
+    <updated>2021-08-12T08:11:44.390Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;接上文，有关健康、环境与自然的第三篇荐读文章如下。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_健康、环境与自然（一）</title>
+    <link href="https://yanyuteng.github.io/2020/12/11/55a190c5/"/>
+    <id>https://yanyuteng.github.io/2020/12/11/55a190c5/</id>
+    <published>2020-12-10T16:00:00.000Z</published>
+    <updated>2021-08-12T08:11:47.781Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;讨论环境对健康的影响，在社会学的论文里少见，多见于城市设计、地理学等领域。中文世界的环境与健康研究几乎被医学地理、环境科学把持。我以为大陆社会学者应有所作为，积极参与跨学科对话。这里我选取了三篇文章，供有兴趣的读者参考。&lt;br&gt;第一篇是2014年的文章，四位作者的单位系瑞典Uppsala University住房与城市研究院，英国University of Glasgow环境、社会与健康研究中心，荷兰Wageningen University文化地理系、美国University of Washington公共健康学院，属跨学科、跨国别的综述。&lt;br&gt;第二篇文章是2019年的文章，载于《剑桥心理学、医学与健康手册》，作者Park系康纳尔大学城市设计系教师，在机制方面较2014年多了一些影响因素。同时，作者Park近年关注科技对健康的影响。&lt;br&gt;第三篇文章是由社会学背景的Maya K. Gislason于2013年撰写，侧重于有关自然、健康概念的科学社会学梳理，她提及了一个快速发展的跨学科理论领域——社会生态学，这一理论起码不晚于九十年代（Stokols D, 1992; Stokols D,1996），并在近年被逐渐重视。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_《布莱克报告》的前奏、刊发及后续影响</title>
+    <link href="https://yanyuteng.github.io/2020/12/02/cec4d0dd/"/>
+    <id>https://yanyuteng.github.io/2020/12/02/cec4d0dd/</id>
+    <published>2020-12-01T16:00:00.000Z</published>
+    <updated>2021-08-12T09:01:27.561Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.sochealth.co.uk/national-health-service/public-health-and-wellbeing/poverty-and-inequality/the-black-report-1980/&quot;&gt;《布莱克报告》&lt;/a&gt;发布于1980年8月，被普遍认为是社会科学界的健康不平等研究的发端（其实更早应是1930年代的Chicago学派）。中文互联网的信息很少，因此我翻译了三篇相关历史，供有兴趣的读者参考。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_反思人口预测方法</title>
+    <link href="https://yanyuteng.github.io/2020/11/20/5c5ec72c/"/>
+    <id>https://yanyuteng.github.io/2020/11/20/5c5ec72c/</id>
+    <published>2020-11-19T16:00:00.000Z</published>
+    <updated>2021-08-12T08:10:06.103Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;1998年，Population and Development Review 期刊发表了一整期关于人口预测方法的反思。虽已时隔二十年，但是中国地方政府使用的人口预测方法，实际并未脱离二十年前的手段。我做人口预测亦有深刻体会。因此，这篇文章及其系列仍具有很强的现实意义。作者&lt;a href=&quot;https://en.wikipedia.org/wiki/Dennis_A._Ahlburg&quot;&gt;Dennis A. Ahlburg&lt;/a&gt;系三一大学经济学教授，曾任该校第18届校长；&lt;a href=&quot;https://en.wikipedia.org/wiki/Wolfgang_Lutz&quot;&gt;Wolfgang Lutz&lt;/a&gt;系奥地利人口学家，曾创办合作于维也纳大学商学院、奥地利科学院与IIASA的维特根斯坦人口研究中心。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_江门旅记</title>
+    <link href="https://yanyuteng.github.io/2020/11/03/7c6c4789/"/>
+    <id>https://yanyuteng.github.io/2020/11/03/7c6c4789/</id>
+    <published>2020-11-02T16:00:00.000Z</published>
+    <updated>2021-08-12T08:04:53.328Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;九月廿六、廿七，我在江门市蓬江区、新会区。十一月二日、三日，我在江门市辖台山市。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="canton" scheme="https://yanyuteng.github.io/tags/canton/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_人生如寄</title>
+    <link href="https://yanyuteng.github.io/2020/10/30/d410da96/"/>
+    <id>https://yanyuteng.github.io/2020/10/30/d410da96/</id>
+    <published>2020-10-29T16:00:00.000Z</published>
+    <updated>2021-08-12T08:55:45.926Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇文章试图澄清我过去一年的困惑。对我而言，生活的意义为何？个体与社会的关系为何？我的回答是真实感、是清醒地合谋。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_肇庆旅记</title>
+    <link href="https://yanyuteng.github.io/2020/10/18/b69bec4/"/>
+    <id>https://yanyuteng.github.io/2020/10/18/b69bec4/</id>
+    <published>2020-10-17T16:00:00.000Z</published>
+    <updated>2021-08-12T08:06:34.335Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;十七日、十八日，在肇庆端州的游记。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="canton" scheme="https://yanyuteng.github.io/tags/canton/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_郴州旅记</title>
+    <link href="https://yanyuteng.github.io/2020/10/07/1db2d328/"/>
+    <id>https://yanyuteng.github.io/2020/10/07/1db2d328/</id>
+    <published>2020-10-06T16:00:00.000Z</published>
+    <updated>2021-08-12T08:02:32.100Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;十月五日至七日，在湖南省郴州市、资兴市与衡阳市的旅记。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_黔西南州旅记</title>
+    <link href="https://yanyuteng.github.io/2020/10/04/da076403/"/>
+    <id>https://yanyuteng.github.io/2020/10/04/da076403/</id>
+    <published>2020-10-03T16:00:00.000Z</published>
+    <updated>2021-08-12T08:03:47.274Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;九月卅日至十月四日，在贵州省黔西南州兴义市的旅记。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_埃利亚斯的缺席？</title>
+    <link href="https://yanyuteng.github.io/2020/09/30/cad3770a/"/>
+    <id>https://yanyuteng.github.io/2020/09/30/cad3770a/</id>
+    <published>2020-09-29T16:00:00.000Z</published>
+    <updated>2021-08-12T09:53:11.608Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;丹尼斯・史密斯. 埃利亚斯与现代社会理论[M]. 北京大学出版社, 2011.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这本书的作者Dennis Smith系英拉夫堡大学(Loughborough University)社会学教授。Smith写的序言是有趣的。诚如Smith写道的，Elias的书写，是为了回答其自身生命历程中的困惑。一方面，回答其自身作为犹太人与德国人的认同矛盾；另一方面，他将这一广泛存在的认同感的困惑，进一步延展到国家作为个体活动的背景，如何影响个体及被个体影响，即侧面回应了一战德国为何比法国的现代化过程失败–德国人为何失败了？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Sociological Theory" scheme="https://yanyuteng.github.io/categories/Sociological-Theory/"/>
+    
+    
+    <category term="elias" scheme="https://yanyuteng.github.io/tags/elias/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Text Analysis, Deep Learning and Causal Inference</title>
+    <link href="https://yanyuteng.github.io/2020/09/08/1c2e9482/"/>
+    <id>https://yanyuteng.github.io/2020/09/08/1c2e9482/</id>
+    <published>2020-09-08T14:00:00.000Z</published>
+    <updated>2021-08-12T08:27:07.517Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇是对社科院办的两个讲座的笔记。第一个报告侧重文本分析与因果分析如何结合；第二个报告侧重词向量模型在社会学中如何应用。机器学习与社会学的结合，虽仍有点玄学炼丹的感觉，但较2018年初我在南京听课时，更深入、更具体了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    
+    
+    <category term="machine learning" scheme="https://yanyuteng.github.io/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Trans_健康科学的历史</title>
+    <link href="https://yanyuteng.github.io/2020/09/03/a588071e/"/>
+    <id>https://yanyuteng.github.io/2020/09/03/a588071e/</id>
+    <published>2020-09-02T16:00:00.000Z</published>
+    <updated>2021-08-12T09:03:33.874Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Halfon N, Larson K, Lu M, et al. Lifecourse health development: past, present and future[J]. Maternal and child health journal, 2014, 18(2): 344-365.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇文章概述了社会学、地理学、流行病学等诸社会学科与生物基因学等自然科学的互动历史。为我们提供了一个在健康科学旗帜下的更宏观的学科演进历程，及提供了诸学科在健康科学总体框架下的各自位置。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_从Parsons T.开始谈起</title>
+    <link href="https://yanyuteng.github.io/2020/09/02/336e9c54/"/>
+    <id>https://yanyuteng.github.io/2020/09/02/336e9c54/</id>
+    <published>2020-09-01T16:00:00.000Z</published>
+    <updated>2021-08-12T08:52:23.120Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“长时间、习惯性地浅输入和浅输出，对于有志于追求智识生活的人真的有非常深远的伤害，对于复杂内容的专注力、表达力、理解力，都会被削弱。始终谨记项飙那句话：’阅读功力跟年纪很有关系，必须在一定的年纪以一定的力度去阅读，才能达到那种能力。’” —— &lt;a href=&quot;https://weibo.com/1392659117/Ji8SgtHbv?type=repost&quot;&gt;ermanwei&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
+    
+    <category term="parsons" scheme="https://yanyuteng.github.io/tags/parsons/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_分位数回归(UQR-RIF)方法的案例</title>
+    <link href="https://yanyuteng.github.io/2020/08/29/14b1b372/"/>
+    <id>https://yanyuteng.github.io/2020/08/29/14b1b372/</id>
+    <published>2020-08-28T16:00:00.000Z</published>
+    <updated>2021-08-12T08:10:42.083Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇论文通过使用较新的UQR-RIF计量方法，讨论了城乡、年龄、收入、教育、生活方式、家庭环境等社会因素对健康的影响。作者Jiaoli Cai与Peter C. Coyte系多伦多大学经济系学者。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_收入不平等的健康效应</title>
+    <link href="https://yanyuteng.github.io/2020/08/28/965aea25/"/>
+    <id>https://yanyuteng.github.io/2020/08/28/965aea25/</id>
+    <published>2020-08-27T16:00:00.000Z</published>
+    <updated>2021-08-12T08:24:05.286Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇论文综述了收入不平等如何影响健康的相关研究，作者系哈佛大学社会学系Beth Truesdale、Christopher Jencks。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+    <category term="class" scheme="https://yanyuteng.github.io/tags/class/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Trans_生日对健康有影响么？</title>
+    <link href="https://yanyuteng.github.io/2020/08/27/85adb8ae/"/>
+    <id>https://yanyuteng.github.io/2020/08/27/85adb8ae/</id>
+    <published>2020-08-26T16:00:00.000Z</published>
+    <updated>2021-08-12T09:03:29.497Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Chen F, Yang Y, Liu G. Social change and socioeconomic disparities in health over the life course in China: A cohort analysis[J]. American sociological review, 2010, 75(1): 126-150.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;摘要：这篇文章讨论了在中国宏观社会环境剧烈变迁的背景下，社会分层对几代人的个体健康轨迹的影响。通过使用中国健康和营养调查（CHNS），研究发现社会经济地位（SES）对健康水平的影响差异显著，并且这些社会经济地位的影响差异在整个生命过程中通常是不同的。教育对健康的影响在晚近世代中略有下降。相比之下，收入差距对健康轨迹的影响，在年长世代中有所不同，但在晚近世代中却趋于一致。这两种效应在农村地区更为明显。鉴于这些群体效应与美国最近的研究结果相反，论文讨论了中国独特的社会、经济和政治环境。论文尤其强调了社会经济地位与健康行为的关系、中国流行病学的转型阶段，及中国地方政府权力的变化及其对健康医疗的影响。作者系北卡州立大学Feinian Chen与Guangya Liu、芝加哥大学Yang Yang。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
+    
+    
+    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
+    
+    <category term="class" scheme="https://yanyuteng.github.io/tags/class/"/>
+    
+    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_虚伪下的真实</title>
+    <link href="https://yanyuteng.github.io/2020/08/22/4fc17bc7/"/>
+    <id>https://yanyuteng.github.io/2020/08/22/4fc17bc7/</id>
+    <published>2020-08-21T16:00:00.000Z</published>
+    <updated>2021-08-12T08:08:13.063Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;晚上又看了一遍十三邀对陈嘉映的访谈，我觉得这个访谈对我是常看常新的，陈嘉映讲鲁迅评价陀思妥耶夫斯基的话，“他就是要拷问出真实下面的虚伪，他接着要拷问出虚伪下面的真实。” 如今看的感触更深了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+</feed>
