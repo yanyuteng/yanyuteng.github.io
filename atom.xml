@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2021-08-14T17:55:34.913Z</updated>
+  <updated>2021-08-16T14:08:57.125Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yanyuteng.github.io/2021/08/14/b7241c96/"/>
     <id>https://yanyuteng.github.io/2021/08/14/b7241c96/</id>
     <published>2021-08-13T16:00:00.000Z</published>
-    <updated>2021-08-14T17:55:34.913Z</updated>
+    <updated>2021-08-16T14:08:57.125Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -32,6 +32,27 @@
     
     
     <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_传承与断裂 剧变中的中国社会学与社会学家</title>
+    <link href="https://yanyuteng.github.io/2021/08/04/55c7fc0f/"/>
+    <id>https://yanyuteng.github.io/2021/08/04/55c7fc0f/</id>
+    <published>2021-08-03T16:00:00.000Z</published>
+    <updated>2021-08-21T17:17:55.625Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;陆远. 传承与断裂 剧变中的中国社会学与社会学家[M]. 商务印书馆, 2019.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="History" scheme="https://yanyuteng.github.io/categories/History/"/>
+    
+    
+    <category term="费孝通" scheme="https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/"/>
+    
+    <category term="biography" scheme="https://yanyuteng.github.io/tags/biography/"/>
     
   </entry>
   
@@ -380,27 +401,6 @@
     <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
     
     <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_收入不平等的健康效应</title>
-    <link href="https://yanyuteng.github.io/2020/08/28/965aea25/"/>
-    <id>https://yanyuteng.github.io/2020/08/28/965aea25/</id>
-    <published>2020-08-27T16:00:00.000Z</published>
-    <updated>2021-08-12T08:24:05.286Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这篇论文综述了收入不平等如何影响健康的相关研究，作者系哈佛大学社会学系Beth Truesdale、Christopher Jencks。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
-    
-    
-    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
-    
-    <category term="class" scheme="https://yanyuteng.github.io/tags/class/"/>
     
   </entry>
   
