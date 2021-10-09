@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2021-10-07T18:09:12.425Z</updated>
+  <updated>2021-10-09T06:26:59.200Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -21,10 +21,17 @@
     <link href="https://yanyuteng.github.io/2021/10/06/b7241c96/"/>
     <id>https://yanyuteng.github.io/2021/10/06/b7241c96/</id>
     <published>2021-10-05T16:00:00.000Z</published>
-    <updated>2021-10-07T18:09:12.425Z</updated>
+    <updated>2021-10-09T06:26:59.200Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;2021-1-1-桂林&quot;&gt;&lt;a href=&quot;#2021-1-1-桂林&quot; class=&quot;headerlink&quot; title=&quot;2021.1.1 桂林&quot;&gt;&lt;/a&gt;2021.1.1 桂林&lt;/h3&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。食毕乘地铁至番禺大厦，它同番禺宾馆均是政府经营。我有时很喜欢这种老派的国营宾馆，卧室的书桌上有番禺大厦抬头的信纸，能想象往日邮封，是舟车者下榻后用钢笔速写了些话，内容可能如 “兄长台鉴。卅一日夜，弟已抵番禺市立宾馆，翌日欲在穗找B君办事。见信安。一别家中有半载了，不知一切可好？烦兄照看。此致敬礼，弟旺财。” 又叫来门房，委托宾馆代寄。这些缓慢的日子已难再现了。我睡前泡了澡，裹着浴巾便昏沉睡去了。至中午，饭毕往南站乘高铁，临时查了往赣、闽的车次已售罄，至桂林车次则很充裕，便在桂旅行有三日。关于&lt;a href=&quot;https://yanyuteng.github.io/2021/01/03/diary-gui-lin.html&quot;&gt;桂林的旅记&lt;/a&gt;可见另文。这些是我新年伊始的经历。&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h3 id=&quot;2021-1-1-桂林&quot;&gt;&lt;a href=&quot;#2021-1-1-桂林&quot; class=&quot;headerlink&quot; title=&quot;2021.1.1 桂林&quot;&gt;&lt;/a&gt;2021.1.1</summary>
+        
+      
     
     
     
@@ -32,6 +39,23 @@
     
     
     <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_博客暨编程问题日志</title>
+    <link href="https://yanyuteng.github.io/2021/10/01/6a7d82f6/"/>
+    <id>https://yanyuteng.github.io/2021/10/01/6a7d82f6/</id>
+    <published>2021-09-30T16:00:00.000Z</published>
+    <updated>2021-10-09T06:26:37.504Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;原问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，等于博客历史，亦便于日后问题查阅。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
     
   </entry>
   
@@ -80,7 +104,7 @@
     <link href="https://yanyuteng.github.io/2020/12/31/c0232c00/"/>
     <id>https://yanyuteng.github.io/2020/12/31/c0232c00/</id>
     <published>2020-12-30T16:00:00.000Z</published>
-    <updated>2021-10-06T15:56:29.788Z</updated>
+    <updated>2021-10-09T06:12:52.953Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;2020-1-1-长隆&quot;&gt;&lt;a href=&quot;#2020-1-1-长隆&quot; class=&quot;headerlink&quot; title=&quot;2020.1.1 长隆&quot;&gt;&lt;/a&gt;2020.1.1 长隆&lt;/h3&gt;&lt;p&gt;零点在长隆坐过山车，晚十点在万胜围吃羊蝎子火锅。倘每日如此，可真是潇洒。&lt;/p&gt;</summary>
@@ -380,27 +404,6 @@
     <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
     
     <category term="parsons" scheme="https://yanyuteng.github.io/tags/parsons/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_分位数回归(UQR-RIF)方法的案例</title>
-    <link href="https://yanyuteng.github.io/2020/08/29/14b1b372/"/>
-    <id>https://yanyuteng.github.io/2020/08/29/14b1b372/</id>
-    <published>2020-08-28T16:00:00.000Z</published>
-    <updated>2021-08-12T08:10:42.083Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这篇论文通过使用较新的UQR-RIF计量方法，讨论了城乡、年龄、收入、教育、生活方式、家庭环境等社会因素对健康的影响。作者Jiaoli Cai与Peter C. Coyte系多伦多大学经济系学者。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
-    
-    
-    <category term="translation" scheme="https://yanyuteng.github.io/tags/translation/"/>
-    
-    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
     
   </entry>
   
