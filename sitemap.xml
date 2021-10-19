@@ -9,14 +9,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/2021/10/01/6a7d82f6/</loc>
+    <loc>https://yanyuteng.github.io/2021/10/18/b7241c96/</loc>
     
     <lastmod>2021-10-19</lastmod>
     
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/2021/10/18/b7241c96/</loc>
+    <loc>https://yanyuteng.github.io/2021/10/01/6a7d82f6/</loc>
     
     <lastmod>2021-10-19</lastmod>
     
@@ -1383,13 +1383,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/canton/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/korea/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1397,28 +1390,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/marxism/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/geography/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/environment/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/giddens/</loc>
+    <loc>https://yanyuteng.github.io/tags/canton/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1446,7 +1418,28 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/art/</loc>
+    <loc>https://yanyuteng.github.io/tags/giddens/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/marxism/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/geography/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/environment/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1467,21 +1460,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/governmentality/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/elias/</loc>
+    <loc>https://yanyuteng.github.io/tags/art/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1502,6 +1481,13 @@
   </url>
   
   <url>
+    <loc>https://yanyuteng.github.io/tags/elias/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1516,7 +1502,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/biography/</loc>
+    <loc>https://yanyuteng.github.io/tags/governmentality/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1530,7 +1523,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/enterprise/</loc>
+    <loc>https://yanyuteng.github.io/tags/biography/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1538,6 +1531,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/econometrics/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/enterprise/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1565,13 +1565,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/sna/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/fieldwork/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1586,13 +1579,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/%E9%B2%81%E8%BF%85/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/censorship/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1600,7 +1586,28 @@
   </url>
   
   <url>
+    <loc>https://yanyuteng.github.io/tags/%E9%B2%81%E8%BF%85/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/sna/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/tags/science/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/existentialism/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1621,7 +1628,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/existentialism/</loc>
+    <loc>https://yanyuteng.github.io/tags/freud/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1635,21 +1642,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/freud/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/asia/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/machine-learning/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1670,6 +1663,13 @@
   </url>
   
   <url>
+    <loc>https://yanyuteng.github.io/tags/machine-learning/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/tags/political-philosophy/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1684,14 +1684,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/organization/</loc>
+    <loc>https://yanyuteng.github.io/tags/culture/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/culture/</loc>
+    <loc>https://yanyuteng.github.io/tags/organization/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1754,6 +1754,13 @@
   </url>
   
   <url>
+    <loc>https://yanyuteng.github.io/tags/foucault/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/tags/democracy/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1762,13 +1769,6 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/tocqueville/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/foucault/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1796,27 +1796,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/criminology/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/icu/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/depression/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/system-dynamics/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1831,7 +1810,21 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/public-administration/</loc>
+    <loc>https://yanyuteng.github.io/tags/criminology/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/depression/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/icu/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1846,6 +1839,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/ngos/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/public-administration/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1896,14 +1896,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Demography/</loc>
+    <loc>https://yanyuteng.github.io/categories/Urban-Sociology/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Urban-Sociology/</loc>
+    <loc>https://yanyuteng.github.io/categories/Demography/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1931,13 +1931,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Organizational-Sociology/</loc>
-    <lastmod>2021-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/categories/Health-Medical-Sociology/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1952,7 +1945,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Economics/</loc>
+    <loc>https://yanyuteng.github.io/categories/Organizational-Sociology/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1960,6 +1953,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/categories/Quantitative-Method/</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/categories/Economics/</loc>
     <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
