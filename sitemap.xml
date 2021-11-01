@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yanyuteng.github.io/2021/05/26/f8e6456b/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/2021/10/22/2ed7128b/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -1460,13 +1467,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/class/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1474,14 +1474,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/governmentality/</loc>
+    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/elias/</loc>
+    <loc>https://yanyuteng.github.io/tags/governmentality/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1496,6 +1496,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/literati/</loc>
+    <lastmod>2021-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/elias/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1796,13 +1803,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/criminology/</loc>
-    <lastmod>2021-11-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/system-dynamics/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
@@ -1811,6 +1811,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/demography/</loc>
+    <lastmod>2021-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/criminology/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1845,14 +1852,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/ecology/</loc>
+    <loc>https://yanyuteng.github.io/tags/ngos/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/ngos/</loc>
+    <loc>https://yanyuteng.github.io/tags/ecology/</loc>
     <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
