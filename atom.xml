@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2021-10-24T17:36:32.988Z</updated>
+  <updated>2021-11-01T10:02:06.883Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Diary_2021</title>
-    <link href="https://yanyuteng.github.io/2021/10/24/b7241c96/"/>
-    <id>https://yanyuteng.github.io/2021/10/24/b7241c96/</id>
-    <published>2021-10-23T16:00:00.000Z</published>
-    <updated>2021-10-24T17:36:32.988Z</updated>
+    <link href="https://yanyuteng.github.io/2021/10/30/b7241c96/"/>
+    <id>https://yanyuteng.github.io/2021/10/30/b7241c96/</id>
+    <published>2021-10-29T16:00:00.000Z</published>
+    <updated>2021-11-01T10:02:06.883Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;2018-1-5-桂林&quot;&gt;&lt;a href=&quot;#2018-1-5-桂林&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 桂林&quot;&gt;&lt;/a&gt;2018.1.5 桂林&lt;/h3&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。&lt;/p&gt;</summary>
@@ -36,11 +36,28 @@
   </entry>
   
   <entry>
+    <title>Prose_博客暨编程问题日志</title>
+    <link href="https://yanyuteng.github.io/2021/10/28/6a7d82f6/"/>
+    <id>https://yanyuteng.github.io/2021/10/28/6a7d82f6/</id>
+    <published>2021-10-27T16:00:00.000Z</published>
+    <updated>2021-10-28T08:30:33.703Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;原问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，相当于博客历史，亦便于日后问题查阅。&lt;br&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Prose_寓中札记</title>
     <link href="https://yanyuteng.github.io/2021/10/22/2ed7128b/"/>
     <id>https://yanyuteng.github.io/2021/10/22/2ed7128b/</id>
     <published>2021-10-21T16:00:00.000Z</published>
-    <updated>2021-10-24T17:07:27.534Z</updated>
+    <updated>2021-11-01T10:06:03.559Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文是我对Ph.D.同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念。内容不定期更新。&lt;/p&gt;</summary>
@@ -51,23 +68,6 @@
     
     
     <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Prose_博客暨编程问题日志</title>
-    <link href="https://yanyuteng.github.io/2021/10/01/6a7d82f6/"/>
-    <id>https://yanyuteng.github.io/2021/10/01/6a7d82f6/</id>
-    <published>2021-09-30T16:00:00.000Z</published>
-    <updated>2021-10-19T11:35:48.497Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;原问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，相当于博客历史，亦便于日后问题查阅。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
-    
     
   </entry>
   
