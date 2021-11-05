@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2021-11-05T06:57:10.940Z</updated>
+  <updated>2021-11-05T08:09:33.564Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://yanyuteng.github.io/2021/11/04/b7241c96/"/>
     <id>https://yanyuteng.github.io/2021/11/04/b7241c96/</id>
     <published>2021-11-03T16:00:00.000Z</published>
-    <updated>2021-11-05T06:57:10.940Z</updated>
+    <updated>2021-11-05T08:09:33.564Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;2018-1-5-桂林&quot;&gt;&lt;a href=&quot;#2018-1-5-桂林&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 桂林&quot;&gt;&lt;/a&gt;2018.1.5 桂林&lt;/h3&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;2021-1-5-桂林&quot;&gt;&lt;a href=&quot;#2021-1-5-桂林&quot; class=&quot;headerlink&quot; title=&quot;2021.1.5 桂林&quot;&gt;&lt;/a&gt;2021.1.5 桂林&lt;/h3&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。&lt;/p&gt;</summary>
     
     
     
@@ -110,23 +110,6 @@
   </entry>
   
   <entry>
-    <title>Prose_中国人口变化图</title>
-    <link href="https://yanyuteng.github.io/2021/05/26/f8e6456b/"/>
-    <id>https://yanyuteng.github.io/2021/05/26/f8e6456b/</id>
-    <published>2021-05-25T16:00:00.000Z</published>
-    <updated>2021-11-01T12:25:58.220Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;按七普公报画了三张图，东北地位急转直下应是近十年。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Diary_桂林旅记</title>
     <link href="https://yanyuteng.github.io/2021/01/03/9e17885b/"/>
     <id>https://yanyuteng.github.io/2021/01/03/9e17885b/</id>
@@ -150,7 +133,7 @@
     <link href="https://yanyuteng.github.io/2020/12/31/c0232c00/"/>
     <id>https://yanyuteng.github.io/2020/12/31/c0232c00/</id>
     <published>2020-12-30T16:00:00.000Z</published>
-    <updated>2021-10-09T06:12:52.953Z</updated>
+    <updated>2021-11-05T08:46:24.236Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;2020-1-1-长隆&quot;&gt;&lt;a href=&quot;#2020-1-1-长隆&quot; class=&quot;headerlink&quot; title=&quot;2020.1.1 长隆&quot;&gt;&lt;/a&gt;2020.1.1 长隆&lt;/h3&gt;&lt;p&gt;零点在长隆坐过山车，晚十点在万胜围吃羊蝎子火锅。倘每日如此，可真是潇洒。&lt;/p&gt;</summary>
@@ -283,7 +266,7 @@
     <link href="https://yanyuteng.github.io/2020/11/03/7c6c4789/"/>
     <id>https://yanyuteng.github.io/2020/11/03/7c6c4789/</id>
     <published>2020-11-02T16:00:00.000Z</published>
-    <updated>2021-08-12T08:04:53.328Z</updated>
+    <updated>2021-11-05T08:36:56.578Z</updated>
     
     
     <summary type="html">&lt;p&gt;九月廿六、廿七，我在江门市蓬江区、新会区。十一月二日、三日，我在江门市辖台山市。&lt;/p&gt;</summary>
@@ -389,6 +372,25 @@
     
     
     <category term="elias" scheme="https://yanyuteng.github.io/tags/elias/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Text Analysis, Deep Learning and Causal Inference</title>
+    <link href="https://yanyuteng.github.io/2020/09/08/1c2e9482/"/>
+    <id>https://yanyuteng.github.io/2020/09/08/1c2e9482/</id>
+    <published>2020-09-08T14:00:00.000Z</published>
+    <updated>2021-08-12T08:27:07.517Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇是对社科院办的两个讲座的笔记。第一个报告侧重文本分析与因果分析如何结合；第二个报告侧重词向量模型在社会学中如何应用。机器学习与社会学的结合，虽仍有点玄学炼丹的感觉，但较2018年初我在南京听课时，更深入、更具体了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    
+    
+    <category term="machine learning" scheme="https://yanyuteng.github.io/tags/machine-learning/"/>
     
   </entry>
   
