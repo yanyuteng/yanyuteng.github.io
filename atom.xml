@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2021-11-04T08:06:03.883Z</updated>
+  <updated>2021-11-05T06:57:10.940Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Diary_2021</title>
-    <link href="https://yanyuteng.github.io/2021/11/03/b7241c96/"/>
-    <id>https://yanyuteng.github.io/2021/11/03/b7241c96/</id>
-    <published>2021-11-02T16:00:00.000Z</published>
-    <updated>2021-11-04T08:06:03.883Z</updated>
+    <link href="https://yanyuteng.github.io/2021/11/04/b7241c96/"/>
+    <id>https://yanyuteng.github.io/2021/11/04/b7241c96/</id>
+    <published>2021-11-03T16:00:00.000Z</published>
+    <updated>2021-11-05T06:57:10.940Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;2018-1-5-桂林&quot;&gt;&lt;a href=&quot;#2018-1-5-桂林&quot; class=&quot;headerlink&quot; title=&quot;2018.1.5 桂林&quot;&gt;&lt;/a&gt;2018.1.5 桂林&lt;/h3&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。&lt;/p&gt;</summary>
@@ -29,6 +29,25 @@
     
     
     <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_寓中札记</title>
+    <link href="https://yanyuteng.github.io/2021/11/04/2ed7128b/"/>
+    <id>https://yanyuteng.github.io/2021/11/04/2ed7128b/</id>
+    <published>2021-11-03T16:00:00.000Z</published>
+    <updated>2021-11-05T07:03:55.440Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文是我对Ph.D.同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念。内容不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
     
     
     <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
@@ -53,25 +72,6 @@
   </entry>
   
   <entry>
-    <title>Prose_寓中札记</title>
-    <link href="https://yanyuteng.github.io/2021/10/22/2ed7128b/"/>
-    <id>https://yanyuteng.github.io/2021/10/22/2ed7128b/</id>
-    <published>2021-10-21T16:00:00.000Z</published>
-    <updated>2021-11-04T07:00:07.817Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文是我对Ph.D.同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念。内容不定期更新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
-    
-    
-    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Memo_传承与断裂 剧变中的中国社会学与社会学家</title>
     <link href="https://yanyuteng.github.io/2021/08/04/55c7fc0f/"/>
     <id>https://yanyuteng.github.io/2021/08/04/55c7fc0f/</id>
@@ -89,6 +89,23 @@
     <category term="费孝通" scheme="https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/"/>
     
     <category term="biography" scheme="https://yanyuteng.github.io/tags/biography/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_中国人口变化图</title>
+    <link href="https://yanyuteng.github.io/2021/05/26/f8e6456b/"/>
+    <id>https://yanyuteng.github.io/2021/05/26/f8e6456b/</id>
+    <published>2021-05-25T16:00:00.000Z</published>
+    <updated>2021-11-01T12:25:58.220Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;按七普公报画了三张图，东北地位急转直下应是近十年。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
+    
     
   </entry>
   
@@ -372,25 +389,6 @@
     
     
     <category term="elias" scheme="https://yanyuteng.github.io/tags/elias/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_Text Analysis, Deep Learning and Causal Inference</title>
-    <link href="https://yanyuteng.github.io/2020/09/08/1c2e9482/"/>
-    <id>https://yanyuteng.github.io/2020/09/08/1c2e9482/</id>
-    <published>2020-09-08T14:00:00.000Z</published>
-    <updated>2021-08-12T08:27:07.517Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这篇是对社科院办的两个讲座的笔记。第一个报告侧重文本分析与因果分析如何结合；第二个报告侧重词向量模型在社会学中如何应用。机器学习与社会学的结合，虽仍有点玄学炼丹的感觉，但较2018年初我在南京听课时，更深入、更具体了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
-    
-    
-    <category term="machine learning" scheme="https://yanyuteng.github.io/tags/machine-learning/"/>
     
   </entry>
   
