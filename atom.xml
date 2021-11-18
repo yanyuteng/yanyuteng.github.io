@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2021-11-14T17:40:06.313Z</updated>
+  <updated>2021-11-18T17:54:01.766Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yanyuteng.github.io/2021/11/14/b7241c96/"/>
     <id>https://yanyuteng.github.io/2021/11/14/b7241c96/</id>
     <published>2021-11-13T16:00:00.000Z</published>
-    <updated>2021-11-14T17:40:06.313Z</updated>
+    <updated>2021-11-18T17:54:01.766Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;2021-1-5-桂林&quot;&gt;&lt;a href=&quot;#2021-1-5-桂林&quot; class=&quot;headerlink&quot; title=&quot;2021.1.5 桂林&quot;&gt;&lt;/a&gt;2021.1.5 桂林&lt;/h3&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。&lt;/p&gt;</summary>
@@ -32,6 +32,23 @@
     
     
     <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_用R批量输出Word描述表</title>
+    <link href="https://yanyuteng.github.io/2021/11/11/ebdd1cdc/"/>
+    <id>https://yanyuteng.github.io/2021/11/11/ebdd1cdc/</id>
+    <published>2021-11-10T16:00:00.000Z</published>
+    <updated>2021-11-18T17:54:57.311Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;帮同学忙，刚好也写一个模版。我们如何用R批量将Excel表里的数据输出描述表到Word呢？我在这里做一个示例。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    
     
   </entry>
   
@@ -133,7 +150,7 @@
     <link href="https://yanyuteng.github.io/2020/12/31/c0232c00/"/>
     <id>https://yanyuteng.github.io/2020/12/31/c0232c00/</id>
     <published>2020-12-30T16:00:00.000Z</published>
-    <updated>2021-11-14T17:30:12.020Z</updated>
+    <updated>2021-11-17T07:41:27.695Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;2020-1-1-长隆&quot;&gt;&lt;a href=&quot;#2020-1-1-长隆&quot; class=&quot;headerlink&quot; title=&quot;2020.1.1 长隆&quot;&gt;&lt;/a&gt;2020.1.1 长隆&lt;/h3&gt;&lt;p&gt;零点在长隆坐过山车，晚十点在万胜围吃羊蝎子火锅。倘每日如此，可真是潇洒。&lt;/p&gt;</summary>
@@ -372,25 +389,6 @@
     
     
     <category term="elias" scheme="https://yanyuteng.github.io/tags/elias/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_Text Analysis, Deep Learning and Causal Inference</title>
-    <link href="https://yanyuteng.github.io/2020/09/08/1c2e9482/"/>
-    <id>https://yanyuteng.github.io/2020/09/08/1c2e9482/</id>
-    <published>2020-09-08T14:00:00.000Z</published>
-    <updated>2021-08-12T08:27:07.517Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这篇是对社科院办的两个讲座的笔记。第一个报告侧重文本分析与因果分析如何结合；第二个报告侧重词向量模型在社会学中如何应用。机器学习与社会学的结合，虽仍有点玄学炼丹的感觉，但较2018年初我在南京听课时，更深入、更具体了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
-    
-    
-    <category term="machine learning" scheme="https://yanyuteng.github.io/tags/machine-learning/"/>
     
   </entry>
   
