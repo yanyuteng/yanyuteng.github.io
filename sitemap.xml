@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yanyuteng.github.io/2021/12/26/b7241c96/</loc>
+    <loc>https://yanyuteng.github.io/2021/11/04/2ed7128b/</loc>
     
     <lastmod>2022-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/2021/11/04/2ed7128b/</loc>
+    <loc>https://yanyuteng.github.io/2021/12/26/b7241c96/</loc>
     
     <lastmod>2022-01-08</lastmod>
     
@@ -1411,27 +1411,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/marxism/</loc>
-    <lastmod>2022-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/geography/</loc>
-    <lastmod>2022-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/environment/</loc>
-    <lastmod>2022-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/immigration/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1453,6 +1432,34 @@
   </url>
   
   <url>
+    <loc>https://yanyuteng.github.io/tags/marxism/</loc>
+    <lastmod>2022-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/geography/</loc>
+    <lastmod>2022-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/environment/</loc>
+    <lastmod>2022-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/giddens/</loc>
+    <lastmod>2022-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/tags/art/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1467,14 +1474,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/giddens/</loc>
+    <loc>https://yanyuteng.github.io/tags/class/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/class/</loc>
+    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1509,13 +1516,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
-    <lastmod>2022-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1524,13 +1524,6 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/rural-area/</loc>
-    <lastmod>2022-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/biography/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1551,7 +1544,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/law/</loc>
+    <loc>https://yanyuteng.github.io/tags/biography/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1559,6 +1552,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/econometrics/</loc>
+    <lastmod>2022-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/law/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1628,14 +1628,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/existentialism/</loc>
+    <loc>https://yanyuteng.github.io/tags/science/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/science/</loc>
+    <loc>https://yanyuteng.github.io/tags/existentialism/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1698,13 +1698,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/organization/</loc>
-    <lastmod>2022-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/culture/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1712,7 +1705,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/philosophy/</loc>
+    <loc>https://yanyuteng.github.io/tags/organization/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1720,6 +1713,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/modernity/</loc>
+    <lastmod>2022-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/philosophy/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1740,14 +1740,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/causal-inference/</loc>
+    <loc>https://yanyuteng.github.io/tags/bourdieu/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/bourdieu/</loc>
+    <loc>https://yanyuteng.github.io/tags/causal-inference/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1910,13 +1910,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Demography/</loc>
-    <lastmod>2022-01-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/categories/Urban-Sociology/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
@@ -1924,7 +1917,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/History/</loc>
+    <loc>https://yanyuteng.github.io/categories/Demography/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1932,6 +1925,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/categories/Sociological-Theory/</loc>
+    <lastmod>2022-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/categories/History/</loc>
     <lastmod>2022-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
