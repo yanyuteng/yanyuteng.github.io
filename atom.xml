@@ -131,23 +131,6 @@
   </entry>
   
   <entry>
-    <title>Prose_用R批量输出Word描述表</title>
-    <link href="https://yanyuteng.github.io/2021/11/11/ebdd1cdc/"/>
-    <id>https://yanyuteng.github.io/2021/11/11/ebdd1cdc/</id>
-    <published>2021-11-10T16:00:00.000Z</published>
-    <updated>2021-11-18T17:55:01.261Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;帮同学忙，刚好也写一个模版。我们如何用R批量将Excel表里的数据输出描述表到Word呢？我在这里做一个示例。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Prose_博客暨编程问题日志</title>
     <link href="https://yanyuteng.github.io/2021/10/28/6a7d82f6/"/>
     <id>https://yanyuteng.github.io/2021/10/28/6a7d82f6/</id>
@@ -179,9 +162,9 @@
     <category term="History" scheme="https://yanyuteng.github.io/categories/History/"/>
     
     
-    <category term="biography" scheme="https://yanyuteng.github.io/tags/biography/"/>
-    
     <category term="费孝通" scheme="https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/"/>
+    
+    <category term="biography" scheme="https://yanyuteng.github.io/tags/biography/"/>
     
   </entry>
   
@@ -382,6 +365,25 @@
     
     
     <summary type="html">&lt;p&gt;十月五日至七日，在湖南省郴州市、资兴市与衡阳市的旅记。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_黔西南州旅记暨廿四岁杂感</title>
+    <link href="https://yanyuteng.github.io/2020/10/04/da076403/"/>
+    <id>https://yanyuteng.github.io/2020/10/04/da076403/</id>
+    <published>2020-10-03T16:00:00.000Z</published>
+    <updated>2022-03-07T10:07:51.051Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;九月卅日至十月四日，在贵州省黔西南州兴义市的旅记。&lt;/p&gt;</summary>
     
     
     
