@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2022-03-30T07:52:22.153Z</updated>
+  <updated>2022-04-19T13:17:19.032Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Prose_寓中札记</title>
+    <link href="https://yanyuteng.github.io/2022/04/19/2ed7128b/"/>
+    <id>https://yanyuteng.github.io/2022/04/19/2ed7128b/</id>
+    <published>2022-04-18T16:00:00.000Z</published>
+    <updated>2022-04-19T13:17:19.032Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念，后因撰文增多，遂分苏联文学与严肃文学两类，请读者雅鉴。内容不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Diary_2022</title>
-    <link href="https://yanyuteng.github.io/2022/03/30/2e2d4d2c/"/>
-    <id>https://yanyuteng.github.io/2022/03/30/2e2d4d2c/</id>
-    <published>2022-03-29T16:00:00.000Z</published>
-    <updated>2022-03-30T07:52:22.153Z</updated>
+    <link href="https://yanyuteng.github.io/2022/04/14/2e2d4d2c/"/>
+    <id>https://yanyuteng.github.io/2022/04/14/2e2d4d2c/</id>
+    <published>2022-04-13T16:00:00.000Z</published>
+    <updated>2022-04-15T09:51:18.373Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -38,7 +57,7 @@
     <link href="https://yanyuteng.github.io/2022/03/30/6a7d82f6/"/>
     <id>https://yanyuteng.github.io/2022/03/30/6a7d82f6/</id>
     <published>2022-03-29T16:00:00.000Z</published>
-    <updated>2022-03-30T15:22:41.193Z</updated>
+    <updated>2022-04-05T13:25:40.920Z</updated>
     
     
     <summary type="html">&lt;p&gt;原问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，相当于博客历史，亦便于日后问题查阅。&lt;br&gt;</summary>
@@ -66,25 +85,6 @@
     
     
     <category term="class" scheme="https://yanyuteng.github.io/tags/class/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Prose_寓中札记</title>
-    <link href="https://yanyuteng.github.io/2022/02/21/2ed7128b/"/>
-    <id>https://yanyuteng.github.io/2022/02/21/2ed7128b/</id>
-    <published>2022-02-20T16:00:00.000Z</published>
-    <updated>2022-03-17T10:21:17.325Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念。内容不定期更新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
-    
-    
-    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
     
   </entry>
   
