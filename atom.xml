@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2022-05-02T09:57:30.664Z</updated>
+  <updated>2022-05-17T12:30:40.575Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yanyuteng.github.io/2022/05/01/6a7d82f6/"/>
     <id>https://yanyuteng.github.io/2022/05/01/6a7d82f6/</id>
     <published>2022-04-30T16:00:00.000Z</published>
-    <updated>2022-05-02T09:57:30.664Z</updated>
+    <updated>2022-05-17T12:30:40.575Z</updated>
     
     
     <summary type="html">&lt;p&gt;原问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，相当于博客历史，亦便于日后问题查阅。&lt;br&gt;</summary>
@@ -30,6 +30,25 @@
     
     <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_寓中札记</title>
+    <link href="https://yanyuteng.github.io/2022/04/19/2ed7128b/"/>
+    <id>https://yanyuteng.github.io/2022/04/19/2ed7128b/</id>
+    <published>2022-04-18T16:00:00.000Z</published>
+    <updated>2022-04-19T13:32:27.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念，后因撰文增多，遂分苏联文学与严肃文学两类，请读者雅鉴。内容不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
     
   </entry>
   
@@ -376,25 +395,6 @@
     <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
     
     <category term="ABM" scheme="https://yanyuteng.github.io/tags/ABM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Prose_用ARIMA做人口预测</title>
-    <link href="https://yanyuteng.github.io/2020/05/19/6a255d2/"/>
-    <id>https://yanyuteng.github.io/2020/05/19/6a255d2/</id>
-    <published>2020-05-18T16:00:00.000Z</published>
-    <updated>2021-11-15T07:26:38.955Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;有关人口预测的模型和方法很多，不同方法和模型各有优缺点，这里用ARIMA模型与2019年某市统计年鉴示例常住人口的预测。ARIMA(p,d,q)，p 为自回归阶数，d为时间序列称为平稳序列进行差分的阶数，q为移动平均阶数，其一般表达式为：&lt;br&gt;$$y_{1} = \mu + \varphi_{1}y_{t - 1} + \cdots + \varphi_{p}y_{t - p} + \theta_{1}\alpha_{t - 1} + \cdots + \theta_{q}\alpha_{t - q}$$&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
-    
-    
-    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
     
   </entry>
   
