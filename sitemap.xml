@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yanyuteng.github.io/2022/04/19/2ed7128b/</loc>
+    
+    <lastmod>2022-06-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/about/index.html</loc>
+    
+    <lastmod>2022-06-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/2021/12/26/b7241c96/</loc>
     
     <lastmod>2022-06-24</lastmod>
@@ -58,23 +72,9 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/about/index.html</loc>
-    
-    <lastmod>2022-05-02</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/2015/12/25/9b648b4c/</loc>
     
     <lastmod>2022-04-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/2022/04/19/2ed7128b/</loc>
-    
-    <lastmod>2022-04-19</lastmod>
     
   </url>
   
@@ -1600,14 +1600,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/%E9%B2%81%E8%BF%85/</loc>
+    <loc>https://yanyuteng.github.io/tags/censorship/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/censorship/</loc>
+    <loc>https://yanyuteng.github.io/tags/%E9%B2%81%E8%BF%85/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1903,14 +1903,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Demography/</loc>
+    <loc>https://yanyuteng.github.io/categories/Urban-Sociology/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Urban-Sociology/</loc>
+    <loc>https://yanyuteng.github.io/categories/Demography/</loc>
     <lastmod>2022-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
