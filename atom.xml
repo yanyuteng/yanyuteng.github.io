@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2022-08-31T17:11:03.358Z</updated>
+  <updated>2022-09-03T13:13:20.083Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yanyuteng.github.io/2022/08/26/c32c902c/"/>
     <id>https://yanyuteng.github.io/2022/08/26/c32c902c/</id>
     <published>2022-08-25T16:00:00.000Z</published>
-    <updated>2022-08-31T17:11:03.358Z</updated>
+    <updated>2022-09-03T13:13:20.083Z</updated>
     
     
     <summary type="html">&lt;p&gt;八月七日至十四日，我与父母往青海省游玩整有八日，随后乘火车返哈两日。但因每至北方的八月，我均饱受季节性鼻炎的困扰，因而拖沓至月末天气转凉，方录此日记。&lt;/p&gt;</summary>
@@ -42,15 +42,36 @@
     <link href="https://yanyuteng.github.io/2022/07/09/6a7d82f6/"/>
     <id>https://yanyuteng.github.io/2022/07/09/6a7d82f6/</id>
     <published>2022-07-08T16:00:00.000Z</published>
-    <updated>2022-07-10T16:22:19.152Z</updated>
+    <updated>2022-09-03T14:01:55.051Z</updated>
     
     
-    <summary type="html">&lt;p&gt;原问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，相当于博客历史，亦便于日后问题查阅。&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;原各问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，相当于博客史与编程记录，亦便于日后问题查阅。&lt;br&gt;</summary>
     
     
     
     <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_零碎的统计问题集锦</title>
+    <link href="https://yanyuteng.github.io/2022/07/01/a6894eaa/"/>
+    <id>https://yanyuteng.github.io/2022/07/01/a6894eaa/</id>
+    <published>2022-06-30T16:00:00.000Z</published>
+    <updated>2022-09-03T14:13:13.843Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文简要记录日常遇到的统计问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    
+    
+    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
+    
+    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
     
   </entry>
   
@@ -137,7 +158,7 @@
     <link href="https://yanyuteng.github.io/2021/12/26/b7241c96/"/>
     <id>https://yanyuteng.github.io/2021/12/26/b7241c96/</id>
     <published>2021-12-25T16:00:00.000Z</published>
-    <updated>2022-08-31T17:14:36.526Z</updated>
+    <updated>2022-09-03T13:53:00.522Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;2021-1-5-桂林&quot;&gt;&lt;a href=&quot;#2021-1-5-桂林&quot; class=&quot;headerlink&quot; title=&quot;2021.1.5 桂林&quot;&gt;&lt;/a&gt;2021.1.5 桂林&lt;/h2&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。&lt;/p&gt;</summary>
@@ -232,7 +253,7 @@
     <link href="https://yanyuteng.github.io/2020/12/31/c0232c00/"/>
     <id>https://yanyuteng.github.io/2020/12/31/c0232c00/</id>
     <published>2020-12-30T16:00:00.000Z</published>
-    <updated>2022-05-16T15:18:06.519Z</updated>
+    <updated>2022-09-03T14:04:37.104Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;2020-1-1-长隆&quot;&gt;&lt;a href=&quot;#2020-1-1-长隆&quot; class=&quot;headerlink&quot; title=&quot;2020.1.1 长隆&quot;&gt;&lt;/a&gt;2020.1.1 长隆&lt;/h2&gt;&lt;p&gt;零点在长隆坐过山车，晚十点在万胜围吃羊蝎子火锅。倘每日如此，可真是潇洒。&lt;/p&gt;</summary>
@@ -369,25 +390,6 @@
     
     
     <summary type="html">&lt;p&gt;十月五日至七日，在湖南省郴州市、资兴市与衡阳市的旅记。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Diary_黔西南州旅记暨廿四岁杂感</title>
-    <link href="https://yanyuteng.github.io/2020/10/04/da076403/"/>
-    <id>https://yanyuteng.github.io/2020/10/04/da076403/</id>
-    <published>2020-10-03T16:00:00.000Z</published>
-    <updated>2022-03-07T10:07:51.051Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;九月卅日至十月四日，在贵州省黔西南州兴义市的旅记。&lt;/p&gt;</summary>
     
     
     
