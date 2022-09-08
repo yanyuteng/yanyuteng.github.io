@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2022-09-03T13:13:20.083Z</updated>
+  <updated>2022-09-08T11:56:48.135Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Prose_寓中札记</title>
+    <link href="https://yanyuteng.github.io/2022/09/07/2ed7128b/"/>
+    <id>https://yanyuteng.github.io/2022/09/07/2ed7128b/</id>
+    <published>2022-09-06T16:00:00.000Z</published>
+    <updated>2022-09-08T11:56:48.135Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念，后因&lt;del&gt;段子&lt;/del&gt;撰文增多，遂分纪实文学与幻想文学两类，请读者雅鉴。内容不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
   
   <entry>
     <title>Diary_青海游记</title>
@@ -72,25 +91,6 @@
     <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
     
     <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Prose_寓中札记</title>
-    <link href="https://yanyuteng.github.io/2022/06/30/2ed7128b/"/>
-    <id>https://yanyuteng.github.io/2022/06/30/2ed7128b/</id>
-    <published>2022-06-29T16:00:00.000Z</published>
-    <updated>2022-07-10T16:21:34.405Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念，后因&lt;del&gt;撰文&lt;/del&gt;段子增多，遂分纪实文学与幻想文学两类，请读者雅鉴。内容不定期更新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
-    
-    
-    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
     
   </entry>
   
