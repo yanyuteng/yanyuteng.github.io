@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yanyuteng.github.io/2016/06/30/71632f58/</loc>
+    
+    <lastmod>2022-09-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/2022/09/07/2ed7128b/</loc>
     
     <lastmod>2022-09-08</lastmod>
@@ -103,13 +110,6 @@
     <loc>https://yanyuteng.github.io/about/index.html</loc>
     
     <lastmod>2022-06-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/2016/06/30/71632f58/</loc>
-    
-    <lastmod>2022-06-07</lastmod>
     
   </url>
   
@@ -1712,14 +1712,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/culture/</loc>
+    <loc>https://yanyuteng.github.io/tags/organization/</loc>
     <lastmod>2022-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/organization/</loc>
+    <loc>https://yanyuteng.github.io/tags/culture/</loc>
     <lastmod>2022-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
