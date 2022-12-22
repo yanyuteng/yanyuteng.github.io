@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2022-09-26T11:48:06.034Z</updated>
+  <updated>2022-12-22T07:59:26.319Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -17,14 +17,69 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Memo_2004 DR Convergences and Divergences in Mortality</title>
+    <link href="https://yanyuteng.github.io/2022/12/22/f4ff05d2/"/>
+    <id>https://yanyuteng.github.io/2022/12/22/f4ff05d2/</id>
+    <published>2022-12-21T16:00:00.000Z</published>
+    <updated>2022-12-22T07:59:26.319Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Jacques Vallin, France Meslé, 2004. Convergences and divergences in mortality: A new approach of health Transition[J]. Demographic Research, Special 2: 11–44. DOI:10.4054/DemRes.2004.S2.2.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇论文发展了Omran(1971)的论文，提出了新的阶段划分，战胜传染病（the vanquishing of infectious diseases，事实上是Omran的流行病学转变）、心血管革命（the cardiovascular revolution），最后是对抗衰老（the fight against ageing）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Epidemiology" scheme="https://yanyuteng.github.io/categories/Epidemiology/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_稳定人口各指标变动影响</title>
+    <link href="https://yanyuteng.github.io/2022/11/21/59e36cf4/"/>
+    <id>https://yanyuteng.github.io/2022/11/21/59e36cf4/</id>
+    <published>2022-11-20T16:00:00.000Z</published>
+    <updated>2022-11-25T10:48:27.142Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;按查瑞传《数理人口学》、𫖮菲兹《应用数理人口学》，就稳定人口各指标变动的推导作简要记录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_零碎的统计问题集锦</title>
+    <link href="https://yanyuteng.github.io/2022/11/18/a6894eaa/"/>
+    <id>https://yanyuteng.github.io/2022/11/18/a6894eaa/</id>
+    <published>2022-11-17T16:00:00.000Z</published>
+    <updated>2022-12-22T08:00:55.865Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文简要记录日常遇到的统计问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    
+    
+    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
+    
+    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Summary_熬夜会让人快乐么？</title>
     <link href="https://yanyuteng.github.io/2022/09/26/a5262247/"/>
     <id>https://yanyuteng.github.io/2022/09/26/a5262247/</id>
     <published>2022-09-25T16:00:00.000Z</published>
-    <updated>2022-09-26T11:48:06.034Z</updated>
+    <updated>2022-11-25T09:39:25.358Z</updated>
     
     
-    <summary type="html">&lt;p&gt;很多朋友常会吐槽一线城市996的工作，让人没有自己的时间，每天下班只想躺在床上玩会手机，不知觉间已是午夜，此时想到第二天还要继续打工，身心疲倦。但也有朋友说，白天做社畜已经十分艰难，熬夜时才仿佛自己属于自己。熬夜伤身体不假，但熬夜会不会让打工人感到快乐呢，哪怕是片刻的快乐？&lt;br&gt;熬夜与情绪的关系其实很值得探讨。作为美国时间的践行者，博主开始了有益的学术阅读（日常划水）。概要而言，一般研究认为熬夜会导致负面情绪，但熬夜人群其实存在较大的异质性，最近的一项中科院研究认为，微博上的熬夜党反而更快乐。此外，博主也在文末简介了睡眠社会学的动向，相关的健康研究还是一片学术蓝海（开始画饼）。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;很多朋友常会吐槽一线城市996的工作，让人没有自己的时间，每天下班只想躺在床上玩会手机，不知觉间已是午夜，此时想到第二天还要继续打工，身心疲倦。但也有朋友说，白天做社畜已经十分艰难，熬夜时才仿佛自己属于自己。熬夜伤身体不假，但熬夜会不会让打工人感到快乐呢，哪怕是片刻的快乐？&lt;br&gt;概要讲，大多数研究仍认为熬夜会导致负面情绪，但熬夜人群其实存在较大的异质性，最近的一篇中科院心理所的论文认为，微博上的熬夜党反而更快乐。此外，本文的文末简介了睡眠社会学的动向，相关的健康研究还是一片学术蓝海。&lt;/p&gt;</summary>
     
     
     
@@ -55,7 +110,7 @@
     <link href="https://yanyuteng.github.io/2022/09/07/2ed7128b/"/>
     <id>https://yanyuteng.github.io/2022/09/07/2ed7128b/</id>
     <published>2022-09-06T16:00:00.000Z</published>
-    <updated>2022-09-27T05:42:56.439Z</updated>
+    <updated>2022-12-22T08:01:20.937Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念，后因&lt;del&gt;段子&lt;/del&gt;撰文增多，遂分纪实文学与幻想文学两类，请读者雅鉴。内容不定期更新。&lt;/p&gt;</summary>
@@ -125,27 +180,6 @@
   </entry>
   
   <entry>
-    <title>Prose_零碎的统计问题集锦</title>
-    <link href="https://yanyuteng.github.io/2022/07/01/a6894eaa/"/>
-    <id>https://yanyuteng.github.io/2022/07/01/a6894eaa/</id>
-    <published>2022-06-30T16:00:00.000Z</published>
-    <updated>2022-09-03T14:13:13.843Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文简要记录日常遇到的统计问题。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
-    
-    
-    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
-    
-    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Memo_2007 PDR On the determinants of mortality reductions in the developing World</title>
     <link href="https://yanyuteng.github.io/2022/03/21/a35aad7f/"/>
     <id>https://yanyuteng.github.io/2022/03/21/a35aad7f/</id>
@@ -163,11 +197,11 @@
   </entry>
   
   <entry>
-    <title>Memo_2005 MQ The Epidemiologic Transition</title>
+    <title>Memo_1971 MQ The Epidemiologic Transition</title>
     <link href="https://yanyuteng.github.io/2022/03/19/48eb1b/"/>
     <id>https://yanyuteng.github.io/2022/03/19/48eb1b/</id>
     <published>2022-03-18T16:00:00.000Z</published>
-    <updated>2022-09-12T08:12:02.264Z</updated>
+    <updated>2022-12-22T07:53:38.601Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Omran A R, 2005. The Epidemiologic Transition: A Theory of the Epidemiology of Population Change: 4[J]. The Milbank Quarterly, 83(4): 731–757.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇论文的用词老派。Omran(北卡)在这篇论文讨论了人口转变中流行病学转变的重要影响，尤其是将死亡模式与人口转变、社会经济转变相结合。具体有五个主张如下。概要之，死亡率作为基础，近代的死因模式发生了改变，这一改变与人口、社会经济因素有关，可分为三种类型。&lt;/p&gt;</summary>
@@ -343,44 +377,6 @@
     
     <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Diary_福州略记</title>
-    <link href="https://yanyuteng.github.io/2021/05/05/82f57597/"/>
-    <id>https://yanyuteng.github.io/2021/05/05/82f57597/</id>
-    <published>2021-05-04T16:00:00.000Z</published>
-    <updated>2022-02-22T13:55:31.069Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;五月一日至五日，我在福州、厦门旅游，于下略录。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Diary_桂林旅记</title>
-    <link href="https://yanyuteng.github.io/2021/01/03/9e17885b/"/>
-    <id>https://yanyuteng.github.io/2021/01/03/9e17885b/</id>
-    <published>2021-01-02T16:00:00.000Z</published>
-    <updated>2021-08-12T08:02:05.525Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;一月一日至三日，在广西省桂林市的旅记。桂林是白先勇的故乡，确有着南国特有的婉约和清秀。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
     
   </entry>
   
