@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2022-12-22T07:59:26.319Z</updated>
+  <updated>2023-02-27T17:39:49.710Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -17,14 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Memo_2004 DR Convergences and Divergences in Mortality</title>
+    <title>Prose_博客暨编程问题日志</title>
+    <link href="https://yanyuteng.github.io/2023/02/27/6a7d82f6/"/>
+    <id>https://yanyuteng.github.io/2023/02/27/6a7d82f6/</id>
+    <published>2023-02-26T16:00:00.000Z</published>
+    <updated>2023-02-27T17:39:49.710Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;原博客史与编程记录各问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，按时间倒序排列，亦便于日后问题查阅。本日志分两部分：博客变更日志与编程问题日志。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_失业、灵活就业与生育率：日本“失去二十年”的启示</title>
+    <link href="https://yanyuteng.github.io/2023/01/20/ad51ad98/"/>
+    <id>https://yanyuteng.github.io/2023/01/20/ad51ad98/</id>
+    <published>2023-01-19T16:00:00.000Z</published>
+    <updated>2023-02-27T18:28:19.753Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Raymo J.M., Shibata A., 2017, Unemployment, Nonstandard Employment, and Fertility: Insights from Japan’s “Lost 20 Years”. Demography, 54(6), 2301—2329.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;我们常认为日本低迷的生育率是经济停滞的结果，但这篇论文提供了一个很反直觉的见解，对于日本社会而言，长期的经济停滞乃及衰退并未降低、反而却提高了生育率。&lt;br&gt;文章的核心观点认为，经济衰退对生育率的一般影响虽然是负向的，但需要进一步考虑就业市场中的两性分工。以日本社会为例，由于日本以婚内生育与“男主外、女主内”为主流，经济下行降低了男性结婚水平进而降低生育率，但经济下行并未降低女性结婚水平，相反，提高了女性的婚内生育水平。日本男女一负一正的相反结果，导致了在其他条件不变的情况下，失业与非标准就业的上升反而提高了日本社会的生育率。&lt;br&gt;这一反直觉结论无疑挑战了我们已往常常将东亚各国类比的讨论，由于日本社会高度的性别分工，经济衰退对日本生育率的影响实际被高估了。随着中国社会的经济运行进入新常态，且我国女性就业率一直是高于日本社会，我国未来生育率的形势可能会更加严峻，下降幅度亦可能会比日本、比我们预期的更加剧烈。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_国际死亡率的弥合与分野</title>
     <link href="https://yanyuteng.github.io/2022/12/22/f4ff05d2/"/>
     <id>https://yanyuteng.github.io/2022/12/22/f4ff05d2/</id>
     <published>2022-12-21T16:00:00.000Z</published>
-    <updated>2022-12-22T07:59:26.319Z</updated>
+    <updated>2023-02-27T18:04:09.860Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Jacques Vallin, France Meslé, 2004. Convergences and divergences in mortality: A new approach of health Transition[J]. Demographic Research, Special 2: 11–44. DOI:10.4054/DemRes.2004.S2.2.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇论文发展了Omran(1971)的论文，提出了新的阶段划分，战胜传染病（the vanquishing of infectious diseases，事实上是Omran的流行病学转变）、心血管革命（the cardiovascular revolution），最后是对抗衰老（the fight against ageing）&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Jacques Vallin, France Meslé, 2004. Convergences and divergences in mortality: A new approach of health Transition[J]. Demographic Research, Special 2: 11–44. DOI:10.4054/DemRes.2004.S2.2.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇论文发展了Omran(1971)的论文，提出了流行病转变的新的阶段划分，即传染病阶段（事实上是Omran的流行病学转变）、心血管病阶段以及老年慢性病阶段。&lt;/p&gt;</summary>
     
     
     
@@ -38,7 +72,7 @@
     <link href="https://yanyuteng.github.io/2022/11/18/a6894eaa/"/>
     <id>https://yanyuteng.github.io/2022/11/18/a6894eaa/</id>
     <published>2022-11-17T16:00:00.000Z</published>
-    <updated>2022-12-27T09:06:57.364Z</updated>
+    <updated>2023-02-27T17:40:17.975Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文简要记录日常遇到的统计问题。&lt;/p&gt;</summary>
@@ -97,10 +131,10 @@
     <link href="https://yanyuteng.github.io/2022/09/15/1943e40e/"/>
     <id>https://yanyuteng.github.io/2022/09/15/1943e40e/</id>
     <published>2022-09-14T16:00:00.000Z</published>
-    <updated>2022-09-26T11:48:18.533Z</updated>
+    <updated>2023-02-27T18:24:27.893Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Martikainen P., Korhonen K., Tarkiainen L., 2021, “Heavy metal toxicity and mortality—association between density of heavy metal bands and cause specific hospital admissions and mortality: population based cohort study”, BMJ, 375.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;当我们谈到金属乐，一般人往往第一时间想到的是尖叫或低吼、失真的吉他，或者炸裂的鼓点，与之相伴的是对现实的不满或压抑。但对乐迷来讲，这些情绪往往会随着乐队的咆哮被逐渐宣泄。我们总说“死亡重金属”，但是听金属乐是否真的有更高的死亡可能呢？博主作为一度沉迷农业重金属的爱好者，开始了学术阅读。（不是）&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Martikainen P., Korhonen K., Tarkiainen L., 2021, “Heavy metal toxicity and mortality—association between density of heavy metal bands and cause specific hospital admissions and mortality: population based cohort study”, BMJ, 375.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;当我们谈到金属乐，一般人往往第一时间想到的是尖叫或低吼、失真的吉他，乃及炸裂的鼓点，与之相伴的是对现实的不满或压抑。但对乐迷来讲，这些情绪往往会随着乐队的咆哮被逐渐宣泄。我们总说“死亡重金属”，但是听金属乐是否真的有更高的死亡可能呢？&lt;br&gt;去年在《英国医学杂志》（BMJ）上，有一篇专门讨论听金属乐与死亡率关系的论文（Martikainen et al., 2021），作者P Martikainen几人均供职于赫尔辛基大学的人口所。这篇文章的结论甚至与我们的日常预期相反，起码就芬兰而言，在控制了各因素后，重金属乐更发达的地区，人们的死亡率反而更低。作者们猜测，金属乐队的密集程度本身可能就反映了地区的文化、社会资本存量，事实上这些乐队能够促进社区活力，也有助于社区中的个体追求更连接、健康的生活方式。&lt;/p&gt;</summary>
     
     
     
@@ -150,11 +184,11 @@
   </entry>
   
   <entry>
-    <title>Memo_世界人口展望_2022_主要发现及方法创新</title>
+    <title>Memo_2022_UN世界人口展望报告</title>
     <link href="https://yanyuteng.github.io/2022/07/11/45a54a04/"/>
     <id>https://yanyuteng.github.io/2022/07/11/45a54a04/</id>
     <published>2022-07-10T16:00:00.000Z</published>
-    <updated>2022-09-26T11:47:49.966Z</updated>
+    <updated>2023-02-27T17:53:17.564Z</updated>
     
     
     <summary type="html">&lt;p&gt;上午听John Wilmoth报告的《世界人口展望 2022》（WPP 2022，下简称《展望》），该报告是UN所做的第27次全球人口预测估计，反映了271个国家或地区、乃及全球的人口估计结果，其公布的数据集一直是联合国各报告中被下载量最多的数据集之一。本文摘录了Wilmoth报告的方法创新与主要发现，并部分讨论了中国人口情况。&lt;/p&gt;</summary>
@@ -167,28 +201,11 @@
   </entry>
   
   <entry>
-    <title>Prose_博客暨编程问题日志</title>
-    <link href="https://yanyuteng.github.io/2022/07/09/6a7d82f6/"/>
-    <id>https://yanyuteng.github.io/2022/07/09/6a7d82f6/</id>
-    <published>2022-07-08T16:00:00.000Z</published>
-    <updated>2023-02-27T16:33:53.875Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;原各问题日志散记于Struggle Diary分类下各年日记中，考虑到日记与问题解决日志不同，现整理于一篇，相当于博客史与编程记录，亦便于日后问题查阅。&lt;br&gt;</summary>
-    
-    
-    
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_2007 PDR On the determinants of mortality reductions in the developing World</title>
+    <title>Memo_后发世界的死亡率下降机制：技术扩散论</title>
     <link href="https://yanyuteng.github.io/2022/03/21/a35aad7f/"/>
     <id>https://yanyuteng.github.io/2022/03/21/a35aad7f/</id>
     <published>2022-03-20T16:00:00.000Z</published>
-    <updated>2022-09-12T07:54:55.750Z</updated>
+    <updated>2023-02-27T18:15:35.006Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Soares R, 2007. On the determinants of mortality reductions in the developing World[J]. Population and Development Review, 33(2): 247–287.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Soares（哥大劳动经济学家）在这篇论文中主要讨论了20世纪后半叶，发展中国家死亡率下降的原因。概要，第一，后发国家的转变具有时空压缩性，且下降最主要不是因经济收入、营养等因素，而是卫生观念与卫生条件的改善、技术疫苗的普及。第二，国家间的健康不平等有扩大趋势。&lt;/p&gt;</summary>
@@ -201,14 +218,14 @@
   </entry>
   
   <entry>
-    <title>Memo_1971 MQ The Epidemiologic Transition</title>
+    <title>Memo_流行病学转变的经典三阶段</title>
     <link href="https://yanyuteng.github.io/2022/03/19/48eb1b/"/>
     <id>https://yanyuteng.github.io/2022/03/19/48eb1b/</id>
     <published>2022-03-18T16:00:00.000Z</published>
-    <updated>2022-12-22T07:53:38.601Z</updated>
+    <updated>2023-02-27T18:13:11.908Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Omran A R, 2005. The Epidemiologic Transition: A Theory of the Epidemiology of Population Change: 4[J]. The Milbank Quarterly, 83(4): 731–757.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇论文的用词老派。Omran(北卡)在这篇论文讨论了人口转变中流行病学转变的重要影响，尤其是将死亡模式与人口转变、社会经济转变相结合。具体有五个主张如下。概要之，死亡率作为基础，近代的死因模式发生了改变，这一改变与人口、社会经济因素有关，可分为三种类型。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Omran A R, 2005. The Epidemiologic Transition: A Theory of the Epidemiology of Population Change: 4[J]. The Milbank Quarterly, 83(4): 731–757.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Omran(北卡)在这篇论文讨论了人口转变中流行病学转变的重要影响，尤其是将死亡模式与人口转变、社会经济转变相结合。具体有五个主张如下。概要之，死亡率作为基础是讨论前提，近代的死因模式发生了改变，这一改变与人口、社会经济因素有关，可分为三种类型。&lt;/p&gt;</summary>
     
     
     
@@ -218,11 +235,11 @@
   </entry>
   
   <entry>
-    <title>Memo_2008 JJP Very Low Fertility Consequences, Causes and Policy Approaches</title>
+    <title>Memo_低生育率的成因与影响</title>
     <link href="https://yanyuteng.github.io/2022/03/07/2d882a98/"/>
     <id>https://yanyuteng.github.io/2022/03/07/2d882a98/</id>
     <published>2022-03-06T16:00:00.000Z</published>
-    <updated>2022-09-12T07:50:06.732Z</updated>
+    <updated>2023-02-27T18:11:56.863Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;McDonald P, 2008. Very Low Fertility: Consequences, Causes and Policy Approaches[J]. Japanese Journal of Population[2022–02–22].&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;McDonald在这篇文章中讨论了极低生育率的后果、成因与政策建议。巫锡炜老师评价，这篇论文背景是当时办的一个东亚低生育论坛，侧重于政策导向。&lt;/p&gt;</summary>
@@ -254,14 +271,14 @@
   </entry>
   
   <entry>
-    <title>Memo_1996 PS Demographic Transition Theory</title>
+    <title>Memo_生育率转变的因果机制</title>
     <link href="https://yanyuteng.github.io/2022/03/01/457dafdb/"/>
     <id>https://yanyuteng.github.io/2022/03/01/457dafdb/</id>
     <published>2022-02-28T16:00:00.000Z</published>
-    <updated>2022-09-12T10:14:40.328Z</updated>
+    <updated>2023-02-27T18:08:33.612Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Kirk D, 1996. Demographic Transition Theory: 3[J]. Population Studies, 50(3): 361–387.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇文章是Kirk（斯坦福大学）于1996年发表在《Population Studies》。人口转变理论一般被认为是肇始于F Notestein 1945年的文章，或更早第一次使用转变这种描述的则是A Landry 1934年的《人口革命》一书。&lt;br&gt;巫锡炜老师评价，这篇论文的重要性在于，第一，人口转变作为一个理论，不能仅仅描述现象，Kirk总结了死亡率为何会下降、生育率为何会下降；第二，Krik启发了我们，理论内容应该包括什么？如果转变不仅仅是出生率、死亡率在变，应该如何测度人口转变，不同转变间又是否有特定内涵、是否存在更一般性的因素，还是说可以无限套娃。这篇论文提供了一个出发点。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Kirk D, 1996. Demographic Transition Theory[J]. Population Studies, 50(3): 361–387.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇文章是Kirk（斯坦福大学）于1996年发表在《Population Studies》。人口转变理论一般被认为是肇始于F Notestein 1945年的文章，或更早第一次使用转变这种描述的则是A Landry 1934年的《人口革命》一书。&lt;br&gt;巫锡炜老师评价，这篇论文的重要性在于，第一，人口转变作为一个理论，不能仅仅描述现象，Kirk总结了死亡率为何会下降、生育率为何会下降；第二，Krik启发了我们，理论内容应该包括什么？如果转变不仅仅是出生率、死亡率在变，应该如何测度人口转变，不同转变间又是否有特定内涵、是否存在更一般性的因素，还是说可以无限套娃。这篇论文提供了一个出发点。&lt;/p&gt;</summary>
     
     
     
@@ -361,26 +378,9 @@
     <category term="History" scheme="https://yanyuteng.github.io/categories/History/"/>
     
     
-    <category term="费孝通" scheme="https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/"/>
-    
     <category term="biography" scheme="https://yanyuteng.github.io/tags/biography/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Prose_按七普看中国人口变迁</title>
-    <link href="https://yanyuteng.github.io/2021/05/28/f8e6456b/"/>
-    <id>https://yanyuteng.github.io/2021/05/28/f8e6456b/</id>
-    <published>2021-05-27T16:00:00.000Z</published>
-    <updated>2022-09-26T11:48:39.216Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;按七普公报画了几张图，东北、乃及整个北方的地位急转仅是近十年的事情。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
-    
+    <category term="费孝通" scheme="https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/"/>
     
   </entry>
   
