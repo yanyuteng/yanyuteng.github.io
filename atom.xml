@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Yuteng&#39;s Blog</title>
-  <icon>https://yanyuteng.cn/icon.png</icon>
+  <icon>https://yanyuteng.github.io/icon.png</icon>
   
-  <link href="https://yanyuteng.cn/atom.xml" rel="self"/>
+  <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
-  <link href="https://yanyuteng.cn/"/>
+  <link href="https://yanyuteng.github.io/"/>
   <updated>2023-03-01T12:06:08.430Z</updated>
-  <id>https://yanyuteng.cn/</id>
+  <id>https://yanyuteng.github.io/</id>
   
   <author>
     <name>Yuteng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Prose_博客暨编程问题日志</title>
-    <link href="https://yanyuteng.cn/2023/03/01/6a7d82f6/"/>
-    <id>https://yanyuteng.cn/2023/03/01/6a7d82f6/</id>
+    <link href="https://yanyuteng.github.io/2023/03/01/6a7d82f6/"/>
+    <id>https://yanyuteng.github.io/2023/03/01/6a7d82f6/</id>
     <published>2023-02-28T16:00:00.000Z</published>
     <updated>2023-03-01T12:06:08.430Z</updated>
     
@@ -28,17 +28,17 @@
     
     
     
-    <category term="Prose" scheme="https://yanyuteng.cn/categories/Prose/"/>
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
     
     
-    <category term="program" scheme="https://yanyuteng.cn/tags/program/"/>
+    <category term="program" scheme="https://yanyuteng.github.io/tags/program/"/>
     
   </entry>
   
   <entry>
     <title>Memo_失业、灵活就业与生育率：日本“失去二十年”的启示</title>
-    <link href="https://yanyuteng.cn/2023/01/20/ad51ad98/"/>
-    <id>https://yanyuteng.cn/2023/01/20/ad51ad98/</id>
+    <link href="https://yanyuteng.github.io/2023/01/20/ad51ad98/"/>
+    <id>https://yanyuteng.github.io/2023/01/20/ad51ad98/</id>
     <published>2023-01-19T16:00:00.000Z</published>
     <updated>2023-02-27T18:28:19.753Z</updated>
     
@@ -47,15 +47,15 @@
     
     
     
-    <category term="Demography" scheme="https://yanyuteng.cn/categories/Demography/"/>
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_国际死亡率的弥合与分野</title>
-    <link href="https://yanyuteng.cn/2022/12/22/f4ff05d2/"/>
-    <id>https://yanyuteng.cn/2022/12/22/f4ff05d2/</id>
+    <link href="https://yanyuteng.github.io/2022/12/22/f4ff05d2/"/>
+    <id>https://yanyuteng.github.io/2022/12/22/f4ff05d2/</id>
     <published>2022-12-21T16:00:00.000Z</published>
     <updated>2023-02-27T18:04:09.860Z</updated>
     
@@ -64,15 +64,15 @@
     
     
     
-    <category term="Epidemiology" scheme="https://yanyuteng.cn/categories/Epidemiology/"/>
+    <category term="Epidemiology" scheme="https://yanyuteng.github.io/categories/Epidemiology/"/>
     
     
   </entry>
   
   <entry>
     <title>Prose_零碎的统计问题集锦</title>
-    <link href="https://yanyuteng.cn/2022/11/18/a6894eaa/"/>
-    <id>https://yanyuteng.cn/2022/11/18/a6894eaa/</id>
+    <link href="https://yanyuteng.github.io/2022/11/18/a6894eaa/"/>
+    <id>https://yanyuteng.github.io/2022/11/18/a6894eaa/</id>
     <published>2022-11-17T16:00:00.000Z</published>
     <updated>2023-02-27T17:40:17.975Z</updated>
     
@@ -81,19 +81,19 @@
     
     
     
-    <category term="Quantitative Method" scheme="https://yanyuteng.cn/categories/Quantitative-Method/"/>
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
     
     
-    <category term="methodology" scheme="https://yanyuteng.cn/tags/methodology/"/>
+    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
     
-    <category term="econometrics" scheme="https://yanyuteng.cn/tags/econometrics/"/>
+    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
     
   </entry>
   
   <entry>
     <title>Memo_论家：个体与亲亲</title>
-    <link href="https://yanyuteng.cn/2022/10/15/9a3b737d/"/>
-    <id>https://yanyuteng.cn/2022/10/15/9a3b737d/</id>
+    <link href="https://yanyuteng.github.io/2022/10/15/9a3b737d/"/>
+    <id>https://yanyuteng.github.io/2022/10/15/9a3b737d/</id>
     <published>2022-10-14T16:00:00.000Z</published>
     <updated>2023-01-25T06:11:18.384Z</updated>
     
@@ -102,19 +102,19 @@
     
     
     
-    <category term="Sociological Theory" scheme="https://yanyuteng.cn/categories/Sociological-Theory/"/>
+    <category term="Sociological Theory" scheme="https://yanyuteng.github.io/categories/Sociological-Theory/"/>
     
     
-    <category term="china" scheme="https://yanyuteng.cn/tags/china/"/>
+    <category term="china" scheme="https://yanyuteng.github.io/tags/china/"/>
     
-    <category term="demography" scheme="https://yanyuteng.cn/tags/demography/"/>
+    <category term="demography" scheme="https://yanyuteng.github.io/tags/demography/"/>
     
   </entry>
   
   <entry>
     <title>Summary_熬夜会让人快乐么？</title>
-    <link href="https://yanyuteng.cn/2022/09/26/a5262247/"/>
-    <id>https://yanyuteng.cn/2022/09/26/a5262247/</id>
+    <link href="https://yanyuteng.github.io/2022/09/26/a5262247/"/>
+    <id>https://yanyuteng.github.io/2022/09/26/a5262247/</id>
     <published>2022-09-25T16:00:00.000Z</published>
     <updated>2022-11-25T09:39:25.358Z</updated>
     
@@ -123,15 +123,15 @@
     
     
     
-    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.cn/categories/Health-Medical-Sociology/"/>
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_震惊！听“死亡重金属”的我更健康了</title>
-    <link href="https://yanyuteng.cn/2022/09/15/1943e40e/"/>
-    <id>https://yanyuteng.cn/2022/09/15/1943e40e/</id>
+    <link href="https://yanyuteng.github.io/2022/09/15/1943e40e/"/>
+    <id>https://yanyuteng.github.io/2022/09/15/1943e40e/</id>
     <published>2022-09-14T16:00:00.000Z</published>
     <updated>2023-02-27T18:24:27.893Z</updated>
     
@@ -140,15 +140,15 @@
     
     
     
-    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.cn/categories/Health-Medical-Sociology/"/>
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
     
     
   </entry>
   
   <entry>
     <title>Prose_寓中札记</title>
-    <link href="https://yanyuteng.cn/2022/09/07/2ed7128b/"/>
-    <id>https://yanyuteng.cn/2022/09/07/2ed7128b/</id>
+    <link href="https://yanyuteng.github.io/2022/09/07/2ed7128b/"/>
+    <id>https://yanyuteng.github.io/2022/09/07/2ed7128b/</id>
     <published>2022-09-06T16:00:00.000Z</published>
     <updated>2023-03-06T06:23:36.800Z</updated>
     
@@ -157,17 +157,17 @@
     
     
     
-    <category term="Prose" scheme="https://yanyuteng.cn/categories/Prose/"/>
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
     
     
-    <category term="idealism" scheme="https://yanyuteng.cn/tags/idealism/"/>
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
     
   </entry>
   
   <entry>
     <title>Diary_青海游记</title>
-    <link href="https://yanyuteng.cn/2022/08/26/c32c902c/"/>
-    <id>https://yanyuteng.cn/2022/08/26/c32c902c/</id>
+    <link href="https://yanyuteng.github.io/2022/08/26/c32c902c/"/>
+    <id>https://yanyuteng.github.io/2022/08/26/c32c902c/</id>
     <published>2022-08-25T16:00:00.000Z</published>
     <updated>2022-09-03T13:13:20.083Z</updated>
     
@@ -176,19 +176,19 @@
     
     
     
-    <category term="Struggle Diary" scheme="https://yanyuteng.cn/categories/Struggle-Diary/"/>
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
     
     
-    <category term="qinghai" scheme="https://yanyuteng.cn/tags/qinghai/"/>
+    <category term="qinghai" scheme="https://yanyuteng.github.io/tags/qinghai/"/>
     
-    <category term="xining" scheme="https://yanyuteng.cn/tags/xining/"/>
+    <category term="xining" scheme="https://yanyuteng.github.io/tags/xining/"/>
     
   </entry>
   
   <entry>
     <title>Memo_2022_UN世界人口展望报告</title>
-    <link href="https://yanyuteng.cn/2022/07/11/45a54a04/"/>
-    <id>https://yanyuteng.cn/2022/07/11/45a54a04/</id>
+    <link href="https://yanyuteng.github.io/2022/07/11/45a54a04/"/>
+    <id>https://yanyuteng.github.io/2022/07/11/45a54a04/</id>
     <published>2022-07-10T16:00:00.000Z</published>
     <updated>2023-02-27T17:53:17.564Z</updated>
     
@@ -197,15 +197,15 @@
     
     
     
-    <category term="Demography" scheme="https://yanyuteng.cn/categories/Demography/"/>
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_后发世界的死亡率下降机制：技术扩散论</title>
-    <link href="https://yanyuteng.cn/2022/03/21/a35aad7f/"/>
-    <id>https://yanyuteng.cn/2022/03/21/a35aad7f/</id>
+    <link href="https://yanyuteng.github.io/2022/03/21/a35aad7f/"/>
+    <id>https://yanyuteng.github.io/2022/03/21/a35aad7f/</id>
     <published>2022-03-20T16:00:00.000Z</published>
     <updated>2023-02-27T18:15:35.006Z</updated>
     
@@ -214,15 +214,15 @@
     
     
     
-    <category term="Epidemiology" scheme="https://yanyuteng.cn/categories/Epidemiology/"/>
+    <category term="Epidemiology" scheme="https://yanyuteng.github.io/categories/Epidemiology/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_流行病学转变的经典三阶段</title>
-    <link href="https://yanyuteng.cn/2022/03/19/48eb1b/"/>
-    <id>https://yanyuteng.cn/2022/03/19/48eb1b/</id>
+    <link href="https://yanyuteng.github.io/2022/03/19/48eb1b/"/>
+    <id>https://yanyuteng.github.io/2022/03/19/48eb1b/</id>
     <published>2022-03-18T16:00:00.000Z</published>
     <updated>2023-02-27T18:13:11.908Z</updated>
     
@@ -231,15 +231,15 @@
     
     
     
-    <category term="Epidemiology" scheme="https://yanyuteng.cn/categories/Epidemiology/"/>
+    <category term="Epidemiology" scheme="https://yanyuteng.github.io/categories/Epidemiology/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_低生育率的成因与影响</title>
-    <link href="https://yanyuteng.cn/2022/03/07/2d882a98/"/>
-    <id>https://yanyuteng.cn/2022/03/07/2d882a98/</id>
+    <link href="https://yanyuteng.github.io/2022/03/07/2d882a98/"/>
+    <id>https://yanyuteng.github.io/2022/03/07/2d882a98/</id>
     <published>2022-03-06T16:00:00.000Z</published>
     <updated>2023-02-27T18:11:56.863Z</updated>
     
@@ -248,15 +248,15 @@
     
     
     
-    <category term="Demography" scheme="https://yanyuteng.cn/categories/Demography/"/>
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_为避免下坠而竞争</title>
-    <link href="https://yanyuteng.cn/2022/03/05/44d14e96/"/>
-    <id>https://yanyuteng.cn/2022/03/05/44d14e96/</id>
+    <link href="https://yanyuteng.github.io/2022/03/05/44d14e96/"/>
+    <id>https://yanyuteng.github.io/2022/03/05/44d14e96/</id>
     <published>2022-03-04T16:00:00.000Z</published>
     <updated>2022-03-07T11:02:19.312Z</updated>
     
@@ -265,17 +265,17 @@
     
     
     
-    <category term="Social Stratification" scheme="https://yanyuteng.cn/categories/Social-Stratification/"/>
+    <category term="Social Stratification" scheme="https://yanyuteng.github.io/categories/Social-Stratification/"/>
     
     
-    <category term="class" scheme="https://yanyuteng.cn/tags/class/"/>
+    <category term="class" scheme="https://yanyuteng.github.io/tags/class/"/>
     
   </entry>
   
   <entry>
     <title>Memo_生育率转变的因果机制</title>
-    <link href="https://yanyuteng.cn/2022/03/01/457dafdb/"/>
-    <id>https://yanyuteng.cn/2022/03/01/457dafdb/</id>
+    <link href="https://yanyuteng.github.io/2022/03/01/457dafdb/"/>
+    <id>https://yanyuteng.github.io/2022/03/01/457dafdb/</id>
     <published>2022-02-28T16:00:00.000Z</published>
     <updated>2023-02-27T18:08:33.612Z</updated>
     
@@ -284,15 +284,15 @@
     
     
     
-    <category term="Demography" scheme="https://yanyuteng.cn/categories/Demography/"/>
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_社会人口学的视野</title>
-    <link href="https://yanyuteng.cn/2022/02/28/46155ffc/"/>
-    <id>https://yanyuteng.cn/2022/02/28/46155ffc/</id>
+    <link href="https://yanyuteng.github.io/2022/02/28/46155ffc/"/>
+    <id>https://yanyuteng.github.io/2022/02/28/46155ffc/</id>
     <published>2022-02-27T16:00:00.000Z</published>
     <updated>2022-09-12T07:48:26.051Z</updated>
     
@@ -301,15 +301,15 @@
     
     
     
-    <category term="Demography" scheme="https://yanyuteng.cn/categories/Demography/"/>
+    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_杜甫传</title>
-    <link href="https://yanyuteng.cn/2022/02/20/59cb0e3a/"/>
-    <id>https://yanyuteng.cn/2022/02/20/59cb0e3a/</id>
+    <link href="https://yanyuteng.github.io/2022/02/20/59cb0e3a/"/>
+    <id>https://yanyuteng.github.io/2022/02/20/59cb0e3a/</id>
     <published>2022-02-19T16:00:00.000Z</published>
     <updated>2022-03-08T01:42:51.484Z</updated>
     
@@ -318,17 +318,17 @@
     
     
     
-    <category term="Literature" scheme="https://yanyuteng.cn/categories/Literature/"/>
+    <category term="Literature" scheme="https://yanyuteng.github.io/categories/Literature/"/>
     
     
-    <category term="ancient history" scheme="https://yanyuteng.cn/tags/ancient-history/"/>
+    <category term="ancient history" scheme="https://yanyuteng.github.io/tags/ancient-history/"/>
     
   </entry>
   
   <entry>
     <title>Diary_川渝略记</title>
-    <link href="https://yanyuteng.cn/2022/01/25/e206bad9/"/>
-    <id>https://yanyuteng.cn/2022/01/25/e206bad9/</id>
+    <link href="https://yanyuteng.github.io/2022/01/25/e206bad9/"/>
+    <id>https://yanyuteng.github.io/2022/01/25/e206bad9/</id>
     <published>2022-01-24T16:00:00.000Z</published>
     <updated>2022-08-26T18:14:36.633Z</updated>
     
@@ -337,19 +337,19 @@
     
     
     
-    <category term="Struggle Diary" scheme="https://yanyuteng.cn/categories/Struggle-Diary/"/>
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
     
     
-    <category term="chongqing" scheme="https://yanyuteng.cn/tags/chongqing/"/>
+    <category term="chongqing" scheme="https://yanyuteng.github.io/tags/chongqing/"/>
     
-    <category term="sichuan" scheme="https://yanyuteng.cn/tags/sichuan/"/>
+    <category term="sichuan" scheme="https://yanyuteng.github.io/tags/sichuan/"/>
     
   </entry>
   
   <entry>
     <title>Diary_2021</title>
-    <link href="https://yanyuteng.cn/2021/12/26/b7241c96/"/>
-    <id>https://yanyuteng.cn/2021/12/26/b7241c96/</id>
+    <link href="https://yanyuteng.github.io/2021/12/26/b7241c96/"/>
+    <id>https://yanyuteng.github.io/2021/12/26/b7241c96/</id>
     <published>2021-12-25T16:00:00.000Z</published>
     <updated>2023-02-18T05:19:44.716Z</updated>
     
@@ -358,17 +358,17 @@
     
     
     
-    <category term="Struggle Diary" scheme="https://yanyuteng.cn/categories/Struggle-Diary/"/>
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
     
     
-    <category term="idealism" scheme="https://yanyuteng.cn/tags/idealism/"/>
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
     
   </entry>
   
   <entry>
     <title>Memo_传承与断裂 剧变中的中国社会学与社会学家</title>
-    <link href="https://yanyuteng.cn/2021/08/04/55c7fc0f/"/>
-    <id>https://yanyuteng.cn/2021/08/04/55c7fc0f/</id>
+    <link href="https://yanyuteng.github.io/2021/08/04/55c7fc0f/"/>
+    <id>https://yanyuteng.github.io/2021/08/04/55c7fc0f/</id>
     <published>2021-08-03T16:00:00.000Z</published>
     <updated>2021-10-05T16:04:28.992Z</updated>
     
@@ -377,12 +377,12 @@
     
     
     
-    <category term="History" scheme="https://yanyuteng.cn/categories/History/"/>
+    <category term="History" scheme="https://yanyuteng.github.io/categories/History/"/>
     
     
-    <category term="费孝通" scheme="https://yanyuteng.cn/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/"/>
+    <category term="费孝通" scheme="https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/"/>
     
-    <category term="biography" scheme="https://yanyuteng.cn/tags/biography/"/>
+    <category term="biography" scheme="https://yanyuteng.github.io/tags/biography/"/>
     
   </entry>
   
