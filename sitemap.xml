@@ -1900,13 +1900,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/canton/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/chongqing/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -1915,6 +1908,27 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/sichuan/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/canton/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/qinghai/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/xining/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1942,13 +1956,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/environment/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/marxism/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -1963,14 +1970,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/qinghai/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/xining/</loc>
+    <loc>https://yanyuteng.github.io/tags/environment/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1991,70 +1991,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/art/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/governmentality/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/elias/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/class/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/weber/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/science/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/rural-area/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/biography/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2075,7 +2012,77 @@
   </url>
   
   <url>
+    <loc>https://yanyuteng.github.io/tags/elias/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/%E8%B4%B9%E5%AD%9D%E9%80%9A/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/rural-area/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/class/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/art/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/modern-history/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/weber/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/science/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/biography/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.github.io/tags/jacbos/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/enterprise/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2097,13 +2104,6 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/food/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.github.io/tags/enterprise/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2138,7 +2138,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/existentialism/</loc>
+    <loc>https://yanyuteng.github.io/tags/consumption/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2152,13 +2152,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/polanyi/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/tags/censorship/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -2166,7 +2159,7 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/consumption/</loc>
+    <loc>https://yanyuteng.github.io/tags/existentialism/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2174,6 +2167,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/tags/freud/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/tags/polanyi/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2257,14 +2257,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/Foucault/</loc>
+    <loc>https://yanyuteng.github.io/tags/Pai-Hsien-yung/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/Pai-Hsien-yung/</loc>
+    <loc>https://yanyuteng.github.io/tags/Foucault/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2355,14 +2355,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/depression/</loc>
+    <loc>https://yanyuteng.github.io/tags/criminology/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/tags/criminology/</loc>
+    <loc>https://yanyuteng.github.io/tags/depression/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2462,13 +2462,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Literature/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/categories/Organizational-Sociology/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -2483,13 +2476,6 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Social-Stratification/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yanyuteng.github.io/categories/Rural-Sociology/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -2497,7 +2483,14 @@
   </url>
   
   <url>
-    <loc>https://yanyuteng.github.io/categories/Epidemiology/</loc>
+    <loc>https://yanyuteng.github.io/categories/Social-Stratification/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/categories/Literature/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2505,6 +2498,13 @@
   
   <url>
     <loc>https://yanyuteng.github.io/categories/Economics/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.github.io/categories/Epidemiology/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
