@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2023-03-29T07:13:58.020Z</updated>
+  <updated>2023-03-29T15:12:37.341Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Prose_博客日志</title>
+    <link href="https://yanyuteng.github.io/2023/03/29/6a7d82f6/"/>
+    <id>https://yanyuteng.github.io/2023/03/29/6a7d82f6/</id>
+    <published>2023-03-28T16:00:00.000Z</published>
+    <updated>2023-03-29T15:12:37.341Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;原博客日志散记于Struggle Diary分类下各年日记中，考虑到博客日志有其历史意义，现集于一篇，按时间倒序排列。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    
+    
+    <category term="program" scheme="https://yanyuteng.github.io/tags/program/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Prose_统计暨编程问题日志</title>
     <link href="https://yanyuteng.github.io/2023/03/28/a6894eaa/"/>
     <id>https://yanyuteng.github.io/2023/03/28/a6894eaa/</id>
     <published>2023-03-27T16:00:00.000Z</published>
-    <updated>2023-03-29T07:13:58.020Z</updated>
+    <updated>2023-03-31T07:26:54.625Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，本日志按倒序排列，分统计问题日志与编程问题日志两部分。&lt;/p&gt;</summary>
@@ -57,21 +76,21 @@
   </entry>
   
   <entry>
-    <title>Prose_博客日志</title>
-    <link href="https://yanyuteng.github.io/2023/03/01/6a7d82f6/"/>
-    <id>https://yanyuteng.github.io/2023/03/01/6a7d82f6/</id>
-    <published>2023-02-28T16:00:00.000Z</published>
-    <updated>2023-03-29T07:00:27.697Z</updated>
+    <title>Diary_湘鄂皖游记</title>
+    <link href="https://yanyuteng.github.io/2023/02/19/5d9a2be2/"/>
+    <id>https://yanyuteng.github.io/2023/02/19/5d9a2be2/</id>
+    <published>2023-02-18T16:00:00.000Z</published>
+    <updated>2023-04-01T16:10:42.860Z</updated>
     
     
-    <summary type="html">&lt;p&gt;原博客日志散记于Struggle Diary分类下各年日记中，考虑到博客日志有其历史意义，现集于一篇，按时间倒序排列。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;廿三年二月六日，往两湖暨安徽旅行，游有三省四市，长沙、岳阳、武汉及安庆，十九日返京。因事务多，四月初，才有时间大致记录这次的旅行。&lt;/p&gt;</summary>
     
     
     
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
     
     
-    <category term="program" scheme="https://yanyuteng.github.io/tags/program/"/>
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
     
   </entry>
   
@@ -349,7 +368,7 @@
     <link href="https://yanyuteng.github.io/2022/01/25/e206bad9/"/>
     <id>https://yanyuteng.github.io/2022/01/25/e206bad9/</id>
     <published>2022-01-24T16:00:00.000Z</published>
-    <updated>2022-08-26T18:14:36.633Z</updated>
+    <updated>2023-03-29T15:05:28.421Z</updated>
     
     
     <summary type="html">&lt;p&gt;一月十日我离京至粤，中旬复至川渝，在川旅游整有十日。先后去了重庆、成都、都江堰及乐山。因近惫懒，录此游记已是二月下旬了。&lt;/p&gt;</summary>
@@ -362,25 +381,6 @@
     <category term="chongqing" scheme="https://yanyuteng.github.io/tags/chongqing/"/>
     
     <category term="sichuan" scheme="https://yanyuteng.github.io/tags/sichuan/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Diary_2021</title>
-    <link href="https://yanyuteng.github.io/2021/12/26/b7241c96/"/>
-    <id>https://yanyuteng.github.io/2021/12/26/b7241c96/</id>
-    <published>2021-12-25T16:00:00.000Z</published>
-    <updated>2023-03-29T07:04:11.063Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;2021-1-5-桂林&quot;&gt;&lt;a href=&quot;#2021-1-5-桂林&quot; class=&quot;headerlink&quot; title=&quot;2021.1.5 桂林&quot;&gt;&lt;/a&gt;2021.1.5 桂林&lt;/h2&gt;&lt;p&gt;卅一日，我在市桥的牛小灶渡过了二〇二〇年的最后一日，也开始了二〇二一年的第一日。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
     
   </entry>
   
