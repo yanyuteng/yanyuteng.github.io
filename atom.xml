@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2023-03-29T15:12:37.341Z</updated>
+  <updated>2023-04-16T13:03:06.014Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Diary_京郊古刹访录</title>
+    <link href="https://yanyuteng.github.io/2023/04/16/1ccb6f40/"/>
+    <id>https://yanyuteng.github.io/2023/04/16/1ccb6f40/</id>
+    <published>2023-04-15T16:00:00.000Z</published>
+    <updated>2023-04-16T13:03:06.014Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;北京实无可堪赞叹的自然景致，人文古建确十分厚重。因之开京郊古刹访录，以录在京念书间探幽访古的印象。廿一年迄今，访有潭柘、戒台、独乐、大西天、雍和宫等。本文不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    
+    
+    <category term="beijing" scheme="https://yanyuteng.github.io/tags/beijing/"/>
+    
+    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_妈的玄学统计：反思实证研究的可复制性</title>
+    <link href="https://yanyuteng.github.io/2023/04/16/e8b50b62/"/>
+    <id>https://yanyuteng.github.io/2023/04/16/e8b50b62/</id>
+    <published>2023-04-15T16:00:00.000Z</published>
+    <updated>2023-04-16T13:10:38.928Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;去年在《美国国家科学院院刊·社会科学版》（Proceedings of the National Academy of Sciences, PNAS）上刊登了一篇文章很有意思，这篇文章题为《Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty》，和前段时间拿了奥斯卡的《瞬息全宇宙》一样（但我更喜欢台湾译法《妈的多重宇宙》），如果俏皮些翻译，或许可以把这篇文章译成《（妈的）玄学统计宇宙》。邻近毕业季，正在凑玄学显著的同学们想必很有同感。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    
+    
+    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
+    
+  </entry>
   
   <entry>
     <title>Prose_博客日志</title>
@@ -40,7 +80,7 @@
     <link href="https://yanyuteng.github.io/2023/03/28/a6894eaa/"/>
     <id>https://yanyuteng.github.io/2023/03/28/a6894eaa/</id>
     <published>2023-03-27T16:00:00.000Z</published>
-    <updated>2023-03-31T07:26:54.625Z</updated>
+    <updated>2023-04-16T13:05:54.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，本日志按倒序排列，分统计问题日志与编程问题日志两部分。&lt;/p&gt;</summary>
@@ -53,25 +93,6 @@
     <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
     
     <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Diary_京郊古刹访录</title>
-    <link href="https://yanyuteng.github.io/2023/03/08/1ccb6f40/"/>
-    <id>https://yanyuteng.github.io/2023/03/08/1ccb6f40/</id>
-    <published>2023-03-07T16:00:00.000Z</published>
-    <updated>2023-03-29T07:47:46.990Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;北京实无可堪赞叹的自然景致，人文古建确十分厚重。因之开京郊古刹访录，以录在京念书间探幽访古的印象。廿一年迄今，访有潭柘、戒台、独乐、大西天、雍和宫等。本文不定期更新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="beijing" scheme="https://yanyuteng.github.io/tags/beijing/"/>
     
   </entry>
   
@@ -167,11 +188,11 @@
   </entry>
   
   <entry>
-    <title>Memo_重金属乐与健康</title>
+    <title>Memo_休闲方式与健康：重金属乐的作用</title>
     <link href="https://yanyuteng.github.io/2022/09/15/1943e40e/"/>
     <id>https://yanyuteng.github.io/2022/09/15/1943e40e/</id>
     <published>2022-09-14T16:00:00.000Z</published>
-    <updated>2023-03-29T07:28:08.386Z</updated>
+    <updated>2023-04-16T13:05:02.777Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Martikainen P., Korhonen K., Tarkiainen L., 2021, “Heavy metal toxicity and mortality—association between density of heavy metal bands and cause specific hospital admissions and mortality: population based cohort study”, BMJ, 375.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;当我们谈到金属乐，一般人往往第一时间想到的是尖叫或低吼、失真的吉他，乃及炸裂的鼓点，与之相伴的是对现实的不满或压抑。但对乐迷来讲，这些情绪往往会随着乐队的咆哮被逐渐宣泄。我们总说“死亡重金属”，但是听金属乐是否真的有更高的死亡可能呢？&lt;br&gt;去年在《英国医学杂志》（BMJ）上，有一篇专门讨论听金属乐与死亡率关系的论文（Martikainen et al., 2021），作者P Martikainen几人均供职于赫尔辛基大学的人口所。这篇文章的结论甚至与我们的日常预期相反，起码就芬兰而言，在控制了各因素后，重金属乐更发达的地区，人们的死亡率反而更低。作者们猜测，金属乐队的密集程度本身可能就反映了地区的文化、社会资本存量，事实上这些乐队能够促进社区活力，也有助于社区中的个体追求更连接、健康的生活方式。&lt;/p&gt;</summary>
@@ -207,7 +228,7 @@
     <link href="https://yanyuteng.github.io/2022/08/26/c32c902c/"/>
     <id>https://yanyuteng.github.io/2022/08/26/c32c902c/</id>
     <published>2022-08-25T16:00:00.000Z</published>
-    <updated>2022-09-03T13:13:20.083Z</updated>
+    <updated>2023-04-01T18:10:21.853Z</updated>
     
     
     <summary type="html">&lt;p&gt;八月七日至十四日，我与父母往青海省游玩整有八日，随后乘火车返哈两日。但因每至北方的八月，我均饱受季节性鼻炎的困扰，因而拖沓至月末天气转凉，方录此日记。&lt;/p&gt;</summary>
@@ -217,9 +238,9 @@
     <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
     
     
-    <category term="qinghai" scheme="https://yanyuteng.github.io/tags/qinghai/"/>
+    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
     
-    <category term="xining" scheme="https://yanyuteng.github.io/tags/xining/"/>
+    <category term="qinghai" scheme="https://yanyuteng.github.io/tags/qinghai/"/>
     
   </entry>
   
@@ -360,27 +381,6 @@
     
     
     <category term="ancient history" scheme="https://yanyuteng.github.io/tags/ancient-history/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Diary_川渝略记</title>
-    <link href="https://yanyuteng.github.io/2022/01/25/e206bad9/"/>
-    <id>https://yanyuteng.github.io/2022/01/25/e206bad9/</id>
-    <published>2022-01-24T16:00:00.000Z</published>
-    <updated>2023-03-29T15:05:28.421Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;一月十日我离京至粤，中旬复至川渝，在川旅游整有十日。先后去了重庆、成都、都江堰及乐山。因近惫懒，录此游记已是二月下旬了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="chongqing" scheme="https://yanyuteng.github.io/tags/chongqing/"/>
-    
-    <category term="sichuan" scheme="https://yanyuteng.github.io/tags/sichuan/"/>
     
   </entry>
   
