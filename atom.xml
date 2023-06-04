@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2023-04-18T12:10:25.961Z</updated>
+  <updated>2023-06-04T19:39:25.214Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -17,58 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Diary_京郊古刹访录</title>
-    <link href="https://yanyuteng.github.io/2023/04/16/1ccb6f40/"/>
-    <id>https://yanyuteng.github.io/2023/04/16/1ccb6f40/</id>
-    <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2023-04-18T12:10:25.961Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;北京实无可堪赞叹的自然景致，人文古建确十分厚重。因之开京郊古刹访录，以录在京念书间探幽访古的印象。廿一年迄今，访有潭柘、戒台、独乐、大西天、雍和宫等。本文不定期更新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="beijing" scheme="https://yanyuteng.github.io/tags/beijing/"/>
-    
-    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_妈的玄学统计：反思实证研究的可复制性</title>
-    <link href="https://yanyuteng.github.io/2023/04/16/e8b50b62/"/>
-    <id>https://yanyuteng.github.io/2023/04/16/e8b50b62/</id>
-    <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2023-04-16T13:12:43.781Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;去年在《美国国家科学院院刊·社会科学版》（Proceedings of the National Academy of Sciences, PNAS）上刊登了一篇文章很有意思，这篇文章题为《Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty》，和前段时间拿了奥斯卡的《瞬息全宇宙》一样（但我更喜欢台湾译法《妈的多重宇宙》），如果俏皮些翻译，或许可以把这篇文章译成《（妈的）玄学统计宇宙》。邻近毕业季，正在凑玄学显著的同学们想必很有同感。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
-    
-    
-    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Prose_博客日志</title>
-    <link href="https://yanyuteng.github.io/2023/03/29/6a7d82f6/"/>
-    <id>https://yanyuteng.github.io/2023/03/29/6a7d82f6/</id>
-    <published>2023-03-28T16:00:00.000Z</published>
-    <updated>2023-03-29T15:12:37.341Z</updated>
+    <link href="https://yanyuteng.github.io/2023/06/04/6a7d82f6/"/>
+    <id>https://yanyuteng.github.io/2023/06/04/6a7d82f6/</id>
+    <published>2023-06-03T16:00:00.000Z</published>
+    <updated>2023-06-04T19:39:25.214Z</updated>
     
     
-    <summary type="html">&lt;p&gt;原博客日志散记于Struggle Diary分类下各年日记中，考虑到博客日志有其历史意义，现集于一篇，按时间倒序排列。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;原博客日志散记于Diary分类下各年日记中，考虑到博客日志有其历史意义，便集于一篇，按时间倒序排列。&lt;/p&gt;</summary>
     
     
     
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
+    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
     
     
     <category term="program" scheme="https://yanyuteng.github.io/tags/program/"/>
@@ -77,17 +37,17 @@
   
   <entry>
     <title>Prose_统计暨编程问题日志</title>
-    <link href="https://yanyuteng.github.io/2023/03/28/a6894eaa/"/>
-    <id>https://yanyuteng.github.io/2023/03/28/a6894eaa/</id>
-    <published>2023-03-27T16:00:00.000Z</published>
-    <updated>2023-04-18T12:10:58.945Z</updated>
+    <link href="https://yanyuteng.github.io/2023/06/04/a6894eaa/"/>
+    <id>https://yanyuteng.github.io/2023/06/04/a6894eaa/</id>
+    <published>2023-06-03T16:00:00.000Z</published>
+    <updated>2023-06-04T19:48:52.100Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，本日志按倒序排列，分统计问题日志与编程问题日志两部分。&lt;/p&gt;</summary>
     
     
     
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Quantitative-Method/"/>
+    <category term="Social Research Method" scheme="https://yanyuteng.github.io/categories/Social-Research-Method/"/>
     
     
     <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
@@ -97,18 +57,304 @@
   </entry>
   
   <entry>
+    <title>Memo_Family Planning Programs in The Third World</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/166dd25f/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/166dd25f/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T19:18:52.258Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Ronald Freedman, 1990, “Family Planning Programs in The Third World”, &lt;em&gt;The Annals of The American Academy of Political and Social Science&lt;/em&gt;, 510(1), 33—43.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Freedman系密歇根大学社会学系教授，他建立了密大的人口研究中心，曾是美国人口学协会会长。撰写此文章时已退休。&lt;/p&gt;
+&lt;p&gt;Freedman在这篇论文认为，第一，家庭计划项目是在1960年至1990年间迅速发展而来的全球性政策，在1990年时，世界上大多数发展中国家（LDCs）已建立了致力于提高家庭福祉、降低生育率的家庭计划项目；第二，60年代以来的生育率下降，除社会、经济发展影响外，同期开展的家庭计划项目起到了重要作用。他举例了快速发展经济体（台湾）、适度发展经济体（中国、印尼）均有显著下降，而欠发达经济体（印度、巴基斯坦、撒哈拉以南非洲如苏丹）虽然由于传统家庭制度，仍有较高生育率，但在一些家庭计划政策试点区（孟加拉Matlab试点、肯尼亚Chogoria试点）仍有显著下降。&lt;/p&gt;
+&lt;p&gt;文章侧重家庭计划项目的成果介绍，可结合晚近《全球家庭计划项目30年》一书第一章（Sinding，2007），、Goodkind（2017）及其后续争论进一步理解人口政策的历史、作用，乃及回顾人口学的学科历史。具体而言。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Marriage and Family in East Asia</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/c77ff1fd/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/c77ff1fd/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T19:16:54.024Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Raymo J.M., Park H., Xie Y., et al., 2015, “Marriage and Family in East Asia: Continuity and Change”, &lt;em&gt;Annual Review of Sociology&lt;/em&gt;, 41, 471—492..&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Raymo（威斯康辛麦迪逊）、Park（宾大）、谢宇以及杨李唯君四人，在这篇论文主要拓展了“第二次人口转变”理论在东亚的适用性，尤其是在东亚的婚育观念没有发生巨大转变的情况下，女性工作机会增加、男性家庭支柱作用的减少、婚姻市场的不匹配，共同导致了婚育不平衡，推动了东亚社会的晚婚少婚。但是，诚如很多学者观察的，现有政策效果大多失败，促进家庭形成可能不仅要提供家庭与工作的平衡机会，更要改变一些根本性的社会制度。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Global Family Change_Persistent Diversity with Development</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/92693079/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/92693079/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T19:14:56.932Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Pesando L.M., GFC team, 2019, “Global Family Change: Persistent Diversity with Development”, Population and Development Review, 45(1), 133—168.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Pesando及其GFC（Global Family Change）团队（宾大）在这篇文章讨论了全球家庭变革下的趋同与发散情况。我将一些关键性问题穿插在笔记中，并予以回应。同时，该论文的发散或收敛框架可以应用在相关领域，如死亡研究，事实上死亡率也是应用发散模型十分成熟的领域。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Re-theorizing Family Demographics</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/642411e2/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/642411e2/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T19:11:57.078Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Esping-Andersen G., Billari F.C., 2015, “Re-theorizing Family Demographics”, Population and Development Review, 41(1), 1—31.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Andersen与Billari在这篇文章中，首先回顾了以往解释后转变社会的两种主要理论，第一种是Becker新家庭经济学，第二种是Lesthaeghe第二次人口转变理论。两种理论虽然论述视角截然不同，新家庭经济学是从女性就业或追求职业生涯的经济角度，人口转变理论是从女性追求个体自由解放的文化角度，但都得出了未来会有“更少家庭”的结论。此外还有一种解释是教育影响，即受教育程度越高、生育水平越低、婚姻越不稳定。应当说，在二十世纪后半叶，这三种解释还是站得住脚的。但是，晚近越来越多的现象正在挑战上述理论。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_The Unfolding Story of The Second Demographic Transition</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/457dafdb/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/457dafdb/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T19:09:34.861Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;***Lesthaeghe R., 2010, “The Unfolding Story of The Second Demographic Transition”, Population and Development Review, 36(2), 211—251. ***&lt;br&gt;人口转变即指生育率与死亡率的下降，主要发生自18世纪、19世纪的西方国家，以及20世纪中叶以后的世界其余国家。但是人口转变因起始时间不同，以西方为代表，其人口转变历程已经超过了已有理论的解释范围。Dirk van de Kaa与Lesthaeghe因而在1986年首次提出需要第二次人口转变（Second Demographic Transition, SDT）理论，旨在描述持续性的低于更替水平的生育率、一系列居住安排、婚育脱钩、以及非静止人口现象。&lt;br&gt;第二次人口转变的部分特征，早期出现在1950年代，以美国与斯堪的纳维亚半岛国家为主，主要是离婚率的攀升；1960年代以后，战后婴儿潮开始回落，初婚年龄推迟、同居增多（无论是婚前同居、还是离婚丧偶后同居）；1980年代以后，其余西欧国家也开始了类似进程，千禧年后法国、英国近40%的新生儿为同居诞生。&lt;br&gt;当然，SDT受到了很多批评，主要包括五点：第一，SDT只是人口转变的延续（Cliquet 1992）；第二SDT仅仅是人口转变的第二特征，或者说只是生活偏好的变化（Coleman 2004）；第三， SDT可能仅仅是西欧国家的特征，尤其是东欧国家的变化可能仅仅是市场转型动荡的产物，美国则可能有基督教文化而例外；第四，SDT过份强调了家庭转变与生育率间的关系，尤其是同居；第五，SDT无法解释更替水平下低生育的极大空间；第六，SDT具有普遍性么，亚洲国家呢？Lesthaeghe的这篇论文即试图回应上述问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Ever Since Gompertz</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/2a1da770/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/2a1da770/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T15:06:38.073Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Olshansky S.J., Carnes B.A., 1997, “Ever Since Gompertz”, Demography, 34(1), 1—15.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Olshansky系芝加哥大学医学系教授，他在这篇论文讨论了自Gompertz发现死亡率定律以后，学术界的后续发展，这篇文章很好地补充了Preston（1996）更多就人口学家们研究的综述，将之拓展至自然科学的相关进展，尤其是生物人口学方面。&lt;br&gt;这篇论文提醒社会科学背景的学者，其一，就死亡率研究而言，社会科学与自然科学同属于实证科学之下，Gompertz死亡定律广泛存在于各个物种，其二，死亡率应该被分解为内因与外因的共同作用，随着公共卫生进步，人类死亡率事实上已经与自然界生物完全不同，外因逐渐减少，而内因逐渐增多，人类有这个认识过程事实上经过了近百年的探索，而这也是最近几十年学术界越来越关注衰老（Aging）影响的原因。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Life Expectancy and Disparity_An International Comparison of Life Table Data</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/88b3653c/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/88b3653c/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T18:32:05.355Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Vaupel J.W., Zhang Z., Van Raalte A.A., 2011, “Life Expectancy and Disparity: An International Comparison of Life Table Data”, BMJ Open, 1(1), e000128—e000128.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章是Zhang &amp;amp; Vaupel（2009）论文的进一步应用，二者有递进关系。通过预期寿命$e_0$与寿命不均（Lifespan Variation）$e^{\dagger}$，及其相关的早亡（Premature Deaths）或晚亡（Late Deaths）的年龄阈值$a^{\dagger}$。Vaupel等人发现$e_0$较高的地区、$e^{\dagger}$也较低，$e_0$增加主要是由于过早死亡的减少，晚亡群体死亡率的下降对$e_0$增长贡献很少。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Population Studies of Mortality</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/5a95dff/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/5a95dff/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T15:06:39.081Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Preston S.H., 1996, “Population Studies of Mortality”, Population Studies, 50(3), 525—536.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Preston是宾夕法尼亚大学人口系教授，其在这篇论文中回顾了Population Studies创刊50年以来所有关于死亡率的研究，为我们理解二十世纪死亡率相对早期的研究进展，提供了很好的历史梳理。主要包括估计方法的演进、20世纪前死亡率的趋势及下降原因，后者又可以分为总体与个体两个层面的演进。&lt;br&gt;Population Studies基本涵盖了20世纪主要的死亡研究。Population Studies创刊于1947年，其早期主要刊发人口构成、迁移、人口理论及生育方面的研究，从1968年后，则几乎每期Population Studies均刊发死亡研究，如预期寿命、死因、发病率、人口增长等，仅少部分涉及政策的更多刊发在世界银行刊物。按其展开的研究脉络因而具有较好的代表性。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_State-Level Trends in Lifespan Variability in the United States,1960–2019</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/9309bb3f/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/9309bb3f/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T18:33:22.106Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Brown D.C., Lariscy J.T., Walker B.H., 2023, “State-Level Trends in Lifespan Variability in the United States, 1960–2019: A Research Note”, Demography, 60(1), 1—14.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;如Vaupel等（2011）年讨论的，美国预期寿命较高，但预期寿命不均（Lifespan Disparity）也很高，如横向对比其他发达国家。这篇论文应用$e^{\dagger}$，着重讨论了美国州一级的寿命不均演变。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_The Age Separating Early Deaths from Late Deaths</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/88b3653c/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/88b3653c/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T18:21:19.103Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Zhang Z., Vaupel J., 2009, “The Age Separating Early Deaths from Late Deaths”, Demographic Research, 20, 721—730.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;张震与Vaupel在这篇论文中发展了$e^{\dagger}(t)$是否存在一个年龄阈值，在理论上可以讨论死亡率的压缩与扩大，以及讨论过早死亡（Premature Deaths）与过晚死亡（Late Deaths）的问题。后续Aburto等人进一步将根据$e^{\dagger}(t)$计算的年龄阈值视为绝对年龄阈值，将根据$\bar{H}(t)$计算的年龄阈值视为相对年龄阈值，将二者之间的关系在数理形式上予以进一步的确定。&lt;/p&gt;
+&lt;p&gt;本篇论文年龄阈值$a^{\dagger}$、以及后续$a^{H}$，均可以通过Aburto等人（2019)的&lt;em&gt;R&lt;/em&gt;代码进行复现，并在中国社会中进行实证应用，这一指标很好理解，且具有很好的数学性质，但目前国内学术界仅张震在全国层面使用，因此，省一级的讨论可以进行便捷且必要的拓展。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_What Have We Learned about Mortality Patterns over the Past 25 Years?</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/7b85260c/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/7b85260c/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T15:06:36.059Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Van Raalte A.A., 2021, “What Have We Learned about Mortality Patterns over the Past 25 Years?”, Population Studies, 75(sup1), 105—132.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Raalte系德国马普所人口学“寿命不平等”研究小组的领导学者，2011年博士毕业于马普所。这篇论文衔接了Preston 1996年的综述，精彩地概述了其后25年间死亡研究的发展。与Preston（1996）其时不同，尽管Population Studies仍然是人口学的死亡研究方面的顶尖刊物，但Raalte认为，由于学科界限的日益模糊，死亡研究在保险精算、流行病学、老年学、健康经济学等期刊也大量增长，因此，尽管这篇综述单独列了一节以介绍Population Studies刊发的死亡研究论文，但其主体部分将不仅局限于此，而尽可能囊括此廿五年间死亡研究的主要代表性工作。&lt;br&gt;相对其他学科而言，Raatle认为人口学家的死亡研究，更侧重在总体水平（Population-Level）的死亡年龄模式，但由于研究愈发细化，当代人口学家对总括性理论的关注越来越少，各种细化机制的相对重要性仍不清楚，这其实阻碍了我们理解很多最基本的人口问题，比如群间死亡差异的真实原因。因此，Raatle不仅事实上回溯了理论与经验研究的进展，更重要地是，她在回溯中发现了大量研究存在着的普遍性问题，即陷入细枝末节而无力回答基本问题，由此，其对当前人口研究方法进行了深刻反思，提醒人口学家们要谨慎对待因果推断方法，并重申了已往人口学家描述性工作的重要性。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Trans_Social Stress_Theory and Research</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/14ccd680/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/14ccd680/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T19:01:27.906Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Aneshensel C.S., 1992, “Social Stress: Theory and Research”, Annual Review of Sociology, 18(1), 15—38.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;作者Aneshensel系UCLA健康科学系教员。这篇文章聚焦精神健康研究，回溯了90年代及以前的研究进展。论文区分了压力研究中两种主要视角，作为社会组织的压力后果（Stressful Consequences of Social Organization）与作为心理障碍的压力前因（Stressful Antecedents of Psychological Disorder），或者说，压力源（Stressor）是被社会决定的、还是独立于社会之外的。论文的根本观点是，社会性压力是社会发展的必然结果，压力与其说更受偶然性的生命历程事件影响，不如说受长期的、慢性的压力源影响，且压力源有一定的社会阶级梯度。更具体讲，社会压力有两个主要作用机制，其一是微观个体受自我效能感的调节，其二是宏观经济环境、失业的调节。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Studies/Health-Medical-Sociology/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Regional Patterns of Disability-free Life Expectancy and Disability-adjusted Life Expectancy</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/b7c651b4/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/b7c651b4/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2023-06-04T19:37:47.179Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Murray C.J., Lopez A.D., 1997, “Regional Patterns of Disability-free Life Expectancy and Disability-adjusted Life Expectancy: Global Burden of Disease Study”, &lt;em&gt;The Lancet&lt;/em&gt;, 349(9062), 1347—1352.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;作者Murray写的这篇论文是他们系列文章的开始，其时Murry正在WHO任慢病处司长，致力于发展对疾病负担权重的统一方法，DFLE（Disability-free Life Expectancy）、DALE（Disability-Adjusted Life Expectancy）即是这一阶段的成果。Murray从WHO卸任后回到哈佛公卫系，后又在西雅图建立IHME，独立在政府外做全球健康评估。&lt;br&gt;这篇论文主要讨论了随着预期寿命增长，健康预期寿命是增长，还是减少？乐观派如疾病压缩理论；悲观派如疾病扩张论；中立派则认为有些疾病多、有些疾病少。但是不同时期、不同国家或不同疾病分类，所测量的结果都不一致，测量结果非常敏感。这篇论文通过计算全球各国、各地区DFLE、DALE两个指标，大体支持疾病压缩论，且各地区差异很大。此外，性别死亡悖论（Male-female Health-survival Paradox）是文章未深入但很有意思的议题，为什么女性的健康情况一般低于男性，但女性反而活得更长。后续一般有两种解释，其一是生理性因素，女性多病但坚韧；其二是社会性因素，如女性对健康更重视、女性更愿意就医。就其更具体的内容，可以扼要如下。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Studies/Health-Medical-Sociology/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_京郊古刹访录</title>
+    <link href="https://yanyuteng.github.io/2023/04/16/1ccb6f40/"/>
+    <id>https://yanyuteng.github.io/2023/04/16/1ccb6f40/</id>
+    <published>2023-04-15T16:00:00.000Z</published>
+    <updated>2023-06-04T15:02:02.148Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;北京实无可堪赞叹的自然景致，人文古建确十分厚重。因之开京郊古刹访录，以录在京念书间探幽访古的印象。廿一年迄今，访有潭柘、戒台、独乐、大西天、雍和宫等。本文不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    
+    
+    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
+    
+    <category term="beijing" scheme="https://yanyuteng.github.io/tags/beijing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_玄学统计：反思实证研究的可复制性</title>
+    <link href="https://yanyuteng.github.io/2023/04/16/e8b50b62/"/>
+    <id>https://yanyuteng.github.io/2023/04/16/e8b50b62/</id>
+    <published>2023-04-15T16:00:00.000Z</published>
+    <updated>2023-06-04T19:20:56.107Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;去年在《美国国家科学院院刊·社会科学版》（Proceedings of the National Academy of Sciences, PNAS）上刊登了一篇文章很有意思，这篇文章题为《Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty》，和前段时间拿了奥斯卡的《瞬息全宇宙》一样（但我更喜欢台湾译法《妈的多重宇宙》），如果俏皮些翻译，或许可以把这篇文章译成《（妈的）玄学统计宇宙》。邻近毕业季，正在凑玄学显著的同学们想必很有同感。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://yanyuteng.github.io/categories/Social-Research-Method/"/>
+    
+    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Social-Research-Method/Quantitative-Method/"/>
+    
+    
+    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Diary_湘鄂皖游记</title>
     <link href="https://yanyuteng.github.io/2023/02/19/5d9a2be2/"/>
     <id>https://yanyuteng.github.io/2023/02/19/5d9a2be2/</id>
     <published>2023-02-18T16:00:00.000Z</published>
-    <updated>2023-04-01T17:40:33.411Z</updated>
+    <updated>2023-06-04T15:02:05.179Z</updated>
     
     
     <summary type="html">&lt;p&gt;廿三年二月六日，往两湖暨安徽旅行，游有三省四市，长沙、岳阳、武汉及安庆，十九日返京。因事务多，四月初，才有时间大致记录这次的旅行。&lt;/p&gt;</summary>
     
     
     
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
+    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
     
     
     <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
@@ -116,271 +362,38 @@
   </entry>
   
   <entry>
-    <title>Trans_失业与生育率：日本案例</title>
+    <title>Trans_Unemployment, Nonstandard Employment, and Fertility</title>
     <link href="https://yanyuteng.github.io/2023/01/20/ad51ad98/"/>
     <id>https://yanyuteng.github.io/2023/01/20/ad51ad98/</id>
     <published>2023-01-19T16:00:00.000Z</published>
-    <updated>2023-03-29T07:37:56.553Z</updated>
+    <updated>2023-06-04T15:08:25.268Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Raymo J.M., Shibata A., 2017, Unemployment, Nonstandard Employment, and Fertility: Insights from Japan’s “Lost 20 Years”. Demography, 54(6), 2301—2329.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;我们常认为日本低迷的生育率是经济停滞的结果，但这篇论文提供了一个很反直觉的见解，对于日本社会而言，长期的经济停滞乃及衰退并未降低、反而却提高了生育率。&lt;br&gt;文章的核心观点认为，经济衰退对生育率的一般影响虽然是负向的，但需要进一步考虑就业市场中的两性分工。以日本社会为例，由于日本以婚内生育与“男主外、女主内”为主流，经济下行降低了男性结婚水平进而降低生育率，但经济下行并未降低女性结婚水平，相反，提高了女性的婚内生育水平。日本男女一负一正的相反结果，导致了在其他条件不变的情况下，失业与非标准就业的上升反而提高了日本社会的生育率。&lt;br&gt;这一反直觉结论无疑挑战了我们已往常常将东亚各国类比的讨论，由于日本社会高度的性别分工，经济衰退对日本生育率的影响实际被高估了。随着中国社会的经济运行进入新常态，且我国女性就业率一直是高于日本社会，我国未来生育率的形势可能会更加严峻，下降幅度亦可能会比日本、比我们预期的更加剧烈。&lt;/p&gt;</summary>
     
     
     
-    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
   
   <entry>
-    <title>Memo_国际死亡率的弥合与分野</title>
+    <title>Memo_Convergences and Divergences in Mortality</title>
     <link href="https://yanyuteng.github.io/2022/12/22/f4ff05d2/"/>
     <id>https://yanyuteng.github.io/2022/12/22/f4ff05d2/</id>
     <published>2022-12-21T16:00:00.000Z</published>
-    <updated>2023-02-27T18:04:09.860Z</updated>
+    <updated>2023-06-04T17:36:06.267Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Jacques Vallin, France Meslé, 2004. Convergences and divergences in mortality: A new approach of health Transition[J]. Demographic Research, Special 2: 11–44. DOI:10.4054/DemRes.2004.S2.2.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇论文发展了Omran(1971)的论文，提出了流行病转变的新的阶段划分，即传染病阶段（事实上是Omran的流行病学转变）、心血管病阶段以及老年慢性病阶段。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Jacques Vallin, France Meslé, 2004. Convergences and Divergences in Mortality: A new Approach of Health Transition[J]. Demographic Research, Special 2: 11–44. DOI:10.4054/DemRes.2004.S2.2.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;本文作者Jacques Vallin与France Meslé的单位均系法国国立人口学研究所，这篇论文发展了Omran在1971的论文，并提出了基于健康转变的阶段划分，即其一，战胜传染病阶段（the Vanquishing of Infectious Diseases），其二，心血管革命阶段（the Cardiovascular Revolution），其三，对抗衰老阶段（the Fight Against Ageing）。第一个阶段即Omran的流行病转变三阶段。&lt;br&gt;但Vallin等人尤其认为，每个阶段需要更细的划分，即每阶段均包含一个先发散后收敛的子阶段，这使对死亡率转变的描述更为连续了。对其内容可以扼要如下。&lt;/p&gt;</summary>
     
     
     
-    <category term="Epidemiology" scheme="https://yanyuteng.github.io/categories/Epidemiology/"/>
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
     
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Memo_论家：个体与亲亲</title>
-    <link href="https://yanyuteng.github.io/2022/10/15/9a3b737d/"/>
-    <id>https://yanyuteng.github.io/2022/10/15/9a3b737d/</id>
-    <published>2022-10-14T16:00:00.000Z</published>
-    <updated>2023-01-25T06:11:18.384Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;孙向晨. 论家：个体与亲亲[M]. 华东师范大学出版社, 2019.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;近来的一个感慨是同孙畅的闲聊，谈及北大周飞舟等人对中国文化传统的关注，我认为有很大原因是这批学者成长于内陆腹地的汉人社会，相对地，我长在北疆，使我始终对中国传统有所疏离，而更倾向于彻底地决裂，以投入到现代性、或者确切讲是西化的生活方式，这是学者关注受自身生命历程影响的切身感。当然，无论是回到传统，还是全盘西化，如这本书里讨论的内容一般，这都无从纾解东亚人、尤其是中国人所面对的困惑。这在于中国之于以西方世界为核心的边疆，面对着持续的双重困境，如何理解自身周遭、理解精神世界持续的紧张感，是每一个中国人无可避的命运。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Sociological Theory" scheme="https://yanyuteng.github.io/categories/Sociological-Theory/"/>
-    
-    
-    <category term="china" scheme="https://yanyuteng.github.io/tags/china/"/>
-    
-    <category term="demography" scheme="https://yanyuteng.github.io/tags/demography/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Summary_熬夜会让人快乐么？</title>
-    <link href="https://yanyuteng.github.io/2022/09/26/a5262247/"/>
-    <id>https://yanyuteng.github.io/2022/09/26/a5262247/</id>
-    <published>2022-09-25T16:00:00.000Z</published>
-    <updated>2022-11-25T09:39:25.358Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;很多朋友常会吐槽一线城市996的工作，让人没有自己的时间，每天下班只想躺在床上玩会手机，不知觉间已是午夜，此时想到第二天还要继续打工，身心疲倦。但也有朋友说，白天做社畜已经十分艰难，熬夜时才仿佛自己属于自己。熬夜伤身体不假，但熬夜会不会让打工人感到快乐呢，哪怕是片刻的快乐？&lt;br&gt;概要讲，大多数研究仍认为熬夜会导致负面情绪，但熬夜人群其实存在较大的异质性，最近的一篇中科院心理所的论文认为，微博上的熬夜党反而更快乐。此外，本文的文末简介了睡眠社会学的动向，相关的健康研究还是一片学术蓝海。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_休闲方式与健康：重金属乐的作用</title>
-    <link href="https://yanyuteng.github.io/2022/09/15/1943e40e/"/>
-    <id>https://yanyuteng.github.io/2022/09/15/1943e40e/</id>
-    <published>2022-09-14T16:00:00.000Z</published>
-    <updated>2023-04-16T13:05:02.777Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Martikainen P., Korhonen K., Tarkiainen L., 2021, “Heavy metal toxicity and mortality—association between density of heavy metal bands and cause specific hospital admissions and mortality: population based cohort study”, BMJ, 375.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;当我们谈到金属乐，一般人往往第一时间想到的是尖叫或低吼、失真的吉他，乃及炸裂的鼓点，与之相伴的是对现实的不满或压抑。但对乐迷来讲，这些情绪往往会随着乐队的咆哮被逐渐宣泄。我们总说“死亡重金属”，但是听金属乐是否真的有更高的死亡可能呢？&lt;br&gt;去年在《英国医学杂志》（BMJ）上，有一篇专门讨论听金属乐与死亡率关系的论文（Martikainen et al., 2021），作者P Martikainen几人均供职于赫尔辛基大学的人口所。这篇文章的结论甚至与我们的日常预期相反，起码就芬兰而言，在控制了各因素后，重金属乐更发达的地区，人们的死亡率反而更低。作者们猜测，金属乐队的密集程度本身可能就反映了地区的文化、社会资本存量，事实上这些乐队能够促进社区活力，也有助于社区中的个体追求更连接、健康的生活方式。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Medical-Sociology/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Prose_寓中札记</title>
-    <link href="https://yanyuteng.github.io/2022/09/07/2ed7128b/"/>
-    <id>https://yanyuteng.github.io/2022/09/07/2ed7128b/</id>
-    <published>2022-09-06T16:00:00.000Z</published>
-    <updated>2023-04-18T12:15:34.005Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念，后因&lt;del&gt;段子&lt;/del&gt;撰文增多，遂分纪实笔录与幻想笔录两类，请读者雅鉴。内容不定期更新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Prose" scheme="https://yanyuteng.github.io/categories/Prose/"/>
-    
-    
-    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Diary_青海游记</title>
-    <link href="https://yanyuteng.github.io/2022/08/26/c32c902c/"/>
-    <id>https://yanyuteng.github.io/2022/08/26/c32c902c/</id>
-    <published>2022-08-25T16:00:00.000Z</published>
-    <updated>2023-04-01T18:10:21.853Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;八月七日至十四日，我与父母往青海省游玩整有八日，随后乘火车返哈两日。但因每至北方的八月，我均饱受季节性鼻炎的困扰，因而拖沓至月末天气转凉，方录此日记。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Struggle Diary" scheme="https://yanyuteng.github.io/categories/Struggle-Diary/"/>
-    
-    
-    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
-    
-    <category term="qinghai" scheme="https://yanyuteng.github.io/tags/qinghai/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_2022_UN世界人口展望报告</title>
-    <link href="https://yanyuteng.github.io/2022/07/11/45a54a04/"/>
-    <id>https://yanyuteng.github.io/2022/07/11/45a54a04/</id>
-    <published>2022-07-10T16:00:00.000Z</published>
-    <updated>2023-02-27T17:53:17.564Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;上午听John Wilmoth报告的《世界人口展望 2022》（WPP 2022，下简称《展望》），该报告是UN所做的第27次全球人口预测估计，反映了271个国家或地区、乃及全球的人口估计结果，其公布的数据集一直是联合国各报告中被下载量最多的数据集之一。本文摘录了Wilmoth报告的方法创新与主要发现，并部分讨论了中国人口情况。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_后发世界的死亡率下降机制：技术扩散论</title>
-    <link href="https://yanyuteng.github.io/2022/03/21/a35aad7f/"/>
-    <id>https://yanyuteng.github.io/2022/03/21/a35aad7f/</id>
-    <published>2022-03-20T16:00:00.000Z</published>
-    <updated>2023-02-27T18:15:35.006Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Soares R, 2007. On the determinants of mortality reductions in the developing World[J]. Population and Development Review, 33(2): 247–287.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Soares（哥大劳动经济学家）在这篇论文中主要讨论了20世纪后半叶，发展中国家死亡率下降的原因。概要，第一，后发国家的转变具有时空压缩性，且下降最主要不是因经济收入、营养等因素，而是卫生观念与卫生条件的改善、技术疫苗的普及。第二，国家间的健康不平等有扩大趋势。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Epidemiology" scheme="https://yanyuteng.github.io/categories/Epidemiology/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_流行病学转变的经典三阶段</title>
-    <link href="https://yanyuteng.github.io/2022/03/19/48eb1b/"/>
-    <id>https://yanyuteng.github.io/2022/03/19/48eb1b/</id>
-    <published>2022-03-18T16:00:00.000Z</published>
-    <updated>2023-02-27T18:13:11.908Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Omran A R, 2005. The Epidemiologic Transition: A Theory of the Epidemiology of Population Change: 4[J]. The Milbank Quarterly, 83(4): 731–757.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;Omran(北卡)在这篇论文讨论了人口转变中流行病学转变的重要影响，尤其是将死亡模式与人口转变、社会经济转变相结合。具体有五个主张如下。概要之，死亡率作为基础是讨论前提，近代的死因模式发生了改变，这一改变与人口、社会经济因素有关，可分为三种类型。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Epidemiology" scheme="https://yanyuteng.github.io/categories/Epidemiology/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_低生育率的成因与影响</title>
-    <link href="https://yanyuteng.github.io/2022/03/07/2d882a98/"/>
-    <id>https://yanyuteng.github.io/2022/03/07/2d882a98/</id>
-    <published>2022-03-06T16:00:00.000Z</published>
-    <updated>2023-02-27T18:11:56.863Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;McDonald P, 2008. Very Low Fertility: Consequences, Causes and Policy Approaches[J]. Japanese Journal of Population[2022–02–22].&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;McDonald在这篇文章中讨论了极低生育率的后果、成因与政策建议。巫锡炜老师评价，这篇论文背景是当时办的一个东亚低生育论坛，侧重于政策导向。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_为避免下坠而竞争</title>
-    <link href="https://yanyuteng.github.io/2022/03/05/44d14e96/"/>
-    <id>https://yanyuteng.github.io/2022/03/05/44d14e96/</id>
-    <published>2022-03-04T16:00:00.000Z</published>
-    <updated>2022-03-07T11:02:19.312Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;中国会成为第二个日本么？由于近年的经济放缓，中国已经出现了日本三十年前一些现象。日本情况对中国现状很有启示。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Social Stratification" scheme="https://yanyuteng.github.io/categories/Social-Stratification/"/>
-    
-    
-    <category term="class" scheme="https://yanyuteng.github.io/tags/class/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_生育率转变的因果机制</title>
-    <link href="https://yanyuteng.github.io/2022/03/01/457dafdb/"/>
-    <id>https://yanyuteng.github.io/2022/03/01/457dafdb/</id>
-    <published>2022-02-28T16:00:00.000Z</published>
-    <updated>2023-02-27T18:08:33.612Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Kirk D, 1996. Demographic Transition Theory[J]. Population Studies, 50(3): 361–387.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;这篇文章是Kirk（斯坦福大学）于1996年发表在《Population Studies》。人口转变理论一般被认为是肇始于F Notestein 1945年的文章，或更早第一次使用转变这种描述的则是A Landry 1934年的《人口革命》一书。&lt;br&gt;巫锡炜老师评价，这篇论文的重要性在于，第一，人口转变作为一个理论，不能仅仅描述现象，Kirk总结了死亡率为何会下降、生育率为何会下降；第二，Krik启发了我们，理论内容应该包括什么？如果转变不仅仅是出生率、死亡率在变，应该如何测度人口转变，不同转变间又是否有特定内涵、是否存在更一般性的因素，还是说可以无限套娃。这篇论文提供了一个出发点。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_社会人口学的视野</title>
-    <link href="https://yanyuteng.github.io/2022/02/28/46155ffc/"/>
-    <id>https://yanyuteng.github.io/2022/02/28/46155ffc/</id>
-    <published>2022-02-27T16:00:00.000Z</published>
-    <updated>2022-09-12T07:48:26.051Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;顾宝昌, 1992. 社会人口学的视野：西方社会人口学要论选择[M]. 商务印书馆.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Demography" scheme="https://yanyuteng.github.io/categories/Demography/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_杜甫传</title>
-    <link href="https://yanyuteng.github.io/2022/02/20/59cb0e3a/"/>
-    <id>https://yanyuteng.github.io/2022/02/20/59cb0e3a/</id>
-    <published>2022-02-19T16:00:00.000Z</published>
-    <updated>2022-03-08T01:42:51.484Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;1951年，冯至在《杜甫传》的文末写道：“我们的新中国会有更多的人民的诗人产生，但是他们不会遭到像杜甫所经历的那样的命运，更不会得到像杜甫那样的悲剧的结局。”（冯至，1980:158）看到这句话时，我想起在乐山电影院里看的新近电影《东北虎》，我想其中的一句台词放在这里是中肯的：“你们文人是弱势群体。”&lt;br&gt;唐杜甫伊始，或远及周秦，至冯一代文人，知识人的命途挫折，在时代的波云诡谲中都显得那么不值一提。但冯文笔下所叙述的杜甫一生，虽中年郁郁、晚年破落，却始终在慎微地开拓着生命的另一种可能，乃及发展着对世界的怜爱，这是令人感动的。没有人可以摆脱时代的束缚，却总有一些人试图在命定的必然中窥测或然，尽管这些窥测常使他们的精神世界充满痛苦，但正是这些被记录的痛苦不断激励着后人向更远处跋涉，我想这是文字、文学的伟大所在，这些留下的字句最终在时代的束缚中超越着时代，在后世不断地击碎着前世，使浮萍般微末的一个个个体，矗立为后世文脉中的一个个永恒地标。每一个时代都是短暂的，但这些地标历久弥新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Literature" scheme="https://yanyuteng.github.io/categories/Literature/"/>
-    
-    
-    <category term="ancient history" scheme="https://yanyuteng.github.io/tags/ancient-history/"/>
     
   </entry>
   
