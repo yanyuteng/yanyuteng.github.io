@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2023-06-04T19:39:25.214Z</updated>
+  <updated>2023-07-21T18:01:35.282Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Diary_苏州游记</title>
+    <link href="https://yanyuteng.github.io/2023/06/13/ed179f64/"/>
+    <id>https://yanyuteng.github.io/2023/06/13/ed179f64/</id>
+    <published>2023-06-12T16:00:00.000Z</published>
+    <updated>2023-07-21T18:01:35.282Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;六月八日至十三日，我在沪、苏游玩，如下是这次行程的简录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    
+    
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
   
   <entry>
     <title>Prose_博客日志</title>
@@ -371,25 +390,6 @@
     
     
     <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_Convergences and Divergences in Mortality</title>
-    <link href="https://yanyuteng.github.io/2022/12/22/f4ff05d2/"/>
-    <id>https://yanyuteng.github.io/2022/12/22/f4ff05d2/</id>
-    <published>2022-12-21T16:00:00.000Z</published>
-    <updated>2023-06-04T17:36:06.267Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Jacques Vallin, France Meslé, 2004. Convergences and Divergences in Mortality: A new Approach of Health Transition[J]. Demographic Research, Special 2: 11–44. DOI:10.4054/DemRes.2004.S2.2.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;本文作者Jacques Vallin与France Meslé的单位均系法国国立人口学研究所，这篇论文发展了Omran在1971的论文，并提出了基于健康转变的阶段划分，即其一，战胜传染病阶段（the Vanquishing of Infectious Diseases），其二，心血管革命阶段（the Cardiovascular Revolution），其三，对抗衰老阶段（the Fight Against Ageing）。第一个阶段即Omran的流行病转变三阶段。&lt;br&gt;但Vallin等人尤其认为，每个阶段需要更细的划分，即每阶段均包含一个先发散后收敛的子阶段，这使对死亡率转变的描述更为连续了。对其内容可以扼要如下。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
-    
-    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
     
     
   </entry>
