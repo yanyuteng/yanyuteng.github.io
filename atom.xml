@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2023-07-21T18:01:35.282Z</updated>
+  <updated>2023-07-21T18:11:48.237Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yanyuteng.github.io/2023/06/13/ed179f64/"/>
     <id>https://yanyuteng.github.io/2023/06/13/ed179f64/</id>
     <published>2023-06-12T16:00:00.000Z</published>
-    <updated>2023-07-21T18:01:35.282Z</updated>
+    <updated>2023-07-21T18:11:48.237Z</updated>
     
     
     <summary type="html">&lt;p&gt;六月八日至十三日，我在沪、苏游玩，如下是这次行程的简录。&lt;/p&gt;</summary>
@@ -32,6 +32,29 @@
     
     
     <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_Sitemap</title>
+    <link href="https://yanyuteng.github.io/2023/06/05/dbaf8853/"/>
+    <id>https://yanyuteng.github.io/2023/06/05/dbaf8853/</id>
+    <published>2023-06-04T16:00:00.000Z</published>
+    <updated>2023-07-23T16:08:14.606Z</updated>
+    
+    
+    <summary type="html">&lt;html&gt;
+  &lt;body&gt;
+  &lt;p align=&quot;right&quot;&gt;Last Update May 2023&lt;/p&gt;
+  &lt;/body&gt; 
+&lt;/html&gt;
+
+&lt;p&gt;The following includes my main reading records since 2015, list only from those that I think are interesting, which can be divided into the following two parts:&lt;br&gt;First, according to my current work direction, that is, death and health research, especially focused on the trend and mechanism of health inequality.&lt;br&gt;Second, according to my existing reading history, including history of science, social theory, political philosophy, social research methods, social stratification, social networks, family studies, urban studies, organizational studies, and anthropological studies.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    
     
   </entry>
   
@@ -374,23 +397,6 @@
     
     
     <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Trans_Unemployment, Nonstandard Employment, and Fertility</title>
-    <link href="https://yanyuteng.github.io/2023/01/20/ad51ad98/"/>
-    <id>https://yanyuteng.github.io/2023/01/20/ad51ad98/</id>
-    <published>2023-01-19T16:00:00.000Z</published>
-    <updated>2023-06-04T15:08:25.268Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Raymo J.M., Shibata A., 2017, Unemployment, Nonstandard Employment, and Fertility: Insights from Japan’s “Lost 20 Years”. Demography, 54(6), 2301—2329.&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;我们常认为日本低迷的生育率是经济停滞的结果，但这篇论文提供了一个很反直觉的见解，对于日本社会而言，长期的经济停滞乃及衰退并未降低、反而却提高了生育率。&lt;br&gt;文章的核心观点认为，经济衰退对生育率的一般影响虽然是负向的，但需要进一步考虑就业市场中的两性分工。以日本社会为例，由于日本以婚内生育与“男主外、女主内”为主流，经济下行降低了男性结婚水平进而降低生育率，但经济下行并未降低女性结婚水平，相反，提高了女性的婚内生育水平。日本男女一负一正的相反结果，导致了在其他条件不变的情况下，失业与非标准就业的上升反而提高了日本社会的生育率。&lt;br&gt;这一反直觉结论无疑挑战了我们已往常常将东亚各国类比的讨论，由于日本社会高度的性别分工，经济衰退对日本生育率的影响实际被高估了。随着中国社会的经济运行进入新常态，且我国女性就业率一直是高于日本社会，我国未来生育率的形势可能会更加严峻，下降幅度亦可能会比日本、比我们预期的更加剧烈。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
-    
     
   </entry>
   
