@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2023-09-18T02:57:30.438Z</updated>
+  <updated>2023-10-09T08:29:17.723Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Prose_寓中札记</title>
+    <link href="https://yanyuteng.github.io/2023/09/26/2ed7128b/"/>
+    <id>https://yanyuteng.github.io/2023/09/26/2ed7128b/</id>
+    <published>2023-09-25T16:00:00.000Z</published>
+    <updated>2023-10-09T08:29:17.723Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京 心在鹤岗”的撰文理念，后因&lt;del&gt;段子&lt;/del&gt;撰文增多，遂分纪实笔录与幻想笔录两类，请读者雅鉴。内容不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
   
   <entry>
     <title>Prose_科学算命：出生顺序如何影响个体？</title>
@@ -374,27 +393,6 @@
     
     <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_玄学统计：反思实证研究的可复制性</title>
-    <link href="https://yanyuteng.github.io/2023/04/16/e8b50b62/"/>
-    <id>https://yanyuteng.github.io/2023/04/16/e8b50b62/</id>
-    <published>2023-04-15T16:00:00.000Z</published>
-    <updated>2023-09-18T02:54:23.532Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;去年在《美国国家科学院院刊·社会科学版》（Proceedings of the National Academy of Sciences, PNAS）上刊登了一篇文章很有意思，这篇文章题为《Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty》，和前段时间拿了奥斯卡的《瞬息全宇宙》一样（但我更喜欢台湾译法《妈的多重宇宙》），如果俏皮些翻译，或许可以把这篇文章译成《（妈的）玄学统计宇宙》。邻近毕业季，正在凑玄学显著的同学们想必很有同感。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Social Research Method" scheme="https://yanyuteng.github.io/categories/Social-Research-Method/"/>
-    
-    <category term="Quantitative Method" scheme="https://yanyuteng.github.io/categories/Social-Research-Method/Quantitative-Method/"/>
-    
-    
-    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
     
   </entry>
   
