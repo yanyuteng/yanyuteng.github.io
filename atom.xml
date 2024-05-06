@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yan&#39;s Blog</title>
+  <icon>https://yanyuteng.github.io/icon.png</icon>
+  
+  <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yanyuteng.github.io/"/>
+  <updated>2024-05-06T16:23:54.907Z</updated>
+  <id>https://yanyuteng.github.io/</id>
+  
+  <author>
+    <name>Yuteng Yan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Prose_博客日志</title>
+    <link href="https://yanyuteng.github.io/2024/05/06/6a7d82f6/"/>
+    <id>https://yanyuteng.github.io/2024/05/06/6a7d82f6/</id>
+    <published>2024-05-05T16:00:00.000Z</published>
+    <updated>2024-05-06T16:23:54.907Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;原博客日志散记于Diary分类下各年日记中，考虑到博客日志有其历史意义，便集于一篇，按时间倒序排列。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    
+    
+    <category term="program" scheme="https://yanyuteng.github.io/tags/program/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_统计暨编程问题日志</title>
+    <link href="https://yanyuteng.github.io/2024/05/06/a6894eaa/"/>
+    <id>https://yanyuteng.github.io/2024/05/06/a6894eaa/</id>
+    <published>2024-05-05T16:00:00.000Z</published>
+    <updated>2024-05-06T08:33:38.506Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，本日志按倒序排列，分统计问题日志与编程问题日志两部分。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://yanyuteng.github.io/categories/Social-Research-Method/"/>
+    
+    
+    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
+    
+    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_我的画像：使用ChatGpt 4.0辅助文本分析</title>
+    <link href="https://yanyuteng.github.io/2024/04/22/f153d009/"/>
+    <id>https://yanyuteng.github.io/2024/04/22/f153d009/</id>
+    <published>2024-04-21T16:00:00.000Z</published>
+    <updated>2024-04-24T14:33:49.931Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我一直想对自己的日记与博文做一个系统的定量分析，但限于精力，始终未抽出功夫。最近稍有空闲，即着手做了这件事。如果说一个人的精神发育史就是他的阅读史，那俏皮些讲，对自我文字痕迹的分析，亦无妨视为是对自我的民族志。从2015年至2024年，近十年的分析跨度，基本反映了我本科以来的思想变化。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    
+    
+    <category term="ChatGpt" scheme="https://yanyuteng.github.io/tags/ChatGpt/"/>
+    
+    <category term="AI" scheme="https://yanyuteng.github.io/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_京畿古刹访录</title>
+    <link href="https://yanyuteng.github.io/2024/04/20/1ccb6f40/"/>
+    <id>https://yanyuteng.github.io/2024/04/20/1ccb6f40/</id>
+    <published>2024-04-19T16:00:00.000Z</published>
+    <updated>2024-04-22T07:38:21.487Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;北京实无可堪赞叹的自然景致，人文古建确十分厚重。因之开京畿古刹访录，以录在京念书间探幽访古的印象。廿一年迄今，访有独乐、潭柘、戒台、大西天、法海、法源、智化等。本文不定期更新。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    
+    
+    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
+    
+    <category term="beijing" scheme="https://yanyuteng.github.io/tags/beijing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_寓中札记</title>
+    <link href="https://yanyuteng.github.io/2024/04/16/2ed7128b/"/>
+    <id>https://yanyuteng.github.io/2024/04/16/2ed7128b/</id>
+    <published>2024-04-15T16:00:00.000Z</published>
+    <updated>2024-04-29T19:21:59.699Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文是我对博士同学的调侃，效仿Gramsci同志，坚持“人在北京，心在鹤岗”的撰文理念，后因&lt;s&gt;段子&lt;/s&gt;撰文增多，&lt;s&gt;遂分纪实文学与幻想笔录两类&lt;/s&gt;，遂按内容分五卷次，承司马之遗志，通古今之大便。本文内容不定期更新，请读者雅鉴。&lt;br /&gt;
+在开始前，以札记中较为经典的《麻将》一段，我请来了实力歌手Suno，按Folk风格倾情献唱。这故事多滑稽，人生一场游戏，幽默才是必备。&lt;/p&gt;
+&lt;div style=&quot;float:left; width:350px;&quot;&gt;
+    &lt;iframe src=&quot;https://www.opendrive.com/player/MTRfMzM5ODYwMjNfRDdLRWk&quot; height=&quot;30&quot; width=&quot;350&quot; style=&quot;border:0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;br&gt;</summary>
+    
+    
+    
+    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    
+    
+    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_阿坝州暨兰州游记</title>
+    <link href="https://yanyuteng.github.io/2024/03/24/dbcc4807/"/>
+    <id>https://yanyuteng.github.io/2024/03/24/dbcc4807/</id>
+    <published>2024-03-23T16:00:00.000Z</published>
+    <updated>2024-04-22T19:27:00.503Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;三月十七日至廿四日，我在川、甘游玩，如下是这次行程的记录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    
+    
+    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_镇江游记</title>
+    <link href="https://yanyuteng.github.io/2024/01/03/c07042c4/"/>
+    <id>https://yanyuteng.github.io/2024/01/03/c07042c4/</id>
+    <published>2024-01-02T16:00:00.000Z</published>
+    <updated>2024-04-17T16:22:02.845Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;十二月廿九至翌年一月三日，我在苏、沪游玩。因一月至三月事务繁多，一直未腾出手，录此游记已四月初，是按其时照片、速记的事后回忆了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    
+    
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_科学算命：出生顺序如何影响个体？</title>
+    <link href="https://yanyuteng.github.io/2023/09/17/b819ef9/"/>
+    <id>https://yanyuteng.github.io/2023/09/17/b819ef9/</id>
+    <published>2023-09-16T16:00:00.000Z</published>
+    <updated>2024-04-19T05:32:49.931Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;随着越来越多的年轻人开始烧香拜佛，星座、命理成为了尬聊破冰的安全话题。但是，神秘学与玄学仍然需要大量的精力去了解，有没有一种更便捷且准确的算命知识呢？在科学界，通过大量的统计学检验，还真的有这样一种方法帮助我们“五分钟了解你自己”，这个方法就是所谓的“家庭星座学（Family Constellation）”，或者更科学的名词是“出生顺序心理学”。&lt;br /&gt;
+中文互联网先前已有一些科普性的文章，但是这些文章大多仅讨论了如人格倾向、智力的影响。事实上，后续研究进一步证明，出生顺序的影响比我们想象的要大得多，会潜在地影响个体的升学、就业以及身体健康等各个方面。在这篇文章中，我们将尝试性地为大家扩展尬聊话题、甚至第二职业。争取五分钟学会实战命理。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_岁月沧桑</title>
+    <link href="https://yanyuteng.github.io/2023/08/25/3cbda54e/"/>
+    <id>https://yanyuteng.github.io/2023/08/25/3cbda54e/</id>
+    <published>2023-08-25T11:15:00.000Z</published>
+    <updated>2024-04-19T11:23:16.253Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;《岁月沧桑》系钱理群知识分子三部曲的收尾之作。他在总叙中已提及：“我的学术研究带有强烈的自救自赎的性质……我是谁？我何以存在与言说？……我想弄清楚：自己作为一个知识分子，是怎样接受‘改造’的？”这句话概述了三部曲的基调。我想，这也是我对科学史有很大兴趣的缘由。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Literature &amp; Art" scheme="https://yanyuteng.github.io/categories/Literature-Art/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_苏州游记</title>
+    <link href="https://yanyuteng.github.io/2023/06/13/ed179f64/"/>
+    <id>https://yanyuteng.github.io/2023/06/13/ed179f64/</id>
+    <published>2023-06-12T16:00:00.000Z</published>
+    <updated>2024-04-20T07:04:51.398Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;六月八日至十三日，我在沪、苏游玩，如下是这次行程的简录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    
+    
+    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_Site Map</title>
+    <link href="https://yanyuteng.github.io/2023/06/05/dbaf8853/"/>
+    <id>https://yanyuteng.github.io/2023/06/05/dbaf8853/</id>
+    <published>2023-06-04T16:00:00.000Z</published>
+    <updated>2024-04-21T18:30:18.219Z</updated>
+    
+    
+    <summary type="html">&lt;html&gt;
+  &lt;body&gt;
+  &lt;p align=&quot;right&quot;&gt;Last Update May 2023&lt;/p&gt;
+  &lt;/body&gt; 
+&lt;/html&gt;
+&lt;p&gt;The following includes my main reading records since 2015, list only from those that I think are interesting, which can be divided into the following two parts:&lt;br /&gt;
+First, according to my current work direction, that is, death and health research, especially focused on the trend and mechanism of health inequality.&lt;br /&gt;
+Second, according to my existing reading history, including history of science, social theory, political philosophy, social research methods, social stratification, social networks, family studies, urban studies, organizational studies, and anthropological studies.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Regional Patterns of Disability-free Life Expectancy and Disability-adjusted Life Expectancy</title>
+    <link href="https://yanyuteng.github.io/2023/05/31/b7c651b4/"/>
+    <id>https://yanyuteng.github.io/2023/05/31/b7c651b4/</id>
+    <published>2023-05-30T16:00:00.000Z</published>
+    <updated>2024-04-19T05:48:42.455Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Murray C.J., Lopez A.D., 1997, “Regional Patterns of Disability-free Life Expectancy and Disability-adjusted Life Expectancy: Global Burden of Disease Study”, &lt;em&gt;The Lancet&lt;/em&gt;, 349(9062), 1347—1352.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+作者Murray写的这篇论文是他们系列文章的开始，其时Murry正在WHO任慢病处司长，致力于发展对疾病负担权重的统一方法，DFLE（Disability-free Life Expectancy）、DALE（Disability-Adjusted Life Expectancy）即是这一阶段的成果。Murray从WHO卸任后回到哈佛公卫系，后又在西雅图建立IHME，独立在政府外做全球健康评估。&lt;br /&gt;
+这篇论文主要讨论了随着预期寿命增长，健康预期寿命是增长，还是减少？乐观派如疾病压缩理论；悲观派如疾病扩张论；中立派则认为有些疾病多、有些疾病少。但是不同时期、不同国家或不同疾病分类，所测量的结果都不一致，测量结果非常敏感。这篇论文通过计算全球各国、各地区DFLE、DALE两个指标，大体支持疾病压缩论，且各地区差异很大。此外，性别死亡悖论（Male-female Health-survival Paradox）是文章未深入但很有意思的议题，为什么女性的健康情况一般低于男性，但女性反而活得更长。后续一般有两种解释，其一是生理性因素，女性多病但坚韧；其二是社会性因素，如女性对健康更重视、女性更愿意就医。就其更具体的内容，可以扼要如下。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Studies/Health-Medical-Sociology/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Social Stress_Theory and Research</title>
+    <link href="https://yanyuteng.github.io/2023/05/22/14ccd680/"/>
+    <id>https://yanyuteng.github.io/2023/05/22/14ccd680/</id>
+    <published>2023-05-21T16:00:00.000Z</published>
+    <updated>2024-04-19T05:49:13.135Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Aneshensel C.S., 1992, “Social Stress: Theory and Research”, Annual Review of Sociology, 18(1), 15—38.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+作者Aneshensel系UCLA健康科学系教员。这篇文章聚焦精神健康研究，回溯了90年代及以前的研究进展。论文区分了压力研究中两种主要视角，作为社会组织的压力后果（Stressful Consequences of Social Organization）与作为心理障碍的压力前因（Stressful Antecedents of Psychological Disorder），或者说，压力源（Stressor）是被社会决定的、还是独立于社会之外的。论文的根本观点是，社会性压力是社会发展的必然结果，压力与其说更受偶然性的生命历程事件影响，不如说受长期的、慢性的压力源影响，且压力源有一定的社会阶级梯度。更具体讲，社会压力有两个主要作用机制，其一是微观个体受自我效能感的调节，其二是宏观经济环境、失业的调节。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Studies/Health-Medical-Sociology/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Re-theorizing Family Demographics</title>
+    <link href="https://yanyuteng.github.io/2023/05/21/642411e2/"/>
+    <id>https://yanyuteng.github.io/2023/05/21/642411e2/</id>
+    <published>2023-05-20T16:00:00.000Z</published>
+    <updated>2024-04-21T20:22:43.254Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Esping-Andersen G., Billari F.C., 2015, “Re-theorizing Family Demographics”, Population and Development Review, 41(1), 1—31.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+Andersen与Billari在这篇文章中，首先回顾了以往解释后转变社会的两种主要理论，第一种是Becker新家庭经济学，第二种是Lesthaeghe第二次人口转变理论。两种理论虽然论述视角截然不同，新家庭经济学是从女性就业或追求职业生涯的经济角度，人口转变理论是从女性追求个体自由解放的文化角度，但都得出了未来会有“更少家庭”的结论。此外还有一种解释是教育影响，即受教育程度越高、生育水平越低、婚姻越不稳定。应当说，在二十世纪后半叶，这三种解释还是站得住脚的。但是，晚近越来越多的现象正在挑战上述理论。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Life Expectancy and Disparity_An International Comparison of Life Table Data</title>
+    <link href="https://yanyuteng.github.io/2023/05/19/88b3653c/"/>
+    <id>https://yanyuteng.github.io/2023/05/19/88b3653c/</id>
+    <published>2023-05-18T16:00:00.000Z</published>
+    <updated>2024-04-21T13:29:59.538Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Vaupel J.W., Zhang Z., Van Raalte A.A., 2011, “Life Expectancy and Disparity: An International Comparison of Life Table Data”, BMJ Open, 1(1), e000128—e000128.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章是Zhang &amp;amp; Vaupel（2009）论文的进一步应用，二者有递进关系。通过预期寿命&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e_0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.58056em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.30110799999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;与寿命不均（Lifespan Variation）&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e^{&#92;dagger}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8491079999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，及其相关的早亡（Premature Deaths）或晚亡（Late Deaths）的年龄阈值&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;a^{&#92;dagger}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8491079999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。Vaupel等人发现&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e_0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.58056em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.30110799999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;较高的地区、&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e^{&#92;dagger}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8491079999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;也较低，&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e_0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.58056em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.30110799999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;增加主要是由于过早死亡的减少，晚亡群体死亡率的下降对&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e_0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.58056em;vertical-align:-0.15em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.30110799999999993em;&quot;&gt;&lt;span style=&quot;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.15em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;增长贡献很少。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Marriage and Family in East Asia</title>
+    <link href="https://yanyuteng.github.io/2023/05/17/c77ff1fd/"/>
+    <id>https://yanyuteng.github.io/2023/05/17/c77ff1fd/</id>
+    <published>2023-05-16T16:00:00.000Z</published>
+    <updated>2024-04-21T20:26:34.270Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Raymo J.M., Park H., Xie Y., et al., 2015, “Marriage and Family in East Asia: Continuity and Change”, &lt;em&gt;Annual Review of Sociology&lt;/em&gt;, 41, 471—492…&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+Raymo（威斯康辛麦迪逊）、Park（宾大）、谢宇以及杨李唯君四人，在这篇论文主要拓展了“第二次人口转变”理论在东亚的适用性，尤其是在东亚的婚育观念没有发生巨大转变的情况下，女性工作机会增加、男性家庭支柱作用的减少、婚姻市场的不匹配，共同导致了婚育不平衡，推动了东亚社会的晚婚少婚。但是，诚如很多学者观察的，现有政策效果大多失败，促进家庭形成可能不仅要提供家庭与工作的平衡机会，更要改变一些根本性的社会制度。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Global Family Change_Persistent Diversity with Development</title>
+    <link href="https://yanyuteng.github.io/2023/05/16/92693079/"/>
+    <id>https://yanyuteng.github.io/2023/05/16/92693079/</id>
+    <published>2023-05-15T16:00:00.000Z</published>
+    <updated>2024-04-19T05:30:32.352Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Pesando L.M., GFC team, 2019, “Global Family Change: Persistent Diversity with Development”, Population and Development Review, 45(1), 133—168.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+Pesando及其GFC（Global Family Change）团队（宾大）在这篇文章讨论了全球家庭变革下的趋同与发散情况。我将一些关键性问题穿插在笔记中，并予以回应。同时，该论文的发散或收敛框架可以应用在相关领域，如死亡研究，事实上死亡率也是应用发散模型十分成熟的领域。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_The Age Separating Early Deaths from Late Deaths</title>
+    <link href="https://yanyuteng.github.io/2023/05/15/88b3653c/"/>
+    <id>https://yanyuteng.github.io/2023/05/15/88b3653c/</id>
+    <published>2023-05-14T16:00:00.000Z</published>
+    <updated>2024-04-21T13:46:50.535Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Zhang Z., Vaupel J., 2009, “The Age Separating Early Deaths from Late Deaths”, Demographic Research, 20, 721—730.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+张震与Vaupel在这篇论文中发展了&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e^{&#92;dagger}(t)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.0991079999999998em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;是否存在一个年龄阈值，在理论上可以讨论死亡率的压缩与扩大，以及讨论过早死亡（Premature Deaths）与过晚死亡（Late Deaths）的问题。后续Aburto等人进一步将根据&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e^{&#92;dagger}(t)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.0991079999999998em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;计算的年龄阈值视为绝对年龄阈值，将根据&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo&gt;ˉ&lt;/mo&gt;&lt;/mover&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;&#92;bar{H}(t)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.07011em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord accent&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8201099999999999em;&quot;&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.08125em;&quot;&gt;H&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.25233em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;accent-body&quot; style=&quot;left:-0.19444em;&quot;&gt;&lt;span class=&quot;mord&quot;&gt;ˉ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;计算的年龄阈值视为相对年龄阈值，将二者之间的关系在数理形式上予以进一步的确定。&lt;br /&gt;
+本篇论文年龄阈值&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;a^{&#92;dagger}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8491079999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;、以及后续&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;a^{H}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8413309999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8413309999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathnormal mtight&quot; style=&quot;margin-right:0.08125em;&quot;&gt;H&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，均可以通过Aburto等人（2019)的&lt;em&gt;R&lt;/em&gt;代码进行复现，并在中国社会中进行实证应用，这一指标很好理解，且具有很好的数学性质，但目前国内学术界仅张震在全国层面使用，因此，省一级的讨论可以进行便捷且必要的拓展。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_What Have We Learned about Mortality Patterns over the Past 25 Years?</title>
+    <link href="https://yanyuteng.github.io/2023/05/14/7b85260c/"/>
+    <id>https://yanyuteng.github.io/2023/05/14/7b85260c/</id>
+    <published>2023-05-13T16:00:00.000Z</published>
+    <updated>2024-04-19T05:52:58.878Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Van Raalte A.A., 2021, “What Have We Learned about Mortality Patterns over the Past 25 Years?”, Population Studies, 75(sup1), 105—132.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+Raalte系德国马普所人口学“寿命不平等”研究小组的领导学者，2011年博士毕业于马普所。这篇论文衔接了Preston 1996年的综述，精彩地概述了其后25年间死亡研究的发展。与Preston（1996）其时不同，尽管Population Studies仍然是人口学的死亡研究方面的顶尖刊物，但Raalte认为，由于学科界限的日益模糊，死亡研究在保险精算、流行病学、老年学、健康经济学等期刊也大量增长，因此，尽管这篇综述单独列了一节以介绍Population Studies刊发的死亡研究论文，但其主体部分将不仅局限于此，而尽可能囊括此廿五年间死亡研究的主要代表性工作。&lt;br /&gt;
+相对其他学科而言，Raatle认为人口学家的死亡研究，更侧重在总体水平（Population-Level）的死亡年龄模式，但由于研究愈发细化，当代人口学家对总括性理论的关注越来越少，各种细化机制的相对重要性仍不清楚，这其实阻碍了我们理解很多最基本的人口问题，比如群间死亡差异的真实原因。因此，Raatle不仅事实上回溯了理论与经验研究的进展，更重要地是，她在回溯中发现了大量研究存在着的普遍性问题，即陷入细枝末节而无力回答基本问题，由此，其对当前人口研究方法进行了深刻反思，提醒人口学家们要谨慎对待因果推断方法，并重申了已往人口学家描述性工作的重要性。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Population Studies of Mortality</title>
+    <link href="https://yanyuteng.github.io/2023/05/13/5a95dff/"/>
+    <id>https://yanyuteng.github.io/2023/05/13/5a95dff/</id>
+    <published>2023-05-12T16:00:00.000Z</published>
+    <updated>2024-04-19T05:48:01.139Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Preston S.H., 1996, “Population Studies of Mortality”, Population Studies, 50(3), 525—536.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
+Preston是宾夕法尼亚大学人口系教授，其在这篇论文中回顾了Population Studies创刊50年以来所有关于死亡率的研究，为我们理解二十世纪死亡率相对早期的研究进展，提供了很好的历史梳理。主要包括估计方法的演进、20世纪前死亡率的趋势及下降原因，后者又可以分为总体与个体两个层面的演进。&lt;br /&gt;
+Population Studies基本涵盖了20世纪主要的死亡研究。Population Studies创刊于1947年，其早期主要刊发人口构成、迁移、人口理论及生育方面的研究，从1968年后，则几乎每期Population Studies均刊发死亡研究，如预期寿命、死因、发病率、人口增长等，仅少部分涉及政策的更多刊发在世界银行刊物。按其展开的研究脉络因而具有较好的代表性。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    
+    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    
+    
+  </entry>
+  
+</feed>
