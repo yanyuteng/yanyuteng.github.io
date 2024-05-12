@@ -6,7 +6,7 @@
   <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanyuteng.github.io/"/>
-  <updated>2024-05-10T16:55:03.369Z</updated>
+  <updated>2024-05-12T11:02:04.149Z</updated>
   <id>https://yanyuteng.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Memo_Depopulation or Population Decline? Demographic Nightmares and Imaginaries</title>
+    <link href="https://yanyuteng.github.io/2024/05/12/13eae63a/"/>
+    <id>https://yanyuteng.github.io/2024/05/12/13eae63a/</id>
+    <published>2024-05-12T10:30:00.000Z</published>
+    <updated>2024-05-12T11:02:04.149Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Gietel-Basten S., 2023, “Depopulation or Population Decline? Demographic Nightmares and Imaginaries”, &lt;em&gt;Vienna Yearbook of Population Research&lt;/em&gt;, 21.&lt;br /&gt;
+Stuart Gietel-Basten系港科大社会学教授，在这篇文章里区分了Depopulation与Population Decline两个概念，应该是他互联网冲浪破防后的吐槽。简言之，Gietel-Basten认为很多人口学的常识，在互联网被歪曲了，我们应该使用Population Decline作为标准术语。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_The Sustainability of Demographic Progress Around the World</title>
+    <link href="https://yanyuteng.github.io/2024/05/12/26106388/"/>
+    <id>https://yanyuteng.github.io/2024/05/12/26106388/</id>
+    <published>2024-05-11T16:00:00.000Z</published>
+    <updated>2024-05-12T09:26:12.301Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Plane D.A., 2017, “The Sustainability of Demographic Progress Around the World”//, &lt;em&gt;Socioeconomic Environmental Policies and Evaluations in Regional Science: Essays in Honor of Yoshiro Higano&lt;/em&gt;. Springer: 9—36.&lt;br /&gt;
+&lt;a href=&quot;https://regionalscience.org/index.php/join-us/item/2243-david-plane.html&quot;&gt;David Plane&lt;/a&gt;系University of Arizona地理学与区域科学的荣休教授，这篇论文讨论了一个很有意思的问题。在后人口转变下，我们如何理解人口的进步（progress）概念。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Prose_博客日志</title>
@@ -363,48 +399,6 @@ Pesando及其GFC（Global Family Change）团队（宾大）在这篇文章讨�
     <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Zhang Z., Vaupel J., 2009, “The Age Separating Early Deaths from Late Deaths”, Demographic Research, 20, 721—730.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
 张震与Vaupel在这篇论文中发展了&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e^{&#92;dagger}(t)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.0991079999999998em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;是否存在一个年龄阈值，在理论上可以讨论死亡率的压缩与扩大，以及讨论过早死亡（Premature Deaths）与过晚死亡（Late Deaths）的问题。后续Aburto等人进一步将根据&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;e^{&#92;dagger}(t)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.0991079999999998em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;计算的年龄阈值视为绝对年龄阈值，将根据&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo&gt;ˉ&lt;/mo&gt;&lt;/mover&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;&#92;bar{H}(t)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.07011em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord accent&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8201099999999999em;&quot;&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.08125em;&quot;&gt;H&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.25233em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;accent-body&quot; style=&quot;left:-0.19444em;&quot;&gt;&lt;span class=&quot;mord&quot;&gt;ˉ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;计算的年龄阈值视为相对年龄阈值，将二者之间的关系在数理形式上予以进一步的确定。&lt;br /&gt;
 本篇论文年龄阈值&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;†&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;a^{&#92;dagger}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8491079999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8491079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;†&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;、以及后续&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;a^{H}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8413309999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8413309999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathnormal mtight&quot; style=&quot;margin-right:0.08125em;&quot;&gt;H&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，均可以通过Aburto等人（2019)的&lt;em&gt;R&lt;/em&gt;代码进行复现，并在中国社会中进行实证应用，这一指标很好理解，且具有很好的数学性质，但目前国内学术界仅张震在全国层面使用，因此，省一级的讨论可以进行便捷且必要的拓展。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
-    
-    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_What Have We Learned about Mortality Patterns over the Past 25 Years?</title>
-    <link href="https://yanyuteng.github.io/2023/05/14/7b85260c/"/>
-    <id>https://yanyuteng.github.io/2023/05/14/7b85260c/</id>
-    <published>2023-05-13T16:00:00.000Z</published>
-    <updated>2024-04-19T05:52:58.878Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Van Raalte A.A., 2021, “What Have We Learned about Mortality Patterns over the Past 25 Years?”, Population Studies, 75(sup1), 105—132.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
-Raalte系德国马普所人口学“寿命不平等”研究小组的领导学者，2011年博士毕业于马普所。这篇论文衔接了Preston 1996年的综述，精彩地概述了其后25年间死亡研究的发展。与Preston（1996）其时不同，尽管Population Studies仍然是人口学的死亡研究方面的顶尖刊物，但Raalte认为，由于学科界限的日益模糊，死亡研究在保险精算、流行病学、老年学、健康经济学等期刊也大量增长，因此，尽管这篇综述单独列了一节以介绍Population Studies刊发的死亡研究论文，但其主体部分将不仅局限于此，而尽可能囊括此廿五年间死亡研究的主要代表性工作。&lt;br /&gt;
-相对其他学科而言，Raatle认为人口学家的死亡研究，更侧重在总体水平（Population-Level）的死亡年龄模式，但由于研究愈发细化，当代人口学家对总括性理论的关注越来越少，各种细化机制的相对重要性仍不清楚，这其实阻碍了我们理解很多最基本的人口问题，比如群间死亡差异的真实原因。因此，Raatle不仅事实上回溯了理论与经验研究的进展，更重要地是，她在回溯中发现了大量研究存在着的普遍性问题，即陷入细枝末节而无力回答基本问题，由此，其对当前人口研究方法进行了深刻反思，提醒人口学家们要谨慎对待因果推断方法，并重申了已往人口学家描述性工作的重要性。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
-    
-    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_Population Studies of Mortality</title>
-    <link href="https://yanyuteng.github.io/2023/05/13/5a95dff/"/>
-    <id>https://yanyuteng.github.io/2023/05/13/5a95dff/</id>
-    <published>2023-05-12T16:00:00.000Z</published>
-    <updated>2024-04-19T05:48:01.139Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Preston S.H., 1996, “Population Studies of Mortality”, Population Studies, 50(3), 525—536.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
-Preston是宾夕法尼亚大学人口系教授，其在这篇论文中回顾了Population Studies创刊50年以来所有关于死亡率的研究，为我们理解二十世纪死亡率相对早期的研究进展，提供了很好的历史梳理。主要包括估计方法的演进、20世纪前死亡率的趋势及下降原因，后者又可以分为总体与个体两个层面的演进。&lt;br /&gt;
-Population Studies基本涵盖了20世纪主要的死亡研究。Population Studies创刊于1947年，其早期主要刊发人口构成、迁移、人口理论及生育方面的研究，从1968年后，则几乎每期Population Studies均刊发死亡研究，如预期寿命、死因、发病率、人口增长等，仅少部分涉及政策的更多刊发在世界银行刊物。按其展开的研究脉络因而具有较好的代表性。&lt;/p&gt;</summary>
     
     
     
