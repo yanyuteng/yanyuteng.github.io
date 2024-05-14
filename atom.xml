@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Yan&#39;s Blog</title>
-  <icon>https://yanyuteng.github.io/icon.png</icon>
+  <icon>https://blog.yanyuteng.cn/icon.png</icon>
   
-  <link href="https://yanyuteng.github.io/atom.xml" rel="self"/>
+  <link href="https://blog.yanyuteng.cn/atom.xml" rel="self"/>
   
-  <link href="https://yanyuteng.github.io/"/>
+  <link href="https://blog.yanyuteng.cn/"/>
   <updated>2024-05-13T18:57:31.701Z</updated>
-  <id>https://yanyuteng.github.io/</id>
+  <id>https://blog.yanyuteng.cn/</id>
   
   <author>
     <name>Yuteng Yan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Memo_Ageing and Population Shrinking_Implications for Sustainability</title>
-    <link href="https://yanyuteng.github.io/2024/05/14/3d39c289/"/>
-    <id>https://yanyuteng.github.io/2024/05/14/3d39c289/</id>
+    <link href="https://blog.yanyuteng.cn/2024/05/14/3d39c289/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/14/3d39c289/</id>
     <published>2024-05-13T18:30:00.000Z</published>
     <updated>2024-05-13T18:57:31.701Z</updated>
     
@@ -29,15 +29,15 @@
     
     
     
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_Population and Sustainability</title>
-    <link href="https://yanyuteng.github.io/2024/05/13/d7620ed7/"/>
-    <id>https://yanyuteng.github.io/2024/05/13/d7620ed7/</id>
+    <link href="https://blog.yanyuteng.cn/2024/05/13/d7620ed7/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/13/d7620ed7/</id>
     <published>2024-05-13T09:10:00.000Z</published>
     <updated>2024-05-13T16:26:52.868Z</updated>
     
@@ -47,15 +47,15 @@
     
     
     
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_Depopulation or Population Decline? Demographic Nightmares and Imaginaries</title>
-    <link href="https://yanyuteng.github.io/2024/05/12/13eae63a/"/>
-    <id>https://yanyuteng.github.io/2024/05/12/13eae63a/</id>
+    <link href="https://blog.yanyuteng.cn/2024/05/12/13eae63a/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/12/13eae63a/</id>
     <published>2024-05-12T10:30:00.000Z</published>
     <updated>2024-05-12T13:54:52.839Z</updated>
     
@@ -65,15 +65,15 @@
     
     
     
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_The Sustainability of Demographic Progress Around the World</title>
-    <link href="https://yanyuteng.github.io/2024/05/12/26106388/"/>
-    <id>https://yanyuteng.github.io/2024/05/12/26106388/</id>
+    <link href="https://blog.yanyuteng.cn/2024/05/12/26106388/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/12/26106388/</id>
     <published>2024-05-11T16:00:00.000Z</published>
     <updated>2024-05-12T12:54:24.043Z</updated>
     
@@ -83,15 +83,15 @@
     
     
     
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
   
   <entry>
     <title>Prose_博客日志</title>
-    <link href="https://yanyuteng.github.io/2024/05/06/6a7d82f6/"/>
-    <id>https://yanyuteng.github.io/2024/05/06/6a7d82f6/</id>
+    <link href="https://blog.yanyuteng.cn/2024/05/06/6a7d82f6/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/06/6a7d82f6/</id>
     <published>2024-05-05T16:00:00.000Z</published>
     <updated>2024-05-13T06:46:03.286Z</updated>
     
@@ -100,17 +100,17 @@
     
     
     
-    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    <category term="Commentary &amp; Prose" scheme="https://blog.yanyuteng.cn/categories/Commentary-Prose/"/>
     
     
-    <category term="program" scheme="https://yanyuteng.github.io/tags/program/"/>
+    <category term="program" scheme="https://blog.yanyuteng.cn/tags/program/"/>
     
   </entry>
   
   <entry>
     <title>Prose_统计暨编程问题日志</title>
-    <link href="https://yanyuteng.github.io/2024/05/06/a6894eaa/"/>
-    <id>https://yanyuteng.github.io/2024/05/06/a6894eaa/</id>
+    <link href="https://blog.yanyuteng.cn/2024/05/06/a6894eaa/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/06/a6894eaa/</id>
     <published>2024-05-05T16:00:00.000Z</published>
     <updated>2024-05-09T09:00:00.785Z</updated>
     
@@ -119,19 +119,19 @@
     
     
     
-    <category term="Social Research Method" scheme="https://yanyuteng.github.io/categories/Social-Research-Method/"/>
+    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
     
     
-    <category term="methodology" scheme="https://yanyuteng.github.io/tags/methodology/"/>
+    <category term="methodology" scheme="https://blog.yanyuteng.cn/tags/methodology/"/>
     
-    <category term="econometrics" scheme="https://yanyuteng.github.io/tags/econometrics/"/>
+    <category term="econometrics" scheme="https://blog.yanyuteng.cn/tags/econometrics/"/>
     
   </entry>
   
   <entry>
     <title>Prose_我的画像：使用ChatGpt 4.0辅助文本分析</title>
-    <link href="https://yanyuteng.github.io/2024/04/22/f153d009/"/>
-    <id>https://yanyuteng.github.io/2024/04/22/f153d009/</id>
+    <link href="https://blog.yanyuteng.cn/2024/04/22/f153d009/"/>
+    <id>https://blog.yanyuteng.cn/2024/04/22/f153d009/</id>
     <published>2024-04-21T16:00:00.000Z</published>
     <updated>2024-04-24T14:33:49.931Z</updated>
     
@@ -140,19 +140,19 @@
     
     
     
-    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    <category term="Commentary &amp; Prose" scheme="https://blog.yanyuteng.cn/categories/Commentary-Prose/"/>
     
     
-    <category term="ChatGpt" scheme="https://yanyuteng.github.io/tags/ChatGpt/"/>
+    <category term="ChatGpt" scheme="https://blog.yanyuteng.cn/tags/ChatGpt/"/>
     
-    <category term="AI" scheme="https://yanyuteng.github.io/tags/AI/"/>
+    <category term="AI" scheme="https://blog.yanyuteng.cn/tags/AI/"/>
     
   </entry>
   
   <entry>
     <title>Diary_京畿古刹访录</title>
-    <link href="https://yanyuteng.github.io/2024/04/20/1ccb6f40/"/>
-    <id>https://yanyuteng.github.io/2024/04/20/1ccb6f40/</id>
+    <link href="https://blog.yanyuteng.cn/2024/04/20/1ccb6f40/"/>
+    <id>https://blog.yanyuteng.cn/2024/04/20/1ccb6f40/</id>
     <published>2024-04-19T16:00:00.000Z</published>
     <updated>2024-04-22T07:38:21.487Z</updated>
     
@@ -161,19 +161,19 @@
     
     
     
-    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
     
     
-    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
     
-    <category term="beijing" scheme="https://yanyuteng.github.io/tags/beijing/"/>
+    <category term="beijing" scheme="https://blog.yanyuteng.cn/tags/beijing/"/>
     
   </entry>
   
   <entry>
     <title>Prose_寓中札记</title>
-    <link href="https://yanyuteng.github.io/2024/04/16/2ed7128b/"/>
-    <id>https://yanyuteng.github.io/2024/04/16/2ed7128b/</id>
+    <link href="https://blog.yanyuteng.cn/2024/04/16/2ed7128b/"/>
+    <id>https://blog.yanyuteng.cn/2024/04/16/2ed7128b/</id>
     <published>2024-04-15T16:00:00.000Z</published>
     <updated>2024-05-10T15:56:06.795Z</updated>
     
@@ -186,17 +186,17 @@
     
     
     
-    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    <category term="Commentary &amp; Prose" scheme="https://blog.yanyuteng.cn/categories/Commentary-Prose/"/>
     
     
-    <category term="idealism" scheme="https://yanyuteng.github.io/tags/idealism/"/>
+    <category term="idealism" scheme="https://blog.yanyuteng.cn/tags/idealism/"/>
     
   </entry>
   
   <entry>
     <title>Diary_阿坝州暨兰州游记</title>
-    <link href="https://yanyuteng.github.io/2024/03/24/dbcc4807/"/>
-    <id>https://yanyuteng.github.io/2024/03/24/dbcc4807/</id>
+    <link href="https://blog.yanyuteng.cn/2024/03/24/dbcc4807/"/>
+    <id>https://blog.yanyuteng.cn/2024/03/24/dbcc4807/</id>
     <published>2024-03-23T16:00:00.000Z</published>
     <updated>2024-04-22T19:27:00.503Z</updated>
     
@@ -205,17 +205,17 @@
     
     
     
-    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
     
     
-    <category term="north china" scheme="https://yanyuteng.github.io/tags/north-china/"/>
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
     
   </entry>
   
   <entry>
     <title>Diary_镇江游记</title>
-    <link href="https://yanyuteng.github.io/2024/01/03/c07042c4/"/>
-    <id>https://yanyuteng.github.io/2024/01/03/c07042c4/</id>
+    <link href="https://blog.yanyuteng.cn/2024/01/03/c07042c4/"/>
+    <id>https://blog.yanyuteng.cn/2024/01/03/c07042c4/</id>
     <published>2024-01-02T16:00:00.000Z</published>
     <updated>2024-04-17T16:22:02.845Z</updated>
     
@@ -224,17 +224,17 @@
     
     
     
-    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
     
     
-    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    <category term="south china" scheme="https://blog.yanyuteng.cn/tags/south-china/"/>
     
   </entry>
   
   <entry>
     <title>Prose_科学算命：出生顺序如何影响个体？</title>
-    <link href="https://yanyuteng.github.io/2023/09/17/b819ef9/"/>
-    <id>https://yanyuteng.github.io/2023/09/17/b819ef9/</id>
+    <link href="https://blog.yanyuteng.cn/2023/09/17/b819ef9/"/>
+    <id>https://blog.yanyuteng.cn/2023/09/17/b819ef9/</id>
     <published>2023-09-16T16:00:00.000Z</published>
     <updated>2024-04-19T05:32:49.931Z</updated>
     
@@ -244,15 +244,15 @@
     
     
     
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_岁月沧桑</title>
-    <link href="https://yanyuteng.github.io/2023/08/25/3cbda54e/"/>
-    <id>https://yanyuteng.github.io/2023/08/25/3cbda54e/</id>
+    <link href="https://blog.yanyuteng.cn/2023/08/25/3cbda54e/"/>
+    <id>https://blog.yanyuteng.cn/2023/08/25/3cbda54e/</id>
     <published>2023-08-25T11:15:00.000Z</published>
     <updated>2024-04-19T11:23:16.253Z</updated>
     
@@ -261,15 +261,15 @@
     
     
     
-    <category term="Literature &amp; Art" scheme="https://yanyuteng.github.io/categories/Literature-Art/"/>
+    <category term="Literature &amp; Art" scheme="https://blog.yanyuteng.cn/categories/Literature-Art/"/>
     
     
   </entry>
   
   <entry>
     <title>Diary_苏州游记</title>
-    <link href="https://yanyuteng.github.io/2023/06/13/ed179f64/"/>
-    <id>https://yanyuteng.github.io/2023/06/13/ed179f64/</id>
+    <link href="https://blog.yanyuteng.cn/2023/06/13/ed179f64/"/>
+    <id>https://blog.yanyuteng.cn/2023/06/13/ed179f64/</id>
     <published>2023-06-12T16:00:00.000Z</published>
     <updated>2024-04-20T07:04:51.398Z</updated>
     
@@ -278,17 +278,17 @@
     
     
     
-    <category term="Diary" scheme="https://yanyuteng.github.io/categories/Diary/"/>
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
     
     
-    <category term="south china" scheme="https://yanyuteng.github.io/tags/south-china/"/>
+    <category term="south china" scheme="https://blog.yanyuteng.cn/tags/south-china/"/>
     
   </entry>
   
   <entry>
     <title>Prose_Site Map</title>
-    <link href="https://yanyuteng.github.io/2023/06/05/dbaf8853/"/>
-    <id>https://yanyuteng.github.io/2023/06/05/dbaf8853/</id>
+    <link href="https://blog.yanyuteng.cn/2023/06/05/dbaf8853/"/>
+    <id>https://blog.yanyuteng.cn/2023/06/05/dbaf8853/</id>
     <published>2023-06-04T16:00:00.000Z</published>
     <updated>2024-05-10T14:09:22.166Z</updated>
     
@@ -304,15 +304,15 @@ Second, according to my existing reading history, including history of science, 
     
     
     
-    <category term="Commentary &amp; Prose" scheme="https://yanyuteng.github.io/categories/Commentary-Prose/"/>
+    <category term="Commentary &amp; Prose" scheme="https://blog.yanyuteng.cn/categories/Commentary-Prose/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_Regional Patterns of Disability-free Life Expectancy and Disability-adjusted Life Expectancy</title>
-    <link href="https://yanyuteng.github.io/2023/05/31/b7c651b4/"/>
-    <id>https://yanyuteng.github.io/2023/05/31/b7c651b4/</id>
+    <link href="https://blog.yanyuteng.cn/2023/05/31/b7c651b4/"/>
+    <id>https://blog.yanyuteng.cn/2023/05/31/b7c651b4/</id>
     <published>2023-05-30T16:00:00.000Z</published>
     <updated>2024-04-19T05:48:42.455Z</updated>
     
@@ -323,17 +323,17 @@ Second, according to my existing reading history, including history of science, 
     
     
     
-    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    <category term="Health Studies" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/"/>
     
-    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Studies/Health-Medical-Sociology/"/>
+    <category term="Health &amp; Medical Sociology" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/Health-Medical-Sociology/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_Social Stress_Theory and Research</title>
-    <link href="https://yanyuteng.github.io/2023/05/22/14ccd680/"/>
-    <id>https://yanyuteng.github.io/2023/05/22/14ccd680/</id>
+    <link href="https://blog.yanyuteng.cn/2023/05/22/14ccd680/"/>
+    <id>https://blog.yanyuteng.cn/2023/05/22/14ccd680/</id>
     <published>2023-05-21T16:00:00.000Z</published>
     <updated>2024-04-19T05:49:13.135Z</updated>
     
@@ -343,17 +343,17 @@ Second, according to my existing reading history, including history of science, 
     
     
     
-    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    <category term="Health Studies" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/"/>
     
-    <category term="Health &amp; Medical Sociology" scheme="https://yanyuteng.github.io/categories/Health-Studies/Health-Medical-Sociology/"/>
+    <category term="Health &amp; Medical Sociology" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/Health-Medical-Sociology/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_Re-theorizing Family Demographics</title>
-    <link href="https://yanyuteng.github.io/2023/05/21/642411e2/"/>
-    <id>https://yanyuteng.github.io/2023/05/21/642411e2/</id>
+    <link href="https://blog.yanyuteng.cn/2023/05/21/642411e2/"/>
+    <id>https://blog.yanyuteng.cn/2023/05/21/642411e2/</id>
     <published>2023-05-20T16:00:00.000Z</published>
     <updated>2024-04-21T20:22:43.254Z</updated>
     
@@ -363,15 +363,15 @@ Andersen与Billari在这篇文章中，首先回顾了以往解释后转变社�
     
     
     
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_Life Expectancy and Disparity_An International Comparison of Life Table Data</title>
-    <link href="https://yanyuteng.github.io/2023/05/19/88b3653c/"/>
-    <id>https://yanyuteng.github.io/2023/05/19/88b3653c/</id>
+    <link href="https://blog.yanyuteng.cn/2023/05/19/88b3653c/"/>
+    <id>https://blog.yanyuteng.cn/2023/05/19/88b3653c/</id>
     <published>2023-05-18T16:00:00.000Z</published>
     <updated>2024-05-10T14:14:00.142Z</updated>
     
@@ -381,17 +381,17 @@ Andersen与Billari在这篇文章中，首先回顾了以往解释后转变社�
     
     
     
-    <category term="Health Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/"/>
+    <category term="Health Studies" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/"/>
     
-    <category term="Mortality Studies" scheme="https://yanyuteng.github.io/categories/Health-Studies/Mortality-Studies/"/>
+    <category term="Mortality Studies" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/Mortality-Studies/"/>
     
     
   </entry>
   
   <entry>
     <title>Memo_Marriage and Family in East Asia</title>
-    <link href="https://yanyuteng.github.io/2023/05/17/c77ff1fd/"/>
-    <id>https://yanyuteng.github.io/2023/05/17/c77ff1fd/</id>
+    <link href="https://blog.yanyuteng.cn/2023/05/17/c77ff1fd/"/>
+    <id>https://blog.yanyuteng.cn/2023/05/17/c77ff1fd/</id>
     <published>2023-05-16T16:00:00.000Z</published>
     <updated>2024-04-21T20:26:34.270Z</updated>
     
@@ -401,7 +401,7 @@ Raymo（威斯康辛麦迪逊）、Park（宾大）、谢宇以及杨李唯君�
     
     
     
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://yanyuteng.github.io/categories/Fertility-Marriage-Famliy/"/>
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
     
     
   </entry>
