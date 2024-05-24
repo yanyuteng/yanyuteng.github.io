@@ -11,7 +11,7 @@
             }
         },
         tooltip: {
-            padding: 10,
+            padding: 5,
             backgroundColor: '#555',
             borderColor: '#777',
             borderWidth: 1,
@@ -33,10 +33,10 @@
             itemHeight: 12,
             orient: 'horizontal',
             left: 'center',
-            bottom: 30
+            bottom: 90 //与calednar距离，越大越近
         },
         calendar: [{
-            top: 90,
+            top: 60,
             right: 25,
             range: ["2023-05-24", "2024-05-24"],
             cellSize: [13, 13],
@@ -84,12 +84,12 @@
         },
         series: [
             {
-                // name: 'Category:',
-                name: '# Category articles',
+                name: 'Category:',
+                // name: '# Category articles',
                 type: 'pie',
                 radius: '75%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Anthropology","value":6},{"name":"Commentary & Prose","value":11},{"name":"Diary","value":37},{"name":"Fertility, Marriage & Famliy","value":18},{"name":"Health Studies","value":23},{"name":"Health & Medical Sociology","value":11},{"name":"Mortality Studies","value":11},{"name":"Literature & Art","value":17},{"name":"Social Research Method","value":25},{"name":"Quantitative Method","value":13},{"name":"Methodology","value":3},{"name":"Qualitative Method","value":4},{"name":"Social Network","value":4},{"name":"Organization Studies","value":23},{"name":"Politics & Political Philosophy","value":6},{"name":"Social Stratification","value":7},{"name":"History of Science","value":11},{"name":"Social Theory & Sociological Theory","value":32},{"name":"Social Theory","value":17},{"name":"Sociological Theory","value":15},{"name":"Urban Studies","value":22}],
+                data: [{"name":"Anthropology","value":6},{"name":"Commentary & Prose","value":11},{"name":"Diary","value":37},{"name":"Fertility, Marriage & Famliy","value":18},{"name":"Health Studies","value":23},{"name":"Literature & Art","value":17},{"name":"Social Research Method","value":25},{"name":"Organization Studies","value":23},{"name":"Politics & Political Philosophy","value":6},{"name":"Social Stratification","value":7},{"name":"History of Science","value":11},{"name":"Social Theory & Sociological Theory","value":32},{"name":"Urban Studies","value":22}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
