@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.yanyuteng.cn/2015/07/02/806a87ad/</loc>
+    
+    <lastmod>2024-05-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/2015/10/29/ac7889ad/</loc>
+    
+    <lastmod>2024-05-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/2015/11/28/c9afe3df/</loc>
+    
+    <lastmod>2024-05-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/2017/03/29/2f91b837/</loc>
+    
+    <lastmod>2024-05-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/2016/10/19/76af851b/</loc>
+    
+    <lastmod>2024-05-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/2016/03/01/afdf9441/</loc>
     
     <lastmod>2024-05-25</lastmod>
@@ -533,15 +578,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/2016/10/19/76af851b/</loc>
-    
-    <lastmod>2024-05-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/2017/04/11/94ec03d8/</loc>
     
     <lastmod>2024-05-25</lastmod>
@@ -587,15 +623,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/2017/03/29/2f91b837/</loc>
-    
-    <lastmod>2024-05-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/2015/09/16/5b5f8e31/</loc>
     
     <lastmod>2024-05-25</lastmod>
@@ -615,15 +642,6 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/2016/01/24/f0217231/</loc>
-    
-    <lastmod>2024-05-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/2015/07/02/806a87ad/</loc>
     
     <lastmod>2024-05-25</lastmod>
     
@@ -776,15 +794,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/2015/10/29/ac7889ad/</loc>
-    
-    <lastmod>2024-05-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/2016/10/09/df1f8d96/</loc>
     
     <lastmod>2024-05-25</lastmod>
@@ -795,15 +804,6 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/2019/04/23/1b833dcb/</loc>
-    
-    <lastmod>2024-05-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/2015/11/28/c9afe3df/</loc>
     
     <lastmod>2024-05-25</lastmod>
     
@@ -2347,6 +2347,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/Mortality/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/family/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2466,13 +2473,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/Mortality/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/tags/fieldwork/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2501,6 +2501,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/sna/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/system-dynamics/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2509,13 +2516,6 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/tags/demography/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/sna/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2746,7 +2746,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/food/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/geography/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2767,7 +2767,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/geography/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/food/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
