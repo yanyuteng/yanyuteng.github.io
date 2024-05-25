@@ -2235,13 +2235,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/idealism/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/tags/methodology/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2256,7 +2249,21 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/idealism/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/program/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/tags/modernity/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2277,21 +2284,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/modernity/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/tags/north-china/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/korea/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2305,21 +2298,14 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/korea/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/canton/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/chongqing/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/sichuan/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2340,6 +2326,20 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/chongqing/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/tags/sichuan/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/TFR/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2347,14 +2347,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/Mortality/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/family/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/family/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/Mortality/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2396,6 +2396,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/depression/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/icu/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2404,20 +2411,6 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/tags/bourdieu/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/depression/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/art/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2438,6 +2431,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/art/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/%E9%B2%81%E8%BF%85/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2452,7 +2452,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/Pai-Hsien-yung/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/existentialism/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2466,7 +2466,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/existentialism/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/Pai-Hsien-yung/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2494,6 +2494,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/econometrics/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/system-dynamics/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2508,14 +2515,21 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/econometrics/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/sna/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/sna/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/enterprise/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/tags/rural-area/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2550,20 +2564,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/enterprise/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/rural-area/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/tags/organization/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2592,13 +2592,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/liberalism/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/tags/asia/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2606,21 +2599,14 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/liberalism/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/political-philosophy/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/marxism/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/consumption/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2641,7 +2627,21 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/tags/marxism/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/tags/elites/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/tags/consumption/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2676,14 +2676,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/philosophy/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/freud/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/freud/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/philosophy/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2704,14 +2704,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/giddens/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/china/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/china/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/giddens/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2726,6 +2726,20 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/tags/actor/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/tags/immigration/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/tags/labour/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2754,20 +2768,6 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/tags/jacbos/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/immigration/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/tags/labour/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2916,6 +2916,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yanyuteng.cn/categories/Urban-Studies/</loc>
+    <lastmod>2024-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yanyuteng.cn/categories/Social-Theory-Sociological-Theory/Social-Theory/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2924,13 +2931,6 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/categories/Social-Theory-Sociological-Theory/Sociological-Theory/</loc>
-    <lastmod>2024-05-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yanyuteng.cn/categories/Urban-Studies/</loc>
     <lastmod>2024-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
