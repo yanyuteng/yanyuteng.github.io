@@ -34,9 +34,9 @@
     
     <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
-    <category term="TFR" scheme="https://blog.yanyuteng.cn/tags/TFR/"/>
-    
     <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
+    
+    <category term="TFR" scheme="https://blog.yanyuteng.cn/tags/TFR/"/>
     
   </entry>
   
@@ -58,9 +58,9 @@
     
     <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
-    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
-    
     <category term="ageing" scheme="https://blog.yanyuteng.cn/tags/ageing/"/>
+    
+    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
     
   </entry>
   
@@ -179,7 +179,7 @@
     <link href="https://blog.yanyuteng.cn/2024/04/22/f153d009/"/>
     <id>https://blog.yanyuteng.cn/2024/04/22/f153d009/</id>
     <published>2024-04-21T16:00:00.000Z</published>
-    <updated>2024-05-29T06:30:19.456Z</updated>
+    <updated>2024-05-29T14:56:04.962Z</updated>
     
     
     <summary type="html">&lt;p&gt;我一直想对自己的日记与博文做一个系统的定量分析，但限于精力，始终未抽出功夫。最近稍有空闲，即着手做了这件事。如果说一个人的精神发育史就是他的阅读史，那俏皮些讲，对自我文字痕迹的分析，亦无妨视为是对自我的民族志。从2015年至2024年，近十年的分析跨度，基本反映了我本科以来的思想变化。本文全部代码可复现，见文末。&lt;/p&gt;</summary>
@@ -450,9 +450,9 @@ Andersen与Billari在这篇文章中，首先回顾了以往解释后转变社�
     
     <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
-    <category term="family" scheme="https://blog.yanyuteng.cn/tags/family/"/>
-    
     <category term="transition theory" scheme="https://blog.yanyuteng.cn/tags/transition-theory/"/>
+    
+    <category term="family" scheme="https://blog.yanyuteng.cn/tags/family/"/>
     
   </entry>
   
