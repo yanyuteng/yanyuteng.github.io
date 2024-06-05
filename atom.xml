@@ -46,7 +46,7 @@
     <link href="https://blog.yanyuteng.cn/2024/06/03/d17a0131/"/>
     <id>https://blog.yanyuteng.cn/2024/06/03/d17a0131/</id>
     <published>2024-06-02T16:00:00.000Z</published>
-    <updated>2024-06-05T12:33:00.243Z</updated>
+    <updated>2024-06-05T14:29:34.012Z</updated>
     
     
     <summary type="html">&lt;p&gt;五月卅一日，我离京至沪，六月一日至锡，二日晚返沪，三日返京。如下是我此次在锡行程。&lt;/p&gt;</summary>
@@ -227,7 +227,7 @@
     <link href="https://blog.yanyuteng.cn/2024/05/05/c5c3f9a0/"/>
     <id>https://blog.yanyuteng.cn/2024/05/05/c5c3f9a0/</id>
     <published>2024-05-04T16:00:00.000Z</published>
-    <updated>2024-06-05T12:46:35.363Z</updated>
+    <updated>2024-06-05T15:17:46.670Z</updated>
     
     
     <summary type="html">&lt;p&gt;我四月卅日离京至沪，五月一日至扬州，三日至连云港，五日返京。如下是此次行程的简录，因五月事多，录此流水账已是月余后。&lt;/p&gt;</summary>
@@ -242,6 +242,29 @@
     <category term="south china" scheme="https://blog.yanyuteng.cn/tags/south-china/"/>
     
     <category term="southeast" scheme="https://blog.yanyuteng.cn/tags/southeast/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_大同旅记</title>
+    <link href="https://blog.yanyuteng.cn/2024/04/26/7874d8be/"/>
+    <id>https://blog.yanyuteng.cn/2024/04/26/7874d8be/</id>
+    <published>2024-04-25T16:00:00.000Z</published>
+    <updated>2024-06-05T20:46:25.925Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;四月廿五日与廿六日，我与师门同学（叶昕、阿凌、强哥）往大同游玩，行程十分紧凑，但印象极深刻，这一深刻不惟是因北魏以来中国北方佛造像的伟大，亦因中国北方县城在时代中的静止感。如下是此次行程的简录。因拖沓，六月初方有空整理。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+    <category term="northwest" scheme="https://blog.yanyuteng.cn/tags/northwest/"/>
     
   </entry>
   
@@ -447,33 +470,6 @@
     <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
     
     <category term="knowledge system" scheme="https://blog.yanyuteng.cn/tags/knowledge-system/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_Regional Patterns of Disability-free Life Expectancy and Disability-adjusted Life Expectancy</title>
-    <link href="https://blog.yanyuteng.cn/2023/05/31/b7c651b4/"/>
-    <id>https://blog.yanyuteng.cn/2023/05/31/b7c651b4/</id>
-    <published>2023-05-30T16:00:00.000Z</published>
-    <updated>2024-05-28T17:10:08.489Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Murray C.J., Lopez A.D., 1997, “Regional Patterns of Disability-free Life Expectancy and Disability-adjusted Life Expectancy: Global Burden of Disease Study”, &lt;em&gt;The Lancet&lt;/em&gt;, 349(9062), 1347-1352.&lt;br /&gt;
-作者Murray写的这篇论文是他们系列文章的开始，其时Murry正在WHO任慢病处司长，致力于发展对疾病负担权重的统一方法，DFLE（Disability-free Life Expectancy）、DALE（Disability-Adjusted Life Expectancy）即是这一阶段的成果。Murray从WHO卸任后回到哈佛公卫系，后又在西雅图建立IHME，独立在政府外做全球健康评估。&lt;br /&gt;
-这篇论文主要讨论了随着预期寿命增长，健康预期寿命是增长，还是减少？乐观派如疾病压缩理论；悲观派如疾病扩张论；中立派则认为有些疾病多、有些疾病少。但是不同时期、不同国家或不同疾病分类，所测量的结果都不一致，测量结果非常敏感。这篇论文通过计算全球各国、各地区DFLE、DALE两个指标，大体支持疾病压缩论，且各地区差异很大。此外，性别死亡悖论（Male-female Health-survival Paradox）是文章未深入但很有意思的议题，为什么女性的健康情况一般低于男性，但女性反而活得更长。后续一般有两种解释，其一是生理性因素，女性多病但坚韧；其二是社会性因素，如女性对健康更重视、女性更愿意就医。就其更具体的内容，可以扼要如下。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Health Studies" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/"/>
-    
-    <category term="Health &amp; Medical Sociology" scheme="https://blog.yanyuteng.cn/categories/Health-Studies/Health-Medical-Sociology/"/>
-    
-    
-    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
-    
-    <category term="inequality" scheme="https://blog.yanyuteng.cn/tags/inequality/"/>
-    
-    <category term="indicators" scheme="https://blog.yanyuteng.cn/tags/indicators/"/>
     
   </entry>
   
