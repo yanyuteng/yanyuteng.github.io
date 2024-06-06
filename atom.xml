@@ -446,16 +446,16 @@
   </entry>
   
   <entry>
-    <title>Prose_Site Map</title>
+    <title>Prose_Reading Map</title>
     <link href="https://blog.yanyuteng.cn/2023/06/05/dbaf8853/"/>
     <id>https://blog.yanyuteng.cn/2023/06/05/dbaf8853/</id>
     <published>2023-06-04T16:00:00.000Z</published>
-    <updated>2024-06-06T09:37:20.149Z</updated>
+    <updated>2024-06-06T10:19:02.137Z</updated>
     
     
     <summary type="html">&lt;html&gt;
   &lt;body&gt;
-  &lt;p align=&quot;right&quot;&gt;Last Update May 2023&lt;/p&gt;
+  &lt;p align=&quot;right&quot;&gt;Last Update May 2024&lt;/p&gt;
   &lt;/body&gt; 
 &lt;/html&gt;
 &lt;p&gt;The following includes my primary reading records since 2015, highlighting only those works I find particularly intriguing. These readings can be divided into two categories:&lt;br /&gt;
@@ -468,6 +468,8 @@
     
     
     <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="in English" scheme="https://blog.yanyuteng.cn/tags/in-English/"/>
     
     <category term="knowledge system" scheme="https://blog.yanyuteng.cn/tags/knowledge-system/"/>
     
