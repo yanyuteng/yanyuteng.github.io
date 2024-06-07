@@ -2259,14 +2259,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/governmentality/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/fieldwork/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/fieldwork/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/governmentality/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2567,14 +2567,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/censorship/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/%E9%B2%81%E8%BF%85/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/%E9%B2%81%E8%BF%85/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/censorship/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2588,13 +2588,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/causal-inference/</loc>
-    <lastmod>2024-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yanyuteng.cn/tags/econometrics/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -2602,7 +2595,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/tags/sna/</loc>
+    <loc>https://blog.yanyuteng.cn/tags/causal-inference/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2610,6 +2603,13 @@
   
   <url>
     <loc>https://blog.yanyuteng.cn/tags/program/</loc>
+    <lastmod>2024-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yanyuteng.cn/tags/sna/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2814,7 +2814,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/categories/Social-Research-Method/Qualitative-Method/</loc>
+    <loc>https://blog.yanyuteng.cn/categories/Social-Research-Method/Methodology/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2828,14 +2828,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/categories/Social-Research-Method/Social-Network/</loc>
+    <loc>https://blog.yanyuteng.cn/categories/Social-Research-Method/Qualitative-Method/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yanyuteng.cn/categories/Social-Research-Method/Methodology/</loc>
+    <loc>https://blog.yanyuteng.cn/categories/Social-Research-Method/Social-Network/</loc>
     <lastmod>2024-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
