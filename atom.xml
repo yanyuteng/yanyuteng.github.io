@@ -42,7 +42,7 @@
     <link href="https://blog.yanyuteng.cn/2024/06/07/dc4d8d50/"/>
     <id>https://blog.yanyuteng.cn/2024/06/07/dc4d8d50/</id>
     <published>2024-06-06T16:00:00.000Z</published>
-    <updated>2024-06-11T18:14:58.116Z</updated>
+    <updated>2024-06-11T18:33:29.041Z</updated>
     
     
     <summary type="html">&lt;p&gt;我这两年对古建筑与佛造像的兴趣，多赖于旅行途中参览佛寺，见得多了，总不能一直白看，查了些资料典故，也自然的生发了兴趣。另一方面，我想任何国人都能感受到，千禧时那种昂扬、向上的时代风貌已经一去不返了，我们这代人经历的是从小接受的线性史观的崩塌，我们还能自信地讲，新的一定比旧的好么？在一切坚固的都烟消云散后，这些豆大的萤火便如长夜中的地标，接引了一代代人，自然地成为了漂泊者们的精神依托，亦串联起了漂泊者们的精神世界。&lt;br /&gt;
@@ -126,9 +126,9 @@
     
     <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
-    <category term="TFR" scheme="https://blog.yanyuteng.cn/tags/TFR/"/>
-    
     <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
+    
+    <category term="TFR" scheme="https://blog.yanyuteng.cn/tags/TFR/"/>
     
   </entry>
   
@@ -150,9 +150,9 @@
     
     <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
-    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
-    
     <category term="ageing" scheme="https://blog.yanyuteng.cn/tags/ageing/"/>
+    
+    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
     
   </entry>
   
@@ -227,7 +227,7 @@
     <link href="https://blog.yanyuteng.cn/2024/05/06/6a7d82f6/"/>
     <id>https://blog.yanyuteng.cn/2024/05/06/6a7d82f6/</id>
     <published>2024-05-05T16:00:00.000Z</published>
-    <updated>2024-06-07T15:50:47.453Z</updated>
+    <updated>2024-06-12T04:36:01.587Z</updated>
     
     
     <summary type="html">&lt;p&gt;原博客日志散记于Diary分类下各年日记中，考虑到博客日志有其历史意义，便集于一篇，按时间倒序排列。&lt;/p&gt;</summary>
@@ -317,7 +317,7 @@
     <link href="https://blog.yanyuteng.cn/2024/04/22/f153d009/"/>
     <id>https://blog.yanyuteng.cn/2024/04/22/f153d009/</id>
     <published>2024-04-21T16:00:00.000Z</published>
-    <updated>2024-06-07T15:51:25.686Z</updated>
+    <updated>2024-06-12T04:34:41.260Z</updated>
     
     
     <summary type="html">&lt;p&gt;我一直想对自己的日记与博文做一个系统的定量分析，但限于精力，始终未抽出功夫。最近稍有空闲，即着手做了这件事。如果说一个人的精神发育史就是他的阅读史，那俏皮些讲，对自我文字痕迹的分析，亦无妨视为是对自我的民族志。从2015年至2024年，近十年的分析跨度，基本反映了我本科以来的思想变化。本文全部代码可复现，见文末。&lt;/p&gt;</summary>
