@@ -126,9 +126,34 @@
     
     <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
+    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
+    
     <category term="TFR" scheme="https://blog.yanyuteng.cn/tags/TFR/"/>
     
-    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
+  </entry>
+  
+  <entry>
+    <title>Prose_统计暨编程问题日志</title>
+    <link href="https://blog.yanyuteng.cn/2024/05/19/a6894eaa/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/19/a6894eaa/</id>
+    <published>2024-05-18T16:00:00.000Z</published>
+    <updated>2024-06-15T08:01:01.727Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，日志按倒序排列，&lt;s&gt;分统计问题日志与编程问题日志两部分&lt;/s&gt;。分统计基础、R、Python、Stata、Others五类日志。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
+    
+    <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
+    
+    
+    <category term="log" scheme="https://blog.yanyuteng.cn/tags/log/"/>
+    
+    <category term="econometrics" scheme="https://blog.yanyuteng.cn/tags/econometrics/"/>
+    
+    <category term="program" scheme="https://blog.yanyuteng.cn/tags/program/"/>
     
   </entry>
   
@@ -150,9 +175,9 @@
     
     <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
-    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
-    
     <category term="ageing" scheme="https://blog.yanyuteng.cn/tags/ageing/"/>
+    
+    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
     
   </entry>
   
@@ -238,31 +263,6 @@
     
     
     <category term="log" scheme="https://blog.yanyuteng.cn/tags/log/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Prose_统计暨编程问题日志</title>
-    <link href="https://blog.yanyuteng.cn/2024/05/06/a6894eaa/"/>
-    <id>https://blog.yanyuteng.cn/2024/05/06/a6894eaa/</id>
-    <published>2024-05-05T16:00:00.000Z</published>
-    <updated>2024-05-31T16:20:43.355Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，日志按倒序排列，&lt;s&gt;分统计问题日志与编程问题日志两部分&lt;/s&gt;。分统计基础、R、Python、Stata、Others五类日志。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
-    
-    <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
-    
-    
-    <category term="log" scheme="https://blog.yanyuteng.cn/tags/log/"/>
-    
-    <category term="econometrics" scheme="https://blog.yanyuteng.cn/tags/econometrics/"/>
-    
-    <category term="program" scheme="https://blog.yanyuteng.cn/tags/program/"/>
     
   </entry>
   
