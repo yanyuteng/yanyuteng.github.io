@@ -6,7 +6,7 @@
   <link href="https://blog.yanyuteng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.yanyuteng.cn/"/>
-  <updated>2024-06-15T10:59:29.974Z</updated>
+  <updated>2024-06-16T16:25:00.521Z</updated>
   <id>https://blog.yanyuteng.cn/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Memo_CoD Determinants of Lifespan Inequality</title>
+    <link href="https://blog.yanyuteng.cn/2024/06/16/6a255d2/"/>
+    <id>https://blog.yanyuteng.cn/2024/06/16/6a255d2/</id>
+    <published>2024-06-15T16:00:00.000Z</published>
+    <updated>2024-06-16T16:25:00.521Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Iñaki Permanyer, Serena Vigezzi, 2024, “Cause-of-Death Determinants of Lifespan Inequality”, &lt;em&gt;Demography&lt;/em&gt;, 61(2), 513—540.&lt;br /&gt;
+这篇方法很有意思，也很容易实施，但论文解释的不够清楚，我在这里通过逐步的推导来使读者理解这一方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
+    
+    <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="indicators" scheme="https://blog.yanyuteng.cn/tags/indicators/"/>
+    
+    <category term="econometrics" scheme="https://blog.yanyuteng.cn/tags/econometrics/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Prose_统计暨编程问题日志</title>
     <link href="https://blog.yanyuteng.cn/2024/06/15/a6894eaa/"/>
     <id>https://blog.yanyuteng.cn/2024/06/15/a6894eaa/</id>
     <published>2024-06-14T16:00:00.000Z</published>
-    <updated>2024-06-15T10:59:29.974Z</updated>
+    <updated>2024-06-15T20:40:59.223Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，日志按倒序排列，&lt;s&gt;分统计问题日志与编程问题日志两部分&lt;/s&gt;。分统计基础、R、Python、Stata、Others五类日志。&lt;/p&gt;</summary>
@@ -446,27 +472,6 @@
     <category term="family" scheme="https://blog.yanyuteng.cn/tags/family/"/>
     
     <category term="psychology" scheme="https://blog.yanyuteng.cn/tags/psychology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Memo_岁月沧桑</title>
-    <link href="https://blog.yanyuteng.cn/2023/08/25/3cbda54e/"/>
-    <id>https://blog.yanyuteng.cn/2023/08/25/3cbda54e/</id>
-    <published>2023-08-25T11:15:00.000Z</published>
-    <updated>2024-05-28T17:13:31.872Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;《岁月沧桑》系钱理群知识分子三部曲的收尾之作。他在总叙中已提及：“我的学术研究带有强烈的自救自赎的性质……我是谁？我何以存在与言说？……我想弄清楚：自己作为一个知识分子，是怎样接受‘改造’的？”这句话概述了三部曲的基调。我想，这也是我对科学史有很大兴趣的缘由。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Literature &amp; Art" scheme="https://blog.yanyuteng.cn/categories/Literature-Art/"/>
-    
-    
-    <category term="book" scheme="https://blog.yanyuteng.cn/tags/book/"/>
-    
-    <category term="intellectual" scheme="https://blog.yanyuteng.cn/tags/intellectual/"/>
     
   </entry>
   
