@@ -6,7 +6,7 @@
   <link href="https://blog.yanyuteng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.yanyuteng.cn/"/>
-  <updated>2024-06-16T16:25:00.521Z</updated>
+  <updated>2024-06-17T14:12:34.882Z</updated>
   <id>https://blog.yanyuteng.cn/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Prose_中国死因数据集概览</title>
+    <link href="https://blog.yanyuteng.cn/2024/06/17/8101cf7b/"/>
+    <id>https://blog.yanyuteng.cn/2024/06/17/8101cf7b/</id>
+    <published>2024-06-16T16:00:00.000Z</published>
+    <updated>2024-06-17T14:12:34.882Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因&lt;s&gt;想吐槽&lt;/s&gt;信息较多，单独成文以便于查阅。本文简录几个我目前关注的死因数据集，以及这些数据集的基本情况。中国的数据共享真是一言难尽。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
+    
+    <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Memo_CoD Determinants of Lifespan Inequality</title>
     <link href="https://blog.yanyuteng.cn/2024/06/16/6a255d2/"/>
     <id>https://blog.yanyuteng.cn/2024/06/16/6a255d2/</id>
     <published>2024-06-15T16:00:00.000Z</published>
-    <updated>2024-06-16T16:25:00.521Z</updated>
+    <updated>2024-06-16T16:33:29.958Z</updated>
     
     
     <summary type="html">&lt;p&gt;Iñaki Permanyer, Serena Vigezzi, 2024, “Cause-of-Death Determinants of Lifespan Inequality”, &lt;em&gt;Demography&lt;/em&gt;, 61(2), 513—540.&lt;br /&gt;
@@ -34,7 +55,7 @@
     <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
     
     
-    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
     
     <category term="indicators" scheme="https://blog.yanyuteng.cn/tags/indicators/"/>
     
@@ -47,7 +68,7 @@
     <link href="https://blog.yanyuteng.cn/2024/06/15/a6894eaa/"/>
     <id>https://blog.yanyuteng.cn/2024/06/15/a6894eaa/</id>
     <published>2024-06-14T16:00:00.000Z</published>
-    <updated>2024-06-15T20:40:59.223Z</updated>
+    <updated>2024-06-17T13:56:11.862Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，日志按倒序排列，&lt;s&gt;分统计问题日志与编程问题日志两部分&lt;/s&gt;。分统计基础、R、Python、Stata、Others五类日志。&lt;/p&gt;</summary>
@@ -448,30 +469,6 @@
     <category term="south china" scheme="https://blog.yanyuteng.cn/tags/south-china/"/>
     
     <category term="southeast" scheme="https://blog.yanyuteng.cn/tags/southeast/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Prose_科学算命：出生顺序如何影响个体？</title>
-    <link href="https://blog.yanyuteng.cn/2023/09/17/b819ef9/"/>
-    <id>https://blog.yanyuteng.cn/2023/09/17/b819ef9/</id>
-    <published>2023-09-16T16:00:00.000Z</published>
-    <updated>2024-05-28T17:07:05.213Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;随着越来越多的年轻人开始烧香拜佛，星座、命理成为了尬聊破冰的安全话题。但是，神秘学与玄学仍然需要大量的精力去了解，有没有一种更便捷且准确的算命知识呢？在科学界，通过大量的统计学检验，还真的有这样一种方法帮助我们“五分钟了解你自己”，这个方法就是所谓的“家庭星座学（Family Constellation）”，或者更科学的名词是“出生顺序心理学”。&lt;br /&gt;
-中文互联网先前已有一些科普性的文章，但是这些文章大多仅讨论了如人格倾向、智力的影响。事实上，后续研究进一步证明，出生顺序的影响比我们想象的要大得多，会潜在地影响个体的升学、就业以及身体健康等各个方面。在这篇文章中，我们将尝试性地为大家扩展尬聊话题、甚至第二职业。争取五分钟学会实战命理。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
-    
-    
-    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
-    
-    <category term="family" scheme="https://blog.yanyuteng.cn/tags/family/"/>
-    
-    <category term="psychology" scheme="https://blog.yanyuteng.cn/tags/psychology/"/>
     
   </entry>
   
