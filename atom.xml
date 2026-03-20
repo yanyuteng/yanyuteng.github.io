@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yan&#39;s Blog</title>
+  <icon>https://blog.yanyuteng.cn/icon.png</icon>
+  
+  <link href="https://blog.yanyuteng.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.yanyuteng.cn/"/>
+  <updated>2026-03-20T19:46:56.407Z</updated>
+  <id>https://blog.yanyuteng.cn/</id>
+  
+  <author>
+    <name>Yuteng Yan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Prose_统计暨编程问题日志</title>
+    <link href="https://blog.yanyuteng.cn/2026/03/18/a6894eaa/"/>
+    <id>https://blog.yanyuteng.cn/2026/03/18/a6894eaa/</id>
+    <published>2026-03-17T16:00:00.000Z</published>
+    <updated>2026-03-20T19:46:56.407Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，日志按倒序排列，&lt;s&gt;分统计问题日志与编程问题日志两部分&lt;/s&gt;。分统计基础、R、Python、Stata、Others五类日志，廿四年六月。另，补充我以为有趣的“日常生活中的统计学”日志，廿五年八月。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
+    
+    <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
+    
+    
+    <category term="log" scheme="https://blog.yanyuteng.cn/tags/log/"/>
+    
+    <category term="program" scheme="https://blog.yanyuteng.cn/tags/program/"/>
+    
+    <category term="econometrics" scheme="https://blog.yanyuteng.cn/tags/econometrics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_大陆佛寺巡礼</title>
+    <link href="https://blog.yanyuteng.cn/2025/07/30/dc4d8d50/"/>
+    <id>https://blog.yanyuteng.cn/2025/07/30/dc4d8d50/</id>
+    <published>2025-07-29T16:00:00.000Z</published>
+    <updated>2025-09-28T08:04:44.027Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我这两年对古建筑与佛造像的兴趣，多赖于旅行途中参览佛寺，见得多了，总不能一直白看，查了些资料典故，也自然地生发了兴趣。另一方面，我想任何国人都能感受到，千禧时那种昂扬、向上的时代风貌已经一去不返了，我们这代人经历的是从小接受的线性史观的崩塌，我们还能自信地讲，新的一定比旧的好么？在一切坚固的都烟消云散后，这些豆大的萤火便如长夜中的地标，接引了一代代人，自然地成为了漂泊者们的精神依托，亦串联起了漂泊者们的精神世界。&lt;br /&gt;
+我相信读者如果同我一起，看到麦积山石窟寺中的罗睺罗授记像，会忍不住掉下眼泪，这样的眼泪不是宗教性的，而是想及人世的离别与无奈。或者，偶见如华严寺胁侍菩萨像乍现的俏皮，我们会想起少年少女时的欢乐么？从南到北的仪轨同归而殊途，在超越性的取向里夹杂了匠人不同的情绪。当我对着这些造像，那些不知所往的负荷，便如流水般，哗地淌了出去。我在想什么呢？大概人世的烦恼还是很让人烦恼的，但又如此不值一提。天下的寺院成住坏空，浮生如露如电，我们最终能在世间孑遗的，或许在历代工匠的刻刀下已得到了答案。&lt;br /&gt;
+因此，我想整理自己曾到访的佛寺是有意义的，它不仅刻画了我旅行的另一侧面，亦象征了我近年微妙心绪的变化，见证了一个少年如何成长为青年。廿四年六月八日 北京。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="buddhist" scheme="https://blog.yanyuteng.cn/tags/buddhist/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_京畿古刹访录</title>
+    <link href="https://blog.yanyuteng.cn/2025/05/05/1ccb6f40/"/>
+    <id>https://blog.yanyuteng.cn/2025/05/05/1ccb6f40/</id>
+    <published>2025-05-04T16:00:00.000Z</published>
+    <updated>2025-07-28T08:25:43.603Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;北京实无可堪赞叹的自然景致，人文古建确十分厚重。因之开京畿古刹访录，以录在京念书间探幽访古的印象。廿一年九月至廿五年六月，访有独乐、潭柘、戒台、大西天、法海、法源、智化、真觉等寺。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="buddhist" scheme="https://blog.yanyuteng.cn/tags/buddhist/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_忻州行记</title>
+    <link href="https://blog.yanyuteng.cn/2025/03/28/a2a07f23/"/>
+    <id>https://blog.yanyuteng.cn/2025/03/28/a2a07f23/</id>
+    <published>2025-03-28T15:00:00.000Z</published>
+    <updated>2025-08-10T13:41:04.059Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;去岁九月至今，因忙于毕业论文与各琐事，我几无心力记录外出观光的印象，毕业后方有闲暇收拾日记，于此简录三月廿六日至廿八日在山西大同、忻州的行记，同行者马君。廿五年七月卅一日。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+    <category term="northwest" scheme="https://blog.yanyuteng.cn/tags/northwest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_呼和浩特略记</title>
+    <link href="https://blog.yanyuteng.cn/2025/03/23/f38203/"/>
+    <id>https://blog.yanyuteng.cn/2025/03/23/f38203/</id>
+    <published>2025-03-23T15:00:00.000Z</published>
+    <updated>2025-08-08T14:34:18.398Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;简录三月二十日至三月廿三日在呼和浩特市的游记。同行者欣伟、自颖、谢君、张君。廿五年八月四日。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+    <category term="northwest" scheme="https://blog.yanyuteng.cn/tags/northwest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_博客日志</title>
+    <link href="https://blog.yanyuteng.cn/2025/01/14/6a7d82f6/"/>
+    <id>https://blog.yanyuteng.cn/2025/01/14/6a7d82f6/</id>
+    <published>2025-01-13T16:00:00.000Z</published>
+    <updated>2026-03-16T18:03:48.183Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;原博客日志散记于Diary分类下各年日记中，考虑到博客日志有其历史意义，便集于一篇，按时间倒序排列。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Commentary &amp; Prose" scheme="https://blog.yanyuteng.cn/categories/Commentary-Prose/"/>
+    
+    
+    <category term="log" scheme="https://blog.yanyuteng.cn/tags/log/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_辽西旅记</title>
+    <link href="https://blog.yanyuteng.cn/2025/01/12/3fe751bf/"/>
+    <id>https://blog.yanyuteng.cn/2025/01/12/3fe751bf/</id>
+    <published>2025-01-12T15:00:00.000Z</published>
+    <updated>2025-08-16T15:43:24.183Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;廿五年一月九日至十二日，因往沈阳处理杂事，顺路经锦州市义县、阜新市后返京，下面是其时旅程的见闻。印象深刻，不惟因奉国寺，亦因海州矿那令人落泪的萧肃。廿五年八月九日。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+    <category term="northwest" scheme="https://blog.yanyuteng.cn/tags/northwest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_河南略记</title>
+    <link href="https://blog.yanyuteng.cn/2024/10/06/f425e661/"/>
+    <id>https://blog.yanyuteng.cn/2024/10/06/f425e661/</id>
+    <published>2024-10-05T16:00:00.000Z</published>
+    <updated>2026-03-03T13:09:52.073Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;廿四年的十月一日至十月六日，我在河南南阳市、汝州市及平顶山市游玩，下面是其时见闻的简录。廿五年八月五日。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+    <category term="northwest" scheme="https://blog.yanyuteng.cn/tags/northwest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Prose_中国死因数据集概览</title>
+    <link href="https://blog.yanyuteng.cn/2024/06/17/8101cf7b/"/>
+    <id>https://blog.yanyuteng.cn/2024/06/17/8101cf7b/</id>
+    <published>2024-06-16T16:00:00.000Z</published>
+    <updated>2024-06-25T19:19:24.964Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因&lt;s&gt;想吐槽&lt;/s&gt;信息较多，单独成文以便于查阅。本文简录几个我目前关注的死因数据集，以及这些数据集的基本情况。中国的数据共享真是一言难尽。六月廿一日晚，修订部分内容。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
+    
+    <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_CoD Determinants of Lifespan Inequality</title>
+    <link href="https://blog.yanyuteng.cn/2024/06/16/6a255d2/"/>
+    <id>https://blog.yanyuteng.cn/2024/06/16/6a255d2/</id>
+    <published>2024-06-15T16:00:00.000Z</published>
+    <updated>2024-06-21T18:02:58.326Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Iñaki Permanyer, Serena Vigezzi, 2024, “Cause-of-Death Determinants of Lifespan Inequality”, &lt;em&gt;Demography&lt;/em&gt;, 61(2), 513—540.&lt;br /&gt;
+这篇方法很有意思，也很容易实施，但论文解释的不够清楚，我在这里通过逐步的推导来使读者理解这一方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Social Research Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/"/>
+    
+    <category term="Quantitative Method" scheme="https://blog.yanyuteng.cn/categories/Social-Research-Method/Quantitative-Method/"/>
+    
+    
+    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
+    
+    <category term="econometrics" scheme="https://blog.yanyuteng.cn/tags/econometrics/"/>
+    
+    <category term="indicators" scheme="https://blog.yanyuteng.cn/tags/indicators/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_天津游记</title>
+    <link href="https://blog.yanyuteng.cn/2024/06/09/39f95c82/"/>
+    <id>https://blog.yanyuteng.cn/2024/06/09/39f95c82/</id>
+    <published>2024-06-08T16:00:00.000Z</published>
+    <updated>2025-08-08T10:36:07.441Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;六月八日、九日，因端午节，与欣伟、春云往天津游有二日。简录如下。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_冰心游记</title>
+    <link href="https://blog.yanyuteng.cn/2024/06/04/ece907af/"/>
+    <id>https://blog.yanyuteng.cn/2024/06/04/ece907af/</id>
+    <published>2024-06-03T16:00:00.000Z</published>
+    <updated>2024-06-04T14:22:32.835Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;冰心. 冰心游记. 上海新北书局，1935.&lt;br /&gt;
+五月卅日晚，我睡前看了小会谢冰心的《平绥沿线旅行记》，卅一日下午，乘高铁时阅毕。&lt;br /&gt;
+将这篇游记放在历史进程中考察是有趣且有意义的。1931年九一八事变后，东北沦陷，因之开民国文人考察边疆的风气。在这一背景下，1934年，冰心一行人应平绥铁路局局长沈昌邀&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;，赴察哈尔、绥远省考察。翌年夏，胡适亦去，作&lt;a href=&quot;https://zh.wikisource.org/wiki/%E5%B9%B3%E7%B6%8F%E8%B7%AF%E6%97%85%E8%A1%8C%E5%B0%8F%E8%A8%98&quot;&gt;《平绥路旅行小记》&lt;/a&gt;。然而，至1935年5月的张北事件后，国民政府已逐渐失去对察省的控制，1936年2月，受日本扶植的德王蒙古军政府开始实管察省，同年9月，察哈尔省政府撤离察省。至1937年，七七事变后，日本在八月相继发动察哈尔作战与绥远作战，张家口、大同、绥远等地先后被日军占领，中国北方相继沦陷。因此，冰心游记中那些快活的、日常的画面，如今在九十年后回看，只是一系列国难前的宁静。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Literature &amp; Art" scheme="https://blog.yanyuteng.cn/categories/Literature-Art/"/>
+    
+    
+    <category term="book" scheme="https://blog.yanyuteng.cn/tags/book/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+    <category term="intellectual" scheme="https://blog.yanyuteng.cn/tags/intellectual/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_无锡游记</title>
+    <link href="https://blog.yanyuteng.cn/2024/06/03/d17a0131/"/>
+    <id>https://blog.yanyuteng.cn/2024/06/03/d17a0131/</id>
+    <published>2024-06-02T16:00:00.000Z</published>
+    <updated>2025-08-08T10:35:19.812Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;五月卅一日，我离京至沪，六月一日至锡，二日晚返沪，三日返京。如下是我此次在锡行程。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="south china" scheme="https://blog.yanyuteng.cn/tags/south-china/"/>
+    
+    <category term="southeast" scheme="https://blog.yanyuteng.cn/tags/southeast/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Can Below-Replacement Fertility Be Desirable</title>
+    <link href="https://blog.yanyuteng.cn/2024/05/20/ef7c30c/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/20/ef7c30c/</id>
+    <published>2024-05-19T18:30:00.000Z</published>
+    <updated>2024-05-28T17:05:31.238Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Striessnig E., Lutz W., 2013, “Can Below-Replacement Fertility Be Desirable?”, &lt;em&gt;Empirica&lt;/em&gt;, 40(3), 409—425.&lt;br /&gt;
+这篇论文讨论了一个有意思的问题，是否存在一个理想的生育水平？公认的人口更替水平是TFR=2.1（2.06），即每个妇女终生会生育2.1个孩子，在这样的生育水平下，人口数量基本稳定，人口结构的支持比或抚养比基本稳定，生产力也基本稳定。但&lt;strong&gt;TFR=2.1是真理么？&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
+    
+    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
+    
+    <category term="TFR" scheme="https://blog.yanyuteng.cn/tags/TFR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Ageing and Population Shrinking_Implications for Sustainability</title>
+    <link href="https://blog.yanyuteng.cn/2024/05/14/3d39c289/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/14/3d39c289/</id>
+    <published>2024-05-13T18:30:00.000Z</published>
+    <updated>2024-05-28T17:05:27.303Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Jarzebski M.P., Elmqvist T., Gasparatos A., et al., 2021, “Ageing and Population Shrinking: Implications for Sustainability in the Urban Century”, &lt;em&gt;Npj Urban Sustainability&lt;/em&gt;, 1:1-17.&lt;br /&gt;
+&lt;a href=&quot;https://www.tc.u-tokyo.ac.jp/en/members/1403/&quot;&gt;Marcin Pawel Jarzebski&lt;/a&gt;系波兰裔环境学家，工作单位为东京大学未来地球研究中心，这篇文章讨论了&lt;strong&gt;人口减少与老龄化&lt;/strong&gt;对&lt;strong&gt;可持续性发展&lt;/strong&gt;的影响，通过将上述二者与&lt;a href=&quot;https://sdgs.un.org/goals&quot;&gt;联合国17个可持续发展目标&lt;/a&gt;（17 Sustainable Development Goals, SDGs）及其169个子目标一一对应，综述了人口减少与老龄化的作用。目前这一方向的论文仍很少，但显然这一议题正在成为&lt;a href=&quot;https://www.mdpi.com/topics/sustainability_aging&quot;&gt;热门议题&lt;/a&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
+    
+    <category term="ageing" scheme="https://blog.yanyuteng.cn/tags/ageing/"/>
+    
+    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Population and Sustainability</title>
+    <link href="https://blog.yanyuteng.cn/2024/05/13/d7620ed7/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/13/d7620ed7/</id>
+    <published>2024-05-13T09:10:00.000Z</published>
+    <updated>2024-05-28T17:06:00.255Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;McNicoll G., 2007, “Population and Sustainability”. Atkinson G, Dietz S, Neumayer E, eds.//, &lt;em&gt;Handbook of Sustainable Development&lt;/em&gt;. Edward Elgar Publishing Limited: 125-139.&lt;br /&gt;
+&lt;a href=&quot;http://www.walkersresearch.com/profilepages/Show_Executive_Title/Executiveprofile/G/Geoffrey__Mcnicoll_100025692.html&quot;&gt;McNicoll G.&lt;/a&gt;系人口学家，PDR编委会成员之一，曾为澳国立社会科学院教授。他在这篇短文里回顾了人口与可持续的关系，但相对侧重在人口与环境可持续的关系。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
+    
+    <category term="sustainability" scheme="https://blog.yanyuteng.cn/tags/sustainability/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_Depopulation or Population Decline ?</title>
+    <link href="https://blog.yanyuteng.cn/2024/05/12/13eae63a/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/12/13eae63a/</id>
+    <published>2024-05-12T10:30:00.000Z</published>
+    <updated>2024-05-28T18:31:32.640Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Gietel-Basten S., 2023, “Depopulation or Population Decline? Demographic Nightmares and Imaginaries”, &lt;em&gt;Vienna Yearbook of Population Research&lt;/em&gt;, 21: 57-68.&lt;br /&gt;
+&lt;a href=&quot;https://iems.ust.hk/people/faculty-associates/gietel-basten-stuart&quot;&gt;Stuart Gietel-Basten&lt;/a&gt;系港科大社会科学部教授，在这篇文章里区分了Depopulation与Population Decline两个概念，也算是他互联网冲浪破防后&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;的吐槽集。简言之，Gietel-Basten认为很多人口学的常识，在互联网被歪曲了，我们应该使用Population Decline作为标准术语。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
+    
+    <category term="projection" scheme="https://blog.yanyuteng.cn/tags/projection/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memo_The Sustainability of Demographic Progress Around the World</title>
+    <link href="https://blog.yanyuteng.cn/2024/05/12/26106388/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/12/26106388/</id>
+    <published>2024-05-11T16:00:00.000Z</published>
+    <updated>2024-05-28T17:06:03.756Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Plane D.A., 2017, “The Sustainability of Demographic Progress Around the World”//, &lt;em&gt;Socioeconomic Environmental Policies and Evaluations in Regional Science: Essays in Honor of Yoshiro Higano&lt;/em&gt;. Springer: 9—36.&lt;br /&gt;
+&lt;a href=&quot;https://regionalscience.org/index.php/join-us/item/2243-david-plane.html&quot;&gt;David Plane&lt;/a&gt;系University of Arizona地理学与区域科学的荣休教授，这篇论文讨论了一个很有意思的问题。在后人口转变下，我们如何理解人口的进步/发展（Progress）概念。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Fertility, Marriage &amp; Famliy" scheme="https://blog.yanyuteng.cn/categories/Fertility-Marriage-Famliy/"/>
+    
+    
+    <category term="paper" scheme="https://blog.yanyuteng.cn/tags/paper/"/>
+    
+    <category term="transition theory" scheme="https://blog.yanyuteng.cn/tags/transition-theory/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_扬州暨连云港游记</title>
+    <link href="https://blog.yanyuteng.cn/2024/05/05/c5c3f9a0/"/>
+    <id>https://blog.yanyuteng.cn/2024/05/05/c5c3f9a0/</id>
+    <published>2024-05-04T16:00:00.000Z</published>
+    <updated>2025-08-08T10:34:25.696Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我四月卅日离京至沪，五月一日至扬州，三日至连云港，五日返京。如下是此次行程的简录，因五月事多，录此流水账已是月余后。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="south china" scheme="https://blog.yanyuteng.cn/tags/south-china/"/>
+    
+    <category term="southeast" scheme="https://blog.yanyuteng.cn/tags/southeast/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary_大同旅记</title>
+    <link href="https://blog.yanyuteng.cn/2024/04/26/7874d8be/"/>
+    <id>https://blog.yanyuteng.cn/2024/04/26/7874d8be/</id>
+    <published>2024-04-25T16:00:00.000Z</published>
+    <updated>2024-07-14T14:42:28.461Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;四月廿五日与廿六日，我与师门同学（叶昕、阿凌、强哥）往大同游玩，行程十分紧凑，但印象极深刻，这一深刻不惟是因北魏以来中国北方佛造像的伟大，亦因中国北方县城在时代中的静止感。如下是此次行程的简录。因拖沓，六月初方有空整理。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="https://blog.yanyuteng.cn/categories/Diary/"/>
+    
+    
+    <category term="prose" scheme="https://blog.yanyuteng.cn/tags/prose/"/>
+    
+    <category term="north china" scheme="https://blog.yanyuteng.cn/tags/north-china/"/>
+    
+    <category term="northwest" scheme="https://blog.yanyuteng.cn/tags/northwest/"/>
+    
+  </entry>
+  
+</feed>
