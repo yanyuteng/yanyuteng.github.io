@@ -6,7 +6,7 @@
   <link href="https://blog.yanyuteng.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.yanyuteng.cn/"/>
-  <updated>2026-03-20T19:46:56.407Z</updated>
+  <updated>2026-04-22T16:13:49.930Z</updated>
   <id>https://blog.yanyuteng.cn/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Prose_统计暨编程问题日志</title>
-    <link href="https://blog.yanyuteng.cn/2026/03/18/a6894eaa/"/>
-    <id>https://blog.yanyuteng.cn/2026/03/18/a6894eaa/</id>
-    <published>2026-03-17T16:00:00.000Z</published>
-    <updated>2026-03-20T19:46:56.407Z</updated>
+    <link href="https://blog.yanyuteng.cn/2026/03/25/a6894eaa/"/>
+    <id>https://blog.yanyuteng.cn/2026/03/25/a6894eaa/</id>
+    <published>2026-03-24T16:00:00.000Z</published>
+    <updated>2026-04-22T16:13:49.930Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文简记日常遇到的统计暨编程问题。为便于查阅，日志按倒序排列，&lt;s&gt;分统计问题日志与编程问题日志两部分&lt;/s&gt;。分统计基础、R、Python、Stata、Others五类日志，廿四年六月。另，补充我以为有趣的“日常生活中的统计学”日志，廿五年八月。&lt;/p&gt;</summary>
